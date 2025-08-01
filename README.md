@@ -1,2 +1,1 @@
-# ref-matcher
-Reference Matching Tool
+# Reference Matching Tool for OpenCitations

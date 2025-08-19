@@ -1,6 +1,6 @@
 # Reference Matching Tool for OpenCitations
 
-Repository for a bibliographic reference matching tool designed to identify and align references between Crossref and OpenCitations Meta. It implements a heuristic-based approach, enabling the retrieval and validation of bibliographic metadata even in cases of incomplete or inconsistent citation records.
+Repository for a bibliographic reference matching tool designed to identify and align references between [Crossref](https://www.crossref.org/) and [OpenCitations Meta](https://opencitations.net/meta). It implements a heuristic-based approach, enabling the retrieval and validation of bibliographic metadata even in cases of incomplete or inconsistent citation records.
 
 ### Key Features
 

@@ -4,8 +4,8 @@ Repository for a bibliographic reference matching tool designed to identify and 
 
 ### Key Features
 
-    Extracts reference metadata from Crossref (JSON format)
-    Queries the OpenCitations Meta SPARQL endpoint
-    Applies heuristics to determine matches without relying on unique identifiers (DOIs)
-    Includes an evaluation script that uses DOI matching post-hoc to validate results
+- Extracts reference metadata from Crossref (JSON format)
+- Queries the OpenCitations Meta SPARQL endpoint
+- Applies heuristics to determine matches without relying on unique identifiers (DOIs)
+- Includes an evaluation script that uses DOI matching post-hoc to validate results
 

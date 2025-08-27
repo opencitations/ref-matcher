@@ -1,0 +1,540 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          9
+        ]
+      ],
+      "date-time": "2024-04-09T15:17:35Z",
+      "timestamp": 1712675855239
+    },
+    "reference-count": 50,
+    "publisher": "Walter de Gruyter GmbH",
+    "issue": "10",
+    "funder": [
+      {
+        "DOI": "10.13039/501100007229",
+        "name": "UGent-BOF",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "01W01312",
+          "BOF.DOC.2014.0037.01"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100007229",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          27
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Wood ranks among the most valued resources in construction, for joinery and furniture. Rather than increasing the pressure on a limited number of species, we need to move towards a fit for purpose approach where the basis for selection of a material is a solid knowledge of its relevant properties. Therefore, knowledge about wood technological characteristics of a vast range of wood species is needed. Here, we exploit the potential of xylarium samples by mapping wood density and dimensional stability, using digital image correlation (DIC) on non-standardised samples, of 53 different tropical wood species from the Congo Basin. Furthermore, we attempt to link the results with quantitative anatomical features of the different species tested. DIC proved successful compared to standard calliper measurements on reference samples (R<jats:sup>2</jats:sup>-radial = 0.94, R<jats:sup>2</jats:sup>-tangential = 0.96). Vessel properties play a larger role towards explaining dimensional stability compared to wood density. Fibre wall thickness is positively related to wood density and volumetric swelling. We are able to differentiate between species and sample groups with similar behaviour, partially explained by their anatomical structure. Selecting species based on the required properties for the targeted end use as such can unlock the potential of currently unknown species.</jats:p>",
+    "DOI": "10.1515/hf-2018-0269",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          30
+        ]
+      ],
+      "date-time": "2019-05-30T09:02:37Z",
+      "timestamp": 1559206957000
+    },
+    "page": "889-897",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Sleeping beauties in materials science: unlocking the value of xylarium specimens in the search for timbers of the future"
+    ],
+    "prefix": "10.1515",
+    "volume": "73",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0003-4880-5943",
+        "authenticated-orcid": false,
+        "given": "Victor",
+        "family": "Deklerck",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "UGent-Woodlab, Laboratory of Wood Technology, Department of Environment, Faculty of Bioscience Engineering , Ghent University , Coupure Links 653 , B-9000 Ghent , Belgium"
+          },
+          {
+            "name": "Service of Wood Biology , Royal Museum for Central Africa (RMCA) , Leuvensesteenweg 13 , 3080 Tervuren , Belgium"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-6207-9613",
+        "authenticated-orcid": false,
+        "given": "Tom",
+        "family": "De Mil",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "UGent-Woodlab, Laboratory of Wood Technology, Department of Environment, Faculty of Bioscience Engineering , Ghent University , Coupure Links 653 , B-9000 Ghent , Belgium"
+          },
+          {
+            "name": "Service of Wood Biology , Royal Museum for Central Africa (RMCA) , Leuvensesteenweg 13 , 3080 Tervuren , Belgium"
+          }
+        ]
+      },
+      {
+        "given": "Patrick",
+        "family": "Kondjo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "UGent-Woodlab, Laboratory of Wood Technology, Department of Environment, Faculty of Bioscience Engineering , Ghent University , Coupure Links 653 , B-9000 Ghent , Belgium"
+          },
+          {
+            "name": "Service of Wood Biology , Royal Museum for Central Africa (RMCA) , Leuvensesteenweg 13 , 3080 Tervuren , Belgium"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-8954-6277",
+        "authenticated-orcid": false,
+        "given": "Hans",
+        "family": "Beeckman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Service of Wood Biology , Royal Museum for Central Africa (RMCA) , Leuvensesteenweg 13 , 3080 Tervuren , Belgium"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-8961-0176",
+        "authenticated-orcid": false,
+        "given": "Joris",
+        "family": "Van Acker",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "UGent-Woodlab, Laboratory of Wood Technology, Department of Environment, Faculty of Bioscience Engineering , Ghent University , Coupure Links 653 , B-9000 Ghent , Belgium"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-2939-5408",
+        "authenticated-orcid": false,
+        "given": "Jan",
+        "family": "Van den Bulcke",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "UGent-Woodlab, Laboratory of Wood Technology, Department of Environment, Faculty of Bioscience Engineering , Ghent University , Coupure Links 653 , B-9000 Ghent , Belgium"
+          }
+        ]
+      }
+    ],
+    "member": "374",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          30
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_001_w2aab3b7c59b1b6b1ab2b2b1Aa",
+        "unstructured": "Alder, D. Ghafosim: A Projection System for Natural Forest Growth and Yield in Ghana. Manas Systems Ltd., Oxford, 1989. p. 114."
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_002_w2aab3b7c59b1b6b1ab2b2b2Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Badel, E., Perré, P. (2001) Using a digital X-ray imaging device to measure the swelling coefficients of a group of wood cells. NDT & E Int. 34:345–353.",
+        "DOI": "10.1016/S0963-8695(00)00072-4"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_003_w2aab3b7c59b1b6b1ab2b2b3Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Badel, E., Perré, P. (2007) The shrinkage of oak predicted from its anatomical pattern: validation of a cognitive model. Trees 21:111–120.",
+        "DOI": "10.1007/s00468-006-0105-z"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_004_w2aab3b7c59b1b6b1ab2b2b4Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beeckman, H. (2016) Wood anatomy and trait-based ecology. IAWA J. 37:127–151.",
+        "DOI": "10.1163/22941932-20160127"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_005_w2aab3b7c59b1b6b1ab2b2b5Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Blaber, J., Adair, B., Antoniou, A. (2015) Ncorr: open-source 2D digital image correlation MATLAB software. Exp. Mech. 55:1105–1122.",
+        "DOI": "10.1007/s11340-015-0009-1"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_006_w2aab3b7c59b1b6b1ab2b2b6Aa",
+        "unstructured": "Blaser, J., Sarre, A., Poore, D., Johnson, S. (2011) Status of tropical forest management. In: ITTO Technical Series No 38, International Tropical Timber Organization. Yokohama, Japan."
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_007_w2aab3b7c59b1b6b1ab2b2b7Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bossu, J., Beauchêne, J., Estevez, Y., Duplais, C., Clair, B. (2016) New insights on wood dimensional stability influenced by secondary metabolites: the case of a fast-growing tropical species. PloS One 11:17.",
+        "DOI": "10.1371/journal.pone.0150777"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_008_w2aab3b7c59b1b6b1ab2b2b8Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Calinski, R.B., Harabasz, J. (1974) A dendrite method for cluster analysis. Commun. Stat. 3:1–27.",
+        "DOI": "10.1080/03610927408827101"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_009_w2aab3b7c59b1b6b1ab2b2b9Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "De Mil, T., Tarelkin, Y., Hahn, S., Hubau, W., Deklerck, V., Debeir, O., Van Acker, J., de Cannière, C., Beeckman, H., Van den Bulcke, J. (2018) Wood density profiles and their corresponding tissue fractions in tropical angiosperm trees. Forests 9:763.",
+        "DOI": "10.3390/f9120763"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_010_w2aab3b7c59b1b6b1ab2b2c10Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fan, Z., Zhang, S., Hao, G., Slik, J.W.F., Cao, K. (2012) Hydraulic conductivity traits predict growth rates and adult stature of 40 Asian tropical tree species better than wood density. J. Ecol. 100:732–741.",
+        "DOI": "10.1111/j.1365-2745.2011.01939.x"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_011_w2aab3b7c59b1b6b1ab2b2c11Aa",
+        "unstructured": "FAO (2011) Food and Agriculture Organization of the United Nations. State of the World’s Forests, Rome."
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_012_w2aab3b7c59b1b6b1ab2b2c12Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fortunel, C., Ruelle, J., Beauchene, J., Fine, P.V.A., Baraloto, C. (2014) Wood specific gravity and anatomy of branches and roots in 113 Amazonian rainforest tree species across environmental gradients. New Phytol. 202:79–94.",
+        "DOI": "10.1111/nph.12632"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_013_w2aab3b7c59b1b6b1ab2b2c13Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Goodwin, Z.A., Harris, D.J., Filer, D., Wood, J.R.I., Scotland, R.W. (2015) Widespread mistaken identity in tropical plant collections. Curr. Biol. 25:R1066–R1067.",
+        "DOI": "10.1016/j.cub.2015.10.002"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_014_w2aab3b7c59b1b6b1ab2b2c14Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hall, S.A., Muir Wood, D., Ibraim, E., Viggiani, G. (2010) Localised deformation patterning in 2D granular materials revealed by digital image correlation. Granul. Matter 12:1–14.",
+        "DOI": "10.1007/s10035-009-0155-1"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_015_w2aab3b7c59b1b6b1ab2b2c15Aa",
+        "unstructured": "Harilal, R., Ramji, M. (2014) Adaptation of open source 2D DIC software Ncorr for solid mechanics applications. 9th International Symposium on Advanced Science and Technology in Experimental Mechanics, New Delhi, India."
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_016_w2aab3b7c59b1b6b1ab2b2c16Aa",
+        "unstructured": "Henning, C. (2018) Package “fpc”. https://cran.r-project.org/web/packages/fpc/index.html."
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_017_w2aab3b7c59b1b6b1ab2b2c17Aa",
+        "unstructured": "ITTO. Biennial Review and Assessment of the World Timber Situation. Yokohama, Japan, 2016."
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_018_w2aab3b7c59b1b6b1ab2b2c18Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jacobsen, A.L., Agenbag, L., Esler, K.J., Pratt, R.B., Ewers, F.W., Davis, S.D. (2007) Xylem density, biomechanics and anatomical traits correlate with water stress in 17 evergreen shrub species of the Mediterranean-type climate region of South Africa. J. Ecol. 95:171–183.",
+        "DOI": "10.1111/j.1365-2745.2006.01186.x"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_019_w2aab3b7c59b1b6b1ab2b2c19Aa",
+        "unstructured": "Klaassen, R.K.W. (2018) Houtvademecum. Eds. Klaassen, H.M., Zuijdwijk, M. 11th ed. Vakbladen.com & Smartwave, Zwolle. p. 832."
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_020_w2aab3b7c59b1b6b1ab2b2c20Aa",
+        "unstructured": "Legendre, P. (2018) Package “lmodel2”. https://cran.r-project.org/web/packages/lmodel2/index.html."
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_021_w2aab3b7c59b1b6b1ab2b2c21Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Leonardon, M., Altaner, C.M., Vihermaa, L., Jarvis, M.C. (2010) Wood shrinkage: influence of anatomy, cell wall architecture, chemical composition and cambial age. Eur. J. Wood Prod. 68:87–94.",
+        "DOI": "10.1007/s00107-009-0355-8"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_022_w2aab3b7c59b1b6b1ab2b2c22Aa",
+        "unstructured": "Li, W., Van den Bulcke, J., De Windt, I., Dierick, M., Van Acker, J. (2015) Non-destructive monitoring of structure and moisture dynamics of plywood exposed outdoors to improve service life prediction and fit-for-purpose design. Proceedings IRG Annual Meeting. International Research Group on Wood Protection, Viña del Mar, Chile."
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_023_w2aab3b7c59b1b6b1ab2b2c23Aa",
+        "unstructured": "Lindegaard, B., Morsing, N. (2003) Natural durability of European wood species for exterior use above ground. Proceedings IRG Annual Meeting. International Research Group on Wood Protection, Brisbane, Australia."
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_024_w2aab3b7c59b1b6b1ab2b2c24Aa",
+        "unstructured": "Maechler, M., Rousseeuw, P., Struyf, A., Hubert, M., Hornik, K., Studer, M., Roudier, P., Gonzalez, J., Kozlowski, K. (2018) Package “cluster” for RStudio. Repository Cran. Retrieved from http://cran.r-project.org/web/packages/cluster/index.html."
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_025_w2aab3b7c59b1b6b1ab2b2c25Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maniatis, D., Saint André, L., Temmerman, M., Malhi, Y., Beeckman, H. (2011) The potential of using xylarium wood samples for wood density calculations: a comparison of approaches for volume measurement. IForest 4:150–159.",
+        "DOI": "10.3832/ifor0575-004"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_026_w2aab3b7c59b1b6b1ab2b2c26Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mantanis, G.I., Young, R.A., Rowell, R.M. (1994) Swelling of wood. Part 1. Swelling in water. Wood Sci. Technol. 28:119–134.",
+        "DOI": "10.1007/BF00192691"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_027_w2aab3b7c59b1b6b1ab2b2c27Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Martínez-cabrera, H.I., Jones, C.S., Espino, S., Schenk, H.J. (2009) Wood anatomy and wood density in shrubs: responses to varying aridity along transcontinental transects. Am. J. Bot. 96:1388–1398.",
+        "DOI": "10.3732/ajb.0800237"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_028_w2aab3b7c59b1b6b1ab2b2c28Aa",
+        "unstructured": "Moore, J. (2012) Professional papers growing fit-for-purpose structural timber, what is the target and how do we get there? New Zeal. J. For. 57:17–24."
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_029_w2aab3b7c59b1b6b1ab2b2c29Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mouselimis, L. (2018) Package “ClusterR” for RStudio. Repository Cran. Retrieved from https://doi.org/10.18637/jss.v001.i04.",
+        "DOI": "10.18637/jss.v001.i04"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_030_w2aab3b7c59b1b6b1ab2b2c30Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pan, B., Qian, K., Xie, H., Asundi, A. (2009) Two-dimensional digital image correlation for in-plane displacement and strain measurement: a review. Meas. Sci. Technol. 20:062001.",
+        "DOI": "10.1088/0957-0233/20/6/062001"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_031_w2aab3b7c59b1b6b1ab2b2c31Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pan, B., Dafang, W., Yong, X. (2012) Incremental calculation for large deformation measurement using reliability-guided digital image correlation. Opt. Laser Eng. 50:586–592.",
+        "DOI": "10.1016/j.optlaseng.2011.05.005"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_032_w2aab3b7c59b1b6b1ab2b2c32Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Patera, A., Van den Bulcke, J., Boone, M.N., Derome, D., Carmeliet, J. (2018) Swelling interactions of earlywood and latewood across a growth ring: global and local deformations. Wood Sci. Technol. 52:91–114.",
+        "DOI": "10.1007/s00226-017-0960-3"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_033_w2aab3b7c59b1b6b1ab2b2c33Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peng, M., Ho, Y.-C., Wang, W.-C., Chui, Y.H., Gong, M. (2012) Measurement of wood shrinkage in jack pine using three dimensional digital image correlation (DIC). Holzforschung 66:639–643.",
+        "DOI": "10.1515/hf-2011-0124"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_034_w2aab3b7c59b1b6b1ab2b2c34Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Poorter, L., Bongers, F., van Rompaey, R. (1996) Regeneration of canopy tree species at five sites in West African moist forest. For. Ecol. Manage. 84:61–69.",
+        "DOI": "10.1016/0378-1127(96)03736-X"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_035_w2aab3b7c59b1b6b1ab2b2c35Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Poorter, L., Mcdonald, I., Alarcón, A., Fichtler, E., Peña-claros, M., Sterck, F., Villegas, Z., Sass-Klaassen, U. (2010) The importance of wood traits and hydraulic conductance for the performance and life history strategies of 42 rainforest species. New Phytol. 185:481–492.",
+        "DOI": "10.1111/j.1469-8137.2009.03092.x"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_036_w2aab3b7c59b1b6b1ab2b2c36Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pratt, R.B., Jacobsen, A.L., Ewers, F.W., Davis, S.D. (2007) Relationships among xylem transport, biomechanics and storage in stems and roots of nine Rhamnaceae species of the California chaparral. New Phytol. 174:787–798.",
+        "DOI": "10.1111/j.1469-8137.2007.02061.x"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_037_w2aab3b7c59b1b6b1ab2b2c37Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Preston, K.A., Cornwell, W.K., Denoyer, J.L., Preston, K.A., Cornwell, W.K., Denoyer, J.L. (2006) Wood density and vessel traits as dinstinct correlates of ecological strategy in 51 California coast range angiosperms. New Phytol. 170:807–818.",
+        "DOI": "10.1111/j.1469-8137.2006.01712.x"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_038_w2aab3b7c59b1b6b1ab2b2c38Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ruiz Perez, M., Ezzine-de-Blas, D., Nasi, R., Sayer, J.A., Sassen, M., Angoue, C., Gami, N., Ndoye, O., Ngono, G., Nguinguiri, J.-C., Nzala, D., Toirambe, B., Yalibanda, Y. (2005) Logging in the Congo Basin: a multi-country characterization of timber companies. Forest Ecol. Manag. 214:221–236.",
+        "DOI": "10.1016/j.foreco.2005.04.020"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_039_w2aab3b7c59b1b6b1ab2b2c39Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schneider, C.A., Rasband, W.S., Eliceiri, K.W. (2012) NIH Image to ImageJ: 25 years of image analysis. Nat. Methods 9:671–675.",
+        "DOI": "10.1038/nmeth.2089"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_040_w2aab3b7c59b1b6b1ab2b2c40Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schulgasser, K., Witztum, A. (2015) How the relationship between denisty and shrinkage of wood depends on its microstructure. Wood Sci. Technol. 49:389–401.",
+        "DOI": "10.1007/s00226-015-0699-7"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_041_w2aab3b7c59b1b6b1ab2b2c41Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shearman, P., Bryan, J., Laurance, W.F. (2012) Are we approaching “peak timber” in the tropics? Biol. Conserv. 151:17–21.",
+        "DOI": "10.1016/j.biocon.2011.10.036"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_042_w2aab3b7c59b1b6b1ab2b2c42Aa",
+        "unstructured": "Shukla, S.R., Kamdem, D.P. (2010) Dimensional stability of nine tropical hardwoods from Cameroon. J. Trop. For. Sci. 22:389–396."
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_043_w2aab3b7c59b1b6b1ab2b2c43Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Skaar, C. Wood-Water Relations. Springer, Berlin, 1988.",
+        "DOI": "10.1007/978-3-642-73683-4"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_044_w2aab3b7c59b1b6b1ab2b2c44Aa",
+        "unstructured": "Stamm, A.J. Wood and Cellulose Science. The Ronald Press Company, New York, 1964."
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_045_w2aab3b7c59b1b6b1ab2b2c45Aa",
+        "unstructured": "Suchsland, O. The Swelling and Shrinking of Wood: A Practical Technology Primer. Forest Products Society, Madison, WI, 2004."
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_046_w2aab3b7c59b1b6b1ab2b2c46Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Swenson, N.G., Enquist, B.J.E. (2007) Ecological and evolutionary determinants of a key plant function trait: wood density and its community-wide variation across latitude and elevation. Nature 94:451–459.",
+        "DOI": "10.3732/ajb.94.3.451"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_047_w2aab3b7c59b1b6b1ab2b2c47Aa",
+        "unstructured": "Van Acker, J., Michon, S., Van den Bulcke, J., De Windt, I. (2011) Limited variability in biological durability of thermally modified timber using vacuum based technology. Proceedings IRG Annual Meeting. International Research Group on Wood Protection, Queenstown, New Zealand."
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_048_w2aab3b7c59b1b6b1ab2b2c48Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wheeler, E., Baas, P., Gasson, P. (1989) IAWA list of microscopic features for hardwood identification. IAWA Bull. 10:219–332.",
+        "DOI": "10.1163/22941932-90000496"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_049_w2aab3b7c59b1b6b1ab2b2c49Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wickham, H. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag, New York, 2009.",
+        "DOI": "10.1007/978-0-387-98141-3"
+      },
+      {
+        "key": "2023033118383883887_j_hf-2018-0269_ref_050_w2aab3b7c59b1b6b1ab2b2c50Aa",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zanne, A.E., Westoby, M., Falster, D.S., Ackerly, D.D., Loarie, S.R., Arnold, S.E.J., Coomes, D.A. (2010) Angiosperm wood structure: global patterns in vessel anatomy and their relation to wood density and potential conductivity. Am. J. Bot. 97:207–215.",
+        "DOI": "10.3732/ajb.0900178"
+      }
+    ],
+    "container-title": [
+      "Holzforschung"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://www.degruyter.com/view/j/hfsg.2019.73.issue-10/hf-2018-0269/hf-2018-0269.xml",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.degruyter.com/document/doi/10.1515/hf-2018-0269/xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.degruyter.com/document/doi/10.1515/hf-2018-0269/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          1
+        ]
+      ],
+      "date-time": "2023-04-01T02:32:49Z",
+      "timestamp": 1680316369000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.degruyter.com/document/doi/10.1515/hf-2018-0269/html"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          30
+        ]
+      ]
+    },
+    "references-count": 50,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            5,
+            22
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            8,
+            27
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1515/hf-2018-0269"
+    ],
+    "URL": "https://doi.org/10.1515/hf-2018-0269",
+    "relation": {},
+    "ISSN": [
+      "1437-434X",
+      "0018-3830"
+    ],
+    "issn-type": [
+      {
+        "value": "1437-434X",
+        "type": "electronic"
+      },
+      {
+        "value": "0018-3830",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          30
+        ]
+      ]
+    }
+  }
+}

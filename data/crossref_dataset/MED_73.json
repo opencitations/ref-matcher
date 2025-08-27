@@ -1,0 +1,192 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          14
+        ]
+      ],
+      "date-time": "2024-09-14T02:38:23Z",
+      "timestamp": 1726281503611
+    },
+    "reference-count": 0,
+    "publisher": "Informa UK Limited",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/3.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "OPTH"
+    ],
+    "DOI": "10.2147/opth.s217736",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          1
+        ]
+      ],
+      "date-time": "2019-10-01T18:51:30Z",
+      "timestamp": 1569955890000
+    },
+    "page": "1947-1953",
+    "source": "Crossref",
+    "is-referenced-by-count": 14,
+    "title": [
+      "&lt;p&gt;8 hrs Safety Evaluation Of A Multi-Pressure Dial In Eyes With Glaucoma: Prospective, Open-Label, Randomized Study&lt;/p&gt;"
+    ],
+    "prefix": "10.2147",
+    "volume": "Volume 13",
+    "author": [
+      {
+        "given": "Thomas W",
+        "family": "Samuelson",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-7754-0465",
+        "authenticated-orcid": true,
+        "given": "Tanner J",
+        "family": "Ferguson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-3976-6831",
+        "authenticated-orcid": true,
+        "given": "Nathan M",
+        "family": "Radcliffe",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Richard",
+        "family": "Lewis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Justin",
+        "family": "Schweitzer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Russell",
+        "family": "Swan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-5468-7405",
+        "authenticated-orcid": true,
+        "given": "John P",
+        "family": "Berdahl",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "301",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "container-title": [
+      "Clinical Ophthalmology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.dovepress.com/getfile.php?fileID=53097",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.dovepress.com/getfile.php?fileID=53097",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          1
+        ]
+      ],
+      "date-time": "2019-10-01T18:51:31Z",
+      "timestamp": 1569955891000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.dovepress.com/8-hrs-safety-evaluation-of-a-multi-pressure-dial-in-eyes-with-glaucoma-peer-reviewed-article-OPTH"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.2147/opth.s217736",
+    "relation": {},
+    "ISSN": [
+      "1177-5483"
+    ],
+    "issn-type": [
+      {
+        "value": "1177-5483",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,885 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          19
+        ]
+      ],
+      "date-time": "2024-04-19T00:23:55Z",
+      "timestamp": 1713486235308
+    },
+    "reference-count": 51,
+    "publisher": "Royal Society of Chemistry (RSC)",
+    "issue": "20",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              9,
+              4
+            ]
+          ],
+          "date-time": "2020-09-04T00:00:00Z",
+          "timestamp": 1599177600000
+        },
+        "content-version": "am",
+        "delay-in-days": 612,
+        "URL": "http://rsc.li/journals-terms-of-use"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "21676078",
+          "21476069"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004735",
+        "name": "Natural Science Foundation of Hunan Province",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2016JJ1013"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004735",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "rsc.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Catal. Sci. Technol."
+    ],
+    "abstract": "<p>Thermo-responsive polymer nanoreactors containing chiral salen Cr(<sc>iii</sc>) complexes exhibited unprecedented efficiency and facile reusability in asymmetric epoxidation of unfunctionalized olefins in water.</p>",
+    "DOI": "10.1039/c9cy01398a",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          4
+        ]
+      ],
+      "date-time": "2019-09-04T01:03:31Z",
+      "timestamp": 1567559011000
+    },
+    "page": "5626-5635",
+    "update-policy": "http://dx.doi.org/10.1039/rsc_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Chiral salen Cr(<scp>iii</scp>) complexes encapsulated in thermo-responsive polymer nanoreactors for asymmetric epoxidation of alkenes in water"
+    ],
+    "prefix": "10.1039",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Weiying",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "National & Local Joint Engineering Laboratory for New Petro-chemical Materials and Fine Utilization of Resources"
+          },
+          {
+            "name": "Key Laboratory of Chemical Biology and Traditional Chinese Medicine Research (Ministry of Education)"
+          },
+          {
+            "name": "Key Laboratory of the Assembly and Application of Organic Functional Molecules of Hunan Province"
+          },
+          {
+            "name": "Hunan Normal University"
+          },
+          {
+            "name": "Changsha 410081"
+          }
+        ]
+      },
+      {
+        "given": "Chaoping",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National & Local Joint Engineering Laboratory for New Petro-chemical Materials and Fine Utilization of Resources"
+          },
+          {
+            "name": "Key Laboratory of Chemical Biology and Traditional Chinese Medicine Research (Ministry of Education)"
+          },
+          {
+            "name": "Key Laboratory of the Assembly and Application of Organic Functional Molecules of Hunan Province"
+          },
+          {
+            "name": "Hunan Normal University"
+          },
+          {
+            "name": "Changsha 410081"
+          }
+        ]
+      },
+      {
+        "given": "Yibing",
+        "family": "Pi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National & Local Joint Engineering Laboratory for New Petro-chemical Materials and Fine Utilization of Resources"
+          },
+          {
+            "name": "Key Laboratory of Chemical Biology and Traditional Chinese Medicine Research (Ministry of Education)"
+          },
+          {
+            "name": "Key Laboratory of the Assembly and Application of Organic Functional Molecules of Hunan Province"
+          },
+          {
+            "name": "Hunan Normal University"
+          },
+          {
+            "name": "Changsha 410081"
+          }
+        ]
+      },
+      {
+        "given": "Jiajun",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National & Local Joint Engineering Laboratory for New Petro-chemical Materials and Fine Utilization of Resources"
+          },
+          {
+            "name": "Key Laboratory of Chemical Biology and Traditional Chinese Medicine Research (Ministry of Education)"
+          },
+          {
+            "name": "Key Laboratory of the Assembly and Application of Organic Functional Molecules of Hunan Province"
+          },
+          {
+            "name": "Hunan Normal University"
+          },
+          {
+            "name": "Changsha 410081"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-0747-5554",
+        "authenticated-orcid": false,
+        "given": "Rong",
+        "family": "Tan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National & Local Joint Engineering Laboratory for New Petro-chemical Materials and Fine Utilization of Resources"
+          },
+          {
+            "name": "Key Laboratory of Chemical Biology and Traditional Chinese Medicine Research (Ministry of Education)"
+          },
+          {
+            "name": "Key Laboratory of the Assembly and Application of Organic Functional Molecules of Hunan Province"
+          },
+          {
+            "name": "Hunan Normal University"
+          },
+          {
+            "name": "Changsha 410081"
+          }
+        ]
+      },
+      {
+        "given": "Donghong",
+        "family": "Yin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National & Local Joint Engineering Laboratory for New Petro-chemical Materials and Fine Utilization of Resources"
+          },
+          {
+            "name": "Key Laboratory of Chemical Biology and Traditional Chinese Medicine Research (Ministry of Education)"
+          },
+          {
+            "name": "Key Laboratory of the Assembly and Application of Organic Functional Molecules of Hunan Province"
+          },
+          {
+            "name": "Hunan Normal University"
+          },
+          {
+            "name": "Changsha 410081"
+          }
+        ]
+      }
+    ],
+    "member": "292",
+    "published-online": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "C9CY01398A-(cit1)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "1722",
+        "DOI": "10.1039/C0CS00077A",
+        "volume": "40",
+        "author": "De Faveri",
+        "year": "2011",
+        "journal-title": "Chem. Soc. Rev."
+      },
+      {
+        "key": "C9CY01398A-(cit2)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "8199",
+        "DOI": "10.1021/cr500064w",
+        "volume": "114",
+        "author": "Zhu",
+        "year": "2014",
+        "journal-title": "Chem. Rev."
+      },
+      {
+        "key": "C9CY01398A-(cit3)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "2801",
+        "DOI": "10.1021/ja00163a052",
+        "volume": "112",
+        "author": "Zhang",
+        "year": "1990",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "C9CY01398A-(cit4)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "7345",
+        "DOI": "10.1016/S0040-4039(00)88562-7",
+        "volume": "31",
+        "author": "Irie",
+        "year": "1990",
+        "journal-title": "Tetrahedron Lett."
+      },
+      {
+        "key": "C9CY01398A-(cit5)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "7258",
+        "DOI": "10.1021/ic034578w",
+        "volume": "42",
+        "author": "Bryliakov",
+        "year": "2003",
+        "journal-title": "Inorg. Chem."
+      },
+      {
+        "key": "C9CY01398A-(cit6)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "3053",
+        "DOI": "10.1002/adsc.201000428",
+        "volume": "352",
+        "author": "Kureshy",
+        "year": "2010",
+        "journal-title": "Adv. Synth. Catal."
+      },
+      {
+        "key": "C9CY01398A-(cit7)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "8432",
+        "DOI": "10.1021/ja201873d",
+        "volume": "133",
+        "author": "Nishikawa",
+        "year": "2011",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "C9CY01398A-(cit8)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "15612",
+        "DOI": "10.1021/jacs.5b11429",
+        "volume": "137",
+        "author": "Bhadra",
+        "year": "2015",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "C9CY01398A-(cit9)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "15857",
+        "DOI": "10.1021/jacs.6b10836",
+        "volume": "138",
+        "author": "Shen",
+        "year": "2016",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "C9CY01398A-(cit10)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "3613",
+        "DOI": "10.1016/S0040-4039(99)00488-8",
+        "volume": "18",
+        "author": "Ryan",
+        "year": "1999",
+        "journal-title": "Tetrahedron Lett."
+      },
+      {
+        "key": "C9CY01398A-(cit11)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "1563",
+        "DOI": "10.1021/cr0306945",
+        "volume": "105",
+        "author": "McGarrigle",
+        "year": "2005",
+        "journal-title": "Chem. Rev."
+      },
+      {
+        "key": "C9CY01398A-(cit12)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "725",
+        "DOI": "10.1021/cr800448q",
+        "volume": "109",
+        "author": "Chanda",
+        "year": "2009",
+        "journal-title": "Chem. Rev."
+      },
+      {
+        "key": "C9CY01398A-(cit13)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "1471",
+        "DOI": "10.1016/S0040-4039(00)80328-7",
+        "volume": "29",
+        "author": "Paparatto",
+        "year": "1988",
+        "journal-title": "Tetrahedron Lett."
+      },
+      {
+        "key": "C9CY01398A-(cit14)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "639",
+        "DOI": "10.1016/j.copbio.2012.11.013",
+        "volume": "24",
+        "author": "Lu",
+        "year": "2013",
+        "journal-title": "Curr. Opin. Biotechnol."
+      },
+      {
+        "key": "C9CY01398A-(cit15)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "5875",
+        "DOI": "10.1021/jacs.8b02135",
+        "volume": "140",
+        "author": "Rothfuss",
+        "year": "2018",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "C9CY01398A-(cit16)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "2906",
+        "DOI": "10.1002/anie.201207123",
+        "volume": "52",
+        "author": "Huerta",
+        "year": "2013",
+        "journal-title": "Angew. Chem., Int. Ed."
+      },
+      {
+        "key": "C9CY01398A-(cit17)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "6880",
+        "DOI": "10.1021/jacs.5b02967",
+        "volume": "137",
+        "author": "Hosono",
+        "year": "2015",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "C9CY01398A-(cit18)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "7164",
+        "DOI": "10.1021/jacs.7b03152",
+        "volume": "139",
+        "author": "Matsumoto",
+        "year": "2017",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "C9CY01398A-(cit19)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "9551",
+        "DOI": "10.1021/jacs.8b04531",
+        "volume": "140",
+        "author": "Frisch",
+        "year": "2018",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "C9CY01398A-(cit20)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "13695",
+        "DOI": "10.1021/jacs.8b06875",
+        "volume": "140",
+        "author": "Chen",
+        "year": "2018",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "C9CY01398A-(cit21)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "3423",
+        "DOI": "10.1021/jacs.8b00122",
+        "volume": "140",
+        "author": "Liu",
+        "year": "2018",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "C9CY01398A-(cit22)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "9430",
+        "DOI": "10.1039/C8CC05590D",
+        "volume": "54",
+        "author": "Zhang",
+        "year": "2018",
+        "journal-title": "Chem. Commun."
+      },
+      {
+        "key": "C9CY01398A-(cit23)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "131",
+        "DOI": "10.1002/1615-4169(200202)344:2<131::AID-ADSC131>3.0.CO;2-T",
+        "volume": "344",
+        "author": "Katsuki",
+        "year": "2002",
+        "journal-title": "Adv. Synth. Catal."
+      },
+      {
+        "key": "C9CY01398A-(cit24)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "2849",
+        "DOI": "10.1002/adma.200803276",
+        "volume": "21",
+        "author": "Wang",
+        "year": "2009",
+        "journal-title": "Adv. Mater."
+      },
+      {
+        "key": "C9CY01398A-(cit25)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "57",
+        "DOI": "10.1002/adma.201004326",
+        "volume": "23",
+        "author": "Sun",
+        "year": "2011",
+        "journal-title": "Adv. Mater."
+      },
+      {
+        "key": "C9CY01398A-(cit26)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "6890",
+        "DOI": "10.1021/jacs.8b12181",
+        "volume": "141",
+        "author": "Buchecker",
+        "year": "2019",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "C9CY01398A-(cit27)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "177",
+        "DOI": "10.1039/C6PY01849A",
+        "volume": "8",
+        "author": "Moad",
+        "year": "2017",
+        "journal-title": "Polym. Chem."
+      },
+      {
+        "key": "C9CY01398A-(cit28)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "305",
+        "DOI": "10.1016/j.tet.2008.10.051",
+        "volume": "65",
+        "author": "Yu",
+        "year": "2009",
+        "journal-title": "Tetrahedron"
+      },
+      {
+        "key": "C9CY01398A-(cit29)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "102",
+        "DOI": "10.1016/j.jcat.2007.03.016",
+        "volume": "249",
+        "author": "Lou",
+        "year": "2007",
+        "journal-title": "J. Catal."
+      },
+      {
+        "key": "C9CY01398A-(cit30)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "1352",
+        "DOI": "10.1002/(SICI)1521-3773(20000417)39:8<1352::AID-ANIE1352>3.0.CO;2-J",
+        "volume": "39",
+        "author": "Machajewski",
+        "year": "2000",
+        "journal-title": "Angew. Chem., Int. Ed."
+      },
+      {
+        "key": "C9CY01398A-(cit31)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "4784",
+        "DOI": "10.1021/jo300569c",
+        "volume": "77",
+        "author": "Zhao",
+        "year": "2012",
+        "journal-title": "J. Org. Chem."
+      },
+      {
+        "key": "C9CY01398A-(cit32)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "577",
+        "DOI": "10.1039/C3CS60202H",
+        "volume": "43",
+        "author": "Mlynarski",
+        "year": "2014",
+        "journal-title": "Chem. Soc. Rev."
+      },
+      {
+        "key": "C9CY01398A-(cit33)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "171",
+        "DOI": "10.1016/j.cbpa.2014.03.002",
+        "volume": "19",
+        "author": "Gröger",
+        "year": "2014",
+        "journal-title": "Curr. Opin. Chem. Biol."
+      },
+      {
+        "key": "C9CY01398A-(cit34)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "6384",
+        "DOI": "10.1002/anie.200502095",
+        "volume": "44",
+        "author": "Helms",
+        "year": "2005",
+        "journal-title": "Angew. Chem., Int. Ed."
+      },
+      {
+        "key": "C9CY01398A-(cit35)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "1125",
+        "DOI": "10.1002/adsc.200606095",
+        "volume": "348",
+        "author": "Helms",
+        "year": "2006",
+        "journal-title": "Adv. Synth. Catal."
+      },
+      {
+        "key": "C9CY01398A-(cit36)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "2906",
+        "DOI": "10.1002/anie.201207123",
+        "volume": "52",
+        "author": "Huerta",
+        "year": "2013",
+        "journal-title": "Angew. Chem., Int. Ed."
+      },
+      {
+        "key": "C9CY01398A-(cit37)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "589",
+        "DOI": "10.1021/ma402355v",
+        "volume": "47",
+        "author": "Terashima",
+        "year": "2014",
+        "journal-title": "Macromolecules"
+      },
+      {
+        "key": "C9CY01398A-(cit38)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "5084",
+        "DOI": "10.1021/acs.macromol.6b01085",
+        "volume": "49",
+        "author": "Hirai",
+        "year": "2016",
+        "journal-title": "Macromolecules"
+      },
+      {
+        "key": "C9CY01398A-(cit39)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "3738",
+        "DOI": "10.1021/acs.macromol.8b00570",
+        "volume": "51",
+        "author": "Shibata",
+        "year": "2018",
+        "journal-title": "Macromolecules"
+      },
+      {
+        "key": "C9CY01398A-(cit40)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "6881",
+        "DOI": "10.1021/acs.chemrev.6b00652",
+        "volume": "117",
+        "author": "Qiao",
+        "year": "2017",
+        "journal-title": "Chem. Rev."
+      },
+      {
+        "key": "C9CY01398A-(cit41)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "13096",
+        "DOI": "10.1021/jacs.5b08299",
+        "volume": "137",
+        "author": "Liu",
+        "year": "2015",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "C9CY01398A-(cit42)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "852",
+        "DOI": "10.1016/j.colsurfb.2014.10.035",
+        "volume": "123",
+        "author": "Li",
+        "year": "2014",
+        "journal-title": "Colloids Surf., B"
+      },
+      {
+        "key": "C9CY01398A-(cit43)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "419",
+        "DOI": "10.1016/j.gee.2017.01.003",
+        "volume": "4",
+        "author": "Wang",
+        "year": "2017",
+        "journal-title": "Green Energy Environ."
+      },
+      {
+        "key": "C9CY01398A-(cit44)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "3173",
+        "DOI": "10.1002/cctc.201701919",
+        "volume": "10",
+        "author": "Karimi",
+        "year": "2018",
+        "journal-title": "ChemCatChem"
+      },
+      {
+        "key": "C9CY01398A-(cit45)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "592",
+        "DOI": "10.1039/C8CC08292H",
+        "volume": "55",
+        "author": "Zhang",
+        "year": "2019",
+        "journal-title": "Chem. Commun."
+      },
+      {
+        "key": "C9CY01398A-(cit46)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "5220",
+        "DOI": "10.1021/jacs.8b11860",
+        "volume": "141",
+        "author": "Zhang",
+        "year": "2019",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "C9CY01398A-(cit47)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "4299",
+        "DOI": "10.1002/1521-3765(20020916)8:18<4299::AID-CHEM4299>3.0.CO;2-B",
+        "volume": "8",
+        "author": "Brandt",
+        "year": "2002",
+        "journal-title": "Chem. – Eur. J."
+      },
+      {
+        "key": "C9CY01398A-(cit48)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "1109",
+        "DOI": "10.1002/adma.201502389",
+        "volume": "28",
+        "author": "Schoonen",
+        "year": "2016",
+        "journal-title": "Adv. Mater."
+      },
+      {
+        "key": "C9CY01398A-(cit49)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "7830",
+        "DOI": "10.1002/chem.201402136",
+        "volume": "20",
+        "author": "Zhang",
+        "year": "2014",
+        "journal-title": "Chem. – Eur. J."
+      },
+      {
+        "key": "C9CY01398A-(cit50)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "2092",
+        "DOI": "10.1039/C4CY01290A",
+        "volume": "5",
+        "author": "Zheng",
+        "year": "2015",
+        "journal-title": "Catal. Sci. Technol."
+      },
+      {
+        "key": "C9CY01398A-(cit51)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "488",
+        "DOI": "10.1039/C5CY00953G",
+        "volume": "6",
+        "author": "Zhang",
+        "year": "2016",
+        "journal-title": "Catal. Sci. Technol."
+      }
+    ],
+    "container-title": [
+      "Catalysis Science &amp; Technology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://pubs.rsc.org/en/content/articlepdf/2019/CY/C9CY01398A",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          18
+        ]
+      ],
+      "date-time": "2024-04-18T01:38:22Z",
+      "timestamp": 1713404302000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://xlink.rsc.org/?DOI=C9CY01398A"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "references-count": 51,
+    "journal-issue": {
+      "issue": "20",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10,
+            14
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1039/c9cy01398a",
+    "relation": {},
+    "ISSN": [
+      "2044-4753",
+      "2044-4761"
+    ],
+    "issn-type": [
+      {
+        "value": "2044-4753",
+        "type": "print"
+      },
+      {
+        "value": "2044-4761",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "This document is Similarity Check deposited",
+        "name": "similarity_check",
+        "explanation": {
+          "URL": "https://www.crossref.org/services/similarity-check/"
+        },
+        "group": {
+          "name": "similarity_check",
+          "label": "SIMILARITY CHECK"
+        }
+      },
+      {
+        "value": "Supplementary Information",
+        "URL": "https://doi.org/10.1039/C9CY01398A",
+        "name": "related_data",
+        "group": {
+          "name": "related_data",
+          "label": "RELATED DATA"
+        }
+      },
+      {
+        "value": "Rong Tan (ORCID)",
+        "URL": "http://orcid.org/0000-0003-0747-5554",
+        "name": "identifier",
+        "group": {
+          "name": "author_identifiers",
+          "label": "IDENTIFIERS"
+        }
+      },
+      {
+        "value": "Single-blind",
+        "order": 2,
+        "name": "peer_review_method",
+        "group": {
+          "name": "peer_review_method",
+          "label": "PEER REVIEW METHOD"
+        }
+      },
+      {
+        "value": "Received 15 July 2019; Accepted 3 September 2019;  Accepted Manuscript published 4 September 2019;  Advance Article published 23 September 2019;  Version of Record published 14 October 2019",
+        "order": 1,
+        "name": "history",
+        "group": {
+          "name": "publication_history",
+          "label": "PUBLICATION HISTORY"
+        }
+      }
+    ]
+  }
+}

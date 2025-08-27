@@ -1,0 +1,8 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_1,Circulation,Photoacoustic Imaging For Microcirculation,50,10.1111/micc.12776,https://w3id.org/oc/meta/br/061501322640,author_title
+ref_5,ACS Sensors,Wearable Chemical Sensors: Present Challenges And Future Prospects,45,10.1021/acssensors.6b00250,https://w3id.org/oc/meta/br/06120291926,year_and_doi
+ref_6,Adv. Mater.,Phototransistors: Graphene/Organic Semiconductor Heterojunction Phototransistors With Broadband And Bi-directional Photoresponse (Adv. Mater. 49/2018),70,10.1002/adma.201870379,https://w3id.org/oc/meta/br/06103034821,author_title
+ref_11,Sensors,Ion-Specific Nutrient Management In Closed Systems: The Necessity For Ion-Selective Sensors In Terrestrial And Space-Based Agriculture And Water Management Systems,70,10.3390/s121013349,https://w3id.org/oc/meta/br/06140441213,year_and_doi
+ref_18,Analyst,Valuation Model Use And The Price Target Performance Of Sell-Side Equity Analysts*,70,10.1111/j.1911-3846.2011.01142.x,https://w3id.org/oc/meta/br/06150278822,author_title
+ref_22,Angew. Chem. Int. Ed.,"Inside Cover: A Bio-Inspired, Heavy-Metal-Free, Dual-Electrolyte Liquid Battery Towards Sustainable Energy Storage (Angew. Chem. Int. Ed. 15/2016)",70,10.1002/anie.201602013,https://w3id.org/oc/meta/br/06250101212,author_title
+ref_29,Angew. Chem. Int. Ed.,Inside Back Cover: Multi-shelled Hollow Metal-Organic Frameworks (Angew. Chem. Int. Ed. 20/2017),70,10.1002/anie.201703020,https://w3id.org/oc/meta/br/0622099814,author_title

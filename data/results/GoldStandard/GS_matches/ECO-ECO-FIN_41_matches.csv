@@ -1,0 +1,34 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+b0,N/A,Essays In The Theory Of Risk-Bearing.,65,10.2307/2978877,https://w3id.org/oc/meta/br/06401186197,author_title
+b1,N/A,"Belief Movement, Uncertainty Reduction, And Rational Updating*",50,10.1093/qje/qjaa043,https://w3id.org/oc/meta/br/06230275119,author_title
+b2,Optimal Mechanisms for Selling Information,Optimal Mechanisms For Selling Information,70,10.1145/2229012.2229024,https://w3id.org/oc/meta/br/06303406003,author_title
+b3,Clustering with Bregman Divergences,Clustering With Bregman Divergences,65,10.1137/1.9781611972740.22,https://w3id.org/oc/meta/br/06403334611,author_title
+b4,Selling Cookies,Selling Cookies,70,10.1257/mic.20140155,https://w3id.org/oc/meta/br/062601528476,year_volume_page
+b5,Markets for Information: An Introduction,Markets For Information: An Introduction,70,10.1146/annurev-economics-080315-015439,https://w3id.org/oc/meta/br/061601261803,author_title
+b7,When Are Signals Complements or Substitutes?,When Are Signals Complements Or Substitutes?,70,10.1016/j.jet.2012.12.012,https://w3id.org/oc/meta/br/06220328875,year_volume_page
+b8,The Relaxation Method of Finding the Common Points of Convex Sets and Its Application to the Solution of Problems in Convex Programming,The Relaxation Method Of Finding The Common Point Of Convex Sets And Its Application To The Solution Of Problems In Convex Programming,70,10.1016/0041-5553(67)90040-7,https://w3id.org/oc/meta/br/06180407839,year_volume_page
+b9,Verification of Forecasts Expressed in Terms of Probability,Verification Of Forecasts Expressed In Terms Of Probability,70,10.1175/1520-0493(1950)078<0001:vofeit>2.0.co;2,https://w3id.org/oc/meta/br/06220945537,year_volume_page
+b10,Optimal Expectations,Optimal Expectations,70,10.1257/0002828054825493,https://w3id.org/oc/meta/br/06801213219,year_volume_page
+b11,Entropy and the Value of Information for Investors,Entropy And The Value Of Information For Investors,70,10.1257/aer.103.1.360,https://w3id.org/oc/meta/br/061801185936,year_volume_page
+b13,N/A,Rationally Inattentive Behavior: Characterizing And Generalizing Shannon Entropy,70,10.3386/w23652,https://w3id.org/oc/meta/br/06802752135,author_title
+b14,Psychological Expected Utility Theory and Anticipatory Feelings,Psychological Expected Utility Theory And Anticipatory Feelings,70,10.1162/003355301556347,https://w3id.org/oc/meta/br/062603519426,year_volume_page
+b15,N/A,Elements Of Information Theory,50,10.1002/0471200611,https://w3id.org/oc/meta/br/061103349326,author_title
+b17,Axiomatic Characterizations of Information Measures,Axiomatic Characterizations Of Information Measures,70,10.3390/e10030261,https://w3id.org/oc/meta/br/061701679289,year_volume_page
+b19,Suspense and Surprise,Suspense And Surprise,70,10.1086/677350,https://w3id.org/oc/meta/br/06603166929,year_volume_page
+b20,N/A,Which Findings Should Be Published?,50,10.31222/osf.io/mbvz3,https://w3id.org/oc/meta/br/062601528189,author_title
+b21,Costly Persuasion,Costly Persuasion,70,10.1257/aer.104.5.457,https://w3id.org/oc/meta/br/062401162147,year_volume_page
+b22,Bayesian Persuasion with Multiple Senders and Rich Signal Spaces,Bayesian Persuasion With Multiple Senders And Rich Signal Spaces,70,10.1016/j.geb.2017.05.004,https://w3id.org/oc/meta/br/06901367849,year_author_page
+b23,"Strictly Proper Scoring Rules, Prediction, and Estimation","Strictly Proper Scoring Rules, Prediction, And Estimation",70,10.1198/016214506000001437,https://w3id.org/oc/meta/br/062601514181,year_volume_page
+b24,Rational Decisions,日本産苔類新知見(I),70,10.18942/bunruichiri.kj00001077640,https://w3id.org/oc/meta/br/06704523840,year_volume_page
+b25,On the Cost of Misperception: General Results and Behavioral Applications,On The Cost Of Misperception: General Results And Behavioral Applications,70,10.1016/j.jet.2018.08.003,https://w3id.org/oc/meta/br/06210334838,year_author_page
+b26,N/A,Two Representations Of Information Structures And Their Comparisons,50,10.1007/s10203-022-00379-6,https://w3id.org/oc/meta/br/062504014977,author_title
+b28,Bayesian Persuasion,Bayesian Persuasion,70,10.1257/aer.101.6.2590,https://w3id.org/oc/meta/br/06301198821,year_volume_page
+b29,A New Interpretation of Information Rate,A New Interpretation Of Information Rate,70,10.1002/j.1538-7305.1956.tb03809.x,https://w3id.org/oc/meta/br/062302694405,year_volume_page
+b30,Comparing Location Experiments,Comparing Location Experiments,70,10.1214/aos/1176350818,https://w3id.org/oc/meta/br/062201357123,author_title
+b32,N/A,Cardinal Representations Of Information,70,10.2139/ssrn.3148954,https://w3id.org/oc/meta/br/06240300119,author_title
+b33,N/A,The Wald Problem And The Equivalence Of Sequential Sampling And Static Information Costs,70,10.2139/ssrn.2991567,https://w3id.org/oc/meta/br/06160306164,author_title
+b34,Information Acquisition in Auctions,Information Acquisition In Auctions,70,10.1111/1468-0262.00096,https://w3id.org/oc/meta/br/061801565682,year_volume_page
+b35,N/A,The Cost Of Information: The Case Of Constant Marginal Costs,50,10.1257/aer.20190185,https://w3id.org/oc/meta/br/06460142406,author_title
+b36,A General Method for Comparing Probability Assessors,A General Method For Comparing Probability Assessors,70,10.1214/aos/1176347398,https://w3id.org/oc/meta/br/062301365030,author_title
+b37,Implications of Rational Inattention,Implications Of Rational Inattention,70,10.1016/s0304-3932(03)00029-1,https://w3id.org/oc/meta/br/062202851708,year_volume_page
+b38,Rational Inattention Dynamics: Inertia and Delay in Decision-Making,Rational Inattention Dynamics: Inertia And Delay In Decision-Making,70,10.3982/ecta13636,https://w3id.org/oc/meta/br/06701566228,year_volume_page

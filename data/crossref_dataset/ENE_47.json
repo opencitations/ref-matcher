@@ -1,0 +1,754 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2024-11-19T17:47:57Z",
+      "timestamp": 1732038477523
+    },
+    "reference-count": 63,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              5
+            ]
+          ],
+          "date-time": "2019-08-05T00:00:00Z",
+          "timestamp": 1564963200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Renewable and Sustainable Energy Reviews"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.rser.2019.109309",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          7
+        ]
+      ],
+      "date-time": "2019-08-07T11:55:54Z",
+      "timestamp": 1565178954000
+    },
+    "page": "109309",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 259,
+    "special_numbering": "C",
+    "title": [
+      "A high-resolution geospatial assessment of the rooftop solar photovoltaic potential in the European Union"
+    ],
+    "prefix": "10.1016",
+    "volume": "114",
+    "author": [
+      {
+        "given": "Katalin",
+        "family": "Bódis",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Ioannis",
+        "family": "Kougias",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Arnulf",
+        "family": "Jäger-Waldau",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nigel",
+        "family": "Taylor",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sándor",
+        "family": "Szabó",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.rser.2019.109309_bib1",
+        "series-title": "PV status report 2018, JRC science for policy report",
+        "isbn-type": "print",
+        "author": "Jäger-Waldau",
+        "year": "2018",
+        "ISBN": "http://id.crossref.org/isbn/9789279974663"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib2",
+        "series-title": "Directive (EU) 2018/2001 of the European Parliament and of the Council on the promotion of the use of energy from renewable sources",
+        "author": "Council of European Union",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib3",
+        "series-title": "New energy Outlook 2018",
+        "author": "Bloomberg",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib4",
+        "series-title": "Guidelines on State aid for environmental protection and energy 2014–2020",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib5",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1088/1748-9326/aa7857",
+        "article-title": "Rooftop solar photovoltaic potential in cities: how scalable are assessment approaches?",
+        "volume": "12",
+        "author": "Castellanos",
+        "year": "2017",
+        "journal-title": "Environ Res Lett"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib6",
+        "series-title": "Technology perspectives 2016: towards sustainable urban energy systems",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "915",
+        "DOI": "10.1016/j.rser.2014.08.060",
+        "article-title": "Modelling solar potential in the urban environment: state-of-the-art review",
+        "volume": "41",
+        "author": "Freitas",
+        "year": "2015",
+        "journal-title": "Renew Sustain Energy Rev"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "830",
+        "DOI": "10.1016/j.rser.2014.08.023",
+        "article-title": "A review of the solar city concept and methods to assess rooftop solar electric potential, with an illustrative application to the city of Seoul",
+        "volume": "41",
+        "author": "Byrne",
+        "year": "2015",
+        "journal-title": "Renew Sustain Energy Rev"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "2644",
+        "DOI": "10.1016/j.solener.2012.06.007",
+        "article-title": "Technical potential for photovoltaics on buildings in the EU-27",
+        "volume": "86",
+        "author": "Defaix",
+        "year": "2012",
+        "journal-title": "Sol Energy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib10",
+        "series-title": "Technical potential of rooftop photovoltaics in EU member states, regions and cities, JRC Technical Report, JRC110353",
+        "author": "Bódis",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "4534",
+        "DOI": "10.3390/s120404534",
+        "article-title": "The application of LiDAR to assessment of rooftop solar photovoltaic deployment potential in a municipal district unit",
+        "volume": "12",
+        "author": "Nguyen",
+        "year": "2012",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "31",
+        "DOI": "10.1016/j.scs.2013.01.002",
+        "article-title": "Methodology for estimating solar potential on multiple building rooftops for photovoltaic systems",
+        "volume": "8",
+        "author": "Kodysh",
+        "year": "2013",
+        "journal-title": "Sustainable Cities and Society"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib13",
+        "series-title": "Proceedings - 2012 IEEE 8th International Colloquium on Signal Processing and Its Applications, CSPA 2012",
+        "first-page": "388",
+        "article-title": "GIS-based estimation of rooftop solar photovoltaic potential using LiDAR",
+        "author": "Latif",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib14",
+        "first-page": "1",
+        "article-title": "A simplified skyline-based method for estimating the annual solar energy potential in urban environments",
+        "author": "Calcabrini",
+        "year": "2019",
+        "journal-title": "Nature Energy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "320",
+        "DOI": "10.1016/j.apenergy.2016.07.001",
+        "article-title": "Development of a method for estimating the rooftop solar photovoltaic (PV) potential by analyzing the available rooftop area using Hillshade analysis",
+        "volume": "194",
+        "author": "Hong",
+        "year": "2017",
+        "journal-title": "Appl Energy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "188",
+        "DOI": "10.1016/j.renene.2015.12.058",
+        "article-title": "Estimation of rooftop solar photovoltaic potential using geo-spatial techniques: a perspective from planned neighborhood of Karachi - Pakistan",
+        "volume": "90",
+        "author": "Khan",
+        "year": "2016",
+        "journal-title": "Renew Energy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "582",
+        "DOI": "10.1016/j.renene.2014.11.077",
+        "article-title": "Evaluation of the development potential of rooftop solar photovoltaic in Taiwan",
+        "volume": "76",
+        "author": "Ko",
+        "year": "2015",
+        "journal-title": "Renew Energy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib18",
+        "series-title": "Potential rooftop distribution mapping using geographic information systems (GIS) for solar PV installation: a case study for Dhaka, Bangladesh, 2014 3rd international conference on the developments in renewable energy technology (ICDRET)",
+        "first-page": "1",
+        "author": "Jamal",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1760",
+        "DOI": "10.1016/j.renene.2009.11.016",
+        "article-title": "Calculation of bright roof-tops for solar PV applications in Dhaka Megacity, Bangladesh",
+        "volume": "35",
+        "author": "Kabir",
+        "year": "2010",
+        "journal-title": "Renew Energy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "589",
+        "DOI": "10.1016/j.solener.2015.03.016",
+        "article-title": "Estimation of rooftop solar photovoltaic potential of a city",
+        "volume": "115",
+        "author": "Singh",
+        "year": "2015",
+        "journal-title": "Sol Energy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib21",
+        "series-title": "Rooftop solar photovoltaic technical potential in the United States: a detailed assessment, technical report January",
+        "author": "Gagnon",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib22",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1088/1748-9326/aa7225",
+        "article-title": "Using GIS-based methods and lidar data to estimate rooftop solar technical potential in US cities",
+        "volume": "12",
+        "author": "Margolis",
+        "year": "2017",
+        "journal-title": "Environ Res Lett"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib23",
+        "unstructured": "S. Pelland, Y. Poissant, An evaluation of the potential of building integrated photovoltaics in Canada, in: Proceedings of the SESCI 2006 conference, submitted, pp. 1–8."
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "929",
+        "DOI": "10.1016/j.solener.2008.03.007",
+        "article-title": "A method for estimating the geographical distribution of the available roof surface area for large-scale photovoltaic energy-potential evaluations",
+        "volume": "82",
+        "author": "Izquierdo",
+        "year": "2008",
+        "journal-title": "Sol Energy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "591",
+        "DOI": "10.1016/j.renene.2010.07.030",
+        "article-title": "Assessment of the potential for distributed photovoltaic electricity production in Israel",
+        "volume": "36",
+        "author": "Vardimon",
+        "year": "2011",
+        "journal-title": "Renew Energy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "190",
+        "DOI": "10.1016/j.energy.2013.11.082",
+        "article-title": "A GIS (geographic information system)-based optimization model for estimating the electricity generation of the rooftop PV (photovoltaic) system",
+        "volume": "65",
+        "author": "Hong",
+        "year": "2014",
+        "journal-title": "Energy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib27",
+        "series-title": "PV LCOE in Europe 2014-30, technical report",
+        "author": "Vartiainen",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "84",
+        "DOI": "10.1016/j.enpol.2015.11.017",
+        "article-title": "Is rooftop solar PV at socket parity without subsidies?",
+        "volume": "89",
+        "author": "Hagerman",
+        "year": "2016",
+        "journal-title": "Energy Policy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "854",
+        "DOI": "10.1016/j.energy.2016.04.089",
+        "article-title": "Economic and environmental assessment of rooftops regarding suitability for photovoltaic systems installation based on remote sensing data",
+        "volume": "107",
+        "author": "Lukač",
+        "year": "2016",
+        "journal-title": "Energy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib30",
+        "series-title": "Cost maps for unsubsidised photovoltaic electricity, JRC scientific and policy reports",
+        "author": "Huld",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib31",
+        "series-title": "Estimating renewable energy economic potential in the United States. Methodology and initial results, Technical Report",
+        "author": "Brown",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "731",
+        "DOI": "10.1016/j.enpol.2017.05.052",
+        "article-title": "Solar pv where the sun doesn't shine: estimating the economic impacts of support schemes for residential pv with detailed net demand profiling",
+        "volume": "108",
+        "author": "La Monaca",
+        "year": "2017",
+        "journal-title": "Energy Policy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib33",
+        "series-title": "The european settlement map 2017 release. Methodology and output of the european settlement map, JRC science for policy report, JRC105679",
+        "author": "Ferri",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib35",
+        "author": "Odyssee-Mure"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "5159",
+        "DOI": "10.3390/en8065159",
+        "article-title": "Estimating pv module performance over large geographical regions: the role of irradiance, air temperature, wind speed and solar spectrum",
+        "volume": "8",
+        "author": "Huld",
+        "year": "2015",
+        "journal-title": "Energies"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib37",
+        "series-title": "EC JRC photovoltaic geographical information system",
+        "author": "Huld",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib38",
+        "series-title": "Technical report",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib39",
+        "series-title": "Surface solar radiation data set-heliosat (SARAH)-Edition 1. Satellite application facility on climate monitoring, technical report, EUMETSAT satellite application facility on climate monitoring (CM SAF), offenbach, Germany",
+        "author": "Müller",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "171",
+        "DOI": "10.1016/j.solener.2016.12.014",
+        "article-title": "PVMAPS: software tools and data for the estimation of solar radiation and photovoltaic module performance over large geographical areas",
+        "volume": "142",
+        "author": "Huld",
+        "year": "2017",
+        "journal-title": "Sol Energy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "12",
+        "DOI": "10.1002/pip.1182",
+        "article-title": "Photovoltaic degradation rates–an analytical review",
+        "volume": "21",
+        "author": "Jordan",
+        "year": "2013",
+        "journal-title": "Prog Photovolt Res Appl"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "690",
+        "DOI": "10.1016/j.energy.2018.04.166",
+        "article-title": "Envisioning a low-cost solar future: exploring the potential impact of Achieving the SunShot 2030 targets for photovoltaics",
+        "volume": "155",
+        "author": "Cole",
+        "year": "2018",
+        "journal-title": "Energy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib43",
+        "series-title": "Agora energiewende (2018): reducing the cost of financing renewables in Europe, report of a multi-stakeholder dialogue on the proposed EU renewable energy cost reduction facility",
+        "author": "Temperton",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib44",
+        "doi-asserted-by": "crossref",
+        "first-page": "408",
+        "DOI": "10.1016/j.energy.2016.12.093",
+        "article-title": "A worldwide assessment of economic feasibility of HCPV power plants: profitability and competitiveness",
+        "volume": "119",
+        "author": "Talavera",
+        "year": "2017",
+        "journal-title": "Energy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib45",
+        "series-title": "A manual for the economic evaluation of energy efficiency and renewable energy technologies",
+        "author": "Short",
+        "year": "1995"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib46",
+        "series-title": "Policy dialogue on the assessment and convergence of RES policy in EU member states, technical report",
+        "author": "Resch",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib47",
+        "doi-asserted-by": "crossref",
+        "first-page": "121",
+        "DOI": "10.1002/pip.1254",
+        "article-title": "Global overview on grid-parity",
+        "volume": "21",
+        "author": "Breyer",
+        "year": "2013",
+        "journal-title": "Prog Photovolt Res Appl"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib48",
+        "doi-asserted-by": "crossref",
+        "first-page": "888",
+        "DOI": "10.1016/j.renene.2014.10.053",
+        "article-title": "WACC the dog: the effect of financing costs on the levelized cost of solar PV power",
+        "volume": "75",
+        "author": "Ondraczek",
+        "year": "2015",
+        "journal-title": "Renew Energy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib49",
+        "author": "Eurostat"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib50",
+        "series-title": "Energy available for final consumption, Electrical energy.nrg_105a",
+        "author": "Eurostat",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib51",
+        "series-title": "Covenant of Mayors for climate and energy",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib52",
+        "doi-asserted-by": "crossref",
+        "first-page": "1291",
+        "DOI": "10.1016/j.rser.2017.03.117",
+        "article-title": "A methodology for maximizing the benefits of solar landfills on closed sites",
+        "volume": "76",
+        "author": "Szabó",
+        "year": "2017",
+        "journal-title": "Renew Sustain Energy Rev"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib53",
+        "doi-asserted-by": "crossref",
+        "first-page": "3703",
+        "DOI": "10.3390/su11133703",
+        "article-title": "Solar photovoltaic electricity generation: a lifeline for the european coal regions in transition",
+        "volume": "11",
+        "author": "Bódis",
+        "year": "2019",
+        "journal-title": "Sustainability"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib54",
+        "unstructured": "M. Alam, K. Muttaqi, D. Sutanto, Distributed energy storage for mitigation of voltage-rise impact caused by rooftop solar PV., in: IEEE power and energy society general meeting, pp. 1–8."
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib55",
+        "first-page": "11",
+        "article-title": "How rooftop solar can stabilize the grid [News]",
+        "volume": "52",
+        "author": "Fairley",
+        "year": "2015",
+        "journal-title": "IEEE Spectrum"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib56",
+        "doi-asserted-by": "crossref",
+        "first-page": "189",
+        "DOI": "10.1108/SO-05-2015-0013",
+        "article-title": "HR outsourcing trends in Malaysia: the undetected tiger",
+        "volume": "9",
+        "author": "Sim",
+        "year": "2016",
+        "journal-title": "Strategic Outsourcing"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib57",
+        "doi-asserted-by": "crossref",
+        "first-page": "217",
+        "DOI": "10.1016/j.rser.2018.09.001",
+        "article-title": "Cost-efficiency benchmarking of European renewable electricity support schemes",
+        "volume": "98",
+        "author": "Mezősi",
+        "year": "2018",
+        "journal-title": "Renew Sustain Energy Rev"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib58",
+        "series-title": "Operating procedure for the production of the global human settlement layer from landsat data of the epochs 1975, 1990, 2000, and 2014, JRC science for policy report, JRC97705",
+        "author": "Pesaresi",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib60",
+        "series-title": "Copernicus land monitoring service",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib61",
+        "volume": "vol. 40",
+        "author": "Bossard",
+        "year": "2000"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib63",
+        "series-title": "The satellite application facility on climate monitoring , surface solar radiation data set heliosat",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib64",
+        "doi-asserted-by": "crossref",
+        "first-page": "622",
+        "DOI": "10.3390/rs4030622",
+        "article-title": "A new algorithm for the satellite-based retrieval of solar surface irradiance in spectral bands",
+        "volume": "4",
+        "author": "Müeller",
+        "year": "2012",
+        "journal-title": "Remote Sens"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib65",
+        "series-title": "The true competitiveness of Solar PV, A European case study",
+        "author": "Vartiainen",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109309_bib66",
+        "series-title": "Study on tariff design for distribution systems, Technical Report",
+        "year": "2015"
+      }
+    ],
+    "container-title": [
+      "Renewable and Sustainable Energy Reviews"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1364032119305179?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1364032119305179?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          30
+        ]
+      ],
+      "date-time": "2020-01-30T04:04:04Z",
+      "timestamp": 1580357044000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1364032119305179"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 63,
+    "alternative-id": [
+      "S1364032119305179"
+    ],
+    "URL": "https://doi.org/10.1016/j.rser.2019.109309",
+    "relation": {},
+    "ISSN": [
+      "1364-0321"
+    ],
+    "issn-type": [
+      {
+        "value": "1364-0321",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "A high-resolution geospatial assessment of the rooftop solar photovoltaic potential in the European Union",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Renewable and Sustainable Energy Reviews",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.rser.2019.109309",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 The Authors. Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "109309"
+  }
+}

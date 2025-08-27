@@ -1,0 +1,9 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_3,Nature,Spectral Signatures Of A Negative Polaron In A Doped Polymer Semiconductor: Energy Levels And Hubbard U Interactions,50,10.1021/acs.jpclett.3c01022,https://w3id.org/oc/meta/br/06410149459,author_title
+ref_14,Traffic,Membrane Traffic Fuses With Cartilage Development,50,10.1016/s0014-5793(03)00854-8,https://w3id.org/oc/meta/br/06301365981,author_title
+ref_21,Traffic,Validation Of The Peritraumatic Dissociative Experiences Questionnaire And Peritraumatic Distress Inventory In School-Aged Victims Of Road Traffic Accidents,50,10.1016/j.eurpsy.2010.09.007,https://w3id.org/oc/meta/br/06602787359,author_title
+ref_26,Cell,Visualization Of ER-to-Golgi Transport In Living Cells Reveals A Sequential Mode Of Action For COPII And COPI.,70,10.1016/s0092-8674(00)80379-7,https://w3id.org/oc/meta/br/061303693813,year_and_doi
+ref_31,Cell,Inhibitory Effects Of Tabebuia Impetiginosa Inner Bark Extract On Platelet Aggregation And Vascular Smooth Muscle Cell Proliferation Through Suppressions Of Arachidonic Acid Liberation And ERK1/2 MAPK Activation,70,10.1016/j.jep.2006.04.016,https://w3id.org/oc/meta/br/06303246086,author_title
+ref_37,Science,Science-rich Sites For In Situ Resource Utilization Characterization And End-to-end Demonstration Missions,50,10.3847/psj/abedbb,https://w3id.org/oc/meta/br/06501857129,author_title
+ref_38,Cell Res,Immunization With Adenovirus LIGHT-engineered Dendritic Cells Induces Potent T Cell Responses And Therapeutic Immunity In HBV Transgenic Mice,70,10.1016/j.vaccine.2014.06.039,https://w3id.org/oc/meta/br/061403024260,author_title
+ref_43,Traffic,C4orf41 And TTC-15 Are Mammalian TRAPP Components With A Role At An Early Stage In ER-to-Golgi Trafficking,50,10.1091/mbc.e10-11-0873,https://w3id.org/oc/meta/br/0617096969,author_title

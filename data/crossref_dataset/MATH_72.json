@@ -1,0 +1,435 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          30
+        ]
+      ],
+      "date-time": "2024-01-30T12:25:06Z",
+      "timestamp": 1706617506949
+    },
+    "reference-count": 45,
+    "publisher": "Hindawi Limited",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2019-08-01T00:00:00Z",
+          "timestamp": 1564617600000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "61703312",
+          "61703313"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Discrete Dynamics in Nature and Society"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>This paper investigates projective synchronization of nonidentical fractional-order memristive neural networks (NFMNN) via sliding mode controller. Firstly, based on the sliding mode control theory, a new fractional-order integral sliding mode controller is designed to ensure the occurrence of sliding motion. Furthermore, according to fractional-order differential inequalities and fractional-order Lyapunov direct method, the trajectories of the system converge to the sliding mode surface to carry out sliding mode motion, and some sufficient criteria are obtained to achieve global projective synchronization of NFMNN. In addition, the conclusions extend and improve some previous works on the synchronization of fractional-order memristive neural networks (FMNN). Finally, a simulation example is given to verify the effectiveness and correctness of the obtained results.</jats:p>",
+    "DOI": "10.1155/2019/8743482",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          1
+        ]
+      ],
+      "date-time": "2019-08-01T19:31:58Z",
+      "timestamp": 1564687918000
+    },
+    "page": "1-11",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Projective Synchronization of Nonidentical Fractional-Order Memristive Neural Networks"
+    ],
+    "prefix": "10.1155",
+    "volume": "2019",
+    "author": [
+      {
+        "given": "Chong",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Electrical and Information Engineering, Wuhan Institute of Technology, Wuhan 430205, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-0566-9611",
+        "authenticated-orcid": true,
+        "given": "Zhixia",
+        "family": "Ding",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Electrical and Information Engineering, Wuhan Institute of Technology, Wuhan 430205, China"
+          }
+        ]
+      }
+    ],
+    "member": "98",
+    "reference": [
+      {
+        "key": "1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCT.1971.1083337"
+      },
+      {
+        "key": "2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/PROC.1976.10092"
+      },
+      {
+        "key": "3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cta.4490020406"
+      },
+      {
+        "key": "4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature06932"
+      },
+      {
+        "key": "5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/nl904092h"
+      },
+      {
+        "key": "6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/smll.201300810"
+      },
+      {
+        "key": "7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNNLS.2012.2204770"
+      },
+      {
+        "key": "8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0143-0807/30/4/001"
+      },
+      {
+        "key": "9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.4794794"
+      },
+      {
+        "key": "11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2015.03.057"
+      },
+      {
+        "key": "12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2017.08.014"
+      },
+      {
+        "key": "13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.amc.2017.11.037"
+      },
+      {
+        "key": "14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11432-016-0555-2"
+      },
+      {
+        "key": "15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neunet.2013.10.001"
+      },
+      {
+        "key": "16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNNLS.2017.2675442"
+      },
+      {
+        "key": "17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2019.03.042"
+      },
+      {
+        "key": "18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neunet.2017.06.012"
+      },
+      {
+        "key": "19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2018.09.073"
+      },
+      {
+        "issue": "1",
+        "key": "20",
+        "doi-asserted-by": "crossref",
+        "first-page": "206",
+        "DOI": "10.1109/TNNLS.2015.2506738",
+        "volume": "28",
+        "year": "2017",
+        "journal-title": "IEEE Transactions on Neural Networks and Learning Systems"
+      },
+      {
+        "key": "21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neunet.2015.09.012"
+      },
+      {
+        "key": "22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11071-018-4419-3"
+      },
+      {
+        "key": "23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neunet.2017.12.014"
+      },
+      {
+        "key": "24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.64.821"
+      },
+      {
+        "key": "25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neunet.2013.11.016"
+      },
+      {
+        "key": "26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mechatronics.2013.02.004"
+      },
+      {
+        "key": "27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.amc.2018.06.013"
+      },
+      {
+        "key": "28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11071-013-1177-0"
+      },
+      {
+        "key": "29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physleta.2011.04.015"
+      },
+      {
+        "key": "30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11071-017-3459-4"
+      },
+      {
+        "key": "31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11071-014-1373-6"
+      },
+      {
+        "key": "32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neunet.2016.01.006"
+      },
+      {
+        "key": "33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neunet.2014.10.007"
+      },
+      {
+        "key": "34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13662-016-0857-8"
+      },
+      {
+        "key": "35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11071-017-3613-z"
+      },
+      {
+        "key": "36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40435-018-0432-0"
+      },
+      {
+        "key": "37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2015.08.088"
+      },
+      {
+        "key": "38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2018.03.060"
+      },
+      {
+        "key": "39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11071-015-2242-7"
+      },
+      {
+        "key": "40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2014.01.009"
+      },
+      {
+        "key": "41",
+        "series-title": "Mathematics in Science and Engineering",
+        "volume": "198",
+        "year": "1999"
+      },
+      {
+        "key": "42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cnsns.2014.01.022"
+      },
+      {
+        "key": "43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-94-015-7793-9"
+      },
+      {
+        "key": "44",
+        "year": "1998"
+      },
+      {
+        "key": "45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apm.2010.12.020"
+      },
+      {
+        "key": "46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11071-013-0822-y"
+      }
+    ],
+    "container-title": [
+      "Discrete Dynamics in Nature and Society"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://downloads.hindawi.com/journals/ddns/2019/8743482.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://downloads.hindawi.com/journals/ddns/2019/8743482.xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://downloads.hindawi.com/journals/ddns/2019/8743482.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          19
+        ]
+      ],
+      "date-time": "2019-09-19T22:44:08Z",
+      "timestamp": 1568933048000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.hindawi.com/journals/ddns/2019/8743482/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          1
+        ]
+      ]
+    },
+    "references-count": 45,
+    "alternative-id": [
+      "8743482",
+      "8743482"
+    ],
+    "URL": "https://doi.org/10.1155/2019/8743482",
+    "relation": {},
+    "ISSN": [
+      "1026-0226",
+      "1607-887X"
+    ],
+    "issn-type": [
+      {
+        "value": "1026-0226",
+        "type": "print"
+      },
+      {
+        "value": "1607-887X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          1
+        ]
+      ]
+    }
+  }
+}

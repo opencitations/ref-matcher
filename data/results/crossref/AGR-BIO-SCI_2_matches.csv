@@ -1,0 +1,5 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_14,Unsaponifiable matter in plant seed oil,Unsaponifiable Matter In Plant Seed Oils,70,10.1007/978-3-642-35710-7,https://w3id.org/oc/meta/br/0624053616,year_and_doi
+ref_18,J Chromatogr A,Characterization Of The Alcoholic Fraction Of Vegetable Oils By Derivatization With Diphenic Anhydride Followed By High-Performance Liquid Chromatography With Spectrophotometric And Mass Spectrometric Detection,55,10.1016/j.chroma.2008.11.056,https://w3id.org/oc/meta/br/06140607894,year_and_doi
+ref_19,Food Chem,"Food Chemical Properties Of Low-Phytate Rice Cultivar, Sang-gol",65,10.1016/j.jcs.2007.04.012,https://w3id.org/oc/meta/br/06501451725,author_title
+ref_32,Food Chem,The Maillard Reaction In Food Chemistry,70,10.1007/978-3-030-04777-1,https://w3id.org/oc/meta/br/0617054777,author_title

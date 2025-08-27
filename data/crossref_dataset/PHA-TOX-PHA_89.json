@@ -1,0 +1,1317 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          2
+        ]
+      ],
+      "date-time": "2024-09-02T09:12:44Z",
+      "timestamp": 1725268364347
+    },
+    "reference-count": 87,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Marine Biotechnology Program",
+        "award": [
+          "20150220"
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003566",
+        "name": "Ministry of Oceans and Fisheries",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100003566",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003725",
+        "name": "National Research Foundation of Korea",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100003725",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Ministry of Science"
+      },
+      {
+        "name": "ICT",
+        "award": [
+          "NRF-2017R1A4A1015627"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Controlled Release"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jconrel.2019.08.007",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          8
+        ]
+      ],
+      "date-time": "2019-08-08T05:57:32Z",
+      "timestamp": 1565243852000
+    },
+    "page": "26-42",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 57,
+    "special_numbering": "C",
+    "title": [
+      "Anti-EGFR antibody conjugated thiol chitosan-layered gold nanoshells for dual-modal imaging-guided cancer combination therapy"
+    ],
+    "prefix": "10.1016",
+    "volume": "311-312",
+    "author": [
+      {
+        "given": "Panchanathan",
+        "family": "Manivasagan",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Van Tu",
+        "family": "Nguyen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Seung Won",
+        "family": "Jun",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Giang",
+        "family": "Hoang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sudip",
+        "family": "Mondal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hyehyun",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Vu Hoang Minh",
+        "family": "Doan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jeehyun",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chang-Seok",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-5837-0958",
+        "authenticated-orcid": false,
+        "given": "Junghwan",
+        "family": "Oh",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "4896",
+        "DOI": "10.1039/C7SC00700K",
+        "article-title": "Tumor microenvironment-triggered fabrication of gold nanomachines for tumor-specific photoacoustic imaging and photothermal therapy",
+        "volume": "8",
+        "author": "Yu",
+        "year": "2017",
+        "journal-title": "Chem. Sci."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "5049",
+        "DOI": "10.1002/adma.201501942",
+        "article-title": "Rational design and synthesis of γFe2O3@ Au magnetic gold nanoflowers for efficient cancer theranostics",
+        "volume": "27",
+        "author": "Huang",
+        "year": "2015",
+        "journal-title": "Adv. Mater."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "3285",
+        "DOI": "10.1002/adma.201405634",
+        "article-title": "Co9Se8 nanoplates as a new theranostic platform for photoacoustic/magnetic resonance dual-modal-imaging-guided chemo-photothermal combination therapy",
+        "volume": "27",
+        "author": "Song",
+        "year": "2015",
+        "journal-title": "Adv. Mater."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "4169",
+        "DOI": "10.1002/adma.201500323",
+        "article-title": "Red-emissive carbon dots for fluorescent, photoacoustic, and thermal theranostics in living mice",
+        "volume": "27",
+        "author": "Ge",
+        "year": "2015",
+        "journal-title": "Adv. Mater."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "2831",
+        "DOI": "10.1002/adfm.201500772",
+        "article-title": "Tumor-penetrating nanotherapeutics loading a near-infrared probe inhibit growth and metastasis of breast cancer",
+        "volume": "25",
+        "author": "He",
+        "year": "2015",
+        "journal-title": "Adv. Funct. Mater."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "2122",
+        "DOI": "10.1002/anie.201510597",
+        "article-title": "Degradable molybdenum oxide nanosheets with rapid clearance and efficient tumor homing capabilities as a therapeutic nanoplatform",
+        "volume": "55",
+        "author": "Song",
+        "year": "2016",
+        "journal-title": "Angew. Chem. Int. Ed."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "10245",
+        "DOI": "10.1021/acsnano.6b05760",
+        "article-title": "Albumin-bioinspired Gd: CuS nanotheranostic agent for in vivo photoacoustic/magnetic resonance imaging-guided tumor-targeted photothermal therapy",
+        "volume": "10",
+        "author": "Yang",
+        "year": "2016",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "6820",
+        "DOI": "10.1002/adma.201503194",
+        "article-title": "A self-assembled albumin-based nanoprobe for in vivo ratiometric photoacoustic pH imaging",
+        "volume": "27",
+        "author": "Chen",
+        "year": "2015",
+        "journal-title": "Adv. Mater."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "61",
+        "DOI": "10.1016/j.canlet.2017.03.030",
+        "article-title": "A tantalum oxide-based core/shell nanoparticle for triple-modality image-guided chemo-thermal synergetic therapy of esophageal carcinoma",
+        "volume": "397",
+        "author": "Jin",
+        "year": "2017",
+        "journal-title": "Cancer Lett."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "20",
+        "DOI": "10.1038/nrc.2016.108",
+        "article-title": "Cancer nanomedicine: progress, challenges and opportunities",
+        "volume": "17",
+        "author": "Shi",
+        "year": "2017",
+        "journal-title": "Nat. Rev. Cancer"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "4763",
+        "DOI": "10.7150/thno.21694",
+        "article-title": "Copper manganese sulfide nanoplates: a new two-dimensional theranostic nanoplatform for MRI/MSOT dual-modal imaging-guided photothermal therapy in the second near-infrared window",
+        "volume": "7",
+        "author": "Ke",
+        "year": "2017",
+        "journal-title": "Theranostics"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "327",
+        "DOI": "10.1021/cr300213b",
+        "article-title": "Nanomaterials for theranostics: recent advances and future challenges",
+        "volume": "115",
+        "author": "Lim",
+        "year": "2014",
+        "journal-title": "Chem. Rev."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "2011",
+        "DOI": "10.1021/acsbiomaterials.6b00416",
+        "article-title": "Polydopamine coated selenide molybdenum: a new photothermal nanocarrier for highly effective chemo-photothermal synergistic therapy",
+        "volume": "2",
+        "author": "Wang",
+        "year": "2016",
+        "journal-title": "ACS Biomater. Sci. Eng."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.1016/j.jconrel.2017.05.011",
+        "article-title": "Chemotherapeutic drug-photothermal agent co-self-assembling nanoparticles for near-infrared fluorescence and photoacoustic dual-modal imaging-guided chemo-photothermal synergistic therapy",
+        "volume": "258",
+        "author": "Li",
+        "year": "2017",
+        "journal-title": "J. Control. Release"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0075",
+        "doi-asserted-by": "crossref",
+        "first-page": "4078",
+        "DOI": "10.1016/j.biomaterials.2013.01.086",
+        "article-title": "Near-infrared laser light mediated cancer therapy by photothermal effect of Fe3O4 magnetic nanoparticles",
+        "volume": "34",
+        "author": "Chu",
+        "year": "2013",
+        "journal-title": "Biomaterials"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "67",
+        "DOI": "10.1016/j.biomaterials.2014.10.064",
+        "article-title": "Magnetic nanoparticle clusters for photothermal therapy with near-infrared irradiation",
+        "volume": "39",
+        "author": "Shen",
+        "year": "2015",
+        "journal-title": "Biomaterials"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "1756",
+        "DOI": "10.1002/anie.201300441",
+        "article-title": "Anisotropic gold nanoparticles: synthesis, properties, applications, and toxicity",
+        "volume": "53",
+        "author": "Li",
+        "year": "2014",
+        "journal-title": "Angew. Chem. Int. Ed."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "1891",
+        "DOI": "10.1016/j.nano.2017.03.012",
+        "article-title": "Gold nanoshell-based betulinic acid liposomes for synergistic chemo-photothermal therapy",
+        "volume": "13",
+        "author": "Liu",
+        "year": "2017",
+        "journal-title": "Nanomedicine"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0095",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1002/advs.201600327",
+        "article-title": "Laser-triggered small interfering RNA releasing gold nanoshells against heat shock protein for sensitized photothermal therapy",
+        "volume": "4",
+        "author": "Wang",
+        "year": "2017",
+        "journal-title": "Adv. Sci."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "13549",
+        "DOI": "10.1073/pnas.2232479100",
+        "article-title": "Nanoshell-mediated near-infrared thermal therapy of tumors under magnetic resonance guidance",
+        "volume": "100",
+        "author": "Hirsch",
+        "year": "2003",
+        "journal-title": "Proc. Natl. Acad. Sci."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0105",
+        "doi-asserted-by": "crossref",
+        "first-page": "1929",
+        "DOI": "10.1021/nl070610y",
+        "article-title": "Near-infrared resonant nanoshells for combined optical imaging and photothermal cancer therapy",
+        "volume": "7",
+        "author": "Gobin",
+        "year": "2007",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0110",
+        "doi-asserted-by": "crossref",
+        "first-page": "315",
+        "DOI": "10.1016/j.ijbiomac.2015.10.081",
+        "article-title": "Marine polysaccharide-based nanomaterials as a novel source of nanobiotechnological applications",
+        "volume": "82",
+        "author": "Manivasagan",
+        "year": "2016",
+        "journal-title": "Int. J. Biol. Macromol."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "1021",
+        "DOI": "10.1211/jpp.58.8.0002",
+        "article-title": "Advances and potential applications of chitosan derivatives as mucoadhesive biomaterials in modern drug delivery",
+        "volume": "58",
+        "author": "Chopra",
+        "year": "2006",
+        "journal-title": "J. Pharm. Pharmacol."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jconrel.2019.08.007_bb0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "631",
+        "DOI": "10.1080/15583724.2017.1311914",
+        "article-title": "Marine biopolymer-based nanomaterials as a novel platform for theranostic applications",
+        "author": "Manivasagan",
+        "year": "2017",
+        "journal-title": "Polym. Rev."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "3982",
+        "DOI": "10.1039/c3nr00284e",
+        "article-title": "Multidentate zwitterionic chitosan oligosaccharide modified gold nanoparticles: stability, biocompatibility and cell interactions",
+        "volume": "5",
+        "author": "Liu",
+        "year": "2013",
+        "journal-title": "Nanoscale"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0130",
+        "doi-asserted-by": "crossref",
+        "first-page": "31391",
+        "DOI": "10.1039/C6RA05501J",
+        "article-title": "Reduction-responsive core-crosslinked micelles based on a glycol chitosan–lipoic acid conjugate for triggered release of doxorubicin",
+        "volume": "6",
+        "author": "Zhou",
+        "year": "2016",
+        "journal-title": "RSC Adv."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0135",
+        "doi-asserted-by": "crossref",
+        "first-page": "439",
+        "DOI": "10.2147/IJN.S150977",
+        "article-title": "Development of biocompatible and VEGF-targeted paclitaxel nanodrugs on albumin and graphene oxide dual-carrier for photothermal-triggered drug delivery in vitro and in vivo",
+        "volume": "13",
+        "author": "Deng",
+        "year": "2018",
+        "journal-title": "Int. J. Nanomedicine"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "451",
+        "DOI": "10.1530/EJE-11-0918",
+        "article-title": "Phase II study of weekly paclitaxel and sorafenib as second/third-line therapy in patients with adrenocortical carcinoma",
+        "volume": "166",
+        "author": "Berruti",
+        "year": "2012",
+        "journal-title": "Eur. J. Endocrinol."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0145",
+        "doi-asserted-by": "crossref",
+        "first-page": "15460",
+        "DOI": "10.1039/C5RA25518J",
+        "article-title": "Co-delivery of paclitaxel and indocyanine green by PEGylated graphene oxide: a potential integrated nanoplatform for tumor theranostics",
+        "volume": "6",
+        "author": "Zhang",
+        "year": "2016",
+        "journal-title": "RSC Adv."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "367",
+        "DOI": "10.1016/j.ijpharm.2016.07.025",
+        "article-title": "Paclitaxel-loaded chitosan oligosaccharide-stabilized gold nanoparticles as novel agents for drug delivery and photoacoustic imaging of cancer cells",
+        "volume": "511",
+        "author": "Manivasagan",
+        "year": "2016",
+        "journal-title": "Int. J. Pharm."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0155",
+        "doi-asserted-by": "crossref",
+        "first-page": "8690",
+        "DOI": "10.1016/j.biomaterials.2013.07.100",
+        "article-title": "Epidermal growth factor receptor targeting in cancer: a review of trends and strategies",
+        "volume": "34",
+        "author": "Yewale",
+        "year": "2013",
+        "journal-title": "Biomaterials"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0160",
+        "doi-asserted-by": "crossref",
+        "first-page": "7204",
+        "DOI": "10.1016/j.biomaterials.2013.06.007",
+        "article-title": "EGRF conjugated PEGylated nanographene oxide for targeted chemotherapy and photothermal therapy",
+        "volume": "34",
+        "author": "Yang",
+        "year": "2013",
+        "journal-title": "Biomaterials"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0165",
+        "article-title": "Cetuximab-modified mesoporous silica nano-medicine specifically targets EGFR-mutant lung cancer and overcomes drug resistance",
+        "volume": "6",
+        "author": "Wang",
+        "year": "2016",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0170",
+        "doi-asserted-by": "crossref",
+        "first-page": "243",
+        "DOI": "10.1016/S0009-2614(98)00277-2",
+        "article-title": "Nanoengineering of optical resonances",
+        "volume": "288",
+        "author": "Oldenburg",
+        "year": "1998",
+        "journal-title": "Chem. Phys. Lett."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0175",
+        "doi-asserted-by": "crossref",
+        "first-page": "62",
+        "DOI": "10.1016/0021-9797(68)90272-5",
+        "article-title": "Controlled growth of monodisperse silica spheres in the micron size range",
+        "volume": "26",
+        "author": "Stöber",
+        "year": "1968",
+        "journal-title": "J. Colloid Interface Sci."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0180",
+        "doi-asserted-by": "crossref",
+        "first-page": "2301",
+        "DOI": "10.1021/la00033a010",
+        "article-title": "A new hydrosol of gold clusters. 1. Formation and particle size variation",
+        "volume": "9",
+        "author": "Duff",
+        "year": "1993",
+        "journal-title": "Langmuir"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0185",
+        "doi-asserted-by": "crossref",
+        "first-page": "4845",
+        "DOI": "10.1021/jf001469g",
+        "article-title": "Kinetics and products of the degradation of chitosan by hydrogen peroxide",
+        "volume": "49",
+        "author": "Chang",
+        "year": "2001",
+        "journal-title": "J. Agric. Food Chem."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0190",
+        "doi-asserted-by": "crossref",
+        "first-page": "2749",
+        "DOI": "10.1007/s11051-010-0162-5",
+        "article-title": "Gold nanorod stabilized by thiolated chitosan as photothermal absorber for cancer cell treatment",
+        "volume": "13",
+        "author": "Wang",
+        "year": "2011",
+        "journal-title": "J. Nanopart. Res."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0195",
+        "doi-asserted-by": "crossref",
+        "first-page": "2173",
+        "DOI": "10.1021/bc3001276",
+        "article-title": "Development of chitosan oligosaccharide-modified gold nanorods for in vivo targeted delivery and noninvasive imaging by NIR irradiation",
+        "volume": "23",
+        "author": "Charan",
+        "year": "2012",
+        "journal-title": "Bioconjug. Chem."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0200",
+        "doi-asserted-by": "crossref",
+        "first-page": "232",
+        "DOI": "10.3390/polym10030232",
+        "article-title": "Biocompatible chitosan oligosaccharide modified gold nanorods as highly effective photothermal agents for ablation of breast cancer cells",
+        "volume": "10",
+        "author": "Manivasagan",
+        "year": "2018",
+        "journal-title": "Polymers"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0205",
+        "doi-asserted-by": "crossref",
+        "first-page": "807",
+        "DOI": "10.1039/C2CC37804C",
+        "article-title": "Tuning LCST with thiol-responsiveness of thermoresponsive copolymers containing pendant disulfides",
+        "volume": "49",
+        "author": "Rahimian-Bajgiran",
+        "year": "2013",
+        "journal-title": "Chem. Commun."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "386",
+        "DOI": "10.1016/j.msec.2014.08.046",
+        "article-title": "Polymerizable disulfide paclitaxel prodrug for controlled drug delivery",
+        "volume": "44",
+        "author": "Ding",
+        "year": "2014",
+        "journal-title": "Mater. Sci. Eng. C"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0215",
+        "doi-asserted-by": "crossref",
+        "first-page": "220",
+        "DOI": "10.1016/j.jconrel.2014.09.009",
+        "article-title": "Well-defined polymer-drug conjugate engineered with redox and pH-sensitive release mechanism for efficient delivery of paclitaxel",
+        "volume": "194",
+        "author": "Lv",
+        "year": "2014",
+        "journal-title": "J. Control. Release"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "14633",
+        "DOI": "10.1021/acsami.7b00294",
+        "article-title": "Anti-EGFR antibody conjugation of fucoidan-coated gold nanorods as novel photothermal ablation agents for cancer therapy",
+        "volume": "9",
+        "author": "Manivasagan",
+        "year": "2017",
+        "journal-title": "ACS Appl. Mater. Interfaces"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0225",
+        "doi-asserted-by": "crossref",
+        "first-page": "6955",
+        "DOI": "10.1016/j.biomaterials.2009.09.008",
+        "article-title": "Synthesis and antitumor activity of doxorubicin conjugated stearic acid-g-chitosan oligosaccharide polymeric micelles",
+        "volume": "30",
+        "author": "Hu",
+        "year": "2009",
+        "journal-title": "Biomaterials"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0230",
+        "doi-asserted-by": "crossref",
+        "first-page": "3636",
+        "DOI": "10.1021/jp064341w",
+        "article-title": "Microscale heat transfer transduced by surface plasmon resonant gold nanoparticles",
+        "volume": "111",
+        "author": "Roper",
+        "year": "2007",
+        "journal-title": "J. Phys. Chem. C"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0235",
+        "doi-asserted-by": "crossref",
+        "first-page": "11709",
+        "DOI": "10.1039/C4DT00424H",
+        "article-title": "Facile synthesis of biocompatible cysteine-coated CuS nanoparticles with high photothermal conversion efficiency for cancer therapy",
+        "volume": "43",
+        "author": "Liu",
+        "year": "2014",
+        "journal-title": "Dalton Trans."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0240",
+        "doi-asserted-by": "crossref",
+        "first-page": "8447",
+        "DOI": "10.1021/am501337s",
+        "article-title": "Effect of pH-responsive alginate/chitosan multilayers coating on delivery efficiency, cellular uptake and biodistribution of mesoporous silica nanoparticles based nanocarriers",
+        "volume": "6",
+        "author": "Feng",
+        "year": "2014",
+        "journal-title": "ACS Appl. Mater. Interfaces"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0245",
+        "first-page": "61",
+        "article-title": "Impact of gold nanoparticles concentration on their cellular uptake by MC3T3-E1 mouse osteoblastic cells as analyzed by transmission electron microscopy",
+        "volume": "2",
+        "author": "Mustafa",
+        "year": "2011",
+        "journal-title": "J. Nanomed. Nanotechnol."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0250",
+        "doi-asserted-by": "crossref",
+        "first-page": "705",
+        "DOI": "10.1364/BOE.9.000705",
+        "article-title": "Modality switching between therapy and imaging based on the excitation wavelength dependence of dual-function agents in folic acid-conjugated graphene oxides",
+        "volume": "9",
+        "author": "Jun",
+        "year": "2018",
+        "journal-title": "Biomed. Opt. Express"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0255",
+        "doi-asserted-by": "crossref",
+        "first-page": "8809",
+        "DOI": "10.1038/s41598-018-27204-8",
+        "article-title": "Photoacoustic imaging-guided photothermal therapy with tumor-targeting HA-FeOOH@ PPy nanorods",
+        "volume": "8",
+        "author": "Phan",
+        "year": "2018",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0260",
+        "doi-asserted-by": "crossref",
+        "first-page": "2000",
+        "DOI": "10.1038/s41598-018-20139-0",
+        "article-title": "In vivo photoacoustic monitoring using 700-nm region Raman source for targeting Prussian blue nanoparticles in mouse tumor model",
+        "volume": "8",
+        "author": "Bui",
+        "year": "2018",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0265",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.1016/j.actbio.2016.04.024",
+        "article-title": "Tumor-targeted and multi-stimuli responsive drug delivery system for near-infrared light induced chemo-phototherapy and photoacoustic tomography",
+        "volume": "38",
+        "author": "Feng",
+        "year": "2016",
+        "journal-title": "Acta Biomater."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0270",
+        "doi-asserted-by": "crossref",
+        "first-page": "1033",
+        "DOI": "10.1021/nn901181c",
+        "article-title": "Exceptionally high payload of doxorubicin in hollow gold nanospheres for near-infrared light-triggered drug release",
+        "volume": "4",
+        "author": "You",
+        "year": "2010",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0275",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0177997",
+        "article-title": "18F-FDG PET/CT-based early treatment response evaluation of nanoparticle-assisted photothermal cancer therapy",
+        "volume": "12",
+        "author": "Norregaard",
+        "year": "2017",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0280",
+        "doi-asserted-by": "crossref",
+        "first-page": "40017",
+        "DOI": "10.1021/acsami.7b11926",
+        "article-title": "BSA–bioinspired gadolinium hybrid-functionalized hollow gold nanoshells for NIRF/PA/CT/MR quadmodal diagnostic imaging-guided photothermal/photodynamic cancer therapy",
+        "volume": "9",
+        "author": "You",
+        "year": "2017",
+        "journal-title": "ACS Appl. Mater. Interfaces"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0285",
+        "doi-asserted-by": "crossref",
+        "first-page": "654",
+        "DOI": "10.1016/j.ijpharm.2012.10.030",
+        "article-title": "Glycyrrhetinic acid-graft-hyaluronic acid conjugate as a carrier for synergistic targeted delivery of antitumor drugs",
+        "volume": "441",
+        "author": "Zhang",
+        "year": "2013",
+        "journal-title": "Int. J. Pharm."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0290",
+        "doi-asserted-by": "crossref",
+        "first-page": "228",
+        "DOI": "10.1016/j.ejps.2017.02.001",
+        "article-title": "Mixed micelles of lipoic acid-chitosan-poly (ethylene glycol) and distearoylphosphatidylethanolamine-poly (ethylene glycol) for tumor delivery",
+        "volume": "101",
+        "author": "Elsaid",
+        "year": "2017",
+        "journal-title": "Eur. J. Pharm. Sci."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0295",
+        "first-page": "3235",
+        "article-title": "Brain-targeting study of stearic acid–grafted chitosan micelle drug-delivery system",
+        "volume": "7",
+        "author": "Xie",
+        "year": "2012",
+        "journal-title": "Int. J. Nanomedicine"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0300",
+        "doi-asserted-by": "crossref",
+        "first-page": "8010",
+        "DOI": "10.1039/c4nr01836b",
+        "article-title": "DNA mediated wire-like clusters of self-assembled TiO 2 nanomaterials: supercapacitor and dye sensitized solar cell applications",
+        "volume": "6",
+        "author": "Nithiyanantham",
+        "year": "2014",
+        "journal-title": "Nanoscale"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0305",
+        "doi-asserted-by": "crossref",
+        "first-page": "11211",
+        "DOI": "10.1021/la7020116",
+        "article-title": "Application of microwave superheating for the synthesis of TiO2 rods",
+        "volume": "23",
+        "author": "Pol",
+        "year": "2007",
+        "journal-title": "Langmuir"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0310",
+        "doi-asserted-by": "crossref",
+        "first-page": "5657",
+        "DOI": "10.1021/am5001823",
+        "article-title": "Multidentate polyethylene glycol modified gold nanorods for in vivo near-infrared photothermal cancer therapy",
+        "volume": "6",
+        "author": "Liu",
+        "year": "2014",
+        "journal-title": "ACS Appl. Mater. Interfaces"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0315",
+        "doi-asserted-by": "crossref",
+        "first-page": "811",
+        "DOI": "10.1002/smll.200902216",
+        "article-title": "Gold nanocages as photothermal transducers for cancer treatment",
+        "volume": "6",
+        "author": "Chen",
+        "year": "2010",
+        "journal-title": "Small"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0320",
+        "doi-asserted-by": "crossref",
+        "first-page": "16781",
+        "DOI": "10.1021/acsami.5b04548",
+        "article-title": "Raman reporter-coupled Agcore@ Aushell nanostars for in vivo improved surface enhanced Raman scattering imaging and near-infrared-triggered photothermal therapy in breast cancers",
+        "volume": "7",
+        "author": "Zeng",
+        "year": "2015",
+        "journal-title": "ACS Appl. Mater. Interfaces"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0325",
+        "doi-asserted-by": "crossref",
+        "first-page": "2560",
+        "DOI": "10.1021/nl201400z",
+        "article-title": "Copper selenide nanocrystals for photothermal therapy",
+        "volume": "11",
+        "author": "Hessel",
+        "year": "2011",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0330",
+        "doi-asserted-by": "crossref",
+        "first-page": "1788",
+        "DOI": "10.1021/nn506687t",
+        "article-title": "Plasmonic copper sulfide nanocrystals exhibiting near-infrared photothermal and photodynamic therapeutic effects",
+        "volume": "9",
+        "author": "Wang",
+        "year": "2015",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0335",
+        "doi-asserted-by": "crossref",
+        "first-page": "12090",
+        "DOI": "10.1021/jp9003592",
+        "article-title": "Photothermal efficiencies of nanoshells and nanorods for clinical therapeutic applications",
+        "volume": "113",
+        "author": "Cole",
+        "year": "2009",
+        "journal-title": "J. Phys. Chem. C"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0340",
+        "doi-asserted-by": "crossref",
+        "first-page": "3811",
+        "DOI": "10.1039/C8TB02823K",
+        "article-title": "A multifunctional near-infrared laser-triggered drug delivery system using folic acid conjugated chitosan oligosaccharide encapsulated gold nanorods for targeted chemo-photothermal therapy",
+        "volume": "7",
+        "author": "Manivasagan",
+        "year": "2019",
+        "journal-title": "J. Mater. Chem. B"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0345",
+        "doi-asserted-by": "crossref",
+        "first-page": "6087",
+        "DOI": "10.1021/acs.chemmater.7b01965",
+        "article-title": "Graphdiyne materials as nanotransducer for in vivo photoacoustic imaging and photothermal therapy of tumor",
+        "volume": "29",
+        "author": "Li",
+        "year": "2017",
+        "journal-title": "Chem. Mater."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0350",
+        "doi-asserted-by": "crossref",
+        "first-page": "4049",
+        "DOI": "10.1002/adma.201001040",
+        "article-title": "Synergistic cancer therapeutic effects of locally delivered drug and heat using multifunctional nanoparticles",
+        "volume": "22",
+        "author": "Lee",
+        "year": "2010",
+        "journal-title": "Adv. Mater."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0355",
+        "doi-asserted-by": "crossref",
+        "first-page": "2204",
+        "DOI": "10.1039/C6DT04308A",
+        "article-title": "Facile fabrication of a magnetically smart PTX-loaded Cys–Fe 3 O 4/CuS@ BSA nano-drug for imaging-guided chemo-photothermal therapy",
+        "volume": "46",
+        "author": "Ren",
+        "year": "2017",
+        "journal-title": "Dalton Trans."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0360",
+        "doi-asserted-by": "crossref",
+        "first-page": "3417",
+        "DOI": "10.1021/nl300395q",
+        "article-title": "Tuning nanoparticle uptake: live-cell imaging reveals two distinct endocytosis mechanisms mediated by natural and artificial EGFR targeting ligand",
+        "volume": "12",
+        "author": "Mickler",
+        "year": "2012",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0365",
+        "doi-asserted-by": "crossref",
+        "first-page": "5464",
+        "DOI": "10.1039/C7TB01253E",
+        "article-title": "Photothermal gold nanocages filled with temperature sensitive tetradecanol and encapsulated with glutathione responsive polycurcumin for controlled DOX delivery to maximize anti-MDR tumor effects",
+        "volume": "5",
+        "author": "Zhang",
+        "year": "2017",
+        "journal-title": "J. Mater. Chem. B"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0370",
+        "doi-asserted-by": "crossref",
+        "first-page": "9484",
+        "DOI": "10.1016/j.biomaterials.2014.07.032",
+        "article-title": "Enhanced intracellular translocation and biodistribution of gold nanoparticles functionalized with a cell-penetrating peptide (VG-21) from vesicular stomatitis virus",
+        "volume": "35",
+        "author": "Tiwari",
+        "year": "2014",
+        "journal-title": "Biomaterials"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0375",
+        "doi-asserted-by": "crossref",
+        "first-page": "14746",
+        "DOI": "10.1039/C7DT02274C",
+        "article-title": "Near-infrared light and pH-responsive Au@ carbon/calcium phosphate nanoparticles for imaging and chemo-photothermal cancer therapy of cancer cells",
+        "volume": "46",
+        "author": "Wang",
+        "year": "2017",
+        "journal-title": "Dalton Trans."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0380",
+        "doi-asserted-by": "crossref",
+        "first-page": "6735",
+        "DOI": "10.1021/nn403096s",
+        "article-title": "Photothermally triggered cytosolic drug delivery via endosome disruption using a functionalized reduced graphene oxide",
+        "volume": "7",
+        "author": "Kim",
+        "year": "2013",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0385",
+        "doi-asserted-by": "crossref",
+        "first-page": "695",
+        "DOI": "10.1002/anie.201206696",
+        "article-title": "Light-addressable capsules as caged compound matrix for controlled triggering of cytosolic reactions",
+        "volume": "52",
+        "author": "Ochs",
+        "year": "2013",
+        "journal-title": "Angew. Chem. Int. Ed."
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0390",
+        "doi-asserted-by": "crossref",
+        "first-page": "1360",
+        "DOI": "10.1016/j.biomaterials.2009.10.044",
+        "article-title": "Partly PEGylated polyamidoamine dendrimer for tumor-selective targeting of doxorubicin: the effects of PEGylation degree and drug conjugation style",
+        "volume": "31",
+        "author": "Zhu",
+        "year": "2010",
+        "journal-title": "Biomaterials"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0395",
+        "doi-asserted-by": "crossref",
+        "first-page": "4747",
+        "DOI": "10.2147/IJN.S82940",
+        "article-title": "Gold nanorods/mesoporous silica-based nanocomposite as theranostic agents for targeting near-infrared imaging and photothermal therapy induced with laser",
+        "volume": "10",
+        "author": "Liu",
+        "year": "2015",
+        "journal-title": "Int. J. Nanomedicine"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0400",
+        "doi-asserted-by": "crossref",
+        "first-page": "79",
+        "DOI": "10.1039/C6NR07528B",
+        "article-title": "Rationally encapsulated gold nanorods improving both linear and nonlinear photoacoustic imaging contrast in vivo",
+        "volume": "9",
+        "author": "Gao",
+        "year": "2017",
+        "journal-title": "Nanoscale"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0405",
+        "doi-asserted-by": "crossref",
+        "first-page": "2056",
+        "DOI": "10.1021/nn400334y",
+        "article-title": "Single-step assembly of DOX/ICG loaded lipid–polymer nanoparticles for highly effective chemo-photothermal combination therapy",
+        "volume": "7",
+        "author": "Zheng",
+        "year": "2013",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0410",
+        "doi-asserted-by": "crossref",
+        "first-page": "1458",
+        "DOI": "10.1126/science.1216210",
+        "article-title": "Photoacoustic tomography: in vivo imaging from organelles to organs",
+        "volume": "335",
+        "author": "Wang",
+        "year": "2012",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0415",
+        "doi-asserted-by": "crossref",
+        "first-page": "12217",
+        "DOI": "10.1021/acsami.6b16705",
+        "article-title": "Hydrophobic IR-780 dye encapsulated in cRGD-conjugated solid lipid nanoparticles for NIR imaging-guided photothermal therapy",
+        "volume": "9",
+        "author": "Kuang",
+        "year": "2017",
+        "journal-title": "ACS Appl. Mater. Interfaces"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0420",
+        "doi-asserted-by": "crossref",
+        "first-page": "352",
+        "DOI": "10.1016/j.biomaterials.2016.07.030",
+        "article-title": "Bacterial magnetic nanoparticles for photothermal therapy of cancer under the guidance of MRI",
+        "volume": "104",
+        "author": "Chen",
+        "year": "2016",
+        "journal-title": "Biomaterials"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0425",
+        "doi-asserted-by": "crossref",
+        "first-page": "6252",
+        "DOI": "10.1021/acsnano.8b03212",
+        "article-title": "Precisely striking tumor without adjacent normal tissue damage via mitochondria-templated accumulation",
+        "volume": "12",
+        "author": "Ma",
+        "year": "2018",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0430",
+        "doi-asserted-by": "crossref",
+        "first-page": "904",
+        "DOI": "10.7150/thno.9448",
+        "article-title": "Theranostic self-assembly structure of gold nanoparticles for NIR photothermal therapy and X-ray computed tomography imaging",
+        "volume": "4",
+        "author": "Deng",
+        "year": "2014",
+        "journal-title": "Theranostics"
+      },
+      {
+        "key": "10.1016/j.jconrel.2019.08.007_bb0435",
+        "doi-asserted-by": "crossref",
+        "first-page": "9610",
+        "DOI": "10.1021/acsami.6b00853",
+        "article-title": "Macrophage cell membrane camouflaged Au nanoshells for in vivo prolonged circulation life and enhanced cancer photothermal therapy",
+        "volume": "8",
+        "author": "Xuan",
+        "year": "2016",
+        "journal-title": "ACS Appl. Mater. Interfaces"
+      }
+    ],
+    "container-title": [
+      "Journal of Controlled Release"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0168365919304717?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0168365919304717?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          18
+        ]
+      ],
+      "date-time": "2023-02-18T19:39:55Z",
+      "timestamp": 1676749195000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0168365919304717"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 87,
+    "alternative-id": [
+      "S0168365919304717"
+    ],
+    "URL": "https://doi.org/10.1016/j.jconrel.2019.08.007",
+    "relation": {},
+    "ISSN": [
+      "0168-3659"
+    ],
+    "issn-type": [
+      {
+        "value": "0168-3659",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Anti-EGFR antibody conjugated thiol chitosan-layered gold nanoshells for dual-modal imaging-guided cancer combination therapy",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Controlled Release",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jconrel.2019.08.007",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 Published by Elsevier B.V.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

@@ -1,0 +1,552 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          1
+        ]
+      ],
+      "date-time": "2024-06-01T09:48:07Z",
+      "timestamp": 1717235287772
+    },
+    "reference-count": 61,
+    "publisher": "Copernicus GmbH",
+    "issue": "20",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              25
+            ]
+          ],
+          "date-time": "2019-10-25T00:00:00Z",
+          "timestamp": 1571961600000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Atmos. Chem. Phys."
+    ],
+    "abstract": "<jats:p>Abstract. The trends of meteorological parameters and surface\ndownward shortwave radiation (DSR) and downward longwave radiation (DLR) were analysed at four\nstations (between 370 and 3580 m a.s.l.) in Switzerland for the 1996–2015\nperiod. Ground temperature, specific humidity, and atmospheric integrated\nwater vapour (IWV) trends were positive during all-sky and cloud-free conditions.\nAll-sky DSR and DLR trends were in the ranges of 0.6–4.3 W m−2 decade−1\nand 0.9–4.3 W m−2 decade−1, respectively, while corresponding\ncloud-free trends were −2.9–3.3 W m−2 decade−1 and 2.9–5.4 W m−2 decade−1. Most trends were significant at the 90 % and 95 %\nconfidence levels. The cloud radiative effect (CRE) was determined using\nradiative-transfer calculations for cloud-free DSR and an empirical scheme\nfor cloud-free DLR. The CRE decreased in magnitude by 0.9–3.1 W m−2 decade−1 (only one trend significant at 90 % confidence level),\nwhich implies a change in macrophysical and/or microphysical cloud\nproperties. Between 10 % and 70 % of the increase in DLR is explained by\nfactors other than ground temperature and IWV. A more detailed, long-term\nquantification of cloud changes is crucial and will be possible in the\nfuture, as cloud cameras have been measuring reliably at two of the four\nstations since 2013.\n                    </jats:p>",
+    "DOI": "10.5194/acp-19-13227-2019",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          25
+        ]
+      ],
+      "date-time": "2019-10-25T11:45:44Z",
+      "timestamp": 1572003944000
+    },
+    "page": "13227-13241",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "Trends in surface radiation and cloud radiative effect  at four Swiss sites for the 1996–2015 period"
+    ],
+    "prefix": "10.5194",
+    "volume": "19",
+    "author": [
+      {
+        "given": "Stephan",
+        "family": "Nyeki",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Stefan",
+        "family": "Wacker",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-0668-1703",
+        "authenticated-orcid": false,
+        "given": "Christine",
+        "family": "Aebi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Julian",
+        "family": "Gröbner",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Giovanni",
+        "family": "Martucci",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-0222-2566",
+        "authenticated-orcid": false,
+        "given": "Laurent",
+        "family": "Vuilleumier",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "3145",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          25
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ackerman, T. P. and Stokes, G. M.: The atmospheric radiation measurement\nprogram, Phys. Today, 56, 38–44, 2003.",
+        "DOI": "10.1063/1.1554135"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aebi, C., Gröbner, J., Kämpfer, N., and Vuilleumier, L.: Cloud radiative effect, cloud fraction and cloud type at two stations in Switzerland using hemispherical sky cameras, Atmos. Meas. Tech., 10, 4587–4600, https://doi.org/10.5194/amt-10-4587-2017, 2017.",
+        "DOI": "10.5194/amt-10-4587-2017"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aebi, C., Gröbner, J., and Kämpfer, N.: Cloud fraction determined by thermal infrared and visible all-sky cameras, Atmos. Meas. Tech., 11, 5549–5563, https://doi.org/10.5194/amt-11-5549-2018, 2018.",
+        "DOI": "10.5194/amt-11-5549-2018"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Augustine, J. A., DeLuisi, J. J., and Long, C. N.: SURFRAD – a national\nsurface radiation budget network for atmospheric research, B.\nAm. Meteorol. Soc., 81, 2341–2357, 2000.",
+        "DOI": "10.1175/1520-0477(2000)081<2341:SANSRB>2.3.CO;2"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Berg, L. K., Kassianov, E. I., Long, C. N., and Mills Jr., D. L.: Surface\nsummertime radiative forcing by shallow cumuli at the Atmospheric Radiation\nMeasurement Southern Great Plains site, J. Geophys. Res., 116, D01202,\nhttps://doi.org/10.1029/2010JD014593, 2011.",
+        "DOI": "10.1029/2010JD014593"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brutsaert, W.: On a derivable formula for long-wave radiation from clear\nskies, Water Resour. Res., 11, 742–744,\nhttps://doi.org/10.1029/WR011i005p00742, 1975.",
+        "DOI": "10.1029/WR011i005p00742"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Driemel, A., Augustine, J., Behrens, K., Colle, S., Cox, C., Cuevas-Agulló, E., Denn, F. M., Duprat, T., Fukuda, M., Grobe, H., Haeffelin, M., Hodges, G., Hyett, N., Ijima, O., Kallis, A., Knap, W., Kustov, V., Long, C. N., Longenecker, D., Lupi, A., Maturilli, M., Mimouni, M., Ntsangwane, L., Ogihara, H., Olano, X., Olefs, M., Omori, M., Passamani, L., Pereira, E. B., Schmithüsen, H., Schumacher, S., Sieger, R., Tamlyn, J., Vogt, R., Vuilleumier, L., Xia, X., Ohmura, A., and König-Langlo, G.: Baseline Surface Radiation Network (BSRN): structure and data description (1992–2017), Earth Syst. Sci. Data, 10, 1491–1501, https://doi.org/10.5194/essd-10-1491-2018, 2018.",
+        "DOI": "10.5194/essd-10-1491-2018"
+      },
+      {
+        "key": "ref8",
+        "unstructured": "Dürr, B.: The greenhouse effect in the Alps by models and observations,\nPh.D. thesis, 81 pp., Swiss Fed. Inst. of Technol. at Zurich, Zurich,\nSwitzerland, 2004."
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dürr, B. and Philipona, R.: Automatic cloud amount detection by surface\nlongwave downward radiation measurements, J. Geophys. Res., 109, D05201,\nhttps://doi.org/10.1029/2003JD004182, 2004.",
+        "DOI": "10.1029/2003JD004182"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fehlmann, A., Kopp, G., Schmutz, W., Winkler, R., Finsterle, W., and Fox,\nN.: Fourth World Radiometric Reference to SI radiometric scale comparison\nand implications for on-orbit measurements of the total solar irradiance,\nMetrologia, 49, S34–S38, https://doi.org/10.1088/0026-1394/49/2/S34, 2012.",
+        "DOI": "10.1088/0026-1394/49/2/S34"
+      },
+      {
+        "key": "ref11",
+        "unstructured": "Forster, P., Ramaswamy, V., Artaxo, P., Berntsen, T., Betts, R., Fahey, D. W., Haywood, J., Lean, J., Lowe, D. C., Myhre, G., Nganga, J., Prinn, R., Raga, G., Schulz, M., and Dorland, R. van: Changes in atmospheric constituents and in radiative\nforcing, in: Climate Change 2007: The Physical Science Basis, edited by: Solomon, S., Qin, D., Manning, M., Marquis, M., Averyt, K.,\nTignor, M. M. B., LeRoy Miller Jr., H., and\nChen, Z., 137–141, Cambridge Univ. Press, Cambridge, UK, 2007."
+      },
+      {
+        "key": "ref12",
+        "unstructured": "Gilbert, R.: Statistical Methods for Environmental Pollution Monitoring, Van\nNostrand Reinhold, New York, 1987."
+      },
+      {
+        "key": "ref13",
+        "unstructured": "Gilgen, H. and Ohmura, A.: The Global Energy Balance Archive, B. Am.\nMeteorol. Soc., 80, 831–850, https://doi.org/10.1175/1520-0477(1999)080&amp;lt;0831:TGEBA&amp;gt;2.0.CO;2, 1999."
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gröbner, J., Wacker, S., Vuilleumier, L., and Kämpfer, N.: Effective\natmospheric boundary layer temperature from longwave radiation measurements,\nJ. Geophys. Res., 114, D19116, https://doi.org/10.1029/2009JD012274, 2009.",
+        "DOI": "10.1029/2009JD012274"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gröbner, J., Reda, I., Wacker, S., Nyeki, S., Behrens, K., and Gorman,\nJ.: A new absolute reference for atmospheric longwave irradiance\nmeasurements with traceability to SI units, J. Geophys. Res., 119, 7083–7090,\nhttps://doi.org/10.1002/2014JD021630, 2014.",
+        "DOI": "10.1002/2014JD021630"
+      },
+      {
+        "key": "ref16",
+        "unstructured": "Gröbner, J., Reda, I., Wacker, S., Nyeki, S., Behrens, K., and Gorman, J.: The 2nd International Pyrgeometer\nIntercomparison, IPgC-II, WMO IOM Report, No. 129, 2018."
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gubler, S., Gruber, S., and Purves, R. S.: Uncertainties of parameterized surface downward clear-sky shortwave and all-sky longwave radiation., Atmos. Chem. Phys., 12, 5077–5098, https://doi.org/10.5194/acp-12-5077-2012, 2012.",
+        "DOI": "10.5194/acp-12-5077-2012"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kazadzis, S., Kouremeti, N., Nyeki, S., Gröbner, J., and Wehrli, C.: The World Optical Depth Research and Calibration Center (WORCC) quality assurance and quality control of GAW-PFR AOD measurements, Geosci. Instrum. Method. Data Syst., 7, 39–53, https://doi.org/10.5194/gi-7-39-2018, 2018.",
+        "DOI": "10.5194/gi-7-39-2018"
+      },
+      {
+        "key": "ref19",
+        "unstructured": "König-Langlo, G., Sieger, R., Schmithüsen, H., Bücker, A.,\nRichter, F., and Dutton, E. G.: The baseline surface radiation network and its\nworld radiation monitoring centre at the Alfred Wegener Institute, GCOS\nReport 174: update of the technical plan for BSRN data management, World\nMeteorological Organization (WMO),\navailable at: https://www.wmo.int/pages/prog/gcos/Publications/gcos-174.pdf (last access: August 2017), 2013."
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Leckner, B.: The spectral distribution of solar radiation at the Earth's\nsurface – elements of a model, Sol. Energy, 20, 143–150, 1978.",
+        "DOI": "10.1016/0038-092X(78)90187-1"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Long, C. N. and Turner, D. D.: A method for continuous estimation of\nclear-sky downwelling longwave radiative flux developed using ARM surface\nmeasurements, J. Geophys. Res., 113, D18206, https://doi.org/10.1029/2008JD009936, 2008.",
+        "DOI": "10.1029/2008JD009936"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ma, Q., Wang, K. C., and Wild, M.: Evaluations of atmospheric downward\nlongwave radiation from 44 coupled general circulation models of CMIP5, J.\nGeophys. Res., 119, 4486–4497, https://doi.org/10.1002/2013JD021427, 2014.",
+        "DOI": "10.1002/2013JD021427"
+      },
+      {
+        "key": "ref23",
+        "unstructured": "Marty, C.: Surface radiation, cloud forcing and greenhouse effect in the\nAlps, Ph.D. thesis, 122 pp., Swiss Fed. Inst. of Technol. at Zurich, Zurich,\nSwitzerland, 2000."
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Marty, C., Philipona, R., Fröhlich, C., and Ohmura, A.: Altitude\ndependence of surface radiation fluxes and cloud forcing in the Alps:\nResults from the alpine surface radiation budget network, Theor.\nAppl. Climatol., 72, 137–154, 2002.",
+        "DOI": "10.1007/s007040200019"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mayer, B. and Kylling, A.: Technical note: The libRadtran software package for radiative transfer calculations – description and examples of use, Atmos. Chem. Phys., 5, 1855–1877, https://doi.org/10.5194/acp-5-1855-2005, 2005.",
+        "DOI": "10.5194/acp-5-1855-2005"
+      },
+      {
+        "key": "ref26",
+        "unstructured": "McArthur, B.: Baseline Surface Radiation Network (BSRN), Operations Manual\nVersion 2.1, WCRP 121, WMO/TD-No. 1274, 2005."
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McFarlane, S., Long, C. N., and Flaherty, J.: A climatology of surface cloud\nradiative effects at the ARM tropical western Pacific sites, J.\nAppl. Meteorol. Climatol., 52, 996–1031,\nhttps://doi.org/10.1175/JAMC-D-12-0189.1, 2012.",
+        "DOI": "10.1175/JAMC-D-12-0189.1"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Meloni, D., Di Biagio, C., Di Sarra, A., Monteleone, F., Pace, G., and\nSferlazzo, D. M.: Accounting for the solar radiation influence on downward\nlongwave irradiance measurements by pyrgeometers, J. Atmos.\nOcean. Technol., 29, 1629–s1643, https://doi.org/10.1175/JTECH-D-11-00216.1, 2012.",
+        "DOI": "10.1175/JTECH-D-11-00216.1"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Morland, J., Liniger, M. A., Kunz, H., Balin, I., Nyeki, S., Mätzler,\nC., and Kämpfer, N.: Comparison of GPS and ERA40 IWV in the Alpine\nregion, including correction of GPS observations at Jungfraujoch (3584 m),\nJ. Geophys. Res., 111, D04102, https://doi.org/10.1029/2005JD006043, 2006.",
+        "DOI": "10.1029/2005JD006043"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nyeki, S., Vuilleumier, L., Morland, J., Bokoye, A., Viatte, P.,\nMätzler, C., and Kämpfer, N.: A 10-year integrated atmospheric water\nvapor record using precision filter radiometers at two high-alpine sites,\nGeophys. Res. Lett., 32, L23803, https://doi.org/10.1029/2005GL024079, 2005.",
+        "DOI": "10.1029/2005GL024079"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nyeki, S., Halios, C. H., Baum, W., Eleftheriadis, K., Flentje, H.,\nGröbner, J., Vuilleumier, L., and Wehrli, C.: Ground-based aerosol\noptical depth trends at three high-altitude sites in Switzerland and\nsouthern Germany from 1995 to 2010, J. Geophys. Res., 117, D18202,\nhttps://doi.org/10.1029/2012JD017493, 2012.",
+        "DOI": "10.1029/2012JD017493"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nyeki, S., Wacker, S., Gröbner, J., Finsterle, W., and Wild, M.: Revising shortwave and longwave radiation archives in view of possible revisions of the WSG and WISG reference scales: methods and implications, Atmos. Meas. Tech., 10, 3057–3071, https://doi.org/10.5194/amt-10-3057-2017, 2017.",
+        "DOI": "10.5194/amt-10-3057-2017"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Parding, K. M., Liepert, B. G., Hinkelman, L. M., Ackerman, T. P., Dagestad,\nK-F., and Olseth, J. A.: Influence of synoptic weather patterns on solar\nirradiance variability in northern Europe, J. Climate, 29, 4229–4250, https://doi.org/10.1175/JCLI-D-15-0476.1, 2016.",
+        "DOI": "10.1175/JCLI-D-15-0476.1"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pepin, N., Bradley, R. S., Diaz, H. F., Baraër, M., Caceres, E. B.,\nForsythe, N., Fowler, H., Greenwood, G., Hashmi, M. Z., Liu, X. D., and\nMiller, J. R.: Elevation-dependent warming in mountain regions of the world,\nNat. Clim. Change, 5, 424, https://doi.org/10.1038/nclimate2563, 2015.",
+        "DOI": "10.1038/nclimate2563"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pfeifroth, U., Sanchez-Lorenzo, A., Manara, V., Trentmann, J., and Hollmann,\nR.: Trends and variability of surface solar radiation in Europe based on\nsurface- and satellite-based data records, J. Geophys. Res., 123, 1735–1754,\nhttps://doi.org/10.1002/2017JD027418, 2018.",
+        "DOI": "10.1002/2017JD027418"
+      },
+      {
+        "key": "ref36",
+        "unstructured": "Philipona, R., Marty, C., and Fröhlich, C.: Measurements of the\nlong-wave radiation budget in the Alps, in: IRS 96: Current Problems in\nAtmospheric Radiation, 786–789, A. Deepak, Hampton, Va., 1996."
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Philipona, R., Dürr, B., Marty, C., Ohmura, A., and Wild, M.: Radiative\nforcing – measured at Earth's surface corroborate the increasing greenhouse\neffect, Geophys. Res. Lett., 31, L03202, https://doi.org/10.1029/2003GL018765,\n2004.",
+        "DOI": "10.1029/2003GL018765"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Philipona, R., Dürr, B., Ohmura, A., and Ruckstuhl, C.: Anthropogenic\ngreenhouse forcing and strong water vapor feedback increase temperature in\nEurope, Geophys. Res. Lett., 32, L19809, https://doi.org/10.1029/2005GL023624,\n2005.",
+        "DOI": "10.1029/2005GL023624"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Prata, A. J.: A new long-wave formula for estimating downward clear-sky\nradiation at the surface, Q. J. Roy. Meteorol.\nSoc., 122, 1127–1151, 1996.",
+        "DOI": "10.1002/qj.49712253306"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Prata, R.: The climatological record of clear-sky longwave radiation at the\nEarth's surface: evidence for water vapour feedback?, J. Remote\nSens., 29, 5247–5263, https://doi.org/10.1080/01431160802036508, 2008.",
+        "DOI": "10.1080/01431160802036508"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ramanathan, V., Cess, R., Harrison, E., Minnis, P., Barkstrom, P., Ahmad,\nA., and Hartmann, D.: Cloud-radiative forcing and climate: Results from the\nEarth Radiation Budget Experiment, Science, 243, 57–63, 1989.",
+        "DOI": "10.1126/science.243.4887.57"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ramanathan, V., Crutzen, P. J., Kiehl, J. T., and Rosenfeld, D.: Aerosols,\nclimate, and the hydrological cycle, Science, 294, 2119–2124, 2001.",
+        "DOI": "10.1126/science.1064034"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Roesch, A., Wild, M., Ohmura, A., Dutton, E. G., Long, C. N., and Zhang, T.: Assessment of BSRN radiation records for the computation of monthly means, Atmos. Meas. Tech., 4, 339–354, https://doi.org/10.5194/amt-4-339-2011, 2011.",
+        "DOI": "10.5194/amt-4-339-2011"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ruckstuhl, C., Philipona, R., Morland, J., and Ohmura, A.: Observed\nrelationship between surface specific humidity, integrated water vapor, and\nlongwave downward radiation at different altitudes, J. Geophys. Res., 112,\nD03302, https://doi.org/10.1029/2006JD007850, 2007.",
+        "DOI": "10.1029/2006JD007850"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sanchez-Lorenzo, A., Enriquez-Alonso, A., Calbo, J., Gonzalez, J-A., Wild,\nM., Folini, D., Norris, J. R., and Vicente-Serrano, S. M.: Fewer clouds in\nthe Mediterranean: consistency of observations and climate simulations,\nSci. Reports, 7, 41475, https://doi.org/10.1038/srep41475, 2017.",
+        "DOI": "10.1038/srep41475"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vuilleumier, L., Hauser, M., Félix, C., Vignola, F., Blanc, P.,\nKazantzidis, A., and Calpini B.: Accuracy of ground surface broadband\nshortwave radiation monitoring, J. Geophys. Res., 119, 13838–13860,\nhttps://doi.org/10.1002/2014JD022335, 2014.",
+        "DOI": "10.1002/2014JD022335"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wacker, S., Gröbner, J., Hocke, K., Kämpfer, N., and Vuilleumier L.:\nTrend analysis of surface clear-sky downwelling long-wave radiation from\nfour Swiss sites, J. Geophys. Res., 116, D10104, https://doi.org/10.1029/2010JD015343,\n2011a.",
+        "DOI": "10.1029/2010JD015343"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wacker, S., Gröbner, J., Nowak, D., Vuilleumier, L., and Kämpfer,\nN.: Cloud effect of persistent stratus nebulosus at the Payerne BSRN site,\nAtmos. Res., 102, 1–9, 2011b.",
+        "DOI": "10.1016/j.atmosres.2011.06.007"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wacker, S., Gröbner, J., and Vuilleumier L.: Trends in surface radiation\nand cloud radiative effect over Switzerland in the past 15 years, AIP\nConference Proc., 1531, 672, https://doi.org/10.1063/1.4804859, 2013.",
+        "DOI": "10.1063/1.4804859"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wacker, S., Gröbner, J., and Vuilleumier, L.: A method to calculate\ncloud-free long-wave irradiance at the surface based on radiative transfer\nmodeling and temperature lapse rate estimates, Theor. Appl.\nClimatol., 115, 551–561, https://doi.org/10.1007/s00704-013-0901-5, 2014.",
+        "DOI": "10.1007/s00704-013-0901-5"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wacker, S., Gröbner, J., Zysset, C., Diener, L., Tzoumanikas, P.,\nKazantzidis, A., Vuilleumier, L., Stöckli, R., Nyeki, S., and\nKämpfer N.: Cloud observations in Switzerland using hemispherical sky\ncameras, J. Geophys. Res., 120, 695–707, https://doi.org/10.1002/2014JD022643, 2015.",
+        "DOI": "10.1002/2014JD022643"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, K. and Dickinson, R. E.: Global atmospheric downward longwave\nradiation at the surface from ground-based observations, satellite\nretrievals, and reanalyses, Rev. Geophys., 51, 150–185, 2013.",
+        "DOI": "10.1002/rog.20009"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, K. C. and Liang, S. L.: Global atmospheric downward longwave radiation\nover land surface under all-sky conditions from 1973 to 2008, J. Geophys.\nRes. 114, D19101, https://doi.org/10.1029/2009JD011800, 2009.",
+        "DOI": "10.1029/2009JD011800"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Weatherhead, E. C., Reinsel, G. C., Tiao, G. C., Meng, X.-Li, Choi, D.,\nCheang, W.-K., Keller, T., DeLuisi, J., Wuebbles, D. J., Kerr, J. B., J.\nMiller, A., Oltmans, S. J., and Frederick, J. E.: Factors affecting the\ndetection of trends: Statistical consideration and applications to\nenvironmental data, J. Geophys. Res., 103, 17149–17161,\nhttps://doi.org/10.1029/98JD00995, 1998.",
+        "DOI": "10.1029/98JD00995"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wijngaard, J. B., Klein Tank, A. M. G., and Können G. P.: Homogeneity of\n20th century European daily temperature and precipitation series,\nInt. J. Climatol., 23, 679–692, https://doi.org/10.1002/joc.906,\n2003.",
+        "DOI": "10.1002/joc.906"
+      },
+      {
+        "key": "ref56",
+        "unstructured": "Wilcox, R. R.: Theil-Sen Estimator, in Introduction to Robust Estimation and\nHypothesis Testing, Academic Press, 423–427, ISBN 978-0-12-751542-7,\n2005."
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wild, M.: Global dimming and brightening: A review, J. Geophys. Res., 114,\nD00D16, https://doi.org/10.1029/2008JD011470, 2009.",
+        "DOI": "10.1029/2008JD011470"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wild, M.: Decadal changes in radiative fluxes at land and ocean surfaces and\ntheir relevance for global warming, WIREs Clim. Change, 7, 91–107,\nhttps://doi.org/10.1002/wcc.372, 2016a.",
+        "DOI": "10.1002/wcc.372"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wild, M.: Changes in shortwave and longwave radiative fluxes as observed at\nBSRN sites and simulated with CMIP5 models, AIP Conference Proc.,\n1810, 090014-1, https://doi.org/10.1063/1.4975554, 2016b.",
+        "DOI": "10.1063/1.4975554"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wild, M., Hakuba, M. Z., Folini, D., Schär, C., and Long, C.: New\nestimates of the Earth radiation budget under cloud-free conditions and\ncloud radiative effects, AIP Conference Proc., 1810, 090012,\nhttps://doi.org/10.1063/1.4975552, 2017.",
+        "DOI": "10.1063/1.4975552"
+      },
+      {
+        "key": "ref61",
+        "unstructured": "WMO: CIMO-XIV, Activity Report, 7–14 December 2006, WMO No. 1019 (Part II),\n2006."
+      }
+    ],
+    "container-title": [
+      "Atmospheric Chemistry and Physics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://acp.copernicus.org/articles/19/13227/2019/acp-19-13227-2019.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          15
+        ]
+      ],
+      "date-time": "2020-09-15T06:16:41Z",
+      "timestamp": 1600150601000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://acp.copernicus.org/articles/19/13227/2019/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          25
+        ]
+      ]
+    },
+    "references-count": 61,
+    "journal-issue": {
+      "issue": "20",
+      "published-online": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.5194/acp-19-13227-2019",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/acp-2018-1096",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/acp-2018-1096",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "1680-7324"
+    ],
+    "issn-type": [
+      {
+        "value": "1680-7324",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          25
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_13,Stochastic simulation optimization: an optimal computing budget allocation,Stochastic Simulation Optimization,70,10.1142/7437,https://w3id.org/oc/meta/br/062402767038,year_and_doi
+ref_17,Optimal statistical decisions,Optimal Statistical Decisions,65,10.1002/0471729000,https://w3id.org/oc/meta/br/061303304201,author_title
+ref_25,Multi-armed bandit allocation indices,Multi‐Armed Bandit Allocation Indices,65,10.1002/9780470980033,https://w3id.org/oc/meta/br/0622057521,year_and_doi
+ref_30,Decisions with multiple objectives: preferences and value trade-offs,Decisions With Multiple Objectives,70,10.1017/cbo9781139174084,https://w3id.org/oc/meta/br/061302856793,year_and_doi
+ref_33,Automatica,Development Of Knowledge-based Method To Automatically Derive The Deformation Estimation Formula Due To Line Heating,70,10.5781/kwjs.2010.28.1.092,https://w3id.org/oc/meta/br/06602611539,author_title
+ref_34,IIE Trans,Guidelines For Reporting Computational Results Iniie Transactions,50,10.1080/07408179308964335,https://w3id.org/oc/meta/br/062601230141,author_title

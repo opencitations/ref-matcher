@@ -1,0 +1,983 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2024-11-19T17:47:14Z",
+      "timestamp": 1732038434560
+    },
+    "reference-count": 63,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "91547205",
+          "91647110",
+          "51579181"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002367",
+        "name": "Chinese Academy of Sciences",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "XDA20060402"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002367",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012492",
+        "name": "Youth Innovation Promotion Association",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2017074"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012492",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Hydrology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jhydrol.2019.123973",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          21
+        ]
+      ],
+      "date-time": "2019-07-21T13:31:10Z",
+      "timestamp": 1563715870000
+    },
+    "page": "123973",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 19,
+    "special_numbering": "C",
+    "title": [
+      "Comparison of different methods for detecting change points in hydroclimatic time series"
+    ],
+    "prefix": "10.1016",
+    "volume": "577",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0003-1299-1457",
+        "authenticated-orcid": false,
+        "given": "Ping",
+        "family": "Xie",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Haiting",
+        "family": "Gu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-2332-1547",
+        "authenticated-orcid": false,
+        "given": "Yan-Fang",
+        "family": "Sang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ziyi",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Vijay P.",
+        "family": "Singh",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "6903",
+        "key": "10.1016/j.jhydrol.2019.123973_b0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "224",
+        "DOI": "10.1038/nature01092",
+        "article-title": "Constraints on future changes in climate and the hydrologic cycle",
+        "volume": "419",
+        "author": "Allen",
+        "year": "2002",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jhydrol.2019.123973_b0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "1174",
+        "DOI": "10.1214/aoms/1177705688",
+        "article-title": "Rank-sum tests for dispersions",
+        "volume": "31",
+        "author": "Ansari",
+        "year": "1960",
+        "journal-title": "Ann. Math. Stat."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jhydrol.2019.123973_b0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "432",
+        "DOI": "10.1007/BF02368250",
+        "article-title": "Evaluating rescaled range analysis for time series",
+        "volume": "22",
+        "author": "Bassingthwaighte",
+        "year": "1994",
+        "journal-title": "Ann. Biomed. Eng."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jhydrol.2019.123973_b0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "D1093",
+        "DOI": "10.1029/2002WR001846",
+        "article-title": "Adjusting measured peak discharges from an urbanizing watershed to reflect a stationary land use signal",
+        "volume": "39",
+        "author": "Beighley",
+        "year": "2003",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jhydrol.2019.123973_b0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.1080/00401706.1974.10489158",
+        "article-title": "The small sample behavior of some statistics which test the equality of several means",
+        "volume": "16",
+        "author": "Brown",
+        "year": "1974",
+        "journal-title": "Technometrics"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jhydrol.2019.123973_b0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "51",
+        "DOI": "10.1016/0022-1694(84)90032-5",
+        "article-title": "Tests for detecting a shift in the mean of hydrological time series",
+        "volume": "73",
+        "author": "Buishand",
+        "year": "1984",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jhydrol.2019.123973_b0035",
+        "first-page": "41",
+        "article-title": "Improvement of sequential cluster analysis method for extracting turning point of time series (in Chinese with English abstract)",
+        "volume": "31",
+        "author": "Chen",
+        "year": "2011",
+        "journal-title": "J. China Hydrol."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jhydrol.2019.123973_b0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "353",
+        "DOI": "10.1007/s10584-014-1254-5",
+        "article-title": "Non-stationary extreme value analysis in a changing climate",
+        "volume": "127",
+        "author": "Cheng",
+        "year": "2014",
+        "journal-title": "Clim. Change"
+      },
+      {
+        "issue": "16",
+        "key": "10.1016/j.jhydrol.2019.123973_b0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "375",
+        "DOI": "10.1029/2008GL035075",
+        "article-title": "Climate change hotspots in the United States",
+        "volume": "35",
+        "author": "Diffenbaugh",
+        "year": "2008",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jhydrol.2019.123973_b0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "290",
+        "DOI": "10.1029/2003WR002456",
+        "article-title": "Multivariate hydrological frequency analysis using copulas",
+        "volume": "40",
+        "author": "Favre",
+        "year": "2004",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "7–8",
+        "key": "10.1016/j.jhydrol.2019.123973_b0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "2033",
+        "DOI": "10.1007/s00382-013-2026-z",
+        "article-title": "Cause of severe droughts in Southwest China during 1951–2010",
+        "volume": "43",
+        "author": "Feng",
+        "year": "2014",
+        "journal-title": "Clim. Dynam."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.123973_b0060",
+        "series-title": "Modes of Parametric Statistical Inference",
+        "author": "Geisser",
+        "year": "2006"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jhydrol.2019.123973_b0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "172",
+        "DOI": "10.1016/j.gloplacha.2012.10.014",
+        "article-title": "Analysis of changes in meteorological variables using Mann-Kendall and Sen's slope estimator statistical tests in Serbia",
+        "volume": "100",
+        "author": "Gocic",
+        "year": "2013",
+        "journal-title": "Global Planet. Change"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.jhydrol.2019.123973_b0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "5899",
+        "DOI": "10.1002/2016WR020218",
+        "article-title": "Temporal information partitioning networks (tipnets): a process network approach to infer ecohydrologic shifts",
+        "volume": "53",
+        "author": "Goodwell",
+        "year": "2017",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.123973_b0075",
+        "series-title": "Climate Change 2013: The Physical Science Basis, Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change",
+        "author": "IPCC",
+        "year": "2013"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.jhydrol.2019.123973_b0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "742",
+        "DOI": "10.1038/ngeo1896",
+        "article-title": "Rising river flows throughout the twenty-first century in two Himalayan glacierized watersheds",
+        "volume": "6",
+        "author": "Immerzeel",
+        "year": "2013",
+        "journal-title": "Nat. Geosci."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.123973_b0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "1225",
+        "DOI": "10.1002/hyp.11087",
+        "article-title": "Development of spatial regression models for predicting summer river temperatures from landscape characteristics: implications for land and fisheries management",
+        "volume": "31",
+        "author": "Jackson",
+        "year": "2016",
+        "journal-title": "Hydrol. Process"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.123973_b0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "831",
+        "DOI": "10.1016/j.jhydrol.2016.04.043",
+        "article-title": "Abrupt change point detection of annual maximum precipitation using fused lasso",
+        "volume": "538",
+        "author": "Jeon",
+        "year": "2016",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jhydrol.2019.123973_b0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "1853",
+        "DOI": "10.1007/s11069-015-1679-9",
+        "article-title": "Increase in flood and drought disasters during 1500–2000 in Southwest China",
+        "volume": "77",
+        "author": "Ji",
+        "year": "2015",
+        "journal-title": "Nat. Hazards"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.123973_b0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "63",
+        "DOI": "10.1016/j.jhydrol.2016.03.065",
+        "article-title": "Bayesian analysis to detect abrupt changes in extreme hydrological processes",
+        "volume": "538",
+        "author": "Jo",
+        "year": "2016",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.123973_b0105",
+        "series-title": "Kendall’s Advanced Theory of Statistics: Volume 2A-Classical Inference and the Linear Model (Kendall’s Library of Statistics)",
+        "author": "Kendall",
+        "year": "1999"
+      },
+      {
+        "issue": "D13",
+        "key": "10.1016/j.jhydrol.2019.123973_b0110",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2007JD008522",
+        "article-title": "A bivariate frequency analysis of extreme rainfall with implications for design",
+        "volume": "112",
+        "author": "Kao",
+        "year": "2007",
+        "journal-title": "J. Geophys. Res.: Atmos."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jhydrol.2019.123973_b0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "362",
+        "DOI": "10.1016/j.jhydrol.2014.03.005",
+        "article-title": "Comparison of Mann-Kendall and innovative trend method for water quality parameters of the Kizilirmak River",
+        "volume": "513",
+        "author": "Kisi",
+        "year": "2014",
+        "journal-title": "Turkey. J. Hydrol."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jhydrol.2019.123973_b0120",
+        "first-page": "503",
+        "article-title": "A shift of the mean level in a sequence of independent normal random variables: a Bayesian approach",
+        "volume": "19",
+        "author": "Lee",
+        "year": "1977",
+        "journal-title": "Technometrics"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.123973_b0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "297",
+        "DOI": "10.1016/j.jhydrol.2014.04.036",
+        "article-title": "Methods for detecting change in hydrochemical time series in response to targeted pollutant mitigation in river catchments",
+        "volume": "514",
+        "author": "Lloyd",
+        "year": "2014",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.jhydrol.2019.123973_b0130",
+        "doi-asserted-by": "crossref",
+        "first-page": "3189",
+        "DOI": "10.5194/hess-17-3189-2013",
+        "article-title": "Non-stationary flood frequency analysis in continental Spanish rivers, using climate and reservoir indices as external covariates",
+        "volume": "17",
+        "author": "López",
+        "year": "2013",
+        "journal-title": "Hydrol. Earth Syst. Sci."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.jhydrol.2019.123973_b0135",
+        "doi-asserted-by": "crossref",
+        "first-page": "587",
+        "DOI": "10.1038/nclimate2237",
+        "article-title": "Consistent increase in High Asia's runoff due to increasing glacier melt and precipitation",
+        "volume": "4",
+        "author": "Lutz",
+        "year": "2014",
+        "journal-title": "Nat. Clim. Change"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jhydrol.2019.123973_b0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "245",
+        "DOI": "10.1080/02626667.2015.1008482",
+        "article-title": "A simulation study to examine the sensitivity of the Pettitt test to detect abrupt changes in mean",
+        "volume": "61",
+        "author": "Mallakpour",
+        "year": "2016",
+        "journal-title": "Int. Assoc. Sci. Hydrol."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jhydrol.2019.123973_b0145",
+        "doi-asserted-by": "crossref",
+        "first-page": "967",
+        "DOI": "10.1029/WR005i005p00967",
+        "article-title": "Robustness of the rescaled range R/S in the measurement of noncyclic long run statistical dependence",
+        "volume": "5",
+        "author": "Mandelbrot",
+        "year": "1969",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "24",
+        "key": "10.1016/j.jhydrol.2019.123973_b0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "2185",
+        "DOI": "10.1029/2002GL015999",
+        "article-title": "A step increase in streamflow in the conterminous United States",
+        "volume": "29",
+        "author": "McCabe",
+        "year": "2002",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.123973_b0155",
+        "series-title": "Modeling Hydrologic Change: Statistical Methods",
+        "author": "McCuen",
+        "year": "2016"
+      },
+      {
+        "issue": "5863",
+        "key": "10.1016/j.jhydrol.2019.123973_b0160",
+        "doi-asserted-by": "crossref",
+        "first-page": "573",
+        "DOI": "10.1126/science.1151915",
+        "article-title": "Stationarity is dead: whither water management?",
+        "volume": "319",
+        "author": "Milly",
+        "year": "2008",
+        "journal-title": "Science"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jhydrol.2019.123973_b0165",
+        "doi-asserted-by": "crossref",
+        "first-page": "416",
+        "DOI": "10.1111/mice.12059",
+        "article-title": "Localized structural damage detection: a change point analysis",
+        "volume": "29",
+        "author": "Nigro",
+        "year": "2014",
+        "journal-title": "Comput-Aided Civ. Inf."
+      },
+      {
+        "issue": "3–4",
+        "key": "10.1016/j.jhydrol.2019.123973_b0170",
+        "doi-asserted-by": "crossref",
+        "first-page": "221",
+        "DOI": "10.1016/S0022-1694(00)00270-5",
+        "article-title": "Bayesian change-point analysis in hydrometeorological time series. Part 1. The normal model revisited",
+        "volume": "235",
+        "author": "Perreault",
+        "year": "2000",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "issue": "3–4",
+        "key": "10.1016/j.jhydrol.2019.123973_b0175",
+        "doi-asserted-by": "crossref",
+        "first-page": "242",
+        "DOI": "10.1016/S0022-1694(00)00271-7",
+        "article-title": "Bayesian change-point analysis in hydrometeorological time series. Part 2. Comparison of change-point models and forecasting",
+        "volume": "235",
+        "author": "Perreault",
+        "year": "2000",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jhydrol.2019.123973_b0180",
+        "first-page": "126",
+        "article-title": "A non-parametric approach to the change-point problem",
+        "volume": "28",
+        "author": "Pettitt",
+        "year": "1979",
+        "journal-title": "J. Roy. Stat. Soc."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.123973_b0185",
+        "article-title": "Hydrology: principles, analysis and design",
+        "author": "Raghunath",
+        "year": "2006",
+        "journal-title": "New Age Int."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jhydrol.2019.123973_b0190",
+        "doi-asserted-by": "crossref",
+        "first-page": "897",
+        "DOI": "10.1016/j.advwatres.2006.08.001",
+        "article-title": "Use of a Gaussian copula for multivariate extreme value analysis: some case studies in hydrology",
+        "volume": "30",
+        "author": "Renard",
+        "year": "2007",
+        "journal-title": "Adv. Water Resour."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jhydrol.2019.123973_b0195",
+        "doi-asserted-by": "crossref",
+        "first-page": "1184",
+        "DOI": "10.1080/10807039.2010.512261",
+        "article-title": "Probabilistic forecast and uncertainty assessment of hydrologic design values using Bayesian theories",
+        "volume": "16",
+        "author": "Sang",
+        "year": "2010",
+        "journal-title": "Hum. Ecol. Risk Assess."
+      },
+      {
+        "issue": "14",
+        "key": "10.1016/j.jhydrol.2019.123973_b0200",
+        "doi-asserted-by": "crossref",
+        "first-page": "5061",
+        "DOI": "10.1175/JCLI-D-12-00523.1",
+        "article-title": "Temporal-spatial climate variability in the headwater drainage basins of the yangtze river and yellow river China",
+        "volume": "26",
+        "author": "Sang",
+        "year": "2013",
+        "journal-title": "J. Climate"
+      },
+      {
+        "issue": "15",
+        "key": "10.1016/j.jhydrol.2019.123973_b0205",
+        "doi-asserted-by": "crossref",
+        "first-page": "8820",
+        "DOI": "10.1002/2016JD025370",
+        "article-title": "Precipitation variability and response to changing climatic condition in the Yarlung Tsangpo River basin China",
+        "volume": "121",
+        "author": "Sang",
+        "year": "2016",
+        "journal-title": "J. Geophys. Res.: Atmos."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jhydrol.2019.123973_b0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "1291",
+        "DOI": "10.1007/s11069-016-2614-4",
+        "article-title": "Urban waterlogs control in China: more effective strategies and actions are needed",
+        "volume": "85",
+        "author": "Sang",
+        "year": "2017",
+        "journal-title": "Nat. Hazards"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jhydrol.2019.123973_b0215",
+        "doi-asserted-by": "crossref",
+        "first-page": "105",
+        "DOI": "10.1198/0003130031441",
+        "article-title": "Fixing the F test for equal variances",
+        "volume": "57",
+        "author": "Shoemaker",
+        "year": "2003",
+        "journal-title": "Am. Stat."
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.123973_b0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "1136",
+        "DOI": "10.1016/j.jhydrol.2016.07.034",
+        "article-title": "Investigating anthropically induced effects in streamflow dynamics by using permutation entropy and statistical complexity analysis: a case study",
+        "volume": "540",
+        "author": "Stosic",
+        "year": "2016",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "issue": "5–6",
+        "key": "10.1016/j.jhydrol.2019.123973_b0225",
+        "doi-asserted-by": "crossref",
+        "first-page": "1769",
+        "DOI": "10.1007/s00382-016-3171-y",
+        "article-title": "Decreasing monsoon precipitation in southwest China during the last 240 years associated with the warming of tropical ocean",
+        "volume": "48",
+        "author": "Tan",
+        "year": "2017",
+        "journal-title": "Clim. Dynam."
+      },
+      {
+        "issue": "28",
+        "key": "10.1016/j.jhydrol.2019.123973_b0230",
+        "doi-asserted-by": "crossref",
+        "first-page": "10536",
+        "DOI": "10.1073/pnas.0603900103",
+        "article-title": "Abrupt tropical climate change: past and present",
+        "volume": "103",
+        "author": "Thompson",
+        "year": "2006",
+        "journal-title": "P. Natl. Acad. Sci. USA"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.123973_b0235",
+        "doi-asserted-by": "crossref",
+        "first-page": "1437",
+        "DOI": "10.1175/BAMS-86-10-1437",
+        "article-title": "Uncertainties in climate trends: lessons from upper-air temperature records",
+        "volume": "86",
+        "author": "Thorne",
+        "year": "2005",
+        "journal-title": "Bull. Am. Meteorol. Soc."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jhydrol.2019.123973_b0240",
+        "doi-asserted-by": "crossref",
+        "first-page": "626",
+        "DOI": "10.1080/02626667.2016.1252841",
+        "article-title": "Analysis of dam-induced cyclic patterns on river flow dynamics",
+        "volume": "62",
+        "author": "Tongal",
+        "year": "2017",
+        "journal-title": "Hydrol. Sci. J."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jhydrol.2019.123973_b0245",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1038/nclimate2067",
+        "article-title": "Global warming and changes in drought",
+        "volume": "4",
+        "author": "Trenberth",
+        "year": "2014",
+        "journal-title": "Nat. Clim. Change"
+      },
+      {
+        "issue": "7612",
+        "key": "10.1016/j.jhydrol.2019.123973_b0250",
+        "doi-asserted-by": "crossref",
+        "first-page": "411",
+        "DOI": "10.1038/nature18645",
+        "article-title": "Absence of 21st century warming on Antarctic Peninsula consistent with natural variability",
+        "volume": "535",
+        "author": "Turner",
+        "year": "2016",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.jhydrol.2019.123973_b0255",
+        "doi-asserted-by": "crossref",
+        "first-page": "629",
+        "DOI": "10.1175/1520-0477(1999)080<0629:COSASM>2.0.CO;2",
+        "article-title": "Choice of South Asian summer monsoon indices",
+        "volume": "80",
+        "author": "Wang",
+        "year": "1999",
+        "journal-title": "Bull. Amer. Meteor. Soc."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jhydrol.2019.123973_b0260",
+        "doi-asserted-by": "crossref",
+        "first-page": "107",
+        "DOI": "10.1002/rra.636",
+        "article-title": "The distribution and turnover of benthic organic matter in a lowland river: influence of hydrology, seston load and impoundment",
+        "volume": "18",
+        "author": "Wanner",
+        "year": "2002",
+        "journal-title": "River Res. Appl."
+      },
+      {
+        "issue": "1/2",
+        "key": "10.1016/j.jhydrol.2019.123973_b0265",
+        "doi-asserted-by": "crossref",
+        "first-page": "28",
+        "DOI": "10.2307/2332510",
+        "article-title": "The generalization ofstudent's' problem when several different population variances are involved",
+        "volume": "34",
+        "author": "Welch",
+        "year": "1947",
+        "journal-title": "Biometrika"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jhydrol.2019.123973_b0270",
+        "doi-asserted-by": "crossref",
+        "first-page": "W02419",
+        "DOI": "10.1029/2005WR004065",
+        "article-title": "A framework for assessing uncertainties in climate change impacts: low-flow scenarios for the River Thames UK",
+        "volume": "42",
+        "author": "Wilby",
+        "year": "2006",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jhydrol.2019.123973_b0275",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1007/BF02930866",
+        "article-title": "Weakening of Indian summer monsoon in recent decades",
+        "volume": "22",
+        "author": "Wu",
+        "year": "2005",
+        "journal-title": "Adv. Atmos. Sci."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jhydrol.2019.123973_b0280",
+        "doi-asserted-by": "crossref",
+        "first-page": "591",
+        "DOI": "10.1007/s11269-004-9130-0",
+        "article-title": "Review on regional water resources assessment models under stationary and changing climate",
+        "volume": "18",
+        "author": "Xu",
+        "year": "2004",
+        "journal-title": "Water Resour. Manag."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.jhydrol.2019.123973_b0285",
+        "doi-asserted-by": "crossref",
+        "first-page": "663",
+        "DOI": "10.1038/nclimate1580",
+        "article-title": "Different glacier status with atmospheric circulations in Tibetan Plateau and surroundings",
+        "volume": "2",
+        "author": "Yao",
+        "year": "2012",
+        "journal-title": "Nat. Clim. Change"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jhydrol.2019.123973_b0290",
+        "doi-asserted-by": "crossref",
+        "first-page": "525",
+        "DOI": "10.1002/rog.20023",
+        "article-title": "A review of climatic controls on δ18O in precipitation over the Tibetan Plateau: observations and simulations",
+        "volume": "51",
+        "author": "Yao",
+        "year": "2013",
+        "journal-title": "Rev. Geophys."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jhydrol.2019.123973_b0295",
+        "doi-asserted-by": "crossref",
+        "first-page": "D1068",
+        "DOI": "10.1029/2001WR000861",
+        "article-title": "Applicability of prewhitening to eliminate the influence of serial correlation on the Mann-Kendall test",
+        "volume": "38",
+        "author": "Yue",
+        "year": "2002",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "issue": "15",
+        "key": "10.1016/j.jhydrol.2019.123973_b0300",
+        "doi-asserted-by": "crossref",
+        "first-page": "8500",
+        "DOI": "10.1002/jgrd.50665",
+        "article-title": "Discharge regime and simulation for the upstream of major rivers over Tibetan Plateau",
+        "volume": "118",
+        "author": "Zhang",
+        "year": "2013",
+        "journal-title": "J. Geophys. Res.: Atmos."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jhydrol.2019.123973_b0305",
+        "doi-asserted-by": "crossref",
+        "first-page": "305",
+        "DOI": "10.1002/hyp.9576",
+        "article-title": "Trend, periodicity and abrupt change in streamflow of the East River, the Pearl River basin",
+        "volume": "28",
+        "author": "Zhang",
+        "year": "2014",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "issue": "538",
+        "key": "10.1016/j.jhydrol.2019.123973_b0310",
+        "doi-asserted-by": "crossref",
+        "first-page": "269",
+        "DOI": "10.1016/j.jhydrol.2016.04.026",
+        "article-title": "Using glacier area ratio to quantify effects of melt water on runoff",
+        "volume": "538",
+        "author": "Zhang",
+        "year": "2016",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jhydrol.2019.123973_b0315",
+        "doi-asserted-by": "crossref",
+        "first-page": "225",
+        "DOI": "10.1007/s12665-012-1949-8",
+        "article-title": "Characteristics and causes of changes in annual runoff of the Wuding river in 1956–2009",
+        "volume": "69",
+        "author": "Zhou",
+        "year": "2012",
+        "journal-title": "Environ. Earth Sci."
+      }
+    ],
+    "container-title": [
+      "Journal of Hydrology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0022169419306936?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0022169419306936?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2021-01-13T19:31:06Z",
+      "timestamp": 1610566266000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0022169419306936"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 63,
+    "alternative-id": [
+      "S0022169419306936"
+    ],
+    "URL": "https://doi.org/10.1016/j.jhydrol.2019.123973",
+    "relation": {},
+    "ISSN": [
+      "0022-1694"
+    ],
+    "issn-type": [
+      {
+        "value": "0022-1694",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Comparison of different methods for detecting change points in hydroclimatic time series",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Hydrology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jhydrol.2019.123973",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 Elsevier B.V. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "123973"
+  }
+}

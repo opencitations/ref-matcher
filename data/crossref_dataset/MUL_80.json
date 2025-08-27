@@ -1,0 +1,501 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2024-11-19T17:50:07Z",
+      "timestamp": 1732038607114
+    },
+    "reference-count": 19,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              2
+            ]
+          ],
+          "date-time": "2019-10-02T00:00:00Z",
+          "timestamp": 1569974400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              2
+            ]
+          ],
+          "date-time": "2019-10-02T00:00:00Z",
+          "timestamp": 1569974400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sci Rep"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Obsessive and Compulsive Symptoms (OCS) or Obsessive Compulsive Disorder (OCD) in the context of schizophrenia or related disorders are of clinical importance as these are associated with a range of adverse outcomes. Natural Language Processing (NLP) applied to Electronic Health Records (EHRs) presents an opportunity to create large datasets to facilitate research in this area. This is a challenging endeavour however, because of the wide range of ways in which these symptoms are recorded, and the overlap of terms used to describe OCS with those used to describe other conditions. We developed an NLP algorithm to extract OCS information from a large mental healthcare EHR data resource at the South London and Maudsley NHS Foundation Trust using its Clinical Record Interactive Search (CRIS) facility. We extracted documents from individuals who had received a diagnosis of schizophrenia, schizoaffective disorder, or bipolar disorder. These text documents, annotated by human coders, were used for developing and refining the NLP algorithm (600 documents) with an additional set reserved for final validation (300 documents). The developed NLP algorithm utilized a rules-based approach to identify each of symptoms associated with OCS, and then combined them to determine the overall number of instances of OCS. After its implementation, the algorithm was shown to identify OCS with a precision and recall (with 95% confidence intervals) of 0.77 (0.65–0.86) and 0.67 (0.55–0.77) respectively. The development of this application demonstrated the potential to extract complex symptomatic data from mental healthcare EHRs using NLP to facilitate further analyses of these clinical symptoms and their relevance for prognosis and intervention response.</jats:p>",
+    "DOI": "10.1038/s41598-019-49165-2",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          2
+        ]
+      ],
+      "date-time": "2019-10-02T10:06:02Z",
+      "timestamp": 1570010762000
+    },
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 30,
+    "title": [
+      "Use of Natural Language Processing to identify Obsessive Compulsive Symptoms in patients with schizophrenia, schizoaffective disorder or bipolar disorder"
+    ],
+    "prefix": "10.1038",
+    "volume": "9",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0002-0123-666X",
+        "authenticated-orcid": false,
+        "given": "David",
+        "family": "Chandran",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Deborah Ahn",
+        "family": "Robbins",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-8338-7196",
+        "authenticated-orcid": false,
+        "given": "Chin-Kuo",
+        "family": "Chang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hitesh",
+        "family": "Shetty",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jyoti",
+        "family": "Sanyal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-8061-295X",
+        "authenticated-orcid": false,
+        "given": "Johnny",
+        "family": "Downs",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marcella",
+        "family": "Fok",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael",
+        "family": "Ball",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Richard",
+        "family": "Jackson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Robert",
+        "family": "Stewart",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hannah",
+        "family": "Cohen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jentien M.",
+        "family": "Vermeulen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Frederike",
+        "family": "Schirmbeck",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lieuwe",
+        "family": "de Haan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Richard",
+        "family": "Hayes",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          2
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "49165_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "547",
+        "DOI": "10.1111/joim.12119",
+        "volume": "274",
+        "author": "P Coorevits",
+        "year": "2013",
+        "unstructured": "Coorevits, P. et al. Electronic health records: new opportunities for clinical research. J. internal medicine 274, 547–560 (2013).",
+        "journal-title": "J. internal medicine"
+      },
+      {
+        "key": "49165_CR2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-244X-9-51",
+        "volume": "9",
+        "author": "R Stewart",
+        "year": "2009",
+        "unstructured": "Stewart, R. et al. The south london and maudsley nhs foundation trust biomedical research centre (slam brc) case register: development and descriptive data. BMC psychiatry 9, 51 (2009).",
+        "journal-title": "BMC psychiatry"
+      },
+      {
+        "key": "49165_CR3",
+        "unstructured": "Nikiforou, A., Ponirou, P. & Diomidous, M. Medical data analysis and coding using natural language processing techniques in order to derive structured data information. In ICIMTH, 53–55 (2013)."
+      },
+      {
+        "key": "49165_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1145/505282.505283",
+        "volume": "34",
+        "author": "F Sebastiani",
+        "year": "2002",
+        "unstructured": "Sebastiani, F. Machine learning in automated text categorization. ACM computing surveys (CSUR) 34, 1–47 (2002).",
+        "journal-title": "ACM computing surveys (CSUR)"
+      },
+      {
+        "key": "49165_CR5",
+        "unstructured": "Wu, F. & Weld, D. S. Open information extraction using wikipedia. In Proceedings of the 48th annual meeting of the association for computational linguistics, 118–127 (Association for Computational Linguistics, 2010)."
+      },
+      {
+        "key": "49165_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/0010-0285(72)90002-3",
+        "volume": "3",
+        "author": "T Winograd",
+        "year": "1972",
+        "unstructured": "Winograd, T. Understanding natural language. Cogn. psychology 3, 1–191 (1972).",
+        "journal-title": "Cogn. psychology"
+      },
+      {
+        "key": "49165_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "e008721",
+        "DOI": "10.1136/bmjopen-2015-008721",
+        "volume": "6",
+        "author": "G Perera",
+        "year": "2016",
+        "unstructured": "Perera, G. et al. Cohort profile of the south london and maudsley nhs foundation trust biomedical research centre (slam brc) case register: current status and recent enhancement of an electronic mental health record-derived data resource. BMJ open 6, e008721 (2016).",
+        "journal-title": "BMJ open"
+      },
+      {
+        "key": "49165_CR8",
+        "unstructured": "Jones, K. S. & Galliers, J. R. Evaluating natural language processing systems: An analysis and review, vol. 1083 (Springer Science & Business Media, 1995)."
+      },
+      {
+        "key": "49165_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "681",
+        "DOI": "10.7326/0003-4819-122-9-199505010-00007",
+        "volume": "122",
+        "author": "G Hripcsak",
+        "year": "1995",
+        "unstructured": "Hripcsak, G. et al. Unlocking clinical data from narrative reports: a study of natural language processing. Annals internal medicine 122, 681–688 (1995).",
+        "journal-title": "Annals internal medicine"
+      },
+      {
+        "key": "49165_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "128",
+        "DOI": "10.1055/s-0038-1638592",
+        "volume": "17",
+        "author": "SM Meystre",
+        "year": "2008",
+        "unstructured": "Meystre, S. M., Savova, G. K., Kipper-Schuler, K. C. & Hurdle, J. F. Extracting information from textual documents in the electronic health record: a review of recent research. Yearb. medical informatics 17, 128–144 (2008).",
+        "journal-title": "Yearb. medical informatics"
+      },
+      {
+        "key": "49165_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "519",
+        "DOI": "10.1177/070674370505000904",
+        "volume": "50",
+        "author": "L de Haan",
+        "year": "2005",
+        "unstructured": "de Haan, L., Hoogenboom, B., Beuk, N., van Amelsvoort, T. & Linszen, D. Obsessive-compulsive symptoms and positive, negative, and depressive symptoms in patients with recent-onset schizophrenic disorders. The Can. J. Psychiatry 50, 519–524 (2005).",
+        "journal-title": "The Can. J. Psychiatry"
+      },
+      {
+        "key": "49165_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "151",
+        "DOI": "10.1093/schbul/sbr077",
+        "volume": "39",
+        "author": "L de Haan",
+        "year": "2011",
+        "unstructured": "de Haan, L., Sterk, B., Wouters, L. & Linszen, D. H. The 5-year course of obsessive-compulsive symptoms and obsessive-compulsive disorder in first-episode schizophrenia and related disorders. Schizophr. bulletin 39, 151–160 (2011).",
+        "journal-title": "Schizophr. bulletin"
+      },
+      {
+        "key": "49165_CR13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12888-015-0557-z",
+        "volume": "15",
+        "author": "G Kadra",
+        "year": "2015",
+        "unstructured": "Kadra, G. et al. Extracting antipsychotic polypharmacy data from electronic health records: developing and evaluating a novel process. BMC psychiatry 15, 166 (2015).",
+        "journal-title": "BMC psychiatry"
+      },
+      {
+        "key": "49165_CR14",
+        "unstructured": "First, M. B. et al. Structured clinical interview for dsm-iv-tr axis i disorders, research version, patient edition. Tech. Rep., SCID-I/P (2002)."
+      },
+      {
+        "key": "49165_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "675",
+        "DOI": "10.1016/0005-7967(96)00036-8",
+        "volume": "34",
+        "author": "G Steketee",
+        "year": "1996",
+        "unstructured": "Steketee, G., Frost, R. & Bogart, K. The yale-brown obsessive compulsive scale: Interview versus self-report. Behav. Res. Ther. 34, 675–684 (1996).",
+        "journal-title": "Behav. Res. Ther."
+      },
+      {
+        "key": "49165_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Clopper, C. J. & Pearson, E. S. The use of confidence or fiducial limits illustrated in the case of the binomial. Biom. 404–413 (1934).",
+        "DOI": "10.1093/biomet/26.4.404"
+      },
+      {
+        "key": "49165_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "e015297",
+        "DOI": "10.1136/bmjopen-2016-015297",
+        "volume": "7",
+        "author": "C Colling",
+        "year": "2017",
+        "unstructured": "Colling, C. et al. Identification of the delivery of cognitive behavioural therapy for psychosis (cbtp) using a cross-sectional sample from electronic health records and open-text information in a large uk-based mental health case register. BMJ open 7, e015297 (2017).",
+        "journal-title": "BMJ open"
+      },
+      {
+        "key": "49165_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0134208",
+        "DOI": "10.1371/journal.pone.0134208",
+        "volume": "10",
+        "author": "E Iqbal",
+        "year": "2015",
+        "unstructured": "Iqbal, E. et al. Identification of adverse drug events from free text electronic patient records and information in a large mental health case register. PloS one 10, e0134208 (2015).",
+        "journal-title": "PloS one"
+      },
+      {
+        "key": "49165_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "923",
+        "DOI": "10.1016/j.jbi.2009.07.007",
+        "volume": "42",
+        "author": "A Mykowiecka",
+        "year": "2009",
+        "unstructured": "Mykowiecka, A., Marciniak, M. & Kupść, A. Rule-based information extraction from patients’ clinical data. J. biomedical informatics 42, 923–936 (2009).",
+        "journal-title": "J. biomedical informatics"
+      }
+    ],
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41598-019-49165-2.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-019-49165-2",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-019-49165-2.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          17
+        ]
+      ],
+      "date-time": "2022-12-17T14:13:52Z",
+      "timestamp": 1671286432000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41598-019-49165-2"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          2
+        ]
+      ]
+    },
+    "references-count": 19,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "49165"
+    ],
+    "URL": "https://doi.org/10.1038/s41598-019-49165-2",
+    "relation": {},
+    "ISSN": [
+      "2045-2322"
+    ],
+    "issn-type": [
+      {
+        "value": "2045-2322",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "5 September 2018",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "15 August 2019",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "2 October 2019",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "R.H., R.S., R.J., H.S. and C.-K.C. have received research funding from Roche, Pfizer, Janssen and Lundbeck.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing Interests"
+        }
+      }
+    ],
+    "article-number": "14146"
+  }
+}

@@ -1,0 +1,5 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_1,Diagnostic and statistical manual of mental disorders (DSM-5®),Diagnostic And Statistical Manual Of Mental Disorders,70,10.1176/appi.books.9780890425596,https://w3id.org/oc/meta/br/06903050381,year_and_doi
+ref_13,Mol Autism,Network-specific Sex Differentiation Of Intrinsic Brain Function In Males With Autism,45,10.1186/s13229-018-0192-x,https://w3id.org/oc/meta/br/06220710439,year_and_doi
+ref_15,Autism Research and Treatment,The Broader Autism Phenotype And Its Implications On The Etiology And Treatment Of Autism Spectrum Disorders,50,10.1155/2011/545901,https://w3id.org/oc/meta/br/061401129980,year_and_doi
+ref_26,Autism diagnostic observation schedule,Autism Diagnostic Observation Schedule,65,10.1007/978-0-387-79948-3_1520,https://w3id.org/oc/meta/br/06803567064,author_title

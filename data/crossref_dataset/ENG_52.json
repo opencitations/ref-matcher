@@ -1,0 +1,336 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          23
+        ]
+      ],
+      "date-time": "2024-09-23T04:13:52Z",
+      "timestamp": 1727064832202
+    },
+    "reference-count": 13,
+    "publisher": "Elsevier BV",
+    "issue": "23",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2019-01-01T00:00:00Z",
+          "timestamp": 1546300800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2019-01-01T00:00:00Z",
+          "timestamp": 1546300800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "IFAC-PapersOnLine"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ifacol.2019.11.006",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          11,
+          23
+        ]
+      ],
+      "date-time": "2019-11-23T20:52:02Z",
+      "timestamp": 1574542322000
+    },
+    "page": "37-42",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Next Generation Sequencing Analysis of Wastewater Treatment Plant Process via Support Vector Regression"
+    ],
+    "prefix": "10.1016",
+    "volume": "52",
+    "author": [
+      {
+        "given": "M.A. Prawira",
+        "family": "Negara",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "E.",
+        "family": "Cornelissen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "A.K.",
+        "family": "Geurkink",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "G.J.W.",
+        "family": "Euverink",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "B.",
+        "family": "Jayawardhana",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.ifacol.2019.11.006_bib0001",
+        "doi-asserted-by": "crossref",
+        "first-page": "152",
+        "DOI": "10.1016/j.ibiod.2017.01.036",
+        "article-title": "Revealing the bacterial profile of an anoxic-aerobic moving-bed biofilm reactor system treating a chemical industry wastewater",
+        "volume": "120",
+        "author": "Bassin",
+        "year": "2017",
+        "journal-title": "International Biodeterioration & Biodegradation"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.006_bib0002",
+        "doi-asserted-by": "crossref",
+        "first-page": "273",
+        "DOI": "10.1007/BF00994018",
+        "article-title": "Support-vector networks",
+        "volume": "20",
+        "author": "Cortes",
+        "year": "1995",
+        "journal-title": "Machine Learning"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.006_bib0003",
+        "series-title": "The Biological Basis of Wastewater Treatment",
+        "author": "Davies",
+        "year": "2005"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.006_bib0004",
+        "first-page": "155",
+        "article-title": "Support vector regression machines",
+        "volume": "9",
+        "author": "Drucker",
+        "year": "1996",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.006_bib0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "425",
+        "DOI": "10.1016/j.cam.2005.09.009",
+        "article-title": "Efficient optimization of support vector machine learning parameters for unbalanced datasets",
+        "volume": "196",
+        "author": "Eitrich",
+        "year": "2006",
+        "journal-title": "Journal of Computational and Applied Mathematics"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.006_bib0006",
+        "series-title": "Biological Wastewater Treatment",
+        "author": "Henze",
+        "year": "2008"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.006_bib0007",
+        "series-title": "Activated Sludge Models ASM1, ASM2, ASM2d and ASM3",
+        "author": "Henze",
+        "year": "2000"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.006_bib0008",
+        "unstructured": "Hsu, C., Chang, C., and Lin, C. (2010). A practical guide to support vector classification. https://www.csie.ntu.edu.tw/∼cjlin/papers/guide/guide.pdf. Online; accessed 12 Oktober 2018."
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.006_bib0009",
+        "first-page": "4412",
+        "article-title": "Tha-lassospira sp",
+        "volume": "77",
+        "author": "Hutz",
+        "year": "2011",
+        "journal-title": "isolated from the oligotrophic eastern mediterranean sea exhibits chemotaxis toward inorganic phosphate during starvation. Applied and Environmental Microbiology"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.006_bib00010",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, T., Liu, S., Zheng, M., Chen, Q., and Ni, J. (2016). Performance assessment of full-scale wastewater treatment plants based on seasonal variability of microbial communities via high-throughput sequencing. PLoS ONE, 11.",
+        "DOI": "10.1371/journal.pone.0152998"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.006_bib00011",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Muszynski, A., Tabernacka, A., and Miobedzka, A. (2015). Long-term dynamics of the microbial community in a full-scale wastewater treatment plant. International Biodeterioration & Biodegradation, 44–51.",
+        "DOI": "10.1016/j.ibiod.2015.02.008"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.006_bib00012",
+        "series-title": "Learning with kernels: support vector machines, regularization, optimization, and beyond",
+        "author": "Scholkopf",
+        "year": "2002"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.006_bib00013",
+        "series-title": "Next-Generation Sequencing",
+        "author": "Xu",
+        "year": "2014"
+      }
+    ],
+    "container-title": [
+      "IFAC-PapersOnLine"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2405896319309413?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2405896319309413?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          3
+        ]
+      ],
+      "date-time": "2024-06-03T02:28:09Z",
+      "timestamp": 1717381689000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2405896319309413"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "references-count": 13,
+    "journal-issue": {
+      "issue": "23",
+      "published-print": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2405896319309413"
+    ],
+    "URL": "https://doi.org/10.1016/j.ifacol.2019.11.006",
+    "relation": {},
+    "ISSN": [
+      "2405-8963"
+    ],
+    "issn-type": [
+      {
+        "value": "2405-8963",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Next Generation Sequencing Analysis of Wastewater Treatment Plant Process via Support Vector Regression",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "IFAC-PapersOnLine",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.ifacol.2019.11.006",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019, IFAC (International Federation of Automatic Control) Hosting by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

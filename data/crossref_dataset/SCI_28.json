@@ -1,0 +1,469 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2024-10-06T00:57:56Z",
+      "timestamp": 1728176276254
+    },
+    "reference-count": 36,
+    "publisher": "Association for Computing Machinery (ACM)",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              12
+            ]
+          ],
+          "date-time": "2019-07-12T00:00:00Z",
+          "timestamp": 1562889600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://www.acm.org/publications/policies/copyright_policy#Background"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "dl.acm.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "ACM Trans. Graph."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          31
+        ]
+      ]
+    },
+    "abstract": "<jats:p>\n            A key promise of Virtual Reality (VR) is the possibility of remote social interaction that is more immersive than any prior telecommunication media. However, existing social VR experiences are mediated by inauthentic digital representations of the user (i.e., stylized avatars). These stylized representations have limited the adoption of social VR applications in precisely those cases where immersion is most necessary (e.g., professional interactions and intimate conversations). In this work, we present a bidirectional system that can animate avatar heads of both users' full likeness using consumer-friendly headset mounted cameras (HMC). There are two main challenges in doing this: unaccommodating camera views and the image-to-avatar domain gap. We address both challenges by leveraging constraints imposed by multiview geometry to establish precise image-to-avatar correspondence, which are then used to learn an end-to-end model for real-time tracking. We present designs for a\n            <jats:italic>training</jats:italic>\n            HMC, aimed at data-collection and model building, and a tracking HMC for use during interactions in VR. Correspondence between the avatar and the HMC-acquired images are automatically found through self-supervised multiview image translation, which does not require manual annotation or one-to-one correspondence between domains. We evaluate the system on a variety of users and demonstrate significant improvements over prior work.\n          </jats:p>",
+    "DOI": "10.1145/3306346.3323030",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          12
+        ]
+      ],
+      "date-time": "2019-07-12T19:04:08Z",
+      "timestamp": 1562958248000
+    },
+    "page": "1-16",
+    "update-policy": "http://dx.doi.org/10.1145/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 104,
+    "title": [
+      "VR facial animation via multiview image translation"
+    ],
+    "prefix": "10.1145",
+    "volume": "38",
+    "author": [
+      {
+        "given": "Shih-En",
+        "family": "Wei",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Facebook Reality Labs"
+          }
+        ]
+      },
+      {
+        "given": "Jason",
+        "family": "Saragih",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Facebook Reality Labs"
+          }
+        ]
+      },
+      {
+        "given": "Tomas",
+        "family": "Simon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Facebook Reality Labs"
+          }
+        ]
+      },
+      {
+        "given": "Adam W.",
+        "family": "Harley",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Facebook Reality Labs"
+          }
+        ]
+      },
+      {
+        "given": "Stephen",
+        "family": "Lombardi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Facebook Reality Labs"
+          }
+        ]
+      },
+      {
+        "given": "Michal",
+        "family": "Perdoch",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Facebook Reality Labs"
+          }
+        ]
+      },
+      {
+        "given": "Alexander",
+        "family": "Hypes",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Facebook Reality Labs"
+          }
+        ]
+      },
+      {
+        "given": "Dawei",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Facebook Reality Labs"
+          }
+        ]
+      },
+      {
+        "given": "Hernan",
+        "family": "Badino",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Facebook Reality Labs"
+          }
+        ]
+      },
+      {
+        "given": "Yaser",
+        "family": "Sheikh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Facebook Reality Labs"
+          }
+        ]
+      }
+    ],
+    "member": "320",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_1_1_1",
+        "volume-title": "Recycle-GAN: Unsupervised Video Retargeting. In IEEE European Conference on Computer Vision (ECCV).",
+        "author": "Bansal Aayush",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_1_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2010324.1964970"
+      },
+      {
+        "key": "e_1_2_1_3_1",
+        "unstructured": "BinaryVR. 2019. Real-time Facial Tracking. https://www.binaryvr.com/vr.  BinaryVR. 2019. Real-time Facial Tracking. https://www.binaryvr.com/vr."
+      },
+      {
+        "key": "e_1_2_1_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/311535.311556"
+      },
+      {
+        "key": "e_1_2_1_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2601097.2601204"
+      },
+      {
+        "key": "e_1_2_1_6_1",
+        "volume-title": "Active Appearance Models. In IEEE European Conference on Computer Vision (ECCV).",
+        "author": "Cootes Timothy F."
+      },
+      {
+        "key": "e_1_2_1_7_1",
+        "unstructured": "Dimensional Imaging. 2016. DI4D PRO System. http://www.di4d.com/systems/di4d-pro-system/.  Dimensional Imaging. 2016. DI4D PRO System. http://www.di4d.com/systems/di4d-pro-system/."
+      },
+      {
+        "key": "e_1_2_1_8_1",
+        "unstructured": "Epic Games. 2017. Epic Games. https://www.epicgames.com.  Epic Games. 2017. Epic Games. https://www.epicgames.com."
+      },
+      {
+        "key": "e_1_2_1_9_1",
+        "volume-title": "Geometry-Consistent Generative Adversarial Networks for One-Sided Unsupervised Domain Mapping. arXiv preprint arXiv:1706.00826",
+        "author": "Fu Huan",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_1_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2638549"
+      },
+      {
+        "key": "e_1_2_1_11_1",
+        "volume-title": "Image Style Transfer Using Convolutional Neural Networks. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR).",
+        "author": "Gatys Leon A.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_1_12_1",
+        "unstructured": "Ian Goodfellow Jean Pouget-Abadie Mehdi Mirza Bing Xu David Warde-Farley Sherjil Ozair Aaron Courville and Yoshua Bengio. 2014. Generative Adversarial Nets. In Advances in Neural Information Processing Systems (NIPS).   Ian Goodfellow Jean Pouget-Abadie Mehdi Mirza Bing Xu David Warde-Farley Sherjil Ozair Aaron Courville and Yoshua Bengio. 2014. Generative Adversarial Nets. In Advances in Neural Information Processing Systems (NIPS)."
+      },
+      {
+        "key": "e_1_2_1_13_1",
+        "volume-title": "Image Disentanglement and Uncooperative Re-Entanglement for High-Fidelity Image-to-Image Translation. arXiv preprint arXiv:1901.03628",
+        "author": "Harley Adam W.",
+        "year": "2019"
+      },
+      {
+        "key": "e_1_2_1_14_1",
+        "unstructured": "Hellblade. 2018. Hellblade. https://www.hellblade.com/.  Hellblade. 2018. Hellblade. https://www.hellblade.com/."
+      },
+      {
+        "key": "e_1_2_1_15_1",
+        "volume-title": "Image-to-image Translation with Conditional Adversarial Networks. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR).",
+        "author": "Isola Phillip",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_1_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00411"
+      },
+      {
+        "key": "e_1_2_1_17_1",
+        "unstructured": "Tejas D. Kulkarni William F. Whitney Pushmeet Kohli and Josh Tenenbaum. 2015. Deep Convolutional Inverse Graphics Network. In Advances in Neural Information Processing Systems (NIPS). 2539--2547.   Tejas D. Kulkarni William F. Whitney Pushmeet Kohli and Josh Tenenbaum. 2015. Deep Convolutional Inverse Graphics Network. In Advances in Neural Information Processing Systems (NIPS). 2539--2547."
+      },
+      {
+        "key": "e_1_2_1_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3099564.3099581"
+      },
+      {
+        "key": "e_1_2_1_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2766939"
+      },
+      {
+        "key": "e_1_2_1_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3197517.3201401"
+      },
+      {
+        "key": "e_1_2_1_21_1",
+        "unstructured": "Magic Leap. 2018. Magic Leap. https://www.magicleap.com/.  Magic Leap. 2018. Magic Leap. https://www.magicleap.com/."
+      },
+      {
+        "key": "e_1_2_1_22_1",
+        "volume-title": "Spectral Normalization for Generative Adversarial Networks. In International Conference on Learning Representations (ICLR).",
+        "author": "Miyato Takeru",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_1_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00013"
+      },
+      {
+        "key": "e_1_2_1_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-540-87536-9_99"
+      },
+      {
+        "key": "e_1_2_1_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2980179.2980252"
+      },
+      {
+        "key": "e_1_2_1_26_1",
+        "volume-title": "IEEE International Conference on Computer Vision (ICCV).",
+        "author": "Saragih Jason M."
+      },
+      {
+        "key": "e_1_2_1_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3089269.3089276"
+      },
+      {
+        "key": "e_1_2_1_28_1",
+        "volume-title": "MoFA: Model-based Deep Convolutional Face Autoencoder for Unsupervised Monocular Reconstruction. In IEEE International Conference on Computer Vision (ICCV).",
+        "author": "Tewari Ayush",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_1_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2929464.2929475"
+      },
+      {
+        "key": "e_1_2_1_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3182644"
+      },
+      {
+        "key": "e_1_2_1_31_1",
+        "unstructured": "Unreal Engine 4. 2018. Unreal Engine 4. https://www.unrealengine.com/.  Unreal Engine 4. 2018. Unreal Engine 4. https://www.unrealengine.com/."
+      },
+      {
+        "key": "e_1_2_1_32_1",
+        "volume-title": "Convolutional Pose Machines. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR).",
+        "author": "Wei Shih-En",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_1_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-005-3962-9"
+      },
+      {
+        "key": "e_1_2_1_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.75"
+      },
+      {
+        "key": "e_1_2_1_35_1",
+        "volume-title": "Proceedings of 37th Annual Conference of the Cognitive Science Society.",
+        "author": "Yildirim Ilker"
+      },
+      {
+        "key": "e_1_2_1_36_1",
+        "volume-title": "IEEE International Conference on Computer Vision (ICCV).",
+        "author": "Zhu Jun-Yan"
+      }
+    ],
+    "container-title": [
+      "ACM Transactions on Graphics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://dl.acm.org/doi/pdf/10.1145/3306346.3323030",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          1
+        ]
+      ],
+      "date-time": "2023-01-01T13:32:43Z",
+      "timestamp": 1672579963000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dl.acm.org/doi/10.1145/3306346.3323030"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          12
+        ]
+      ]
+    },
+    "references-count": 36,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            8,
+            31
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1145/3306346.3323030"
+    ],
+    "URL": "https://doi.org/10.1145/3306346.3323030",
+    "relation": {},
+    "ISSN": [
+      "0730-0301",
+      "1557-7368"
+    ],
+    "issn-type": [
+      {
+        "value": "0730-0301",
+        "type": "print"
+      },
+      {
+        "value": "1557-7368",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2019-07-12",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

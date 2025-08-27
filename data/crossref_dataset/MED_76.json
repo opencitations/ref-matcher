@@ -1,0 +1,675 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          9
+        ]
+      ],
+      "date-time": "2024-08-09T09:53:35Z",
+      "timestamp": 1723197215542
+    },
+    "reference-count": 28,
+    "publisher": "Impact Journals, LLC",
+    "issue": "59",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Oncotarget"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          29
+        ]
+      ]
+    },
+    "DOI": "10.18632/oncotarget.27214",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          29
+        ]
+      ],
+      "date-time": "2019-10-29T12:55:47Z",
+      "timestamp": 1572353747000
+    },
+    "page": "6297-6307",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Randomized phase 3 open label study of quality of life of patients on Pemetrexed versus Erlotinib as maintenance therapy for advanced non squamous non EGFR mutated non small cell lung cancer"
+    ],
+    "prefix": "10.18632",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Vijay",
+        "family": "Patil",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Medical Oncology, Tata Memorial Hospital, Mumbai, India"
+          },
+          {
+            "name": "Homi Bhabha National Institute, Mumbai, India"
+          }
+        ]
+      },
+      {
+        "given": "Amit",
+        "family": "Joshi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Medical Oncology, Tata Memorial Hospital, Mumbai, India"
+          },
+          {
+            "name": "Homi Bhabha National Institute, Mumbai, India"
+          }
+        ]
+      },
+      {
+        "given": "Vanita",
+        "family": "Noronha",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Medical Oncology, Tata Memorial Hospital, Mumbai, India"
+          },
+          {
+            "name": "Homi Bhabha National Institute, Mumbai, India"
+          }
+        ]
+      },
+      {
+        "given": "Vivek",
+        "family": "Agarwala",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Medical Oncology, Tata Memorial Hospital, Mumbai, India"
+          },
+          {
+            "name": "Homi Bhabha National Institute, Mumbai, India"
+          }
+        ]
+      },
+      {
+        "given": "Anuradha",
+        "family": "Chougule",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Medical Oncology, Tata Memorial Hospital, Mumbai, India"
+          },
+          {
+            "name": "Homi Bhabha National Institute, Mumbai, India"
+          }
+        ]
+      },
+      {
+        "given": "Sadhana",
+        "family": "Kanan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biostatistics, Advanced Center for Treatment, Research, and Education in Cancer, Mumbai, India"
+          },
+          {
+            "name": "Homi Bhabha National Institute, Mumbai, India"
+          }
+        ]
+      },
+      {
+        "given": "Atanu",
+        "family": "Bhattacharjee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Section of Biostatistics, Centre for Cancer Epidemiology, Tata Memorial Hospital, Mumbai, India"
+          },
+          {
+            "name": "Homi Bhabha National Institute, Mumbai, India"
+          }
+        ]
+      },
+      {
+        "given": "Arun",
+        "family": "Chandrasekharan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Medical Oncology, Tata Memorial Hospital, Mumbai, India"
+          },
+          {
+            "name": "Homi Bhabha National Institute, Mumbai, India"
+          }
+        ]
+      },
+      {
+        "given": "Nikhil",
+        "family": "Pande",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Medical Oncology, Tata Memorial Hospital, Mumbai, India"
+          },
+          {
+            "name": "Homi Bhabha National Institute, Mumbai, India"
+          }
+        ]
+      },
+      {
+        "given": "Vijai",
+        "family": "Simha",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Medical Oncology, Tata Memorial Hospital, Mumbai, India"
+          },
+          {
+            "name": "Homi Bhabha National Institute, Mumbai, India"
+          }
+        ]
+      },
+      {
+        "given": "Supriya",
+        "family": "Goud",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Medical Oncology, Tata Memorial Hospital, Mumbai, India"
+          },
+          {
+            "name": "Homi Bhabha National Institute, Mumbai, India"
+          }
+        ]
+      },
+      {
+        "given": "Sucheta",
+        "family": "More",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Medical Oncology, Tata Memorial Hospital, Mumbai, India"
+          },
+          {
+            "name": "Homi Bhabha National Institute, Mumbai, India"
+          }
+        ]
+      },
+      {
+        "given": "Rajiv",
+        "family": "Kumar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Pathology, Tata Memorial Hospital, Mumbai, India"
+          },
+          {
+            "name": "Homi Bhabha National Institute, Mumbai, India"
+          }
+        ]
+      },
+      {
+        "given": "Abhishek",
+        "family": "Mahajan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Radiology, Tata Memorial Hospital, Mumbai, India"
+          },
+          {
+            "name": "Homi Bhabha National Institute, Mumbai, India"
+          }
+        ]
+      },
+      {
+        "given": "Amit",
+        "family": "Janu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Radiology, Tata Memorial Hospital, Mumbai, India"
+          },
+          {
+            "name": "Homi Bhabha National Institute, Mumbai, India"
+          }
+        ]
+      },
+      {
+        "given": "Nilendu",
+        "family": "Purandare",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Nuclear Medicine, Tata Memorial Hospital, Mumbai, India"
+          },
+          {
+            "name": "Homi Bhabha National Institute, Mumbai, India"
+          }
+        ]
+      },
+      {
+        "given": "Kumar",
+        "family": "Prabhash",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Medical Oncology, Tata Memorial Hospital, Mumbai, India"
+          },
+          {
+            "name": "Homi Bhabha National Institute, Mumbai, India"
+          }
+        ]
+      }
+    ],
+    "member": "7892",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          29
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "1",
+        "doi-asserted-by": "publisher",
+        "first-page": "e000168",
+        "DOI": "10.1136/esmoopen-2017-000168",
+        "article-title": "Phase III study of gefitinib or pemetrexed with carboplatin in EGFR-mutated advanced lung adenocarcinoma",
+        "volume": "2",
+        "author": "Goel",
+        "year": "2017",
+        "journal-title": "ESMO Open"
+      },
+      {
+        "key": "2",
+        "doi-asserted-by": "publisher",
+        "first-page": "113",
+        "DOI": "10.1056/NEJMoa1713137",
+        "article-title": "Osimertinib in Untreated EGFR-Mutated Advanced Non-Small-Cell Lung Cancer",
+        "volume": "378",
+        "author": "Cho",
+        "year": "2018",
+        "journal-title": "N Engl J Med"
+      },
+      {
+        "key": "3",
+        "doi-asserted-by": "publisher",
+        "first-page": "897",
+        "DOI": "10.1016/S1470-2045(15)00006-6",
+        "article-title": "Afatinib versus erlotinib as second-line treatment of patients with advanced squamous cell carcinoma of the lung (LUX-Lung 8): an open-label randomised controlled phase 3 trial",
+        "volume": "16",
+        "author": "Min",
+        "year": "2015",
+        "journal-title": "Lancet Oncol"
+      },
+      {
+        "key": "4",
+        "doi-asserted-by": "publisher",
+        "first-page": "807",
+        "DOI": "10.6004/jnccn.2018.0062",
+        "article-title": "NCCN Guidelines Insights: Non-Small Cell Lung Cancer, Version 5.2018",
+        "volume": "16",
+        "author": "Hennon",
+        "year": "2018",
+        "journal-title": "J Natl Compr Canc Netw"
+      },
+      {
+        "key": "5",
+        "doi-asserted-by": "publisher",
+        "first-page": "v1",
+        "DOI": "10.1093/annonc/mdw326",
+        "article-title": "Metastatic non-small-cell lung cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up",
+        "volume": "27",
+        "author": "Peters",
+        "year": "2016",
+        "journal-title": "Ann Oncol"
+      },
+      {
+        "key": "6",
+        "doi-asserted-by": "publisher",
+        "first-page": "3543",
+        "DOI": "10.1200/JCO.2007.15.0375",
+        "article-title": "Phase III study comparing cisplatin plus gemcitabine with cisplatin plus pemetrexed in chemotherapy-naive patients with advanced-stage non-small-cell lung cancer",
+        "volume": "26",
+        "author": "Park",
+        "year": "2008",
+        "journal-title": "J Clin Oncol"
+      },
+      {
+        "key": "7",
+        "doi-asserted-by": "publisher",
+        "first-page": "198",
+        "DOI": "10.1177/1758834016644155",
+        "article-title": "Pemetrexed for advanced stage nonsquamous non-small cell lung cancer: latest evidence about its extended use and outcomes",
+        "volume": "8",
+        "author": "Greillier",
+        "year": "2016",
+        "journal-title": "Ther Adv Med Oncol"
+      },
+      {
+        "key": "8",
+        "doi-asserted-by": "publisher",
+        "first-page": "2895",
+        "DOI": "10.1200/JCO.2012.47.1102",
+        "article-title": "PARAMOUNT: final overall survival results of the phase III study of maintenance pemetrexed versus placebo immediately after induction treatment with pemetrexed plus cisplatin for advanced nonsquamous non-small-cell lung cancer",
+        "volume": "31",
+        "author": "John",
+        "year": "2013",
+        "journal-title": "J Clin Oncol"
+      },
+      {
+        "key": "9",
+        "doi-asserted-by": "publisher",
+        "first-page": "4",
+        "DOI": "10.1177/1758834013510589",
+        "article-title": "Maintenance treatment after induction therapy in non-small cell lung cancer: latest evidence and clinical implications",
+        "volume": "6",
+        "author": "Patel",
+        "year": "2014",
+        "journal-title": "Ther Adv Med Oncol"
+      },
+      {
+        "key": "10",
+        "doi-asserted-by": "publisher",
+        "first-page": "1432",
+        "DOI": "10.1016/S0140-6736(09)61497-5",
+        "article-title": "Maintenance pemetrexed plus best supportive care versus placebo plus best supportive care for non-small-cell lung cancer: a randomised, double-blind, phase 3 study",
+        "volume": "374",
+        "author": "Yang",
+        "year": "2009",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "11",
+        "doi-asserted-by": "publisher",
+        "first-page": "54",
+        "DOI": "10.1016/j.clinthera.2012.12.013",
+        "article-title": "Cost-effectiveness of continuation maintenance pemetrexed after cisplatin and pemetrexed chemotherapy for advanced nonsquamous non-small-cell lung cancer: estimates from the perspective of the Chinese health care system",
+        "volume": "35",
+        "author": "Zhao",
+        "year": "2013",
+        "journal-title": "Clin Ther"
+      },
+      {
+        "key": "12",
+        "doi-asserted-by": "publisher",
+        "first-page": "65",
+        "DOI": "10.1016/j.jval.2011.08.1737",
+        "article-title": "Cost-effectiveness of maintenance pemetrexed in patients with advanced nonsquamous-cell lung cancer from the perspective of the Swiss health care system",
+        "volume": "15",
+        "author": "Schwenkglenks",
+        "year": "2012",
+        "journal-title": "Value Health"
+      },
+      {
+        "key": "13",
+        "doi-asserted-by": "publisher",
+        "first-page": "1344",
+        "DOI": "10.1634/theoncologist.2010-0257",
+        "article-title": "Approval summary: erlotinib maintenance therapy of advanced/metastatic non-small cell lung cancer (NSCLC)",
+        "volume": "15",
+        "author": "Pazdur",
+        "year": "2010",
+        "journal-title": "Oncologist"
+      },
+      {
+        "key": "14",
+        "doi-asserted-by": "publisher",
+        "first-page": "521",
+        "DOI": "10.1016/S1470-2045(10)70112-1",
+        "article-title": "Erlotinib as maintenance treatment in advanced non-small-cell lung cancer: a multicentre, randomised, placebo-controlled phase 3 study",
+        "volume": "11",
+        "author": "Giaccone",
+        "year": "2010",
+        "journal-title": "Lancet Oncol"
+      },
+      {
+        "key": "15",
+        "doi-asserted-by": "publisher",
+        "first-page": "123",
+        "DOI": "10.1056/NEJMoa050753",
+        "article-title": "Erlotinib in previously treated non-small-cell lung cancer",
+        "volume": "353",
+        "author": "Findlay",
+        "year": "2005",
+        "journal-title": "N Engl J Med"
+      },
+      {
+        "key": "16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/9781119013563",
+        "volume-title": "Statistical Analysis with Missing Data",
+        "author": "Rubin",
+        "year": "2014"
+      },
+      {
+        "key": "17",
+        "doi-asserted-by": "publisher",
+        "first-page": "300",
+        "DOI": "10.1016/S1470-2045(11)70385-0",
+        "article-title": "Efficacy and safety of erlotinib versus chemotherapy in second-line treatment of patients with advanced, non-small-cell lung cancer with poor prognosis (TITAN): a randomised multicentre, open-label, phase 3 study",
+        "volume": "13",
+        "author": "Gonzalez",
+        "year": "2012",
+        "journal-title": "Lancet Oncol"
+      },
+      {
+        "key": "18",
+        "doi-asserted-by": "publisher",
+        "first-page": "30",
+        "DOI": "10.1016/j.lungcan.2016.10.007",
+        "article-title": "Maintenance erlotinib versus erlotinib at disease progression in patients with advanced non-small-cell lung cancer who have not progressed following platinum-based chemotherapy (IUNO study)",
+        "volume": "102",
+        "author": "Wu",
+        "year": "2016",
+        "journal-title": "Lung Cancer"
+      },
+      {
+        "key": "19",
+        "first-page": "1009",
+        "article-title": "Interethnic difference in the allelic distribution of human epidermal growth factor receptor intron 1 polymorphism",
+        "volume": "9",
+        "author": "Ratain",
+        "year": "2003",
+        "journal-title": "Clin Cancer Res"
+      },
+      {
+        "key": "20",
+        "doi-asserted-by": "publisher",
+        "first-page": "182",
+        "DOI": "10.1038/clpt.2014.93",
+        "article-title": "Erlotinib in African Americans with advanced non-small cell lung cancer: a prospective randomized study with genetic and pharmacokinetic analyses",
+        "volume": "96",
+        "author": "Li",
+        "year": "2014",
+        "journal-title": "Clin Pharmacol Ther"
+      },
+      {
+        "key": "21",
+        "doi-asserted-by": "publisher",
+        "first-page": "593",
+        "DOI": "10.1007/s40262-013-0058-5",
+        "article-title": "Population pharmacokinetics/pharmacodynamics of erlotinib and pharmacogenomic analysis of plasma and cerebrospinal fluid drug concentrations in Japanese patients with non-small cell lung cancer",
+        "volume": "52",
+        "author": "Katsura",
+        "year": "2013",
+        "journal-title": "Clin Pharmacokinet"
+      },
+      {
+        "key": "22",
+        "doi-asserted-by": "publisher",
+        "first-page": "1119",
+        "DOI": "10.1200/JCO.2007.13.1128",
+        "article-title": "Pharmacogenomic and pharmacokinetic determinants of erlotinib toxicity",
+        "volume": "26",
+        "author": "Armstrong",
+        "year": "2008",
+        "journal-title": "J Clin Oncol"
+      },
+      {
+        "key": "23",
+        "doi-asserted-by": "publisher",
+        "first-page": "123",
+        "DOI": "10.1056/NEJMoa1504627",
+        "article-title": "Nivolumab versus Docetaxel in Advanced Squamous-Cell Non-Small-Cell Lung Cancer",
+        "volume": "373",
+        "author": "Gainor",
+        "year": "2015",
+        "journal-title": "N Engl J Med"
+      },
+      {
+        "key": "24",
+        "doi-asserted-by": "publisher",
+        "first-page": "1627",
+        "DOI": "10.1056/NEJMoa1507643",
+        "article-title": "Nivolumab versus Docetaxel in Advanced Nonsquamous Non-Small-Cell Lung Cancer",
+        "volume": "373",
+        "author": "Arrieta",
+        "year": "2015",
+        "journal-title": "N Engl J Med"
+      },
+      {
+        "key": "25",
+        "doi-asserted-by": "publisher",
+        "first-page": "1540",
+        "DOI": "10.1016/S0140-6736(15)01281-7",
+        "article-title": "Pembrolizumab versus docetaxel for previously treated, PD-L1-positive, advanced non-small-cell lung cancer (KEYNOTE-010): a randomised controlled trial",
+        "volume": "387",
+        "author": "de Castro",
+        "year": "2016",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "26",
+        "doi-asserted-by": "publisher",
+        "first-page": "58",
+        "DOI": "10.1200/EDBK_155975",
+        "article-title": "Access to Cancer Therapeutics in Low- and Middle-Income Countries",
+        "volume": "35",
+        "author": "Shulman",
+        "year": "2016",
+        "journal-title": "Am Soc Clin Oncol Educ Book"
+      },
+      {
+        "key": "27",
+        "doi-asserted-by": "publisher",
+        "first-page": "2340",
+        "DOI": "10.1093/annonc/mdx310",
+        "article-title": "ESMO-Magnitude of Clinical Benefit Scale version 1.1",
+        "volume": "28",
+        "author": "de Vries",
+        "year": "2017",
+        "journal-title": "Ann Oncol"
+      },
+      {
+        "key": "28",
+        "doi-asserted-by": "publisher",
+        "first-page": "1291",
+        "DOI": "10.1097/JTO.0b013e31825879ea",
+        "article-title": "Maintenance therapy for advanced non-small-cell lung cancer: a pilot study on patients’ perceptions",
+        "volume": "7",
+        "author": "Vansteenkiste",
+        "year": "2012",
+        "journal-title": "J Thorac Oncol"
+      }
+    ],
+    "container-title": [
+      "Oncotarget"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.oncotarget.com/lookup/doi/10.18632/oncotarget.27214",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          6
+        ]
+      ],
+      "date-time": "2020-06-06T15:14:03Z",
+      "timestamp": 1591456443000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.oncotarget.com/lookup/doi/10.18632/oncotarget.27214"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          29
+        ]
+      ]
+    },
+    "references-count": 28,
+    "journal-issue": {
+      "issue": "59",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10,
+            29
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "27214",
+      "31695838"
+    ],
+    "URL": "https://doi.org/10.18632/oncotarget.27214",
+    "relation": {},
+    "ISSN": [
+      "1949-2553"
+    ],
+    "issn-type": [
+      {
+        "value": "1949-2553",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          29
+        ]
+      ]
+    }
+  }
+}

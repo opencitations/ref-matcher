@@ -1,0 +1,370 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          25
+        ]
+      ],
+      "date-time": "2024-07-25T07:17:49Z",
+      "timestamp": 1721891869698
+    },
+    "reference-count": 19,
+    "publisher": "Elsevier BV",
+    "issue": "23",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2019-01-01T00:00:00Z",
+          "timestamp": 1546300800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IFAC-PapersOnLine"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ifacol.2019.11.007",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          11,
+          23
+        ]
+      ],
+      "date-time": "2019-11-23T20:52:04Z",
+      "timestamp": 1574542324000
+    },
+    "page": "43-48",
+    "source": "Crossref",
+    "is-referenced-by-count": 12,
+    "title": [
+      "About modeling and control strategies for scheduling crop irrigation"
+    ],
+    "prefix": "10.1016",
+    "volume": "52",
+    "author": [
+      {
+        "given": "Nesrine",
+        "family": "Kalboussi",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Sébastien",
+        "family": "Roux",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kenza",
+        "family": "Boumaza",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Carole",
+        "family": "Sinfort",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alain",
+        "family": "Rapaport",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.ifacol.2019.11.007_bib0001",
+        "series-title": "FAO irrigation and drainage paper no. 56",
+        "author": "Allen",
+        "year": "1998"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.007_bib0002",
+        "doi-asserted-by": "crossref",
+        "first-page": "116",
+        "DOI": "10.1016/j.eja.2018.06.001",
+        "article-title": "Simulating plant water stress dynamics in a wide range of bi-specific agrosystems in a region using the BISWAT model",
+        "volume": "99",
+        "author": "Bertrand",
+        "year": "2018",
+        "journal-title": "European Journal of Agronomy"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.007_bib0003",
+        "doi-asserted-by": "crossref",
+        "first-page": "145",
+        "DOI": "10.1016/j.envsoft.2016.09.001",
+        "article-title": "A framework to use crop models for multi-objective constrained optimization of irrigation strategies",
+        "volume": "86",
+        "author": "Cheviron",
+        "year": "2016",
+        "journal-title": "Environmental Modelling & Software"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.007_bib0004",
+        "doi-asserted-by": "crossref",
+        "first-page": "297",
+        "DOI": "10.1016/j.automatica.2017.03.012",
+        "article-title": "On turnpike and disspativity properties of continuous-time optimal control problems",
+        "volume": "81",
+        "author": "Faulwasser",
+        "year": "2017",
+        "journal-title": "Automatica"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ifacol.2019.11.007_bib0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "402",
+        "DOI": "10.1007/BF00939441",
+        "article-title": "A new sufficient condition for most rapid approach paths",
+        "volume": "54",
+        "author": "Hartl",
+        "year": "1987",
+        "journal-title": "Journal of Optimization Theory and Applications"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.007_bib0006",
+        "series-title": "Functional analysis and time optimal control. Vol. 56. Mathematics in Science and Engineering",
+        "author": "Hermes",
+        "year": "1969"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.007_bib0007",
+        "doi-asserted-by": "crossref",
+        "first-page": "245",
+        "DOI": "10.1016/j.agwat.2018.06.029",
+        "article-title": "Optimization of irrigation scheduling for spring wheat based on simulation-optimization model under uncertainty",
+        "volume": "208",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Agricultural Water Management"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.007_bib0008",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, Z., Cournède, P.H., and Mailhol, J.C. (2011). Irrigation optimization by modeling of plant-soil interaction. In 2011 Proceedings of the Conference on Applied Simulation and Modelling.",
+        "DOI": "10.2316/P.2011.715-093"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.007_bib0009",
+        "series-title": "Optimization Techniques",
+        "first-page": "69",
+        "article-title": "Extremization of linear integrals by green’s theorem",
+        "author": "Miele",
+        "year": "1962"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.007_bib00010",
+        "doi-asserted-by": "crossref",
+        "first-page": "80",
+        "DOI": "10.1016/j.ecolmodel.2017.10.003",
+        "article-title": "A dynamical systems framework for crop models: Toward optimal fertilization and irrigation strategies under climatic variability",
+        "volume": "365",
+        "author": "Pelak",
+        "year": "2017",
+        "journal-title": "Ecological Modelling"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.007_bib00011",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ramanathan, J., Chen, Y., and Cournede, P.H. (2013). Optimal control of crop irrigation based on the Hamilton-Jacobi-Bellman equation. In 2013 Proceedings of the Conference on Control and its Applications, 21-28. SIAM.",
+        "DOI": "10.1137/1.9781611973273.4"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.007_bib00012",
+        "doi-asserted-by": "crossref",
+        "first-page": "123",
+        "DOI": "10.1051/cocv:2003039",
+        "article-title": "Turnpike theorems by a value function approach",
+        "volume": "10",
+        "author": "Rapaport",
+        "year": "2004",
+        "journal-title": "ESAIM Control, Opti-mizationa and Calculus of variations"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.ifacol.2019.11.007_bib00013",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2007WR006181",
+        "article-title": "Use of crop simulation models to evaluate limited irrigation management options for corn in a semiarid environment",
+        "volume": "44",
+        "author": "Saseendran",
+        "year": "2008",
+        "journal-title": "Water Resources Research"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ifacol.2019.11.007_bib00014",
+        "doi-asserted-by": "crossref",
+        "first-page": "91",
+        "DOI": "10.1002/oca.740",
+        "article-title": "Optimal dynamic irrigation schemes",
+        "volume": "25",
+        "author": "Shani",
+        "year": "2004",
+        "journal-title": "Optimal Control Applications and Methods"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ifacol.2019.11.007_bib00015",
+        "first-page": "426",
+        "article-title": "Aquacrop - the FAO crop model to simulate yield response to water: I",
+        "volume": "101",
+        "author": "Steduto",
+        "year": "2009",
+        "journal-title": "concepts and underlying principles. Agronomy Journal"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.007_bib00016",
+        "doi-asserted-by": "crossref",
+        "first-page": "81",
+        "DOI": "10.1016/j.jde.2014.09.005",
+        "article-title": "The turnpike property in finite-dimensional nonlinear optimal control",
+        "volume": "258",
+        "author": "Trélat",
+        "year": "2015",
+        "journal-title": "Journal of Differential Equations"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ifacol.2019.11.007_bib00017",
+        "doi-asserted-by": "crossref",
+        "first-page": "1466",
+        "DOI": "10.1002/wrcr.20134",
+        "article-title": "Probabilistic description of crop development and irrigation water requirements with stochastic rainfall",
+        "volume": "49",
+        "author": "Vico",
+        "year": "2013",
+        "journal-title": "Water Resources Research"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.007_bib00018",
+        "series-title": "Ordinary differential equations",
+        "author": "Walter",
+        "year": "1998"
+      },
+      {
+        "key": "10.1016/j.ifacol.2019.11.007_bib00019",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.1016/j.agwat.2017.06.023",
+        "article-title": "Optimization of irrigation scheduling for spring wheat with mulching and limited irrigation water in an arid climate",
+        "volume": "192",
+        "author": "Wen",
+        "year": "2017",
+        "journal-title": "Agricultural Water Management"
+      }
+    ],
+    "container-title": [
+      "IFAC-PapersOnLine"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2405896319309425?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2405896319309425?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          23
+        ]
+      ],
+      "date-time": "2020-01-23T16:56:26Z",
+      "timestamp": 1579798586000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2405896319309425"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "references-count": 19,
+    "journal-issue": {
+      "issue": "23",
+      "published-print": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2405896319309425"
+    ],
+    "URL": "https://doi.org/10.1016/j.ifacol.2019.11.007",
+    "relation": {},
+    "ISSN": [
+      "2405-8963"
+    ],
+    "issn-type": [
+      {
+        "value": "2405-8963",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    }
+  }
+}

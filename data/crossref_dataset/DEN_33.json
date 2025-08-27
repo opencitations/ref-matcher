@@ -1,0 +1,464 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          9
+        ]
+      ],
+      "date-time": "2024-09-09T19:55:44Z",
+      "timestamp": 1725911744637
+    },
+    "reference-count": 31,
+    "publisher": "Wiley",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              9
+            ]
+          ],
+          "date-time": "2019-09-09T00:00:00Z",
+          "timestamp": 1567987200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Clinical Oral Implants Res"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:title>Objectives</jats:title><jats:p>The purpose of this prospective cohort study was to evaluate computer‐guided implant surgery with tooth‐supported drill guides based on CBCT scans and intraoral scanning.</jats:p></jats:sec><jats:sec><jats:title>Materials and methods</jats:title><jats:p>For partially edentulous patients, a prosthetic and surgical planning was completed in the guided surgery software (coDiagnostiX) and drill guides were 3D‐printed accordingly. Three months after implant placement, an intraoral scan of the implant's position was used to evaluate the accuracy of placement using the coDiagnostiX treatment evaluation tool. Deviations were reported in degrees and in distance at implant's entry point and apex. Several risk factors, which might influence the accuracy, were evaluated separately: treated jaw, flap design, prior augmentations, amount of unrestored teeth, crowding, location of implants, cortical interference, and implant's length and diameter.</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>A total of 66 patients received 145 Straumann tissue level implants that were eligible for accuracy analysis. The mean angular deviation was 2.72° ± 1.42. The mean three‐dimensional deviation at the implant's entry point was 0.75 mm ± 0.34. At implant's apex, the mean was 1.06 mm ± 0.44. The amount of unrestored teeth (<jats:italic>p</jats:italic> = .002 &amp; <jats:italic>p</jats:italic> = .003), the implant's location (<jats:italic>p</jats:italic> &lt; .001), the implant's length (<jats:italic>p</jats:italic> = .004), and cortical interference (<jats:italic>p</jats:italic> = .033) had a significant influence on the accuracy of placement. Implant survival was 99.3% (<jats:italic>n</jats:italic> = 1 failed implant) at 12 and 24 months.</jats:p></jats:sec><jats:sec><jats:title>Conclusions</jats:title><jats:p>Guided surgery with tooth‐supported drill guides made in a digital workflow is a feasible treatment option. However, deviations do occur and the implant's length, location, cortical interference and the amount of unrestored teeth have a significant influence on the accuracy.</jats:p></jats:sec>",
+    "DOI": "10.1111/clr.13514",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          22
+        ]
+      ],
+      "date-time": "2019-07-22T21:29:46Z",
+      "timestamp": 1563830986000
+    },
+    "page": "1005-1015",
+    "update-policy": "http://dx.doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 86,
+    "title": [
+      "The accuracy of computer‐guided implant surgery with tooth‐supported, digitally designed drill guides based on CBCT and intraoral scanning. A prospective cohort study"
+    ],
+    "prefix": "10.1111",
+    "volume": "30",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0002-1612-6068",
+        "authenticated-orcid": false,
+        "given": "Wiebe",
+        "family": "Derksen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Section of Oral Implantology and Prosthetic Dentistry Academic Centre for Dentistry Amsterdam (ACTA) Amsterdam The Netherlands"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-6736-1941",
+        "authenticated-orcid": false,
+        "given": "Daniel",
+        "family": "Wismeijer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Section of Oral Implantology and Prosthetic Dentistry Academic Centre for Dentistry Amsterdam (ACTA) Amsterdam The Netherlands"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-1288-8452",
+        "authenticated-orcid": false,
+        "given": "Tabea",
+        "family": "Flügge",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Oral and Maxillofacial Surgery, Faculty of Medicine and Medical Center University of Freiburg Freiburg Germany"
+          }
+        ]
+      },
+      {
+        "given": "Bassam",
+        "family": "Hassan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Section of Oral Implantology and Prosthetic Dentistry Academic Centre for Dentistry Amsterdam (ACTA) Amsterdam The Netherlands"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-3796-2233",
+        "authenticated-orcid": false,
+        "given": "Ali",
+        "family": "Tahmaseb",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Section of Oral Implantology and Prosthetic Dentistry Academic Centre for Dentistry Amsterdam (ACTA) Amsterdam The Netherlands"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          9
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_7_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5051/jpis.2014.44.4.184"
+      },
+      {
+        "key": "e_1_2_7_3_1",
+        "first-page": "118",
+        "article-title": "Flapless surgery and its effect on dental implant outcomes",
+        "volume": "24",
+        "author": "Brodala N.",
+        "year": "2009",
+        "journal-title": "International Journal of Oral and Maxillofacial Implants"
+      },
+      {
+        "key": "e_1_2_7_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijom.2013.06.012"
+      },
+      {
+        "key": "e_1_2_7_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1708-8208.2011.00369.x"
+      },
+      {
+        "key": "e_1_2_7_6_1",
+        "first-page": "186",
+        "article-title": "Clinical and esthetic outcomes of implants placed in postextraction sites",
+        "volume": "24",
+        "author": "Chen S. T.",
+        "year": "2009",
+        "journal-title": "International Journal of Oral and Maxillofacial Implants"
+      },
+      {
+        "key": "e_1_2_7_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0022034514563077"
+      },
+      {
+        "key": "e_1_2_7_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.11607/jomi.2618"
+      },
+      {
+        "key": "e_1_2_7_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.11607/jomi.2919"
+      },
+      {
+        "key": "e_1_2_7_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.prosdent.2015.09.011"
+      },
+      {
+        "key": "e_1_2_7_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.11607/ijp.4417"
+      },
+      {
+        "key": "e_1_2_7_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/clr.12925"
+      },
+      {
+        "key": "e_1_2_7_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.joms.2013.04.010"
+      },
+      {
+        "key": "e_1_2_7_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/clr.13398"
+      },
+      {
+        "key": "e_1_2_7_15_1",
+        "first-page": "489",
+        "article-title": "The influence of thread geometry on biomechanical load transfer to bone: A finite element analysis comparing two implant thread designs",
+        "volume": "11",
+        "author": "Herekar M. G.",
+        "year": "2014",
+        "journal-title": "Dental Research Journal"
+      },
+      {
+        "key": "e_1_2_7_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/prd.12164"
+      },
+      {
+        "key": "e_1_2_7_17_1",
+        "first-page": "124",
+        "article-title": "Accurate implant placement. Digital scanning and use of tooth‐guided, tooth‐supported surgical guides",
+        "volume": "32",
+        "author": "Jones P. E.",
+        "year": "2013",
+        "journal-title": "Dentistry Today"
+      },
+      {
+        "key": "e_1_2_7_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1600-0501.2012.02436.x"
+      },
+      {
+        "key": "e_1_2_7_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.11607/prd.1113)"
+      },
+      {
+        "key": "e_1_2_7_20_1",
+        "first-page": "149",
+        "article-title": "Clinical outcomes in the presence and absence of keratinized mucosa in mandibular guided implant surgeries: A pilot study with a proposal for the modification of the technique",
+        "volume": "44",
+        "author": "Malo P.",
+        "year": "2013",
+        "journal-title": "Quintessence International"
+      },
+      {
+        "key": "e_1_2_7_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajodo.2011.04.018"
+      },
+      {
+        "key": "e_1_2_7_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1259/dmfr.20140019"
+      },
+      {
+        "key": "e_1_2_7_23_1",
+        "first-page": "101",
+        "article-title": "Options in virtual 3d, optical‐impression‐based planning of dental implants",
+        "volume": "17",
+        "author": "Reich S.",
+        "year": "2014",
+        "journal-title": "International Journal of Computerized Dentistry"
+      },
+      {
+        "key": "e_1_2_7_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.11607/jomi.2014suppl.g4.2"
+      },
+      {
+        "key": "e_1_2_7_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.11607/jomi.2014suppl.g1.2"
+      },
+      {
+        "issue": "3",
+        "key": "e_1_2_7_26_1",
+        "first-page": "s59",
+        "article-title": "Evaluation of accuracy and precision of a new guided surgery system: A multicenter clinical study",
+        "volume": "34",
+        "author": "Testori T.",
+        "year": "2014",
+        "journal-title": "International Journal of Periodontics & Restorative Dentistry"
+      },
+      {
+        "key": "e_1_2_7_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1600-0501.2009.01836.x"
+      },
+      {
+        "key": "e_1_2_7_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1600-0501.2007.01423.x"
+      },
+      {
+        "key": "e_1_2_7_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/clr.12853"
+      },
+      {
+        "key": "e_1_2_7_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jcpe.12257"
+      },
+      {
+        "key": "e_1_2_7_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2842.2007.01816.x"
+      },
+      {
+        "key": "e_1_2_7_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1034/j.1600-0501.1994.050101.x"
+      }
+    ],
+    "container-title": [
+      "Clinical Oral Implants Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/clr.13514",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/clr.13514",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/clr.13514",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          9
+        ]
+      ],
+      "date-time": "2023-09-09T03:38:45Z",
+      "timestamp": 1694230725000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/clr.13514"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          9
+        ]
+      ]
+    },
+    "references-count": 31,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/clr.13514"
+    ],
+    "URL": "https://doi.org/10.1111/clr.13514",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0905-7161",
+      "1600-0501"
+    ],
+    "issn-type": [
+      {
+        "value": "0905-7161",
+        "type": "print"
+      },
+      {
+        "value": "1600-0501",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          9
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2018-02-19",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-03-31",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-09-09",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

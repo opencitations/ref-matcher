@@ -1,0 +1,537 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2024-11-19T17:48:16Z",
+      "timestamp": 1732038496527
+    },
+    "reference-count": 25,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "13-14",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              14
+            ]
+          ],
+          "date-time": "2019-08-14T00:00:00Z",
+          "timestamp": 1565740800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              14
+            ]
+          ],
+          "date-time": "2019-08-14T00:00:00Z",
+          "timestamp": 1565740800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100000038",
+        "name": "Natural Sciences and Engineering Research Council of Canada",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100000038",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Cellulose"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          30
+        ]
+      ]
+    },
+    "DOI": "10.1007/s10570-019-02664-x",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          14
+        ]
+      ],
+      "date-time": "2019-08-14T17:02:40Z",
+      "timestamp": 1565802160000
+    },
+    "page": "7939-7952",
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": [
+      "Consumption of sugars and inhibitors of softwood hemicellulose hydrolysates as carbon sources for polyhydroxybutyrate (PHB) production with Paraburkholderia sacchari IPT 101"
+    ],
+    "prefix": "10.1007",
+    "volume": "26",
+    "author": [
+      {
+        "given": "Karolin",
+        "family": "Dietrich",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-9383-5418",
+        "authenticated-orcid": false,
+        "given": "Marie-Josée",
+        "family": "Dumont",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Valérie",
+        "family": "Orsat",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Luis F.",
+        "family": "Del Rio",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          14
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2664_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1030",
+        "DOI": "10.1002/jctb.4196",
+        "volume": "89",
+        "author": "T Bowers",
+        "year": "2014",
+        "unstructured": "Bowers T, Vaidya A, Smith DA, Lloyd-Jones G (2014) Softwood hydrolysate as a carbon source for polyhydroxyalkanoate production. J Chem Technol Biotechnol 89:1030–1037. \n                    https://doi.org/10.1002/jctb.4196",
+        "journal-title": "J Chem Technol Biotechnol"
+      },
+      {
+        "key": "2664_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "391",
+        "DOI": "10.1016/j.biortech.2012.01.176",
+        "volume": "111",
+        "author": "JM Cavalheiro",
+        "year": "2012",
+        "unstructured": "Cavalheiro JM, Raposo RS, de Almeida MCMD, Cesário MT, Sevrin C, Grandfils C, da Fonseca MMR (2012) Effect of cultivation parameters on the production of poly(3-hydroxybutyrate-co-4-hydroxybutyrate) and poly(3-hydroxybutyrate-4-hydroxybutyrate-3-hydroxyvalerate) by Cupriavidus necator using waste glycerol. Bioresour Technol 111:391–397. \n                    https://doi.org/10.1016/j.biortech.2012.01.176",
+        "journal-title": "Bioresour Technol"
+      },
+      {
+        "key": "2664_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "79",
+        "DOI": "10.1007/978-3-662-45209-7_4",
+        "volume-title": "Microorganisms in biorefineries",
+        "author": "MT Cesário",
+        "year": "2015",
+        "unstructured": "Cesário MT, de Almeida MCMD (2015) Lignocellulosic hydrolysates for the production of polyhydroxyalkanoates. In: Kamm B (ed) Microorganisms in biorefineries. Springer, Berlin, pp 79–104. \n                    https://doi.org/10.1007/978-3-662-45209-7_4"
+      },
+      {
+        "key": "2664_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "104",
+        "DOI": "10.1016/j.nbt.2013.10.004",
+        "volume": "31",
+        "author": "MT Cesário",
+        "year": "2014",
+        "unstructured": "Cesário MT, Raposo RS, de Almeida MCMD, van Keulen F, Ferreira BS, da Fonseca MMR (2014) Enhanced bioproduction of poly-3-hydroxybutyrate from wheat straw lignocellulosic hydrolysates. New Biotechnol 31:104–113. \n                    https://doi.org/10.1016/j.nbt.2013.10.004",
+        "journal-title": "New Biotechnol"
+      },
+      {
+        "key": "2664_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "121",
+        "DOI": "10.1007/978-3-642-03287-5_6",
+        "volume-title": "Plastics from bacteria: natural functions and applications. Microbiology monographs",
+        "author": "G-Q Chen",
+        "year": "2010",
+        "unstructured": "Chen G-Q (2010) Industrial production of PHA. In: Chen GG-Q (ed) Plastics from bacteria: natural functions and applications. Microbiology monographs, vol 14. Springer, Berlin, pp 121–132. \n                    https://doi.org/10.1007/978-3-642-03287-5_6"
+      },
+      {
+        "key": "2664_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "115",
+        "DOI": "10.1002/9783527619849.ch5",
+        "volume-title": "Biorefineries—industrial processes and products",
+        "author": "LD Clements",
+        "year": "2008",
+        "unstructured": "Clements LD, Van Dyne DL (2008) The lignocellulosic biorefinery—a strategy for returning to a sustainable source of fuels and industrial organic chemicals. In: Kamm B, Gruber PR, Kamm M (eds) Biorefineries—industrial processes and products. Wiley, Weinheim, pp 115–128. \n                    https://doi.org/10.1002/9783527619849.ch5"
+      },
+      {
+        "key": "2664_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "58",
+        "DOI": "10.1016/j.spc.2016.09.001",
+        "volume": "9",
+        "author": "K Dietrich",
+        "year": "2017",
+        "unstructured": "Dietrich K, Dumont M-J, Del Rio LF, Orsat V (2017) Producing PHAs in the bioeconomy towards a sustainable bioplastic. Sustain Prod Consum 9:58–70. \n                    https://doi.org/10.1016/j.spc.2016.09.001",
+        "journal-title": "Sustain Prod Consum"
+      },
+      {
+        "issue": "1",
+        "key": "2664_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "188",
+        "DOI": "10.1021/acs.biomac.7b01446",
+        "volume": "19",
+        "author": "K Dietrich",
+        "year": "2018",
+        "unstructured": "Dietrich K, Dumont M-J, Schwinghamer T, Orsat V, Del Rio LF (2018) Model study to assess softwood hemicellulose hydrolysates as the carbon source for PHB production in Paraburkholderia sacchari IPT 101. Biomacromolecules 19(1):188–200. \n                    https://doi.org/10.1021/acs.biomac.7b01446",
+        "journal-title": "Biomacromolecules"
+      },
+      {
+        "key": "2664_CR9",
+        "unstructured": "European Bioplastics (2018) Bioplastics market data. \n                    www.european-bioplastics.org\n                    \n                  . Accessed 26 June 2018"
+      },
+      {
+        "key": "2664_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "475",
+        "DOI": "10.1021/bk-2011-1067.ch018",
+        "volume-title": "Sustainable production of fuels, chemicals, and fibers from forest biomass. ACS symposium series",
+        "author": "P Fatehi",
+        "year": "2011",
+        "unstructured": "Fatehi P, Ni Y (2011) Integrated forest biorefinery—prehydrolysis/dissolving pulping process. In: Zhu JY, Zhang X, Pan XJ (eds) Sustainable production of fuels, chemicals, and fibers from forest biomass. ACS symposium series. American Chemical Society, Washington, pp 475–506. \n                    https://doi.org/10.1021/bk-2011-1067.ch018"
+      },
+      {
+        "key": "2664_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1126/sciadv.1700782",
+        "volume": "3",
+        "author": "R Geyer",
+        "year": "2017",
+        "unstructured": "Geyer R, Jambeck JR, Law KL (2017) Production, use, and fate of all plastics ever made. Sci Adv 3:1–5. \n                    https://doi.org/10.1126/sciadv.1700782",
+        "journal-title": "Sci Adv"
+      },
+      {
+        "key": "2664_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "4775",
+        "DOI": "10.1016/j.biortech.2010.01.088",
+        "volume": "101",
+        "author": "FM Gírio",
+        "year": "2010",
+        "unstructured": "Gírio FM, Fonseca C, Carvalheiro F, Duarte LC, Marques S, Bogel-Łukasik R (2010) Hemicelluloses for fuel ethanol: a review. Bioresour Technol 101:4775–4800. \n                    https://doi.org/10.1016/j.biortech.2010.01.088",
+        "journal-title": "Bioresour Technol"
+      },
+      {
+        "key": "2664_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "103",
+        "DOI": "10.1016/j.biortech.2015.10.009",
+        "volume": "199",
+        "author": "LJ Jönsson",
+        "year": "2016",
+        "unstructured": "Jönsson LJ, Martín C (2016) Pretreatment of lignocellulose: formation of inhibitory by-products and strategies for minimizing their effects. Bioresour Technol 199:103–112. \n                    https://doi.org/10.1016/j.biortech.2015.10.009",
+        "journal-title": "Bioresour Technol"
+      },
+      {
+        "key": "2664_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "892",
+        "DOI": "10.1002/bit.260430908",
+        "volume": "43",
+        "author": "BS Kim",
+        "year": "1994",
+        "unstructured": "Kim BS, Lee SC, Lee SY, Chang HN, Chang YK, Woo SI (1994) Production of poly(3-hydroxybutyric acid) by fed-batch culture of Alcaligenes eutrophus with glucose concentration control. Biotechnol Bioeng 43:892–898. \n                    https://doi.org/10.1002/bit.260430908",
+        "journal-title": "Biotechnol Bioeng"
+      },
+      {
+        "key": "2664_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "6543",
+        "DOI": "10.3390/ma8095321",
+        "volume": "8",
+        "author": "M Koller",
+        "year": "2015",
+        "unstructured": "Koller M, Dias MMD, Rodriguez-Contreras A, Kunaver M, Zagar E, Krzan A, Braunegg G (2015) Liquefied wood as inexpensive precursor-feedstock for bio-mediated incorporation of (R)-3-hydroxyvalerate into polyhydroxyalkanoates. Materials 8:6543–6557. \n                    https://doi.org/10.3390/ma8095321",
+        "journal-title": "Materials"
+      },
+      {
+        "issue": "Part A",
+        "key": "2664_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "24",
+        "DOI": "10.1016/j.nbt.2016.05.001",
+        "volume": "37",
+        "author": "M Koller",
+        "year": "2017",
+        "unstructured": "Koller M, Maršálek L, de Sousa Dias MM, Braunegg G (2017) Producing microbial polyhydroxyalkanoate (PHA) biopolyesters in a sustainable manner. New Biotechnol 37(Part A):24–38. \n                    https://doi.org/10.1016/j.nbt.2016.05.001",
+        "journal-title": "New Biotechnol"
+      },
+      {
+        "key": "2664_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "53",
+        "DOI": "10.3390/bioengineering4020053",
+        "volume": "4",
+        "author": "D Kucera",
+        "year": "2017",
+        "unstructured": "Kucera D, Benesova P, Ladicky P, Pekar M, Sedlacek P, Obruca S (2017) Production of polyhydroxyalkanoates using hydrolyzates of spruce sawdust: comparison of hydrolyzates detoxification by application of overliming, active carbon, and lignite. Bioengineering 4:53. \n                    https://doi.org/10.3390/bioengineering4020053",
+        "journal-title": "Bioengineering"
+      },
+      {
+        "key": "2664_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "3713",
+        "DOI": "10.1021/ie801542g",
+        "volume": "48",
+        "author": "P Kumar",
+        "year": "2009",
+        "unstructured": "Kumar P, Barrett DM, Delwiche MJ, Stroeve P (2009) Methods for pretreatment of lignocellulosic biomass for efficient hydrolysis and biofuel production. Ind Eng Chem Res 48:3713–3729. \n                    https://doi.org/10.1021/ie801542g",
+        "journal-title": "Ind Eng Chem Res"
+      },
+      {
+        "key": "2664_CR20",
+        "volume-title": "Lehninger principles of biochemistry",
+        "author": "AL Lehninger",
+        "year": "2017",
+        "unstructured": "Lehninger AL, Nelson DL, Cox MM (2017) Lehninger principles of biochemistry, 7th edn. Freeman, New York",
+        "edition": "7"
+      },
+      {
+        "key": "2664_CR21",
+        "unstructured": "Mao C, Del Rio LF, Wafa Al Dajani W, Wong D, Yuan Z, Browne T (2015) FPInnovations’ TMP-bio for lignocellulosic biomass: current state and scaling up. In: The 6th Nordic wood biorefinery conference, Helsinki, Finland"
+      },
+      {
+        "key": "2664_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "12",
+        "DOI": "10.1016/j.nbt.2016.10.001",
+        "volume": "34",
+        "author": "RS Raposo",
+        "year": "2017",
+        "unstructured": "Raposo RS, de Almeida MCMD, de Oliveira MdCMA, da Fonseca MM, Cesário MT (2017) A Burkholderia sacchari cell factory: production of poly-3-hydroxybutyrate, xylitol and xylonic acid from xylose-rich sugar mixtures. New Biotechnol 34:12–22. \n                    https://doi.org/10.1016/j.nbt.2016.10.001",
+        "journal-title": "New Biotechnol"
+      },
+      {
+        "key": "2664_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "542",
+        "DOI": "10.1263/jbb.103.542",
+        "volume": "103",
+        "author": "JA Silva",
+        "year": "2007",
+        "unstructured": "Silva JA, Tobella LM, Becerra J, Godoy F, Martínez MA (2007) Biosynthesis of poly-β-hydroxyalkanoate by Brevundimonas vesicularis LMG P-23615 and Sphingopyxis macrogoltabida LMG 17324 using acid-hydrolyzed sawdust as carbon source. J Biosci Bioeng 103:542–546. \n                    https://doi.org/10.1263/jbb.103.542",
+        "journal-title": "J Biosci Bioeng"
+      },
+      {
+        "key": "2664_CR26",
+        "first-page": "152",
+        "volume-title": "Methods in enzymology",
+        "author": "VL Singleton",
+        "year": "1999",
+        "unstructured": "Singleton VL, Orthofer R, Lamuela-Raventós RM (1999) Analysis of total phenols and other oxidation substrates and antioxidants by means of folin-ciocalteu reagent. In: Packer L (ed) Methods in enzymology, vol 299. Elsevier, Amsterdam, pp 152–178"
+      },
+      {
+        "key": "2664_CR27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-662-03898-7",
+        "volume-title": "Analytical methods in wood chemistry, pulping, and papermaking",
+        "author": "E Sjöström",
+        "year": "1999",
+        "unstructured": "Sjöström E, Alén R (1999) Analytical methods in wood chemistry, pulping, and papermaking. Springer, Berlin"
+      },
+      {
+        "key": "2664_CR28",
+        "unstructured": "Wafa Al Dajani W, Mao C, Yuan Z, Browne T (2013) Fermentation of TMP-bio process sugar hydrolysate to produce lactic acid. FPInnovations PRR 1959"
+      }
+    ],
+    "container-title": [
+      "Cellulose"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s10570-019-02664-x.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/article/10.1007/s10570-019-02664-x/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s10570-019-02664-x.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          12
+        ]
+      ],
+      "date-time": "2020-08-12T23:15:39Z",
+      "timestamp": 1597274139000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://link.springer.com/10.1007/s10570-019-02664-x"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          14
+        ]
+      ]
+    },
+    "references-count": 25,
+    "journal-issue": {
+      "issue": "13-14",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            9,
+            30
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "2664"
+    ],
+    "URL": "https://doi.org/10.1007/s10570-019-02664-x",
+    "relation": {},
+    "ISSN": [
+      "0969-0239",
+      "1572-882X"
+    ],
+    "issn-type": [
+      {
+        "value": "0969-0239",
+        "type": "print"
+      },
+      {
+        "value": "1572-882X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          14
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "13 February 2019",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "7 August 2019",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "14 August 2019",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Compliance of ethical standards"
+        }
+      },
+      {
+        "value": "The authors declare that they have no competing interests.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Conflict of interest"
+        }
+      }
+    ]
+  }
+}

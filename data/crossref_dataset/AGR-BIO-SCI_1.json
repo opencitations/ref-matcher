@@ -1,0 +1,584 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2024-10-06T00:56:52Z",
+      "timestamp": 1728176212925
+    },
+    "reference-count": 34,
+    "publisher": "Elsevier BV",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2019-01-01T00:00:00Z",
+          "timestamp": 1546300800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              2
+            ]
+          ],
+          "date-time": "2020-12-02T00:00:00Z",
+          "timestamp": 1606867200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 701,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              3,
+              28
+            ]
+          ],
+          "date-time": "2019-03-28T00:00:00Z",
+          "timestamp": 1553731200000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 86,
+        "URL": "https://www.cambridge.org/core/terms"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100010570",
+        "name": "Niedersächsisches Ministerium für Wissenschaft und Kultur",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "ZN 2864"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100010570",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003542",
+        "name": "Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "ZN 2864"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100003542",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.cambridge.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Animal"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "DOI": "10.1017/s1751731119000570",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          3,
+          28
+        ]
+      ],
+      "date-time": "2019-03-28T06:27:28Z",
+      "timestamp": 1553754448000
+    },
+    "page": "2336-2347",
+    "update-policy": "http://dx.doi.org/10.1017/policypage",
+    "source": "Crossref",
+    "is-referenced-by-count": 25,
+    "title": [
+      "Assessment of welfare indicators in dairy farms offering pasture at differing levels"
+    ],
+    "prefix": "10.1016",
+    "volume": "13",
+    "author": [
+      {
+        "given": "L.",
+        "family": "Armbrecht",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-7786-4163",
+        "authenticated-orcid": false,
+        "given": "C.",
+        "family": "Lambertz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "D.",
+        "family": "Albers",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M.",
+        "family": "Gauly",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1017/S1751731119000570_ref1",
+        "first-page": "114",
+        "article-title": "Scientific report on the effects of farming systems on dairy cow welfare and disease. Report of the Panel on Animal Health and Welfare",
+        "volume": "1143",
+        "author": "Algers",
+        "year": "2009",
+        "journal-title": "Annex to the EFSA Journal"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref2",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.1016/j.applanim.2012.11.013",
+        "article-title": "The correlation of qualitative behavior assessments with Welfare Quality® protocol outcomes in on-farm welfare assessment of dairy cattle",
+        "volume": "143",
+        "author": "Andreasen",
+        "year": "2013",
+        "journal-title": "Applied Animal Behaviour Science"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref3",
+        "doi-asserted-by": "crossref",
+        "first-page": "79",
+        "DOI": "10.1136/vr.104554",
+        "article-title": "Does access to pasture affect claw condition and health in dairy cows?",
+        "volume": "182",
+        "author": "Armbrecht",
+        "year": "2018",
+        "journal-title": "Veterinary Record"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref4",
+        "doi-asserted-by": "crossref",
+        "first-page": "834",
+        "DOI": "10.1017/S1751731112002297",
+        "article-title": "Effect of grazing on the cow welfare of dairy herds evaluated by a multidimensional welfare index",
+        "volume": "7",
+        "author": "Burow",
+        "year": "2013",
+        "journal-title": "Animal"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref5",
+        "doi-asserted-by": "crossref",
+        "first-page": "160",
+        "DOI": "10.1017/S1751731112001395",
+        "article-title": "Daily grazing time as a risk factor for alterations at the hock joint integument in dairy cows",
+        "volume": "7",
+        "author": "Burow",
+        "year": "2013",
+        "journal-title": "Animal"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref6",
+        "doi-asserted-by": "crossref",
+        "first-page": "184",
+        "DOI": "10.1016/j.tvjl.2013.10.011",
+        "article-title": "Does milk yield reflect the level of welfare in dairy herds?",
+        "volume": "199",
+        "author": "Coignard",
+        "year": "2013",
+        "journal-title": "The Veterinary Journal"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref7",
+        "doi-asserted-by": "crossref",
+        "first-page": "157",
+        "DOI": "10.7120/09627286.27.2.157",
+        "article-title": "Sensitivity of the integrated Welfare Quality® scores to changing values of individual dairy cattle welfare measures",
+        "volume": "27",
+        "author": "De Graaf",
+        "year": "2018",
+        "journal-title": "Animal Welfare"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref8",
+        "doi-asserted-by": "crossref",
+        "first-page": "213",
+        "DOI": "10.7120/09627286.26.2.213",
+        "article-title": "Assessing dairy cow welfare at the beginning and end of the indoor period using the Welfare Quality® protocol",
+        "volume": "26",
+        "author": "De Graaf",
+        "year": "2017",
+        "journal-title": "Animal Welfare"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.3168/jds.2012-6129",
+        "article-title": "Evaluating results of the Welfare Quality multi-criteria evaluation model for classification of dairy cattle welfare at the herd level",
+        "volume": "96",
+        "author": "De Vries",
+        "year": "2013",
+        "journal-title": "Journal of Dairy Science"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref10",
+        "doi-asserted-by": "crossref",
+        "first-page": "102",
+        "DOI": "10.1016/j.prevetmed.2009.03.014",
+        "article-title": "Risk factors for lameness in cubicle housed Austrian Simmental dairy cows",
+        "volume": "90",
+        "author": "Dippel",
+        "year": "2009",
+        "journal-title": "Preventive Veterinary Medicine"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref11",
+        "doi-asserted-by": "crossref",
+        "first-page": "2025",
+        "DOI": "10.3168/jds.S0022-0302(01)74646-2",
+        "article-title": "The relationship between milk yield and the incidence of some diseases in dairy cows",
+        "volume": "84",
+        "author": "Fleischer",
+        "year": "2001",
+        "journal-title": "Journal of Dairy Science"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref12",
+        "first-page": "297",
+        "article-title": "Assessment of animal welfare measures for dairy cattle, beef bulls and veal calves",
+        "volume": "11",
+        "author": "Forkman",
+        "year": "2009",
+        "journal-title": "Welfare Quality® Reports"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.3168/jds.2017-14232",
+        "article-title": "Relationship between herd size and animal welfare in dairy cattle",
+        "volume": "101",
+        "author": "Gieseke",
+        "year": "2018",
+        "journal-title": "Journal of Dairy Science"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1978",
+        "DOI": "10.1017/S1751731114002018",
+        "article-title": "Navigating the iceberg: reducing the number of parameters within the Welfare Quality® Assessment protocol for dairy cows",
+        "volume": "8",
+        "author": "Heath",
+        "year": "2014",
+        "journal-title": "Animal"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1209",
+        "DOI": "10.3168/jds.S0022-0302(07)71608-9",
+        "article-title": "Effects of pasture on lameness in dairy cows",
+        "volume": "90",
+        "author": "Hernandez-Mendo",
+        "year": "2007",
+        "journal-title": "Journal of Dairy Science"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref17",
+        "unstructured": "Kanswohl N and Sanftleben P 2006. Analyse und Bewertung von Hoch- und Tiefboxen für Milchrinder aus arbeitswirtschaftlicher, ethologischer, hygienischer und ökonomischer Sicht. Research Paper of Research Institute of Agriculture and Fisheries of Mecklenburg Vorpommern, Germany. Retrieved on 1 September 2017 from http://www.landwirtschaft-mv.de/Fachinformationen/Tierproduktion/Milcherzeugung/?id=339&processor=processor.sa.lfaforenbeitrag."
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref18",
+        "doi-asserted-by": "crossref",
+        "first-page": "148",
+        "DOI": "10.1016/j.livsci.2006.02.004",
+        "article-title": "The effects of providing shade to lactating dairy cows in a temperate climate",
+        "volume": "103",
+        "author": "Kendall",
+        "year": "2006",
+        "journal-title": "Livestock Science"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1107",
+        "DOI": "10.1002/jsfa.3575",
+        "article-title": "Dairy cows trapped between performance demands and adaptability",
+        "volume": "89",
+        "author": "Knaus",
+        "year": "2009",
+        "journal-title": "Journal of the Science of Food and Agriculture"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref20",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/0168-1591(93)90066-X",
+        "article-title": "Behaviour of dairy cows kept in extensive (loose housing/pasture) or intensive (tie stall) environments",
+        "volume": "37",
+        "author": "Krohn",
+        "year": "1993",
+        "journal-title": "Applied Animal Behavior Science"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref21",
+        "doi-asserted-by": "crossref",
+        "first-page": "319",
+        "DOI": "10.3168/jds.2013-7217",
+        "article-title": "Climatic effects on milk production traits and somatic cell score in lactating Holstein-Frisian cows in different housing systems",
+        "volume": "97",
+        "author": "Lambertz",
+        "year": "2014",
+        "journal-title": "Journal of Dairy Science"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref22",
+        "unstructured": "Leisen E 2014. Weidebasierte Milchviehhaltung in Deutschland. In Proceedings of the International Conference on Grasland- and Pasture-based Milk Production, 21–22 August 2014, Zollikofen, Switzerland, pp. 98–101."
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref23",
+        "doi-asserted-by": "crossref",
+        "first-page": "5175",
+        "DOI": "10.2527/jas.2014-8046",
+        "article-title": "Preference and behavior of lactating dairy cows given free access to pasture at two herbage masses and two distances",
+        "volume": "92",
+        "author": "Motupalli",
+        "year": "2014",
+        "journal-title": "Journal of Animal Science"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Phillips CJC, Beerda B, Knierim U, Waiblinger S, Lidfors L, Krohn CC, Canali E, Valk H, Veissier I and Hopster H 2013. A review of the impact of housing on dairy cow behaviour, health and welfare. In Livestock housing: modern management to ensure optimal health and welfare of farm animals (eds. A. Aland and T. Banhazi), pp. 37–54. Wageningen Academic Publishers, Wageningen, The Netherlands.",
+        "DOI": "10.3920/978-90-8686-771-4_02"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref25",
+        "unstructured": "Reijs J, Daatselaar C, Helming J, Jager J and Beldman A 2013. Grazing dairy cows in north-west Europe. LEI Report 2013-001. LEI Wageningen UR, The Hague, The Netherlands."
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref26",
+        "unstructured": "Thomet P, Ineichen S and Jörg H 2014. Züchten von Kühen für eine effiziente graslandbasierte Milchproduktion. In Proceedings of the International Conference on Grasland- and Pasture-Based Milk Production, 21–22 August 2014, Zollikofen, Switzerland, pp. 61–70."
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref27",
+        "doi-asserted-by": "crossref",
+        "first-page": "141",
+        "DOI": "10.1016/j.applanim.2007.03.015",
+        "article-title": "Effect of solar radiation on dairy cattle behaviour, use of shade and body temperature in a pasture-based system",
+        "volume": "109",
+        "author": "Tucker",
+        "year": "2008",
+        "journal-title": "Applied Animal Behaviour Science"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref28",
+        "doi-asserted-by": "crossref",
+        "first-page": "273",
+        "DOI": "10.1016/j.anbehav.2014.02.007",
+        "article-title": "Observer bias in animal behaviour research: can we believe what we score, if we score what we believe?",
+        "volume": "90",
+        "author": "Tuyttens",
+        "year": "2014",
+        "journal-title": "Animal Behaviour"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Van den Pol-van Dasselaar A, de Vliegher A, Hennessy D, Isselstein J and Peyraud J-L 2015. The future of grazing. In Proceedings of the 3rd Meeting of the EGF Working Group ‘Grazing’. Wageningen UR (University and Research Centre) Livestock Research, Livestock Research Report 906, Wageningen, The Netherlands.",
+        "DOI": "10.18174/402122"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref30",
+        "doi-asserted-by": "crossref",
+        "first-page": "105",
+        "DOI": "10.3168/jds.S0022-0302(02)74058-7",
+        "article-title": "Reproduction, mastitis, and body condition of seasonally calved Holstein and Jersey cows in confinement or pasture systems",
+        "volume": "85",
+        "author": "Washburn",
+        "year": "2002",
+        "journal-title": "Journal of Dairy Science"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref31",
+        "doi-asserted-by": "crossref",
+        "first-page": "189",
+        "DOI": "10.1016/S0168-1591(00)00134-9",
+        "article-title": "Behaviour and leg injuries in dairy cows kept in cubicle systems with straw bedding or soft lying mats",
+        "volume": "69",
+        "author": "Wechsler",
+        "year": "2000",
+        "journal-title": "Applied Animal Behaviour Science"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref32",
+        "unstructured": "Weiß D 2014. Imagewirkung von weidenden Kühen. In Proceedings of the International Conference on Grasland- and Pasture-Based Milk Production, 21–22 August 2014, Zollikofen, Switzerland, pp. 43–48."
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref33",
+        "first-page": "205",
+        "article-title": "Consumer attitudes in Germany towards different dairy housing systems and their implications for the marketing of pasture raised milk",
+        "volume": "17",
+        "author": "Weinrich",
+        "year": "2014",
+        "journal-title": "International Food and Agribusiness Management Review"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref34",
+        "series-title": "Welfare Quality® assessment protocol for cattle applied to dairy cows",
+        "year": "2012"
+      },
+      {
+        "key": "10.1017/S1751731119000570_ref35",
+        "doi-asserted-by": "crossref",
+        "first-page": "62",
+        "DOI": "10.3168/jds.S0022-0302(02)74057-5",
+        "article-title": "Milk production and economic measures in confinement or pasture systems using seasonally calved Holstein and Jersey cows",
+        "volume": "85",
+        "author": "White",
+        "year": "2002",
+        "journal-title": "Journal of Dairy Science"
+      }
+    ],
+    "container-title": [
+      "Animal"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1751731119000570?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1751731119000570?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S1751731119000570",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          26
+        ]
+      ],
+      "date-time": "2021-04-26T06:43:24Z",
+      "timestamp": 1619419404000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1751731119000570"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "references-count": 34,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S1751731119000570"
+    ],
+    "URL": "https://doi.org/10.1017/s1751731119000570",
+    "relation": {},
+    "ISSN": [
+      "1751-7311"
+    ],
+    "issn-type": [
+      {
+        "value": "1751-7311",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "© The Animal Consortium 2019 ",
+        "name": "license",
+        "label": "License",
+        "group": {
+          "name": "copyright_and_licensing",
+          "label": "Copyright and Licensing"
+        }
+      }
+    ]
+  }
+}

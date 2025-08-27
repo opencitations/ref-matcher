@@ -1,0 +1,653 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          7
+        ]
+      ],
+      "date-time": "2025-01-07T05:35:10Z",
+      "timestamp": 1736228110368,
+      "version": "3.32.0"
+    },
+    "reference-count": 35,
+    "publisher": "MDPI AG",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              17
+            ]
+          ],
+          "date-time": "2019-10-17T00:00:00Z",
+          "timestamp": 1571270400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100013276",
+        "name": "Interreg",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "INTERREG-MAC/1.1b/042 (BIOTRANSFER2)"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100013276",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Instituto de Salud Carlos",
+        "award": [
+          "PI18/01380"
+        ]
+      },
+      {
+        "DOI": "10.13039/501100023373",
+        "name": "RICET",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "RD16/0027/0001 (RICET)"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100023373",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Marine Drugs"
+    ],
+    "abstract": "<jats:p>Indolocarbazoles are a family of natural alkaloids characterized by their potent protein kinase and topoisomerase I inhibitory activity. Among them, staurosporine (1) has exhibited promising inhibitory activity against parasites. Based on new insights on the activity and mechanism of action of STS in Acanthamoeba parasites, this work reports the isolation, identification, and the anti-Acanthamoeba activity of the minor metabolites 7-oxostaurosporine (2), 4′-demethylamino-4′-oxostaurosporine (3), and streptocarbazole B (4), isolated from cultures of the mangrove strain Streptomyces sanyensis. A clear correlation between the antiparasitic activities and the structural elements and conformations of the indolocarbazoles 1–4 was observed. Also, the study reveals that 7-oxostaurosporine (2) affects membrane permeability and causes mitochondrial damages on trophozoites of A. castellanii Neff.</jats:p>",
+    "DOI": "10.3390/md17100588",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          17
+        ]
+      ],
+      "date-time": "2019-10-17T15:07:59Z",
+      "timestamp": 1571324879000
+    },
+    "page": "588",
+    "source": "Crossref",
+    "is-referenced-by-count": 13,
+    "title": [
+      "Antiamoebic Activities of Indolocarbazole Metabolites Isolated from Streptomyces sanyensis Cultures"
+    ],
+    "prefix": "10.3390",
+    "volume": "17",
+    "author": [
+      {
+        "given": "Luis",
+        "family": "Cartuche",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Instituto Universitario de Bio-Orgánica Antonio González (IUBO AG), Centro de Investigaciones Biomédicas de Canarias (CIBICAN), Universidad de La Laguna (ULL), Avda. Astrofísico F. Sánchez 2, 38206 La Laguna, Tenerife, Spain"
+          },
+          {
+            "name": "Departamento de Química y Ciencias Exactas, Sección Química Básica y Aplicada, Universidad Técnica Particular de Loja (UTPL), San Cayetano alto s/n, A.P. 1101608 Loja, Ecuador"
+          }
+        ]
+      },
+      {
+        "given": "María",
+        "family": "Reyes-Batlle",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto Universitario de Enfermedades Tropicales y Salud Pública de Islas Canarias, Departamento de Obstetricia y Ginecología, Pediatría, Medicina Preventiva y Salud Pública, Toxicología, Medicina Legal y Forense y Parasitología, Universidad de La Laguna, Avda. Astrofísico F. Sánchez s/n, 38206 La Laguna, Tenerife, Spain"
+          }
+        ]
+      },
+      {
+        "given": "Ines",
+        "family": "Sifaoui",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto Universitario de Enfermedades Tropicales y Salud Pública de Islas Canarias, Departamento de Obstetricia y Ginecología, Pediatría, Medicina Preventiva y Salud Pública, Toxicología, Medicina Legal y Forense y Parasitología, Universidad de La Laguna, Avda. Astrofísico F. Sánchez s/n, 38206 La Laguna, Tenerife, Spain"
+          }
+        ]
+      },
+      {
+        "given": "Iñigo",
+        "family": "Arberas-Jiménez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto Universitario de Enfermedades Tropicales y Salud Pública de Islas Canarias, Departamento de Obstetricia y Ginecología, Pediatría, Medicina Preventiva y Salud Pública, Toxicología, Medicina Legal y Forense y Parasitología, Universidad de La Laguna, Avda. Astrofísico F. Sánchez s/n, 38206 La Laguna, Tenerife, Spain"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6233-8224",
+        "authenticated-orcid": false,
+        "given": "José E.",
+        "family": "Piñero",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto Universitario de Enfermedades Tropicales y Salud Pública de Islas Canarias, Departamento de Obstetricia y Ginecología, Pediatría, Medicina Preventiva y Salud Pública, Toxicología, Medicina Legal y Forense y Parasitología, Universidad de La Laguna, Avda. Astrofísico F. Sánchez s/n, 38206 La Laguna, Tenerife, Spain"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0805-8317",
+        "authenticated-orcid": false,
+        "given": "José J.",
+        "family": "Fernández",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto Universitario de Bio-Orgánica Antonio González (IUBO AG), Centro de Investigaciones Biomédicas de Canarias (CIBICAN), Universidad de La Laguna (ULL), Avda. Astrofísico F. Sánchez 2, 38206 La Laguna, Tenerife, Spain"
+          },
+          {
+            "name": "Departamento de Química Orgánica, Universidad de La Laguna (ULL), Avda. Astrofísico F. Sánchez, 2, 38206 La Laguna, Tenerife, Spain"
+          }
+        ]
+      },
+      {
+        "given": "Jacob",
+        "family": "Lorenzo-Morales",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto Universitario de Enfermedades Tropicales y Salud Pública de Islas Canarias, Departamento de Obstetricia y Ginecología, Pediatría, Medicina Preventiva y Salud Pública, Toxicología, Medicina Legal y Forense y Parasitología, Universidad de La Laguna, Avda. Astrofísico F. Sánchez s/n, 38206 La Laguna, Tenerife, Spain"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8886-7519",
+        "authenticated-orcid": false,
+        "given": "Ana R.",
+        "family": "Díaz-Marrero",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Instituto Universitario de Bio-Orgánica Antonio González (IUBO AG), Centro de Investigaciones Biomédicas de Canarias (CIBICAN), Universidad de La Laguna (ULL), Avda. Astrofísico F. Sánchez 2, 38206 La Laguna, Tenerife, Spain"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          17
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1007",
+        "DOI": "10.1039/B601930G",
+        "article-title": "Indolocarbazole natural products: Occurrence, biosynthesis, and biological activity",
+        "volume": "23",
+        "author": "Mendez",
+        "year": "2006",
+        "journal-title": "Nat. Prod. Rep."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1038/ja.2008.4",
+        "article-title": "Chemical biology of natural indolocarbazole products: 30 years since the discovery of staurosporine",
+        "volume": "62",
+        "author": "Nakano",
+        "year": "2009",
+        "journal-title": "J. Antibiot."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "9058",
+        "DOI": "10.1021/acs.chemrev.8b00186",
+        "article-title": "Chemistry and properties of Indolocarbazoles",
+        "volume": "118",
+        "author": "Yanosik",
+        "year": "2018",
+        "journal-title": "Chem. Rev."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "275",
+        "DOI": "10.7164/antibiotics.30.275",
+        "article-title": "A new alkaloid AM-2282 of Streptomyces origin. Taxonomy, fermentation, isolation and preliminary characterization",
+        "volume": "30",
+        "author": "Omura",
+        "year": "1977",
+        "journal-title": "J. Antibiot."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "397",
+        "DOI": "10.1016/0006-291X(86)90008-2",
+        "article-title": "Staurosporine, a potent inhibitor of phospholipid/Ca++dependent protein kinase",
+        "volume": "135",
+        "author": "Tamaoki",
+        "year": "1986",
+        "journal-title": "Biochem. Biophys. Res. Commun."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "796",
+        "DOI": "10.1038/nsb1097-796",
+        "article-title": "Protein kinase inhibition by staurosporine revealed in details of the molecular interaction with CDK2",
+        "volume": "4",
+        "author": "Lawrie",
+        "year": "1997",
+        "journal-title": "Nat. Struct. Biol."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "436",
+        "DOI": "10.1016/0006-291X(87)90293-2",
+        "article-title": "K-252 compounds, novel and potent inhibitors of protein kinase C and cyclic nucleotide-dependent protein kinases",
+        "volume": "30",
+        "author": "Kase",
+        "year": "1987",
+        "journal-title": "Biochem. Biophys. Res. Commun."
+      },
+      {
+        "key": "ref_8",
+        "first-page": "371",
+        "article-title": "K252a is a selective inhibitor of the tyrosine protein kinase activity of the trk family of oncogenes and neurotrophin receptors",
+        "volume": "7",
+        "author": "Tapley",
+        "year": "1992",
+        "journal-title": "Oncogene"
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "12069",
+        "DOI": "10.1021/bi00163a015",
+        "article-title": "Induction of Mammalian DNA Topoisomerase I Mediated DNA Cleavage by Antitumor Indolocarbazole Derivatives",
+        "volume": "31",
+        "author": "Yamashita",
+        "year": "1992",
+        "journal-title": "Biochemistry"
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "S7",
+        "DOI": "10.1017/S0031182006000825",
+        "article-title": "Programmed cell death in African trypanosomes",
+        "volume": "132",
+        "author": "Welburn",
+        "year": "2006",
+        "journal-title": "Parasitology"
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1284",
+        "DOI": "10.1099/mic.0.034025-0",
+        "article-title": "Staurosporine-induced programmed cell death in Blastocystis occurs independently of caspases and cathepsins and is augmented by calpain inhibition",
+        "volume": "156",
+        "author": "Yin",
+        "year": "2010",
+        "journal-title": "Microbiology"
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "103",
+        "DOI": "10.1590/S0036-46652012000200008",
+        "article-title": "Apoptotic-like activity of staurosporine in axenic cultures of Trypanosoma evansi",
+        "volume": "54",
+        "author": "Bruges",
+        "year": "2012",
+        "journal-title": "Rev. Inst. Med. Trop."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "151",
+        "DOI": "10.1016/j.bbapap.2005.08.018",
+        "article-title": "Protein kinases as drug targets in trypanosomes and Leishmania",
+        "volume": "1754",
+        "author": "Naula",
+        "year": "2005",
+        "journal-title": "Biochim. Biophys. Acta"
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.4236/ojapo.2014.32003",
+        "article-title": "Staurosporine-Induced Cell Death in Trypanosoma brucei and the Role of Endonuclease G during Apoptosis",
+        "volume": "3",
+        "author": "Barth",
+        "year": "2014",
+        "journal-title": "Open J. Apoptosis"
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "189",
+        "DOI": "10.7164/antibiotics.45.189",
+        "article-title": "A new inhibitor of protein kinase c, rk- 1409 (7-oxostaurosporine) I. Taxonomy and biological activity",
+        "volume": "45",
+        "author": "Osada",
+        "year": "1992",
+        "journal-title": "J. Antibiot."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "519",
+        "DOI": "10.7164/antibiotics.49.519",
+        "article-title": "Further minor metabolites of Staurosporine produced by a Streptomyces longisporoflavus strain",
+        "volume": "49",
+        "author": "Cai",
+        "year": "1996",
+        "journal-title": "J. Antibiot."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "2422",
+        "DOI": "10.1021/ol3008638",
+        "article-title": "Streptocarbazoles A and B, Two Novel Indolocarbazoles from the Marine-Derived Actinomycete Strain Streptomyces sp. FMA",
+        "volume": "14",
+        "author": "Fu",
+        "year": "2012",
+        "journal-title": "Org. Lett."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "11651",
+        "DOI": "10.1038/s41598-019-48261-7",
+        "article-title": "Staurosporine from Streptomyces sanyensis activates Programmed Cell Death in Acanthamoeba via the mitochondrial pathway and presents low cytotoxicity levels to vertebrate cells",
+        "volume": "9",
+        "author": "Cartuche",
+        "year": "2019",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "328",
+        "DOI": "10.1016/j.ijpddr.2017.09.002",
+        "article-title": "In vitro evaluation of antimicrobial agents on Acanthamoeba sp. and evidence of a natural resilience to amphotericin B",
+        "volume": "7",
+        "author": "Taravaud",
+        "year": "2017",
+        "journal-title": "Int. J. Parasitol. Drugs Drug Resist."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "García-Davis, S., Sifaoui, I., Reyes-Batlle, M., Viveros-Valdez, E., Piñero, J.E., Lorenzo-Morales, J., Fernández, J.J., and Díaz-Marrero, A.R. (2018). Anti-Acanthamoeba Activity of Brominated Sesquiterpenes from Laurencia johnstonii. Mar. Drugs, 16.",
+        "DOI": "10.3390/md16110443"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lorenzo-Morales, J., Díaz-Marrero, A.R., Cen-Pacheco, F., Sifaoui, I., Reyes-Batlle, M., Souto, M.L., Hernández Daranas, A., Piñero, J.E., and Fernández, J.J. (2019). Evaluation of Oxasqualenoids from the Red Alga Laurencia viridis against Acanthamoeba. Mar. Drugs, 17.",
+        "DOI": "10.3390/md17070420"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "2",
+        "DOI": "10.1186/1756-3305-4-44",
+        "article-title": "Evolution of apoptosis-like programmed cell death in unicellular protozoan parasites",
+        "volume": "4",
+        "author": "Kaczanowski",
+        "year": "2011",
+        "journal-title": "Parasites Vectors"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "489",
+        "DOI": "10.1039/b923848b",
+        "article-title": "Protein kinase inhibition of clinically important staurosporine analogues",
+        "volume": "27",
+        "author": "Gani",
+        "year": "2010",
+        "journal-title": "Nat. Prod. Rep."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tanramluk, D. (2009). On the Origins of Enzyme Inhibitor Selectivity and Promiscuity: A Case of Study of Protein Kinase Binding to Staurosporine. [Ph.D. Thesis, University of Cambridge].",
+        "DOI": "10.1111/j.1747-0285.2009.00832.x"
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "255",
+        "DOI": "10.2174/1568011023354218",
+        "article-title": "Discovery of antitumor indolocarbazoles: Rebeccamycin, NSC 655649, and fluoroindolocarbazoles",
+        "volume": "2",
+        "author": "Long",
+        "year": "2002",
+        "journal-title": "Curr. Med. Chem. Anticancer Agents"
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "4471",
+        "DOI": "10.1021/jm9603779",
+        "article-title": "Structure-activity relationships in a series of substituted indolocarbazoles: Topoisomerase I and protein kinase C inhibition and antitumoral and antimicrobial properties",
+        "volume": "39",
+        "author": "Pereira",
+        "year": "1996",
+        "journal-title": "J. Med. Chem."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1294",
+        "DOI": "10.1002/med.21546",
+        "article-title": "Topoisomerase 1B poisons: Over a half-century of drug leads, clinical candidates and serendipitous discoveries",
+        "volume": "39",
+        "author": "Cinelli",
+        "year": "2019",
+        "journal-title": "Med. Res. Rev."
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1051",
+        "DOI": "10.3762/bjoc.14.93",
+        "article-title": "An overview of recent advances in duplex DNA recognition by small molecules",
+        "volume": "14",
+        "author": "Bhaduri",
+        "year": "2018",
+        "journal-title": "Beilstein J. Org. Chem."
+      },
+      {
+        "key": "ref_29",
+        "first-page": "46",
+        "article-title": "Combinatorial Biosynthesis of Antitumor Indolocarbazole Compounds",
+        "volume": "102",
+        "author": "Zhu",
+        "year": "2005",
+        "journal-title": "Proc. Natl. Acad. Sci. USA"
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "668",
+        "DOI": "10.7164/antibiotics.40.668",
+        "article-title": "Production and biological activity of rebeccamycin, a novel antitumor agent",
+        "volume": "40",
+        "author": "Bush",
+        "year": "1987",
+        "journal-title": "J. Antibiot. (Tokyo)"
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "3835",
+        "DOI": "10.1016/S0960-894X(03)00791-1",
+        "article-title": "Aryl[a]pyrrolo[3,4-c]carbazoles as selective cyclin D1-CDK4 inhibitors",
+        "volume": "13",
+        "author": "Shih",
+        "year": "2003",
+        "journal-title": "Bioorg. Med. Chem. Lett."
+      },
+      {
+        "key": "ref_32",
+        "first-page": "256310",
+        "article-title": "Morphological Features and In Vitro Cytopathic Effect of Acanthamoeba griffini Trophozoites Isolated from a Clinical Case",
+        "volume": "2014",
+        "year": "2014",
+        "journal-title": "J. Parasitol. Res."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "629",
+        "DOI": "10.1128/JCM.43.2.629-634.2005",
+        "article-title": "Development of colorimetric microtiter plate assay for assessment of antimicrobials against Acanthamoeba",
+        "volume": "43",
+        "author": "McBride",
+        "year": "2005",
+        "journal-title": "J. Clin. Microbiol."
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "10",
+        "DOI": "10.1051/parasite/2015010",
+        "article-title": "An update on Acanthamoeba keratitis: Diagnosis, pathogenesis and treatment",
+        "volume": "22",
+        "author": "Khan",
+        "year": "2015",
+        "journal-title": "Parasite"
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "first-page": "509",
+        "DOI": "10.1128/EC.00316-07",
+        "article-title": "Glycogen phosphorylase in Acanthamoeba spp.: Determining the role of the enzyme during the encystment process using RNA interference",
+        "volume": "7",
+        "author": "Kliescikova",
+        "year": "2008",
+        "journal-title": "Eukaryot. Cell"
+      }
+    ],
+    "container-title": [
+      "Marine Drugs"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/1660-3397/17/10/588/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          7
+        ]
+      ],
+      "date-time": "2025-01-07T01:43:23Z",
+      "timestamp": 1736214203000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/1660-3397/17/10/588"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          17
+        ]
+      ]
+    },
+    "references-count": 35,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "md17100588"
+    ],
+    "URL": "https://doi.org/10.3390/md17100588",
+    "relation": {},
+    "ISSN": [
+      "1660-3397"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "1660-3397"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          17
+        ]
+      ]
+    }
+  }
+}

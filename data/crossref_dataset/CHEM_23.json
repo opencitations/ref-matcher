@@ -1,0 +1,990 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          28
+        ]
+      ],
+      "date-time": "2024-08-28T15:48:38Z",
+      "timestamp": 1724860118758
+    },
+    "reference-count": 63,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              4
+            ]
+          ],
+          "date-time": "2019-09-04T00:00:00Z",
+          "timestamp": 1567555200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001807",
+        "name": "São Paulo Research Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2017/10522-5",
+          "2018/14425-7",
+          "2018/20745-4",
+          "2019/11214-8",
+          "2018/13922-7"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001807",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002322",
+        "name": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100002322",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001807",
+        "name": "FAPESP",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001807",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Shell Brazil",
+        "award": [
+          "2014/50279-4"
+        ]
+      },
+      {
+        "DOI": "10.13039/501100006487",
+        "name": "ANP",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100006487",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Electrochemistry Communications"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.elecom.2019.106541",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          5
+        ]
+      ],
+      "date-time": "2019-09-05T16:18:13Z",
+      "timestamp": 1567700293000
+    },
+    "page": "106541",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 39,
+    "special_numbering": "C",
+    "title": [
+      "Laser-pyrolyzed electrochemical paper-based analytical sensor for sulphite analysis"
+    ],
+    "prefix": "10.1016",
+    "volume": "107",
+    "author": [
+      {
+        "given": "Alisson",
+        "family": "Bezerra Martins",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Alnilan",
+        "family": "Lobato",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nikola",
+        "family": "Tasić",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fernando J.",
+        "family": "Perez-Sanz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Pedro",
+        "family": "Vidinha",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Thiago R.L.C.",
+        "family": "Paixão",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Luís",
+        "family": "Moreira Gonçalves",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "15113",
+        "DOI": "10.1002/anie.201708527",
+        "article-title": "Single-step reagentless laser scribing fabrication of electrochemical paper-based analytical devices",
+        "volume": "56",
+        "author": "de Araujo",
+        "year": "2017",
+        "journal-title": "Angew. Chem. Int. Ed."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "5821",
+        "DOI": "10.1021/ac9007573",
+        "article-title": "Electrochemical detection for paper-based microfluidics",
+        "volume": "81",
+        "author": "Dungchai",
+        "year": "2009",
+        "journal-title": "Anal. Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "40",
+        "DOI": "10.1016/j.bios.2016.11.008",
+        "article-title": "Paper-based maskless enzymatic sensor for glucose determination combining ink and wire electrodes",
+        "volume": "93",
+        "author": "Amor-Gutiérrez",
+        "year": "2017",
+        "journal-title": "Biosens. Bioelectron."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "S3044",
+        "DOI": "10.1149/2.0121510jss",
+        "article-title": "A paper-based electrochemical sensor using inkjet-printed carbon nanotube electrodes",
+        "volume": "4",
+        "author": "da Costa",
+        "year": "2015",
+        "journal-title": "ECS J. Solid State Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "3659",
+        "DOI": "10.1021/ac5004294",
+        "article-title": "Wire, mesh, and fiber electrodes for paper-based electroanalytical devices",
+        "volume": "86",
+        "author": "Fosdick",
+        "year": "2014",
+        "journal-title": "Anal. Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "2775",
+        "DOI": "10.1039/b905832j",
+        "article-title": "Thin, lightweight, foldable thermochromic displays on paper",
+        "volume": "9",
+        "author": "Siegel",
+        "year": "2009",
+        "journal-title": "Lab Chip"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "8",
+        "DOI": "10.1016/j.jelechem.2015.07.055",
+        "article-title": "Development and characterization of carbon based electrodes from pyrolyzed paper for biosensing applications",
+        "volume": "765",
+        "author": "Giuliani",
+        "year": "2016",
+        "journal-title": "J. Electroanal. Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0040",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1002/aelm.201600185",
+        "article-title": "Highly efficient laser scribed graphene electrodes for on-chip electrochemical sensing applications",
+        "volume": "2",
+        "author": "Nayak",
+        "year": "2016",
+        "journal-title": "Adv. Electron. Mater."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "433",
+        "DOI": "10.1080/02652039009373907",
+        "article-title": "A review of sulphites in foods: analytical methodology and reported findings",
+        "volume": "7",
+        "author": "Fazio",
+        "year": "1990",
+        "journal-title": "Food Addit. Contam."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "189",
+        "DOI": "10.1590/0103-9016-2015-0290",
+        "article-title": "Sulfites in beer: reviewing regulation, analysis and role",
+        "volume": "73",
+        "author": "Guido",
+        "year": "2016",
+        "journal-title": "Sci. Agric."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "1643",
+        "DOI": "10.1111/j.1365-2222.2009.03362.x",
+        "article-title": "Clinical effects of sulphite additives",
+        "volume": "39",
+        "author": "Vally",
+        "year": "2009",
+        "journal-title": "Clin. Exp. Allergy"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "1248",
+        "DOI": "10.1515/chem-2018-0139",
+        "article-title": "Comparative sulfite assay by voltammetry using Pt electrodes, photometry and titrimetry: application to cider, vinegar and sugar analysis",
+        "volume": "16",
+        "author": "Pisoschi",
+        "year": "2018",
+        "journal-title": "Open Chem"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "589",
+        "DOI": "10.1016/j.trac.2006.04.001",
+        "article-title": "Electroanalytical methods for the determination of sulfite in food and beverages",
+        "volume": "25",
+        "author": "Isaac",
+        "year": "2006",
+        "journal-title": "TrAC Trends Anal. Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "1467",
+        "DOI": "10.1016/S0277-5387(00)83508-1",
+        "article-title": "Polarographic reduction of aqueous sulfur dioxide",
+        "volume": "5",
+        "author": "Reynolds",
+        "year": "1986",
+        "journal-title": "Polyhedron"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0075",
+        "doi-asserted-by": "crossref",
+        "first-page": "2818",
+        "DOI": "10.1021/ja01855a092",
+        "article-title": "The reduction of sulfurous acid (sulfur dioxide) at the dropping mercury electrode",
+        "volume": "63",
+        "author": "Kolthoff",
+        "year": "1941",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "721",
+        "DOI": "10.1135/cccc2009558",
+        "article-title": "Use of a membraneless extraction module for the voltammetric determination of total sulfites in wine",
+        "volume": "75",
+        "author": "Gonçalves",
+        "year": "2010",
+        "journal-title": "Collect. Czechoslov. Chem. Commun."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "185",
+        "DOI": "10.1135/cccc19300185",
+        "article-title": "Polarographic studies with the dropping mercury kathode. Part X. The reduction of sulphurous acid",
+        "volume": "2",
+        "author": "Gosman",
+        "year": "1930",
+        "journal-title": "Collect. Czechoslov. Chem. Commun."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "593",
+        "DOI": "10.1016/0013-4686(85)80099-2",
+        "article-title": "Comportement chimique et electrochimique de SO2 dans les milieux acides phosphoriques concentres",
+        "volume": "30",
+        "author": "Benayada",
+        "year": "1985",
+        "journal-title": "Electrochim. Acta"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "1871",
+        "DOI": "10.1135/cccc19581871",
+        "article-title": "Polarographische Studie der Elektroden- und chemischen Reaktionen des Systems schwefelige Säure-Dithionige Säure II. Polarographisches verhalten der schwefeligen Säure",
+        "volume": "23",
+        "author": "Čermák",
+        "year": "1958",
+        "journal-title": "Collect. Czechoslov. Chem. Commun."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "181",
+        "DOI": "10.1016/0022-0728(67)85022-8",
+        "article-title": "Electrochemical reduction of sulfur dioxide at a mercury electrode",
+        "volume": "15",
+        "author": "Jacobsen",
+        "year": "1967",
+        "journal-title": "J. Electroanal. Chem. Interfacial Electrochem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0105",
+        "doi-asserted-by": "crossref",
+        "first-page": "587",
+        "DOI": "10.1002/elan.200390073",
+        "article-title": "Voltammetric determination of free and total sulfur dioxide in beer",
+        "volume": "15",
+        "author": "Almeida",
+        "year": "2003",
+        "journal-title": "Electroanalysis"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0110",
+        "doi-asserted-by": "crossref",
+        "first-page": "175",
+        "DOI": "10.1080/19440040903261547",
+        "article-title": "Determination of free and total sulfites in wine using an automatic flow injection analysis system with voltammetric detection",
+        "volume": "27",
+        "author": "Gonçalves",
+        "year": "2010",
+        "journal-title": "Food Addit. Contam. Part A. Chem. Anal. Control. Expo. Risk Assess."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "837",
+        "DOI": "10.1007/s12161-016-0640-1",
+        "article-title": "Simultaneous determination of ethanethiol, inorganic sulfide, and sulfite in wines by cathodic stripping voltammetry",
+        "volume": "10",
+        "author": "Guarda",
+        "year": "2017",
+        "journal-title": "Food Anal. Methods"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "1847",
+        "DOI": "10.1016/S0013-4686(99)00396-5",
+        "article-title": "Electrochemical behaviour of aqueous SO2 at polycrystalline gold electrodes in acidic media: a voltammetric and in situ vibrational study: part 1. Reduction of SO2: deposition of monomeric and polymeric sulphur",
+        "volume": "45",
+        "author": "Quijada",
+        "year": "2000",
+        "journal-title": "Electrochim. Acta"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "1149",
+        "DOI": "10.1021/ac970697f",
+        "article-title": "In situ spectroscopic determination of faradaic efficiencies in systems with forced convection under steady state: electroreduction of bisulfite to dithionite on gold in an aqueous electrolyte",
+        "volume": "70",
+        "author": "Tolmachev",
+        "year": "1998",
+        "journal-title": "Anal. Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0130",
+        "doi-asserted-by": "crossref",
+        "first-page": "308",
+        "DOI": "10.1002/j.2050-0416.2006.tb00736.x",
+        "article-title": "Determination of total sulphur dioxide in beer samples by flow-through chronopotentiometry",
+        "volume": "112",
+        "author": "Dvořák",
+        "year": "2006",
+        "journal-title": "J. Inst. Brew."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0135",
+        "doi-asserted-by": "crossref",
+        "first-page": "243",
+        "DOI": "10.1016/0022-0728(93)03261-M",
+        "article-title": "Voltammetric behaviour of irreversibly adsorbed SO2 on a Pt(111) electrode in sulphuric acid medium",
+        "volume": "372",
+        "author": "Quijada",
+        "year": "1994",
+        "journal-title": "J. Electroanal. Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "4466",
+        "DOI": "10.20964/2018.05.07",
+        "article-title": "Electrochemical oxidation of sulphite in neutral media on platinum anode",
+        "volume": "13",
+        "author": "Enache",
+        "year": "2018",
+        "journal-title": "Int. J. Electrochem. Sci."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0145",
+        "doi-asserted-by": "crossref",
+        "first-page": "18500",
+        "DOI": "10.1021/jp058119n",
+        "article-title": "Cathodic reduction of bisulfite and sulfur dioxide in aqueous solutions on copper electrodes: an electrochemical ESR study",
+        "volume": "109",
+        "author": "Streeter",
+        "year": "2005",
+        "journal-title": "J. Phys. Chem. B"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "445",
+        "DOI": "10.1016/S0003-2670(00)84490-6",
+        "article-title": "Determination of sulphur dioxide by flow injection analysis with amperometric detection",
+        "volume": "179",
+        "author": "Granados",
+        "year": "1986",
+        "journal-title": "Anal. Chim. Acta"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0155",
+        "doi-asserted-by": "crossref",
+        "first-page": "253",
+        "DOI": "10.1039/an9911600253",
+        "article-title": "Determination of free sulphur dioxide in red wine by alternating current voltammetry",
+        "volume": "116",
+        "author": "Cardwell",
+        "year": "1991",
+        "journal-title": "Analyst"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0160",
+        "doi-asserted-by": "crossref",
+        "first-page": "444",
+        "DOI": "10.1002/elan.200704070",
+        "article-title": "Determination of sulfite in wine by linear sweep voltammetry",
+        "volume": "20",
+        "author": "Scampicchio",
+        "year": "2008",
+        "journal-title": "Electroanalysis"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0165",
+        "doi-asserted-by": "crossref",
+        "first-page": "763",
+        "DOI": "10.1016/j.foodchem.2014.10.106",
+        "article-title": "Carbon nanotubes for voltammetric determination of sulphite in some beverages",
+        "volume": "173",
+        "author": "Silva",
+        "year": "2015",
+        "journal-title": "Food Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0170",
+        "doi-asserted-by": "crossref",
+        "first-page": "990",
+        "DOI": "10.1016/j.jallcom.2018.03.287",
+        "article-title": "Simultaneous electrochemical sensing of sulphite and nitrite on acid-functionalized multi-walled carbon nanotubes modified electrodes",
+        "volume": "749",
+        "author": "Sudha",
+        "year": "2018",
+        "journal-title": "J. Alloys Compd."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0175",
+        "doi-asserted-by": "crossref",
+        "first-page": "52",
+        "DOI": "10.1016/j.elecom.2015.12.010",
+        "article-title": "Free sulphite determination in wine using screen-printed carbon electrodes with prior gas-diffusion microextraction",
+        "volume": "63",
+        "author": "Ramos",
+        "year": "2016",
+        "journal-title": "Electrochem. Commun."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0180",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1002/jib.402",
+        "article-title": "Electrochemical sensing of total sulphites in beer using non-modified screen-printed carbon electrodes",
+        "volume": "123",
+        "author": "Ramos",
+        "year": "2017",
+        "journal-title": "J. Inst. Brew."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0185",
+        "doi-asserted-by": "crossref",
+        "first-page": "590",
+        "DOI": "10.1016/j.microc.2019.03.031",
+        "article-title": "A modified screen printed electrode based on La3+-doped Co3O4 nanocubes for determination of sulfite in real samples",
+        "volume": "147",
+        "author": "Beitollahi",
+        "year": "2019",
+        "journal-title": "Microchem. J."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0190",
+        "doi-asserted-by": "crossref",
+        "first-page": "150",
+        "DOI": "10.1016/j.jelechem.2017.11.070",
+        "article-title": "Amperometric sensing of sulfite using a gold electrode coated with ordered mesoporous carbon modified with nickel hexacyanoferrate",
+        "volume": "808",
+        "author": "Preecharueangrit",
+        "year": "2018",
+        "journal-title": "J. Electroanal. Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0195",
+        "doi-asserted-by": "crossref",
+        "first-page": "522",
+        "DOI": "10.1016/j.electacta.2017.08.171",
+        "article-title": "Electrochemical reduction of sulfite based on gold nanoparticles/silsesquioxane-modified electrode",
+        "volume": "251",
+        "author": "Winiarski",
+        "year": "2017",
+        "journal-title": "Electrochim. Acta"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0200",
+        "doi-asserted-by": "crossref",
+        "first-page": "860",
+        "DOI": "10.1002/elan.200302895",
+        "article-title": "Electrocatalytic oxidation of sulfite on a cobalt pentacyanonitrosylferrate film modified glassy carbon electrode",
+        "volume": "16",
+        "author": "Pournaghi-Azar",
+        "year": "2004",
+        "journal-title": "Electroanalysis"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0205",
+        "doi-asserted-by": "crossref",
+        "first-page": "648",
+        "DOI": "10.1246/cl.2002.648",
+        "article-title": "Electrocatalytic reduction of sulfur dioxide by iron phthalocyanine monolayer in acidic conditions",
+        "volume": "31",
+        "author": "Yu",
+        "year": "2002",
+        "journal-title": "Chem. Lett."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "257",
+        "DOI": "10.1016/S1452-3981(23)17071-4",
+        "volume": "2",
+        "author": "Raoof",
+        "year": "2007",
+        "journal-title": "6Int. J. Electrochem. Sci."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0215",
+        "doi-asserted-by": "crossref",
+        "first-page": "249",
+        "DOI": "10.1016/j.foodchem.2010.12.103",
+        "article-title": "Fast and reliable analyses of sulphite in fruit juices using a supramolecular amperometric detector encompassing in flow gas diffusion unit",
+        "volume": "127",
+        "author": "Martins",
+        "year": "2011",
+        "journal-title": "Food Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "946",
+        "DOI": "10.1016/j.electacta.2015.09.169",
+        "article-title": "Sensitive label-free electron chemical capacitive signal transduction for D-dimer electroanalysis",
+        "volume": "182",
+        "author": "Marques",
+        "year": "2015",
+        "journal-title": "Electrochim. Acta"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0225",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.1016/j.electacta.2012.06.033",
+        "article-title": "A review of experimental aspects of electrochemical immunosensors",
+        "volume": "84",
+        "author": "Ricci",
+        "year": "2012",
+        "journal-title": "Electrochim. Acta"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0230",
+        "doi-asserted-by": "crossref",
+        "first-page": "1795",
+        "DOI": "10.1002/elan.200900616",
+        "article-title": "Molecularly imprinted electrochemical sensors",
+        "volume": "22",
+        "author": "Suryanarayanan",
+        "year": "2010",
+        "journal-title": "Electroanalysis"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0235",
+        "doi-asserted-by": "crossref",
+        "first-page": "188",
+        "DOI": "10.1002/elan.201800623",
+        "article-title": "Recent advances in electrochemical sensors based on molecularly imprinted polymers and nanomaterials",
+        "volume": "31",
+        "author": "Lahcen",
+        "year": "2019",
+        "journal-title": "Electroanalysis"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0240",
+        "doi-asserted-by": "crossref",
+        "first-page": "378",
+        "DOI": "10.1016/j.snb.2019.03.138",
+        "article-title": "Electrochemical sensing of ecstasy with electropolymerized molecularly imprinted poly(o-phenylenediamine) polymer on the surface of disposable screen-printed carbon electrodes",
+        "volume": "290",
+        "author": "Couto",
+        "year": "2019",
+        "journal-title": "Sensors Actuators B Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0245",
+        "doi-asserted-by": "crossref",
+        "first-page": "689",
+        "DOI": "10.1016/j.talanta.2018.10.090",
+        "article-title": "Electrochemical sensing of the thyroid hormone thyronamine (T0AM) via molecular imprinted polymers (MIPs)",
+        "volume": "194",
+        "author": "Pacheco",
+        "year": "2019",
+        "journal-title": "Talanta"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0250",
+        "doi-asserted-by": "crossref",
+        "first-page": "1827",
+        "DOI": "10.1007/s00216-011-5405-5",
+        "article-title": "MIP sensors – the electrochemical approach",
+        "volume": "402",
+        "author": "Malitesta",
+        "year": "2012",
+        "journal-title": "Anal. Bioanal. Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0255",
+        "doi-asserted-by": "crossref",
+        "first-page": "123",
+        "DOI": "10.1016/j.trac.2018.02.005",
+        "article-title": "Recent advances in biological sample preparation methods coupled with chromatography, spectrometry and electrochemistry analysis techniques",
+        "volume": "102",
+        "author": "Niu",
+        "year": "2018",
+        "journal-title": "TrAC Trends Anal. Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0260",
+        "doi-asserted-by": "crossref",
+        "first-page": "179",
+        "DOI": "10.1080/15422119.2016.1235050",
+        "article-title": "Recent advances in membrane-aided extraction and separation for analytical purposes",
+        "volume": "46",
+        "author": "Gonçalves",
+        "year": "2017",
+        "journal-title": "Sep. Purif. Rev."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0265",
+        "doi-asserted-by": "crossref",
+        "first-page": "3207",
+        "DOI": "10.1002/jssc.201000351",
+        "article-title": "Gas-diffusion microextraction",
+        "volume": "33",
+        "author": "Pacheco",
+        "year": "2010",
+        "journal-title": "J. Sep. Sci."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0270",
+        "doi-asserted-by": "crossref",
+        "first-page": "3717",
+        "DOI": "10.1016/j.chroma.2010.04.002",
+        "article-title": "Analysis of aldehydes in beer by gas-diffusion microextraction: characterization by high-performance liquid chromatography–diode-array detection–atmospheric pressure chemical ionization–mass spectrometry",
+        "volume": "1217",
+        "author": "Gonçalves",
+        "year": "2010",
+        "journal-title": "J. Chromatogr. A"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0275",
+        "doi-asserted-by": "crossref",
+        "first-page": "3648",
+        "DOI": "10.1039/C5AN00196J",
+        "article-title": "Application of gas-diffusion microextraction to solid samples using the chromatographic determination of α-diketones in bread as a case study",
+        "volume": "140",
+        "author": "Ferreira",
+        "year": "2015",
+        "journal-title": "Analyst"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0280",
+        "doi-asserted-by": "crossref",
+        "first-page": "1031",
+        "DOI": "10.1007/s00216-011-5664-1",
+        "article-title": "Application of gas-diffusion microextraction to the analysis of free and bound acetaldehyde in wines by HPLC-UV and characterization of the extracted compounds by MS/MS detection",
+        "volume": "403",
+        "author": "Cruz",
+        "year": "2012",
+        "journal-title": "Anal. Bioanal. Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0285",
+        "doi-asserted-by": "crossref",
+        "first-page": "428",
+        "DOI": "10.1002/prac.18920460131",
+        "article-title": "Die schweflige Säure im Weine und deren Bestimmung. (Mitteilungen aus Schmitt’s Laboratorium, [Untersuchungs- Amt, chemische Versuchsstation und hygienisches Institut] zu Wiesbaden.)",
+        "volume": "46",
+        "author": "Ripper",
+        "year": "1892",
+        "journal-title": "J. Prakt. Chemie"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0290",
+        "series-title": "Compendium of International Methods of Wine and Must Analysis",
+        "volume": "2",
+        "author": "OIV",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0295",
+        "doi-asserted-by": "crossref",
+        "first-page": "2775",
+        "DOI": "10.1016/0013-4686(92)85206-Z",
+        "article-title": "The electrochemical reaction of sulphur—oxygen compounds—part I. A review of literature on the electrochemical properties of sulphur/sulphur—oxygen compounds",
+        "volume": "37",
+        "author": "Hemmingsen",
+        "year": "1992",
+        "journal-title": "Electrochim. Acta"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0300",
+        "doi-asserted-by": "crossref",
+        "first-page": "711",
+        "DOI": "10.1002/j.1538-7305.1958.tb03883.x",
+        "article-title": "Measurement of sheet resistivities with the four-point probe",
+        "volume": "37",
+        "author": "Smits",
+        "year": "1958",
+        "journal-title": "Bell Syst. Tech. J."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0310",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1088/1674-4926/36/8/082001",
+        "article-title": "The geometric resistivity correction factor for several geometrical samples",
+        "volume": "36",
+        "author": "Yilmaz",
+        "year": "2015",
+        "journal-title": "J. Semicond."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0315",
+        "doi-asserted-by": "crossref",
+        "first-page": "500",
+        "DOI": "10.1016/j.carbon.2014.11.001",
+        "article-title": "The sheet resistance of graphene under contact and its effect on the derived specific contact resistivity",
+        "volume": "82",
+        "author": "Peng",
+        "year": "2015",
+        "journal-title": "Carbon"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106541_bb0320",
+        "series-title": "Ref. Modul. Mater. Sci. Mater. Eng",
+        "article-title": "Development of sheet resistivity on silver nanoparticle filled epoxy for electronic packaging devices",
+        "author": "Azli Salim",
+        "year": "2018"
+      }
+    ],
+    "container-title": [
+      "Electrochemistry Communications"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1388248119302048?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1388248119302048?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          19
+        ]
+      ],
+      "date-time": "2023-09-19T22:21:38Z",
+      "timestamp": 1695162098000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1388248119302048"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 63,
+    "alternative-id": [
+      "S1388248119302048"
+    ],
+    "URL": "https://doi.org/10.1016/j.elecom.2019.106541",
+    "relation": {},
+    "ISSN": [
+      "1388-2481"
+    ],
+    "issn-type": [
+      {
+        "value": "1388-2481",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Laser-pyrolyzed electrochemical paper-based analytical sensor for sulphite analysis",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Electrochemistry Communications",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.elecom.2019.106541",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 The Authors. Published by Elsevier B.V.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "106541"
+  }
+}

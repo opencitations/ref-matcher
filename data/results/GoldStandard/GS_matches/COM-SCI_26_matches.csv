@@ -1,0 +1,5 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+b2,Architectural support for software-defined metadata processing,Architectural Support For Software-Defined Metadata Processing,70,10.1145/2786763.2694383,https://w3id.org/oc/meta/br/0640917800,year_author_page
+b6,CIL: Intermediate language and tools for analysis and transformation of C programs,CIL: Intermediate Language And Tools For Analysis And Transformation Of C Programs,70,10.1007/3-540-45937-5_16,https://w3id.org/oc/meta/br/061202862550,year_author_page
+b8,HDFI: Hardware-assisted data-flow isolation,HDFI: Hardware-Assisted Data-Flow Isolation,70,10.1109/sp.2016.9,https://w3id.org/oc/meta/br/061402467852,author_title
+b10,SoK: Eternal war in memory,SoK: Eternal War In Memory,70,10.1109/sp.2013.13,https://w3id.org/oc/meta/br/06503359431,author_title

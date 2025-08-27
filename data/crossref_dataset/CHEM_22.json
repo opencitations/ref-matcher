@@ -1,0 +1,816 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          22
+        ]
+      ],
+      "date-time": "2024-08-22T22:19:55Z",
+      "timestamp": 1724365195137
+    },
+    "reference-count": 47,
+    "publisher": "Royal Society of Chemistry (RSC)",
+    "issue": "40",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              9,
+              9
+            ]
+          ],
+          "date-time": "2020-09-09T00:00:00Z",
+          "timestamp": 1599609600000
+        },
+        "content-version": "am",
+        "delay-in-days": 617,
+        "URL": "http://rsc.li/journals-terms-of-use"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "21872023",
+          "21473027"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100011235",
+        "name": "State Key Laboratory of Inorganic Synthesis and Preparative Chemistry, Jilin University",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100011235",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "rsc.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Dalton Trans."
+    ],
+    "abstract": "<p>Pt NPs have been loaded on ultrathin porous g-C<sub>3</sub>N<sub>4</sub> nanosheets (CNS) by either a chemical reduction (CR) or a photoreduction (PR) method. The Pt/CNS-CR photocatalyst shows a much higher efficiency for H<sub>2</sub> evolution than that of the Pt/CNS-PR.</p>",
+    "DOI": "10.1039/c9dt02938a",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          9
+        ]
+      ],
+      "date-time": "2019-09-09T13:23:33Z",
+      "timestamp": 1568035413000
+    },
+    "page": "15068-15073",
+    "update-policy": "http://dx.doi.org/10.1039/rsc_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 44,
+    "title": [
+      "Effects of the preparation method of Pt/g-C<sub>3</sub>N<sub>4</sub> photocatalysts on their efficiency for visible-light hydrogen production"
+    ],
+    "prefix": "10.1039",
+    "volume": "48",
+    "author": [
+      {
+        "given": "Xuanbo",
+        "family": "Zhou",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "College of Chemistry"
+          },
+          {
+            "name": "Northeast Normal University"
+          },
+          {
+            "name": "Changchun 130024"
+          },
+          {
+            "name": "P.R. China"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-2627-1760",
+        "authenticated-orcid": false,
+        "given": "Yunfeng",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Chemistry"
+          },
+          {
+            "name": "Northeast Normal University"
+          },
+          {
+            "name": "Changchun 130024"
+          },
+          {
+            "name": "P.R. China"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-6076-8941",
+        "authenticated-orcid": false,
+        "given": "Yan",
+        "family": "Xing",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Chemistry"
+          },
+          {
+            "name": "Northeast Normal University"
+          },
+          {
+            "name": "Changchun 130024"
+          },
+          {
+            "name": "P.R. China"
+          }
+        ]
+      },
+      {
+        "given": "Junsong",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Chemistry"
+          },
+          {
+            "name": "Northeast Normal University"
+          },
+          {
+            "name": "Changchun 130024"
+          },
+          {
+            "name": "P.R. China"
+          }
+        ]
+      },
+      {
+        "given": "Xin",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Chemistry"
+          },
+          {
+            "name": "Northeast Normal University"
+          },
+          {
+            "name": "Changchun 130024"
+          },
+          {
+            "name": "P.R. China"
+          }
+        ]
+      }
+    ],
+    "member": "292",
+    "published-online": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "C9DT02938A-(cit1)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "219",
+        "DOI": "10.1016/j.jhazmat.2016.04.011",
+        "volume": "313",
+        "author": "Li",
+        "year": "2016",
+        "journal-title": "J. Hazard. Mater."
+      },
+      {
+        "key": "C9DT02938A-(cit2)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "312",
+        "DOI": "10.1016/j.apcatb.2018.09.097",
+        "volume": "242",
+        "author": "Bafaqeer",
+        "year": "2019",
+        "journal-title": "Appl. Catal., B"
+      },
+      {
+        "key": "C9DT02938A-(cit3)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "760",
+        "DOI": "10.1016/j.apsusc.2018.08.181",
+        "volume": "462",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Appl. Surf. Sci."
+      },
+      {
+        "key": "C9DT02938A-(cit4)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "1701552",
+        "DOI": "10.1002/smll.201701552",
+        "volume": "13",
+        "author": "Li",
+        "year": "2017",
+        "journal-title": "Small"
+      },
+      {
+        "key": "C9DT02938A-(cit5)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "11863",
+        "DOI": "10.1021/acscatal.8b03737",
+        "volume": "8",
+        "author": "Zhao",
+        "year": "2018",
+        "journal-title": "ACS Catal."
+      },
+      {
+        "key": "C9DT02938A-(cit6)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.1038/238037a0",
+        "volume": "238",
+        "author": "Fujishima",
+        "year": "1972",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "C9DT02938A-(cit7)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "3486",
+        "DOI": "10.1039/C8DT04496A",
+        "volume": "48",
+        "author": "Lei",
+        "year": "2019",
+        "journal-title": "Dalton Trans."
+      },
+      {
+        "key": "C9DT02938A-(cit8)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "759",
+        "DOI": "10.1039/C2NR33004K",
+        "volume": "5",
+        "author": "Foo",
+        "year": "2013",
+        "journal-title": "Nanoscale"
+      },
+      {
+        "key": "C9DT02938A-(cit9)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "19279",
+        "DOI": "10.1039/C7CP01300K",
+        "volume": "19",
+        "author": "Uddin",
+        "year": "2017",
+        "journal-title": "Phys. Chem. Chem. Phys."
+      },
+      {
+        "key": "C9DT02938A-(cit10)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "13022",
+        "DOI": "10.1016/j.ijhydene.2019.03.164",
+        "volume": "44",
+        "author": "Patil",
+        "year": "2019",
+        "journal-title": "Int. J. Hydrogen Energy"
+      },
+      {
+        "key": "C9DT02938A-(cit11)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "6638",
+        "DOI": "10.1039/C7NR01705G",
+        "volume": "9",
+        "author": "Iqbal",
+        "year": "2017",
+        "journal-title": "Nanoscale"
+      },
+      {
+        "key": "C9DT02938A-(cit12)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "11606",
+        "DOI": "10.1039/C8TA00671G",
+        "volume": "6",
+        "author": "Yuan",
+        "year": "2018",
+        "journal-title": "J. Mater. Chem. A"
+      },
+      {
+        "key": "C9DT02938A-(cit13)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "171",
+        "DOI": "10.1016/j.matlet.2018.10.088",
+        "volume": "236",
+        "author": "Wei",
+        "year": "2019",
+        "journal-title": "Mater. Lett."
+      },
+      {
+        "key": "C9DT02938A-(cit14)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "15769",
+        "DOI": "10.1039/C7DT03003G",
+        "volume": "46",
+        "author": "Song",
+        "year": "2017",
+        "journal-title": "Dalton Trans."
+      },
+      {
+        "key": "C9DT02938A-(cit15)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "8557",
+        "DOI": "10.1039/C8RA09929D",
+        "volume": "9",
+        "author": "Abhilash",
+        "year": "2019",
+        "journal-title": "RSC Adv."
+      },
+      {
+        "key": "C9DT02938A-(cit16)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "202",
+        "DOI": "10.1016/j.apcatb.2019.01.042",
+        "volume": "246",
+        "author": "Zhang",
+        "year": "2019",
+        "journal-title": "Appl. Catal., B"
+      },
+      {
+        "key": "C9DT02938A-(cit17)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "14532",
+        "DOI": "10.1039/C5DT01859E",
+        "volume": "44",
+        "author": "Sun",
+        "year": "2015",
+        "journal-title": "Dalton Trans."
+      },
+      {
+        "key": "C9DT02938A-(cit18)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1016/j.jcou.2018.09.008",
+        "volume": "28",
+        "author": "Wei",
+        "year": "2018",
+        "journal-title": "J. CO2 Util."
+      },
+      {
+        "key": "C9DT02938A-(cit19)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "1111",
+        "DOI": "10.1016/j.jechem.2018.02.018",
+        "volume": "27",
+        "author": "Xiao",
+        "year": "2018",
+        "journal-title": "J. Energy Chem."
+      },
+      {
+        "key": "C9DT02938A-(cit20)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "983",
+        "DOI": "10.1016/j.apcatb.2017.11.025",
+        "volume": "224",
+        "author": "Zhu",
+        "year": "2018",
+        "journal-title": "Appl. Catal., B"
+      },
+      {
+        "key": "C9DT02938A-(cit21)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "546",
+        "DOI": "10.1016/j.scitotenv.2018.03.206",
+        "volume": "633",
+        "author": "Xu",
+        "year": "2018",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "C9DT02938A-(cit22)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.1186/s11671-018-2448-y",
+        "volume": "13",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Nanoscale Res. Lett."
+      },
+      {
+        "key": "C9DT02938A-(cit23)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "2741",
+        "DOI": "10.1039/C4TA04779F",
+        "volume": "3",
+        "author": "Bai",
+        "year": "2015",
+        "journal-title": "J. Mater. Chem. A"
+      },
+      {
+        "key": "C9DT02938A-(cit24)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "7375",
+        "DOI": "10.1039/C5TA00402K",
+        "volume": "3",
+        "author": "Zhao",
+        "year": "2015",
+        "journal-title": "J. Mater. Chem. A"
+      },
+      {
+        "key": "C9DT02938A-(cit25)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "15382",
+        "DOI": "10.1039/C8DT02893A",
+        "volume": "47",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Dalton Trans."
+      },
+      {
+        "key": "C9DT02938A-(cit26)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "5261",
+        "DOI": "10.1039/C7SC01747B",
+        "volume": "8",
+        "author": "Zhang",
+        "year": "2017",
+        "journal-title": "Chem. Sci."
+      },
+      {
+        "key": "C9DT02938A-(cit27)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "6593",
+        "DOI": "10.1039/c3cs60067j",
+        "volume": "42",
+        "author": "Li",
+        "year": "2013",
+        "journal-title": "Chem. Soc. Rev."
+      },
+      {
+        "key": "C9DT02938A-(cit28)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "13929",
+        "DOI": "10.1039/C5CP00560D",
+        "volume": "17",
+        "author": "Fina",
+        "year": "2015",
+        "journal-title": "Phys. Chem. Chem. Phys."
+      },
+      {
+        "key": "C9DT02938A-(cit29)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "19457",
+        "DOI": "10.1039/C6CP02832B",
+        "volume": "18",
+        "author": "Cao",
+        "year": "2016",
+        "journal-title": "Phys. Chem. Chem. Phys."
+      },
+      {
+        "key": "C9DT02938A-(cit30)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "20667",
+        "DOI": "10.1021/acsami.6b04388",
+        "volume": "8",
+        "author": "Luo",
+        "year": "2016",
+        "journal-title": "ACS Appl. Mater. Interfaces"
+      },
+      {
+        "key": "C9DT02938A-(cit31)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "25844",
+        "DOI": "10.1021/acsami.9b05572",
+        "volume": "11",
+        "author": "Yao",
+        "year": "2019",
+        "journal-title": "ACS Appl. Mater. Interfaces"
+      },
+      {
+        "key": "C9DT02938A-(cit32)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "119",
+        "DOI": "10.1016/j.jcis.2018.07.047",
+        "volume": "531",
+        "author": "Sun",
+        "year": "2018",
+        "journal-title": "J. Colloid Interface Sci."
+      },
+      {
+        "key": "C9DT02938A-(cit33)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.materresbull.2018.03.044",
+        "volume": "104",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Mater. Res. Bull."
+      },
+      {
+        "key": "C9DT02938A-(cit34)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "774",
+        "DOI": "10.1007/s10853-017-1540-5",
+        "volume": "53",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "J. Mater. Sci."
+      },
+      {
+        "key": "C9DT02938A-(cit35)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "13884",
+        "DOI": "10.1039/C5TA00218D",
+        "volume": "3",
+        "author": "Luo",
+        "year": "2015",
+        "journal-title": "J. Mater. Chem. A"
+      },
+      {
+        "key": "C9DT02938A-(cit36)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "2427",
+        "DOI": "10.1002/adma.201505281",
+        "volume": "28",
+        "author": "Li",
+        "year": "2016",
+        "journal-title": "Adv. Mater."
+      },
+      {
+        "key": "C9DT02938A-(cit37)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "2500",
+        "DOI": "10.1038/ncomms3500",
+        "volume": "4",
+        "author": "Li",
+        "year": "2013",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "C9DT02938A-(cit38)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "20631",
+        "DOI": "10.1039/C7TA07440A",
+        "volume": "5",
+        "author": "Li",
+        "year": "2017",
+        "journal-title": "J. Mater. Chem. A"
+      },
+      {
+        "key": "C9DT02938A-(cit39)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "430",
+        "DOI": "10.1016/j.apcatb.2016.09.051",
+        "volume": "202",
+        "author": "Fu",
+        "year": "2017",
+        "journal-title": "Appl. Catal., B"
+      },
+      {
+        "key": "C9DT02938A-(cit40)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "4431",
+        "DOI": "10.1002/smll.201601668",
+        "volume": "12",
+        "author": "Shi",
+        "year": "2016",
+        "journal-title": "Small"
+      },
+      {
+        "key": "C9DT02938A-(cit41)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "241",
+        "DOI": "10.1016/j.carbon.2017.03.052",
+        "volume": "118",
+        "author": "Xu",
+        "year": "2017",
+        "journal-title": "Carbon"
+      },
+      {
+        "key": "C9DT02938A-(cit42)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "12165",
+        "DOI": "10.1038/ncomms12165",
+        "volume": "7",
+        "author": "Lau",
+        "year": "2016",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "C9DT02938A-(cit43)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "11405",
+        "DOI": "10.1039/C8CP01123K",
+        "volume": "20",
+        "author": "An",
+        "year": "2018",
+        "journal-title": "Phys. Chem. Chem. Phys."
+      },
+      {
+        "key": "C9DT02938A-(cit44)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "2029",
+        "DOI": "10.1002/cssc.201801431",
+        "volume": "12",
+        "author": "Xing",
+        "year": "2019",
+        "journal-title": "ChemSusChem"
+      },
+      {
+        "key": "C9DT02938A-(cit45)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "1806774",
+        "DOI": "10.1002/adfm.201806774",
+        "volume": "29",
+        "author": "Zhang",
+        "year": "2018",
+        "journal-title": "Adv. Funct. Mater."
+      },
+      {
+        "key": "C9DT02938A-(cit46)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "15255",
+        "DOI": "10.1039/C4CC06960A",
+        "volume": "50",
+        "author": "Shiraishi",
+        "year": "2014",
+        "journal-title": "Chem. Commun."
+      },
+      {
+        "key": "C9DT02938A-(cit47)/*[position()=1]",
+        "doi-asserted-by": "crossref",
+        "first-page": "223903",
+        "DOI": "10.1063/1.4723575",
+        "volume": "100",
+        "author": "Berr",
+        "year": "2012",
+        "journal-title": "Appl. Phys. Lett."
+      }
+    ],
+    "container-title": [
+      "Dalton Transactions"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://pubs.rsc.org/en/content/articlepdf/2019/DT/C9DT02938A",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          17
+        ]
+      ],
+      "date-time": "2024-04-17T23:40:39Z",
+      "timestamp": 1713397239000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://xlink.rsc.org/?DOI=C9DT02938A"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "references-count": 47,
+    "journal-issue": {
+      "issue": "40",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10,
+            14
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1039/c9dt02938a",
+    "relation": {},
+    "ISSN": [
+      "1477-9226",
+      "1477-9234"
+    ],
+    "issn-type": [
+      {
+        "value": "1477-9226",
+        "type": "print"
+      },
+      {
+        "value": "1477-9234",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "This document is Similarity Check deposited",
+        "name": "similarity_check",
+        "explanation": {
+          "URL": "https://www.crossref.org/services/similarity-check/"
+        },
+        "group": {
+          "name": "similarity_check",
+          "label": "SIMILARITY CHECK"
+        }
+      },
+      {
+        "value": "Supplementary Information",
+        "URL": "https://doi.org/10.1039/C9DT02938A",
+        "name": "related_data",
+        "group": {
+          "name": "related_data",
+          "label": "RELATED DATA"
+        }
+      },
+      {
+        "value": "Yunfeng Li (ORCID)",
+        "URL": "http://orcid.org/0000-0002-2627-1760",
+        "name": "identifier",
+        "group": {
+          "name": "author_identifiers",
+          "label": "IDENTIFIERS"
+        }
+      },
+      {
+        "value": "Yan Xing (ORCID)",
+        "URL": "http://orcid.org/0000-0001-6076-8941",
+        "name": "identifier",
+        "group": {
+          "name": "author_identifiers",
+          "label": "IDENTIFIERS"
+        }
+      },
+      {
+        "value": "Single-blind",
+        "order": 2,
+        "name": "peer_review_method",
+        "group": {
+          "name": "peer_review_method",
+          "label": "PEER REVIEW METHOD"
+        }
+      },
+      {
+        "value": "Received 18 July 2019; Accepted 8 September 2019;  Accepted Manuscript published 9 September 2019;  Advance Article published 25 September 2019;  Version of Record published 14 October 2019",
+        "order": 1,
+        "name": "history",
+        "group": {
+          "name": "publication_history",
+          "label": "PUBLICATION HISTORY"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2024-11-19T17:41:00Z",
+      "timestamp": 1732038060041
+    },
+    "reference-count": 25,
+    "publisher": "Elsevier BV",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000025",
+        "name": "National Institute of Mental Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "1R01MH106577",
+          "R01MH104284",
+          "R01MH113619"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000025",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Biological Psychiatry"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.biopsych.2019.02.010",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          2,
+          19
+        ]
+      ],
+      "date-time": "2019-02-19T02:09:32Z",
+      "timestamp": 1550542172000
+    },
+    "page": "639-646",
+    "source": "Crossref",
+    "is-referenced-by-count": 50,
+    "title": [
+      "Gender Trends in Authorship in Psychiatry Journals From 2008 to 2018"
+    ],
+    "prefix": "10.1016",
+    "volume": "86",
+    "author": [
+      {
+        "given": "Kamber L.",
+        "family": "Hart",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-3210-6470",
+        "authenticated-orcid": false,
+        "given": "Sophia",
+        "family": "Frangou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Roy H.",
+        "family": "Perlis",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib2",
+        "article-title": "More women than men enrolled in U.S. medical schools in 2017",
+        "author": "Heiser",
+        "year": "2017",
+        "journal-title": "AAMC News"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib3",
+        "author": "Association of American Medical Colleges"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "313",
+        "DOI": "10.1192/pb.bp.109.028134",
+        "article-title": "Women in academic psychiatry",
+        "volume": "34",
+        "author": "Dutta",
+        "year": "2010",
+        "journal-title": "Psychiatrist"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.5152/npa.2015.7265",
+        "article-title": "Longitudinal analysis of female authorship of psychiatry articles in Turkey",
+        "volume": "52",
+        "author": "Erden Aki",
+        "year": "2015",
+        "journal-title": "Noro Psikiyatri Arsivi"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib6",
+        "series-title": "Women in Academic Psychiatry",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "90",
+        "DOI": "10.1016/j.eurpsy.2017.03.008",
+        "article-title": "Gender-gaps and glass ceilings: A survey of gender-specific publication trends in Psychiatry between 1994 and 2014",
+        "volume": "44",
+        "author": "Süßenbacher",
+        "year": "2017",
+        "journal-title": "Eur Psychiatry"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "402",
+        "DOI": "10.1007/s40596-015-0408-8",
+        "article-title": "Demographic and personal characteristics of male and female chairs in academic psychiatry",
+        "volume": "40",
+        "author": "Doyle",
+        "year": "2016",
+        "journal-title": "Acad Psychiatry"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "387",
+        "DOI": "10.1089/jwh.2010.2055",
+        "article-title": "The leadership continuum: A framework for organizational and individual assessment relative to the advancement of women physicians and scientists",
+        "volume": "20",
+        "author": "Morahan",
+        "year": "2011",
+        "journal-title": "J Womens Health"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1192/bjo.2017.8",
+        "article-title": "Trends in female authorship in research papers on eating disorders: 20-Year bibliometric study",
+        "volume": "4",
+        "author": "Strand",
+        "year": "2018",
+        "journal-title": "BJPsych Open"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "946",
+        "DOI": "10.1097/ACM.0b013e3182222887",
+        "article-title": "The gender gap in high-impact psychiatry journals",
+        "volume": "86",
+        "author": "Amering",
+        "year": "2011",
+        "journal-title": "Acad Med"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib12",
+        "unstructured": "Clarivate Analytics. Data citation index. Available at: https://www.clarivate.com/products/web-of-science-forum/data-citation-index/. Accessed April 12, 2018."
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib13",
+        "author": "Kovalchik"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib14",
+        "author": "Fantini"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib15",
+        "author": "Wais"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib16",
+        "first-page": "17",
+        "article-title": "Gender prediction methods based on first names with genderizeR",
+        "volume": "8",
+        "author": "Wais",
+        "year": "2016",
+        "journal-title": "R J"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib17",
+        "article-title": "Persistent underrepresentation of women’s science in high profile journals",
+        "author": "Shen",
+        "year": "2018",
+        "journal-title": "bioRxiv"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib18",
+        "author": "Association of American Medical Colleges"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib19",
+        "first-page": "423",
+        "article-title": "Mentors and role models for women in academic medicine",
+        "volume": "154",
+        "author": "Levinson",
+        "year": "1991",
+        "journal-title": "West J Med"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "523",
+        "DOI": "10.1007/s40596-017-0810-5",
+        "article-title": "Eliminating the glass ceiling in academic psychiatry",
+        "volume": "42",
+        "author": "Lieberman",
+        "year": "2018",
+        "journal-title": "Acad Psychiatry"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "4",
+        "DOI": "10.1038/s41386-018-0186-6",
+        "article-title": "Neuropsychopharmacology (NPP): Gender balance in journal function",
+        "volume": "44",
+        "author": "Jordan",
+        "year": "2019",
+        "journal-title": "Neuropsychopharmacology"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "4",
+        "DOI": "10.1016/j.tree.2007.07.008",
+        "article-title": "Double-blind review favours increased representation of female authors",
+        "volume": "23",
+        "author": "Budden",
+        "year": "2008",
+        "journal-title": "Trends Ecol Evol"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "244",
+        "DOI": "10.1016/j.jpeds.2017.08.044",
+        "article-title": "Gender differences in the authorship of original research in pediatric journals, 2001-2016",
+        "volume": "191",
+        "author": "Fishman",
+        "year": "2017",
+        "journal-title": "J Pediatr"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1749",
+        "DOI": "10.1016/j.spinee.2017.06.041",
+        "article-title": "Gender trends in authorship of spine-related academic literature-a 39-year perspective",
+        "volume": "17",
+        "author": "Sing",
+        "year": "2017",
+        "journal-title": "Spine J"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0189136",
+        "DOI": "10.1371/journal.pone.0189136",
+        "article-title": "Gender disparities in high-quality research revealed by Nature Index journals",
+        "volume": "13",
+        "author": "Bendels",
+        "year": "2018",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.biopsych.2019.02.010_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2004956",
+        "DOI": "10.1371/journal.pbio.2004956",
+        "article-title": "The gender gap in science: How long until women are equally represented?",
+        "volume": "16",
+        "author": "Holman",
+        "year": "2018",
+        "journal-title": "PLoS Biol"
+      }
+    ],
+    "container-title": [
+      "Biological Psychiatry"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S000632231930112X?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S000632231930112X?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          23
+        ]
+      ],
+      "date-time": "2019-09-23T07:30:40Z",
+      "timestamp": 1569223840000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S000632231930112X"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 25,
+    "journal-issue": {
+      "issue": "8",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S000632231930112X"
+    ],
+    "URL": "https://doi.org/10.1016/j.biopsych.2019.02.010",
+    "relation": {},
+    "ISSN": [
+      "0006-3223"
+    ],
+    "issn-type": [
+      {
+        "value": "0006-3223",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    }
+  }
+}

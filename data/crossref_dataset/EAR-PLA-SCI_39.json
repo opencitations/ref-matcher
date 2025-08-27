@@ -1,0 +1,624 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          1
+        ]
+      ],
+      "date-time": "2024-09-01T01:50:59Z",
+      "timestamp": 1725155459254
+    },
+    "reference-count": 78,
+    "publisher": "Copernicus GmbH",
+    "issue": "20",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              18
+            ]
+          ],
+          "date-time": "2019-10-18T00:00:00Z",
+          "timestamp": 1571356800000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Atmos. Chem. Phys."
+    ],
+    "abstract": "<jats:p>Abstract. The lack of a comprehensive, up-to-date emission inventory for the\nHimalayan region is a major challenge in understanding the extensive\nregional air pollution, including its causes, impacts and mitigation\npathways. This study describes a high-resolution (1 km × 1 km)\npresent-day emission inventory for Nepal, developed with a higher-tier\napproach. The complete study is divided into two parts; this paper covers\ntechnologies and combustion sources in residential, industrial, commercial,\nagricultural diesel-use and transport sectors as Part I (NEEMI-Tech), while\nemissions from the open burning of municipal waste and agricultural residue in\nfields and fugitive emissions from waste management, paddy fields, enteric\nfermentation and manure management for the period 2001–2016 will be covered\nin Part II (NEEMI-Open). The national total energy consumption (except\nhydropower, solar and wind energy) estimated in the base year 2011 was 374 PJ, with the residential sector being the largest energy consumer (79 %),\nfollowed by industry (11 %) and the transport sector (7 %). Biomass is\nthe dominant energy source, contributing to 88 % of the national total\nenergy consumption, while the rest is from fossil fuel. A total of 8.9 Tg of CO2, 110 Gg of CH4, 2.1 Gg of N2O, 64 Gg of NOx, 1714 Gg of CO, 407 Gg of NMVOCs, 195 Gg of PM2.5, 23 Gg of BC, 83 Gg of OC and 24 Gg of SO2 emissions\nwere estimated in 2011 from the five energy-use sectors considered in\nNEEMI-Tech. The Nepal emission inventory provides, for the first time, temporal trends of fuel and\nenergy consumption and associated emissions in Nepal for a long period,\n2001–2016. The energy consumption showed an increase by a factor of 1.6 in\n2016 compared to 2001, while the emissions of various species increased by a\nfactor of 1.2–2.4. An assessment of the top polluting technologies shows\nparticularly high emissions from traditional cookstoves and space-heating\npractices using biomass. In addition, high emissions were also computed from\nfixed-chimney Bull's trench kilns (FCBTKs) in brick production, cement kilns,\ntwo-wheeler gasoline vehicles, heavy-duty diesel freight vehicles and kerosene\nlamps. The monthly analysis shows December, January and February as periods\nof high PM2.5 emissions from the technology-based sources considered in this\nstudy. Once the full inventory including open burning and fugitive sources\n(Part II) is available, a more complete picture of the strength and temporal\nvariability in the emissions and sources will be possible. Furthermore, the\nlarge spatial variation in the emissions highlights the pockets of growing\nurbanization, which emphasize the importance of the detailed knowledge\nabout the emission sources that this study provides. These emissions will be\nof value for further studies, especially air-quality-modeling studies\nfocused on understanding the likely effectiveness of air pollution\nmitigation measures in Nepal.\n                    </jats:p>",
+    "DOI": "10.5194/acp-19-12953-2019",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          18
+        ]
+      ],
+      "date-time": "2019-10-18T13:46:46Z",
+      "timestamp": 1571406406000
+    },
+    "page": "12953-12973",
+    "source": "Crossref",
+    "is-referenced-by-count": 29,
+    "title": [
+      "Nepal emission inventory – Part I: Technologies and combustion sources (NEEMI-Tech) for 2001–2016"
+    ],
+    "prefix": "10.5194",
+    "volume": "19",
+    "author": [
+      {
+        "given": "Pankaj",
+        "family": "Sadavarte",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-9618-8735",
+        "authenticated-orcid": false,
+        "given": "Maheswar",
+        "family": "Rupakheti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Prakash",
+        "family": "Bhave",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kiran",
+        "family": "Shakya",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-2178-4903",
+        "authenticated-orcid": false,
+        "given": "Mark",
+        "family": "Lawrence",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "3145",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          18
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Adhikari, S., Mahapatra, P. S., Sapkota, V., and Puppala, S. P.: Characterizing\nEmissions from Agricultural Diesel Pumps in the Terai Region of Nepal,\nAtmosphere, 10, 1–12, https://doi.org/10.3390/atmos10020056, 2019.",
+        "DOI": "10.3390/atmos10020056"
+      },
+      {
+        "key": "ref2",
+        "unstructured": "AEPC: A Year in Review NYF 2069/70, Alternative Energy Promotion Centre,\nMinistry of Science, Technology and Environment, Government of Nepal, 1–74, 2012."
+      },
+      {
+        "key": "ref3",
+        "unstructured": "ARAI: Emission factor development for Indian vehicles, in: Air Quality\nMonitoring Project-Indian Clean Air Programme, The Automotive Research\nAssociation Of India, Pune, 1–94, 2007."
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aryal, R. K., Lee B. K., Karki R., Gurung A., Baral B., and Byeon S. H.:\nDynamics of PM2.5 concentrations in Kathmandu Valley, Nepal, J.\nHazard. Mater., 168, 732–738,\nhttps://doi.org/10.1016/j.jhazmat.2009.02.086, 2009.",
+        "DOI": "10.1016/j.jhazmat.2009.02.086"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Baidya, S. and Borken-Kleefeld, J.: Atmospheric emissions from road\ntransportation in India, Energ. Policy, 37, 3812–3822,\nhttps://doi.org/10.1016/j.enpol.2009.07.010, 2009.",
+        "DOI": "10.1016/j.enpol.2009.07.010"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bajracharya, I. and Bhattarai, N.: Road Transportation Energy Demand and\nEnvironmental Emission: A Case of Kathmandu Valley, Hydro Nepal, J.\nWater Energ. Environ., 18, 30–40,\nhttps://doi.org/10.3126/hn.v18i0.14641, 2016.",
+        "DOI": "10.3126/hn.v18i0.14641"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ban-Weiss, G. A., Lunden, M. M., Kirchstetter, T. W., and\nHarley, R. A.: Measurement of Black Carbon and Particle Number Emission Factors from\nIndividual Heavy-Duty Trucks, Environ. Sci. Technol., 43, 1419–1424,\n2009.",
+        "DOI": "10.1021/es8021039"
+      },
+      {
+        "key": "ref8",
+        "unstructured": "Bhari B.: Characterization of Roadside Air Pollution Levels in Kathmandu\nValley, Master's Thesis, School of Environment, Resources and Development,\nAsian Institute of Technology, Thailand, 1–88, 2015."
+      },
+      {
+        "key": "ref9",
+        "unstructured": "Bhattarai, N. and Jha, A. K.: Commercial Sector Energy Demand Projections of\nNepal for Sustainable Sectoral Energy Planning, J. Environ.\nProtect. Sustain. Dev., 1, 165–177, 2015."
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bond, T. C., Streets, D. G., Yarber, K. F., Nelson, S. M., Woo, J. H., and Klimont,\nZ.: A technology-based global inventory of black and organic carbon\nemissions from combustion, J. Geophys. Res., 109, D14203,\nhttps://doi.org/10.1029/2003JD003697, 2004.",
+        "DOI": "10.1029/2003JD003697"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Burney J. and Ramanathan V.: Recent climate and air pollution impacts on\nIndian agriculture, P. Natl. Acad. Sci. USA, 111, 16319–16324,\nhttps://doi.org/10.1073/pnas.1317275111, 2014.",
+        "DOI": "10.1073/pnas.1317275111"
+      },
+      {
+        "key": "ref12",
+        "unstructured": "CBS: National Census of Manufacturing Establishment\n(CME) 2006/07, National Planning Commission Secretariat, Central Bureau of Statistics,\nKathmandu, 1–154, 2008."
+      },
+      {
+        "key": "ref13",
+        "unstructured": "CBS: National Population and Housing Census, 2011, National Report, National\nPlanning Commission Secretariat, Central Bureau of Statistics, Kathmandu, 1–262,\n2012."
+      },
+      {
+        "key": "ref14",
+        "unstructured": "CBS: National Census of Manufacturing Establishment (CME) 2011/12, National\nPlanning Commission Secretariat, Central Bureau of Statistics, Kathmandu, 7–126,\nJune 2014."
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Collier J. C. and Zhang G. J.: Aerosol direct forcing of the summer Indian\nmonsoon as simulated by the NCAR CAM3, Clim. Dynam., 32, 313–332,\nhttps://doi.org/10.1007/s00382-008-0464-9, 2009.",
+        "DOI": "10.1007/s00382-008-0464-9"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Crippa, M., Guizzardi, D., Muntean, M., Schaaf, E., Dentener, F., van\nAardenne, J. A., Monni, S., Doering, U., Olivier, J. G. J., Pagliari, V.,\nand Janssens-Maenhout, G.: Gridded emissions of air pollutants for the\nperiod 1970–2012 within EDGAR v4.3.2, Earth Syst. Sci. Data, 10, 1987–2013,\nhttps://doi.org/10.5194/essd-10-1987-2018, 2018.",
+        "DOI": "10.5194/essd-10-1987-2018"
+      },
+      {
+        "key": "ref17",
+        "unstructured": "DECP: District Climate and Energy Plan Reports, Multiscope Consultancy Pvt.\nLtd., Kathmandu, 1–155, 2014."
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Devakumar D., Semple, S., Osrin, D., Yadav, S. K., Kurmi, O. P., Saville,\nN. M., Shrestha, B., Manandhar, D. S., Costello, A., and Ayres, J. G.: Biomass fuel\nuse and the exposure of children to particulate air pollution in southern\nNepal, Environ. Int., 66, 79–87,\nhttps://doi.org/10.1016/j.envint.2014.01.011, 2014.",
+        "DOI": "10.1016/j.envint.2014.01.011"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dhakal, S.: Implications of transportation policies on energy and\nenvironment in Kathmandu Valley, Nepal, Energ. Policy, 31, 1493–1507,\nhttps://doi.org/10.1016/S0301-4215(02)00205-7, 2003.",
+        "DOI": "10.1016/S0301-4215(02)00205-7"
+      },
+      {
+        "key": "ref20",
+        "unstructured": "Dhital, H. C. and Shakya, S. R.: Implication of Sustainable Low Carbon\nTransportation Development Strategy in Emerging City: A case of Kathmandu\nValley, Proceedings of IOE Graduate Conference, 215–224, 2014."
+      },
+      {
+        "key": "ref21",
+        "unstructured": "DoTM: Details of Registration of Transport up to Fiscal Year 2046/47-070/71,\nDepartment of Transport Management, Kathmandu, p. 1, 2013."
+      },
+      {
+        "key": "ref22",
+        "unstructured": "DoTM: Details of Registration of Transport up to Fiscal Year 2046/47-073/74,\nDepartment of Transport Management, Kathmandu, p. 1, 2016."
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fan, J., Rosenfeld, D., Yang, Y., Zhao, C., Leung, L. R., and Li, Z.:\nSubstantial contribution of anthropogenic air pollution to catastrophic\nfloods in Southwest China, Geophys. Res. Lett., 42, 6066–6075,\nhttps://doi.org/10.1002/2015GL064479, 2015.",
+        "DOI": "10.1002/2015GL064479"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fiore, A. M., Naik, V., and Leibensperger, E. M.: Air Quality and Climate\nConnections, J. Air Waste Manage., 65,\n645–685, https://doi.org/10.1080/10962247.2015.1040526, 2015.",
+        "DOI": "10.1080/10962247.2015.1040526"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Forouzanfar, M. H., et al.: Global, regional, and national comparative risk\nassessment of 79 behavioural, environmental and occupational, and metabolic\nrisks or clusters of risks, 1990–2015: a systematic analysis for the Global\nBurden of Disease Study 2015, The Lancet, 388, 1659–1724,\nhttps://doi.org/10.1016/S0140-6736(16)31679-8, 2016.",
+        "DOI": "10.1016/S0140-6736(16)31679-8"
+      },
+      {
+        "key": "ref26",
+        "unstructured": "Frenken K. and Gillet V.: Irrigation water requirement and water withdrawal\nby country, FAO AQUASTAT Reports, 1–263, 2012."
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gurung, A., Ghimeray, A. K., and Hassan, S. H. A.: The prospects of renewable\nenergy technologies for rural electrification: a review from Nepal, Energ.\nPolicy, 40, 374–380, https://doi.org/10.1016/j.enpol.2011.10.022, 2012.",
+        "DOI": "10.1016/j.enpol.2011.10.022"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Habib, G., Venkataraman, C., Shrivastava, M., Banerjee, R., Stehr, J. W.,\nand Dickerson, R. R.: New methodology for estimating biofuel consumption for\ncooking: atmospheric emissions of black carbon and sulfur dioxide from\nIndia, Global Biogeochem. Cy., 18, GB3007,\nhttps://doi.org/10.1029/2003GB002157, 2004.",
+        "DOI": "10.1029/2003GB002157"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Habib, G., Venkataraman, C., Bond, T. C., and Schauer, J. J.: Chemical,\nmicrophysical and optical properties of primary particles from the\ncombustion of biomass fuels, Environ. Sci. Technol., 42, 8829–8834, https://doi.org/10.1021/es800943f, 2008.",
+        "DOI": "10.1021/es800943f"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hoesly, R. M., Smith, S. J., Feng, L., Klimont, Z., Janssens-Maenhout, G.,\nPitkanen, T., Seibert, J. J., Vu, L., Andres, R. J., Bolt, R. M., Bond, T.\nC., Dawidowski, L., Kholod, N., Kurokawa, J.-I., Li, M., Liu, L., Lu, Z.,\nMoura, M. C. P., O'Rourke, P. R., and Zhang, Q.: Historical (1750–2014)\nanthropogenic emissions of reactive gases and aerosols from the Community\nEmissions Data System (CEDS), Geosci. Model Dev., 11, 369–408,\nhttps://doi.org/10.5194/gmd-11-369-2018, 2018.",
+        "DOI": "10.5194/gmd-11-369-2018"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jaiprakash, Gazala H., and Kumar S.: Evaluation of portable dilution system for\naerosol measurement from stationary and mobile combustion sources, Aerosol\nSci. Technol., 50, 717–731, https://doi.org/10.1080/02786826.2016.1178502,\n2016.",
+        "DOI": "10.1080/02786826.2016.1178502"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Janssens-Maenhout, G., Crippa, M., Guizzardi, D., Muntean, M., Schaaf, E.,\nDentener, F., Bergamaschi, P., Pagliari, V., Olivier, J. G. J., Peters, J.\nA. H. W., van Aardenne, J. A., Monni, S., Doering, U., and Petrescu, A. M. R.:\nEDGAR v4.3.2 Global Atlas of the three major Greenhouse Gas Emissions for\nthe period 1970–2012, Earth Syst. Sci. Data Discuss., 11, 959–1002,\nhttps://doi.org/10.5194/essd-11-959-2019, 2019.",
+        "DOI": "10.5194/essd-11-959-2019"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jayarathne, T., Stockwell, C. E., Bhave, P. V., Praveen, P. S., Rathnayake,\nC. M., Islam, Md. R., Panday, A. K., Adhikari, S., Maharjan, R., Goetz, J.\nD., DeCarlo, P. F., Saikawa, E., Yokelson, R. J., and Stone, E. A.: Nepal\nAmbient Monitoring and Source Testing Experiment (NAMaSTE): emissions of\nparticulate matter from wood- and dung-fueled cooking fires, garbage and\ncrop residue burning, brick kilns, and other sources, Atmos. Chem. Phys.,\n18, 2259–2286, https://doi.org/10.5194/acp-18-2259-2018, 2018.",
+        "DOI": "10.5194/acp-18-2259-2018"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kandel, P., Chapagain, P. S., Sharma, L., N., and Vetaas, O., R.:\nConsumption Patterns of Fuelwood in Rural Households of Dolakha District, Nepal:\nReflections from Community Forest User Groups, Small-scale Forest., 15, 481–495, 2016.",
+        "DOI": "10.1007/s11842-016-9335-0"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kim Oanh, N. T., Thiansathit, W., Bond, T. C., Subramanian, R., Winijkul,\nE., and Paw-Armart, Compositional characterization of PM&lt;span class=&quot;inline-formula&quot;&gt;&lt;sub&gt;2.5&lt;/sub&gt;&lt;/span&gt; emitted from\nin-use diesel vehicles, Atmos. Environ., 44, 15–22,\nhttps://doi.org/10.1016/j.atmosenv.2009.10.005, 2010.",
+        "DOI": "10.1016/j.atmosenv.2009.10.005"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Klimont, Z., Kupiainen, K., Heyes, C., Purohit, P., Cofala, J., Rafaj, P.,\nBorken-Kleefeld, J., and Schöpp, W.: Global anthropogenic emissions of\nparticulate matter including black carbon, Atmos. Chem. Phys., 17,\n8681–8723, https://doi.org/10.5194/acp-17-8681-2017, 2017.",
+        "DOI": "10.5194/acp-17-8681-2017"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kurmi, O. P., Semple, S., Devereux, G. S., Gaihre, S., Lam, K. B., Sadhra,\nS., Steiner, M. F., Simkhada, P., Smith W. C., and Ayres, J. G.: The effect of\nexposure to biomass smoke on respiratory symptoms in adult rural and urban\nNepalese populations, Environ. Health, 13, 1–8, https://doi.org/10.1186/1476-069X-13-92, 2014.",
+        "DOI": "10.1186/1476-069X-13-92"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kurokawa, J., Ohara, T., Morikawa, T., Hanayama, S., Janssens-Maenhout, G.,\nFukui, T., Kawashima, K., and Akimoto, H.: Emissions of air pollutants and\ngreenhouse gases over Asian regions during 2000–2008: Regional Emission\ninventory in ASia (REAS) version 2, Atmos. Chem. Phys., 13, 11019–11058,\nhttps://doi.org/10.5194/acp-13-11019-2013, 2013.",
+        "DOI": "10.5194/acp-13-11019-2013"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lam, N. L., Chen, Y., Weyant, C., Venkataraman, C., Sadavarte, P., Johnson,\nM. A., Smith, K. R., Brem, B. T., Arineitwe, J., Ellis, J. E., and Bond, T. C.:\nHousehold light makes global heat: high black carbon emissions from kerosene\nwick lamps, Environ. Sci. Technol., 46, 13531–13538, https://doi.org/10.1021/es302697h,\n2012.",
+        "DOI": "10.1021/es302697h"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, M., Zhang, Q., Kurokawa, J.-I., Woo, J.-H., He, K., Lu, Z., Ohara, T.,\nSong, Y., Streets, D. G., Carmichael, G. R., Cheng, Y., Hong, C., Huo, H.,\nJiang, X., Kang, S., Liu, F., Su, H., and Zheng, B.: MIX: a mosaic Asian\nanthropogenic emission inventory under the international collaboration\nframework of the MICS-Asia and HTAP, Atmos. Chem. Phys., 17, 935–963,\nhttps://doi.org/10.5194/acp-17-935-2017, 2017.",
+        "DOI": "10.5194/acp-17-935-2017"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Malla, S.: Household energy consumption patterns and its environmental\nimplications: Assessment of energy access and poverty in Nepal, Energ.\nPolicy, 61, 990–1002, https://doi.org/10.1016/j.enpol.2013.06.023, 2013.",
+        "DOI": "10.1016/j.enpol.2013.06.023"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mennis J.: Dasymetric Mapping for Estimating Population in Small Areas,\nGeography Compass, 3/2, 727–745, https://doi.org/10.1111/j.1749-8198.2009.00220.x, 2009.",
+        "DOI": "10.1111/j.1749-8198.2009.00220.x"
+      },
+      {
+        "key": "ref43",
+        "unstructured": "MoAD: Statistical Information on Nepalese Agriculture 2011/12, Agri-Business\nPromotion and Statistics Division, Statistics Section, Ministry of\nAgricultural Development, Singha Durbar, Kathmandu, Nepal, 1–170, 2011."
+      },
+      {
+        "key": "ref44",
+        "unstructured": "MoCTCA: Nepal Tourism Statistics 2012, Ministry of Culture, Tourism and Civil Aviation,\nPlanning and Evaluation Division, Statistical Section, Singha Darbar, Kathmandu, 1–117, 2013."
+      },
+      {
+        "key": "ref45",
+        "unstructured": "MoEST: Ambient Air Quality of Kathmandu Valley, Ministry of Environment,\nScience and Technology Singh Durbar, Kathmandu, 1–33, 2005."
+      },
+      {
+        "key": "ref46",
+        "unstructured": "MoF: Nepal Foreign Trade Statistics, Annual Report 2011/12, Ministry of\nFinance, Department of Customs, Kathmandu, available at: https://www.customs.gov.np/en/annual.html (last access: 27 April 2017), 2012."
+      },
+      {
+        "key": "ref47",
+        "unstructured": "MoF: Nepal Foreign Trade Statistics, Annual Report 2016/17, Ministry of\nFinance, Department of Customs, Kathmandu, 1–550, 2017."
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nepal, S., Mahapatra, P. S., Adhikari, S., Shrestha, S., Sharma, P.,\nShrestha, K. L., Pradhan, B. B., and Puppala, S. P.: A Comparative Study of\nStack Emissions from Straight-Line and Zigzag Brick Kilns in Nepal,\nAtmosphere, 10, 1–19, https://doi.org/10.3390/atmos10030107, 2019.",
+        "DOI": "10.3390/atmos10030107"
+      },
+      {
+        "key": "ref49",
+        "unstructured": "NOC: Nepal Oil Corporation, available at:\nhttp://nepaloil.com.np/import?type=sales&amp;amp;offset=0&amp;amp;max=10,\nlast access: 11 January 2019."
+      },
+      {
+        "key": "ref50",
+        "unstructured": "Notter, B. and Schmied, M.: Non-road energy consumption and pollutant\nemissions, Study for the period from 1980 to 2050, Federal Office for the\nEnvironment, Bern, Environmental studies no. 1519, 237 pp., 2015."
+      },
+      {
+        "key": "ref51",
+        "unstructured": "PACE Nepal: Baseline Study of Selected Sector Industries to Assess the\nPotentials for more Efficient use of Energy, PACE Nepal Pvt. Ltd.,\nKathmandu, 1–220, 2012."
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pandey, A. and Venkataraman, C.: Estimating emissions from the Indian\ntransport sector with on-road fleet composition and traffic volume,\nAtmos. Environ., 98, 123–133,\nhttps://doi.org/10.1016/j.atmosenv.2014.08.039, 2014.",
+        "DOI": "10.1016/j.atmosenv.2014.08.039"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pandey, A., Patel, S., Pervez, S., Tiwari, S., Yadama, G., Chow, J. C., Watson, J.\nG., Biswas, P., and Chakrabarty, R. K.: Aerosol emissions factors from traditional\nbiomass cookstoves in India: insights from field measurements, Atmos. Chem.\nPhys., 17, 13721–13729, doi.org/10.5194/acp-17-13721-2017, 2017.",
+        "DOI": "10.5194/acp-17-13721-2017"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pandey, P. R. and Banskota N., Process of cement production in Nepal,\nBulletin of the Department of Geology, Tribhuvan University, Kathmandu,\nNepal, 11, 71–78, https://doi.org/10.3126/bdg.v11i0.1545, 2008.",
+        "DOI": "10.3126/bdg.v11i0.1545"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pokharel, S.: Energy economics of cooking in households in Nepal, Energy,\n29, 547–559, https://doi.org/10.1016/j.energy.2003.10.015, 2004.",
+        "DOI": "10.1016/j.energy.2003.10.015"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pokhrel, A. K., Bates, M. N., Acharya, J., Valentiner-Branth, P., Chandyo, R.\nK., Shrestha, P. S., Raut, A. K., and Smith, K. R.: PM2.5 in household kitchens\nof Bhaktapur, Nepal, using four different cooking fuels, Atmos.\nEnviron., 113, 159–168, https://doi.org/10.1016/j.atmosenv.2015.04.060,\n2015.",
+        "DOI": "10.1016/j.atmosenv.2015.04.060"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pradhan, S., Alea, B. B., and Amatya, V. B.: Mitigation potential of greenhouse\ngas emission and implications on fuel consumption due to clean energy\nvehicles as public passenger transport in Kathmandu Valley of Nepal: A case\nstudy of trolley buses in Ring Road, Energy, 31, 1748–1760,\nhttps://doi.org/10.1016/j.energy.2005.10.013, 2006.",
+        "DOI": "10.1016/j.energy.2005.10.013"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sadavarte, P. and Venkataraman, C.: Trends in multi-pollutant emissions from\na technology-linked inventory for India: I. Industry and transport sectors,\nAtmos. Environ., 99, 353–364, https://doi.org/10.1016/j.atmosenv.2014.09.081,\n2014.",
+        "DOI": "10.1016/j.atmosenv.2014.09.081"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shah, S. D., Cocker, D. R., Johnson, K. C., Lee, J. M., Soriano, B. L., Wayne\nand Miller, J.: Emissions of regulated pollutants from in-use diesel back-up\ngenerators, Atmos. Environ., 40, 4199–4209,\nhttps://doi.org/10.1016/j.atmosenv.2005.12.063, 2006.",
+        "DOI": "10.1016/j.atmosenv.2005.12.063"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shakya, K. M., Rupakheti, M., Aryal, K., and Peltier, R.: Respiratory effects of\nhigh levels of particulate exposure in a cohort of traffic police in Nepal,\nJ. Occup. Environ. Med., 58, 218–225, https://doi.org/10.1097/JOM.0000000000000753, 2016.",
+        "DOI": "10.1097/JOM.0000000000000753"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shakya, K. M., Rupakheti, M., Shahi, A., Maskey, R., Pradhan, B., Panday,\nA., Puppala, S. P., Lawrence, M., and Peltier, R. E.: Near-road sampling of\nPM2.5, BC, and fine-particle chemical components in Kathmandu Valley,\nNepal, Atmos. Chem. Phys., 17, 6503–6516,\nhttps://doi.org/10.5194/acp-17-6503-2017, 2017.",
+        "DOI": "10.5194/acp-17-6503-2017"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shastri H., Barik, B., Ghosh, S., Venkataraman, C., and Sadavarte, P.: Flip flop\nof day-night and summer-winter surface urban heat island intensity in India,\nSci. Rep., 7, 40178, https://doi.org/10.1038/srep40178, 2017.",
+        "DOI": "10.1038/srep40178"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shrestha, R. M. and Rajbhandari, S.: Energy and environmental implications of\ncarbon emission reduction targets: case of Kathmandu valley, Nepal, Energ.\nPolicy, 38, 4818–4827, https://doi.org/10.1016/j.enpol.2009.11.088, 2010.",
+        "DOI": "10.1016/j.enpol.2009.11.088"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shrestha, S. R., Kim Oanh, N. T., Xu, Q., Rupakheti, M., and Lawrence, M. G.:\nAnalysis of the vehicle fleet in the Kathmandu Valley for estimation of\nenvironment and climate co-benefits of technology intrusions, Atmos.\nEnviron., 81, 579–590, https://doi.org/10.1016/j.atmosenv.2013.09.050,\n2013.",
+        "DOI": "10.1016/j.atmosenv.2013.09.050"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Singh, A., Tuladhar, B., Bajracharya, K., and Pillarisetti, A.: Assessment of\neffectiveness of improved cookstoves in reducing indoor air pollution and\nimproving health in Nepal, Energy Sustain. Dev., 16, 406–414,\nhttps://doi.org/10.1016/j.esd.2012.09.004, 2012.",
+        "DOI": "10.1016/j.esd.2012.09.004"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Smith, K. R: National burden of disease in India from indoor air pollution.,\nP. Natl. Acad. Sci. USA, 97, 13286–13293,\nhttps://doi.org/10.1073/pnas.97.24.13286, 2000.",
+        "DOI": "10.1073/pnas.97.24.13286"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stockwell, C. E., Christian, T. J., Goetz, J. D., Jayarathne, T., Bhave, P.\nV., Praveen, P. S., Adhikari, S., Maharjan, R., DeCarlo, P. F., Stone, E.\nA., Saikawa, E., Blake, D. R., Simpson, I. J., Yokelson, R. J., and Panday,\nA. K.: Nepal Ambient Monitoring and Source Testing Experiment (NAMaSTE):\nemissions of trace gases and light-absorbing carbon from wood and dung\ncooking fires, garbage and crop residue burning, brick kilns, and other\nsources, Atmos. Chem. Phys., 16, 11043–11081,\nhttps://doi.org/10.5194/acp-16-11043-2016, 2016.",
+        "DOI": "10.5194/acp-16-11043-2016"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Subramanian, R., Winijkul, E., Bond, T. C., Thiansathit, W., Kim Oanh, N. T.,\nPaw-Armart, I., and Duleep, K. G.: Climate-relevant properties of diesel particulate\nemissions: results from a piggyback study in Bangkok, Thailand,\nEnviron. Sci. Technol., 43, 4213–4218, https://doi.org/10.1021/es8032296,\n2009.",
+        "DOI": "10.1021/es8032296"
+      },
+      {
+        "key": "ref69",
+        "unstructured": "WECS: Energy Sector Synopsis Report, Nepal, Water Energy Commission\nSecretariat, 1–115, 2010."
+      },
+      {
+        "key": "ref70",
+        "unstructured": "WECS: Energy Data Sheet, Water Energy Commission Secretariat, 1–16, 2014."
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Weyant, C. L., Athalye, V., Ragavan, S., Rajarathnam, U., Lalchandani, D.,\nMaithel, S., and Bond, T. C.: Emissions from South Asian brick production,\nEnviron. Sci. Technol., 46, 13531–13538, https://doi.org/10.1021/es302697h,\n2014.",
+        "DOI": "10.1021/es302697h"
+      },
+      {
+        "key": "ref72",
+        "unstructured": "World Bank: Diesel Power Generation: Inventories and Black Carbon Emissions\nin Kathmandu Valley, Nepal, The World Bank, 1–60, 2014."
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu, B., Shen, X., Cao, X., Zhang, W., Wu, H., and Yao, Z.: Carbonaceous\ncomposition of PM2.5 emitted from on-road China III diesel trucks in\nBeijing, China, Atmos. Environ., 116, 216–224,\nhttps://doi.org/10.1016/j.atmosenv.2015.06.039, 2015.",
+        "DOI": "10.1016/j.atmosenv.2015.06.039"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yan, F., Winijkul, E., Jung, S., Bond, T. C., and Streets, D. G.: Global emission\nprojections of particulate matter (PM): I. Exhaust emissions from on-road\nvehicles, Atmos. Environ., 45, 4830–4844,\nhttps://doi.org/10.1016/j.atmosenv.2011.06.018, 2011.",
+        "DOI": "10.1016/j.atmosenv.2011.06.018"
+      },
+      {
+        "key": "ref75",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, H. H., Dhital, N. B., Wang, L. C., Hsieh, Y. S., Lee, K. T., Hsu, Y.\nT., and Huang, S. C.: Chemical Characterization of Fine Particulate Matter in\nGasoline and Diesel Vehicle Exhaust, Aerosol Air Qual. Res., 19,\n1439–1449, https://doi.org/10.4209/aaqr.2019.04.0191, 2019.",
+        "DOI": "10.4209/aaqr.2019.04.0191"
+      },
+      {
+        "key": "ref76",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, J., Smith, K. R., Ma, Y., Ye, S., Jiang, F., Qi, W., and Thorneloe, S. A.:\nGreenhouse gases and other airborne pollutants from household stoves in\nChina: a database for emission factors, Atmos. Environ., 34, 4537–4549,\nhttps://doi.org/10.1016/S1352-2310(99)00450-1, 2000.",
+        "DOI": "10.1016/S1352-2310(99)00450-1"
+      },
+      {
+        "key": "ref77",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Q., Streets, D. G., Carmichael, G. R., He, K. B., Huo, H., Kannari,\nA., Klimont, Z., Park, I. S., Reddy, S., Fu, J. S., Chen, D., Duan, L., Lei,\nY., Wang, L. T., and Yao, Z. L.: Asian emissions in 2006 for the NASA\nINTEX-B mission, Atmos. Chem. Phys., 9, 5131–5153,\nhttps://doi.org/10.5194/acp-9-5131-2009, 2009.",
+        "DOI": "10.5194/acp-9-5131-2009"
+      },
+      {
+        "key": "ref78",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Y., Yao, Z., Shen, X., Liu, H., and He, K.: Chemical characterization of\nPM2.5 emitted from on-road heavy-duty diesel trucks in China, Atmos.\nEnviron., 122, 885–891, https://doi.org/10.1016/j.atmosenv.2015.07.014,\n2015.",
+        "DOI": "10.1016/j.atmosenv.2015.07.014"
+      }
+    ],
+    "container-title": [
+      "Atmospheric Chemistry and Physics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://acp.copernicus.org/articles/19/12953/2019/acp-19-12953-2019.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          15
+        ]
+      ],
+      "date-time": "2020-09-15T04:14:15Z",
+      "timestamp": 1600143255000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://acp.copernicus.org/articles/19/12953/2019/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          18
+        ]
+      ]
+    },
+    "references-count": 78,
+    "journal-issue": {
+      "issue": "20",
+      "published-online": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.5194/acp-19-12953-2019",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/acp-2019-113",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/acp-2019-113",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "1680-7324"
+    ],
+    "issn-type": [
+      {
+        "value": "1680-7324",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          18
+        ]
+      ]
+    }
+  }
+}

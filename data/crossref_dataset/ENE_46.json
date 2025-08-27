@@ -1,0 +1,328 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          26
+        ]
+      ],
+      "date-time": "2024-04-26T21:51:13Z",
+      "timestamp": 1714168273251
+    },
+    "reference-count": 18,
+    "publisher": "Informa UK Limited",
+    "issue": "10",
+    "content-domain": {
+      "domain": [
+        "www.tandfonline.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Nuclear Science and Engineering"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1080/00295639.2019.1604048",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          20
+        ]
+      ],
+      "date-time": "2019-05-20T11:39:24Z",
+      "timestamp": 1558352364000
+    },
+    "page": "1090-1128",
+    "update-policy": "http://dx.doi.org/10.1080/tandf_crossmark_01",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Estimating Code Biases for Criticality Safety Applications with Few Relevant Benchmarks"
+    ],
+    "prefix": "10.1080",
+    "volume": "193",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0002-5230-1302",
+        "authenticated-orcid": false,
+        "given": "Christopher M.",
+        "family": "Perfetti",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of New Mexico, MSC01 1120, 1 University of New Mexico, Albuquerque, New Mexico 87131"
+          }
+        ]
+      },
+      {
+        "given": "Bradley T.",
+        "family": "Rearden",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Oak Ridge National Laboratory, P.O. Box 2008, MS 6170, Oak Ridge, Tennessee 37831"
+          }
+        ]
+      }
+    ],
+    "member": "301",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          20
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "CIT0001",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13182/NSE03-2"
+      },
+      {
+        "key": "CIT0002",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2841583"
+      },
+      {
+        "key": "CIT0005",
+        "unstructured": "“Justification for Minimum Margin of Subcriticality for Safety,” FCSS ISG-10, Rev. 0, U.S. Nuclear Regulatory Commission, Office of Nuclear Material Safety and Safeguards, Division of Fuel Cycle Safety and Safeguards (2006)."
+      },
+      {
+        "key": "CIT0006",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2172/1326509"
+      },
+      {
+        "key": "CIT0008",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. J. LICHTENWALTER et al. “Criticality Benchmark Guide for Light-Water-Reactor Fuel in Transportation and Storage Packages,” NUREG/CR-6361, ORNL/TM-13211, Oak Ridge National Laboratory (1997).",
+        "DOI": "10.2172/469122"
+      },
+      {
+        "issue": "2015",
+        "key": "CIT0009",
+        "first-page": "17",
+        "volume": "181",
+        "author": "KIEDROWSKI B. C.",
+        "year": "2014",
+        "journal-title": "Nucl. Sci. Eng."
+      },
+      {
+        "key": "CIT0010",
+        "unstructured": "M. L. WILLIAMS et al. “TSURFER: An Adjustment Code to Determine Biases and Uncertainties in Nuclear System Responses by Consolidating Differential Data and Benchmark Integral Experiments,” ORNL/TM-2005/39 Version 6, Oak Ridge National Laboratory (2009)."
+      },
+      {
+        "key": "CIT0011",
+        "volume-title": "Working Party on Nuclear Criticality Safety",
+        "author": "SANTAMARINA A.",
+        "year": "2015"
+      },
+      {
+        "key": "CIT0012",
+        "volume-title": "Specifications for Benchmark Exercises of Phase 1: Comparison of Uncertainty Analysis Methods for Criticality Safety Assessment",
+        "author": "IVANOVA T.",
+        "year": "2008"
+      },
+      {
+        "key": "CIT0013",
+        "unstructured": "“International Handbook of Evaluated Criticality Safety Benchmark Experiments,” NEA/NSC/DOC(95)03, Organisation for Economic Co-operation and Development, Nuclear Energy Agency, Nuclear Science Committee (2016)."
+      },
+      {
+        "key": "CIT0014",
+        "doi-asserted-by": "crossref",
+        "unstructured": "W. J. MARSHALL and B. T. REARDEN, “Criticality Safety Validation of SCALE 6.1,” ORNL/TM-2011/450 (revised), Oak Ridge National Laboratory (2011).",
+        "DOI": "10.2172/1028760"
+      },
+      {
+        "key": "CIT0016",
+        "unstructured": "B. C. KIEDROWSKI, “Adjoint Weighting for Continuous-Energy Monte Carlo Radiation Transport,” PhD Dissertation, University of Wisconsin (2009)."
+      },
+      {
+        "key": "CIT0017",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13182/NSE15-12"
+      },
+      {
+        "key": "#cr-split#-CIT0018.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "F. B. BROWN, M. E. RISING, and J. L. ALWIN, \"Lecture Notes on Criticality Safety Validation Using MCNP & Whisper,\" LA-UR-16-21659, Los Alamos National Laboratory (2016)",
+        "DOI": "10.2172/1241648"
+      },
+      {
+        "key": "#cr-split#-CIT0018.2",
+        "unstructured": "https://laws.lanl.gov/vhosts/mcnp.lanl.gov/pdf_files/la-ur-16-21659.pdf (current as of Dec. 10, 2018)."
+      },
+      {
+        "key": "CIT0019",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13182/NSE10-109"
+      },
+      {
+        "key": "CIT0022",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nds.2014.04.005"
+      },
+      {
+        "key": "CIT0023",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13182/NSE15-13"
+      }
+    ],
+    "container-title": [
+      "Nuclear Science and Engineering"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.tandfonline.com/doi/pdf/10.1080/00295639.2019.1604048",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          10
+        ]
+      ],
+      "date-time": "2019-09-10T17:13:20Z",
+      "timestamp": 1568135600000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.tandfonline.com/doi/full/10.1080/00295639.2019.1604048"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          20
+        ]
+      ]
+    },
+    "references-count": 18,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            5,
+            20
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1080/00295639.2019.1604048"
+    ],
+    "URL": "https://doi.org/10.1080/00295639.2019.1604048",
+    "relation": {},
+    "ISSN": [
+      "0029-5639",
+      "1943-748X"
+    ],
+    "issn-type": [
+      {
+        "value": "0029-5639",
+        "type": "print"
+      },
+      {
+        "value": "1943-748X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          20
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+        "order": 1,
+        "name": "peerreview_statement",
+        "label": "Peer Review Statement"
+      },
+      {
+        "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=unse20",
+        "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=unse20",
+        "order": 2,
+        "name": "aims_and_scope_url",
+        "label": "Aim & Scope"
+      },
+      {
+        "value": "2018-12-10",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-04-04",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-05-20",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

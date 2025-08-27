@@ -1,0 +1,972 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          10
+        ]
+      ],
+      "date-time": "2024-07-10T19:04:48Z",
+      "timestamp": 1720638288758
+    },
+    "reference-count": 65,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2019-09-01T00:00:00Z",
+          "timestamp": 1567296000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100002850",
+        "name": "Fondo Nacional de Desarrollo Cientȡfico y Tecnolgico",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "11170012"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002850",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Finance Research Letters"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.frl.2018.09.009",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2018-09-25T16:15:44Z",
+      "timestamp": 1537892144000
+    },
+    "page": "170-180",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "special_numbering": "C",
+    "title": [
+      "Suboptimal investment behavior and welfare costs: A simulation based approach"
+    ],
+    "prefix": "10.1016",
+    "volume": "30",
+    "author": [
+      {
+        "given": "Pablo",
+        "family": "Castañeda",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Lorenzo",
+        "family": "Reus",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "4",
+        "key": "10.1016/j.frl.2018.09.009_bib0001",
+        "doi-asserted-by": "crossref",
+        "first-page": "1297",
+        "DOI": "10.1111/0022-1082.00369",
+        "article-title": "Variable selection for portfolio choice",
+        "volume": "56",
+        "author": "Aït-Sahalia",
+        "year": "2001",
+        "journal-title": "J. Finance"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.frl.2018.09.009_bib0002",
+        "doi-asserted-by": "crossref",
+        "first-page": "47",
+        "DOI": "10.1016/S0304-405X(99)00004-5",
+        "article-title": "Transaction costs and predictability: some utility cost calculations",
+        "volume": "52",
+        "author": "Balduzzi",
+        "year": "1999",
+        "journal-title": "J. Financ. Econ."
+      },
+      {
+        "key": "10.1016/j.frl.2018.09.009_bib0003",
+        "series-title": "Advances in Behavioral Finance",
+        "article-title": "Individual investors",
+        "volume": "2",
+        "author": "Barber",
+        "year": "2005"
+      },
+      {
+        "key": "10.1016/j.frl.2018.09.009_bib0004",
+        "series-title": "Handbook of Economics of Finance",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/B978-0-44-459406-8.00022-6",
+        "article-title": "The behavior of individual investors",
+        "volume": "2B",
+        "author": "Barber",
+        "year": "2013"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.frl.2018.09.009_bib0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "225",
+        "DOI": "10.1111/0022-1082.00205",
+        "article-title": "Investing for the long run when returns are predictable",
+        "volume": "55",
+        "author": "Barberis",
+        "year": "2000",
+        "journal-title": "Journal of Finance"
+      },
+      {
+        "key": "10.1016/j.frl.2018.09.009_bib0006",
+        "series-title": "Handbook of Economics of Finance",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/S1574-0102(03)01027-6",
+        "article-title": "A survey of behavioral finance",
+        "volume": "1B",
+        "author": "Barberis",
+        "year": "2003"
+      },
+      {
+        "key": "10.1016/j.frl.2018.09.009_bib0007",
+        "series-title": "Advances in Behavioral Finance",
+        "article-title": "Naive diversification strategies in defined contribution savings plans",
+        "volume": "2",
+        "author": "Benartzi",
+        "year": "2005"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.frl.2018.09.009_bib0008",
+        "doi-asserted-by": "crossref",
+        "first-page": "485",
+        "DOI": "10.1287/mnsc.1120.1623",
+        "article-title": "Solving constrained consumption–investment problems by simulation of artificial market strategies",
+        "volume": "59",
+        "author": "Bick",
+        "year": "2013",
+        "journal-title": "Manage. Sci."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.frl.2018.09.009_bib0009",
+        "doi-asserted-by": "crossref",
+        "first-page": "1115",
+        "DOI": "10.1016/S0165-1889(03)00068-X",
+        "article-title": "Optimal consumption–portfolio choices and retirement planning",
+        "volume": "28",
+        "author": "Bodie",
+        "year": "2004",
+        "journal-title": "J. Econ. Dyn. Control"
+      },
+      {
+        "issue": "3–4",
+        "key": "10.1016/j.frl.2018.09.009_bib0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "427",
+        "DOI": "10.1016/0165-1889(92)90044-F",
+        "article-title": "Labor supply flexibility and portfolio choice in a life cycle model",
+        "volume": "16",
+        "author": "Bodie",
+        "year": "1992",
+        "journal-title": "J. Econ. Dyn. Control"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.frl.2018.09.009_bib0011",
+        "doi-asserted-by": "crossref",
+        "first-page": "137",
+        "DOI": "10.1080/13518470903075854",
+        "article-title": "Discrete-time implementation of continuous-time portfolio strategies",
+        "volume": "16",
+        "author": "Branger",
+        "year": "2010",
+        "journal-title": "Eur. J. Finance"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.frl.2018.09.009_bib0012",
+        "doi-asserted-by": "crossref",
+        "first-page": "1865",
+        "DOI": "10.1016/j.jbankfin.2012.02.009",
+        "article-title": "Asset allocation: how much model choice matter?",
+        "volume": "36",
+        "author": "Branger",
+        "year": "2012",
+        "journal-title": "J. Bank. Finance"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.frl.2018.09.009_bib0013",
+        "doi-asserted-by": "crossref",
+        "first-page": "5036",
+        "DOI": "10.1016/j.jbankfin.2013.08.023",
+        "article-title": "Robust portfolio choice with uncertainty about jump and diffusion risk",
+        "volume": "37",
+        "author": "Branger",
+        "year": "2013",
+        "journal-title": "J. Bank. Finance"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.frl.2018.09.009_bib0014",
+        "doi-asserted-by": "crossref",
+        "first-page": "1397",
+        "DOI": "10.1016/j.jbankfin.2012.05.009",
+        "article-title": "Robust portfolio choice with ambiguity and learning about return predictability",
+        "volume": "37",
+        "author": "Branger",
+        "year": "2013",
+        "journal-title": "J. Bank. Finance"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.frl.2018.09.009_bib0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "1087",
+        "DOI": "10.1016/j.jbankfin.2007.09.015",
+        "article-title": "Optimal portfolios when volatility can jump",
+        "volume": "32",
+        "author": "Branger",
+        "year": "2008",
+        "journal-title": "J. Bank. Finance"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.frl.2018.09.009_bib0016",
+        "doi-asserted-by": "crossref",
+        "first-page": "1453",
+        "DOI": "10.1111/j.1540-6261.2007.01241.x",
+        "article-title": "Model specification and risk premia: evidence from future options",
+        "volume": "62",
+        "author": "Broadie",
+        "year": "2007",
+        "journal-title": "J. Finance"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.frl.2018.09.009_bib0017",
+        "doi-asserted-by": "crossref",
+        "first-page": "2819",
+        "DOI": "10.1111/jofi.12167",
+        "article-title": "Incentives and endogenous risk taking: a structural view on hedge funds alphas",
+        "volume": "69",
+        "author": "Buraschi",
+        "year": "2014",
+        "journal-title": "J. Finance"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.frl.2018.09.009_bib0018",
+        "doi-asserted-by": "crossref",
+        "first-page": "707",
+        "DOI": "10.1086/524204",
+        "article-title": "Down or out: assessing the welfare costs of household investment mistakes",
+        "volume": "115",
+        "author": "Calvet",
+        "year": "2007",
+        "journal-title": "J. Pol. Econ."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.frl.2018.09.009_bib0019",
+        "doi-asserted-by": "crossref",
+        "first-page": "301",
+        "DOI": "10.1162/qjec.2009.124.1.301",
+        "article-title": "Fight or flight? portfolio rebalancing by individual investors",
+        "volume": "124",
+        "author": "Calvet",
+        "year": "2009",
+        "journal-title": "Q. J. Econ."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.frl.2018.09.009_bib0021",
+        "doi-asserted-by": "crossref",
+        "first-page": "433",
+        "DOI": "10.1162/003355399556043",
+        "article-title": "Consumption and portfolio decisions when expected returns are time-varying",
+        "volume": "114",
+        "author": "Campbell",
+        "year": "1999",
+        "journal-title": "Q. J. Econ."
+      },
+      {
+        "key": "10.1016/j.frl.2018.09.009_bib0022",
+        "doi-asserted-by": "crossref",
+        "first-page": "290",
+        "DOI": "10.1016/j.frl.2015.12.012",
+        "article-title": "On the structural estimation of an optimal portfolio rule",
+        "volume": "16",
+        "author": "Castañeda",
+        "year": "2016",
+        "journal-title": "Finance Res. Lett."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.frl.2018.09.009_bib0024",
+        "doi-asserted-by": "crossref",
+        "first-page": "491",
+        "DOI": "10.1093/rfs/hhi017",
+        "article-title": "Consumption and portfolio choice over the life cycle",
+        "volume": "18",
+        "author": "Cocco",
+        "year": "2005",
+        "journal-title": "Rev. Financ. Stud."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.frl.2018.09.009_bib0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "145",
+        "DOI": "10.1016/S0304-4076(99)00053-6",
+        "article-title": "Reconsidering the continuous time limit of the GARCH(1, 1) process",
+        "volume": "96",
+        "author": "Corradi",
+        "year": "2000",
+        "journal-title": "J. Econom."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.frl.2018.09.009_bib0026",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.1016/0022-0531(89)90067-7",
+        "article-title": "Optimal consumption and portfolio policies when asset prices follow a diffusion process",
+        "volume": "49",
+        "author": "Cox",
+        "year": "1989",
+        "journal-title": "J. Econ. Theory"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.frl.2018.09.009_bib0027",
+        "doi-asserted-by": "crossref",
+        "first-page": "767",
+        "DOI": "10.1214/aoap/1177005576",
+        "article-title": "Convex duality in constrained portfolio optimization",
+        "volume": "2",
+        "author": "Cvitanić",
+        "year": "1992",
+        "journal-title": "Ann. Appl. Probab."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.frl.2018.09.009_bib0028",
+        "doi-asserted-by": "crossref",
+        "first-page": "2809",
+        "DOI": "10.1111/j.1540-6261.2004.00717.x",
+        "article-title": "Systemic risk and international portfolio choice",
+        "volume": "59",
+        "author": "Das",
+        "year": "2004",
+        "journal-title": "J. Finance"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.frl.2018.09.009_bib0029",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1007/s10957-012-0208-1",
+        "article-title": "Portfolio selection: a review",
+        "volume": "161",
+        "author": "Detemple",
+        "year": "2012",
+        "journal-title": "J. Optim. Theory Appl."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.frl.2018.09.009_bib0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "1540",
+        "DOI": "10.1111/1540-6261.00529",
+        "article-title": "A Monte Carlo method for optimal portfolios",
+        "volume": "58",
+        "author": "Detemple",
+        "year": "2003",
+        "journal-title": "J. Finance"
+      },
+      {
+        "key": "10.1016/j.frl.2018.09.009_bib0031",
+        "series-title": "Financial Engineering, Handbook in Operations Research and Management Science",
+        "doi-asserted-by": "crossref",
+        "first-page": "867",
+        "DOI": "10.1016/S0927-0507(07)15021-0",
+        "article-title": "Simulation methods for optimal portfolios",
+        "volume": "15",
+        "author": "Detemple",
+        "year": "2008"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.frl.2018.09.009_bib0032",
+        "doi-asserted-by": "crossref",
+        "first-page": "1451",
+        "DOI": "10.1016/0165-1889(95)00907-8",
+        "article-title": "Asset and commodity prices with multi-attribute durable goods",
+        "volume": "20",
+        "author": "Detemple",
+        "year": "1996",
+        "journal-title": "J. Econ. Dyn. Control"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.frl.2018.09.009_bib0033",
+        "doi-asserted-by": "crossref",
+        "first-page": "539",
+        "DOI": "10.1111/j.1467-9965.2005.00250.x",
+        "article-title": "Closed-form solutions for optimal portfolio selection with stochastic interest rate and investment constraints",
+        "volume": "15",
+        "author": "Detemple",
+        "year": "2005",
+        "journal-title": "Math. Finance"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.frl.2018.09.009_bib0034",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1093/rfs/hhp040",
+        "article-title": "Dynamic asset allocation: portfolio decomposition formula and applications",
+        "volume": "23",
+        "author": "Detemple",
+        "year": "2010",
+        "journal-title": "Rev. Financ. Stud."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.frl.2018.09.009_bib0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "251",
+        "DOI": "10.1111/j.1467-9965.1992.tb00032.x",
+        "article-title": "Optimal consumption-portfolio policies with habit formation",
+        "volume": "2",
+        "author": "Detemple",
+        "year": "1992",
+        "journal-title": "Math. Finance"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.frl.2018.09.009_bib0036",
+        "doi-asserted-by": "crossref",
+        "first-page": "2185",
+        "DOI": "10.1287/mnsc.2014.1924",
+        "article-title": "Long-term strategic asset allocation: an out-of-sample evaluation",
+        "volume": "61",
+        "author": "Diris",
+        "year": "2014",
+        "journal-title": "Manage. Sci."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.frl.2018.09.009_bib0037",
+        "doi-asserted-by": "crossref",
+        "first-page": "353",
+        "DOI": "10.2307/2951600",
+        "article-title": "Stochastic differential utility",
+        "volume": "60",
+        "author": "Duffie",
+        "year": "1992",
+        "journal-title": "Econometrica"
+      },
+      {
+        "key": "10.1016/j.frl.2018.09.009_bib0038",
+        "doi-asserted-by": "crossref",
+        "first-page": "142",
+        "DOI": "10.1016/j.jbankfin.2015.08.033",
+        "article-title": "Robust portfolio choice with derivative trading under stochastic volatility",
+        "volume": "61",
+        "author": "Escobar",
+        "year": "2015",
+        "journal-title": "J. Bank. Finance"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.frl.2018.09.009_bib0039",
+        "doi-asserted-by": "crossref",
+        "first-page": "243",
+        "DOI": "10.1007/s10436-013-0234-5",
+        "article-title": "Robust portfolio choice with stochastic interest rates",
+        "volume": "10",
+        "author": "Flor",
+        "year": "2014",
+        "journal-title": "Ann. Finance"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.frl.2018.09.009_bib0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1093/rfs/hhl003",
+        "article-title": "Portfolio selection with parameter and model uncertainty: a multi-prior approach",
+        "volume": "20",
+        "author": "Garlappi",
+        "year": "2006",
+        "journal-title": "Rev. Financ. Stud."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.frl.2018.09.009_bib0041",
+        "doi-asserted-by": "crossref",
+        "first-page": "489",
+        "DOI": "10.1111/jofi.12231",
+        "article-title": "How does household portfolio diversification vary with financial literacy and financial advice?",
+        "volume": "70",
+        "author": "Gaudecker",
+        "year": "2015",
+        "journal-title": "J. Finance"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.frl.2018.09.009_bib0042",
+        "doi-asserted-by": "crossref",
+        "first-page": "405",
+        "DOI": "10.1287/opre.1060.0279",
+        "article-title": "Evaluating portfolio policies: a duality approach",
+        "volume": "54",
+        "author": "Haugh",
+        "year": "2006",
+        "journal-title": "Oper. Res."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.frl.2018.09.009_bib0044",
+        "doi-asserted-by": "crossref",
+        "first-page": "327",
+        "DOI": "10.1093/rfs/6.2.327",
+        "article-title": "A closed-form solution for options with stochastic volatility with applications to bond and currency options",
+        "volume": "6",
+        "author": "Heston",
+        "year": "1993",
+        "journal-title": "Rev. Financ. Stud."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.frl.2018.09.009_bib0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "781",
+        "DOI": "10.2307/2951566",
+        "article-title": "Intertemporal preferences for uncertain consumption: a continuous time approach",
+        "volume": "60",
+        "author": "Hindy",
+        "year": "1992",
+        "journal-title": "Econometrica"
+      },
+      {
+        "key": "10.1016/j.frl.2018.09.009_bib0046",
+        "doi-asserted-by": "crossref",
+        "first-page": "342",
+        "DOI": "10.1016/j.frl.2016.05.012",
+        "article-title": "Robust consumption and portfolio rules with time-varying model confidence",
+        "volume": "18",
+        "author": "Jang",
+        "year": "2016",
+        "journal-title": "Finance Res. Lett."
+      },
+      {
+        "key": "10.1016/j.frl.2018.09.009_bib0047",
+        "doi-asserted-by": "crossref",
+        "first-page": "158",
+        "DOI": "10.1016/j.frl.2016.04.013",
+        "article-title": "Ambiguity and optimal portfolio choice with value-at-risk constraint",
+        "volume": "18",
+        "author": "Jang",
+        "year": "2016",
+        "journal-title": "Finance Res. Lett."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.frl.2018.09.009_bib0048",
+        "doi-asserted-by": "crossref",
+        "first-page": "385",
+        "DOI": "10.1111/j.1467-9965.2008.00339.x",
+        "article-title": "Behavioral portfolio selection in continuous time",
+        "volume": "18",
+        "author": "Jian",
+        "year": "2008",
+        "journal-title": "Math. Finance"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.frl.2018.09.009_bib0049",
+        "doi-asserted-by": "crossref",
+        "first-page": "2877",
+        "DOI": "10.1093/rfs/hhs083",
+        "article-title": "Decomposition of optimal portfolio weight in a jump-diffusion model and its applications",
+        "volume": "25",
+        "author": "Jin",
+        "year": "2012",
+        "journal-title": "Rev. Financ. Stud."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.frl.2018.09.009_bib0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "385",
+        "DOI": "10.1016/S0304-405X(02)00258-1",
+        "article-title": "Paper millionaires: how valuable is stock to a stockholder who is restricted from selling it?",
+        "volume": "67",
+        "author": "Kahl",
+        "year": "2003",
+        "journal-title": "J. Financ. Econ."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.frl.2018.09.009_bib0051",
+        "doi-asserted-by": "crossref",
+        "first-page": "702",
+        "DOI": "10.1111/mafi.12035",
+        "article-title": "Option pricing and hedging with small transaction costs",
+        "volume": "25",
+        "author": "Kallsen",
+        "year": "2015",
+        "journal-title": "Math. Finance"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.frl.2018.09.009_bib0052",
+        "doi-asserted-by": "crossref",
+        "first-page": "621",
+        "DOI": "10.1017/S0022109000004129",
+        "article-title": "Optimal portfolio choice with parameter uncertainty",
+        "volume": "42",
+        "author": "Kan",
+        "year": "2007",
+        "journal-title": "J. Financ. Quant. Anal."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.frl.2018.09.009_bib0053",
+        "doi-asserted-by": "crossref",
+        "first-page": "1557",
+        "DOI": "10.1137/0325086",
+        "article-title": "Optimal portfolio and consumption decisions for a small investor, on a finite horizon",
+        "volume": "25",
+        "author": "Karatzas",
+        "year": "1987",
+        "journal-title": "SIAM J. Control Optim."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.frl.2018.09.009_bib0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "141",
+        "DOI": "10.1093/rfs/9.1.141",
+        "article-title": "Dynamic nonmyopic portfolio behavior",
+        "volume": "9",
+        "author": "Kim",
+        "year": "1996",
+        "journal-title": "Rev. Financ. Stud."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.frl.2018.09.009_bib0056",
+        "doi-asserted-by": "crossref",
+        "first-page": "1051",
+        "DOI": "10.1111/jofi.12140",
+        "article-title": "The cross-section of managerial ability, incentives, and risk preferences",
+        "volume": "69",
+        "author": "Koijen",
+        "year": "2014",
+        "journal-title": "J. Finance"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.frl.2018.09.009_bib0057",
+        "doi-asserted-by": "crossref",
+        "first-page": "957",
+        "DOI": "10.1111/jofi.12273",
+        "article-title": "Health and mortality delta: assessing the welfare cost of household insurance choice",
+        "volume": "71",
+        "author": "Koijen",
+        "year": "2016",
+        "journal-title": "J. Finance"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.frl.2018.09.009_bib0058",
+        "doi-asserted-by": "crossref",
+        "first-page": "741",
+        "DOI": "10.1093/rfs/hhp058",
+        "article-title": "When can life cycle investors benefit from time-varying bond risk premia?",
+        "volume": "23",
+        "author": "Koijen",
+        "year": "2010",
+        "journal-title": "Rev. Financ. Stud."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.frl.2018.09.009_bib0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "2359",
+        "DOI": "10.1093/rof/rfu052",
+        "article-title": "An out-of-sample evaluation of dynamic portfolio strategies",
+        "volume": "19",
+        "author": "Lan",
+        "year": "2015",
+        "journal-title": "Rev. Financ."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.frl.2018.09.009_bib0061",
+        "doi-asserted-by": "crossref",
+        "first-page": "266",
+        "DOI": "10.1016/j.jedc.2011.09.009",
+        "article-title": "The costs of suboptimal dynamic asset allocation: general results and applications to interest rate risk, stock volatility risk, and growth/value tilts",
+        "volume": "36",
+        "author": "Larsen",
+        "year": "2012",
+        "journal-title": "J. Econ. Dyn. Control"
+      },
+      {
+        "key": "10.1016/j.frl.2018.09.009_sbref0062",
+        "article-title": "The Effects of Pre-/Post-retirement Downside Consumption Constraints on Optimal Consumption, Portfolio, and Retirement",
+        "author": "Lim",
+        "year": "2017",
+        "journal-title": "Finance Res. Lett."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.frl.2018.09.009_bib0064",
+        "doi-asserted-by": "crossref",
+        "first-page": "231",
+        "DOI": "10.1111/1540-6261.00523",
+        "article-title": "Dynamic asset allocation with event risk",
+        "volume": "58",
+        "author": "Liu",
+        "year": "2003",
+        "journal-title": "J. Finance"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.frl.2018.09.009_bib0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "401",
+        "DOI": "10.1016/S0304-405X(03)00118-1",
+        "article-title": "Dynamic derivative strategies",
+        "volume": "69",
+        "author": "Liu",
+        "year": "2003",
+        "journal-title": "J. Financ. Econ."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.frl.2018.09.009_bib0066",
+        "doi-asserted-by": "crossref",
+        "first-page": "287",
+        "DOI": "10.1007/BF01447332",
+        "article-title": "Optimal portfolio for a small investor in a market model with discontinuous prices",
+        "volume": "22",
+        "author": "Jeanblanc-Piqué",
+        "year": "1990",
+        "journal-title": "Appl. Math. Optim."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.frl.2018.09.009_bib0067",
+        "doi-asserted-by": "crossref",
+        "first-page": "373",
+        "DOI": "10.1016/0022-0531(71)90038-X",
+        "article-title": "Optimum consumption and portfolio rules in a continuous-time model",
+        "volume": "3",
+        "author": "Merton",
+        "year": "1971",
+        "journal-title": "J. Econ. Theory"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.frl.2018.09.009_bib0068",
+        "doi-asserted-by": "crossref",
+        "first-page": "775",
+        "DOI": "10.1016/j.jfineco.2013.03.016",
+        "article-title": "Why does junior put all his eggs in one basket? a potential rational explanation for holding concentrated portfolios",
+        "volume": "109",
+        "author": "Roche",
+        "year": "2013",
+        "journal-title": "J. Financ. Econ."
+      },
+      {
+        "key": "10.1016/j.frl.2018.09.009_bib0069",
+        "doi-asserted-by": "crossref",
+        "first-page": "242",
+        "DOI": "10.1016/j.frl.2016.04.023",
+        "article-title": "Model misspecification and pricing of illiquid claims",
+        "volume": "18",
+        "author": "Rubtsov",
+        "year": "2016",
+        "journal-title": "Finance Res. Lett."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.frl.2018.09.009_bib0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "1189",
+        "DOI": "10.1093/rfs/15.4.1189",
+        "article-title": "An isomorphism between asset pricing models with and without linear habit formation",
+        "volume": "15",
+        "author": "Shroder",
+        "year": "2002",
+        "journal-title": "Rev. Financ. Stud."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.frl.2018.09.009_bib0072",
+        "doi-asserted-by": "crossref",
+        "first-page": "63",
+        "DOI": "10.2307/3594995",
+        "article-title": "Portfolio and consumption decisions under mean-reverting returns: an exact formula for complete markets",
+        "volume": "37",
+        "author": "Wachter",
+        "year": "2002",
+        "journal-title": "J. Financ. Quant. Anal."
+      }
+    ],
+    "container-title": [
+      "Finance Research Letters"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1544612318302563?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1544612318302563?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2019-10-21T09:21:33Z",
+      "timestamp": 1571649693000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1544612318302563"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          9
+        ]
+      ]
+    },
+    "references-count": 65,
+    "alternative-id": [
+      "S1544612318302563"
+    ],
+    "URL": "https://doi.org/10.1016/j.frl.2018.09.009",
+    "relation": {},
+    "ISSN": [
+      "1544-6123"
+    ],
+    "issn-type": [
+      {
+        "value": "1544-6123",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          9
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Suboptimal investment behavior and welfare costs: A simulation based approach",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Finance Research Letters",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.frl.2018.09.009",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2018 Elsevier Inc. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

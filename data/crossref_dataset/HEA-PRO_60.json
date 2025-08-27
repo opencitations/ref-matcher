@@ -1,0 +1,233 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          26
+        ]
+      ],
+      "date-time": "2024-03-26T16:17:06Z",
+      "timestamp": 1711469826637
+    },
+    "reference-count": 15,
+    "publisher": "Society of Physical Therapy Science",
+    "issue": "10",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J Phys Ther Sci"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "DOI": "10.1589/jpts.31.776",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          18
+        ]
+      ],
+      "date-time": "2019-10-18T22:04:15Z",
+      "timestamp": 1571436255000
+    },
+    "page": "776-779",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Effect of lateral-wedge insole on the center of foot pressure and lower extremity muscle activity at gait initiation in patients with medial knee osteoarthritis"
+    ],
+    "prefix": "10.1589",
+    "volume": "31",
+    "author": [
+      {
+        "given": "Hiroshi",
+        "family": "Katoh",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Rehabilitation, Kyushu University of Nursing and Social Welfare: 888 Tominoo, Tamana-shi, Kumamoto 865-0062, Japan"
+          }
+        ]
+      }
+    ],
+    "member": "533",
+    "reference": [
+      {
+        "key": "1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "1) Toda Y, Tsukimura N: Influence of concomitant heeled footwear when wearing a lateral wedged insole for medial compartment osteoarthritis of the knee. Osteoarthritis Cartilage, 2008, 16: 244–253.",
+        "DOI": "10.1016/j.joca.2007.06.010"
+      },
+      {
+        "key": "2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "2) Zhang W, Moskowitz RW, Nuki G, et al.: OARSI recommendations for the management of hip and knee osteoarthritis, Part II: OARSI evidence-based, expert consensus guidelines. Osteoarthritis Cartilage, 2008, 16: 137–162.",
+        "DOI": "10.1016/j.joca.2007.12.013"
+      },
+      {
+        "key": "3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "3) Hinman RS, Payne C, Metcalf BR, et al.: Lateral wedges in knee osteoarthritis: what are their immediate clinical and biomechanical effects and can these predict a three-month clinical outcome? Arthritis Rheum, 2008, 59: 408–415.",
+        "DOI": "10.1002/art.23326"
+      },
+      {
+        "key": "4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "4) Shimada S, Kobayashi S, Wada M, et al.: Effects of disease severity on response to lateral wedged shoe insole for medial compartment knee osteoarthritis. Arch Phys Med Rehabil, 2006, 87: 1436–1441.",
+        "DOI": "10.1016/j.apmr.2006.08.018"
+      },
+      {
+        "key": "5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "5) Sousa AS, Silva A, Santos R: Ankle anticipatory postural adjustments during gait initiation in healthy and post-stroke subjects. Clin Biomech (Bristol, Avon), 2015, 30: 960–965.",
+        "DOI": "10.1016/j.clinbiomech.2015.07.002"
+      },
+      {
+        "key": "6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "6) Cowan SM, Bennell KL, Hodges PW, et al.: Delayed onset of electromyographic activity of vastus medialis obliquus relative to vastus lateralis in subjects with patellofemoral pain syndrome. Arch Phys Med Rehabil, 2001, 82: 183–189.",
+        "DOI": "10.1053/apmr.2001.19022"
+      },
+      {
+        "key": "7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "7) Polcyn AF, Lipsitz LA, Kerrigan DC, et al.: Age-related changes in the initiation of gait: degradation of central mechanisms for momentum generation. Arch Phys Med Rehabil, 1998, 79: 1582–1589.",
+        "DOI": "10.1016/S0003-9993(98)90425-7"
+      },
+      {
+        "key": "8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "8) Halliday SE, Winter DA, Frank JS, et al.: The initiation of gait in young, elderly, and Parkinson’s disease subjects. Gait Posture, 1998, 8: 8–14.",
+        "DOI": "10.1016/S0966-6362(98)00020-4"
+      },
+      {
+        "key": "9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "9) Elble RJ, Moody C, Leffler K, et al.: The initiation of normal walking. Mov Disord, 1994, 9: 139–146.",
+        "DOI": "10.1002/mds.870090203"
+      },
+      {
+        "key": "10",
+        "unstructured": "10) Katayama Y, Senda M, Hamada M, et al.: Relationship between postural balance and knee and toe muscle power in young women. Acta Med Okayama, 2004, 58: 189–195."
+      },
+      {
+        "key": "11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "11) Freeman MA: Soft tissues: a question of balance. Orthopedics, 1997, 20: 827–831.",
+        "DOI": "10.3928/0147-7447-19970901-24"
+      },
+      {
+        "key": "12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "12) de Morais Barbosa C, Bértolo MB, Gaino JZ, et al.: The effect of flat and textured insoles on the balance of primary care elderly people: a randomized controlled clinical trial. Clin Interv Aging, 2018, 13: 277–284.",
+        "DOI": "10.2147/CIA.S149038"
+      },
+      {
+        "key": "13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "13) Corbin DM, Hart JM, McKeon PO, et al.: The effect of textured insoles on postural control in double and single limb stance. J Sport Rehabil, 2007, 16: 363–372.",
+        "DOI": "10.1123/jsr.16.4.363"
+      },
+      {
+        "key": "14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "14) Khanmohammadi R, Talebian S, Hadian MR, et al.: Characteristic muscle activity patterns during gait initiation in the healthy younger and older adults. Gait Posture, 2016, 43: 148–153.",
+        "DOI": "10.1016/j.gaitpost.2015.09.014"
+      },
+      {
+        "key": "15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "15) Felson DT, Parkes M, Carter S, et al.: The efficacy of a lateral wedge insole for painful medial knee osteoarthritis after prescreening: a randomized clinical trial. Arthritis Rheumatol, 2019, 71: 908–915.",
+        "DOI": "10.1002/art.40808"
+      }
+    ],
+    "container-title": [
+      "Journal of Physical Therapy Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.jstage.jst.go.jp/article/jpts/31/10/31_jpts-2019-103/_pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          2
+        ]
+      ],
+      "date-time": "2022-10-02T04:26:43Z",
+      "timestamp": 1664684803000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.jstage.jst.go.jp/article/jpts/31/10/31_jpts-2019-103/_article"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "references-count": 15,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1589/jpts.31.776",
+    "relation": {},
+    "ISSN": [
+      "0915-5287",
+      "2187-5626"
+    ],
+    "issn-type": [
+      {
+        "value": "0915-5287",
+        "type": "print"
+      },
+      {
+        "value": "2187-5626",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    }
+  }
+}

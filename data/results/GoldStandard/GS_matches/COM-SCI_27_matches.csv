@@ -1,0 +1,30 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+b2,Unstructured Lumigraph Rendering,Unstructured Lumigraph Rendering,70,10.1145/383259.383309,https://w3id.org/oc/meta/br/061203347808,author_title
+b3,Plenoptic Sampling,Plenoptic Sampling,70,10.1145/344779.344932,https://w3id.org/oc/meta/br/061203347769,author_title
+b4,Depth Synthesis and Local Warps for Plausible Image-based Navigation,Depth Synthesis And Local Warps For Plausible Image-Based Navigation,70,10.1145/2487228.2487238,https://w3id.org/oc/meta/br/061601010043,author_title
+b5,Photographic Image Synthesis With Cascaded Refinement Networks,Photographic Image Synthesis With Cascaded Refinement Networks,70,10.1109/iccv.2017.168,https://w3id.org/oc/meta/br/06501923858,author_title
+b7,Unstructured Light Fields,Unstructured Light Fields,70,10.1111/j.1467-8659.2012.03009.x,https://w3id.org/oc/meta/br/062201475529,author_title
+b11,The Lumigraph,The Lumigraph,70,10.1145/237170.237200,https://w3id.org/oc/meta/br/061203347803,author_title
+b12,Casual 3D Photography,Casual 3D Photography,70,10.1145/3130800.3130828,https://w3id.org/oc/meta/br/061501012025,author_title
+b13,Instant 3D Photography,Instant 3D Photography,70,10.1145/3197517.3201384,https://w3id.org/oc/meta/br/061501011810,author_title
+b14,Deep Blending for Free-Viewpoint Image-Based Rendering,Deep Blending For Free-Viewpoint Image-Based Rendering,70,10.1145/3272127.3275084,https://w3id.org/oc/meta/br/061501011688,author_title
+b15,Scalable Inside-Out Image-Based Rendering,Scalable Inside-Out Image-Based Rendering,70,10.1145/2980179.2982420,https://w3id.org/oc/meta/br/061501012289,author_title
+b16,DeepMVS: Learning Multi-View Stereopsis,DeepMVS: Learning Multi-view Stereopsis,70,10.1109/cvpr.2018.00298,https://w3id.org/oc/meta/br/062402303464,author_title
+b18,Screened Poisson Surface Reconstruction,Screened Poisson Surface Reconstruction,70,10.1145/2487228.2487237,https://w3id.org/oc/meta/br/061601010048,author_title
+b20,End-to-End Learning of Geometry and Context for Deep Stereo Regression,End-to-End Learning Of Geometry And Context For Deep Stereo Regression,70,10.1109/iccv.2017.17,https://w3id.org/oc/meta/br/06501924292,author_title
+b22,Image-Based Rendering in the Gradient Domain,Image-based Rendering In The Gradient Domain,70,10.1145/2508363.2508369,https://w3id.org/oc/meta/br/061601009912,author_title
+b23,Fast Volume Rendering Using a Shear-Warp Factorization of the Viewing Transformation,Fast Volume Rendering Using A Shear-Warp Factorization Of The Viewing Transformation,70,10.1145/192161.192283,https://w3id.org/oc/meta/br/061203347515,author_title
+b26,Light Field Rendering,Light Field Rendering,70,10.1145/237170.237199,https://w3id.org/oc/meta/br/061103361246,author_title
+b27,Plenoptic Modeling: An Image-Based Rendering System,Plenoptic Modeling: An Image-Based Rendering System,50,10.1145/3596711.3596758,https://w3id.org/oc/meta/br/06390161825,author_title
+b29,"A System for Acquiring, Processing, and Rendering Panoramic Light Field Stills for Virtual Reality","A System For Acquiring, Processing, And Rendering Panoramic Light Field Stills For Virtual Reality",70,10.1145/3272127.3275031,https://w3id.org/oc/meta/br/061501011769,author_title
+b30,Soft 3D Reconstruction for View Synthesis,Soft 3D Reconstruction For View Synthesis,70,10.1145/3130800.3130855,https://w3id.org/oc/meta/br/061501012035,author_title
+b31,Compositing Digital Images,Compositing Digital Images,70,10.1145/964965.808606,https://w3id.org/oc/meta/br/06602347791,author_title
+b35,Layered depth images,Layered Depth Images,70,10.1145/280814.280882,https://w3id.org/oc/meta/br/061103361512,author_title
+b37,Image-Based Rendering for Scenes with Reflections,Image-based Rendering For Scenes With Reflections,70,10.1145/2185520.2185596,https://w3id.org/oc/meta/br/061601010243,author_title
+b38,Semantic Scene Completion from a Single Depth Image,Semantic Scene Completion From A Single Depth Image,70,10.1109/cvpr.2017.28,https://w3id.org/oc/meta/br/06502746287,author_title
+b39,Learning to Synthesize a 4D RGBD Light Field from a Single Image,Learning To Synthesize A 4D RGBD Light Field From A Single Image,70,10.1109/iccv.2017.246,https://w3id.org/oc/meta/br/06501924189,author_title
+b40,On the Motion and Appearance of Specularities in Image Sequences,On The Motion And Appearance Of Specularities In Image Sequences,70,10.1007/3-540-47969-4_34,https://w3id.org/oc/meta/br/06403528345,author_title
+b43,High Performance Imaging Using Large Camera Arrays,High Performance Imaging Using Large Camera Arrays,70,10.1145/1186822.1073259,https://w3id.org/oc/meta/br/06603766514,author_title
+b44,Surface Light Fields for 3D Photography,Surface Light Fields For 3D Photography,70,10.1145/344779.344925,https://w3id.org/oc/meta/br/061103361834,author_title
+b45,Light Field Reconstruction Using Deep Convolutional Network on EPI,Light Field Reconstruction Using Deep Convolutional Network On EPI,70,10.1109/cvpr.2017.178,https://w3id.org/oc/meta/br/06602743181,author_title
+b48,The Unreasonable Effectiveness of Deep Features as a Perceptual Metric,The Unreasonable Effectiveness Of Deep Features As A Perceptual Metric,70,10.1109/cvpr.2018.00068,https://w3id.org/oc/meta/br/062202301782,author_title

@@ -1,0 +1,302 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          29
+        ]
+      ],
+      "date-time": "2022-03-29T03:28:23Z",
+      "timestamp": 1648524503897
+    },
+    "reference-count": 19,
+    "publisher": "Society of Physical Therapy Science",
+    "issue": "10",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J Phys Ther Sci"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "DOI": "10.1589/jpts.31.771",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          18
+        ]
+      ],
+      "date-time": "2019-10-18T22:04:11Z",
+      "timestamp": 1571436251000
+    },
+    "page": "771-775",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Clinical measurements of spinal mobility, static balance, and functional performance in healthy participants: a simple biokinesiological analysis of performance"
+    ],
+    "prefix": "10.1589",
+    "volume": "31",
+    "author": [
+      {
+        "given": "Tarek Mohamed",
+        "family": "El-gohary",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Physical Therapy Department, College of Medical Rehabilitation Sciences, Taibah University: PO Box 344, Almadina Almunawara 41411, Saudi Arabia"
+          },
+          {
+            "name": "Department of Biomechanics, Faculty of Physical Therapy, Cairo University, Egypt"
+          }
+        ]
+      },
+      {
+        "given": "Abdullah M.",
+        "family": "Al-shenqiti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Physical Therapy Department, College of Medical Rehabilitation Sciences, Taibah University: PO Box 344, Almadina Almunawara 41411, Saudi Arabia"
+          }
+        ]
+      },
+      {
+        "given": "Sameh R.",
+        "family": "Ibrahim",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Physical Therapy Department, College of Medical Rehabilitation Sciences, Taibah University: PO Box 344, Almadina Almunawara 41411, Saudi Arabia"
+          },
+          {
+            "name": "Basic Science Department, Faculty of Physical Therapy, Cairo University, Egypt"
+          }
+        ]
+      },
+      {
+        "given": "Osama Ahmed",
+        "family": "Khaled",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Physical Therapy Department, College of Medical Rehabilitation Sciences, Taibah University: PO Box 344, Almadina Almunawara 41411, Saudi Arabia"
+          },
+          {
+            "name": "Basic Science Department, Faculty of Physical Therapy, Cairo University, Egypt"
+          }
+        ]
+      },
+      {
+        "given": "Samiha M. Abd",
+        "family": "Elkader",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Applied Medical Sciences, King Saud University, Saudi Arabia"
+          }
+        ]
+      }
+    ],
+    "member": "533",
+    "reference": [
+      {
+        "key": "1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "1) El-gohary TM, Al-Shenqiti AM, Ibrahim MI, et al.: Exploring physical performance using basic fitness test among adolescent athletes. IJHRS, 2019, 8: 1–12.",
+        "DOI": "10.5455/ijhrs.0000000163"
+      },
+      {
+        "key": "2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "2) El-Gohary TM, Emara HA, Awadallah MF: Total assessment-reassessment &amp; evaluation using bioKinesiologic (TAREK) approach: case presentation for theoretical formulation. J Phys Ther Sci, 2018, 30: 439–442.",
+        "DOI": "10.1589/jpts.30.439"
+      },
+      {
+        "key": "3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "3) El-gohary TM: Post traumatic cervical anterolithesis: comprehensive evaluation and expert opinion. JTUMS, 2018, 13: 479–482.",
+        "DOI": "10.1016/j.jtumed.2018.03.009"
+      },
+      {
+        "key": "4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "4) El-Gohary TM, Khaled OA, Ibrahim SR, et al.: Effect of proprioception cross training on repositioning accuracy and balance among healthy individuals. J Phys Ther Sci, 2016, 28: 3178–3182.",
+        "DOI": "10.1589/jpts.28.3178"
+      },
+      {
+        "key": "5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "5) Teyhen DS, Shaffer SW, Lorenson CL, et al.: The functional movement screen: a reliability study. J Orthop Sports Phys Ther, 2012, 42: 530–540.",
+        "DOI": "10.2519/jospt.2012.3838"
+      },
+      {
+        "key": "6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "6) El-gohary TM, Al-shenqiti AM, Ibrahim SR: The effect of hands position on balance timing during single-leg-standing test among healthy collegiate physical therapy students. IJHRS, 2016, 5: 100–107.",
+        "DOI": "10.5455/ijhrs.0000000108"
+      },
+      {
+        "key": "7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "7) El-gohary TM, Nassar HA, AL-shenqiti AM, et al.: Static balance ability as an indication of static stability among healthy physical therapy students at Taibah University. IJHRS, 2016, 5: 27–37.",
+        "DOI": "10.5455/ijhrs.0000000100"
+      },
+      {
+        "key": "8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "8) Jonsson E, Seiger A, Hirschfeld H: One-leg stance in healthy young and elderly adults: a measure of postural steadiness? Clin Biomech (Bristol, Avon), 2004, 19: 688–694.",
+        "DOI": "10.1016/j.clinbiomech.2004.04.002"
+      },
+      {
+        "key": "9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "9) Miklitsch C, Krewer C, Freivogel S, et al.: Effects of a predefined mini-trampoline training programme on balance, mobility and activities of daily living after stroke: a randomized controlled pilot study. Clin Rehabil, 2013, 27: 939–947.",
+        "DOI": "10.1177/0269215513485591"
+      },
+      {
+        "key": "10",
+        "unstructured": "10) Gonzalo-Skok O, Serna J, Rhea MR, et al.: Relationships between functional movement tests and performance tests in young elite male basketball players. Int J Sports Phys Ther, 2015, 10: 628–638."
+      },
+      {
+        "key": "11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "11) Haskell WL, Lee IM, Pate RR, et al.: Physical activity and public health: updated recommendation for adults from the American College of Sports Medicine and the American Heart Association. Med Sci Sports Exerc, 2007, 39: 1423–1434.",
+        "DOI": "10.1249/mss.0b013e3180616b27"
+      },
+      {
+        "key": "12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "12) Leyk D, Witzki A, Willi G, et al.: Even one is too much: Sole presence of one of the risk factors overweight, lack of exercise, and smoking reduces physical fitness of young soldiers. J Strength Cond Res, 2015, 29: S199–S203.",
+        "DOI": "10.1519/JSC.0000000000001067"
+      },
+      {
+        "key": "13",
+        "unstructured": "13) Zamunér AR, Moreno MA, Camargo TM, et al.: Assessment of subjective perceived exertion at the anaerobic threshold with the Borg CR-10 scale. J Sports Sci Med, 2011, 10: 130–136."
+      },
+      {
+        "key": "14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "14) El-gohary TM, Hellman MA, Ibrahim MI, et al.: Partial versus full range of back extension endurance testing using the Swiss ball in discogenic low back pain patients: a comparative study. Eur J Physiother, 2014, 16: 113–120.",
+        "DOI": "10.3109/21679169.2014.895041"
+      },
+      {
+        "key": "15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "15) El-Gohary TM, Abd Elkader SM, Emara HA, et al.: Right versus left side bridge static endurance ability among healthy collegiate students at Taibah University. J Back Musculoskeletal Rehabil, 2018, 31: 231–237.",
+        "DOI": "10.3233/BMR-169538"
+      },
+      {
+        "key": "16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "16) El-gohary TM: Romberg test is a good indicator to reflect the performance of functional outcome measures among elderly: a Saudi experience along with simple biomechanical analysis. IJHRS, 2017, 6: 192–199.",
+        "DOI": "10.5455/ijhrs.0000000137"
+      },
+      {
+        "key": "17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "17) Tanabe H, Fujii K, Kouzaki M: Large postural fluctuations but unchanged postural sway dynamics during tiptoe standing compared to quiet standing. J Electromyogr Kinesiol, 2012, 22: 975–982.",
+        "DOI": "10.1016/j.jelekin.2012.05.006"
+      },
+      {
+        "key": "18",
+        "unstructured": "18) Portney LG, Watkins MP: Foundations of clinical research. Application to practice, 3rd ed. Upper Saddle River: Prentice Hall, 2009."
+      },
+      {
+        "key": "19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "19) El-gohary TM, Abdelkader SM: Deconditioning and functional- physical decline: clinical reasoning and clinical judgment using TAREK approach. IJHRS, 2018, 7: 63–68.",
+        "DOI": "10.5455/ijhrs.0000000144"
+      }
+    ],
+    "container-title": [
+      "Journal of Physical Therapy Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.jstage.jst.go.jp/article/jpts/31/10/31_jpts-2019-078/_pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          19
+        ]
+      ],
+      "date-time": "2019-10-19T03:22:26Z",
+      "timestamp": 1571455346000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.jstage.jst.go.jp/article/jpts/31/10/31_jpts-2019-078/_article"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "references-count": 19,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1589/jpts.31.771",
+    "relation": {},
+    "ISSN": [
+      "0915-5287",
+      "2187-5626"
+    ],
+    "issn-type": [
+      {
+        "value": "0915-5287",
+        "type": "print"
+      },
+      {
+        "value": "2187-5626",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    }
+  }
+}

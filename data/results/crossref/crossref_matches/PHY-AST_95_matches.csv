@@ -1,0 +1,4 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_9,Optica,Low-noise Transfer Of The Spectral Purity Of An Optical Comb Line Using A Feedforward Scheme,50,10.1186/s41476-020-0125-0,https://w3id.org/oc/meta/br/06302353777,author_title
+ref_25,Optica,Optical Penalization With Contact Lenses For Children With Unilateral Aphakia,50,10.1097/icl.0b013e3182a27798,https://w3id.org/oc/meta/br/06201162783,author_title
+ref_29,IEEE J. Sel. Top. Quantum Electron.,思春期に中途視覚障害となったA氏のエンパワメントの軌跡,70,10.20681/hwelfare.18.2_29,https://w3id.org/oc/meta/br/06370214066,year_volume_page

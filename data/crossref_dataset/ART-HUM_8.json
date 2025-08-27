@@ -1,0 +1,703 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          5
+        ]
+      ],
+      "date-time": "2024-05-05T00:12:15Z",
+      "timestamp": 1714867935750
+    },
+    "reference-count": 71,
+    "publisher": "Informa UK Limited",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              1,
+              2
+            ]
+          ],
+          "date-time": "2019-01-02T00:00:00Z",
+          "timestamp": 1546387200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Stiftelsen Berit Wallenberg",
+        "award": [
+          "BWS 2015.0073"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.tandfonline.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Norwegian Archaeological Review"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          1,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1080/00293652.2019.1621366",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          6
+        ]
+      ],
+      "date-time": "2019-07-06T14:40:41Z",
+      "timestamp": 1562424041000
+    },
+    "page": "20-40",
+    "update-policy": "http://dx.doi.org/10.1080/tandf_crossmark_01",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Food and Cultural Traits in Coastal Northern Finnmark in the 14th–19th Centuries"
+    ],
+    "prefix": "10.1080",
+    "volume": "52",
+    "author": [
+      {
+        "given": "Markus",
+        "family": "Fjellström",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Archaeological Research Laboratory, Stockholm University, Stockholm, Sweden."
+          }
+        ]
+      },
+      {
+        "given": "Gunilla",
+        "family": "Eriksson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Archaeological Research Laboratory, Stockholm University, Stockholm, Sweden."
+          }
+        ]
+      },
+      {
+        "given": "Kerstin",
+        "family": "Lidén",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Archaeological Research Laboratory, Stockholm University, Stockholm, Sweden."
+          }
+        ]
+      },
+      {
+        "given": "Asgeir",
+        "family": "Svestad",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "UiT, The Arctic University of Norway, Tromsø, Norway."
+          }
+        ]
+      }
+    ],
+    "member": "301",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          6
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_3_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0305-4403(90)90007-R"
+      },
+      {
+        "key": "e_1_3_3_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-662-02894-0_1"
+      },
+      {
+        "key": "e_1_3_3_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12520-017-0518-1"
+      },
+      {
+        "key": "e_1_3_3_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jas.2011.02.017"
+      },
+      {
+        "key": "e_1_3_3_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0048-9697(01)00842-7"
+      },
+      {
+        "key": "e_1_3_3_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/08003831.2016.1154676"
+      },
+      {
+        "key": "e_1_3_3_8_1",
+        "first-page": "45",
+        "article-title": "Travelling in boreal forests: routes of communication in pre-industrial Northern Sweden",
+        "volume": "31",
+        "author": "Bergman I.",
+        "year": "2014",
+        "unstructured": "Bergman, I., Zackrisson, O., and Östlund, L., 2014. Travelling in boreal forests: routes of communication in pre-industrial Northern Sweden. Fennoscandia Archaeologica, 31, 45–60.",
+        "journal-title": "Fennoscandia Archaeologica"
+      },
+      {
+        "key": "e_1_3_3_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/08003831.2013.847676"
+      },
+      {
+        "key": "e_1_3_3_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(ISSN)1099-1212"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_3_3_11_1",
+        "first-page": "1809",
+        "article-title": "Methods for Summarizing Radiocarbon Datasets",
+        "volume": "59",
+        "author": "Bronk Ramsey, C.",
+        "year": "2017",
+        "unstructured": "Bronk Ramsey, C., 2017. Methods for Summarizing Radiocarbon Datasets. Radiocarbon, 59 (2), 1809–1833.",
+        "journal-title": "Radiocarbon"
+      },
+      {
+        "key": "e_1_3_3_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0033822200044118"
+      },
+      {
+        "key": "e_1_3_3_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/317806a0"
+      },
+      {
+        "key": "e_1_3_3_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0016-7037(78)90199-0"
+      },
+      {
+        "key": "e_1_3_3_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/RDC.2018.78"
+      },
+      {
+        "key": "e_1_3_3_18_1",
+        "volume-title": "Principles of isotope geology",
+        "author": "Faure G.",
+        "year": "2005",
+        "unstructured": "Faure, G., and Mensing, T.M., 2005. Principles of isotope geology. 3rd ed, 824–853. New York: John Wiley & Sons.",
+        "edition": "3"
+      },
+      {
+        "key": "e_1_3_3_20_1",
+        "volume-title": "Samernas samhälle i tradition och nutid",
+        "author": "Fjellström P.",
+        "year": "1986",
+        "unstructured": "Fjellström, P., 1986. Samernas samhälle i tradition och nutid. Stockholm: Norstedt."
+      },
+      {
+        "key": "e_1_3_3_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pbio.2003703"
+      },
+      {
+        "key": "e_1_3_3_22_1",
+        "first-page": "162",
+        "article-title": "Gravplatser och offerplatser i ryska lappmarken",
+        "volume": "5",
+        "author": "Hallström G.",
+        "year": "1922",
+        "unstructured": "Hallström, G., 1922. Gravplatser och offerplatser i ryska lappmarken. RIG, Föreningen För Svensk Kulturhistoria, 5, 162–192.",
+        "journal-title": "RIG, Föreningen För Svensk Kulturhistoria"
+      },
+      {
+        "key": "e_1_3_3_23_1",
+        "volume-title": "Samenes historie intill 1750",
+        "author": "Hansen L.I.",
+        "year": "2004",
+        "unstructured": "Hansen, L.I., and Olsen, B., 2004. Samenes historie intill 1750. Oslo: Cappelen."
+      },
+      {
+        "key": "e_1_3_3_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1163/9789004252554"
+      },
+      {
+        "key": "e_1_3_3_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(ISSN)1096-8644"
+      },
+      {
+        "key": "e_1_3_3_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9781139170697"
+      },
+      {
+        "key": "e_1_3_3_28_1",
+        "volume-title": "Dendrologisk datering av likkister fra Gullholmen kirkegård i Tana commune",
+        "author": "Kirchhefer A.J.",
+        "year": "2014",
+        "unstructured": "Kirchhefer, A.J., 2014. Dendrologisk datering av likkister fra Gullholmen kirkegård i Tana commune. Vol. 33. Unpublished report. Finnmark, Tromsø: Dendroøkologen."
+      },
+      {
+        "key": "e_1_3_3_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-444-41780-0.50017-1"
+      },
+      {
+        "key": "e_1_3_3_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/RDC.2017.52"
+      },
+      {
+        "key": "e_1_3_3_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511802676"
+      },
+      {
+        "key": "e_1_3_3_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7557/2.36.1.3767"
+      },
+      {
+        "key": "e_1_3_3_33_1",
+        "first-page": "42",
+        "article-title": "Det europeiske felleskapet før EU: fra Roma til Nord-Norge i mellomalderen",
+        "volume": "229",
+        "author": "Lind K.",
+        "year": "2000",
+        "unstructured": "Lind, K., 2000. Det europeiske felleskapet før EU: fra Roma til Nord-Norge i mellomalderen. Ottar, 229, 42–47.",
+        "journal-title": "Ottar"
+      },
+      {
+        "key": "e_1_3_3_34_1",
+        "first-page": "42",
+        "volume-title": "Karlsøy og verden utenfor: kulturhistoriske perspektiver på nordnorske steder. Festskrift til professor Håvard Dahl Bratrein på 70-årsdagen 13. 02.2003. Tromsø Museums Skrifter",
+        "author": "Lind K.",
+        "year": "2003",
+        "unstructured": "Lind, K. 2003. Yttervær på Loppa øy. In: M.A. Hauan, et al., eds. Karlsøy og verden utenfor: kulturhistoriske perspektiver på nordnorske steder. Festskrift til professor Håvard Dahl Bratrein på 70-årsdagen 13. 02.2003. Tromsø Museums Skrifter. Tromsø: Tromsø museum, Universitetsmusset, Vol. 30, 42–52."
+      },
+      {
+        "key": "e_1_3_3_35_1",
+        "first-page": "176",
+        "article-title": "An early Christian cemetery at Björned in northern Sweden: stable isotope analyses of skeletal material",
+        "volume": "103",
+        "author": "Linderholm A.",
+        "year": "2008",
+        "unstructured": "Linderholm, A., et al. 2008. An early Christian cemetery at Björned in northern Sweden: stable isotope analyses of skeletal material. Fornvännen, 103, 176–189.",
+        "journal-title": "Fornvännen"
+      },
+      {
+        "key": "e_1_3_3_36_1",
+        "volume-title": "Rapport over skeletfund ved Kirkegårdsøya, Hammerfest kommune, Finnmark fylke, Norge – sommaren 2005",
+        "author": "Lynnerup N.",
+        "year": "2006",
+        "unstructured": "Lynnerup, N., 2006. Rapport over skeletfund ved Kirkegårdsøya, Hammerfest kommune, Finnmark fylke, Norge – sommaren 2005. Laboratory of Forensic Anthropology, University of Copenhagen. Unpublished report."
+      },
+      {
+        "key": "e_1_3_3_37_1",
+        "volume-title": "Rapport over skeletfund ved Gullholmen, Tana kommune, Finnmark fylke, Norge – sommaren 2006",
+        "author": "Lynnerup N.",
+        "year": "2007",
+        "unstructured": "Lynnerup, N., 2007a. Rapport over skeletfund ved Gullholmen, Tana kommune, Finnmark fylke, Norge – sommaren 2006. Laboratory of Forensic Anthropology, University of Copenhagen. Unpublished report."
+      },
+      {
+        "key": "e_1_3_3_38_1",
+        "volume-title": "Rapport over skeletfund ved Gullholmen, tana kommune, finnmark fylke, norge – sommeren 2007",
+        "author": "Lynnerup N",
+        "year": "2007",
+        "unstructured": "Lynnerup, N, 2007b. Rapport over skeletfund ved Gullholmen, tana kommune, finnmark fylke, norge – sommeren 2007. Laboratory of Forensic Anthropology, University of Copenhagen. Unpublished report."
+      },
+      {
+        "key": "e_1_3_3_39_1",
+        "volume-title": "Echinicoccosis in an 18th century grave in Northern Norway",
+        "author": "Lynnerup N.",
+        "year": "2008",
+        "unstructured": "Lynnerup, N., Riddersholm, S., and Faurskov Nielsen, O., 2008. Echinicoccosis in an 18th century grave in Northern Norway. Laboratory of Biological Anthropology and Institute of Biochemistry, University of Copenhagen. Unpublished poster."
+      },
+      {
+        "key": "e_1_3_3_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1502-3885.1972.tb00147.x"
+      },
+      {
+        "key": "e_1_3_3_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.quascirev.2006.03.010"
+      },
+      {
+        "key": "e_1_3_3_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0033-5894(75)90028-9"
+      },
+      {
+        "key": "e_1_3_3_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0016-7037(84)90204-7"
+      },
+      {
+        "key": "e_1_3_3_45_1",
+        "first-page": "106",
+        "volume-title": "Utgravningene på boplassen på Gållevarri. In: Ø. Vorren, 1998. Villreinfangst i Varanger fram til 1600-1700 årene",
+        "author": "Munch J.S.",
+        "year": "1998",
+        "unstructured": "Munch, J.S., and Munch, G.S., 1998. Utgravningene på boplassen på Gållevarri. In: Ø. Vorren, 1998. Villreinfangst i Varanger fram til 1600-1700 årene. Vol. 28. Stonglandseidet: Nordkalott-forlaget. Tromsø Museums skrifter, 106–133."
+      },
+      {
+        "key": "e_1_3_3_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jas.2013.08.022"
+      },
+      {
+        "key": "e_1_3_3_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rcm.6682"
+      },
+      {
+        "key": "e_1_3_3_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12520-009-0003-6"
+      },
+      {
+        "key": "e_1_3_3_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/jasc.2001.0698"
+      },
+      {
+        "key": "e_1_3_3_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/jasc.1998.0383"
+      },
+      {
+        "key": "e_1_3_3_51_1",
+        "first-page": "42",
+        "article-title": "Glimt fra Guollesuolu/Gullholmen",
+        "author": "Pedersen S.",
+        "year": "1984",
+        "unstructured": "Pedersen, S., 1984. Glimt fra Guollesuolu/Gullholmen. Deatnu – Teno – Tana, 42–53.",
+        "journal-title": "Deatnu – Teno – Tana"
+      },
+      {
+        "key": "e_1_3_3_52_1",
+        "first-page": "111",
+        "volume-title": "Biologisk antropologi med human osteology",
+        "author": "Petersen H.C.",
+        "year": "2008",
+        "unstructured": "Petersen, H.C., and Alexandersen, V., 2008. Non-metriske træk. In: N. Lynnerup, P. Bennike, and E. Iregren, eds.. Biologisk antropologi med human osteology. København: Gyldendal, 111–119."
+      },
+      {
+        "key": "e_1_3_3_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2458/azu_js_rc.55.16947"
+      },
+      {
+        "key": "e_1_3_3_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/oa.654"
+      },
+      {
+        "key": "e_1_3_3_55_1",
+        "volume-title": "Samerna i historien och nutiden",
+        "author": "Ruong I.",
+        "year": "1982",
+        "unstructured": "Ruong, I., 1982. Samerna i historien och nutiden. 4th ed. Stockholm: BonnierFakta.",
+        "edition": "4"
+      },
+      {
+        "key": "e_1_3_3_56_1",
+        "volume-title": "Urfödan. Om självhushållets mat hos folk i Lappland",
+        "author": "Ryd L.",
+        "year": "2015",
+        "unstructured": "Ryd, L., 2015. Urfödan. Om självhushållets mat hos folk i Lappland. Skellefteå: Ord&visor."
+      },
+      {
+        "key": "e_1_3_3_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jaa.2015.05.003"
+      },
+      {
+        "key": "e_1_3_3_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15184/aqy.2018.20"
+      },
+      {
+        "key": "e_1_3_3_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0016-7037(84)90091-7"
+      },
+      {
+        "key": "e_1_3_3_60_1",
+        "first-page": "269",
+        "volume-title": "Handbook of archaeological sciences",
+        "author": "Sealy J.",
+        "year": "2001",
+        "unstructured": "Sealy, J., 2001. Body tissue chemistry and paleodiet. In: D.R. Brothwell and A.M. Pollard, eds. Handbook of archaeological sciences. New York: John Wiley & sons, 269–279."
+      },
+      {
+        "key": "e_1_3_3_61_1",
+        "volume-title": "Hammerfest 1789-1914",
+        "author": "Sivertsen J.",
+        "year": "1973",
+        "unstructured": "Sivertsen, J., 1973. Hammerfest 1789-1914. Hammerfest: Hammerfest kommune."
+      },
+      {
+        "key": "e_1_3_3_62_1",
+        "volume-title": "Spedbarnsskjeletter fra Gullholmen kirkegård, Tana kommune",
+        "author": "Sjøvold T.",
+        "year": "2009",
+        "unstructured": "Sjøvold, T., 2009. Spedbarnsskjeletter fra Gullholmen kirkegård, Tana kommune. Stockholm University. Unpublished report."
+      },
+      {
+        "key": "e_1_3_3_64_1",
+        "volume-title": "Burial customs of the Skolt Lapps",
+        "author": "Storå N.",
+        "year": "1971",
+        "unstructured": "Storå, N., 1971. Burial customs of the Skolt Lapps. Helsinki: Suomalainen tiedeakatemia."
+      },
+      {
+        "key": "e_1_3_3_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0033822200013874"
+      },
+      {
+        "key": "e_1_3_3_66_1",
+        "volume-title": "Undersøkelse av graver på Kirkegårdsøya Hammersfest kommune, Finnmark fylke",
+        "author": "Svestad A.",
+        "year": "2006",
+        "unstructured": "Svestad, A., 2006. Undersøkelse av graver på Kirkegårdsøya Hammersfest kommune, Finnmark fylke. Institutt for arkeologi, Universitetet i Tromsø. Unpublished report."
+      },
+      {
+        "key": "e_1_3_3_67_1",
+        "volume-title": "Undersøkelse av graver på Kirkegårdsøya Hammersfest kommune, Finnmark fylke",
+        "author": "Svestad A.",
+        "year": "2007",
+        "unstructured": "Svestad, A., 2007a. Undersøkelse av graver på Kirkegårdsøya Hammersfest kommune, Finnmark fylke. Institutt for arkeologi, Universitetet i Tromsø. Unpublished report."
+      },
+      {
+        "key": "e_1_3_3_68_1",
+        "volume-title": "Arkeologisk utgraving på Gullholmen kirkegård, Deannu gielda/Tana kommune, Finnmark fylke",
+        "author": "Svestad A.",
+        "year": "2007",
+        "unstructured": "Svestad, A., 2007b. Arkeologisk utgraving på Gullholmen kirkegård, Deannu gielda/Tana kommune, Finnmark fylke. Institutt for arkeologi, Universitetet i Tromsø. Unpublished report."
+      },
+      {
+        "key": "e_1_3_3_69_1",
+        "first-page": "77",
+        "article-title": "De døde skjuler mange ting – arkeologiske undersøkelser på Gullholmen kirkegård",
+        "author": "Svestad A.",
+        "year": "2010",
+        "unstructured": "Svestad, A., 2010. De døde skjuler mange ting – arkeologiske undersøkelser på Gullholmen kirkegård. Tana-årboka/Deatnu Jahkegirji, 77–91.",
+        "journal-title": "Tana-årboka/Deatnu Jahkegirji"
+      },
+      {
+        "key": "e_1_3_3_70_1",
+        "first-page": "39",
+        "article-title": "The Impact of materiality on sámi burial customs and religious concepts",
+        "volume": "28",
+        "author": "Svestad A.",
+        "year": "2011",
+        "unstructured": "Svestad, A., 2011. The Impact of materiality on sámi burial customs and religious concepts. Fennoscandia Archaeologica, 28, 39–56.",
+        "journal-title": "Fennoscandia Archaeologica"
+      },
+      {
+        "key": "e_1_3_3_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00293652.2013.839575"
+      },
+      {
+        "key": "e_1_3_3_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/jasc.1998.0385"
+      },
+      {
+        "key": "e_1_3_3_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rcm.6447"
+      },
+      {
+        "key": "e_1_3_3_75_1",
+        "first-page": "304",
+        "volume-title": "Lapponica. Essays presented to Isreal Ruong 26. 5.1963",
+        "author": "Vorren Ø.",
+        "year": "1964",
+        "unstructured": "Vorren, Ø. 1964. Reindeer nomadism in the Island region of Helgeland. An analysis of the ecology of the reindeer industry with special reference to the Island area as winter pasture. In: A. Furumark, et al., eds. Lapponica. Essays presented to Isreal Ruong 26. 5.1963. Uppsala: Studia Ethnogrpahica Upsaliensia, Vol. 21, 304–320."
+      },
+      {
+        "key": "e_1_3_3_76_1",
+        "volume-title": "Villreinfangst i Varanger fram til 1600-1700 årene. Tromsø Museums skrifter",
+        "author": "Vorren Ø.",
+        "year": "1998",
+        "unstructured": "Vorren, Ø., 1998. Villreinfangst i Varanger fram til 1600-1700 årene. Tromsø Museums skrifter, Vol. XXVIII. Stonglandseidet: Nordkalott-Forlaget."
+      },
+      {
+        "key": "e_1_3_3_77_1",
+        "volume-title": "Samekulturen: en kulturhistorisk oversikt",
+        "author": "Vorren Ø.",
+        "year": "1976",
+        "unstructured": "Vorren, Ø., and Manker, E., 1976. Samekulturen: en kulturhistorisk oversikt. 2nd. Tromsø: Universitetsforlaget.",
+        "edition": "2"
+      },
+      {
+        "key": "e_1_3_3_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1468-3083.2009.03426.x"
+      },
+      {
+        "key": "e_1_3_3_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-94-011-7846-4"
+      }
+    ],
+    "container-title": [
+      "Norwegian Archaeological Review"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://tandfonline.com/doi/pdf/10.1080/00293652.2019.1621366",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.tandfonline.com/doi/pdf/10.1080/00293652.2019.1621366",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          4
+        ]
+      ],
+      "date-time": "2024-05-04T00:47:54Z",
+      "timestamp": 1714783674000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.tandfonline.com/doi/full/10.1080/00293652.2019.1621366"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          1,
+          2
+        ]
+      ]
+    },
+    "references-count": 71,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1080/00293652.2019.1621366"
+    ],
+    "URL": "https://doi.org/10.1080/00293652.2019.1621366",
+    "relation": {},
+    "ISSN": [
+      "0029-3652",
+      "1502-7678"
+    ],
+    "issn-type": [
+      {
+        "value": "0029-3652",
+        "type": "print"
+      },
+      {
+        "value": "1502-7678",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          1,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+        "order": 1,
+        "name": "peerreview_statement",
+        "label": "Peer Review Statement"
+      },
+      {
+        "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=sarc20",
+        "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=sarc20",
+        "order": 2,
+        "name": "aims_and_scope_url",
+        "label": "Aim & Scope"
+      },
+      {
+        "value": "2019-07-06",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

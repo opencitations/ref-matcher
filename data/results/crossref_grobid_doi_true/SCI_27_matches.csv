@@ -1,0 +1,12 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_6,,Photographic Image Synthesis With Cascaded Refinement Networks,70,10.1109/iccv.2017.168,https://w3id.org/oc/meta/br/06501923858,year_and_doi
+ref_11,,Deep Stereo: Learning To Predict New Views From The World's Imagery,65,10.1109/cvpr.2016.595,https://w3id.org/oc/meta/br/061202473700,year_and_doi
+ref_17,,DeepMVS: Learning Multi-view Stereopsis,70,10.1109/cvpr.2018.00298,https://w3id.org/oc/meta/br/062402303464,year_and_doi
+ref_21,,End-to-End Learning Of Geometry And Context For Deep Stereo Regression,70,10.1109/iccv.2017.17,https://w3id.org/oc/meta/br/06501924292,year_and_doi
+ref_34,,Structure-from-Motion Revisited,70,10.1109/cvpr.2016.445,https://w3id.org/oc/meta/br/06902500202,year_and_doi
+ref_35,,Pixelwise View Selection For Unstructured Multi-View Stereo,70,10.1007/978-3-319-46487-9_31,https://w3id.org/oc/meta/br/061202407292,year_and_doi
+ref_39,,Semantic Scene Completion From A Single Depth Image,70,10.1109/cvpr.2017.28,https://w3id.org/oc/meta/br/06502746287,year_and_doi
+ref_40,,Learning To Synthesize A 4D RGBD Light Field From A Single Image,70,10.1109/iccv.2017.246,https://w3id.org/oc/meta/br/06501924189,year_and_doi
+ref_46,,Light Field Reconstruction Using Deep Convolutional Network On EPI,70,10.1109/cvpr.2017.178,https://w3id.org/oc/meta/br/06602743181,author_title
+ref_49,,The Unreasonable Effectiveness Of Deep Features As A Perceptual Metric,70,10.1109/cvpr.2018.00068,https://w3id.org/oc/meta/br/062202301782,year_and_doi
+ref_50,,Light Field From Micro-Baseline Image Pair,70,10.1109/cvpr.2015.7299004,https://w3id.org/oc/meta/br/061502521727,year_and_doi

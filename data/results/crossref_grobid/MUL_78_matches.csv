@@ -1,0 +1,5 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_1,Agriculture Ecosystems & Environment,Carbon Exchange And Species Composition Of Grazed Pastures And Exclosures In The Shortgrass Steppe Of Colorado,70,10.1016/s0167-8809(01)00290-0,https://w3id.org/oc/meta/br/06250147636,year_and_doi
+ref_2,Ecol Indic,Dynamics Of Grassland Carbon Sequestration And Its Coupling Relation With Hydrothermal Factor Of Inner Mongolia,70,10.1016/j.ecolind.2018.07.008,https://w3id.org/oc/meta/br/06501046114,year_and_doi
+ref_4,Geophys.res.lett,Response Of Terrestrial Ecosystems To Recent Northern Hemispheric Drought,70,10.1029/2004gl022043,https://w3id.org/oc/meta/br/061702818606,year_and_doi
+ref_5,Sci Rep-Uk,Grassland Dynamics In Response To Climate Change And Human Activities In Xinjiang From 2000 To 2014,70,10.1038/s41598-018-21089-3,https://w3id.org/oc/meta/br/06902638498,year_and_doi

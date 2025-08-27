@@ -1,0 +1,617 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          15
+        ]
+      ],
+      "date-time": "2024-09-15T19:58:48Z",
+      "timestamp": 1726430328998
+    },
+    "reference-count": 30,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              6
+            ]
+          ],
+          "date-time": "2019-09-06T00:00:00Z",
+          "timestamp": 1567728000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "21527806",
+          "21627809",
+          "21727815",
+          "21805052"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100007162",
+        "name": "Guangdong Science and Technology Department",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2019B010933001"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100007162",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Electrochemistry Communications"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.elecom.2019.106553",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          7
+        ]
+      ],
+      "date-time": "2019-09-07T15:01:32Z",
+      "timestamp": 1567868492000
+    },
+    "page": "106553",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 97,
+    "special_numbering": "C",
+    "title": [
+      "A multichannel electrochemical all-solid-state wearable potentiometric sensor for real-time sweat ion monitoring"
+    ],
+    "prefix": "10.1016",
+    "volume": "107",
+    "author": [
+      {
+        "given": "Qingbo",
+        "family": "An",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Shiyu",
+        "family": "Gan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jianan",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yu",
+        "family": "Bao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tongshun",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Huijun",
+        "family": "Kong",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lijie",
+        "family": "Zhong",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yingming",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zhongqian",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Li",
+        "family": "Niu",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "2721",
+        "DOI": "10.1161/01.CIR.0000145144.56673.59",
+        "volume": "110",
+        "author": "Drew",
+        "year": "2004",
+        "journal-title": "Circulation"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "1015",
+        "DOI": "10.1007/s00467-013-2712-4",
+        "volume": "29",
+        "author": "Scurati-Manzoni",
+        "year": "2014",
+        "journal-title": "Pediatr. Nephrol."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "217",
+        "DOI": "10.1039/C7LC00914C",
+        "volume": "18",
+        "author": "Heikenfeld",
+        "year": "2018",
+        "journal-title": "Lab Chip"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "5732",
+        "DOI": "10.1002/adma.201504829",
+        "volume": "28",
+        "author": "McLister",
+        "year": "2016",
+        "journal-title": "Adv. Mater."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "464",
+        "DOI": "10.1021/acssensors.6b00250",
+        "volume": "1",
+        "author": "Bandodkar",
+        "year": "2016",
+        "journal-title": "ACS Sensors"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "1705024",
+        "DOI": "10.1002/adma.201705024",
+        "volume": "30",
+        "author": "Wu",
+        "year": "2018",
+        "journal-title": "Adv. Mater."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "2496",
+        "DOI": "10.1021/ac00045a007",
+        "volume": "64",
+        "author": "Cadogan",
+        "year": "1992",
+        "journal-title": "Anal. Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "4932",
+        "DOI": "10.1021/ac990497z",
+        "volume": "71",
+        "author": "Bobacka",
+        "year": "1999",
+        "journal-title": "Anal. Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "98",
+        "DOI": "10.1016/j.coelec.2018.04.004",
+        "volume": "10",
+        "author": "Cuartero",
+        "year": "2018",
+        "journal-title": "Curr. Opin. Electrochem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "179",
+        "DOI": "10.1021/a1980010w",
+        "volume": "70",
+        "author": "Janata",
+        "year": "1998",
+        "journal-title": "Anal. Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "13349",
+        "DOI": "10.3390/s121013349",
+        "volume": "12",
+        "author": "Bamsey",
+        "year": "2012",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "7111",
+        "DOI": "10.1021/ac501633r",
+        "volume": "86",
+        "author": "Hu",
+        "year": "2014",
+        "journal-title": "Anal. Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1016/j.elecom.2014.10.014",
+        "volume": "50",
+        "author": "Ye",
+        "year": "2015",
+        "journal-title": "Electrochem. Commun."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "1316",
+        "DOI": "10.1021/ac071156l",
+        "volume": "80",
+        "author": "Crespo",
+        "year": "2008",
+        "journal-title": "Anal. Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0075",
+        "doi-asserted-by": "crossref",
+        "first-page": "676",
+        "DOI": "10.1021/ac802078z",
+        "volume": "81",
+        "author": "Crespo",
+        "year": "2009",
+        "journal-title": "Anal. Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "939",
+        "DOI": "10.1016/j.trac.2010.06.006",
+        "volume": "29",
+        "author": "Yáñez-Sedeño",
+        "year": "2010",
+        "journal-title": "TrAC Trends Anal. Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "31",
+        "DOI": "10.1016/j.elecom.2016.03.010",
+        "volume": "67",
+        "author": "López-López",
+        "year": "2016",
+        "journal-title": "Electrochem. Commun."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "618",
+        "DOI": "10.1039/C1AN15705A",
+        "volume": "137",
+        "author": "Li",
+        "year": "2012",
+        "journal-title": "Analyst"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "51",
+        "DOI": "10.1016/j.elecom.2015.03.014",
+        "volume": "55",
+        "author": "O’Neil",
+        "year": "2015",
+        "journal-title": "Electrochem. Commun."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "1529",
+        "DOI": "10.1016/j.elecom.2011.10.018",
+        "volume": "13",
+        "author": "Ping",
+        "year": "2011",
+        "journal-title": "Electrochem. Commun."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0105",
+        "doi-asserted-by": "crossref",
+        "first-page": "4695",
+        "DOI": "10.1021/ac202979j",
+        "volume": "84",
+        "author": "Novell",
+        "year": "2012",
+        "journal-title": "Anal. Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0110",
+        "doi-asserted-by": "crossref",
+        "first-page": "13033",
+        "DOI": "10.1002/anie.201606268",
+        "volume": "55",
+        "author": "Ding",
+        "year": "2016",
+        "journal-title": "Angew. Chem. Int. Ed."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1002/adfm.201300780",
+        "volume": "24",
+        "author": "Glavan",
+        "year": "2014",
+        "journal-title": "Adv. Funct. Mater."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "2142",
+        "DOI": "10.1039/C3GC42454E",
+        "volume": "16",
+        "author": "Wu",
+        "year": "2014",
+        "journal-title": "Green Chem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "2417",
+        "DOI": "10.1039/an9941902417",
+        "volume": "119",
+        "author": "Michalska",
+        "year": "1994",
+        "journal-title": "Analyst"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0130",
+        "doi-asserted-by": "crossref",
+        "first-page": "243",
+        "DOI": "10.1016/S0003-2670(01)01407-6",
+        "volume": "451",
+        "author": "Zielińska",
+        "year": "2002",
+        "journal-title": "Anal. Chim. Acta"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0135",
+        "doi-asserted-by": "crossref",
+        "first-page": "165",
+        "DOI": "10.1002/elan.201100551",
+        "volume": "24",
+        "author": "Kisiel",
+        "year": "2012",
+        "journal-title": "Electroanalysis"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "5197",
+        "DOI": "10.1038/s41467-018-07632-w",
+        "volume": "9",
+        "author": "Pan",
+        "year": "2018",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0145",
+        "doi-asserted-by": "crossref",
+        "first-page": "6669",
+        "DOI": "10.1002/anie.201702076",
+        "volume": "56",
+        "author": "Yang",
+        "year": "2017",
+        "journal-title": "Angew. Chem. Int. Ed."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106553_bb0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "6410",
+        "DOI": "10.1021/ac0492158",
+        "volume": "76",
+        "author": "Konopka",
+        "year": "2004",
+        "journal-title": "Anal. Chem."
+      }
+    ],
+    "updated-by": [
+      {
+        "updated": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2020-01-01T00:00:00Z",
+          "timestamp": 1577836800000
+        },
+        "DOI": "10.1016/j.elecom.2019.106595",
+        "type": "erratum",
+        "source": "publisher",
+        "label": "Erratum"
+      }
+    ],
+    "container-title": [
+      "Electrochemistry Communications"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1388248119302164?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1388248119302164?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          8
+        ]
+      ],
+      "date-time": "2020-04-08T23:50:58Z",
+      "timestamp": 1586389858000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1388248119302164"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 30,
+    "alternative-id": [
+      "S1388248119302164"
+    ],
+    "URL": "https://doi.org/10.1016/j.elecom.2019.106553",
+    "relation": {},
+    "ISSN": [
+      "1388-2481"
+    ],
+    "issn-type": [
+      {
+        "value": "1388-2481",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "A multichannel electrochemical all-solid-state wearable potentiometric sensor for real-time sweat ion monitoring",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Electrochemistry Communications",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.elecom.2019.106553",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 Published by Elsevier B.V.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "106553"
+  }
+}

@@ -1,0 +1,1061 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          22
+        ]
+      ],
+      "date-time": "2024-07-22T11:13:43Z",
+      "timestamp": 1721646823133
+    },
+    "reference-count": 77,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Equine Veterinary Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jevs.2019.102796",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          11
+        ]
+      ],
+      "date-time": "2019-09-11T11:30:21Z",
+      "timestamp": 1568201421000
+    },
+    "page": "102796",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "special_numbering": "C",
+    "title": [
+      "Ameliorative Effect of Ascorbic Acid and Glutathione in Combating the Cryoinjuries During Cryopreservation of Exotic Jack Semen"
+    ],
+    "prefix": "10.1016",
+    "volume": "81",
+    "author": [
+      {
+        "given": "Prashant",
+        "family": "Kumar",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Rabindra",
+        "family": "Kumar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jitendra Singh",
+        "family": "Mehta",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ashok Kumar",
+        "family": "Chaudhary",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sanjay Kumar",
+        "family": "Ravi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sharat",
+        "family": "Chandra Mehta",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mohd. Matin",
+        "family": "Ansari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ram Avtar",
+        "family": "Legha",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bupendra Nath",
+        "family": "Tripathi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Thirumala Rao",
+        "family": "Talluri",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1148",
+        "DOI": "10.1016/j.jevs.2013.05.001",
+        "article-title": "Addition of glutathione to an extender for frozen equine semen",
+        "volume": "33",
+        "author": "de Oliveira",
+        "year": "2013",
+        "journal-title": "J Equine Vet Sci"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "272",
+        "DOI": "10.1016/j.jevs.2012.07.021",
+        "article-title": "The effect of 2-hydroxypropyl-b-cyclodextrin on post-thaw parameters of cryopreserved jack and stallion semen",
+        "volume": "33",
+        "author": "Madison",
+        "year": "2013",
+        "journal-title": "J Equine Vet Sci"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "128",
+        "DOI": "10.1097/00001703-199404000-00004",
+        "article-title": "Pathophysiology of human spermatozoa",
+        "volume": "6",
+        "author": "Aitken",
+        "year": "1994",
+        "journal-title": "Curr Opin Obstet Gynecol"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "55",
+        "DOI": "10.1016/0378-4320(96)01544-8",
+        "article-title": "Recent progress in the preservation of ram semen",
+        "volume": "42",
+        "author": "Maxwell",
+        "year": "1996",
+        "journal-title": "Anim Reprod Sci"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1530/jrf.0.0550001",
+        "article-title": "Fertilizing capacity and ultrastructure of fowl and Turkey spermatozoa before and after freezing",
+        "volume": "55",
+        "author": "Bakst",
+        "year": "1979",
+        "journal-title": "J Reprod Fertil"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "675",
+        "DOI": "10.1071/RD9930675",
+        "article-title": "Maintenance of bioenergetic balance in sperm and prevention of lipid peroxidation: a review of the effect on design of storage preservation systems",
+        "volume": "5",
+        "author": "Hammerstedt",
+        "year": "1993",
+        "journal-title": "Reprod Fertil Dev"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib8",
+        "first-page": "189",
+        "article-title": "Mammalian fertilization",
+        "volume": "1",
+        "author": "Yanagimachi",
+        "year": "1994",
+        "journal-title": "Phys Reprod"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1102",
+        "DOI": "10.1095/biolreprod27.5.1102",
+        "article-title": "Spontaneous lipid peroxidation in rabbit epididymal spermatozoa: its effect on sperm motility",
+        "volume": "27",
+        "author": "Alvarez",
+        "year": "1982",
+        "journal-title": "Biol Reprod"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib10",
+        "first-page": "2273",
+        "article-title": "Exogenous antioxidants inclusion during semen cryopreservation of farm animals",
+        "volume": "7",
+        "author": "Tariq",
+        "year": "2015",
+        "journal-title": "J Chem Pharm Res"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib11",
+        "series-title": "Effect of BHT (Butylated Hydroxytoluene) addition in cooling and freezing extenders on equine sperm freezability. Faculdade de MedicinaVeterinária e Zootecnia (FMVZ)",
+        "author": "Papa",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "175",
+        "DOI": "10.1093/molehr/3.3.175",
+        "article-title": "Capacitation as a regulatory event that primes spermatozoa for the acrosome reaction and fertilization",
+        "volume": "3",
+        "author": "De Lamirande",
+        "year": "1997",
+        "journal-title": "Mol Hum Reprod"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1093/humrep/13.suppl_4.11",
+        "article-title": "Sperm nuclear DNA damage and altered chromatin structure: effect on fertilization and embryo development",
+        "volume": "13",
+        "author": "Sakkas",
+        "year": "1998",
+        "journal-title": "Hum Reprod"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib14",
+        "first-page": "338",
+        "article-title": "Spontaneous lipid peroxidation and production of hydrogen peroxide and superoxide in human spermatozoa. Superoxide dismutase as major enzyme protectant against oxygen toxicity",
+        "volume": "8",
+        "author": "Alvarez",
+        "year": "1987",
+        "journal-title": "J Androl"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.1002/mrd.1120230108",
+        "article-title": "Role of glutathione peroxidase in protecting mammalian spermatozoa from loss of motility caused by spontaneous lipid peroxidation",
+        "volume": "23",
+        "author": "Alvarez",
+        "year": "1989",
+        "journal-title": "Gamete Res"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "449",
+        "DOI": "10.1111/j.1442-2042.2009.02280.x",
+        "article-title": "Role of antioxidants in the treatment of male infertility",
+        "volume": "16",
+        "author": "Kefer",
+        "year": "2009",
+        "journal-title": "Int J Urol"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1497",
+        "DOI": "10.1016/j.theriogenology.2011.11.006",
+        "article-title": "Effect of cryopreservation on sperm parameters, lipid peroxidation and antioxidant enzymes activity in fowl semen",
+        "volume": "77",
+        "author": "Partyka",
+        "year": "2012",
+        "journal-title": "Theriogenology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "875",
+        "DOI": "10.1126/science.210504",
+        "article-title": "The biology of oxygen redicals",
+        "volume": "201",
+        "author": "Fridovich",
+        "year": "1978",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "305",
+        "DOI": "10.1016/S0010-7824(01)00320-1",
+        "article-title": "Antioxidant superoxide dismutase—a review: its function, regulation in the testis and role in male fertility",
+        "volume": "65",
+        "author": "Mruk",
+        "year": "2002",
+        "journal-title": "Contraception"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "257",
+        "DOI": "10.1016/j.anireprosci.2008.04.014",
+        "article-title": "Oxidative stress, osmotic stress and apoptosis: impacts on sperm function and preservation in the horse",
+        "volume": "107",
+        "author": "Ball",
+        "year": "2008",
+        "journal-title": "Anim Reprod Sci"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.5534/wjmh.2014.32.1.1",
+        "article-title": "Effect of oxidative stress on male reproduction",
+        "volume": "32",
+        "author": "Agarwal",
+        "year": "2014",
+        "journal-title": "World J Mens Health"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1060",
+        "DOI": "10.1016/j.theriogenology.2006.12.004",
+        "article-title": "The influence of trehalose, taurine, cysteamine and hyaluronan on ram semen: microscopic and oxidative stress parameters after the freeze-thawing process",
+        "volume": "67",
+        "author": "Bucak",
+        "year": "2007",
+        "journal-title": "Theriogenology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "233",
+        "DOI": "10.1016/j.theriogenology.2008.04.005",
+        "article-title": "The effect of antioxidants on motility, viability, acrosome integrity and DNA integrity of frozen-thawed epididymal cat spermatozoa",
+        "volume": "70",
+        "author": "Thuwanut",
+        "year": "2008",
+        "journal-title": "Theriogenology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "548",
+        "DOI": "10.1095/biolreprod29.3.548",
+        "article-title": "Taurine, hypotaurine, epinephrine and albumin inhibit lipid peroxidation in rabbit spermatozoa and protect against loss of motility",
+        "volume": "29",
+        "author": "Alvarez",
+        "year": "1983",
+        "journal-title": "Biol Reprod"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "581",
+        "DOI": "10.1071/RD03089",
+        "article-title": "Oxidative stress and male reproductive biology",
+        "volume": "16",
+        "author": "Aitken",
+        "year": "2004",
+        "journal-title": "Reprod Fertil Dev"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "72",
+        "DOI": "10.1016/j.anireprosci.2010.04.180",
+        "article-title": "The cryoprotective effects of ascorbic acid supplementation on bovine semen quality",
+        "volume": "121",
+        "author": "Hu",
+        "year": "2010",
+        "journal-title": "Anim Reprod Sci"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib27",
+        "first-page": "51",
+        "article-title": "The effects of vitamins C and E on lipid peroxidation in stored erythrocytes",
+        "volume": "23",
+        "author": "Knight",
+        "year": "1993",
+        "journal-title": "Ann Clin Lab Sci"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib28",
+        "first-page": "5",
+        "article-title": "The role of glutathione in mammalian gametes",
+        "volume": "5",
+        "author": "Luberda",
+        "year": "2005",
+        "journal-title": "Reprod Biol"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "793",
+        "DOI": "10.1016/S0093-691X(98)00184-8",
+        "article-title": "A procedure for poitou jackass sperm cryopreservation",
+        "volume": "50",
+        "author": "Trimeche",
+        "year": "1998",
+        "journal-title": "Theriogenology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "82",
+        "DOI": "10.1016/j.anireprosci.2006.04.010",
+        "article-title": "Effect of cryoprotectant on donkey semen freezability and fertility",
+        "volume": "94",
+        "author": "Oliveira",
+        "year": "2006",
+        "journal-title": "Anim Reprod Sci"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "22",
+        "DOI": "10.1016/j.anireprosci.2008.03.016",
+        "article-title": "Differences in ability of jennies and mares to conceive with cooled and frozen semen containing glycerol or not",
+        "volume": "112",
+        "author": "Vidament",
+        "year": "2009",
+        "journal-title": "Anim Reprod Sci"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1846",
+        "DOI": "10.1016/j.theriogenology.2012.07.015",
+        "article-title": "Donkey jack (Equus asinus) semen cryopreservation: studies of seminal parameters, post breeding inflammatory response, and fertility in donkey jennies",
+        "volume": "78",
+        "author": "Rota",
+        "year": "2012",
+        "journal-title": "Theriogenology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "1267",
+        "DOI": "10.1016/j.theriogenology.2015.12.010",
+        "article-title": "Strategies to improve the fertility of fresh and frozen donkey semen",
+        "volume": "85",
+        "author": "Oliveira",
+        "year": "2016",
+        "journal-title": "Theriogenology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib34",
+        "first-page": "163",
+        "article-title": "Some reproductive parameters of Zanskari Mares reared in an organized farm under tropical climate",
+        "volume": "86",
+        "author": "Talluri",
+        "year": "2016",
+        "journal-title": "Ind J Anim Sci"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "52",
+        "DOI": "10.1016/j.cryobiol.2018.12.005",
+        "article-title": "Effects of different concentration and combinations of cryoprotectants on sperm quality, functional integrity in three Indian horse breeds",
+        "volume": "86",
+        "author": "Soni",
+        "year": "2019",
+        "journal-title": "Cryobiology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "185",
+        "DOI": "10.1016/S0093-691X(97)84066-6",
+        "article-title": "Effects of antioxidants on motility and membrane integrity of chilled-stored stallion semen",
+        "volume": "48",
+        "author": "Aurich",
+        "year": "1997",
+        "journal-title": "Theriogenology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "787",
+        "DOI": "10.1016/j.jevs.2012.12.012",
+        "article-title": "Effects of α-tocopherol and ascorbic acid on equine semen quality after cryopreservation",
+        "volume": "33",
+        "author": "Franco",
+        "year": "2013",
+        "journal-title": "J Equine Vet Sci"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "1015",
+        "DOI": "10.1016/0093-691X(96)00029-5",
+        "article-title": "Improvement of motility of post-thaw Poitou jackass sperm using glutamine",
+        "volume": "45",
+        "author": "Trimeche",
+        "year": "1996",
+        "journal-title": "Theriogenology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "103",
+        "DOI": "10.1016/j.smallrumres.2006.12.001",
+        "article-title": "Protective effect of taurine, glutathione and trehalose on the liquid storage of ram semen",
+        "volume": "73",
+        "author": "Bucak",
+        "year": "2007",
+        "journal-title": "Small Ruminant Res"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "745",
+        "DOI": "10.1016/j.theriogenology.2011.04.007",
+        "article-title": "Effect of method and clinician on stallion sperm morphology evaluation",
+        "volume": "76",
+        "author": "Brito",
+        "year": "2011",
+        "journal-title": "Theriogenology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "219",
+        "DOI": "10.1530/jrf.0.0700219",
+        "article-title": "Development of an assay to assess the functional integrity of the human sperm membrane and its relationship to other semen characters",
+        "volume": "70",
+        "author": "Jeyendran",
+        "year": "1984",
+        "journal-title": "J Reprod Fertil"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "12",
+        "DOI": "10.1136/vr.97.1.12",
+        "article-title": "Use of Giemsa stain to detect changes in acrosomes of frozen ram spermatozoa",
+        "volume": "97",
+        "author": "Watson",
+        "year": "1975",
+        "journal-title": "Vet Rec"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib43",
+        "doi-asserted-by": "crossref",
+        "first-page": "128",
+        "DOI": "10.1016/j.smallrumres.2007.09.002",
+        "article-title": "Effect of anti-oxidants and oxidative stress parameters on ram semen after the freeze thawing process",
+        "volume": "75",
+        "author": "Bucak",
+        "year": "2008",
+        "journal-title": "Small Ruminant Res"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib44",
+        "doi-asserted-by": "crossref",
+        "first-page": "179",
+        "DOI": "10.1016/j.anireprosci.2003.11.003",
+        "article-title": "The effect of Equex STM paste and sperm morphology on post-thaw survival of cat epididymal spermatozoa",
+        "volume": "84",
+        "author": "Axner",
+        "year": "2004",
+        "journal-title": "Anim Reprod Sci"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib45",
+        "doi-asserted-by": "crossref",
+        "first-page": "241",
+        "DOI": "10.1016/j.cryobiol.2005.07.004",
+        "article-title": "Adding cholesterol to the stallion sperm plasma membrane improves cryosurvival",
+        "volume": "51",
+        "author": "Moore",
+        "year": "2005",
+        "journal-title": "Cryobiology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib46",
+        "doi-asserted-by": "crossref",
+        "first-page": "497",
+        "DOI": "10.1530/rep.0.1220497",
+        "article-title": "Oxidative stress, DNA damage and the Y-chromosome",
+        "volume": "122",
+        "author": "Aitken",
+        "year": "2001",
+        "journal-title": "Reproduction"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib47",
+        "first-page": "79",
+        "article-title": "Consequences of the production of reactive oxygen species in reproduction and main antioxidant mechanisms",
+        "volume": "34",
+        "author": "Andrade",
+        "year": "2010",
+        "journal-title": "Rev Bras Reprod Anim"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib48",
+        "doi-asserted-by": "crossref",
+        "first-page": "9380609",
+        "DOI": "10.1155/2016/9380609",
+        "article-title": "The impact of sperm metabolism during in vitro storage: the stallion as a model",
+        "volume": "2016",
+        "author": "Gibb",
+        "year": "2016",
+        "journal-title": "Biomed Res Int"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib49",
+        "first-page": "154",
+        "article-title": "Effect of treatment with vitamins, L-carnitine and coenzyme Q10 on the vacuolization and sperm fragmentation rate in fertilizations patients in vitro",
+        "volume": "9",
+        "author": "Granollers",
+        "year": "2011",
+        "journal-title": "Rev Int Androl"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib50",
+        "doi-asserted-by": "crossref",
+        "first-page": "301",
+        "DOI": "10.1016/S0010-7824(02)00276-7",
+        "article-title": "Polyunsaturated fatty acids of germ cell membranes, glutathione, and glutathione-dependent enzyme-PHGPx: from basic to clinic",
+        "volume": "65",
+        "author": "Lenzi",
+        "year": "2002",
+        "journal-title": "Contraception"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib51",
+        "first-page": "956",
+        "article-title": "Role of antioxidant agents in cryopreservation of germ cells and embryos",
+        "volume": "39",
+        "author": "Luz",
+        "year": "2011",
+        "journal-title": "Acta Sci Vet"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib52",
+        "doi-asserted-by": "crossref",
+        "first-page": "73",
+        "DOI": "10.1016/j.jevs.2016.06.078",
+        "article-title": "Quercetin ameliorate motility in frozen-thawed Turkmen stallions’ sperm",
+        "volume": "45",
+        "author": "Seifi-Jamadi",
+        "year": "2016",
+        "journal-title": "J Equine Vet Sci"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib53",
+        "doi-asserted-by": "crossref",
+        "first-page": "108",
+        "DOI": "10.1016/j.anireprosci.2016.04.010",
+        "article-title": "Effect of various concentrations of butylated hydroxyanisole and butylated hydroxytoluene on freezing capacity of Turkman stallion sperm",
+        "volume": "170",
+        "author": "Seifi-Jamadi",
+        "year": "2016",
+        "journal-title": "Anim Reprod Sci"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib54",
+        "doi-asserted-by": "crossref",
+        "first-page": "1990",
+        "DOI": "10.1071/RD14449",
+        "article-title": "Freezability of Andalusian donkey (Equusasinus) spermatozoa: effect of extenders and permeating cryoprotectants",
+        "volume": "28",
+        "author": "Acha",
+        "year": "2016",
+        "journal-title": "Reprod Fertil Dev"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib55",
+        "doi-asserted-by": "crossref",
+        "first-page": "179",
+        "DOI": "10.1111/j.2042-3306.2010.00130.x",
+        "article-title": "Seminal parameters and field fertility of cryopreserved donkey jack semen after insemination of horse mares",
+        "volume": "43",
+        "author": "Canisso",
+        "year": "2011",
+        "journal-title": "Equine Vet J"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib56",
+        "first-page": "895",
+        "article-title": "The effect of reactive oxygen species on equine sperm motility, viability, acrosomal integrity, mitochondrial membrane potential, and membrane lipid peroxidation",
+        "volume": "21",
+        "author": "Baumber",
+        "year": "2000",
+        "journal-title": "J Androl"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib57",
+        "first-page": "1028",
+        "article-title": "Comparative assessment of seminal characteristics of horse and donkey stallions",
+        "volume": "79",
+        "author": "Pal",
+        "year": "2009",
+        "journal-title": "Ind J Anim Sci"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib58",
+        "first-page": "227",
+        "article-title": "Study on fresh semen characteristics in Poitou donkeys",
+        "volume": "61",
+        "author": "Kumar",
+        "year": "2018",
+        "journal-title": "J Entomol Zool Stud"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib59",
+        "doi-asserted-by": "crossref",
+        "first-page": "230",
+        "DOI": "10.1002/mrd.20322",
+        "article-title": "Lipid peroxidation formation in relation to membrane stability of fresh and frozen thawed stallion spermatozoa",
+        "volume": "72",
+        "author": "Neild",
+        "year": "2005",
+        "journal-title": "Mol Reprod Dev"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib60",
+        "doi-asserted-by": "crossref",
+        "first-page": "745",
+        "DOI": "10.1016/j.theriogenology.2007.06.004",
+        "article-title": "Influence of cryopreservation on mitochondrial functions in equine spermatozoa",
+        "volume": "68",
+        "author": "Schober",
+        "year": "2007",
+        "journal-title": "Theriogenology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib61",
+        "doi-asserted-by": "crossref",
+        "first-page": "1415",
+        "DOI": "10.2460/ajvr.2005.66.1415",
+        "article-title": "Determination of glutathione peroxidase and superoxide dismutase-like activities in equine spermatozoa, seminal plasma, and reproductive tissues",
+        "volume": "66",
+        "author": "Baumber",
+        "year": "2005",
+        "journal-title": "Am J Vet Res"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib62",
+        "first-page": "213",
+        "article-title": "Detection of “apoptosis-like” changes during the cryopreservation process in equine sperm",
+        "volume": "29",
+        "author": "Ortega-Ferrusola",
+        "year": "2008",
+        "journal-title": "J Androl"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib63",
+        "doi-asserted-by": "crossref",
+        "first-page": "112",
+        "DOI": "10.1016/j.anireprosci.2011.03.001",
+        "article-title": "Optimal concentrations of cryoprotective agents for semen from stallions that are classified ‘good’ or ‘poor’ for freezing",
+        "volume": "125",
+        "author": "Hoffmann",
+        "year": "2011",
+        "journal-title": "Anim Reprod Sci"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib64",
+        "doi-asserted-by": "crossref",
+        "first-page": "65",
+        "DOI": "10.1016/j.cryobiol.2018.06.001",
+        "article-title": "Cryopreservation induces mitochondrial permeability transition in a bovine sperm model",
+        "volume": "83",
+        "author": "Treulen",
+        "year": "2018",
+        "journal-title": "Cryobiology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib65",
+        "doi-asserted-by": "crossref",
+        "first-page": "138",
+        "DOI": "10.1016/j.theriogenology.2004.04.012",
+        "article-title": "Effects of glutamine on post-thaw motility of stallion spermatozoa: an approach of the mechanism of action at spermatozoa level",
+        "volume": "63",
+        "author": "Khlifaoui",
+        "year": "2005",
+        "journal-title": "Theriogenology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib66",
+        "doi-asserted-by": "crossref",
+        "first-page": "311",
+        "DOI": "10.1006/cryo.1996.0031",
+        "article-title": "Improvement of motility and fertilization potential of postthaw human sperm using glutamine",
+        "volume": "33",
+        "author": "Renard",
+        "year": "1996",
+        "journal-title": "Cryobiology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib67",
+        "doi-asserted-by": "crossref",
+        "first-page": "105",
+        "DOI": "10.56808/2985-1130.2162",
+        "article-title": "Freezability of Thai native crossbred horse semen in different extenders",
+        "volume": "39",
+        "author": "Phetudomsinsuk",
+        "year": "2009",
+        "journal-title": "Thai J Vet Med"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib68",
+        "doi-asserted-by": "crossref",
+        "first-page": "88",
+        "DOI": "10.1111/j.2047-2927.2013.00144.x",
+        "article-title": "Supplementing cryopreservation media with reduced glutathione increases fertility and prolificacy of sows inseminated with frozen-thawed boar semen",
+        "volume": "2",
+        "author": "Estrada",
+        "year": "2014",
+        "journal-title": "Andrology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib69",
+        "doi-asserted-by": "crossref",
+        "first-page": "283",
+        "DOI": "10.1071/RD15118",
+        "article-title": "Effects of reduced glutathione on acrosin activity in frozen-thawed boar spermatozoa",
+        "volume": "29",
+        "author": "Estrada",
+        "year": "2017",
+        "journal-title": "Reprod Fertil Dev"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib70",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1186/s40104-016-0076-x",
+        "article-title": "Sperm cryodamage occurs after rapid freezing phase: flow cytometry approach and antioxidant enzymes activity at different stages of cryopreservation",
+        "volume": "7",
+        "author": "Castro",
+        "year": "2016",
+        "journal-title": "J Anim Sci Biotechnol"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib71",
+        "doi-asserted-by": "crossref",
+        "first-page": "145",
+        "DOI": "10.1016/S0737-0806(87)80025-4",
+        "article-title": "Principles of cryopreservation and review of cryopreservation of stallion spermatozoa",
+        "volume": "7",
+        "author": "Amann",
+        "year": "1987",
+        "journal-title": "J Equine Vet Sci"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib72",
+        "doi-asserted-by": "crossref",
+        "first-page": "606",
+        "DOI": "10.1016/j.jevs.2013.11.009",
+        "article-title": "Effect of glutathione-supplemented INRA82 extender on miniature Caspian stallion sperm quality during storage at 5°C",
+        "volume": "34",
+        "author": "Zhandi",
+        "year": "2014",
+        "journal-title": "J Equine Vet Sci"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib73",
+        "doi-asserted-by": "crossref",
+        "first-page": "204",
+        "DOI": "10.1016/j.theriogenology.2007.04.053",
+        "article-title": "Effect of antioxidant supplementation on semen quality and reactive oxygen species of frozen-thawed canine spermatozoa",
+        "volume": "68",
+        "author": "Michael",
+        "year": "2007",
+        "journal-title": "Theriogenology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib74",
+        "first-page": "2",
+        "article-title": "Antioxidant nutrients: their role in a healthy diet",
+        "volume": "12",
+        "author": "Earle",
+        "year": "2000",
+        "journal-title": "Vet Int"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib75",
+        "doi-asserted-by": "crossref",
+        "first-page": "577",
+        "DOI": "10.1016/S0093-691X(01)00590-8",
+        "article-title": "Effect of antioxidants on preservation of motility, viability and acrossomal integrity of equine spermatozoa during storage at 5°C",
+        "volume": "56",
+        "author": "Ball",
+        "year": "2001",
+        "journal-title": "Theriogenology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib76",
+        "doi-asserted-by": "crossref",
+        "first-page": "42",
+        "DOI": "10.1590/S0102-09352009000100007",
+        "article-title": "Efeito da adição de trolox e pentoxifilina na motilidade, integridade do acrossoma e do DNA de espermatozoides equinos após descongelamento",
+        "volume": "61",
+        "author": "Silva",
+        "year": "2009",
+        "journal-title": "Arq Bras Med Vet Zootec"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib77",
+        "doi-asserted-by": "crossref",
+        "first-page": "423",
+        "DOI": "10.1006/cryo.1993.1042",
+        "article-title": "Effect of sucrose, trehalose, hypotaurine, taurine, and blood-serum on survival of frozen bull sperm",
+        "volume": "30",
+        "author": "Chen",
+        "year": "1993",
+        "journal-title": "Cryobiology"
+      },
+      {
+        "key": "10.1016/j.jevs.2019.102796_bib78",
+        "doi-asserted-by": "crossref",
+        "first-page": "258",
+        "DOI": "10.1016/j.smallrumres.2013.07.007",
+        "article-title": "The cryoprotective effects of amino acids supplementation on cooled and post-thaw Markhoz bucks semen quality",
+        "volume": "114",
+        "author": "Farshad",
+        "year": "2013",
+        "journal-title": "Small Rumin Res"
+      }
+    ],
+    "container-title": [
+      "Journal of Equine Veterinary Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0737080619305453?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0737080619305453?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          20
+        ]
+      ],
+      "date-time": "2023-09-20T00:13:00Z",
+      "timestamp": 1695168780000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0737080619305453"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 77,
+    "alternative-id": [
+      "S0737080619305453"
+    ],
+    "URL": "https://doi.org/10.1016/j.jevs.2019.102796",
+    "relation": {},
+    "ISSN": [
+      "0737-0806"
+    ],
+    "issn-type": [
+      {
+        "value": "0737-0806",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Ameliorative Effect of Ascorbic Acid and Glutathione in Combating the Cryoinjuries During Cryopreservation of Exotic Jack Semen",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Equine Veterinary Science",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jevs.2019.102796",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 Elsevier Inc. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "102796"
+  }
+}

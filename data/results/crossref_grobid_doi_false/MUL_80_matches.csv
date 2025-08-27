@@ -1,0 +1,8 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_1,J. internal medicine,Electronic Health Records: New Opportunities For Clinical Research,70,10.1111/joim.12119,https://w3id.org/oc/meta/br/0610897973,author_title
+ref_6,Cogn. psychology,Understanding Natural Language,70,10.1016/0010-0285(72)90002-3,https://w3id.org/oc/meta/br/0620489592,author_title
+ref_10,Yearb. medical informatics,Extracting Information From Textual Documents In The Electronic Health Record: A Review Of Recent Research,70,10.1055/s-0038-1638592,https://w3id.org/oc/meta/br/06160889477,author_title
+ref_15,Behav. Res. Ther.,The Yale-Brown Obsessive Compulsive Scale: Interview Versus Self-Report.,70,10.1016/0005-7967(96)00036-8,https://w3id.org/oc/meta/br/06210527983,author_title
+ref_16,,The Use Of Confidence Or Fiducial Limits Illustrated In The Case Of The Binomial,70,10.1093/biomet/26.4.404,https://w3id.org/oc/meta/br/06230327821,author_title
+ref_17,BMJ open,Identification Of The Delivery Of Cognitive Behavioural Therapy For Psychosis (CBTp) Using A Cross-Sectional Sample From Electronic Health Records And Open-Text Information In A Large UK-based Mental Health Case Register,70,10.1136/bmjopen-2016-015297,https://w3id.org/oc/meta/br/06802342598,author_title
+ref_18,PloS one,Identification Of Adverse Drug Events From Free Text Electronic Patient Records And Information In A Large Mental Health Case Register,70,10.1371/journal.pone.0134208,https://w3id.org/oc/meta/br/061101526076,author_title

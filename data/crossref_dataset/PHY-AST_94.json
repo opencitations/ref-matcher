@@ -1,0 +1,711 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          7
+        ]
+      ],
+      "date-time": "2024-08-07T00:11:08Z",
+      "timestamp": 1722989468384
+    },
+    "reference-count": 41,
+    "publisher": "Optica Publishing Group",
+    "issue": "22",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              23
+            ]
+          ],
+          "date-time": "2019-10-23T00:00:00Z",
+          "timestamp": 1571788800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.1364/OA_License_v1#VOR-OA"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              23
+            ]
+          ],
+          "date-time": "2019-10-23T00:00:00Z",
+          "timestamp": 1571788800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://opg.optica.org/policies/opg-tdm-policy.json"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "11772081"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.osapublishing.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Opt. Express"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          28
+        ]
+      ]
+    },
+    "DOI": "10.1364/oe.27.032378",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2019-10-23T17:26:57Z",
+      "timestamp": 1571851617000
+    },
+    "page": "32378",
+    "update-policy": "http://dx.doi.org/10.1364/osa_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Binarization of ESPI fringe patterns based on local entropy"
+    ],
+    "prefix": "10.1364",
+    "volume": "27",
+    "author": [
+      {
+        "given": "Mingming",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Chen",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Min",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zhenkun",
+        "family": "Lei",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "285",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          23
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "oe-27-22-32378-R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "241",
+        "DOI": "10.1016/0143-8166(89)90062-6",
+        "volume": "11",
+        "author": "Sharp",
+        "year": "1989",
+        "journal-title": "Opt. Laser. Eng."
+      },
+      {
+        "key": "oe-27-22-32378-R2",
+        "first-page": "87",
+        "volume": "15",
+        "author": "Kumar",
+        "year": "2015",
+        "journal-title": "J. JSEM"
+      },
+      {
+        "key": "oe-27-22-32378-R3",
+        "doi-asserted-by": "crossref",
+        "first-page": "531",
+        "DOI": "10.1364/OE.26.000531",
+        "volume": "26",
+        "author": "Dong",
+        "year": "2018",
+        "journal-title": "Opt. Express"
+      },
+      {
+        "key": "oe-27-22-32378-R4",
+        "doi-asserted-by": "crossref",
+        "first-page": "8744",
+        "DOI": "10.1364/OE.26.008744",
+        "volume": "26",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Opt. Express"
+      },
+      {
+        "key": "oe-27-22-32378-R5",
+        "doi-asserted-by": "crossref",
+        "first-page": "72",
+        "DOI": "10.1016/j.optlastec.2018.05.019",
+        "volume": "107",
+        "author": "Padghan",
+        "year": "2018",
+        "journal-title": "Opt. Laser Technol."
+      },
+      {
+        "key": "oe-27-22-32378-R6",
+        "doi-asserted-by": "crossref",
+        "first-page": "32",
+        "DOI": "10.1016/j.optlaseng.2016.02.008",
+        "volume": "87",
+        "author": "Manuel",
+        "year": "2016",
+        "journal-title": "Opt. Laser. Eng."
+      },
+      {
+        "key": "oe-27-22-32378-R7",
+        "doi-asserted-by": "crossref",
+        "first-page": "3945",
+        "DOI": "10.1364/AO.44.003945",
+        "volume": "44",
+        "author": "Ruiz",
+        "year": "2005",
+        "journal-title": "Appl. Opt."
+      },
+      {
+        "key": "oe-27-22-32378-R8",
+        "doi-asserted-by": "crossref",
+        "first-page": "529",
+        "DOI": "10.1016/S0143-8166(02)00085-4",
+        "volume": "40",
+        "author": "An",
+        "year": "2003",
+        "journal-title": "Opt. Laser. Eng."
+      },
+      {
+        "key": "oe-27-22-32378-R9",
+        "doi-asserted-by": "crossref",
+        "first-page": "054101",
+        "DOI": "10.1117/1.OE.55.5.054101",
+        "volume": "55",
+        "author": "Kumar",
+        "year": "2016",
+        "journal-title": "Opt. Eng."
+      },
+      {
+        "key": "oe-27-22-32378-R10",
+        "doi-asserted-by": "crossref",
+        "first-page": "683",
+        "DOI": "10.1007/s11340-015-0120-3",
+        "volume": "56",
+        "author": "Pedrini",
+        "year": "2016",
+        "journal-title": "Exp. Mech."
+      },
+      {
+        "key": "oe-27-22-32378-R11",
+        "doi-asserted-by": "crossref",
+        "first-page": "4818",
+        "DOI": "10.1364/BOE.9.004818",
+        "volume": "9",
+        "author": "Tavera Ruiz",
+        "year": "2018",
+        "journal-title": "Biomed. Opt. Express"
+      },
+      {
+        "key": "oe-27-22-32378-R12",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.1016/j.optlaseng.2015.04.002",
+        "volume": "73",
+        "author": "Kumar",
+        "year": "2015",
+        "journal-title": "Opt. Laser. Eng."
+      },
+      {
+        "key": "oe-27-22-32378-R13",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.1016/j.optlaseng.2019.03.015",
+        "volume": "119",
+        "author": "Chen",
+        "year": "2019",
+        "journal-title": "Opt. Laser. Eng."
+      },
+      {
+        "key": "oe-27-22-32378-R14",
+        "doi-asserted-by": "crossref",
+        "first-page": "8942",
+        "DOI": "10.1364/OE.18.008942",
+        "volume": "18",
+        "author": "Tang",
+        "year": "2010",
+        "journal-title": "Opt. Express"
+      },
+      {
+        "key": "oe-27-22-32378-R15",
+        "doi-asserted-by": "crossref",
+        "first-page": "183",
+        "DOI": "10.1364/OL.33.000183",
+        "volume": "33",
+        "author": "Tang",
+        "year": "2008",
+        "journal-title": "Opt. Lett."
+      },
+      {
+        "key": "oe-27-22-32378-R16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1814",
+        "DOI": "10.1364/AO.52.001814",
+        "volume": "52",
+        "author": "Zhu",
+        "year": "2013",
+        "journal-title": "Appl. Opt."
+      },
+      {
+        "key": "oe-27-22-32378-R17",
+        "doi-asserted-by": "crossref",
+        "first-page": "3338",
+        "DOI": "10.1364/AO.58.003338",
+        "volume": "58",
+        "author": "Hao",
+        "year": "2019",
+        "journal-title": "Appl. Opt."
+      },
+      {
+        "key": "oe-27-22-32378-R18",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "DOI": "10.1016/j.optlaseng.2017.07.018",
+        "volume": "100",
+        "author": "Zhou",
+        "year": "2018",
+        "journal-title": "Opt. Laser. Eng."
+      },
+      {
+        "key": "oe-27-22-32378-R19",
+        "doi-asserted-by": "crossref",
+        "first-page": "14",
+        "DOI": "10.1016/j.optlaseng.2019.06.025",
+        "volume": "123",
+        "author": "Chen",
+        "year": "2019",
+        "journal-title": "Opt. Laser. Eng."
+      },
+      {
+        "key": "oe-27-22-32378-R20",
+        "doi-asserted-by": "crossref",
+        "first-page": "121",
+        "DOI": "10.1007/s00340-019-7196-x",
+        "volume": "125",
+        "author": "Chen",
+        "year": "2019",
+        "journal-title": "Appl. Phys. B: Lasers Opt."
+      },
+      {
+        "key": "oe-27-22-32378-R21",
+        "doi-asserted-by": "crossref",
+        "first-page": "4843",
+        "DOI": "10.1364/AO.56.004843",
+        "volume": "56",
+        "author": "Li",
+        "year": "2017",
+        "journal-title": "Appl. Opt."
+      },
+      {
+        "key": "oe-27-22-32378-R22",
+        "doi-asserted-by": "crossref",
+        "first-page": "348",
+        "DOI": "10.1016/j.ijleo.2018.02.027",
+        "volume": "161",
+        "author": "Ren",
+        "year": "2018",
+        "journal-title": "Optik"
+      },
+      {
+        "key": "oe-27-22-32378-R23",
+        "first-page": "129",
+        "volume": "133",
+        "author": "Accadia",
+        "year": "2003",
+        "journal-title": "Auk"
+      },
+      {
+        "key": "oe-27-22-32378-R24",
+        "doi-asserted-by": "crossref",
+        "first-page": "7392",
+        "DOI": "10.1364/AO.45.007392",
+        "volume": "45",
+        "author": "Tang",
+        "year": "2006",
+        "journal-title": "Appl. Opt."
+      },
+      {
+        "key": "oe-27-22-32378-R25",
+        "doi-asserted-by": "crossref",
+        "first-page": "7475",
+        "DOI": "10.1364/AO.46.007475",
+        "volume": "46",
+        "author": "Tang",
+        "year": "2007",
+        "journal-title": "Appl. Opt."
+      },
+      {
+        "key": "oe-27-22-32378-R26",
+        "doi-asserted-by": "crossref",
+        "first-page": "3110",
+        "DOI": "10.1364/AO.50.003110",
+        "volume": "50",
+        "author": "Wang",
+        "year": "2011",
+        "journal-title": "Appl. Opt."
+      },
+      {
+        "key": "oe-27-22-32378-R27",
+        "doi-asserted-by": "crossref",
+        "first-page": "6893",
+        "DOI": "10.1364/AO.55.006893",
+        "volume": "55",
+        "author": "Chen",
+        "year": "2016",
+        "journal-title": "Appl. Opt."
+      },
+      {
+        "key": "oe-27-22-32378-R28",
+        "doi-asserted-by": "crossref",
+        "first-page": "2979",
+        "DOI": "10.1364/AO.49.002979",
+        "volume": "49",
+        "author": "Tang",
+        "year": "2010",
+        "journal-title": "Appl. Opt."
+      },
+      {
+        "key": "oe-27-22-32378-R29",
+        "first-page": "023105",
+        "volume": "58",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "Opt. Eng."
+      },
+      {
+        "key": "oe-27-22-32378-R30",
+        "doi-asserted-by": "crossref",
+        "first-page": "29625",
+        "DOI": "10.1364/OE.23.029625",
+        "volume": "23",
+        "author": "Zhang",
+        "year": "2015",
+        "journal-title": "Opt. Express"
+      },
+      {
+        "key": "oe-27-22-32378-R31",
+        "doi-asserted-by": "crossref",
+        "first-page": "62",
+        "DOI": "10.1109/TSMC.1979.4310076",
+        "volume": "9",
+        "author": "Otsu",
+        "year": "1979",
+        "journal-title": "IEEE Trans. Syst., Man, Cybern."
+      },
+      {
+        "key": "oe-27-22-32378-R33",
+        "doi-asserted-by": "crossref",
+        "first-page": "920",
+        "DOI": "10.1016/j.patcog.2007.07.012",
+        "volume": "41",
+        "author": "Wang",
+        "year": "2008",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "key": "oe-27-22-32378-R35",
+        "doi-asserted-by": "crossref",
+        "first-page": "71",
+        "DOI": "10.1016/S0031-3203(98)00091-0",
+        "volume": "32",
+        "author": "Studholme",
+        "year": "1999",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "key": "oe-27-22-32378-R36",
+        "doi-asserted-by": "crossref",
+        "first-page": "24",
+        "DOI": "10.3788/COL20100801.0024",
+        "volume": "8",
+        "author": "Deng",
+        "year": "2010",
+        "journal-title": "Chin. Opt. Lett."
+      },
+      {
+        "key": "oe-27-22-32378-R37",
+        "doi-asserted-by": "crossref",
+        "first-page": "184",
+        "DOI": "10.1109/LGRS.2016.2633548",
+        "volume": "14",
+        "author": "Wang",
+        "year": "2017",
+        "journal-title": "IEEE Geosci. Remote Sensing Lett."
+      },
+      {
+        "key": "oe-27-22-32378-R38",
+        "doi-asserted-by": "crossref",
+        "first-page": "1196",
+        "DOI": "10.3390/s18041196",
+        "volume": "18",
+        "author": "Huo",
+        "year": "2018",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "oe-27-22-32378-R39",
+        "doi-asserted-by": "crossref",
+        "first-page": "512",
+        "DOI": "10.1016/j.physa.2010.10.015",
+        "volume": "390",
+        "author": "Barbieri",
+        "year": "2011",
+        "journal-title": "Phys. A (Amsterdam, Neth.)"
+      },
+      {
+        "key": "oe-27-22-32378-R41",
+        "doi-asserted-by": "crossref",
+        "first-page": "2935",
+        "DOI": "10.1016/S0167-8655(03)00154-5",
+        "volume": "24",
+        "author": "Yan",
+        "year": "2003",
+        "journal-title": "Pattern Recognit. Lett."
+      },
+      {
+        "key": "oe-27-22-32378-R42",
+        "doi-asserted-by": "crossref",
+        "first-page": "3129",
+        "DOI": "10.12785/amis/080654",
+        "volume": "8",
+        "author": "Qi",
+        "year": "2014",
+        "journal-title": "Appl. Math. Inf. Sci."
+      },
+      {
+        "key": "oe-27-22-32378-R43",
+        "doi-asserted-by": "crossref",
+        "first-page": "191",
+        "DOI": "10.1016/0098-3004(84)90020-7",
+        "volume": "10",
+        "author": "Bezdek",
+        "year": "1984",
+        "journal-title": "Comput. Geosci."
+      },
+      {
+        "key": "oe-27-22-32378-R44",
+        "doi-asserted-by": "crossref",
+        "first-page": "685",
+        "DOI": "10.1016/j.compmedimag.2008.08.004",
+        "volume": "32",
+        "author": "Wang",
+        "year": "2008",
+        "journal-title": "Comput. Med. Imag. Grap."
+      }
+    ],
+    "container-title": [
+      "Optics Express"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.osapublishing.org/viewmedia.cfm?URI=oe-27-22-32378&seq=0",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          6
+        ]
+      ],
+      "date-time": "2024-08-06T19:25:41Z",
+      "timestamp": 1722972341000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://opg.optica.org/abstract.cfm?URI=oe-27-22-32378"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          23
+        ]
+      ]
+    },
+    "references-count": 41,
+    "journal-issue": {
+      "issue": "22",
+      "published-online": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1364/oe.27.032378",
+    "relation": {},
+    "ISSN": [
+      "1094-4087"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "1094-4087"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          23
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "OSA - The Optical Society",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "https://doi.org/10.1364/OE.27.032378",
+        "name": "articlelink",
+        "label": "Crossref DOI link to publisher maintained version"
+      },
+      {
+        "value": "research-article",
+        "name": "content_type",
+        "label": "Article type"
+      },
+      {
+        "value": "Screened by Similarity Check",
+        "name": "cross_check",
+        "label": "Similarity check"
+      },
+      {
+        "value": "Yes",
+        "order": 0,
+        "name": "peer_reviewed",
+        "label": "Peer reviewed",
+        "group": {
+          "name": "peer_review",
+          "label": "Peer review"
+        }
+      },
+      {
+        "value": "Single blind",
+        "order": 1,
+        "name": "review_process",
+        "label": "Review process",
+        "group": {
+          "name": "peer_review",
+          "label": "Peer review"
+        }
+      },
+      {
+        "value": "28 August 2019",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "9 October 2019",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "23 October 2019",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "© 2019 Optical Society of America under the terms of the OSA Open Access Publishing Agreement",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

@@ -1,0 +1,540 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          30
+        ]
+      ],
+      "date-time": "2024-12-30T18:47:21Z",
+      "timestamp": 1735584441843
+    },
+    "reference-count": 56,
+    "publisher": "Wiley",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              14
+            ]
+          ],
+          "date-time": "2019-08-14T00:00:00Z",
+          "timestamp": 1565740800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "esajournals.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Ecology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>The functional trait approach proposes that relating traits of organisms within a community to variation in abiotic and biotic characteristics of their environment will provide insight on the mechanisms of community assembly. As traits at a given trophic level might act as filters for the selection of traits at another trophic level, we hypothesized that traits of consumers and of their resources covary in space. We evaluated complementary predictions about top‐down (negative) and bottom‐up (positive) trait covariation in a detrital food web. Additionally, we tested whether positive trait covariation was better explained by the Resource Concentration Hypothesis (i.e., most commonly represented trait values attract abundant consumers) or the Resource Specialization Hypothesis (i.e., resource diversity increases niche availability for the consumers). Macroarthopods were collected with pitfall traps over two summers in three forested sites of southern Quebec in 110 plots that varied in tree species composition. Six feeding traits of consumers (detritivores and predators) and six palatability traits of their resources (leaf litter and prey) were matched to assess spatial covariation. Trait matches included consumer biting force/resource toughness, detritivore mandibular gape/leaf thickness, predator/prey body size ratio, etc. Our results demonstrate for the first time a covariation between feeding traits of detritivores and palatability traits of leaf litter (31–34%), and between feeding traits of litter‐dwelling predators and palatability traits of potential prey (38–44%). The observed positive covariation supports both the Resource Concentration Hypothesis and Resource Specialization Hypothesis. Spatial covariation of consumer and resource traits provides a new tool to partially predict the structure of the detrital food web. Nonetheless, top‐down regulation remains difficult to confirm. Further research on top‐down processes will be undoubtedly necessary to refine our capacity to interpret the effect of biotic interactions on co‐distribution.</jats:p>",
+    "DOI": "10.1002/ecy.2815",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          9
+        ]
+      ],
+      "date-time": "2019-07-09T18:03:47Z",
+      "timestamp": 1562695427000
+    },
+    "update-policy": "http://dx.doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 35,
+    "title": [
+      "Traits of litter‐dwelling forest arthropod predators and detritivores covary spatially with traits of their resources"
+    ],
+    "prefix": "10.1002",
+    "volume": "100",
+    "author": [
+      {
+        "given": "Pierre‐Marc",
+        "family": "Brousseau",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Département des Sciences Biologiques Université du Québec à Montréal Montréal Quebec H2X 1Y4 Canada"
+          }
+        ]
+      },
+      {
+        "given": "Dominique",
+        "family": "Gravel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Canada Research Chair in Integrative Ecology Département de Biologie Université de Sherbrooke Sherbrooke Quebec J1K 2X9 Canada"
+          }
+        ]
+      },
+      {
+        "given": "I. Tanya",
+        "family": "Handa",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Département des Sciences Biologiques Université du Québec à Montréal Montréal Quebec H2X 1Y4 Canada"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          14
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_7_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1365-2435.12666"
+      },
+      {
+        "key": "e_1_2_7_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1313226"
+      },
+      {
+        "key": "e_1_2_7_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1365-2656.12834"
+      },
+      {
+        "key": "e_1_2_7_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1365-2435.12943"
+      },
+      {
+        "key": "e_1_2_7_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/03-9000"
+      },
+      {
+        "key": "e_1_2_7_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.soilbio.2016.06.033"
+      },
+      {
+        "key": "e_1_2_7_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/x00-014"
+      },
+      {
+        "key": "e_1_2_7_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12080-015-0281-9"
+      },
+      {
+        "key": "e_1_2_7_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.soilbio.2014.05.009"
+      },
+      {
+        "key": "e_1_2_7_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1469-185X.2010.00138.x"
+      },
+      {
+        "key": "e_1_2_7_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/geb.12193"
+      },
+      {
+        "key": "e_1_2_7_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1365-2435.12362"
+      },
+      {
+        "key": "e_1_2_7_14_1",
+        "first-page": "342",
+        "volume-title": "Ecology and evolution of communities",
+        "author": "Diamond J. M.",
+        "year": "1975"
+      },
+      {
+        "key": "e_1_2_7_15_1",
+        "unstructured": "Environment Canada.2016.Historical data.http://climate.weather.gc.ca/historical_data/search_historic_data_e.html"
+      },
+      {
+        "key": "e_1_2_7_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1469-7998.1985.tb05640.x"
+      },
+      {
+        "key": "e_1_2_7_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1603/0046-225X-33.5.1282"
+      },
+      {
+        "key": "e_1_2_7_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1365-2664.12530"
+      },
+      {
+        "key": "e_1_2_7_19_1",
+        "volume-title": "Plant functional diversity: organism traits, community structure, and ecosystem properties",
+        "author": "Garnier E.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_7_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/2041-210X.12103"
+      },
+      {
+        "key": "e_1_2_7_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.2015.0268"
+      },
+      {
+        "key": "e_1_2_7_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00442-012-2290-3"
+      },
+      {
+        "key": "e_1_2_7_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1365-2435.12058"
+      },
+      {
+        "key": "e_1_2_7_24_1",
+        "unstructured": "L. J. Jobin C. Coulombe 1988"
+      },
+      {
+        "key": "e_1_2_7_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/3235676"
+      },
+      {
+        "key": "e_1_2_7_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1463-6409.1990.tb00255.x"
+      },
+      {
+        "key": "e_1_2_7_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/oik.04712"
+      },
+      {
+        "key": "e_1_2_7_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jvs.12083"
+      },
+      {
+        "key": "e_1_2_7_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1365-2435.12849"
+      },
+      {
+        "key": "e_1_2_7_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s004420100716"
+      },
+      {
+        "key": "e_1_2_7_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-444-53868-0.50018-6"
+      },
+      {
+        "key": "e_1_2_7_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1461-0248.2012.01826.x"
+      },
+      {
+        "key": "e_1_2_7_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2745.2004.00838.x"
+      },
+      {
+        "key": "e_1_2_7_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/12-1936.1"
+      },
+      {
+        "key": "e_1_2_7_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2656.2008.01462.x"
+      },
+      {
+        "key": "e_1_2_7_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1365-2435.12776"
+      },
+      {
+        "key": "e_1_2_7_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.0014-3820.2006.tb01858.x"
+      },
+      {
+        "key": "e_1_2_7_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/oik.02788"
+      },
+      {
+        "key": "e_1_2_7_39_1",
+        "unstructured": "J. Oksanen F. G. Blanchet R. Kindt P. Legendre P. R. Minchin B. O'Hara G. L. Simpson P. Solymos M. H. H. Steven H. Wagner 2013"
+      },
+      {
+        "key": "e_1_2_7_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s004420100720"
+      },
+      {
+        "key": "e_1_2_7_41_1",
+        "volume-title": "The ecological implications of body size",
+        "author": "Peters R. H.",
+        "year": "1986"
+      },
+      {
+        "key": "e_1_2_7_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.baae.2014.03.007"
+      },
+      {
+        "key": "e_1_2_7_43_1",
+        "unstructured": "R Core Team.2017.R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing Vienna Austria."
+      },
+      {
+        "key": "e_1_2_7_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1365-2745.12211"
+      },
+      {
+        "key": "e_1_2_7_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1942161"
+      },
+      {
+        "key": "e_1_2_7_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.12688/f1000research.11813.1"
+      },
+      {
+        "key": "e_1_2_7_47_1",
+        "volume-title": "From plant traits to vegetation structure: chance and selection in the assembly of ecological communities",
+        "author": "Shipley B.",
+        "year": "2010"
+      },
+      {
+        "key": "e_1_2_7_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1095-8312.1979.tb00063.x"
+      },
+      {
+        "key": "e_1_2_7_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1365-2656.12218"
+      },
+      {
+        "key": "e_1_2_7_50_1",
+        "first-page": "1",
+        "article-title": "The taxonomic and functional biogeographies of phytoplankton and zooplankton communities across boreal lakes",
+        "volume": "373332",
+        "author": "St‐Gelais N. F.",
+        "year": "2018",
+        "journal-title": "bioRxiv"
+      },
+      {
+        "key": "e_1_2_7_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/303208"
+      },
+      {
+        "key": "e_1_2_7_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1469-7998.2009.00628.x"
+      },
+      {
+        "key": "e_1_2_7_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.0030-1299.2008.15972.x"
+      },
+      {
+        "key": "e_1_2_7_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.0030-1299.2007.15559.x"
+      },
+      {
+        "key": "e_1_2_7_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/ele.12865"
+      },
+      {
+        "key": "e_1_2_7_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1910(89)90096-6"
+      },
+      {
+        "key": "e_1_2_7_57_1",
+        "first-page": "293",
+        "article-title": "Diplopoda communities in different forest habitats of Białowieża Primeval Forest, Poland",
+        "volume": "44",
+        "author": "Wytwer J.",
+        "year": "2003",
+        "journal-title": "African Invertebrates"
+      }
+    ],
+    "container-title": [
+      "Ecology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/ecy.2815",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/ecy.2815",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ecy.2815",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          5
+        ]
+      ],
+      "date-time": "2023-09-05T23:10:05Z",
+      "timestamp": 1693955405000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.2815"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          14
+        ]
+      ]
+    },
+    "references-count": 56,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/ecy.2815"
+    ],
+    "URL": "https://doi.org/10.1002/ecy.2815",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0012-9658",
+      "1939-9170"
+    ],
+    "issn-type": [
+      {
+        "value": "0012-9658",
+        "type": "print"
+      },
+      {
+        "value": "1939-9170",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          14
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2018-11-03",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-05-28",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-08-14",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

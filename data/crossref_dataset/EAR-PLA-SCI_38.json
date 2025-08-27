@@ -1,0 +1,1538 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2024-11-19T17:47:07Z",
+      "timestamp": 1732038427546
+    },
+    "reference-count": 113,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              16
+            ]
+          ],
+          "date-time": "2020-07-16T00:00:00Z",
+          "timestamp": 1594857600000
+        },
+        "content-version": "am",
+        "delay-in-days": 289,
+        "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100005156",
+        "name": "Alexander von Humboldt Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100005156",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000104",
+        "name": "NASA Emerging Worlds",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NNX15AH41G"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000104",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Geochimica et Cosmochimica Acta"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.gca.2019.07.021",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          17
+        ]
+      ],
+      "date-time": "2019-07-17T23:43:22Z",
+      "timestamp": 1563407002000
+    },
+    "page": "215-234",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "special_numbering": "C",
+    "title": [
+      "Combined mass-dependent and nucleosynthetic isotope variations in refractory inclusions and their mineral separates to determine their original Fe isotope compositions"
+    ],
+    "prefix": "10.1016",
+    "volume": "263",
+    "author": [
+      {
+        "given": "Quinn R.",
+        "family": "Shollenberger",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Andreas",
+        "family": "Wittke",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jan",
+        "family": "Render",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Prajkta",
+        "family": "Mane",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Stephan",
+        "family": "Schuth",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Stefan",
+        "family": "Weyer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nikolaus",
+        "family": "Gussone",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Meenakshi",
+        "family": "Wadhwa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gregory A.",
+        "family": "Brennecka",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "343",
+        "DOI": "10.1016/j.epsl.2010.10.015",
+        "article-title": "U-Pb chronology of the Solar System’s oldest solids with variable 238U/235U",
+        "volume": "300",
+        "author": "Amelin",
+        "year": "2010",
+        "journal-title": "Earth Planet. Sci. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "75",
+        "DOI": "10.1016/j.epsl.2017.04.022",
+        "article-title": "Testing the chondrule-rich accretion model for planetary embryos using calcium isotopes",
+        "volume": "469",
+        "author": "Amsellem",
+        "year": "2017",
+        "journal-title": "Earth Planet. Sci. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "874",
+        "DOI": "10.1086/518819",
+        "article-title": "Mixing and Homogenization in the early solar system: clues from Sr, Ba, Nd, and Sm Isotopes in Meteorites",
+        "volume": "665",
+        "author": "Andreasen",
+        "year": "2007",
+        "journal-title": "Astrophys J."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "322",
+        "DOI": "10.1021/ac034601v",
+        "article-title": "Fe isotope variations in natural materials measured using high mass resolution multiple collector ICPMS",
+        "volume": "76",
+        "author": "Arnold",
+        "year": "2004",
+        "journal-title": "Anal. Chem."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "4727",
+        "DOI": "10.1016/j.gca.2004.04.023",
+        "article-title": "Inter-mineral Fe isotope variations in mantle-derived rocks and implications for the Fe geochemical cycle",
+        "volume": "68",
+        "author": "Beard",
+        "year": "2004",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "397",
+        "DOI": "10.1351/PAC-REP-10-06-02",
+        "article-title": "Isotopic compositions of the elements 2009 (IUPAC Technical Report)",
+        "volume": "83",
+        "author": "Berglund",
+        "year": "2011",
+        "journal-title": "Pure Appl. Chem."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "206",
+        "DOI": "10.1016/j.gca.2018.01.034",
+        "article-title": "Origins of mass-dependent and mass-independent Ca isotope variations in meteoritic components and meteorites",
+        "volume": "226",
+        "author": "Bermingham",
+        "year": "2018",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "943",
+        "DOI": "10.1029/GL011i010p00943",
+        "article-title": "Chromium isotopic anomalies in Allende refractory inclusions",
+        "volume": "11",
+        "author": "Birck",
+        "year": "1984",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "745",
+        "DOI": "10.1029/GL012i011p00745",
+        "article-title": "Evidence for the presence of 53Mn in the early solar system",
+        "volume": "12",
+        "author": "Birck",
+        "year": "1985",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "131",
+        "DOI": "10.1016/0012-821X(88)90096-9",
+        "article-title": "Nickel and chromium isotopes in Allende inclusions",
+        "volume": "90",
+        "author": "Birck",
+        "year": "1988",
+        "journal-title": "Earth Planet. Sci. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "693",
+        "DOI": "10.1016/0016-7037(84)90096-6",
+        "article-title": "Al-rich objects in ordinary chondrites: Related origin of carbonaceous and ordinary chondrites and their constituents",
+        "volume": "48",
+        "author": "Bischoff",
+        "year": "1984",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "275",
+        "DOI": "10.1038/nature02882",
+        "article-title": "Mg isotope evidence for contemporaneous formation of chondrules and refractory inclusions",
+        "volume": "431",
+        "author": "Bizzarro",
+        "year": "2004",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "569",
+        "DOI": "10.1016/0016-7037(75)90003-4",
+        "article-title": "Fractionation in the solar nebula: condensation of yttrium and the rare earth elements",
+        "volume": "39",
+        "author": "Boynton",
+        "year": "1975",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0070",
+        "unstructured": "Bouvier A., Brennecka G. A., Wadhwa M. (2011a) Absolute chronology of the first solids in the solar system. In Workshop on Formation of the First Solids in the Solar System, #9054."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0075",
+        "doi-asserted-by": "crossref",
+        "first-page": "5310",
+        "DOI": "10.1016/j.gca.2011.06.033",
+        "article-title": "New constraints on early Solar System chronology from Al–Mg and U-Pb isotope systematics in the unique basaltic achondrite Northwest Africa 2976",
+        "volume": "75",
+        "author": "Bouvier",
+        "year": "2011",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "449",
+        "DOI": "10.1126/science.1180871",
+        "article-title": "238U/235U Variations in Meteorites: Extant 247Cm and Implications for Pb-Pb Dating",
+        "volume": "327",
+        "author": "Brennecka",
+        "year": "2010",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "17241",
+        "DOI": "10.1073/pnas.1307759110",
+        "article-title": "Evidence for supernova injection into the solar nebula and the decoupling or r-process nucleosynthesis",
+        "volume": "110",
+        "author": "Brennecka",
+        "year": "2013",
+        "journal-title": "Proc. Nat. Acad. Sci."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "331",
+        "DOI": "10.1016/j.gca.2016.10.003",
+        "article-title": "A renewed search for short-lived 126Sn in the early Solar System: Hydride generation MC-ICPMS for high sensitivity Te isotopic analysis",
+        "volume": "201",
+        "author": "Brennecka",
+        "year": "2017",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0095",
+        "unstructured": "Brennecka G. A., Burkhardt C., Kruijer T.S., and Kleine T. (2017b) Towards understanding the source of nucleosynthetic anomalies in refractory inclusions. Lunar Planet. Sci. XLVIII. Lunar Planet. Inst., Houston. #1619 (abstr.)."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "6177",
+        "DOI": "10.1016/j.gca.2008.10.023",
+        "article-title": "Hf-W mineral isochron for Ca, Al-rich inclusions: Age of the solar system and the timing of core formation in planetesimals",
+        "volume": "72",
+        "author": "Burkhardt",
+        "year": "2008",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0105",
+        "doi-asserted-by": "crossref",
+        "first-page": "390",
+        "DOI": "10.1016/j.epsl.2011.10.010",
+        "article-title": "Molybdenum isotope anomalies in meteorites: constraints on solar nebula evolution and origin of the Earth",
+        "volume": "312",
+        "author": "Burkhardt",
+        "year": "2011",
+        "journal-title": "Earth Planet. Sci. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0110",
+        "unstructured": "Burkhardt C. (2012) Molybdenum isotopes and solar nebula evolution. Ph.D. dissertation, ETH Zurich, Zurich."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "394",
+        "DOI": "10.1038/nature18956",
+        "article-title": "A nucleosynthetic origin for the Earth’s anomalous 142Nd composition",
+        "volume": "537",
+        "author": "Burkhardt",
+        "year": "2016",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "1175",
+        "DOI": "10.1126/science.1140189",
+        "article-title": "Chondrite barium, neodymium, and samarium isotopic heterogeneity and early Earth differentiation",
+        "volume": "316",
+        "author": "Carlson",
+        "year": "2007",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "703",
+        "DOI": "10.3319/TAO.2008.09.19.01(TT)",
+        "article-title": "In situ Ti isotopic measurements by laser ablation MC-ICP-MS",
+        "volume": "20",
+        "author": "Chen",
+        "year": "2009",
+        "journal-title": "Terr. Atmos. Ocean. Sci."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0135",
+        "unstructured": "Chen J. H. and Papanastassiou D. A. (2014) Endemic 64Ni effects in Allende Ca-Al-Rich inclusions. Lunar Planet. Sci. XLV. Lunar Planet. Inst., Houston. #2327 (abstr.)."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "295",
+        "DOI": "10.1029/GL004i007p00295",
+        "article-title": "Correlated oxygen and magnesium isotope anomalies in Allende inclusions. I. Oxygen",
+        "volume": "4",
+        "author": "Clayton",
+        "year": "1977",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0145",
+        "doi-asserted-by": "crossref",
+        "first-page": "651",
+        "DOI": "10.1126/science.1226919",
+        "article-title": "The absolute chronology and thermal processing of solids in the solar protoplanetary disk",
+        "volume": "338",
+        "author": "Connelly",
+        "year": "2012",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "172",
+        "DOI": "10.3847/1538-3881/aa8b12",
+        "article-title": "Iron isotopic compositions of troilite (FeS) inclusions from iron meteorites",
+        "volume": "154",
+        "author": "Cook",
+        "year": "2017",
+        "journal-title": "Astron. J."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0155",
+        "doi-asserted-by": "crossref",
+        "first-page": "101",
+        "DOI": "10.1111/j.1751-908X.2010.00085.x",
+        "article-title": "Iron isotopic compositions of geological reference materials and chondrites",
+        "volume": "35",
+        "author": "Craddock",
+        "year": "2011",
+        "journal-title": "Geostand. Geoanal. Res."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0160",
+        "doi-asserted-by": "crossref",
+        "first-page": "709",
+        "DOI": "10.1146/annurev-earth-060115-012157",
+        "article-title": "Mass fractionation laws, mass-independent effects, and isotopic anomalies",
+        "volume": "44",
+        "author": "Dauphas",
+        "year": "2016",
+        "journal-title": "Annu. Rev. Earth Planet. Sci."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0165",
+        "doi-asserted-by": "crossref",
+        "first-page": "5855",
+        "DOI": "10.1021/ac0497095",
+        "article-title": "Chromatographic separation and multicollection-ICPMS analysis of iron. Investigating mass-dependent and -independent isotope effects",
+        "volume": "76",
+        "author": "Dauphas",
+        "year": "2004",
+        "journal-title": "Anal. Chem."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0170",
+        "doi-asserted-by": "crossref",
+        "first-page": "1611",
+        "DOI": "10.1016/0016-7037(79)90181-9",
+        "article-title": "Condensation and fractionation of rare earths in the solar nebula",
+        "volume": "43",
+        "author": "Davis",
+        "year": "1979",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0175",
+        "doi-asserted-by": "crossref",
+        "first-page": "275",
+        "DOI": "10.1016/j.gca.2017.07.032",
+        "article-title": "Titanium isotopes and rare earth patterns in CAIs: evidence for thermal processing and gas-dust decoupling in the protoplanetary disk",
+        "volume": "221",
+        "author": "Davis",
+        "year": "2018",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0180",
+        "doi-asserted-by": "crossref",
+        "first-page": "257",
+        "DOI": "10.1016/j.epsl.2018.06.040",
+        "article-title": "Ti isotopic evidence for a non-CAI refractory component in the inner Solar System",
+        "volume": "498",
+        "author": "Ebert",
+        "year": "2018",
+        "journal-title": "Earth Planet. Sci. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0185",
+        "doi-asserted-by": "crossref",
+        "first-page": "1221",
+        "DOI": "10.1111/j.1945-5100.2007.tb00570.x",
+        "article-title": "Al-Mg isotopic evidence for episodic alteration of Ca-Al-rich inclusions from Allende",
+        "volume": "42",
+        "author": "Fagan",
+        "year": "2007",
+        "journal-title": "Meteorit. Planet. Sci."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0190",
+        "doi-asserted-by": "crossref",
+        "first-page": "132",
+        "DOI": "10.1016/j.gca.2014.06.002",
+        "article-title": "First-principles investigations of equilibrium calcium isotope fractionation between clinopyroxene and Ca-doped orthopyroxene",
+        "volume": "143",
+        "author": "Feng",
+        "year": "2014",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0195",
+        "doi-asserted-by": "crossref",
+        "first-page": "196",
+        "DOI": "10.1016/j.gca.2016.11.016",
+        "article-title": "Nickel isotopic composition of the mantle",
+        "volume": "199",
+        "author": "Gall",
+        "year": "2017",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0200",
+        "doi-asserted-by": "crossref",
+        "first-page": "L17",
+        "DOI": "10.3847/2041-8213/aa72a2",
+        "article-title": "Mixing and transport of dust in the early solar nebula as inferred from titanium isotope variations among chondrules",
+        "volume": "841",
+        "author": "Gerber",
+        "year": "2017",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0205",
+        "doi-asserted-by": "crossref",
+        "first-page": "194",
+        "DOI": "10.1016/j.chemgeo.2011.04.002",
+        "article-title": "Calcium isotope fractionation in ikaite and vaterite",
+        "volume": "285",
+        "author": "Gussone",
+        "year": "2011",
+        "journal-title": "Chem. Geol."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "165",
+        "DOI": "10.1016/0020-7381(83)85004-9",
+        "article-title": "Fractionation in the thermal ionization source",
+        "volume": "51",
+        "author": "Habfast",
+        "year": "1983",
+        "journal-title": "Int. J. Mass Spectrom. Ion Phys."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0215",
+        "doi-asserted-by": "crossref",
+        "first-page": "157",
+        "DOI": "10.1086/153142",
+        "article-title": "On the e-process: its components and their neutron excesses",
+        "volume": "193",
+        "author": "Hainebach",
+        "year": "1974",
+        "journal-title": "Astrophys J."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "204",
+        "DOI": "10.1016/j.epsl.2013.05.029",
+        "article-title": "Rb-Sr chronology of volatile depletion in differentiated protoplanets: BABI, ADOR and ALL revisited",
+        "volume": "374",
+        "author": "Hans",
+        "year": "2013",
+        "journal-title": "Earth Planet. Sci. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0225",
+        "doi-asserted-by": "crossref",
+        "first-page": "287",
+        "DOI": "10.1016/0168-1176(89)83065-4",
+        "article-title": "Isotope fractionation laws: a test using calcium",
+        "volume": "89",
+        "author": "Hart",
+        "year": "1989",
+        "journal-title": "Int. J. Mass Spectr. Ion Proc."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0230",
+        "doi-asserted-by": "crossref",
+        "first-page": "837",
+        "DOI": "10.1086/163580",
+        "article-title": "Nucleosynthesis in neutron-rich supernova ejecta",
+        "volume": "297",
+        "author": "Hartmann",
+        "year": "1985",
+        "journal-title": "Astrophys J."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0235",
+        "doi-asserted-by": "crossref",
+        "first-page": "385",
+        "DOI": "10.1016/S1387-3806(02)00838-2",
+        "article-title": "Measurement of calcium isotopes (δ44Ca) using a multicollector TIMS technique",
+        "volume": "220",
+        "author": "Heuser",
+        "year": "2002",
+        "journal-title": "Int. J. Mass Spectrom."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0240",
+        "doi-asserted-by": "crossref",
+        "first-page": "406",
+        "DOI": "10.1016/0012-821X(82)90089-9",
+        "article-title": "Terrestrial, meteoritic, and lunar Ti isotopic ratios revaluated: Evidence for correlated variations",
+        "volume": "58",
+        "author": "Heydegger",
+        "year": "1982",
+        "journal-title": "Earth Planet. Sci. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0245",
+        "unstructured": "Hezel D. C., Needham A. W., and Russell S. S. (2008) Fe-isotopic composition of chondrules, CAI, matrix and bulk meteorite in Mokoia and Grosnaja CV-chondrites. Lunar Planet. Sci. XXXIX. Lunar Planet. Inst., Houston. #1603 (abstr.)."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0250",
+        "doi-asserted-by": "crossref",
+        "first-page": "337",
+        "DOI": "10.1016/j.epsl.2010.01.042",
+        "article-title": "Calcium isotopic fractionation between clinopyroxene and orthopyroxene from mantle peridotites",
+        "volume": "292",
+        "author": "Huang",
+        "year": "2010",
+        "journal-title": "Earth Planet. Sci. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0255",
+        "doi-asserted-by": "crossref",
+        "first-page": "252",
+        "DOI": "10.1016/j.gca.2011.11.002",
+        "article-title": "Calcium isotopic ratios and rare earth element abundances in refractory inclusions from the Allende CV3 chondrite",
+        "volume": "77",
+        "author": "Huang",
+        "year": "2012",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0260",
+        "doi-asserted-by": "crossref",
+        "first-page": "70",
+        "DOI": "10.1016/j.gca.2016.05.014",
+        "article-title": "A link between oxygen, calcium, and titanium isotopes in 26Al-poor hibonite-rich CAIs from Murchison and implications for the heterogeneity of dust reservoirs in the solar nebula",
+        "volume": "189",
+        "author": "Kööp",
+        "year": "2016",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0265",
+        "doi-asserted-by": "crossref",
+        "first-page": "748",
+        "DOI": "10.1111/j.1945-5100.1995.tb01173.x",
+        "article-title": "Mineralogical and chemical modification of components in CV3 chondrites: nebular or asteroidal processing?",
+        "volume": "30",
+        "author": "Krot",
+        "year": "1995",
+        "journal-title": "Meteoritics"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0270",
+        "doi-asserted-by": "crossref",
+        "first-page": "206",
+        "DOI": "10.1016/j.gca.2014.09.027",
+        "article-title": "Calcium-aluminum-rich inclusions with fractionation and unknown nuclear effects (FUN CAIs), I: mineralogy, petrology, and oxygen isotopic compositions",
+        "volume": "145",
+        "author": "Krot",
+        "year": "2014",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0275",
+        "doi-asserted-by": "crossref",
+        "first-page": "317",
+        "DOI": "10.1016/j.epsl.2014.07.003",
+        "article-title": "Nucleosynthetic W isotope anomalies and the Hf-W chronometry of Ca-Al-rich inclusions",
+        "volume": "403",
+        "author": "Kruijer",
+        "year": "2014",
+        "journal-title": "Earth Planet. Sci. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0280",
+        "doi-asserted-by": "crossref",
+        "first-page": "L37",
+        "DOI": "10.1088/2041-8205/735/2/L37",
+        "article-title": "Evidence for magnesium isotope heterogeneity in the solar protoplanetary disk",
+        "volume": "735",
+        "author": "Larsen",
+        "year": "2011",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0285",
+        "doi-asserted-by": "crossref",
+        "first-page": "L93",
+        "DOI": "10.1086/182911",
+        "article-title": "Calcium isotopic anomalies and the lack of aluminum-26 in an unusual Allende inclusion",
+        "volume": "228",
+        "author": "Lee",
+        "year": "1979",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0290",
+        "doi-asserted-by": "crossref",
+        "first-page": "1118",
+        "DOI": "10.1088/0004-637X/702/2/1118",
+        "article-title": "New titanium isotope data for Allende and Efremovka CAIs",
+        "volume": "702",
+        "author": "Leya",
+        "year": "2009",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0295",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1016/j.epsl.2014.05.002",
+        "article-title": "Disequilibrium iron isotopic fractionation during the high-temperature magmatic differentiation of the Baima Fe-Ti oxide-bearing mafic intrusion, SW China",
+        "volume": "399",
+        "author": "Liu",
+        "year": "2014",
+        "journal-title": "Earth Planet. Sci. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0300",
+        "doi-asserted-by": "crossref",
+        "first-page": "1220",
+        "DOI": "10.1086/375492",
+        "article-title": "Solar system abundances and condensation temperatures of the elements",
+        "volume": "591",
+        "author": "Lodders",
+        "year": "2003",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0305",
+        "doi-asserted-by": "crossref",
+        "first-page": "L59",
+        "DOI": "10.1086/185812",
+        "article-title": "Zinc isotope anomalies in Allende meteorite inclusions",
+        "volume": "360",
+        "author": "Loss",
+        "year": "1990",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0310",
+        "unstructured": "Mane P., Romaniello S. J., Brennecka G. A., Williams C. D., and Wadhwa M. (2014) Zr isotope systematics of Allende CAIs. Meteoritical Society Meeting LXXVII. Lunar Planet. Inst., Casablanca. #5403 (abstr.)."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0315",
+        "unstructured": "Mane P., Torrano Z. A., Romaniello S. J., Brennecka G. A., Shollenberger Q. R., Borg L., and Wadhwa M. (2016) Zirconium and Chromium isotope systematics of non-Allende CAIs. Lunar Planet. Sci. XLVII. Lunar Planet. Inst., Houston. #2778 (abstr.)."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0320",
+        "unstructured": "Mercer C., Souders A. K., Romaniello S. J., Williams C. D., Brennecka G. A., and Wadhwa M. (2015) Chromium and titanium isotope systematics of Allende CAIs. Lunar Planet. Sci. XLVI. Lunar Planet. Inst., Houston. #2920 (abstr.)."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0325",
+        "doi-asserted-by": "crossref",
+        "first-page": "1444",
+        "DOI": "10.1039/C4JA00096J",
+        "article-title": "Ultra-precise titanium stable isotope measurements by double-spike high resolution MC-ICP-MS",
+        "volume": "29",
+        "author": "Millet",
+        "year": "2014",
+        "journal-title": "J. Anal. At. Spectrom."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0330",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1088/0004-637X/758/1/45",
+        "article-title": "Planetary-scale strontium isotope heterogeneity and the age of volatile depletion of early Solar System materials",
+        "volume": "758",
+        "author": "Moynier",
+        "year": "2012",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0335",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.1016/j.epsl.2005.07.026",
+        "article-title": "Nebular and asteroidal modification of the iron isotope composition of chondritic components",
+        "volume": "239",
+        "author": "Mullane",
+        "year": "2005",
+        "journal-title": "Earth Planet. Sci. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0340",
+        "doi-asserted-by": "crossref",
+        "first-page": "48",
+        "DOI": "10.3847/1538-4357/aa9f2e",
+        "article-title": "The origin and evolution of nucleosynthetic Sr isotope variability in calcium and aluminum-rich refractory inclusions",
+        "volume": "853",
+        "author": "Myojo",
+        "year": "2018",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0345",
+        "doi-asserted-by": "crossref",
+        "first-page": "1279",
+        "DOI": "10.1016/0016-7037(84)90062-0",
+        "article-title": "Ca isotopes in refractory inclusions",
+        "volume": "48",
+        "author": "Niederer",
+        "year": "1984",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0350",
+        "doi-asserted-by": "crossref",
+        "first-page": "73",
+        "DOI": "10.1086/183326",
+        "article-title": "Endemic isotopic anomalies in titanium",
+        "volume": "240",
+        "author": "Niederer",
+        "year": "1980",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0355",
+        "doi-asserted-by": "crossref",
+        "first-page": "1017",
+        "DOI": "10.1016/0016-7037(81)90128-9",
+        "article-title": "The isotopic composition of Ti in the Allende and Leoville meteorites",
+        "volume": "45",
+        "author": "Niederer",
+        "year": "1981",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0360",
+        "doi-asserted-by": "crossref",
+        "first-page": "835",
+        "DOI": "10.1016/0016-7037(85)90176-0",
+        "article-title": "Absolute isotopic abundances of Ti in meteorites",
+        "volume": "49",
+        "author": "Niederer",
+        "year": "1985",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0365",
+        "doi-asserted-by": "crossref",
+        "first-page": "211",
+        "DOI": "10.1016/0012-821X(81)90155-2",
+        "article-title": "Ubiquitous isotopic anomalies in Ti from normal Allende inclusions",
+        "volume": "53",
+        "author": "Niemeyer",
+        "year": "1981",
+        "journal-title": "Earth Planet. Sci. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0370",
+        "doi-asserted-by": "crossref",
+        "first-page": "259",
+        "DOI": "10.1016/S0012-821X(02)01153-6",
+        "article-title": "Presolar stardust in meteorites: recent advances and scientific frontiers",
+        "volume": "209",
+        "author": "Nittler",
+        "year": "2003",
+        "journal-title": "Earth Planet. Sci. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0375",
+        "doi-asserted-by": "crossref",
+        "first-page": "L24",
+        "DOI": "10.3847/2041-8213/aab61f",
+        "article-title": "Extremely 54Cr- and 50Ti-rich presolar oxide grains in a primitive meteorite: formation in rare types of supernovae and implications for the astrophysical context of solar system birth",
+        "volume": "856",
+        "author": "Nittler",
+        "year": "2018",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0380",
+        "doi-asserted-by": "crossref",
+        "first-page": "374",
+        "DOI": "10.1016/j.gca.2012.09.041",
+        "article-title": "Isotope fractionation during Ca exchange on clay minerals in a marine environment",
+        "volume": "112",
+        "author": "Ockert",
+        "year": "2013",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0390",
+        "doi-asserted-by": "crossref",
+        "first-page": "311",
+        "DOI": "10.1111/j.1751-908X.2014.00288.x",
+        "article-title": "High-precision Fe and Mg isotope ratios of silicate reference glasses determined in situ by femtosecond LA-MC-ICP-MS and by solution nebulisation MC-ICP-MS",
+        "volume": "38",
+        "author": "Oeser",
+        "year": "2014",
+        "journal-title": "Geostand. Geoanal. Res."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0385",
+        "doi-asserted-by": "crossref",
+        "first-page": "130",
+        "DOI": "10.1016/j.gca.2015.01.025",
+        "article-title": "Processes and time scales of magmatic evolution as revealed by Fe-Mg chemical and isotopic zoning in natural olivines",
+        "volume": "154",
+        "author": "Oeser",
+        "year": "2015",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0395",
+        "doi-asserted-by": "crossref",
+        "first-page": "L37",
+        "DOI": "10.1086/185395",
+        "article-title": "The identification of meteorite inclusions with isotope anomalies",
+        "volume": "338",
+        "author": "Papanastassiou",
+        "year": "1989",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0400",
+        "doi-asserted-by": "crossref",
+        "first-page": "L40",
+        "DOI": "10.1088/2041-8205/763/2/L40",
+        "article-title": "Identification of an 84Sr-Depleted carrier in primitive meteorites and implications for thermal processing in the solar protoplanetary disk",
+        "volume": "763",
+        "author": "Paton",
+        "year": "2013",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0405",
+        "doi-asserted-by": "crossref",
+        "first-page": "678",
+        "DOI": "10.1086/509771",
+        "article-title": "Correlated Iron 60, Nickel 62 and Zirconium 96 in refractory inclusions and the origin of the Solar System",
+        "volume": "655",
+        "author": "Quitté",
+        "year": "2007",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0410",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.3847/1538-4357/aacb7e",
+        "article-title": "A distinct nucleosynthetic heritage for early Solar System solids recorded by Ni isotope signatures",
+        "volume": "862",
+        "author": "Render",
+        "year": "2018",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0415",
+        "doi-asserted-by": "crossref",
+        "first-page": "94",
+        "DOI": "10.1016/j.ijms.2010.06.004",
+        "article-title": "New average values for the n(238U)/n(235U) isotope ratios of natural uranium standards",
+        "volume": "295",
+        "author": "Richter",
+        "year": "2010",
+        "journal-title": "Int. J. Mass Spectrom."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0420",
+        "doi-asserted-by": "crossref",
+        "first-page": "217",
+        "DOI": "10.1351/pac199870010217",
+        "article-title": "Isotopic compositions of the elements 1997 (Technical Report)",
+        "volume": "70",
+        "author": "Rosman",
+        "year": "1998",
+        "journal-title": "Pure Appl. Chem."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0425",
+        "first-page": "1439",
+        "article-title": "Ca, Al-rich inclusions in Rumuruti (R) chondrites",
+        "volume": "9",
+        "author": "Rout",
+        "year": "2008",
+        "journal-title": "MAPS"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0430",
+        "doi-asserted-by": "crossref",
+        "first-page": "1151",
+        "DOI": "10.1021/ac50030a036",
+        "article-title": "Calcium isotope fractionation in ion-exchange chromatography",
+        "volume": "50",
+        "author": "Russell",
+        "year": "1978",
+        "journal-title": "Anal. Chem."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0435",
+        "doi-asserted-by": "crossref",
+        "first-page": "1075",
+        "DOI": "10.1016/0016-7037(78)90105-9",
+        "article-title": "Ca isotope fractionation on the Earth and other solar system materials",
+        "volume": "42",
+        "author": "Russell",
+        "year": "1978",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0440",
+        "doi-asserted-by": "crossref",
+        "first-page": "79",
+        "DOI": "10.1016/j.gca.2011.11.043",
+        "article-title": "Amoeboid olivine aggregates (AOAs) in the Efremovka, Leoville and Vigarano (CV3) chondrites: A record of condensate evolution in the solar nebula",
+        "volume": "79",
+        "author": "Ruzicka",
+        "year": "2012",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0445",
+        "doi-asserted-by": "crossref",
+        "first-page": "6004",
+        "DOI": "10.1016/j.gca.2011.07.025",
+        "article-title": "The major ion, δ44/40Ca, δ44/42Ca, and δ26/24Mg geochemistry of granite weathering at pH = 1 and T = 25 °C: power-law processes and the relative reactivity of minerals",
+        "volume": "75",
+        "author": "Ryu",
+        "year": "2011",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0450",
+        "doi-asserted-by": "crossref",
+        "first-page": "88",
+        "DOI": "10.1016/j.gca.2014.11.005",
+        "article-title": "Evidence for nucleosynthetic enrichment of the protosolar molecular cloud core by multiple supernova events",
+        "volume": "149",
+        "author": "Schiller",
+        "year": "2015",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0455",
+        "series-title": "Calcium stable isotope geochemistry. Advances in isotope geochemistry",
+        "article-title": "High temperature geochemistry and cosmochemistry",
+        "author": "Schiller",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0460",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.1016/j.chemgeo.2014.11.007",
+        "article-title": "Redox-dependent fractionation of iron isotopes in suspensions of a groundwater-influenced soil",
+        "volume": "392",
+        "author": "Schuth",
+        "year": "2015",
+        "journal-title": "Chem. Geol."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0465",
+        "doi-asserted-by": "crossref",
+        "first-page": "62",
+        "DOI": "10.1016/j.gca.2018.02.006",
+        "article-title": "Isotopic coherence of refractory inclusions from CV and CK meteorites: Evidence from multiple isotope systems",
+        "volume": "228",
+        "author": "Shollenberger",
+        "year": "2018",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0470",
+        "doi-asserted-by": "crossref",
+        "first-page": "12",
+        "DOI": "10.1016/j.epsl.2018.05.007",
+        "article-title": "Er, Yb, and Hf isotopic compositions of refractory inclusions: An integrated isotopic fingerprint of the Solar System’s earliest reservoir",
+        "volume": "495",
+        "author": "Shollenberger",
+        "year": "2018",
+        "journal-title": "Earth Planet. Sci. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0475",
+        "doi-asserted-by": "crossref",
+        "first-page": "277",
+        "DOI": "10.1016/j.epsl.2017.05.002",
+        "article-title": "Calcium and titanium isotope fractionation in refractory inclusions: Tracers of condensation and inheritance in the early solar protoplanetary disk",
+        "volume": "472",
+        "author": "Simon",
+        "year": "2017",
+        "journal-title": "Earth Planet. Sci. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0480",
+        "doi-asserted-by": "crossref",
+        "first-page": "302",
+        "DOI": "10.1016/j.gca.2013.06.008",
+        "article-title": "Discerning crystal growth from diffusion profiles in zoned olivine by in situ Mg-Fe isotopic analyses",
+        "volume": "123",
+        "author": "Sio",
+        "year": "2013",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0485",
+        "doi-asserted-by": "crossref",
+        "first-page": "5202",
+        "DOI": "10.1016/j.gca.2009.02.038",
+        "article-title": "26Al–26Mg systematics in D’Orbigny and Sahara 99555 angrites: Implications for high-resolution chronology using extinct chronometers",
+        "volume": "73",
+        "author": "Spivak-Birndorf",
+        "year": "2009",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0490",
+        "doi-asserted-by": "crossref",
+        "first-page": "248",
+        "DOI": "10.1016/j.epsl.2012.10.011",
+        "article-title": "Abundance, distribution, and origin of 60Fe in the solar protoplanetary disk",
+        "volume": "248",
+        "author": "Tang",
+        "year": "2012",
+        "journal-title": "Earth Planet. Sci. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0495",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "DOI": "10.1016/0168-1176(92)80075-C",
+        "article-title": "Determination of the absolute isotopic composition and atomic weight of a reference sample of natural iron",
+        "volume": "121",
+        "author": "Taylor",
+        "year": "1992",
+        "journal-title": "Int. J. Mass Spectrom. Ion Processes"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0500",
+        "doi-asserted-by": "crossref",
+        "first-page": "L159",
+        "DOI": "10.1086/506910",
+        "article-title": "Extremely brief formation interval for refractory inclusions and uniform distribution of 26Al in the early solar system",
+        "volume": "646",
+        "author": "Thrane",
+        "year": "2006",
+        "journal-title": "Astrophys. J."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0505",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1126/sciadv.1501400",
+        "article-title": "Origin of uranium isotope variations in early solar nebula condensates",
+        "volume": "2",
+        "author": "Tissot",
+        "year": "2016",
+        "journal-title": "Sci. Adv."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0510",
+        "unstructured": "Torrano Z. A., Rai V. K., and Wadhwa M. (2018) Combined investigation of chromium, titanium, and magnesium isotope compositions of refractory inclusions from a variety of carbonaceous chondrites. Lunar Planet. Sci. XLIX. Lunar Planet. Inst., Houston. #2405 (abstr.)."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0515",
+        "doi-asserted-by": "crossref",
+        "first-page": "374",
+        "DOI": "10.1126/science.1168221",
+        "article-title": "Origin of nucleosynthetic isotope heterogeneity in the solar protoplanetary disk",
+        "volume": "324",
+        "author": "Trinquier",
+        "year": "2009",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0520",
+        "doi-asserted-by": "crossref",
+        "first-page": "L43",
+        "DOI": "10.1086/185603",
+        "article-title": "Iron isotope anomalies",
+        "volume": "347",
+        "author": "Völkening",
+        "year": "1989",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0525",
+        "doi-asserted-by": "crossref",
+        "first-page": "2581",
+        "DOI": "10.1016/0016-7037(82)90379-9",
+        "article-title": "The nature and origin of type B1 and B2 Ca-Al-rich inclusions in the Allende meteorite",
+        "volume": "46",
+        "author": "Wark",
+        "year": "1982",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0530",
+        "doi-asserted-by": "crossref",
+        "first-page": "137",
+        "DOI": "10.1016/j.gca.2017.02.023",
+        "article-title": "Experimental constraints on reconstruction of Archean seawater Ni isotopic composition from banded iron formations",
+        "volume": "206",
+        "author": "Wang",
+        "year": "2017",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0535",
+        "doi-asserted-by": "crossref",
+        "first-page": "299",
+        "DOI": "10.1029/GL004i007p00299",
+        "article-title": "Correlated O and Mg isotopic anomalies in Allende inclusions, II: Magnesium",
+        "volume": "4",
+        "author": "Wasserburg",
+        "year": "1977",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0540",
+        "doi-asserted-by": "crossref",
+        "first-page": "1980",
+        "DOI": "10.1111/maps.12014",
+        "article-title": "Mg isotopic heterogeneity, Al-Mg isochrons, and canonical 26Al/27Al in the early solar system",
+        "volume": "12",
+        "author": "Wasserburg",
+        "year": "2012",
+        "journal-title": "Meteorit. Planet. Sci."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0545",
+        "doi-asserted-by": "crossref",
+        "first-page": "7",
+        "DOI": "10.1088/0004-637X/805/1/7",
+        "article-title": "Isotope anomalies in the Fe-group elements in meteorites and connections to nucleosynthesis in AGB stars",
+        "volume": "805",
+        "author": "Wasserburg",
+        "year": "2015",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0550",
+        "doi-asserted-by": "crossref",
+        "first-page": "56",
+        "DOI": "10.1016/j.chemgeo.2015.02.007",
+        "article-title": "Ni isotope fractionation during sorption to ferrihydrite: Implications for Ni in banded iron formations",
+        "volume": "400",
+        "author": "Wasylenki",
+        "year": "2014",
+        "journal-title": "Chem. Geol."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0555",
+        "doi-asserted-by": "crossref",
+        "first-page": "251",
+        "DOI": "10.1016/j.epsl.2005.09.023",
+        "article-title": "Iron isotope fractionation during planetary differentiation",
+        "volume": "240",
+        "author": "Weyer",
+        "year": "2005",
+        "journal-title": "Earth Planet. Sci. Lett."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0560",
+        "doi-asserted-by": "crossref",
+        "first-page": "345",
+        "DOI": "10.1016/j.gca.2007.11.012",
+        "article-title": "Natural fractionation of 238U/235U",
+        "volume": "72",
+        "author": "Weyer",
+        "year": "2008",
+        "journal-title": "Geochim. Cosmochim. Acta"
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0565",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.chemgeo.2016.04.021",
+        "article-title": "Precise titanium isotope compositions of refractory inclusions in the Allende CV3 chondrite by LA-MC-ICPMS",
+        "volume": "436",
+        "author": "Williams",
+        "year": "2016",
+        "journal-title": "Chem. Geol."
+      },
+      {
+        "key": "10.1016/j.gca.2019.07.021_b0570",
+        "doi-asserted-by": "crossref",
+        "first-page": "2197",
+        "DOI": "10.1039/c1ja10181a",
+        "article-title": "A new method for MC-ICPMS measurement of titanium isotopic composition: Identification of correlated isotope anomalies in meteorites",
+        "volume": "26",
+        "author": "Zhang",
+        "year": "2011",
+        "journal-title": "J. Anal. At. Spectrom."
+      }
+    ],
+    "container-title": [
+      "Geochimica et Cosmochimica Acta"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0016703719304314?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0016703719304314?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          5
+        ]
+      ],
+      "date-time": "2024-04-05T05:15:31Z",
+      "timestamp": 1712294131000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0016703719304314"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 113,
+    "alternative-id": [
+      "S0016703719304314"
+    ],
+    "URL": "https://doi.org/10.1016/j.gca.2019.07.021",
+    "relation": {},
+    "ISSN": [
+      "0016-7037"
+    ],
+    "issn-type": [
+      {
+        "value": "0016-7037",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Combined mass-dependent and nucleosynthetic isotope variations in refractory inclusions and their mineral separates to determine their original Fe isotope compositions",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Geochimica et Cosmochimica Acta",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.gca.2019.07.021",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 Elsevier Ltd. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

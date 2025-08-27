@@ -1,0 +1,877 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          30
+        ]
+      ],
+      "date-time": "2024-06-30T23:07:57Z",
+      "timestamp": 1719788877991
+    },
+    "reference-count": 72,
+    "publisher": "Emerald",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              14
+            ]
+          ],
+          "date-time": "2019-10-14T00:00:00Z",
+          "timestamp": 1571011200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.emerald.com/insight/site-policies"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IJCHM"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          14
+        ]
+      ]
+    },
+    "abstract": "<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Purpose</jats:title>\n<jats:p>To identify, develop and retain talent, an important first step is to ensure that key stakeholders in the talent management (TM) process have a shared view of what is meant by talent within the organisation. The purpose of this paper is to conceptualise how talent is defined in the context of the hospitality industry and to examine the degree of (mis)alignment among corporate and business unit leaders.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Design/methodology/approach</jats:title>\n<jats:p>The paper uses a qualitative approach consisting of 73 interviews with stakeholders at corporate and business unit levels in three multinational hotel corporations. In addition, documents were collected and analysed to support the interview data.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Findings</jats:title>\n<jats:p>Each organisation had a formal approach to conceptualising talent at a corporate level. Both inclusive and exclusive views on talent as well as a broad set of characteristics that make up talent were reported with the importance of organisational values being prominent. However, despite formal global policies being in place, considerable divergence in practice was found across organisational levels.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Practical implications</jats:title>\n<jats:p>A lack of clarity on what talent means in an organisational setting may lead to an inconsistent talent identification process which may lead to negative perceptions of fairness among employees. This may, in turn, bring about disgruntled employees and increased turnover.</jats:p>\n</jats:sec>\n<jats:sec>\n<jats:title content-type=\"abstract-subheading\">Originality/value</jats:title>\n<jats:p>This paper provides empirical evidence to the limited body of knowledge on the conceptualisation of talent. The display of organisational values emerged as important to being labelled talent, a factor that has received scant consideration in the literature.</jats:p>\n</jats:sec>",
+    "DOI": "10.1108/ijchm-10-2018-0849",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          3
+        ]
+      ],
+      "date-time": "2019-06-03T05:59:08Z",
+      "timestamp": 1559541548000
+    },
+    "page": "3879-3898",
+    "source": "Crossref",
+    "is-referenced-by-count": 26,
+    "title": [
+      "Conceptualising talent in multinational hotel corporations"
+    ],
+    "prefix": "10.1108",
+    "volume": "31",
+    "author": [
+      {
+        "given": "Stefan",
+        "family": "Jooss",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Anthony",
+        "family": "McDonnell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ralf",
+        "family": "Burbach",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Vlad",
+        "family": "Vaiman",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "140",
+    "reference": [
+      {
+        "issue": "4",
+        "key": "key2019111415574600600_ref001",
+        "doi-asserted-by": "crossref",
+        "first-page": "379",
+        "DOI": "10.1108/JOEPP-05-2017-0047",
+        "article-title": "A chief HR officer’s perspective on talent management",
+        "volume": "4",
+        "year": "2017",
+        "journal-title": "Journal of Organizational Effectiveness: People and Performance"
+      },
+      {
+        "issue": "7",
+        "key": "key2019111415574600600_ref002",
+        "doi-asserted-by": "crossref",
+        "first-page": "730",
+        "DOI": "10.1108/09596110810897583",
+        "article-title": "Education and talent management: Implications for the hospitality industry",
+        "volume": "20",
+        "year": "2008",
+        "journal-title": "International Journal of Contemporary Hospitality Management"
+      },
+      {
+        "issue": "2",
+        "key": "key2019111415574600600_ref003",
+        "doi-asserted-by": "crossref",
+        "first-page": "124",
+        "DOI": "10.1375/jhtm.13.2.124",
+        "article-title": "Reflections on the nature of skills in the experience economy: challenging traditional skills models in hospitality",
+        "volume": "13",
+        "year": "2006",
+        "journal-title": "Journal of Hospitality and Tourism Management"
+      },
+      {
+        "key": "key2019111415574600600_ref004",
+        "volume-title": "Qualitative Data Analysis with NVivo",
+        "year": "2013"
+      },
+      {
+        "issue": "2",
+        "key": "key2019111415574600600_ref005",
+        "doi-asserted-by": "crossref",
+        "first-page": "150",
+        "DOI": "10.1108/17554211211217325",
+        "article-title": "Challenges for the global hospitality industry: an HR perspective",
+        "volume": "4",
+        "year": "2012",
+        "journal-title": "Worldwide Hospitality and Tourism Themes"
+      },
+      {
+        "issue": "6",
+        "key": "key2019111415574600600_ref006",
+        "doi-asserted-by": "crossref",
+        "first-page": "823",
+        "DOI": "10.1108/IJCHM-05-2012-0065",
+        "article-title": "An exploratory study of competencies required to co‐create memorable customer experiences in the hospitality industry",
+        "volume": "25",
+        "year": "2013",
+        "journal-title": "International Journal of Contemporary Hospitality Management"
+      },
+      {
+        "issue": "2",
+        "key": "key2019111415574600600_ref007",
+        "doi-asserted-by": "crossref",
+        "first-page": "195",
+        "DOI": "10.1002/hrm.21525",
+        "article-title": "Talent or not? Employee reactions to talent identification",
+        "volume": "52",
+        "year": "2013",
+        "journal-title": "Human Resource Management"
+      },
+      {
+        "issue": "4",
+        "key": "key2019111415574600600_ref008",
+        "doi-asserted-by": "crossref",
+        "first-page": "320",
+        "DOI": "10.1111/j.1748-8583.2007.00048.x",
+        "article-title": "Transferring HR practices within multinational corporations",
+        "volume": "17",
+        "year": "2007",
+        "journal-title": "Human Resource Management Journal"
+      },
+      {
+        "key": "key2019111415574600600_ref009",
+        "article-title": "An economic perspective on the notion of ’human capital’",
+        "volume-title": "The Oxford Handbook of Human Capital",
+        "year": "2011"
+      },
+      {
+        "issue": "2",
+        "key": "key2019111415574600600_ref010",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.1002/hrm.20054",
+        "article-title": "Talentship, talent segmentation, and sustainability: a new HR decision science paradigm for a new strategy definition",
+        "volume": "44",
+        "year": "2005",
+        "journal-title": "Human Resource Management"
+      },
+      {
+        "issue": "2",
+        "key": "key2019111415574600600_ref011",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.1191/1478088706qp063oa",
+        "article-title": "Using thematic interview analysis in psychology",
+        "volume": "3",
+        "year": "2006",
+        "journal-title": "Qualitative Research in Psychology"
+      },
+      {
+        "key": "key2019111415574600600_ref012",
+        "first-page": "17",
+        "article-title": "The 21st century human resources function: It’s the talent, stupid!",
+        "volume": "24",
+        "year": "2001",
+        "journal-title": "Human Resource Planning"
+      },
+      {
+        "key": "key2019111415574600600_ref013",
+        "article-title": "Introduction",
+        "volume-title": "The Oxford Handbook of Human Capital",
+        "year": "2011"
+      },
+      {
+        "key": "key2019111415574600600_ref014",
+        "first-page": "74",
+        "article-title": "Talent management for the twenty-first century",
+        "volume": "86",
+        "year": "2008",
+        "journal-title": "Harvard Business Review"
+      },
+      {
+        "key": "key2019111415574600600_ref015",
+        "article-title": "The historical context of talent management",
+        "volume-title": "The Oxford Handbook of Talent Management",
+        "year": "2017"
+      },
+      {
+        "key": "key2019111415574600600_ref016",
+        "volume-title": "The Talent Wave: Why Succession Planning Fails and What to Do about It",
+        "year": "2012"
+      },
+      {
+        "issue": "2",
+        "key": "key2019111415574600600_ref017",
+        "doi-asserted-by": "crossref",
+        "first-page": "253",
+        "DOI": "10.1016/j.jwb.2013.11.009",
+        "article-title": "Integrating global mobility and global talent management: exploring the challenges and strategic opportunities",
+        "volume": "49",
+        "year": "2014",
+        "journal-title": "Journal of World Business"
+      },
+      {
+        "issue": "4",
+        "key": "key2019111415574600600_ref018",
+        "doi-asserted-by": "crossref",
+        "first-page": "304",
+        "DOI": "10.1016/j.hrmr.2009.04.001",
+        "article-title": "Strategic talent management: a review and research agenda",
+        "volume": "19",
+        "year": "2009",
+        "journal-title": "Human Resource Management Review"
+      },
+      {
+        "key": "key2019111415574600600_ref019",
+        "article-title": "Introduction",
+        "volume-title": "The Oxford Handbook of Talent Management",
+        "year": "2017"
+      },
+      {
+        "issue": "2",
+        "key": "key2019111415574600600_ref020",
+        "doi-asserted-by": "crossref",
+        "first-page": "225",
+        "DOI": "10.1016/j.jwb.2013.11.006",
+        "article-title": "Talent management in China and India: a comparison of management perceptions and human resource practices",
+        "volume": "49",
+        "year": "2014",
+        "journal-title": "Journal of World Business"
+      },
+      {
+        "key": "key2019111415574600600_ref021",
+        "doi-asserted-by": "crossref",
+        "first-page": "429",
+        "DOI": "10.1108/00197851211268027",
+        "article-title": "Talent management and building high performance organisations",
+        "volume": "44",
+        "year": "2012",
+        "journal-title": "Industrial and Commercial Training"
+      },
+      {
+        "key": "key2019111415574600600_ref022",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.1108/WHATT-10-2017-0070",
+        "article-title": "Cornerstones of talent management as a strategic priority in the hospitality",
+        "volume": "10",
+        "year": "2018",
+        "journal-title": "Worldwide Hospitality and Tourism Themes"
+      },
+      {
+        "key": "key2019111415574600600_ref023",
+        "doi-asserted-by": "crossref",
+        "first-page": "124",
+        "DOI": "10.1108/WHATT-11-2017-0073",
+        "article-title": "Reflections on the theme issue outcomes: is talent management a strategic priority in the hospitality sector?",
+        "volume": "10",
+        "year": "2018",
+        "journal-title": "Worldwide Hospitality and Tourism Themes"
+      },
+      {
+        "issue": "3",
+        "key": "key2019111415574600600_ref024",
+        "doi-asserted-by": "crossref",
+        "first-page": "453",
+        "DOI": "10.1108/IJCHM-12-2013-0538",
+        "article-title": "Revisiting talent management, work-life balance and retention strategies",
+        "volume": "27",
+        "year": "2015",
+        "journal-title": "International Journal of Contemporary Hospitality Management"
+      },
+      {
+        "key": "key2019111415574600600_ref025",
+        "volume-title": "The World Luxury Index Hotels 2014: The Most Sought-after Luxury Hotels",
+        "year": "2014"
+      },
+      {
+        "issue": "8",
+        "key": "key2019111415574600600_ref026",
+        "doi-asserted-by": "crossref",
+        "first-page": "2050",
+        "DOI": "10.1108/IJCHM-04-2016-0219",
+        "article-title": "Under- vs over-investment: hotel firms’ value around acquisitions",
+        "volume": "29",
+        "year": "2017",
+        "journal-title": "International Journal of Contemporary Hospitality Management"
+      },
+      {
+        "issue": "4",
+        "key": "key2019111415574600600_ref027",
+        "doi-asserted-by": "crossref",
+        "first-page": "267",
+        "DOI": "10.1016/j.hrmr.2013.08.006",
+        "article-title": "Talent management, from phenomenon to theory: introduction to the special issue",
+        "volume": "23",
+        "year": "2013",
+        "journal-title": "Human Resource Management Review"
+      },
+      {
+        "issue": "4",
+        "key": "key2019111415574600600_ref028",
+        "doi-asserted-by": "crossref",
+        "first-page": "272",
+        "DOI": "10.1016/j.hrmr.2013.05.001",
+        "article-title": "The psychology of talent management: a review and research agenda",
+        "volume": "23",
+        "year": "2013",
+        "journal-title": "Human Resource Management Review"
+      },
+      {
+        "issue": "1",
+        "key": "key2019111415574600600_ref029",
+        "doi-asserted-by": "crossref",
+        "first-page": "85",
+        "DOI": "10.1108/00483480810839987",
+        "article-title": "Real high‐potential careers: an empirical study into the perspectives of organisations and high potentials",
+        "volume": "37",
+        "year": "2007",
+        "journal-title": "Personnel Review"
+      },
+      {
+        "issue": "3",
+        "key": "key2019111415574600600_ref030",
+        "doi-asserted-by": "crossref",
+        "first-page": "361",
+        "DOI": "10.1002/hrm.21473",
+        "article-title": "How to identify leadership potential: development and testing of a consensus model",
+        "volume": "51",
+        "year": "2012",
+        "journal-title": "Human Resource Management"
+      },
+      {
+        "issue": "3",
+        "key": "key2019111415574600600_ref031",
+        "doi-asserted-by": "crossref",
+        "first-page": "279",
+        "DOI": "10.1177/239700221302700306",
+        "article-title": "The influence of global talent management on employer attractiveness: an experimental study; der einfluss des global talent managements auf die arbeitgeberattraktivität: eine experimentelle untersuchung",
+        "volume": "27",
+        "year": "2013",
+        "journal-title": "Zeitschrift Für Personalforschung; German Journal of Research in Human Resource Management"
+      },
+      {
+        "issue": "2",
+        "key": "key2019111415574600600_ref032",
+        "doi-asserted-by": "crossref",
+        "first-page": "161",
+        "DOI": "10.1016/j.jwb.2009.09.012",
+        "article-title": "The role of the corporate HR function in global talent management",
+        "volume": "45",
+        "year": "2010",
+        "journal-title": "Journal of World Business"
+      },
+      {
+        "issue": "9",
+        "key": "key2019111415574600600_ref033",
+        "doi-asserted-by": "crossref",
+        "first-page": "1872",
+        "DOI": "10.1080/09585192.2013.777538",
+        "article-title": "Talent management in medium-sized German companies: an explorative study and agenda for future research",
+        "volume": "24",
+        "year": "2013",
+        "journal-title": "International Journal of Human Resource Management"
+      },
+      {
+        "issue": "1",
+        "key": "key2019111415574600600_ref034",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1111/peps.12225",
+        "article-title": "Do your high potentials have potential? The impact of individual differences and designation on leader success",
+        "volume": "71",
+        "year": "2018",
+        "journal-title": "Personnel Psychology"
+      },
+      {
+        "issue": "4",
+        "key": "key2019111415574600600_ref035",
+        "doi-asserted-by": "crossref",
+        "first-page": "290",
+        "DOI": "10.1016/j.hrmr.2013.05.002",
+        "article-title": "What is the meaning of ‘talent’ in the world of work?",
+        "volume": "23",
+        "year": "2013",
+        "journal-title": "Human Resource Management Review"
+      },
+      {
+        "key": "key2019111415574600600_ref036",
+        "volume-title": "Chasing Stars: The Myth of Talent and the Portability of Performance",
+        "year": "2010"
+      },
+      {
+        "issue": "7",
+        "key": "key2019111415574600600_ref037",
+        "doi-asserted-by": "crossref",
+        "first-page": "1173",
+        "DOI": "10.1080/0958519042000238392",
+        "article-title": "The development of political skill and political capital by global leaders through global assignments",
+        "volume": "15",
+        "year": "2004",
+        "journal-title": "International Journal of Human Resource Management"
+      },
+      {
+        "issue": "2",
+        "key": "key2019111415574600600_ref038",
+        "doi-asserted-by": "crossref",
+        "first-page": "165",
+        "DOI": "10.1080/15332845.2012.648897",
+        "article-title": "Human resource and organizational management content in the hospitality curriculum: how the professionals view it",
+        "volume": "11",
+        "year": "2012",
+        "journal-title": "Journal of Human Resources in Hospitality and Tourism"
+      },
+      {
+        "key": "key2019111415574600600_ref039",
+        "article-title": "Talent management defined",
+        "volume-title": "Talent Management in Hospitality and Tourism",
+        "year": "2017"
+      },
+      {
+        "issue": "2",
+        "key": "key2019111415574600600_ref040",
+        "doi-asserted-by": "crossref",
+        "first-page": "125",
+        "DOI": "10.1080/13678861003703666",
+        "article-title": "Talent management as a management fashion in HRD: towards a research agenda",
+        "volume": "13",
+        "year": "2010",
+        "journal-title": "Human Resource Development International"
+      },
+      {
+        "issue": "2",
+        "key": "key2019111415574600600_ref041",
+        "doi-asserted-by": "crossref",
+        "first-page": "151",
+        "DOI": "10.1108/17554211311314100",
+        "article-title": "Trends in the international hotel industry",
+        "volume": "5",
+        "year": "2013",
+        "journal-title": "Worldwide Hospitality and Tourism Themes"
+      },
+      {
+        "issue": "4",
+        "key": "key2019111415574600600_ref042",
+        "doi-asserted-by": "crossref",
+        "first-page": "399",
+        "DOI": "10.1111/j.1744-7941.2012.00036.x",
+        "article-title": "Talent management in practice in Australia: Individualistic or strategic? An exploratory study",
+        "volume": "50",
+        "year": "2012",
+        "journal-title": "Asia Pacific Journal of Human Resources"
+      },
+      {
+        "issue": "1",
+        "key": "key2019111415574600600_ref043",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1108/ER-01-2016-0005",
+        "article-title": "Talent management practice effectiveness: investigating employee perspective",
+        "volume": "39",
+        "year": "2017",
+        "journal-title": "Employee Relations"
+      },
+      {
+        "issue": "4",
+        "key": "key2019111415574600600_ref044",
+        "doi-asserted-by": "crossref",
+        "first-page": "298",
+        "DOI": "10.1108/JOEPP-03-2017-0023",
+        "article-title": "The talent climate: creating an organisational context supportive of sustainable talent development through implementation of a strong talent system",
+        "volume": "4",
+        "year": "2017",
+        "journal-title": "Journal of Organizational Effectiveness: People and Performance"
+      },
+      {
+        "key": "key2019111415574600600_ref045",
+        "article-title": "Aligning human capital with organizational needs",
+        "volume-title": "The Oxford Handbook of Human Capital",
+        "year": "2011"
+      },
+      {
+        "issue": "2",
+        "key": "key2019111415574600600_ref046",
+        "doi-asserted-by": "crossref",
+        "first-page": "139",
+        "DOI": "10.1016/j.hrmr.2006.03.001",
+        "article-title": "Talent management: a critical review",
+        "volume": "16",
+        "year": "2006",
+        "journal-title": "Human Resource Management Review"
+      },
+      {
+        "key": "key2019111415574600600_ref047",
+        "doi-asserted-by": "crossref",
+        "first-page": "86",
+        "DOI": "10.1504/EJIM.2017.081253",
+        "article-title": "Talent management: a systematic review and future prospects",
+        "volume": "11",
+        "year": "2017",
+        "journal-title": "European J. Of International Management"
+      },
+      {
+        "key": "key2019111415574600600_ref048",
+        "volume-title": "Designing Qualitative Research",
+        "year": "2016"
+      },
+      {
+        "issue": "2",
+        "key": "key2019111415574600600_ref049",
+        "doi-asserted-by": "crossref",
+        "first-page": "192",
+        "DOI": "10.1016/j.jwb.2013.11.003",
+        "article-title": "The influence of underlying philosophies on talent management: theory, implications for practice, and research agenda",
+        "volume": "49",
+        "year": "2014",
+        "journal-title": "Journal of World Business"
+      },
+      {
+        "issue": "4",
+        "key": "key2019111415574600600_ref050",
+        "doi-asserted-by": "crossref",
+        "first-page": "305",
+        "DOI": "10.1016/j.hrmr.2013.05.003",
+        "article-title": "Talent: innate or acquired? Theoretical considerations and their implications for talent management",
+        "volume": "23",
+        "year": "2013",
+        "journal-title": "Human Resource Management Review"
+      },
+      {
+        "issue": "2",
+        "key": "key2019111415574600600_ref051",
+        "doi-asserted-by": "crossref",
+        "first-page": "180",
+        "DOI": "10.1016/j.jwb.2013.11.002",
+        "article-title": "A multidisciplinary review into the definition, operationalization, and measurement of talent",
+        "volume": "49",
+        "year": "2014",
+        "journal-title": "Journal of World Business"
+      },
+      {
+        "key": "key2019111415574600600_ref052",
+        "article-title": "Star performers",
+        "volume-title": "The Oxford Handbook of Talent Management",
+        "year": "2017"
+      },
+      {
+        "key": "key2019111415574600600_ref053",
+        "first-page": "134",
+        "article-title": "The nature of the hospitality industry: present and future managers’ perspectives",
+        "volume": "20",
+        "year": "2009",
+        "journal-title": "Anatolia; an International Journal of Tourism and Hospitality Research"
+      },
+      {
+        "issue": "5",
+        "key": "key2019111415574600600_ref054",
+        "doi-asserted-by": "crossref",
+        "first-page": "879",
+        "DOI": "10.1037/0021-9010.88.5.879",
+        "article-title": "Common method biases in behavioral research: a critical review of the literature and recommended remedies",
+        "volume": "88",
+        "year": "2003",
+        "journal-title": "Journal of Applied Psychology"
+      },
+      {
+        "issue": "1",
+        "key": "key2019111415574600600_ref055",
+        "doi-asserted-by": "crossref",
+        "first-page": "14",
+        "DOI": "10.1108/WHATT-10-2017-0066",
+        "article-title": "A dialogic reframing of talent management as a lever for hospitableness",
+        "volume": "10",
+        "year": "2018",
+        "journal-title": "Worldwide Hospitality and Tourism Themes"
+      },
+      {
+        "issue": "1",
+        "key": "key2019111415574600600_ref056",
+        "doi-asserted-by": "crossref",
+        "first-page": "42",
+        "DOI": "10.1108/WHATT-10-2017-0068",
+        "article-title": "Building customer centricity in the hospitality sector: the role of talent management",
+        "volume": "10",
+        "year": "2018",
+        "journal-title": "Worldwide Hospitality and Tourism Themes"
+      },
+      {
+        "issue": "2",
+        "key": "key2019111415574600600_ref057",
+        "doi-asserted-by": "crossref",
+        "first-page": "281",
+        "DOI": "10.1016/j.jwb.2013.11.012",
+        "article-title": "From talent management to talent optimization",
+        "volume": "49",
+        "year": "2014",
+        "journal-title": "Journal of World Business"
+      },
+      {
+        "issue": "1",
+        "key": "key2019111415574600600_ref058",
+        "doi-asserted-by": "crossref",
+        "first-page": "28",
+        "DOI": "10.1108/WHATT-10-2017-0062",
+        "article-title": "Strategic talent management: a macro and micro analysis of current issues in hospitality and tourism",
+        "volume": "10",
+        "year": "2018",
+        "journal-title": "Worldwide Hospitality and Tourism Themes"
+      },
+      {
+        "key": "key2019111415574600600_ref059",
+        "volume-title": "Strategy-Driven Talent Management: A Leadership Imperative",
+        "year": "2009"
+      },
+      {
+        "issue": "2",
+        "key": "key2019111415574600600_ref060",
+        "doi-asserted-by": "crossref",
+        "first-page": "272",
+        "DOI": "10.1016/j.jwb.2013.11.011",
+        "article-title": "The role of talent-perception incongruence in effective talent management",
+        "volume": "49",
+        "year": "2014",
+        "journal-title": "Journal of World Business"
+      },
+      {
+        "issue": "3",
+        "key": "key2019111415574600600_ref061",
+        "doi-asserted-by": "crossref",
+        "first-page": "249",
+        "DOI": "10.1016/j.hrmr.2015.04.002",
+        "article-title": "What is the value of talent management? Building value-driven processes within a talent management architecture",
+        "volume": "25",
+        "year": "2015",
+        "journal-title": "Human Resource Management Review"
+      },
+      {
+        "key": "key2019111415574600600_ref062",
+        "volume-title": "The Future of HR in Europe: Key Challenges through 2015",
+        "year": "2013"
+      },
+      {
+        "issue": "5",
+        "key": "key2019111415574600600_ref063",
+        "doi-asserted-by": "crossref",
+        "first-page": "266",
+        "DOI": "10.1108/00197851111145853",
+        "article-title": "What do we mean by the term ‘talent’ in talent management?",
+        "volume": "43",
+        "year": "2011",
+        "journal-title": "Industrial and Commercial Training"
+      },
+      {
+        "key": "key2019111415574600600_ref064",
+        "volume-title": "Talent Management: Understanding the Dimensions: Change Agenda",
+        "year": "2006"
+      },
+      {
+        "issue": "9",
+        "key": "key2019111415574600600_ref065",
+        "doi-asserted-by": "crossref",
+        "first-page": "1799",
+        "DOI": "10.1080/09585192.2013.777542",
+        "article-title": "Rites of passage through talent management progression stages: an identity work perspective",
+        "volume": "24",
+        "year": "2013",
+        "journal-title": "International Journal of Human Resource Management"
+      },
+      {
+        "issue": "1",
+        "key": "key2019111415574600600_ref066a",
+        "doi-asserted-by": "crossref",
+        "first-page": "79",
+        "DOI": "10.1108/JGM-07-2017-0026",
+        "article-title": "A multi-level framework for understanding global talent management systems for high talent expatriates within and across subsidiaries of MNEs: propositions for further research",
+        "volume": "6",
+        "year": "2018",
+        "journal-title": "Journal of Global Mobility: The Home of Expatriate Management Research"
+      },
+      {
+        "issue": "4",
+        "key": "key2019111415574600600_ref066",
+        "doi-asserted-by": "crossref",
+        "first-page": "326",
+        "DOI": "10.1016/j.hrmr.2013.05.004",
+        "article-title": "Talent management and the relevance of context: towards a pluralistic approach",
+        "volume": "23",
+        "year": "2013",
+        "journal-title": "Human Resource Management Review"
+      },
+      {
+        "issue": "2",
+        "key": "key2019111415574600600_ref067",
+        "doi-asserted-by": "crossref",
+        "first-page": "182",
+        "DOI": "10.1108/PR-10-2013-0190",
+        "article-title": "A multi-dimensional approach to talent: an empirical analysis of the definition of talent in Dutch academia",
+        "volume": "44",
+        "year": "2015",
+        "journal-title": "Personnel Review"
+      },
+      {
+        "key": "key2019111415574600600_ref068",
+        "volume-title": "Luxury World",
+        "year": "2009"
+      },
+      {
+        "key": "key2019111415574600600_ref069",
+        "first-page": "55",
+        "article-title": "What is talent?",
+        "volume": "63",
+        "year": "2012",
+        "journal-title": "Leader to Leader"
+      },
+      {
+        "key": "key2019111415574600600_ref070",
+        "article-title": "Global talent management",
+        "volume-title": "The Routledge Companion to International Human Resource Management",
+        "year": "2015"
+      },
+      {
+        "issue": "2",
+        "key": "key2019111415574600600_ref071",
+        "doi-asserted-by": "crossref",
+        "first-page": "166",
+        "DOI": "10.1080/19368623.2011.536074",
+        "article-title": "Understanding the consumer experience: an exploratory study of luxury hotels",
+        "volume": "20",
+        "year": "2011",
+        "journal-title": "Journal of Hospitality Marketing and Management"
+      }
+    ],
+    "container-title": [
+      "International Journal of Contemporary Hospitality Management"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.emerald.com/insight/content/doi/10.1108/IJCHM-10-2018-0849/full/xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.emerald.com/insight/content/doi/10.1108/IJCHM-10-2018-0849/full/html",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          11,
+          14
+        ]
+      ],
+      "date-time": "2019-11-14T10:59:20Z",
+      "timestamp": 1573729160000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.emerald.com/insight/content/doi/10.1108/IJCHM-10-2018-0849/full/html"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          14
+        ]
+      ]
+    },
+    "references-count": 72,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10,
+            14
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1108/IJCHM-10-2018-0849"
+    ],
+    "URL": "https://doi.org/10.1108/ijchm-10-2018-0849",
+    "relation": {},
+    "ISSN": [
+      "0959-6119",
+      "0959-6119"
+    ],
+    "issn-type": [
+      {
+        "value": "0959-6119",
+        "type": "print"
+      },
+      {
+        "value": "0959-6119",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          14
+        ]
+      ]
+    }
+  }
+}

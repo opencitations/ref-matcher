@@ -1,0 +1,368 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          29
+        ]
+      ],
+      "date-time": "2025-01-29T05:51:26Z",
+      "timestamp": 1738129886045,
+      "version": "3.33.0"
+    },
+    "reference-count": 21,
+    "publisher": "SAGE Publications",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              11,
+              12
+            ]
+          ],
+          "date-time": "2018-11-12T00:00:00Z",
+          "timestamp": 1541980800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.sagepub.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Feline Medicine and Surgery"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:sec><jats:title>Objectives</jats:title><jats:p> The aim of this study was to describe the clinical findings, diagnostic test results and response to therapy of cats with Schirmer tear test 1 (STT-1) values below the reference interval. </jats:p></jats:sec><jats:sec><jats:title>Methods</jats:title><jats:p> The medical records of three institutions were searched for cats with ocular surface disease and STT-1 values &lt;9 mm/min, confirmed at two or more separate visits. </jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p> Ten cats (17 eyes) were included. The mean ± SD (range) age and STT-1 values in affected eye(s) were 6.1 ± 5.7 (0.2–16) years and 2.4 ± 3.1 (0–8) mm/min, respectively. Concurrent ocular surface disease was bilateral in 5/10 cats. Clinical signs included conjunctivitis (14/17 eyes), corneal ulceration (6/17 eyes), non-ulcerative keratitis (4/17 eyes), symblepharon (4/17 eyes), eosinophilic keratitis (3/17 eyes), corneal sequestrum (3/17 eyes), corneal fibrosis (2/17 eyes) and meibomitis (2/17 eyes). Management included: topically applied lacrimomimetics, antiviral drugs, corticosteroids or immunomodulatory drugs; orally administered famciclovir; or surgical procedures, in various combinations. Response to therapy (defined as an increase in STT-1 value of ⩾5 mm/min) was transient (seen at a single reassessment) in 65% of eyes and sustained (seen at ⩾2 consecutive reassessments) in 18% of eyes. </jats:p></jats:sec><jats:sec><jats:title>Conclusions and relevance</jats:title><jats:p> Clinical features seen in cats with low STT-1 values are described, although the association between aqueous deficiency and the reported ocular changes is unknown at this time. We encourage clinicians to assess the tear film in cats with ocular surface disease, and initiate therapy with lacrimomimetics if STT-1 values are repeatedly below normal. Such information will further define aqueous tear deficiency in cats, providing a better understanding of disease prevalence, pathogenesis and treatment. </jats:p></jats:sec>",
+    "DOI": "10.1177/1098612x18810867",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          12
+        ]
+      ],
+      "date-time": "2018-11-12T11:41:11Z",
+      "timestamp": 1542022871000
+    },
+    "page": "944-950",
+    "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 16,
+    "title": [
+      "Clinical features of cats with aqueous tear deficiency: a retrospective case series of 10 patients (17 eyes)"
+    ],
+    "prefix": "10.1177",
+    "volume": "21",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3379-6917",
+        "authenticated-orcid": false,
+        "given": "Lisa K",
+        "family": "Uhl",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Veterinary Clinical Sciences, College of Veterinary Medicine, Iowa State University, Ames, IA, USA"
+          }
+        ]
+      },
+      {
+        "given": "Akihiko",
+        "family": "Saito",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Triangle Animal Eye Clinic, Tokyo, Japan"
+          }
+        ]
+      },
+      {
+        "given": "Hiroko",
+        "family": "Iwashita",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Triangle Animal Eye Clinic, Tokyo, Japan"
+          }
+        ]
+      },
+      {
+        "given": "David J",
+        "family": "Maggs",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Surgical and Radiological Sciences, School of Veterinary Medicine, University of California–Davis, Davis, CA, USA"
+          }
+        ]
+      },
+      {
+        "given": "Jonathan P",
+        "family": "Mochel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biomedical Sciences, College of Veterinary Medicine, Iowa State University, Ames, IA, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0103-0127",
+        "authenticated-orcid": false,
+        "given": "Lionel",
+        "family": "Sebbag",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Veterinary Clinical Sciences, College of Veterinary Medicine, Iowa State University, Ames, IA, USA"
+          },
+          {
+            "name": "Department of Biomedical Sciences, College of Veterinary Medicine, Iowa State University, Ames, IA, USA"
+          }
+        ]
+      }
+    ],
+    "member": "179",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "bibr1-1098612X18810867",
+        "first-page": "1477",
+        "volume-title": "Veterinary ophthalmology",
+        "author": "Stiles J",
+        "year": "2013",
+        "edition": "5"
+      },
+      {
+        "key": "bibr2-1098612X18810867",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cvsm.2007.12.002"
+      },
+      {
+        "key": "bibr3-1098612X18810867",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jtos.2017.08.003"
+      },
+      {
+        "key": "bibr4-1098612X18810867",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2460/ajvr.70.3.394"
+      },
+      {
+        "key": "bibr5-1098612X18810867",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1463-5224.1999.00082.x"
+      },
+      {
+        "key": "bibr6-1098612X18810867",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1463-5224.2005.00362.x"
+      },
+      {
+        "key": "bibr7-1098612X18810867",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1463-5224.2005.00403.x"
+      },
+      {
+        "key": "bibr8-1098612X18810867",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2460/javma.246.4.426"
+      },
+      {
+        "key": "bibr9-1098612X18810867",
+        "volume": "4",
+        "author": "Sebbag L",
+        "year": "2018",
+        "journal-title": "JFMS Open Rep"
+      },
+      {
+        "key": "bibr10-1098612X18810867",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1463-5224.2005.00390.x"
+      },
+      {
+        "key": "bibr11-1098612X18810867",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4061/2011/487592"
+      },
+      {
+        "key": "bibr12-1098612X18810867",
+        "first-page": "427",
+        "volume": "116",
+        "author": "Wagner F",
+        "year": "2003",
+        "journal-title": "Berl Munch Tierarztl Wochenschr"
+      },
+      {
+        "key": "bibr13-1098612X18810867",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1098612X12464628"
+      },
+      {
+        "key": "bibr14-1098612X18810867",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.exer.2003.09.003"
+      },
+      {
+        "key": "bibr15-1098612X18810867",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/ICO.0b013e31820687dd"
+      },
+      {
+        "key": "bibr16-1098612X18810867",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/vop.12436"
+      },
+      {
+        "key": "bibr17-1098612X18810867",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1463-5224.2011.00916.x"
+      },
+      {
+        "key": "bibr18-1098612X18810867",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1463-5224.2010.00778.x"
+      },
+      {
+        "key": "bibr19-1098612X18810867",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1463-5224.2011.00968.x"
+      },
+      {
+        "key": "bibr20-1098612X18810867",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1542-0124(12)70146-5"
+      },
+      {
+        "key": "bibr21-1098612X18810867",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ophtha.2013.02.037"
+      }
+    ],
+    "container-title": [
+      "Journal of Feline Medicine and Surgery"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1098612X18810867",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/1098612X18810867",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1098612X18810867",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          28
+        ]
+      ],
+      "date-time": "2025-01-28T18:52:38Z",
+      "timestamp": 1738090358000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journals.sagepub.com/doi/10.1177/1098612X18810867"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          12
+        ]
+      ]
+    },
+    "references-count": 21,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1177/1098612X18810867"
+    ],
+    "URL": "https://doi.org/10.1177/1098612x18810867",
+    "relation": {},
+    "ISSN": [
+      "1098-612X",
+      "1532-2750"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1098-612X"
+      },
+      {
+        "type": "electronic",
+        "value": "1532-2750"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          12
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,830 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          22
+        ]
+      ],
+      "date-time": "2024-07-22T11:09:18Z",
+      "timestamp": 1721646558022
+    },
+    "reference-count": 63,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              15
+            ]
+          ],
+          "date-time": "2019-10-15T00:00:00Z",
+          "timestamp": 1571097600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Cell. Neurosci."
+    ],
+    "DOI": "10.3389/fncel.2019.00448",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2019-10-15T05:22:31Z",
+      "timestamp": 1571116951000
+    },
+    "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 13,
+    "title": [
+      "Altered Primary Motor Cortex Neuronal Activity in a Rat Model of Harmaline-Induced Tremor During Thalamic Deep Brain Stimulation"
+    ],
+    "prefix": "10.3389",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Jihyun",
+        "family": "Lee",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Su-youne",
+        "family": "Chang",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          15
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "doi-asserted-by": "publisher",
+        "first-page": "600",
+        "DOI": "10.1152/jn.01170.2003",
+        "article-title": "Characterization of neocortical principal cells and interneurons by network interactions and extracellular features.",
+        "volume": "92",
+        "author": "Barthó",
+        "year": "2004",
+        "journal-title": "J. Neurophysiol."
+      },
+      {
+        "key": "B2",
+        "doi-asserted-by": "publisher",
+        "first-page": "403",
+        "DOI": "10.1016/0140-6736(91)91175-t",
+        "article-title": "Long-term suppression of tremor by chronic stimulation of the ventral intermediate thalamic nucleus.",
+        "volume": "337",
+        "author": "Benabid",
+        "year": "1991",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "first-page": "83",
+        "DOI": "10.1002/acn3.681",
+        "article-title": "Essential tremor severity and anatomical changes in brain areas controlling movement sequencing.",
+        "volume": "6",
+        "author": "Benito-León",
+        "year": "2019",
+        "journal-title": "Ann. Clin. Transl. Neurol."
+      },
+      {
+        "key": "B4",
+        "doi-asserted-by": "publisher",
+        "first-page": "426",
+        "DOI": "10.1016/j.jneumeth.2011.08.013",
+        "article-title": "Measuring burstiness and regularity in oscillatory spike trains.",
+        "volume": "201",
+        "author": "Bingmer",
+        "year": "2011",
+        "journal-title": "J. Neurosci. Methods"
+      },
+      {
+        "key": "B5",
+        "doi-asserted-by": "publisher",
+        "first-page": "403",
+        "DOI": "10.1016/j.conb.2008.09.002",
+        "article-title": "Emerging views of corticothalamic function.",
+        "volume": "18",
+        "author": "Briggs",
+        "year": "2008",
+        "journal-title": "Curr. Opin. Neurobiol."
+      },
+      {
+        "key": "B6",
+        "doi-asserted-by": "publisher",
+        "first-page": "1209",
+        "DOI": "10.1016/j.parkreldis.2014.09.001",
+        "article-title": "Cortical volume and folding abnormalities in Parkinson’s disease patients with pathological gambling.",
+        "volume": "20",
+        "author": "Cerasa",
+        "year": "2014",
+        "journal-title": "Parkinsonism Relat. Disord."
+      },
+      {
+        "key": "B7",
+        "doi-asserted-by": "publisher",
+        "first-page": "1859",
+        "DOI": "10.2147/NDT.S32342",
+        "article-title": "Current clinical application of deep-brain stimulation for essential tremor.",
+        "volume": "9",
+        "author": "Chopra",
+        "year": "2013",
+        "journal-title": "Neuropsychiatr. Dis. Treat."
+      },
+      {
+        "key": "B8",
+        "doi-asserted-by": "publisher",
+        "first-page": "1141",
+        "DOI": "10.1016/S0925-2312(01)00480-5",
+        "article-title": "Coefficient of variation (CV) vs mean interspike interval (ISI) curves: what do they tell us about the brain?",
+        "volume": "38",
+        "author": "Christodoulou",
+        "year": "2001",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "B9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0084054",
+        "article-title": "Neuroanatomical heterogeneity of essential tremor according to propranolol response.",
+        "volume": "8",
+        "author": "Chung",
+        "year": "2013",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "B10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11910-016-0627-8",
+        "article-title": "Surgery for dystonia and tremor.",
+        "volume": "16",
+        "author": "Crowell",
+        "year": "2016",
+        "journal-title": "Curr. Neurol. Neurosci. Rep."
+      },
+      {
+        "key": "B11",
+        "doi-asserted-by": "publisher",
+        "first-page": "779",
+        "DOI": "10.1038/nn.3997",
+        "article-title": "Therapeutic deep brain stimulation reduces cortical phase-amplitude coupling in Parkinson’s disease.",
+        "volume": "18",
+        "author": "de Hemptinne",
+        "year": "2015",
+        "journal-title": "Nat. Neurosci."
+      },
+      {
+        "key": "B12",
+        "doi-asserted-by": "crossref",
+        "first-page": "S41",
+        "DOI": "10.1002/mds.10141",
+        "article-title": "Pathophysiology of nonparkinsonian tremors.",
+        "volume": "17",
+        "author": "Deuschl",
+        "year": "2002",
+        "journal-title": "Mov. Disord."
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "crossref",
+        "first-page": "S14",
+        "DOI": "10.1212/WNL.54.4.14A",
+        "article-title": "The pathophysiology of essential tremor.",
+        "volume": "54",
+        "author": "Deuschl",
+        "year": "2000",
+        "journal-title": "Neurology"
+      },
+      {
+        "key": "B14",
+        "doi-asserted-by": "publisher",
+        "first-page": "570",
+        "DOI": "10.1152/jn.2000.84.1.570",
+        "article-title": "Microstimulation-induced inhibition of neuronal firing in human globus pallidus.",
+        "volume": "84",
+        "author": "Dostrovsky",
+        "year": "2000",
+        "journal-title": "J. Neurophysiol."
+      },
+      {
+        "key": "B15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11910-013-0353-4",
+        "article-title": "What is essential tremor?",
+        "volume": "13",
+        "author": "Elble",
+        "year": "2013",
+        "journal-title": "Curr. Neurol. Neurosci. Rep."
+      },
+      {
+        "key": "B16",
+        "doi-asserted-by": "publisher",
+        "first-page": "4",
+        "DOI": "10.1093/brain/awt347",
+        "article-title": "Mechanisms of deep brain stimulation for essential tremor.",
+        "volume": "137",
+        "author": "Elble",
+        "year": "2014",
+        "journal-title": "Brain"
+      },
+      {
+        "key": "B17",
+        "doi-asserted-by": "publisher",
+        "first-page": "15330",
+        "DOI": "10.1073/pnas.261273898",
+        "article-title": "Thalamic bursting in rats during different awake behavioral states.",
+        "volume": "98",
+        "author": "Fanselow",
+        "year": "2001",
+        "journal-title": "Proc. Natl. Acad. Sci. U.S.A."
+      },
+      {
+        "key": "B18",
+        "doi-asserted-by": "publisher",
+        "first-page": "687",
+        "DOI": "10.1016/j.neuron.2016.10.024",
+        "article-title": "Tapping the brakes: cellular and synaptic mechanisms that regulate thalamic oscillations.",
+        "volume": "92",
+        "author": "Fogerson",
+        "year": "2016",
+        "journal-title": "Neuron"
+      },
+      {
+        "key": "B19",
+        "doi-asserted-by": "publisher",
+        "first-page": "107",
+        "DOI": "10.1016/S0165-0270(01)00359-4",
+        "article-title": "A force-plate actometer for quantitating rodent behaviors: illustrative data on locomotion, rotation, spatial patterning, stereotypies, and tremor.",
+        "volume": "107",
+        "author": "Fowler",
+        "year": "2001",
+        "journal-title": "J. Neurosci. Methods"
+      },
+      {
+        "key": "B20",
+        "doi-asserted-by": "publisher",
+        "first-page": "262",
+        "DOI": "10.1007/s00422-005-0045-5",
+        "article-title": "Time delay and partial coherence analyses to identify cortical connectivities.",
+        "volume": "94",
+        "author": "Govindan",
+        "year": "2006",
+        "journal-title": "Biol. Cybern."
+      },
+      {
+        "key": "B21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7916/D8TD9W2P",
+        "article-title": "Harmaline tremor: underlying mechanisms in a potential animal model of essential tremor.",
+        "volume": "2",
+        "author": "Handforth",
+        "year": "2012",
+        "journal-title": "Tremor Other Hyperkinet. mov."
+      },
+      {
+        "key": "B22",
+        "doi-asserted-by": "publisher",
+        "first-page": "313",
+        "DOI": "10.1213/00000539-200202000-00015",
+        "article-title": "The Anesthetic mechanism of urethane: the effects on neurotransmitter-gated ion channels.",
+        "volume": "94",
+        "author": "Hara",
+        "year": "2002",
+        "journal-title": "Anesth. Analg."
+      },
+      {
+        "key": "B23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuron.2018.07.046",
+        "article-title": "Mouse motor cortex coordinates the behavioral response to unpredicted sensory feedback.",
+        "volume": "99",
+        "author": "Heindorf",
+        "year": "2018",
+        "journal-title": "Neuron"
+      },
+      {
+        "key": "B24",
+        "doi-asserted-by": "publisher",
+        "first-page": "806",
+        "DOI": "10.1016/s1388-2457(00)00248-0",
+        "article-title": "Tremor-correlated cortical activity detected by electroencephalography.",
+        "volume": "111",
+        "author": "Hellwig",
+        "year": "2000",
+        "journal-title": "Clin. Neurophysiol."
+      },
+      {
+        "key": "B25",
+        "doi-asserted-by": "publisher",
+        "first-page": "519",
+        "DOI": "10.1016/s0140-6736(00)04044-7",
+        "article-title": "Tremor-correlated cortical activity in essential tremor.",
+        "volume": "357",
+        "author": "Hellwig",
+        "year": "2001",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "B26",
+        "doi-asserted-by": "publisher",
+        "first-page": "273",
+        "DOI": "10.1136/jnnp.64.2.273",
+        "article-title": "Thalamic neuronal activity correlated with essential tremor.",
+        "volume": "64",
+        "author": "Hua",
+        "year": "1998",
+        "journal-title": "J. Neurol. Neurosurg. Psychiatry"
+      },
+      {
+        "key": "B27",
+        "doi-asserted-by": "crossref",
+        "first-page": "S9",
+        "DOI": "10.1002/mds.10137",
+        "article-title": "Motor thalamic circuits in primates with emphasis on the area targeted in treatment of movement disorders.",
+        "volume": "17",
+        "author": "Ilinsky",
+        "year": "2002",
+        "journal-title": "Mov. Disord."
+      },
+      {
+        "key": "B28",
+        "doi-asserted-by": "publisher",
+        "first-page": "161",
+        "DOI": "10.1016/S0166-2236(03)00034-1",
+        "article-title": "Bursts as a unit of neural information: selective communication via resonance.",
+        "volume": "26",
+        "author": "Izhikevich",
+        "year": "2003",
+        "journal-title": "Trends Neurosci."
+      },
+      {
+        "key": "B29",
+        "doi-asserted-by": "publisher",
+        "first-page": "137",
+        "DOI": "10.1016/S0306-4522(02)00122-7",
+        "article-title": "Neuronal response to local electrical stimulation in rat thalamus: physiological implications for mechanisms of deep brain stimulation.",
+        "volume": "113",
+        "author": "Kiss",
+        "year": "2002",
+        "journal-title": "Neuroscience"
+      },
+      {
+        "key": "B30",
+        "doi-asserted-by": "publisher",
+        "first-page": "787",
+        "DOI": "10.1212/WNL.0b013e318249f702",
+        "article-title": "The tremor network targeted by successful VIM deep brain stimulation in humans.",
+        "volume": "78",
+        "author": "Klein",
+        "year": "2012",
+        "journal-title": "Neurology"
+      },
+      {
+        "key": "B31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7916/D8J68TV7",
+        "article-title": "Development of harmaline-induced tremor in a swine model.",
+        "volume": "8",
+        "author": "Lee",
+        "year": "2018",
+        "journal-title": "Tremor Other Hyperkinet. Mov."
+      },
+      {
+        "key": "B32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40478-014-0157-z",
+        "article-title": "Decreased EAAT2 protein expression in the essential tremor cerebellar cortex.",
+        "volume": "2",
+        "author": "Lee",
+        "year": "2014",
+        "journal-title": "Acta Neuropathol. Commun."
+      },
+      {
+        "key": "B33",
+        "doi-asserted-by": "publisher",
+        "first-page": "157",
+        "DOI": "10.1007/s00234-016-1771-1",
+        "article-title": "Role of altered cerebello-thalamo-cortical network in the neurobiology of essential tremor.",
+        "volume": "59",
+        "author": "Lenka",
+        "year": "2017",
+        "journal-title": "Neuroradiology"
+      },
+      {
+        "key": "B34",
+        "doi-asserted-by": "publisher",
+        "first-page": "1472",
+        "DOI": "10.1152/jn.00964.2016",
+        "article-title": "Dynamics of human subthalamic neuron phase-locking to motor and sensory cortical oscillations during movement.",
+        "volume": "118",
+        "author": "Lipski",
+        "year": "2017",
+        "journal-title": "J. Neurophysiol."
+      },
+      {
+        "key": "B35",
+        "doi-asserted-by": "publisher",
+        "first-page": "69",
+        "DOI": "10.1007/BF00236557",
+        "article-title": "The olivo-cerebellar system: functional properties as revealed by harmaline-induced tremor.",
+        "volume": "18",
+        "author": "Llinas",
+        "year": "1973",
+        "journal-title": "Exp. Brain Res."
+      },
+      {
+        "key": "B36",
+        "doi-asserted-by": "publisher",
+        "first-page": "3297",
+        "DOI": "10.1093/brain/awm266",
+        "article-title": "Neuropathological changes in essential tremor: 33 cases compared with 21 controls.",
+        "volume": "130",
+        "author": "Louis",
+        "year": "2007",
+        "journal-title": "Brain"
+      },
+      {
+        "key": "B37",
+        "doi-asserted-by": "publisher",
+        "first-page": "849",
+        "DOI": "10.1016/0028-3908(88)90102-5",
+        "article-title": "Tolerance to the tremorogenic effects of harmaline: evidence for altered olivo-cerebellar function.",
+        "volume": "27",
+        "author": "Lutes",
+        "year": "1988",
+        "journal-title": "Neuropharmacology"
+      },
+      {
+        "key": "B38",
+        "doi-asserted-by": "publisher",
+        "first-page": "461",
+        "DOI": "10.2165/00002018-200326070-00003",
+        "article-title": "Benefits and risks of pharmacological treatments for essential tremor.",
+        "volume": "26",
+        "author": "Lyons",
+        "year": "2003",
+        "journal-title": "Drug Saf."
+      },
+      {
+        "key": "B39",
+        "doi-asserted-by": "publisher",
+        "first-page": "1459",
+        "DOI": "10.1093/brain/123.7.1459",
+        "article-title": "Coherence between cerebellar thalamus, cortex and muscle in man: cerebellar thalamus interactions.",
+        "volume": "123",
+        "author": "Marsden",
+        "year": "2000",
+        "journal-title": "Brain"
+      },
+      {
+        "key": "B40",
+        "doi-asserted-by": "crossref",
+        "first-page": "122",
+        "DOI": "10.1136/jnnp.25.2.122",
+        "article-title": "Observations on essential tremor.",
+        "volume": "25",
+        "author": "Marshall",
+        "year": "1962",
+        "journal-title": "J. Neurol. Neurosurg. Psychiatry"
+      },
+      {
+        "key": "B41",
+        "doi-asserted-by": "publisher",
+        "first-page": "298",
+        "DOI": "10.1002/mds.20331",
+        "article-title": "Harmaline-induced tremor as a potential preclinical screening method for essential tremor medications.",
+        "volume": "20",
+        "author": "Martin",
+        "year": "2005",
+        "journal-title": "Mov. Disord."
+      },
+      {
+        "key": "B42",
+        "doi-asserted-by": "publisher",
+        "first-page": "94",
+        "DOI": "10.1016/j.brainres.2005.11.036",
+        "article-title": "A species-specific difference in the effects of harmaline on the rodent olivocerebellar system.",
+        "volume": "1068",
+        "author": "Miwa",
+        "year": "2006",
+        "journal-title": "Brain Res."
+      },
+      {
+        "key": "B43",
+        "doi-asserted-by": "publisher",
+        "first-page": "3163",
+        "DOI": "10.1093/brain/aww242",
+        "article-title": "Genome-wide association study in essential tremor identifies three new loci.",
+        "volume": "139",
+        "author": "Müller",
+        "year": "2016",
+        "journal-title": "Brain"
+      },
+      {
+        "key": "B44",
+        "doi-asserted-by": "publisher",
+        "first-page": "1331",
+        "DOI": "10.1016/j.neuroimage.2012.01.088",
+        "article-title": "Oscillating central motor networks in pathological tremors and voluntary movements. What makes the difference?",
+        "volume": "60",
+        "author": "Muthuraman",
+        "year": "2012",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "key": "B45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fncir.2015.00088",
+        "article-title": "The slow oscillation in cortical and thalamic networks: mechanisms and functions.",
+        "volume": "9",
+        "author": "Neske",
+        "year": "2016",
+        "journal-title": "Front. Neural Circuits"
+      },
+      {
+        "key": "B46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3791/1098",
+        "article-title": "Micro-drive array for chronic in vivo recording: tetrode assembly.",
+        "volume": "26",
+        "author": "Nguyen",
+        "year": "2009",
+        "journal-title": "J. Vis. Exp."
+      },
+      {
+        "key": "B47",
+        "doi-asserted-by": "publisher",
+        "first-page": "1362",
+        "DOI": "10.1093/cercor/bhq217",
+        "article-title": "Primary motor cortex of the parkinsonian monkey: differential effects on the spontaneous activity of pyramidal tract-type neurons.",
+        "volume": "21",
+        "author": "Pasquereau",
+        "year": "2011",
+        "journal-title": "Cereb. Cortex"
+      },
+      {
+        "key": "B48",
+        "author": "Paxinos",
+        "year": "1998",
+        "journal-title": "The Rat Brain in Stereotaxic Coordinates."
+      },
+      {
+        "key": "B49",
+        "doi-asserted-by": "publisher",
+        "first-page": "61",
+        "DOI": "10.1016/j.clinph.2011.09.024",
+        "article-title": "The oscillating central network of essential tremor.",
+        "volume": "123",
+        "author": "Raethjen",
+        "year": "2012",
+        "journal-title": "Clin. Neurophysiol."
+      },
+      {
+        "key": "B50",
+        "doi-asserted-by": "publisher",
+        "first-page": "3219",
+        "DOI": "10.1152/jn.00477.2006",
+        "article-title": "Cortical involvement in the generation of essential tremor.",
+        "volume": "97",
+        "author": "Raethjen",
+        "year": "2007",
+        "journal-title": "J. Neurophysiol."
+      },
+      {
+        "key": "B51",
+        "doi-asserted-by": "publisher",
+        "first-page": "1629",
+        "DOI": "10.1002/mds.22633",
+        "article-title": "Synchronized brain network associated with essential tremor as revealed by magnetoencephalography.",
+        "volume": "24",
+        "author": "Schnitzler",
+        "year": "2009",
+        "journal-title": "Mov. Disord."
+      },
+      {
+        "key": "B52",
+        "doi-asserted-by": "publisher",
+        "first-page": "461",
+        "DOI": "10.1056/NEJM200002173420703",
+        "article-title": "A comparison of continuous thalamic stimulation and thalamotomy for suppression of severe tremor.",
+        "volume": "342",
+        "author": "Schuurman",
+        "year": "2000",
+        "journal-title": "N. Engl. J. Med."
+      },
+      {
+        "key": "B53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-017-02122-3",
+        "article-title": "A data mining approach using cortical thickness for diagnosis and characterization of essential tremor.",
+        "volume": "7",
+        "author": "Serrano",
+        "year": "2017",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "B54",
+        "doi-asserted-by": "publisher",
+        "first-page": "107",
+        "DOI": "10.1016/S0079-6123(05)49009-3",
+        "article-title": "Thalamic relays and cortical functioning.",
+        "volume": "149",
+        "author": "Sherman",
+        "year": "2005",
+        "journal-title": "Prog. Brain Res."
+      },
+      {
+        "key": "B55",
+        "author": "Sherman",
+        "year": "2001",
+        "journal-title": "Exploring the Thalamus and Its Role in Cortical Function."
+      },
+      {
+        "key": "B56",
+        "doi-asserted-by": "publisher",
+        "first-page": "1551",
+        "DOI": "10.1016/j.clinph.2015.07.034",
+        "article-title": "Short pauses in thalamic deep brain stimulation promote tremor and neuronal bursting.",
+        "volume": "127",
+        "author": "Swan",
+        "year": "2016",
+        "journal-title": "Clin. Neurophysiol."
+      },
+      {
+        "key": "B57",
+        "doi-asserted-by": "publisher",
+        "first-page": "229",
+        "DOI": "10.1038/35067550",
+        "article-title": "The brainweb: phase synchronization and large-scale integration.",
+        "volume": "2",
+        "author": "Varela",
+        "year": "2001",
+        "journal-title": "Nat. Rev. Neurosci."
+      },
+      {
+        "key": "B58",
+        "doi-asserted-by": "publisher",
+        "first-page": "1709",
+        "DOI": "10.1080/17470210500314729",
+        "article-title": "When do auditory/visual differences in duration judgements occur?",
+        "volume": "59",
+        "author": "Wearden",
+        "year": "2006",
+        "journal-title": "Q. J. Exp. Psychol."
+      },
+      {
+        "key": "B59",
+        "doi-asserted-by": "publisher",
+        "first-page": "89",
+        "DOI": "10.1001/archneur.61.1.89",
+        "article-title": "Effects of high-frequency stimulation on subthalamic neuronal activity in parkinsonian patients.",
+        "volume": "61",
+        "author": "Welter",
+        "year": "2004",
+        "journal-title": "Arch. Neurol."
+      },
+      {
+        "key": "B60",
+        "doi-asserted-by": "publisher",
+        "first-page": "557",
+        "DOI": "10.1002/1531-8257(199907)14:4%3C557::aid-mds1004%3E3.0.co;2-g",
+        "article-title": "Animal models of tremor.",
+        "volume": "14",
+        "author": "Wilms",
+        "year": "1999",
+        "journal-title": "Mov. Disord."
+      },
+      {
+        "key": "B61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-018-20428-8",
+        "article-title": "Deep brain stimulation induces sparse distributions of locally modulated neuronal activity.",
+        "volume": "8",
+        "author": "Xiao",
+        "year": "2018",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "B62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1523/ENEURO.0384-17.2018",
+        "article-title": "Theta oscillations organize spiking activity in higher-order visual thalamus during sustained attention.",
+        "volume": "5",
+        "author": "Yu",
+        "year": "2018",
+        "journal-title": "eneuro"
+      },
+      {
+        "key": "B63",
+        "doi-asserted-by": "publisher",
+        "first-page": "1271",
+        "DOI": "10.3171/2009.10.JNS09371",
+        "article-title": "Long-term results of thalamic deep brain stimulation for essential tremor.",
+        "volume": "112",
+        "author": "Zhang",
+        "year": "2010",
+        "journal-title": "J. Neurosurg."
+      }
+    ],
+    "container-title": [
+      "Frontiers in Cellular Neuroscience"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/article/10.3389/fncel.2019.00448/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2019-10-15T05:22:35Z",
+      "timestamp": 1571116955000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/article/10.3389/fncel.2019.00448/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          15
+        ]
+      ]
+    },
+    "references-count": 63,
+    "alternative-id": [
+      "10.3389/fncel.2019.00448"
+    ],
+    "URL": "https://doi.org/10.3389/fncel.2019.00448",
+    "relation": {},
+    "ISSN": [
+      "1662-5102"
+    ],
+    "issn-type": [
+      {
+        "value": "1662-5102",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          15
+        ]
+      ]
+    }
+  }
+}

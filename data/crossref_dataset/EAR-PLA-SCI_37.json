@@ -1,0 +1,815 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          27
+        ]
+      ],
+      "date-time": "2024-08-27T05:46:26Z",
+      "timestamp": 1724737586151
+    },
+    "reference-count": 57,
+    "publisher": "Geological Society of America",
+    "issue": "10",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Can climate affect societies? This question, of both past and present importance, is encapsulated by the major socioeconomic crisis that affected the Mediterranean 3200 yr ago. The demise of the core civilizations of the Aegean and eastern Mediterranean during the Late Bronze Age and the early Iron Age (Dark Ages) is still controversial because it raises the question of climate-change impacts on ancient societies. Although evidence for this climate shift has gradually gained currency, recent attempts to quantify its magnitude remain equivocal. Here we focus on the northern Levant (coastal Syria) where the economic, political, and cultural changes were particularly acute. We quantify past climate changes and find that mean annual temperatures attained anomalies of − 2.3 ± 0.3 °C to − 4.8 ± 0.4 °C compared to present-day conditions. Rainfall regimes displayed an important shift in seasonality, with a 40% decrease in winter precipitation. A 300 yr period of dry and cool climate started ∼3200 yr ago and was coeval with deep social changes in the eastern Mediterranean. These “Little Ice Age”–type conditions affected harvests, leading to severe food shortages that probably aggravated the sociopolitical tensions. This crisis highlights the fragility of societies, both past and present, to major climate-change episodes and their broader consequences.</jats:p>",
+    "DOI": "10.1130/g46491.1",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          20
+        ]
+      ],
+      "date-time": "2019-08-20T14:15:15Z",
+      "timestamp": 1566310515000
+    },
+    "page": "933-937",
+    "source": "Crossref",
+    "is-referenced-by-count": 30,
+    "title": [
+      "Cold and dry outbreaks in the eastern Mediterranean 3200 years ago"
+    ],
+    "prefix": "10.1130",
+    "volume": "47",
+    "author": [
+      {
+        "given": "David",
+        "family": "Kaniewski",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "EcoLab, Université de Toulouse, CNRS, INP, UPS, 31062 Toulouse cedex 9, France"
+          }
+        ]
+      },
+      {
+        "given": "Nick",
+        "family": "Marriner",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Laboratoire Chrono-Environnement UMR6249, Maison des sciences de l’homme et de l’environnement Claude Nicolas Ledoux USR 3124, CNRS, Université de Franche-Comté, UFR ST, 16 Route de Gray, 25030 Besançon, France"
+          }
+        ]
+      },
+      {
+        "given": "Rachid",
+        "family": "Cheddadi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Université Montpellier II, CNRS-UM2-IRD, ISEM, 34090 Montpellier, France"
+          }
+        ]
+      },
+      {
+        "given": "Christophe",
+        "family": "Morhange",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Aix Marseille Université, CNRS, IRD, INRA, Collège de France, CEREGE, 13545 Aix en Provence, cedex 04, France"
+          }
+        ]
+      },
+      {
+        "given": "Joachim",
+        "family": "Bretschneider",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Archaeology–Ancient Near East, Faculty of Art and Philosophy, Ghent University, Sint-Pietersnieuwstraat 35, 9000 Gent, Belgium"
+          }
+        ]
+      },
+      {
+        "given": "Greta",
+        "family": "Jans",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Near Eastern Studies, Faculteit Letteren, Katholieke Universiteit Leuven, Blijde-Inkomststraat 21, 3000 Leuven, Belgium"
+          }
+        ]
+      },
+      {
+        "given": "Thierry",
+        "family": "Otto",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "EcoLab, Université de Toulouse, CNRS, INP, UPS, 31062 Toulouse cedex 9, France"
+          }
+        ]
+      },
+      {
+        "given": "Frédéric",
+        "family": "Luce",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "EcoLab, Université de Toulouse, CNRS, INP, UPS, 31062 Toulouse cedex 9, France"
+          }
+        ]
+      },
+      {
+        "given": "Elise",
+        "family": "Van Campo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "EcoLab, Université de Toulouse, CNRS, INP, UPS, 31062 Toulouse cedex 9, France"
+          }
+        ]
+      }
+    ],
+    "member": "257",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          20
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2019092516182987300_b1",
+        "unstructured": "Akima, H., and Gebhardt, A., 2015, akima: Interpolation of irregularly and regularly spaced data: R package, version 0.5-12: https://CRAN.R-project.org/package=akima (accessed January 2019)."
+      },
+      {
+        "key": "2019092516182987300_b2",
+        "doi-asserted-by": "crossref",
+        "first-page": "313",
+        "DOI": "10.1086/373411",
+        "article-title": "An ancient “correlation” between streamflow and distant rainfall in the Near East",
+        "volume": "48",
+        "author": "Alpert",
+        "year": "1989",
+        "journal-title": "Journal of Near Eastern Studies"
+      },
+      {
+        "key": "2019092516182987300_b3",
+        "doi-asserted-by": "crossref",
+        "first-page": "615",
+        "DOI": "10.1130/G33012.1",
+        "article-title": "Nile Delta vegetation response to Holocene climate variability",
+        "volume": "40",
+        "author": "Bernhardt",
+        "year": "2012",
+        "journal-title": "Geology"
+      },
+      {
+        "key": "2019092516182987300_b4",
+        "first-page": "639",
+        "volume-title": "About Tell Tweini (Syria): Artefacts, ecofacts and landscape: Research results of the Belgian mission",
+        "author": "Bretschneider",
+        "year": "2019"
+      },
+      {
+        "key": "2019092516182987300_b5",
+        "doi-asserted-by": "crossref",
+        "first-page": "46",
+        "DOI": "10.1017/S0003598X00054168",
+        "article-title": "Drought and the decline of Mycenae",
+        "volume": "48",
+        "author": "Bryson",
+        "year": "1974",
+        "journal-title": "Antiquity"
+      },
+      {
+        "key": "2019092516182987300_b6",
+        "doi-asserted-by": "crossref",
+        "first-page": "231",
+        "DOI": "10.1038/ngeo2652",
+        "article-title": "Cooling and societal change during the Late Antique Little Ice Age from 536 to around 660 AD",
+        "volume": "9",
+        "author": "Büntgen",
+        "year": "2016",
+        "journal-title": "Nature Geoscience"
+      },
+      {
+        "key": "2019092516182987300_b7",
+        "first-page": "134",
+        "article-title": "Early Hydraulic Civilization in Egypt: A Study in Cultural Ecology",
+        "author": "Butzer",
+        "year": "1976"
+      },
+      {
+        "key": "2019092516182987300_b8",
+        "first-page": "77",
+        "article-title": "Discontinuity in Greek Civilization",
+        "author": "Carpenter",
+        "year": "1966"
+      },
+      {
+        "key": "2019092516182987300_b9",
+        "doi-asserted-by": "crossref",
+        "first-page": "146",
+        "DOI": "10.1016/j.quascirev.2016.08.010",
+        "article-title": "Climate change since the last glacial period in Lebanon and the persistence of Mediterranean species",
+        "volume": "150",
+        "author": "Cheddadi",
+        "year": "2016",
+        "journal-title": "Quaternary Science Reviews"
+      },
+      {
+        "key": "2019092516182987300_b10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1581",
+        "DOI": "10.3389/fpls.2016.01581",
+        "article-title": "Temperature range shifts for three European tree species over the last 10,000 years",
+        "volume": "7",
+        "author": "Cheddadi",
+        "year": "2016",
+        "journal-title": "Frontiers in Plant Science"
+      },
+      {
+        "key": "2019092516182987300_b11",
+        "doi-asserted-by": "crossref",
+        "first-page": "114",
+        "DOI": "10.3389/fevo.2017.00114",
+        "article-title": "Microrefugia, climate change, and conservation of Cedrus atlantica in the Rif Mountains, Morocco",
+        "volume": "5",
+        "author": "Cheddadi",
+        "year": "2017",
+        "journal-title": "Frontiers in Ecology and Evolution"
+      },
+      {
+        "key": "2019092516182987300_b12",
+        "doi-asserted-by": "crossref",
+        "first-page": "8641",
+        "DOI": "10.1002/2015GL065397",
+        "article-title": "The climate variability in northern Levant over the past 20,000 years",
+        "volume": "42",
+        "author": "Cheng",
+        "year": "2015",
+        "journal-title": "Geophysical Research Letters"
+      },
+      {
+        "key": "2019092516182987300_b13",
+        "first-page": "312",
+        "article-title": "Analysis of the winter climate pattern at the time of the Mycenaean decline [Ph.D. thesis]",
+        "author": "Donlay",
+        "year": "1971"
+      },
+      {
+        "key": "2019092516182987300_b14",
+        "doi-asserted-by": "crossref",
+        "first-page": "1217",
+        "DOI": "10.1016/S0277-3791(97)00029-2",
+        "article-title": "The mutual climatic range method of palaeoclimate reconstruction based on insect fossils: New applications and interhemispheric comparisons",
+        "volume": "16",
+        "author": "Elias",
+        "year": "1997",
+        "journal-title": "Quaternary Science Reviews"
+      },
+      {
+        "key": "2019092516182987300_b15",
+        "first-page": "340",
+        "article-title": "Textbook of Pollen Analysis",
+        "author": "Faegri",
+        "year": "1989",
+        "edition": "fourth edition"
+      },
+      {
+        "key": "2019092516182987300_b16",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0189447",
+        "DOI": "10.1371/journal.pone.0189447",
+        "article-title": "Late Bronze Age climate change and the destruction of the Mycenaean Palace of Nestor at Pylos",
+        "volume": "12",
+        "author": "Finné",
+        "year": "2017",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "2019092516182987300_b17",
+        "first-page": "209",
+        "article-title": "Fragmenting the Sea Peoples, with an emphasis on Cyprus, Syria and Egypt: A Tel Dor perspective",
+        "volume": "27–28",
+        "author": "Gilboa",
+        "year": "2006–2007",
+        "journal-title": "Scripta Mediterranea"
+      },
+      {
+        "key": "2019092516182987300_b18",
+        "doi-asserted-by": "crossref",
+        "first-page": "1965",
+        "DOI": "10.1002/joc.1276",
+        "article-title": "Very high resolution interpolated climate surfaces for global land areas",
+        "volume": "25",
+        "author": "Hijmans",
+        "year": "2005",
+        "journal-title": "International Journal of Climatology"
+      },
+      {
+        "key": "2019092516182987300_b19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1398",
+        "DOI": "10.1016/j.quascirev.2007.03.006",
+        "article-title": "A Mutual Temperature Range method for Quaternary palaeoclimatic analysis using European nonmarine Ostracoda",
+        "volume": "26",
+        "author": "Horne",
+        "year": "2007",
+        "journal-title": "Quaternary Science Reviews"
+      },
+      {
+        "key": "2019092516182987300_b20",
+        "doi-asserted-by": "crossref",
+        "first-page": "495",
+        "DOI": "10.1146/annurev.earth.32.101802.120435",
+        "article-title": "Modern analogs in Quaternary paleoecology: Here today, gone yesterday, gone tomorrow",
+        "volume": "32",
+        "author": "Jackson",
+        "year": "2004",
+        "journal-title": "Annual Review of Earth and Planetary Sciences"
+      },
+      {
+        "key": "2019092516182987300_b21",
+        "first-page": "206",
+        "volume-title": "Atlas Florae Europaeae: Distribution of vascular plants in Europe",
+        "author": "Jalas",
+        "year": "1973"
+      },
+      {
+        "key": "2019092516182987300_b22",
+        "first-page": "71",
+        "volume-title": "Atlas Florae Europaeae: Distribution of vascular plants in Europe",
+        "author": "Jalas",
+        "year": "1979"
+      },
+      {
+        "key": "2019092516182987300_b23",
+        "first-page": "119",
+        "volume-title": "Atlas Florae Europaeae: Distribution of vascular plants in Europe",
+        "author": "Jalas",
+        "year": "1980"
+      },
+      {
+        "key": "2019092516182987300_b24",
+        "doi-asserted-by": "crossref",
+        "first-page": "662",
+        "DOI": "10.1126/science.1059126",
+        "article-title": "The evolution of climate over the last millennium",
+        "volume": "292",
+        "author": "Jones",
+        "year": "2001",
+        "journal-title": "Science"
+      },
+      {
+        "key": "2019092516182987300_b25",
+        "doi-asserted-by": "crossref",
+        "first-page": "13,941",
+        "DOI": "10.1073/pnas.0803533105",
+        "article-title": "Middle East coastal ecosystem response to middle-to-late Holocene abrupt climate changes",
+        "volume": "105",
+        "author": "Kaniewski",
+        "year": "2008",
+        "journal-title": "Proceedings of the National Academy of Sciences of the United States of America"
+      },
+      {
+        "key": "2019092516182987300_b26",
+        "first-page": "1039",
+        "article-title": "Wild or cultivated Olea europaea L. in the Eastern Mediterranean during the middle–late Holocene?",
+        "volume": "19",
+        "author": "Kaniewski",
+        "year": "2009",
+        "journal-title": "A pollen-numerical approach: The Holocene"
+      },
+      {
+        "key": "2019092516182987300_b27",
+        "doi-asserted-by": "crossref",
+        "first-page": "207",
+        "DOI": "10.1016/j.yqres.2010.07.010",
+        "article-title": "Late second–early first millennium BC abrupt climate changes in coastal Syria and their possible significance for the history of the Eastern Mediterranean",
+        "volume": "74",
+        "author": "Kaniewski",
+        "year": "2010",
+        "journal-title": "Quaternary Research"
+      },
+      {
+        "key": "2019092516182987300_b28",
+        "doi-asserted-by": "crossref",
+        "first-page": "178",
+        "DOI": "10.1016/j.gloplacha.2011.06.010",
+        "article-title": "The Medieval Climate Anomaly and the Little Ice Age in coastal Syria inferred from pollen-derived palaeoclimatic patterns",
+        "volume": "78",
+        "author": "Kaniewski",
+        "year": "2011",
+        "journal-title": "Global and Planetary Change"
+      },
+      {
+        "key": "2019092516182987300_b29",
+        "doi-asserted-by": "crossref",
+        "first-page": "251",
+        "DOI": "10.1177/0959683610378883",
+        "article-title": "Medieval coastal Syrian vegetation patterns in the principality of Antioch",
+        "volume": "21",
+        "author": "Kaniewski",
+        "year": "2011",
+        "journal-title": "The Holocene"
+      },
+      {
+        "key": "2019092516182987300_b30",
+        "doi-asserted-by": "crossref",
+        "first-page": "e71004",
+        "DOI": "10.1371/journal.pone.0071004",
+        "article-title": "Environmental roots of the Late Bronze Age crisis",
+        "volume": "8",
+        "author": "Kaniewski",
+        "year": "2013",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "2019092516182987300_b31",
+        "doi-asserted-by": "crossref",
+        "first-page": "3540",
+        "DOI": "10.1038/srep03540",
+        "article-title": "Early urban impact on Mediterranean coastal environments",
+        "volume": "3",
+        "author": "Kaniewski",
+        "year": "2013",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "key": "2019092516182987300_b32",
+        "first-page": "369",
+        "article-title": "Drought and societal collapse 3200 years ago in the Eastern Mediterranean: A review",
+        "volume": "6",
+        "author": "Kaniewski",
+        "year": "2015",
+        "journal-title": "Wiley Interdisciplinary Reviews: Climate Change"
+      },
+      {
+        "key": "2019092516182987300_b33",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1700954",
+        "DOI": "10.1126/sciadv.1700954",
+        "article-title": "Climate change and water management in the biblical city of Dan",
+        "volume": "3",
+        "author": "Kaniewski",
+        "year": "2017",
+        "journal-title": "Science Advances"
+      },
+      {
+        "key": "2019092516182987300_b34",
+        "first-page": "772",
+        "volume-title": "The Philistines and Other Sea Peoples in Text and Archaeology",
+        "author": "Killebrew",
+        "year": "2013"
+      },
+      {
+        "key": "2019092516182987300_b35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1165",
+        "DOI": "10.5194/cp-14-1165-2018",
+        "article-title": "Abrupt cold events in the North Atlantic Ocean in a transient Holocene simulation",
+        "volume": "14",
+        "author": "Klus",
+        "year": "2018",
+        "journal-title": "Climate of the Past"
+      },
+      {
+        "key": "2019092516182987300_b36",
+        "first-page": "L21501",
+        "article-title": "High variability of Greenland surface temperature over the past 4000 years estimated from trapped air in an ice core",
+        "volume": "38",
+        "author": "Kobashi",
+        "year": "2009",
+        "journal-title": "Geophysical Research Letters"
+      },
+      {
+        "key": "2019092516182987300_b37",
+        "doi-asserted-by": "crossref",
+        "first-page": "381",
+        "DOI": "10.1006/qres.2002.2380",
+        "article-title": "Probability density functions as botanical-climatological transfer functions for climate reconstruction",
+        "volume": "58",
+        "author": "Kühl",
+        "year": "2002",
+        "journal-title": "Quaternary Research"
+      },
+      {
+        "key": "2019092516182987300_b38",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.1179/033443513X13753505864205",
+        "article-title": "Climate and the Late Bronze collapse: New evidence from the southern Levant",
+        "volume": "40",
+        "author": "Langgut",
+        "year": "2013",
+        "journal-title": "Tel Aviv"
+      },
+      {
+        "key": "2019092516182987300_b39",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.1016/j.quascirev.2012.06.012",
+        "article-title": "Holocene climate variability in the Levant from the Dead Sea pollen record",
+        "volume": "49",
+        "author": "Litt",
+        "year": "2012",
+        "journal-title": "Quaternary Science Reviews"
+      },
+      {
+        "key": "2019092516182987300_b40",
+        "doi-asserted-by": "crossref",
+        "first-page": "162",
+        "DOI": "10.1006/qres.2001.2286",
+        "article-title": "Paleoclimatic reconstruction using mutual climatic range on terrestrial mollusks",
+        "volume": "57",
+        "author": "Moine",
+        "year": "2002",
+        "journal-title": "Quaternary Research"
+      },
+      {
+        "key": "2019092516182987300_b41",
+        "doi-asserted-by": "crossref",
+        "first-page": "18",
+        "DOI": "10.1016/j.epsl.2013.11.039",
+        "article-title": "Ocean-atmosphere climate shift during the mid-to-late Holocene transition",
+        "volume": "388",
+        "author": "Morley",
+        "year": "2014",
+        "journal-title": "Earth and Planetary Science Letters"
+      },
+      {
+        "key": "2019092516182987300_b42",
+        "doi-asserted-by": "crossref",
+        "first-page": "61",
+        "DOI": "10.1016/S0031-0182(96)00154-X",
+        "article-title": "The coexistence approach—A method for quantitative reconstructions of Tertiary terrestrial palaeoclimate data using plant fossils",
+        "volume": "134",
+        "author": "Mosbrugger",
+        "year": "1997",
+        "journal-title": "Palaeogeography, Palaeoclimatology, Palaeoecology"
+      },
+      {
+        "key": "2019092516182987300_b43",
+        "doi-asserted-by": "crossref",
+        "first-page": "441",
+        "DOI": "10.1007/BF00139058",
+        "article-title": "Climate change as a topic in the classical Greek and Roman literature",
+        "volume": "7",
+        "author": "Neumann",
+        "year": "1985",
+        "journal-title": "Climatic Change"
+      },
+      {
+        "key": "2019092516182987300_b44",
+        "doi-asserted-by": "crossref",
+        "first-page": "161",
+        "DOI": "10.1086/373244",
+        "article-title": "Climatic change and the eleventh-tenth-century eclipse of Assyria and Babylonia",
+        "volume": "46",
+        "author": "Neumann",
+        "year": "1987",
+        "journal-title": "Journal of Near Eastern Studies"
+      },
+      {
+        "key": "2019092516182987300_b45",
+        "unstructured": "Ooms, J., James, D., DebRoy, S., Wickham, H., and Horner, J., 2016, RMySQL: Database interface and “MySQL” driver for R: R package, version 0.10.9, https://CRAN.R-project.org/package=RMySQL (accessed January 2019)."
+      },
+      {
+        "key": "2019092516182987300_b46",
+        "doi-asserted-by": "crossref",
+        "first-page": "1785",
+        "DOI": "10.1016/S0277-3791(00)00089-5",
+        "article-title": "Reconstructing palaeotemperatures for the Early and Middle Pleistocene using the mutual climatic range method based on plant fossils",
+        "volume": "19",
+        "author": "Pross",
+        "year": "2000",
+        "journal-title": "Quaternary Science Reviews"
+      },
+      {
+        "key": "2019092516182987300_b47",
+        "article-title": "A language and environment for statistical computing",
+        "author": "R Core Team",
+        "year": "2014",
+        "journal-title": "R Foundation for Statistical Computing"
+      },
+      {
+        "key": "2019092516182987300_b48",
+        "doi-asserted-by": "crossref",
+        "first-page": "577",
+        "DOI": "10.1007/s00334-017-0658-3",
+        "article-title": "Holocene vegetation history of the southern Levant based on a pollen record from Lake Kinneret (Sea of Galilee), Israel",
+        "volume": "27",
+        "author": "Schiebel",
+        "year": "2018",
+        "journal-title": "Vegetation History and Archaeobotany"
+      },
+      {
+        "key": "2019092516182987300_b49",
+        "doi-asserted-by": "crossref",
+        "first-page": "544",
+        "DOI": "10.1093/oso/9780198150343.001.0001",
+        "volume-title": "The Oxford History of Ancient Egypt",
+        "author": "Shaw",
+        "year": "2000"
+      },
+      {
+        "key": "2019092516182987300_b50",
+        "doi-asserted-by": "crossref",
+        "first-page": "858",
+        "DOI": "10.1177/0959683615622555",
+        "article-title": "Mid- to late-Holocene coastal vegetation patterns in Northern Levant (Tell Sukas, Syria): Olive tree cultivation history and climatic change",
+        "volume": "26",
+        "author": "Sorrel",
+        "year": "2016",
+        "journal-title": "The Holocene"
+      },
+      {
+        "key": "2019092516182987300_b51",
+        "doi-asserted-by": "crossref",
+        "first-page": "385",
+        "DOI": "10.1038/nature08355",
+        "article-title": "Holocene thinning of the Greenland ice sheet",
+        "volume": "461",
+        "author": "Vinther",
+        "year": "2009",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2019092516182987300_b52",
+        "doi-asserted-by": "crossref",
+        "first-page": "584",
+        "DOI": "10.1080/00438243.2018.1515035",
+        "article-title": "Resilience and persistence of ancient societies in the face of climate change: A case study from Late Bronze Age Peloponnese",
+        "volume": "50",
+        "author": "Weiberg",
+        "year": "2018",
+        "journal-title": "World Archaeology"
+      },
+      {
+        "key": "2019092516182987300_b53",
+        "doi-asserted-by": "crossref",
+        "first-page": "173",
+        "DOI": "10.1007/BF02423389",
+        "article-title": "The decline of Late Bronze Age civilization as a possible response to climatic change",
+        "volume": "4",
+        "author": "Weiss",
+        "year": "1982",
+        "journal-title": "Climatic Change"
+      },
+      {
+        "key": "2019092516182987300_b54",
+        "doi-asserted-by": "crossref",
+        "first-page": "62",
+        "DOI": "10.22498/pages.24.2.62",
+        "article-title": "Global megadrought, societal collapse and resilience at 4.2–3.9 ka BP across the Mediterranean and west Asia",
+        "volume": "24",
+        "author": "Weiss",
+        "year": "2016",
+        "journal-title": "PAGES"
+      },
+      {
+        "key": "2019092516182987300_b55",
+        "doi-asserted-by": "crossref",
+        "first-page": "995",
+        "DOI": "10.1126/science.261.5124.995",
+        "article-title": "The genesis and collapse of 3rd millennium north Mesopotamian civilization",
+        "volume": "261",
+        "author": "Weiss",
+        "year": "1993",
+        "journal-title": "Science"
+      },
+      {
+        "key": "2019092516182987300_b56",
+        "doi-asserted-by": "crossref",
+        "first-page": "633",
+        "DOI": "10.1007/978-1-4020-5302-3_26",
+        "article-title": "The frozen Bosphorus and its paleoclimatic implications based on a summary of the historical data",
+        "volume-title": "The Black Sea Flood Question: Changes in Coastline, Climate, and Human Settlement",
+        "author": "Yavuz",
+        "year": "2007"
+      },
+      {
+        "key": "2019092516182987300_b57",
+        "first-page": "200",
+        "article-title": "The City of Ugarit at Tell Ras Shamra",
+        "author": "Yon",
+        "year": "2006"
+      }
+    ],
+    "container-title": [
+      "Geology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://pubs.geoscienceworld.org/gsa/geology/article-pdf/doi/10.1130/G46491.1/4816827/g46491.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://pubs.geoscienceworld.org/gsa/geology/article-pdf/47/10/933/4830267/933.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          22
+        ]
+      ],
+      "date-time": "2024-07-22T07:01:50Z",
+      "timestamp": 1721631710000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://pubs.geoscienceworld.org/gsa/geology/article/47/10/933/573172/Cold-and-dry-outbreaks-in-the-eastern"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          20
+        ]
+      ]
+    },
+    "references-count": 57,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            8,
+            20
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1130/g46491.1",
+    "relation": {},
+    "ISSN": [
+      "0091-7613",
+      "1943-2682"
+    ],
+    "issn-type": [
+      {
+        "value": "0091-7613",
+        "type": "print"
+      },
+      {
+        "value": "1943-2682",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          20
+        ]
+      ]
+    }
+  }
+}

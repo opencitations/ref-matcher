@@ -1,0 +1,438 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          25
+        ]
+      ],
+      "date-time": "2025-01-25T05:26:44Z",
+      "timestamp": 1737782804550,
+      "version": "3.33.0"
+    },
+    "reference-count": 37,
+    "publisher": "SAGE Publications",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              5,
+              17
+            ]
+          ],
+          "date-time": "2018-05-17T00:00:00Z",
+          "timestamp": 1526515200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+      }
+    ],
+    "funder": [
+      {
+        "name": "the Greta and Johan Kock Foundation",
+        "award": [
+          "2014-231-401"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.sagepub.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Nurs Ethics"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:sec><jats:title>Background:</jats:title><jats:p> As frail older people might have difficulties in expressing themselves, their needs are often interpreted by others, for example, by significant others, whose information health care staff often have to rely on. This, in turn, can put health care staff in ethically difficult situations, where they have to choose between alternative courses of action. One aspect that might be especially difficult to express is that of existential loneliness. We have only sparse knowledge about whether, and in what way, the views of frail older persons and their significant others concerning existential loneliness are in concordance. </jats:p></jats:sec><jats:sec><jats:title>Objective:</jats:title><jats:p> To contrast frail older (&gt;75) persons’ experiences with their significant others’ perceptions of existential loneliness. </jats:p></jats:sec><jats:sec><jats:title>Methods:</jats:title><jats:p> A case study design was chosen for this study. Individual interviews with frail older persons (n = 15) and interviews with their significant others (n = 19), as well as field notes, served as a basis for the study. A thematic analysis was used to interpret data. </jats:p></jats:sec><jats:sec><jats:title>Ethical considerations:</jats:title><jats:p> This study was conducted in accordance with the principles of research ethics. </jats:p></jats:sec><jats:sec><jats:title>Findings:</jats:title><jats:p> The findings showed three themes: (1) Meaningless waiting in contrast to lack of activities, (2) Longing for a deeper connectedness in contrast to not participating in a social environment and (3) Restricted freedom in contrast to given up on life. </jats:p></jats:sec><jats:sec><jats:title>Discussion:</jats:title><jats:p> Knowledge about the tensions between older persons’ and their significant others’ views of existential loneliness could be of use as a basis for ethical reflections on the care of older people and in the encounter with their significant others. </jats:p></jats:sec><jats:sec><jats:title>Conclusion:</jats:title><jats:p> It is of importance that health care professionals listen to both the frail older person and their significant other(s) and be aware of whose voice that the care given is based on, in order to provide care that is beneficial and not to the detriment of the older person. </jats:p></jats:sec>",
+    "DOI": "10.1177/0969733018774828",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          18
+        ]
+      ],
+      "date-time": "2018-05-18T02:07:16Z",
+      "timestamp": 1526609236000
+    },
+    "page": "1623-1637",
+    "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 18,
+    "title": [
+      "Contrasts in older persons’ experiences and significant others’ perceptions of existential loneliness"
+    ],
+    "prefix": "10.1177",
+    "volume": "26",
+    "author": [
+      {
+        "given": "Helena",
+        "family": "Larsson",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Malmö University, Sweden; Kristianstad University, Sweden"
+          }
+        ]
+      },
+      {
+        "given": "Anna-Karin",
+        "family": "Edberg",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Kristianstad University, Sweden"
+          }
+        ]
+      },
+      {
+        "given": "Ingrid",
+        "family": "Bolmsjö",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Margareta",
+        "family": "Rämgård",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Malmö University, Sweden"
+          }
+        ]
+      }
+    ],
+    "member": "179",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          17
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "bibr1-0969733018774828",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jpainsymman.2016.02.009"
+      },
+      {
+        "key": "bibr2-0969733018774828",
+        "first-page": "16",
+        "volume": "184",
+        "author": "Abrahamsson K",
+        "year": "2016",
+        "journal-title": "BMC Geriatr"
+      },
+      {
+        "key": "bibr3-0969733018774828",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jocn.12773"
+      },
+      {
+        "key": "bibr4-0969733018774828",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5430/cns.v2n3p22"
+      },
+      {
+        "key": "bibr5-0969733018774828",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2702.2006.01473.x"
+      },
+      {
+        "key": "bibr6-0969733018774828",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0269216310371411"
+      },
+      {
+        "key": "bibr7-0969733018774828",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1191/0969733006ne890oa"
+      },
+      {
+        "volume-title": "The courage to be",
+        "year": "2000",
+        "author": "Tillich P",
+        "key": "bibr8-0969733018774828"
+      },
+      {
+        "volume-title": "Man’s search for meaning: an introduction to logotherapy",
+        "year": "1987",
+        "author": "Frankl VE",
+        "key": "bibr9-0969733018774828"
+      },
+      {
+        "volume-title": "Existential psychotherapy",
+        "year": "1980",
+        "author": "Yalom ID",
+        "key": "bibr10-0969733018774828"
+      },
+      {
+        "key": "bibr11-0969733018774828",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2648.2010.05330.x"
+      },
+      {
+        "key": "bibr12-0969733018774828",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1348/000711201161082"
+      },
+      {
+        "key": "bibr13-0969733018774828",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11017-010-9141-1"
+      },
+      {
+        "key": "bibr14-0969733018774828",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/jpm.2006.9.1376"
+      },
+      {
+        "key": "bibr15-0969733018774828",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/17482620500501883"
+      },
+      {
+        "key": "bibr16-0969733018774828",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sjöberg M, Beck I, Rasmussen B, et al. Being disconnected from life – meanings of existential loneliness as narrated by frail older people. Aging Ment Health 2018; 22: 1357–1364.",
+        "DOI": "10.1080/13607863.2017.1348481"
+      },
+      {
+        "key": "bibr17-0969733018774828",
+        "first-page": "17",
+        "volume": "138",
+        "author": "Larsson H",
+        "year": "2017",
+        "journal-title": "BMC Geriatr"
+      },
+      {
+        "key": "bibr18-0969733018774828",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.socscimed.2015.05.015"
+      },
+      {
+        "key": "bibr19-0969733018774828",
+        "first-page": "13",
+        "volume": "28",
+        "author": "Karlsson M",
+        "year": "2014",
+        "journal-title": "BMC Palliat Care"
+      },
+      {
+        "key": "bibr20-0969733018774828",
+        "first-page": "2",
+        "volume": "015",
+        "author": "Allen R",
+        "year": "2016",
+        "journal-title": "Int J Crit Care Emerg Med"
+      },
+      {
+        "key": "bibr21-0969733018774828",
+        "unstructured": "International Council of Nurses (ICN). The ICN code of ethics for nurses, http://www.icn.ch/images/stories/documents/about/incode/ (2008, accessed 27 March 2018)."
+      },
+      {
+        "key": "bibr22-0969733018774828",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sundström M, Edberg AK, Rämgård M, et al. Encountering existential loneliness among older people: perspectives of health care professionals. Submitted. 2017.",
+        "DOI": "10.1080/17482631.2018.1474673"
+      },
+      {
+        "key": "bibr23-0969733018774828",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00391-013-0475-y"
+      },
+      {
+        "key": "bibr24-0969733018774828",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S1041610216002167"
+      },
+      {
+        "key": "bibr25-0969733018774828",
+        "unstructured": "Edberg AK, Bolmsjö I. Study protocol: exploring existential loneliness among frail older people. The development phase of the LONE study. Submitted. 2017."
+      },
+      {
+        "volume-title": "Developing and evaluating complex interventions: new guidance",
+        "year": "2008",
+        "author": "Medical Research Council",
+        "key": "bibr26-0969733018774828"
+      },
+      {
+        "volume-title": "Case study research – design and methods",
+        "year": "2003",
+        "author": "Yin RK",
+        "key": "bibr27-0969733018774828"
+      },
+      {
+        "key": "bibr28-0969733018774828",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1191/1478088706qp063oa"
+      },
+      {
+        "key": "bibr29-0969733018774828",
+        "unstructured": "WMA Declaration of Helsinki, http://www.wma.net/policies-post/wma-declaration-of-helsinki-ethical-principles-for-medical-research-involving-human-subjects/ (2008, accessed 27 March 2018)."
+      },
+      {
+        "volume-title": "Existential counselling in practice",
+        "year": "1998",
+        "author": "van Deurzen E",
+        "key": "bibr30-0969733018774828"
+      },
+      {
+        "key": "bibr31-0969733018774828",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Österlind J, Ternestedt BM, Hansebo G, et al. Feeling lonely in an unfamiliar place: older people’s experiences of life close to death in a nursing home. Int J Older People Nurs. Epub ahead of print 14 September 2017. DOI: 10.1111/opn.12129.",
+        "DOI": "10.1111/opn.12129"
+      },
+      {
+        "volume-title": "Relational ethics: the full meaning of respect",
+        "year": "2005",
+        "author": "Bergum V",
+        "key": "bibr32-0969733018774828"
+      },
+      {
+        "volume-title": "The life of dialogue",
+        "year": "1955",
+        "author": "Buber M.",
+        "key": "bibr33-0969733018774828"
+      },
+      {
+        "key": "bibr34-0969733018774828",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijnurstu.2011.10.016"
+      },
+      {
+        "volume-title": "The life cycle completed",
+        "year": "1982",
+        "author": "Erikson EH",
+        "key": "bibr35-0969733018774828"
+      },
+      {
+        "key": "bibr36-0969733018774828",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0969733014557119"
+      },
+      {
+        "key": "bibr37-0969733018774828",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3233/EFI-2004-22201"
+      }
+    ],
+    "container-title": [
+      "Nursing Ethics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0969733018774828",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/0969733018774828",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0969733018774828",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          24
+        ]
+      ],
+      "date-time": "2025-01-24T18:26:30Z",
+      "timestamp": 1737743190000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journals.sagepub.com/doi/10.1177/0969733018774828"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          17
+        ]
+      ]
+    },
+    "references-count": 37,
+    "journal-issue": {
+      "issue": "6",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1177/0969733018774828"
+    ],
+    "URL": "https://doi.org/10.1177/0969733018774828",
+    "relation": {},
+    "ISSN": [
+      "0969-7330",
+      "1477-0989"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0969-7330"
+      },
+      {
+        "type": "electronic",
+        "value": "1477-0989"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          17
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,858 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          13
+        ]
+      ],
+      "date-time": "2024-07-13T15:53:39Z",
+      "timestamp": 1720886019882
+    },
+    "reference-count": 59,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              25
+            ]
+          ],
+          "date-time": "2019-10-25T00:00:00Z",
+          "timestamp": 1571961600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001659",
+        "name": "Deutsche Forschungsgemeinschaft",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001659",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Cell. Neurosci."
+    ],
+    "DOI": "10.3389/fncel.2019.00483",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          25
+        ]
+      ],
+      "date-time": "2019-10-25T00:28:31Z",
+      "timestamp": 1571963311000
+    },
+    "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Interaction of the Psychiatric Risk Gene Cacna1c With Post-weaning Social Isolation or Environmental Enrichment Does Not Affect Brain Mitochondrial Bioenergetics in Rats"
+    ],
+    "prefix": "10.3389",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Susanne",
+        "family": "Michels",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Amalia M.",
+        "family": "Dolga",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Moria D.",
+        "family": "Braun",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Theresa M.",
+        "family": "Kisko",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "A. Özge",
+        "family": "Sungur",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Stephanie H.",
+        "family": "Witt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marcella",
+        "family": "Rietschel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Astrid",
+        "family": "Dempfle",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Markus",
+        "family": "Wöhr",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rainer K. W.",
+        "family": "Schwarting",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Carsten",
+        "family": "Culmsee",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          25
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "doi-asserted-by": "crossref",
+        "first-page": "416",
+        "DOI": "10.1038/496416a",
+        "article-title": "Mental health: on the spectrum.",
+        "volume": "496",
+        "author": "Adam",
+        "year": "2013",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "B2",
+        "doi-asserted-by": "publisher",
+        "first-page": "2464",
+        "DOI": "10.1016/j.bbagen.2015.09.009",
+        "article-title": "Tropisetron attenuated the anxiogenic effects of social isolation by modulating nitrergic system and mitochondrial function.",
+        "volume": "1850",
+        "author": "Amiri",
+        "year": "2015",
+        "journal-title": "Biochim. Biophys. Acta"
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "first-page": "27",
+        "DOI": "10.1016/j.ynstr.2017.02.004",
+        "article-title": "Cav1.2 channels mediate persistent chronic stress-induced behavioral deficits that are associated with prefrontal cortex activation of the p25/Cdk5-glucocorticoid receptor pathway.",
+        "volume": "7",
+        "author": "Bavley",
+        "year": "2017",
+        "journal-title": "Neurobiol. Stress"
+      },
+      {
+        "key": "B4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/j.pneurobio.2012.06.001",
+        "article-title": "CACNA1C (Cav1.2) in the pathophysiology of psychiatric disease.",
+        "volume": "99",
+        "author": "Bhat",
+        "year": "2012",
+        "journal-title": "Prog. Neurobiol."
+      },
+      {
+        "key": "B5",
+        "doi-asserted-by": "publisher",
+        "first-page": "297",
+        "DOI": "10.1042/BJ20110162",
+        "article-title": "Assessing mitochondrial dysfunction in cells.",
+        "volume": "435",
+        "author": "Brand",
+        "year": "2011",
+        "journal-title": "Biochem. J."
+      },
+      {
+        "key": "B6",
+        "doi-asserted-by": "publisher",
+        "first-page": "1586",
+        "DOI": "10.1002/cne.23842",
+        "article-title": "Differential effects of social and physical environmental enrichment on brain plasticity, cognition, and ultrasonic communication in rats.",
+        "volume": "524",
+        "author": "Brenes",
+        "year": "2016",
+        "journal-title": "J. Comp. Neurol."
+      },
+      {
+        "key": "B7",
+        "doi-asserted-by": "publisher",
+        "first-page": "125",
+        "DOI": "10.1016/j.bbr.2008.08.014",
+        "article-title": "A detailed analysis of open-field habituation and behavioral and neurochemical antidepressant-like effects in postweaning enriched rats.",
+        "volume": "197",
+        "author": "Brenes",
+        "year": "2009",
+        "journal-title": "Behav. Brain Res."
+      },
+      {
+        "key": "B8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.12688/f1000research.11808.2",
+        "article-title": "Proteolytic processing of the L-type Ca 2+ channel alpha 11.2 subunit in neurons.",
+        "volume": "6",
+        "author": "Buonarati",
+        "year": "2017",
+        "journal-title": "F1000Res."
+      },
+      {
+        "key": "B9",
+        "doi-asserted-by": "publisher",
+        "first-page": "776",
+        "DOI": "10.1093/schbul/sbt054",
+        "article-title": "Structural and functional neuroimaging studies in major depressive disorder with psychotic features: a critical review.",
+        "volume": "39",
+        "author": "Busatto",
+        "year": "2013",
+        "journal-title": "Schizophr. Bull."
+      },
+      {
+        "key": "B10",
+        "doi-asserted-by": "publisher",
+        "first-page": "22",
+        "DOI": "10.1016/j.nurx.2005.12.009",
+        "article-title": "Neural circuitry and neuroplasticity in mood disorders: insights for novel therapeutic targets.",
+        "volume": "3",
+        "author": "Carlson",
+        "year": "2006",
+        "journal-title": "NeuroRx"
+      },
+      {
+        "key": "B11",
+        "doi-asserted-by": "publisher",
+        "first-page": "405",
+        "DOI": "10.1002/cyto.a.21061",
+        "article-title": "Cytometric assessment of mitochondria using fluorescent probes.",
+        "volume": "79",
+        "author": "Cottet-Rousselle",
+        "year": "2011",
+        "journal-title": "Cytometry A."
+      },
+      {
+        "key": "B12",
+        "doi-asserted-by": "publisher",
+        "first-page": "1371",
+        "DOI": "10.1016/S0140-6736(12)62129-1",
+        "article-title": "Identification of risk loci with shared effects on five major psychiatric disorders: a genome-wide analysis.",
+        "volume": "381",
+        "year": "2013",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "publisher",
+        "first-page": "801",
+        "DOI": "10.1016/j.biopsych.2010.06.019",
+        "article-title": "Mood disorder susceptibility gene CACNA1C modifies mood-related behaviors in mice and interacts with sex to influence behavior in mice and diagnosis in humans.",
+        "volume": "68",
+        "author": "Dao",
+        "year": "2010",
+        "journal-title": "Biol. Psychiatry"
+      },
+      {
+        "key": "B14",
+        "doi-asserted-by": "publisher",
+        "first-page": "1617",
+        "DOI": "10.1046/j.1471-4159.1996.66041617.x",
+        "article-title": "Threshold effects and control of oxidative phosphorylation in nonsynaptic rat brain mitochondria.",
+        "volume": "66",
+        "author": "Davey",
+        "year": "1996",
+        "journal-title": "J. Neurochem."
+      },
+      {
+        "key": "B15",
+        "doi-asserted-by": "publisher",
+        "first-page": "533",
+        "DOI": "10.1038/mp.2017.133",
+        "article-title": "Cross-disorder risk gene CACNA1C differentially modulates susceptibility to psychiatric disorders during development and adulthood.",
+        "volume": "23",
+        "author": "Dedic",
+        "year": "2018",
+        "journal-title": "Mol. Psychiatry"
+      },
+      {
+        "key": "B16",
+        "doi-asserted-by": "publisher",
+        "first-page": "147",
+        "DOI": "10.1016/j.neuroimage.2014.03.007",
+        "article-title": "Replication of brain function effects of a genome-wide supported psychiatric risk variant in the CACNA1C gene and new multi-locus effects.",
+        "volume": "94",
+        "author": "Erk",
+        "year": "2014",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "key": "B17",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1007/s00429-016-1218-9",
+        "article-title": "Oxidative and nitrosative stress pathways in the brain of socially isolated adult male rats demonstrating depressive- and anxiety-like symptoms.",
+        "volume": "222",
+        "author": "Filipović",
+        "year": "2017",
+        "journal-title": "Brain Struct. Funct."
+      },
+      {
+        "key": "B18",
+        "doi-asserted-by": "publisher",
+        "first-page": "1087",
+        "DOI": "10.1016/j.neubiorev.2008.03.003",
+        "article-title": "Behavioural and neurochemical effects of post-weaning social isolation in rodents-relevance to developmental neuropsychiatric disorders.",
+        "volume": "32",
+        "author": "Fone",
+        "year": "2008",
+        "journal-title": "Neurosci. Biobehav. Rev."
+      },
+      {
+        "key": "B19",
+        "doi-asserted-by": "publisher",
+        "first-page": "799",
+        "DOI": "10.1016/j.jpsychires.2010.01.006",
+        "article-title": "Interaction of childhood stress with hippocampus and prefrontal cortex volume reduction in major depression.",
+        "volume": "44",
+        "author": "Frodl",
+        "year": "2010",
+        "journal-title": "J. Psychiatr. Res."
+      },
+      {
+        "key": "B20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1172447",
+        "article-title": "Knockout rats via embryo microinjection of zinc-finger nucleases.",
+        "volume": "325",
+        "author": "Geurts",
+        "year": "2009",
+        "journal-title": "Science"
+      },
+      {
+        "key": "B21",
+        "doi-asserted-by": "publisher",
+        "first-page": "76",
+        "DOI": "10.1016/j.neulet.2010.11.006",
+        "article-title": "Chronic mild stress damages mitochondrial ultrastructure and function in mouse brain.",
+        "volume": "488",
+        "author": "Gong",
+        "year": "2011",
+        "journal-title": "Neurosci. Lett."
+      },
+      {
+        "key": "B22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fncel.2014.00043",
+        "article-title": "STIM1-mediated bidirectional regulation of Ca(2+) entry through voltage-gated calcium channels (VGCC) and calcium-release activated channels (CRAC).",
+        "volume": "8",
+        "author": "Harraz",
+        "year": "2014",
+        "journal-title": "Front. Cell Neurosci."
+      },
+      {
+        "key": "B23",
+        "doi-asserted-by": "publisher",
+        "first-page": "2032",
+        "DOI": "10.1038/npp.2016.271",
+        "article-title": "Cacna1c in the prefrontal cortex regulates depression-related behaviors via REDD1.",
+        "volume": "42",
+        "author": "Kabir",
+        "year": "2017",
+        "journal-title": "Neuropsychopharmacology"
+      },
+      {
+        "key": "B24",
+        "doi-asserted-by": "publisher",
+        "first-page": "166",
+        "DOI": "10.1016/j.neulet.2015.01.006",
+        "article-title": "Potential involvement of the mitochondrial unfolded protein response in depressive-like symptoms in mice.",
+        "volume": "588",
+        "author": "Kambe",
+        "year": "2015",
+        "journal-title": "Neurosci. Lett."
+      },
+      {
+        "key": "B25",
+        "doi-asserted-by": "publisher",
+        "first-page": "129",
+        "DOI": "10.1007/s11920-011-0251-x",
+        "article-title": "Gene-environment interaction in major depression and antidepressant treatment response.",
+        "volume": "14",
+        "author": "Keers",
+        "year": "2012",
+        "journal-title": "Curr. Psychiatry Rep."
+      },
+      {
+        "key": "B26",
+        "doi-asserted-by": "publisher",
+        "first-page": "23",
+        "DOI": "10.1017/s1121189x00001421",
+        "article-title": "The global burden of mental disorders: an update from the WHO World Mental Health (WMH) surveys.",
+        "volume": "18",
+        "author": "Kessler",
+        "year": "2009",
+        "journal-title": "Epidemiol. Psichiatr. Soc."
+      },
+      {
+        "key": "B27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1242/dmm.034116",
+        "article-title": "Cacna1c haploinsufficiency leads to pro-social 50-kHz ultrasonic communication deficits in rats.",
+        "volume": "11",
+        "author": "Kisko",
+        "year": "",
+        "journal-title": "Dis. Model. Mech."
+      },
+      {
+        "key": "B28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/gbb.12552",
+        "article-title": "Sex-dependent effects of Cacna1c haploinsufficiency on juvenile social play behavior and pro-social 50-kHz ultrasonic communication in rats.",
+        "volume": "27",
+        "author": "Kisko",
+        "year": "",
+        "journal-title": "Genes Brain Behav"
+      },
+      {
+        "key": "B29",
+        "doi-asserted-by": "publisher",
+        "first-page": "155",
+        "DOI": "10.1007/s10863-014-9584-6",
+        "article-title": "A mitochondrial bioenergetic basis of depression.",
+        "volume": "47",
+        "author": "Klinedinst",
+        "year": "2015",
+        "journal-title": "J. Bioenerg. Biomembr."
+      },
+      {
+        "key": "B30",
+        "doi-asserted-by": "publisher",
+        "first-page": "1063",
+        "DOI": "10.1007/s11064-012-0709-1",
+        "article-title": "Isolation stress during the prepubertal period in rats induces long-lasting neurochemical changes in the prefrontal cortex.",
+        "volume": "37",
+        "author": "Krolow",
+        "year": "2012",
+        "journal-title": "Neurochem. Res."
+      },
+      {
+        "key": "B31",
+        "doi-asserted-by": "publisher",
+        "first-page": "8367",
+        "DOI": "10.1523/JNEUROSCI.4164-08.2010",
+        "article-title": "Homeostatic switch in hebbian plasticity and fear learning after sustained loss of Cav1.2 calcium channels.",
+        "volume": "30",
+        "author": "Langwieser",
+        "year": "2010",
+        "journal-title": "J. Neurosci."
+      },
+      {
+        "key": "B32",
+        "doi-asserted-by": "publisher",
+        "first-page": "1057",
+        "DOI": "10.1016/j.psyneuen.2011.12.003",
+        "article-title": "Corticosterone reduces brain mitochondrial function and expression of mitofusin, BDNF in depression-like rodents regardless of exercise preconditioning.",
+        "volume": "37",
+        "author": "Liu",
+        "year": "2012",
+        "journal-title": "Psychoneuroendocrinology"
+      },
+      {
+        "key": "B33",
+        "doi-asserted-by": "publisher",
+        "first-page": "420",
+        "DOI": "10.1016/s0893-133x(00)00208-6",
+        "article-title": "Glutathione depletion, lipid peroxidation and mitochondrial dysfunction are induced by chronic stress in rat brain.",
+        "volume": "24",
+        "author": "Madrigal",
+        "year": "2001",
+        "journal-title": "Neuropsychopharmacology"
+      },
+      {
+        "key": "B34",
+        "doi-asserted-by": "publisher",
+        "first-page": "293",
+        "DOI": "10.1038/nrn3229",
+        "article-title": "Impaired mitochondrial function in psychiatric disorders.",
+        "volume": "13",
+        "author": "Manji",
+        "year": "2012",
+        "journal-title": "Nat. Rev. Neurosci."
+      },
+      {
+        "key": "B35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41420-018-0061-6",
+        "article-title": "Downregulation of the psychiatric susceptibility gene Cacna1c promotes mitochondrial resilience to oxidative stress in neuronal cells.",
+        "volume": "4",
+        "author": "Michels",
+        "year": "",
+        "journal-title": "Cell death discov."
+      },
+      {
+        "key": "B36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41419-018-0676-9",
+        "article-title": "Psychiatric risk gene Cacna1c determines mitochondrial resilience against oxidative stress in neurons.",
+        "volume": "9",
+        "author": "Michels",
+        "year": "",
+        "journal-title": "Cell Death Dis."
+      },
+      {
+        "key": "B37",
+        "doi-asserted-by": "publisher",
+        "first-page": "156",
+        "DOI": "10.1016/j.bbi.2012.12.011",
+        "article-title": "Social isolation rearing induces mitochondrial, immunological, neurochemical and behavioural deficits in rats, and is reversed by clozapine or N-acetyl cysteine.",
+        "volume": "30",
+        "author": "Möller",
+        "year": "2013",
+        "journal-title": "Brain Behav. Immun."
+      },
+      {
+        "key": "B38",
+        "doi-asserted-by": "publisher",
+        "first-page": "141",
+        "DOI": "10.1176/appi.ajp.2011.11020335",
+        "article-title": "Childhood maltreatment predicts unfavorable course of illness and treatment outcome in depression: a meta-analysis.",
+        "volume": "169",
+        "author": "Nanni",
+        "year": "2012",
+        "journal-title": "Am. J. Psychiatry"
+      },
+      {
+        "key": "B39",
+        "doi-asserted-by": "publisher",
+        "first-page": "2723",
+        "DOI": "10.1038/npp.2014.145",
+        "article-title": "Hippocampal atrophy in major depression: a function of childhood maltreatment rather than diagnosis?",
+        "volume": "39",
+        "author": "Opel",
+        "year": "2014",
+        "journal-title": "Neuropsychopharmacology"
+      },
+      {
+        "key": "B40",
+        "doi-asserted-by": "publisher",
+        "first-page": "469",
+        "DOI": "10.1007/s12640-016-9596-6",
+        "article-title": "Enriched flavonoid fraction from Cecropia pachystachya trécul leaves exerts antidepressant-like behavior and protects brain against oxidative stress in rats subjected to chronic mild stress.",
+        "volume": "29",
+        "author": "Ortmann",
+        "year": "2016",
+        "journal-title": "Neurotox. Res."
+      },
+      {
+        "key": "B41",
+        "doi-asserted-by": "publisher",
+        "first-page": "25",
+        "DOI": "10.1016/j.neurobiolaging.2016.02.027",
+        "article-title": "Age- and brain region-specific differences in mitochondrial bioenergetics in brown norway rats.",
+        "volume": "42",
+        "author": "Pandya",
+        "year": "2016",
+        "journal-title": "Neurobiol. Aging"
+      },
+      {
+        "key": "B42",
+        "doi-asserted-by": "publisher",
+        "first-page": "1190",
+        "DOI": "10.1002/hbm.22244",
+        "article-title": "Association of rs1006737 in CACNA1C with alterations in prefrontal activation and fronto-hippocampal connectivity.",
+        "volume": "35",
+        "author": "Paulus",
+        "year": "2014",
+        "journal-title": "Hum. Brain Mapp."
+      },
+      {
+        "key": "B43",
+        "author": "Paxinos",
+        "year": "2007",
+        "journal-title": "The Rat Brain in Stereotaxic Coordinates"
+      },
+      {
+        "key": "B44",
+        "doi-asserted-by": "publisher",
+        "first-page": "141",
+        "DOI": "10.1097/PSY.0000000000000545",
+        "article-title": "Psychological stress and mitochondria: a systematic review.",
+        "volume": "80",
+        "author": "Picard",
+        "year": "2018",
+        "journal-title": "Psychosom. Med."
+      },
+      {
+        "key": "B45",
+        "doi-asserted-by": "publisher",
+        "first-page": "3",
+        "DOI": "10.1007/s00424-012-1122-y",
+        "article-title": "Mitochondrial Ca2 homeostasis: mechanism, role, and tissue specificities.",
+        "volume": "464",
+        "author": "Pizzo",
+        "year": "2012",
+        "journal-title": "Pflugers Arch."
+      },
+      {
+        "key": "B46",
+        "doi-asserted-by": "publisher",
+        "first-page": "187",
+        "DOI": "10.1016/j.freeradbiomed.2016.01.024",
+        "article-title": "Physical exercise, reactive oxygen species and neuroprotection.",
+        "volume": "98",
+        "author": "Radak",
+        "year": "2016",
+        "journal-title": "Free Radic. Biol. Med."
+      },
+      {
+        "key": "B47",
+        "doi-asserted-by": "publisher",
+        "first-page": "35",
+        "DOI": "10.1016/j.bbr.2019.03.032",
+        "article-title": "Effects of Cacna1c haploinsufficiency on social interaction behavior and 50-kHz ultrasonic vocalizations in adult female rats.",
+        "volume": "367",
+        "author": "Redecker",
+        "year": "2019",
+        "journal-title": "Behav. Brain Res."
+      },
+      {
+        "key": "B48",
+        "doi-asserted-by": "publisher",
+        "first-page": "395",
+        "DOI": "10.1016/j.neuint.2008.09.012",
+        "article-title": "Inhibition of mitochondrial respiratory chain in brain of rats subjected to an experimental model of depression.",
+        "volume": "53",
+        "author": "Rezin",
+        "year": "2008",
+        "journal-title": "Neurochem. Int."
+      },
+      {
+        "key": "B49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0021746",
+        "article-title": "High throughput microplate respiratory measurements using minimal quantities of isolated mitochondria.",
+        "volume": "6",
+        "author": "Rogers",
+        "year": "2011",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "B50",
+        "article-title": "The mouse brain library @ www.mbl.org.",
+        "volume": "14",
+        "author": "Rosen",
+        "year": "2000",
+        "journal-title": "Int. Mouse Genome Conf."
+      },
+      {
+        "key": "B51",
+        "doi-asserted-by": "publisher",
+        "first-page": "421",
+        "DOI": "10.1038/nprot.2014.018",
+        "article-title": "Comprehensive measurement of respiratory activity in permeabilized cells using extracellular flux analysis.",
+        "volume": "9",
+        "author": "Salabei",
+        "year": "2014",
+        "journal-title": "Nat. Protoc."
+      },
+      {
+        "key": "B52",
+        "doi-asserted-by": "publisher",
+        "first-page": "66",
+        "DOI": "10.1016/j.ab.2013.08.007",
+        "article-title": "A semi-automated method for isolating functionally intact mitochondria from cultured cells and tissue biopsies.",
+        "volume": "443",
+        "author": "Schmitt",
+        "year": "2013",
+        "journal-title": "Anal. Biochem."
+      },
+      {
+        "key": "B53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fnbeh.2015.00102",
+        "article-title": "Pro-social 50-kHz ultrasonic communication in rats: post-weaning but not post-adolescent social isolation leads to social impairments-phenotypic rescue by re-socialization.",
+        "volume": "9",
+        "author": "Seffer",
+        "year": "2015",
+        "journal-title": "Front. Behav. Neurosci."
+      },
+      {
+        "key": "B54",
+        "doi-asserted-by": "publisher",
+        "first-page": "1526",
+        "DOI": "10.1016/j.freeradbiomed.2011.02.035",
+        "article-title": "Behavioral stress causes mitochondrial dysfunction via ABAD up-regulation and aggravates plaque pathology in the brain of a mouse model of Alzheimer disease.",
+        "volume": "50",
+        "author": "Seo",
+        "year": "2011",
+        "journal-title": "Free Radic. Biol. Med."
+      },
+      {
+        "key": "B55",
+        "doi-asserted-by": "publisher",
+        "first-page": "1131",
+        "DOI": "10.1517/14728222.2014.940893",
+        "article-title": "Targeting mitochondrially mediated plasticity to develop improved therapeutics for bipolar disorder.",
+        "volume": "18",
+        "author": "Sousa",
+        "year": "2014",
+        "journal-title": "Expert Opin. Ther. Targets"
+      },
+      {
+        "key": "B56",
+        "doi-asserted-by": "publisher",
+        "first-page": "40",
+        "DOI": "10.1016/j.bbr.2018.06.033",
+        "article-title": "Effects of combined pre- and post-natal enrichment on anxiety-like, social, and cognitive behaviours in juvenile and adult rat offspring.",
+        "volume": "353",
+        "author": "Sparling",
+        "year": "2018",
+        "journal-title": "Behav. Brain Res."
+      },
+      {
+        "key": "B57",
+        "doi-asserted-by": "publisher",
+        "first-page": "906",
+        "DOI": "10.1002/hipo.22741",
+        "article-title": "Aberrant cognitive phenotypes and altered hippocampal BDNF expression related to epigenetic modifications in mice lacking the post-synaptic scaffolding protein SHANK1: implications for autism spectrum disorder.",
+        "volume": "27",
+        "author": "Sungur",
+        "year": "2017",
+        "journal-title": "Hippocampus"
+      },
+      {
+        "key": "B58",
+        "doi-asserted-by": "publisher",
+        "first-page": "428",
+        "DOI": "10.1093/ijnp/pyw112",
+        "article-title": "Decreased nucleus accumbens expression of psychiatric disorder risk gene Cacna1c promotes susceptibility to social stress.",
+        "volume": "20",
+        "author": "Terrillion",
+        "year": "2017",
+        "journal-title": "Int. J. Neuropsychopharmacol."
+      },
+      {
+        "key": "B59",
+        "doi-asserted-by": "publisher",
+        "first-page": "50",
+        "DOI": "10.1016/j.bbr.2012.07.024",
+        "article-title": "Developmental delays and reduced pup ultrasonic vocalizations but normal sociability in mice lacking the postsynaptic cell adhesion protein neuroligin2.",
+        "volume": "251",
+        "author": "Wöhr",
+        "year": "2013",
+        "journal-title": "Behav. Brain Res."
+      }
+    ],
+    "container-title": [
+      "Frontiers in Cellular Neuroscience"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/article/10.3389/fncel.2019.00483/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          25
+        ]
+      ],
+      "date-time": "2019-10-25T00:28:34Z",
+      "timestamp": 1571963314000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/article/10.3389/fncel.2019.00483/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          25
+        ]
+      ]
+    },
+    "references-count": 59,
+    "alternative-id": [
+      "10.3389/fncel.2019.00483"
+    ],
+    "URL": "https://doi.org/10.3389/fncel.2019.00483",
+    "relation": {},
+    "ISSN": [
+      "1662-5102"
+    ],
+    "issn-type": [
+      {
+        "value": "1662-5102",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          25
+        ]
+      ]
+    }
+  }
+}

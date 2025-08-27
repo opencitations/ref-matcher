@@ -1,0 +1,552 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          12
+        ]
+      ],
+      "date-time": "2024-09-12T21:22:41Z",
+      "timestamp": 1726176161869
+    },
+    "reference-count": 43,
+    "publisher": "Wiley",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              8
+            ]
+          ],
+          "date-time": "2019-07-08T00:00:00Z",
+          "timestamp": 1562544000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "besjournals.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Applied Ecology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>\n<jats:list>\n\n<jats:list-item><jats:p>Populations of large grazing birds have increased in Europe during the past five decades, raising conflicts between conservation and farming interests. Managing these conflicts requires knowledge about the currently unknown relationship between population sizes and crop damage levels.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p>We analysed unique data on reported, inspected and compensated crop damage caused by geese, swans and cranes together with data from population surveys in Sweden to investigate how bird abundance is related to damage levels at the national scale between 2000 and 2015.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p>Over the study period, the annual number of damage reports, yield loss and costs for compensation increased. These crop damage levels were positively related to national population indices of common crane, barnacle and greylag goose. The shape of these relationships varied between species and encompassed considerable uncertainty. However, on a year‐to‐year basis (detrended data) we found no evident association between damage levels and bird numbers.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p>Yield loss and compensation costs per reported damage did not increase with higher population indices of greylag goose, but they did so for barnacle goose.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p><jats:italic>Synthesis and applications</jats:italic>. We present a novel study of the relationships between different crop damage level indicators (damage reports, yield loss and compensation costs) and population numbers of large grazing birds. We identified a positive relationship with high uncertainty for all cases. We also identified the need to (a) better synchronize the monitoring of damages and bird numbers in time and space and (b) further study the relationships between damage levels and bird numbers at smaller (local and regional) and larger (flyway) spatial scales to reduce the uncertainty of the relationship and to gain a more holistic understanding of the system.</jats:p></jats:list-item>\n</jats:list>\n</jats:p>",
+    "DOI": "10.1111/1365-2664.13457",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2019-06-17T17:11:28Z",
+      "timestamp": 1560791488000
+    },
+    "page": "2286-2297",
+    "update-policy": "http://dx.doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 32,
+    "title": [
+      "Relating national levels of crop damage to the abundance of large grazing birds: Implications for management"
+    ],
+    "prefix": "10.1111",
+    "volume": "56",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0003-0961-4634",
+        "authenticated-orcid": false,
+        "given": "Teresa",
+        "family": "Montràs‐Janer",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Grimsö Wildlife Research Station, Department of Ecology Swedish University of Agricultural Sciences Riddarhyttan Sweden"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-8012-5131",
+        "authenticated-orcid": false,
+        "given": "Jonas",
+        "family": "Knape",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ecology Swedish University of Agricultural Sciences Uppsala Sweden"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-4822-7864",
+        "authenticated-orcid": false,
+        "given": "Lovisa",
+        "family": "Nilsson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Grimsö Wildlife Research Station, Department of Ecology Swedish University of Agricultural Sciences Riddarhyttan Sweden"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-1229-5972",
+        "authenticated-orcid": false,
+        "given": "Ingunn",
+        "family": "Tombre",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Arctic Ecology Department, Norwegian Institute for Nature Research The Fram Centre Tromsø Norway"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-7388-6672",
+        "authenticated-orcid": false,
+        "given": "Tomas",
+        "family": "Pärt",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Ecology Swedish University of Agricultural Sciences Uppsala Sweden"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-5189-2091",
+        "authenticated-orcid": false,
+        "given": "Johan",
+        "family": "Månsson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Grimsö Wildlife Research Station, Department of Ecology Swedish University of Agricultural Sciences Riddarhyttan Sweden"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          8
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "volume-title": "National Research Council. Land use and wildlife resources",
+        "author": "Anon",
+        "year": "1970"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "volume-title": "Jordbruksverket",
+        "author": "Anon",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "volume-title": "Statistika centralbyrån",
+        "author": "Anon",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365-2664.2003.00812.x"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10336-015-1271-9"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "volume-title": "Resolving human‐wildlife conflicts. The Science of wildlife damage management",
+        "author": "Conover M. R.",
+        "year": "2002"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "article-title": "Time series analysis reveals synchrony and asynchrony between conflict management effort and increasing large grazing bird populations in northern Europe",
+        "volume": "12450",
+        "author": "Cusack J. J.",
+        "year": "2018",
+        "journal-title": "Conservation Letters"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "first-page": "197",
+        "article-title": "The impact of hunting on mortality rates and spatial distribution of geese wintering in the Western Palearctic",
+        "volume": "79",
+        "author": "Ebbinge B. S.",
+        "year": "1991",
+        "journal-title": "Ardea"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13280-016-0879-1"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/brv.12258"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13280-016-0878-2"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2486.2005.00944.x"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11284-015-1282-2"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00300-013-1404-7"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "volume-title": "AEWA International Species Management Plan for the Barnacle Goose (Branta leucopsis) – Russia/Germany & Netherlands population, East Greenland/Scotland & Ireland population, Svalbard/South‐west Scotland population",
+        "author": "Jensen G. H.",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1365-2664.13184"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "volume-title": "Cranes – where, when and why? Supplement 2005: 43, Vår Fågelvärld",
+        "author": "Lundin G.",
+        "year": "2005"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "volume-title": "International Species Management Plan for the Svalbard population of the pink‐footed goose Anser brachyrhynchus",
+        "author": "Madsen J.",
+        "year": "2012"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13280-016-0888-0"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cropro.2017.03.001"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "volume-title": "Besiktnng av viltskador på gröda – med inriktning på fredade fåglar",
+        "author": "Månsson J.",
+        "year": "2011"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1365-2664.12969"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13280-016-0880-8"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/283426"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1365-2664.12918"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "article-title": "Data from: Relating national levels of crop damage to the abundance of large grazing birds: Implications for management",
+        "author": "Montràs‐Janer T.",
+        "year": "2019",
+        "journal-title": "Dryad Digital Repository"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "first-page": "1",
+        "article-title": "Censuses of autumn staging and wintering goose populations in Sweden 1977/1978–2011/1912",
+        "volume": "23",
+        "author": "Nilsson L.",
+        "year": "2013",
+        "journal-title": "Ornis Svecica"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "volume-title": "Common cranes in agricultural landscapes – linking space use and foraging patterns to conservation and damage prevention",
+        "author": "Nilsson L.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "volume-title": "International counts of staging and wintering waterbirds and geese in Sweden",
+        "author": "Nilsson L.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "volume-title": "Fåglarna i Sverige – Antal och förekomst",
+        "author": "Ottosson U.",
+        "year": "2012"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0261-2194(01)00041-2"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2404344"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "volume-title": "AEWA International Single Species Management Plan for the greylag goose (Anser anser) – Northwest/Southwest European population",
+        "author": "Powolny T.",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "volume-title": "R: A language and environment for statistical computing",
+        "author": "R Core Team",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tree.2012.08.021"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9868.2008.00700.x"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "volume-title": "Artportalen (Swedish species observation system). Version 92.131",
+        "author": "Shah M.",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "volume-title": "Penalising model component complexity: A principled, practical approach to constructing priors",
+        "author": "Simpson D. P.",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13280-017-0903-0"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1600-048X.2008.04440.x"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2435.2005.01056.x"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.biocon.2015.12.030"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "volume-title": "Beginner’s guide to spatial, temporal and spatio‐temporal ecological data analysis with R‐INLA. Vol. I: Using GLM and GLMM",
+        "author": "Zuur A. F.",
+        "year": "2017"
+      }
+    ],
+    "container-title": [
+      "Journal of Applied Ecology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2F1365-2664.13457",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2664.13457",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/1365-2664.13457",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2664.13457",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          28
+        ]
+      ],
+      "date-time": "2023-08-28T08:34:55Z",
+      "timestamp": 1693211695000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2664.13457"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Jörg",
+        "family": "Müller",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          8
+        ]
+      ]
+    },
+    "references-count": 43,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/1365-2664.13457"
+    ],
+    "URL": "https://doi.org/10.1111/1365-2664.13457",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0021-8901",
+      "1365-2664"
+    ],
+    "issn-type": [
+      {
+        "value": "0021-8901",
+        "type": "print"
+      },
+      {
+        "value": "1365-2664",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          8
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2019-02-07",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-06-03",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-07-08",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

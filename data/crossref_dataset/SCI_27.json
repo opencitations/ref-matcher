@@ -1,0 +1,575 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2024-11-19T17:46:58Z",
+      "timestamp": 1732038418347
+    },
+    "reference-count": 51,
+    "publisher": "Association for Computing Machinery (ACM)",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              12
+            ]
+          ],
+          "date-time": "2019-07-12T00:00:00Z",
+          "timestamp": 1562889600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://www.acm.org/publications/policies/copyright_policy#Background"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000879",
+        "name": "Alfred P. Sloan Foundation Fellowship",
+        "doi-asserted-by": "crossref",
+        "id": [
+          {
+            "id": "10.13039/100000879",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "Google Research Awards"
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "NSF",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "1617234, 1617794"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "ONR",
+        "award": [
+          "N000141712687"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "dl.acm.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "ACM Trans. Graph."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          31
+        ]
+      ]
+    },
+    "abstract": "<jats:p>We present a practical and robust deep learning solution for capturing and rendering novel views of complex real world scenes for virtual exploration. Previous approaches either require intractably dense view sampling or provide little to no guidance for how users should sample views of a scene to reliably render high-quality novel views. Instead, we propose an algorithm for view synthesis from an irregular grid of sampled views that first expands each sampled view into a local light field via a multiplane image (MPI) scene representation, then renders novel views by blending adjacent local light fields. We extend traditional plenoptic sampling theory to derive a bound that specifies precisely how densely users should sample views of a given scene when using our algorithm. In practice, we apply this bound to capture and render views of real world scenes that achieve the perceptual quality of Nyquist rate view sampling while using up to 4000X fewer views. We demonstrate our approach's practicality with an augmented reality smart-phone app that guides users to capture input images of a scene and viewers that enable realtime virtual exploration on desktop and mobile platforms.</jats:p>",
+    "DOI": "10.1145/3306346.3322980",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          12
+        ]
+      ],
+      "date-time": "2019-07-12T19:04:08Z",
+      "timestamp": 1562958248000
+    },
+    "page": "1-14",
+    "update-policy": "http://dx.doi.org/10.1145/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 659,
+    "title": [
+      "Local light field fusion"
+    ],
+    "prefix": "10.1145",
+    "volume": "38",
+    "author": [
+      {
+        "given": "Ben",
+        "family": "Mildenhall",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of California"
+          }
+        ]
+      },
+      {
+        "given": "Pratul P.",
+        "family": "Srinivasan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of California"
+          }
+        ]
+      },
+      {
+        "given": "Rodrigo",
+        "family": "Ortiz-Cayon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fyusion Inc."
+          }
+        ]
+      },
+      {
+        "given": "Nima Khademi",
+        "family": "Kalantari",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Texas A&amp;M University"
+          }
+        ]
+      },
+      {
+        "given": "Ravi",
+        "family": "Ramamoorthi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of California"
+          }
+        ]
+      },
+      {
+        "given": "Ren",
+        "family": "Ng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of California"
+          }
+        ]
+      },
+      {
+        "given": "Abhishek",
+        "family": "Kar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fyusion Inc."
+          }
+        ]
+      }
+    ],
+    "member": "320",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_2_1_1",
+        "unstructured": "Martín Abadi Ashish Agarwal Paul Barham Eugene Brevdo Zhifeng Chen Craig Citro Greg S. Corrado Andy Davis Jeffrey Dean Matthieu Devin etal 2015. TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems. (2015). https://www.tensorflow.org/  Martín Abadi Ashish Agarwal Paul Barham Eugene Brevdo Zhifeng Chen Craig Citro Greg S. Corrado Andy Davis Jeffrey Dean Matthieu Devin et al. 2015. TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems. (2015). https://www.tensorflow.org/"
+      },
+      {
+        "key": "e_1_2_2_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2980179.2980257"
+      },
+      {
+        "key": "e_1_2_2_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/383259.383309"
+      },
+      {
+        "key": "e_1_2_2_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/344779.344932"
+      },
+      {
+        "key": "e_1_2_2_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2487228.2487238"
+      },
+      {
+        "key": "e_1_2_2_6_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qifeng Chen and Vladlen Koltun. 2017. Photographic Image Synthesis With Cascaded Refinement Networks. In ICCV.  Qifeng Chen and Vladlen Koltun. 2017. Photographic Image Synthesis With Cascaded Refinement Networks. In ICCV.",
+        "DOI": "10.1109/ICCV.2017.168"
+      },
+      {
+        "key": "e_1_2_2_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/166117.166153"
+      },
+      {
+        "key": "e_1_2_2_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-8659.2012.03009.x"
+      },
+      {
+        "key": "e_1_2_2_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/237170.237191"
+      },
+      {
+        "key": "e_1_2_2_10_1",
+        "unstructured": "Piotr Didyk Pitchaya Sitthi-Amorn William T. Freeman Fredo Durand and Wojciech Matusik. 2013. 3DTV at Home: Eulerian-Lagrangian Stereo-to-Multiview Conversion. In SIGGRAPH Asia.  Piotr Didyk Pitchaya Sitthi-Amorn William T. Freeman Fredo Durand and Wojciech Matusik. 2013. 3DTV at Home: Eulerian-Lagrangian Stereo-to-Multiview Conversion. In SIGGRAPH Asia."
+      },
+      {
+        "key": "e_1_2_2_11_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "John Flynn Ivan Neulander James Philbin and Noah Snavely. 2016. DeepStereo: Learning to Predict New Views From the World's Imagery. In CVPR.  John Flynn Ivan Neulander James Philbin and Noah Snavely. 2016. DeepStereo: Learning to Predict New Views From the World's Imagery. In CVPR.",
+        "DOI": "10.1109/CVPR.2016.595"
+      },
+      {
+        "key": "e_1_2_2_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/237170.237200"
+      },
+      {
+        "key": "e_1_2_2_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3130800.3130828"
+      },
+      {
+        "key": "e_1_2_2_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3197517.3201384"
+      },
+      {
+        "key": "e_1_2_2_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3272127.3275084"
+      },
+      {
+        "key": "e_1_2_2_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2980179.2982420"
+      },
+      {
+        "key": "e_1_2_2_17_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Po-Han Huang Kevin Matzen Johannes Kopf Narendra Ahuja and Jia-Bin Huang. 2018. DeepMVS: Learning Multi-View Stereopsis. In CVPR.  Po-Han Huang Kevin Matzen Johannes Kopf Narendra Ahuja and Jia-Bin Huang. 2018. DeepMVS: Learning Multi-View Stereopsis. In CVPR.",
+        "DOI": "10.1109/CVPR.2018.00298"
+      },
+      {
+        "key": "e_1_2_2_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2980179.2980251"
+      },
+      {
+        "key": "e_1_2_2_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2487228.2487237"
+      },
+      {
+        "key": "e_1_2_2_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3072959.3073617"
+      },
+      {
+        "key": "e_1_2_2_21_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alex Kendall Hayk Martirosyan Saumitro Dasgupta Peter Henry Ryan Kennedy Abraham Bachrach and Adam Bry. 2017. End-to-End Learning of Geometry and Context for Deep Stereo Regression. In ICCV.  Alex Kendall Hayk Martirosyan Saumitro Dasgupta Peter Henry Ryan Kennedy Abraham Bachrach and Adam Bry. 2017. End-to-End Learning of Geometry and Context for Deep Stereo Regression. In ICCV.",
+        "DOI": "10.1109/ICCV.2017.17"
+      },
+      {
+        "key": "e_1_2_2_22_1",
+        "volume-title": "Kingma and Jimmy Ba",
+        "author": "Diederik",
+        "year": "2015",
+        "unstructured": "Diederik P. Kingma and Jimmy Ba . 2015 . Adam : A Method for Stochastic Optimization. In ICLR. Diederik P. Kingma and Jimmy Ba. 2015. Adam: A Method for Stochastic Optimization. In ICLR."
+      },
+      {
+        "key": "e_1_2_2_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2508363.2508369"
+      },
+      {
+        "key": "e_1_2_2_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/192161.192283"
+      },
+      {
+        "key": "e_1_2_2_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1457515.1409084"
+      },
+      {
+        "key": "e_1_2_2_26_1",
+        "volume-title": "Jamie Ryan Kiros, and Geoffrey E. Hinton",
+        "author": "Ba Jimmy Lei",
+        "year": "2016",
+        "unstructured": "Jimmy Lei Ba , Jamie Ryan Kiros, and Geoffrey E. Hinton . 2016 . Layer Normalization. In arXiv:1607.06450. Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E. Hinton. 2016. Layer Normalization. In arXiv:1607.06450."
+      },
+      {
+        "key": "e_1_2_2_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/237170.237199"
+      },
+      {
+        "key": "e_1_2_2_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/218380.218398"
+      },
+      {
+        "key": "e_1_2_2_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/3DV.2015.59"
+      },
+      {
+        "key": "e_1_2_2_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3272127.3275031"
+      },
+      {
+        "key": "e_1_2_2_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3130800.3130855"
+      },
+      {
+        "key": "e_1_2_2_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/800031.808606"
+      },
+      {
+        "key": "e_1_2_2_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3123266.3129396"
+      },
+      {
+        "key": "e_1_2_2_34_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Johannes Lutz Schönberger and Jan-Michael Frahm. 2016. Structure-from-Motion Revisited. In CVPR.  Johannes Lutz Schönberger and Jan-Michael Frahm. 2016. Structure-from-Motion Revisited. In CVPR.",
+        "DOI": "10.1109/CVPR.2016.445"
+      },
+      {
+        "key": "e_1_2_2_35_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Johannes Lutz Schönberger Enliang Zheng Marc Pollefeys and Jan-Michael Frahm. 2016. Pixelwise View Selection for Unstructured Multi-View Stereo. In ECCV.  Johannes Lutz Schönberger Enliang Zheng Marc Pollefeys and Jan-Michael Frahm. 2016. Pixelwise View Selection for Unstructured Multi-View Stereo. In ECCV.",
+        "DOI": "10.1007/978-3-319-46487-9_31"
+      },
+      {
+        "key": "e_1_2_2_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/280814.280882"
+      },
+      {
+        "key": "e_1_2_2_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/12.386541"
+      },
+      {
+        "key": "e_1_2_2_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2185520.2185596"
+      },
+      {
+        "key": "e_1_2_2_39_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shuran Song Fisher Yu Andy Zeng Angel X Chang Manolis Savva and Thomas Funkhouser. 2017. Semantic Scene Completion from a Single Depth Image. In CVPR.  Shuran Song Fisher Yu Andy Zeng Angel X Chang Manolis Savva and Thomas Funkhouser. 2017. Semantic Scene Completion from a Single Depth Image. In CVPR.",
+        "DOI": "10.1109/CVPR.2017.28"
+      },
+      {
+        "key": "e_1_2_2_40_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pratul P. Srinivasan Tongzhou Wang Ashwin Sreelal Ravi Ramamoorthi and Ren Ng. 2017. Learning to Synthesize a 4D RGBD Light Field from a Single Image. In ICCV.  Pratul P. Srinivasan Tongzhou Wang Ashwin Sreelal Ravi Ramamoorthi and Ren Ng. 2017. Learning to Synthesize a 4D RGBD Light Field from a Single Image. In ICCV.",
+        "DOI": "10.1109/ICCV.2017.246"
+      },
+      {
+        "key": "e_1_2_2_41_1",
+        "volume-title": "Richard Szeliski, Antonio Criminisi, and Shree K. Nayar.",
+        "author": "Swaminathan Rahul",
+        "year": "2002",
+        "unstructured": "Rahul Swaminathan , Sing Bing Kang , Richard Szeliski, Antonio Criminisi, and Shree K. Nayar. 2002 . On the Motion and Appearance of Specularities in Image Sequences. In ECCV. Rahul Swaminathan, Sing Bing Kang, Richard Szeliski, Antonio Criminisi, and Shree K. Nayar. 2002. On the Motion and Appearance of Specularities in Image Sequences. In ECCV."
+      },
+      {
+        "key": "e_1_2_2_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1964921.1964990"
+      },
+      {
+        "key": "e_1_2_2_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2185520.2185576"
+      },
+      {
+        "key": "e_1_2_2_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1186822.1073259"
+      },
+      {
+        "key": "e_1_2_2_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/344779.344925"
+      },
+      {
+        "key": "e_1_2_2_46_1",
+        "unstructured": "Gaochang Wu Mandan Zhao Liangyong Wang Qionghai Dai Tianyou Chai and Yebin Liu. 2017. Light Field Reconstruction Using Deep Convolutional Network on EPI. In CVPR.  Gaochang Wu Mandan Zhao Liangyong Wang Qionghai Dai Tianyou Chai and Yebin Liu. 2017. Light Field Reconstruction Using Deep Convolutional Network on EPI. In CVPR."
+      },
+      {
+        "key": "e_1_2_2_47_1",
+        "volume-title": "Yuk Ying Chung, and Xiaoming Chen",
+        "author": "Fung Yeung Henry Wing",
+        "year": "2018",
+        "unstructured": "Henry Wing Fung Yeung , Junhui Hou , Jie Chen , Yuk Ying Chung, and Xiaoming Chen . 2018 . End-to-End Learning of Geometry and Context for Deep Stereo Regression. In ECCV. Henry Wing Fung Yeung, Junhui Hou, Jie Chen, Yuk Ying Chung, and Xiaoming Chen. 2018. End-to-End Learning of Geometry and Context for Deep Stereo Regression. In ECCV."
+      },
+      {
+        "key": "e_1_2_2_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCSVT.2003.817350"
+      },
+      {
+        "key": "e_1_2_2_49_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Richard Zhang Phillip Isola Alexei A Efros Eli Shechtman and Oliver Wang. 2018. The Unreasonable Effectiveness of Deep Features as a Perceptual Metric. In CVPR.  Richard Zhang Phillip Isola Alexei A Efros Eli Shechtman and Oliver Wang. 2018. The Unreasonable Effectiveness of Deep Features as a Perceptual Metric. In CVPR.",
+        "DOI": "10.1109/CVPR.2018.00068"
+      },
+      {
+        "key": "e_1_2_2_50_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhoutong Zhang Yebin Liu and Qionghai Dai. 2015. Light Field from Micro-Baseline Image Pair. In CVPR.  Zhoutong Zhang Yebin Liu and Qionghai Dai. 2015. Light Field from Micro-Baseline Image Pair. In CVPR.",
+        "DOI": "10.1109/CVPR.2015.7299004"
+      },
+      {
+        "key": "e_1_2_2_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3197517.3201323"
+      }
+    ],
+    "container-title": [
+      "ACM Transactions on Graphics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://dl.acm.org/doi/pdf/10.1145/3306346.3322980",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://dl.acm.org/doi/pdf/10.1145/3306346.3322980",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          1
+        ]
+      ],
+      "date-time": "2023-01-01T13:37:45Z",
+      "timestamp": 1672580265000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dl.acm.org/doi/10.1145/3306346.3322980"
+      }
+    },
+    "subtitle": [
+      "practical view synthesis with prescriptive sampling guidelines"
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          12
+        ]
+      ]
+    },
+    "references-count": 51,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            8,
+            31
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1145/3306346.3322980"
+    ],
+    "URL": "https://doi.org/10.1145/3306346.3322980",
+    "relation": {},
+    "ISSN": [
+      "0730-0301",
+      "1557-7368"
+    ],
+    "issn-type": [
+      {
+        "value": "0730-0301",
+        "type": "print"
+      },
+      {
+        "value": "1557-7368",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2019-07-12",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

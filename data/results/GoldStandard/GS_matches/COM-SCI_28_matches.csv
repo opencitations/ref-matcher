@@ -1,0 +1,21 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+b0,Recycle-GAN: Unsupervised Video Retargeting,Recycle-GAN: Unsupervised Video Retargeting,70,10.1007/978-3-030-01228-1_8,https://w3id.org/oc/meta/br/061102186692,author_title
+b3,A morphable model for the synthesis of 3D faces,A Morphable Model For The Synthesis Of 3D Faces,70,10.1145/311535.311556,https://w3id.org/oc/meta/br/061103361249,author_title
+b4,Displaced dynamic expression regression for real-time facial tracking and animation,Displaced Dynamic Expression Regression For Real-Time Facial Tracking And Animation,70,10.1145/2601097.2601204,https://w3id.org/oc/meta/br/061601009775,author_title
+b5,Active appearance models,Active Appearance Models,70,10.1007/bfb0054760,https://w3id.org/oc/meta/br/061503119050,author_title
+b8,Geometry-Consistent Generative Adversarial Networks for One-Sided Unsupervised Domain Mapping,Geometry-Consistent Generative Adversarial Networks For One-Sided Unsupervised Domain Mapping,65,10.1109/cvpr.2019.00253,https://w3id.org/oc/meta/br/06501892298,author_title
+b9,Driving High-Resolution Facial Scans with Video Performance Capture,Driving High-Resolution Facial Scans With Video Performance Capture,70,10.1145/2638549,https://w3id.org/oc/meta/br/061601009597,author_title
+b10,Image Style Transfer Using Convolutional Neural Networks,Image Style Transfer Using Convolutional Neural Networks,70,10.1109/cvpr.2016.265,https://w3id.org/oc/meta/br/06902500774,author_title
+b12,Image Disentanglement and Uncooperative Re-Entanglement for High-Fidelity Image-to-Image Translation,Image Disentanglement And Uncooperative Re-Entanglement For High-Fidelity Image-to-Image Translation,70,10.1109/iccvw.2019.00414,https://w3id.org/oc/meta/br/061502264594,author_title
+b14,Image-to-Image Translation with Conditional Adversarial Networks,Image-to-Image Translation With Conditional Adversarial Networks,70,10.1109/cvpr.2017.632,https://w3id.org/oc/meta/br/06602742606,author_title
+b15,Neural 3D Mesh Renderer,Neural 3D Mesh Renderer,70,10.1109/cvpr.2018.00411,https://w3id.org/oc/meta/br/062402303467,author_title
+b17,Production-level facial performance capture using deep convolutional neural networks,Production-level Facial Performance Capture Using Deep Convolutional Neural Networks,70,10.1145/3099564.3099581,https://w3id.org/oc/meta/br/06802753659,author_title
+b19,Deep appearance models for face rendering,Deep Appearance Models For Face Rendering,70,10.1145/3197517.3201401,https://w3id.org/oc/meta/br/061501011851,year_volume_page
+b22,GANerated Hands for Real-time 3D Hand Tracking from Monocular RGB,GANerated Hands For Real-Time 3D Hand Tracking From Monocular RGB,70,10.1109/cvpr.2018.00013,https://w3id.org/oc/meta/br/062102307915,author_title
+b24,High-fidelity facial and speech animation for VR HMDs,High-fidelity Facial And Speech Animation For VR HMDs,70,10.1145/2980179.2980252,https://w3id.org/oc/meta/br/061501012268,author_title
+b25,Face alignment through subspace constrained mean-shifts,Face Alignment Through Subspace Constrained Mean-Shifts,70,10.1109/iccv.2009.5459377,https://w3id.org/oc/meta/br/061703191029,author_title
+b27,MoFA: Model-Based Deep Convolutional Face Autoencoder for Unsupervised Monocular Reconstruction,MoFA: Model-Based Deep Convolutional Face Autoencoder For Unsupervised Monocular Reconstruction,70,10.1109/iccvw.2017.153,https://w3id.org/oc/meta/br/061902356014,author_title
+b28,Face2Face: Real-Time Face Capture and Reenactment of RGB Videos,Face2Face: Real-Time Face Capture And Reenactment Of RGB Videos,70,10.1109/cvpr.2016.262,https://w3id.org/oc/meta/br/061302470408,author_title
+b31,Convolutional Pose Machines,Convolutional Pose Machines,70,10.1109/cvpr.2016.511,https://w3id.org/oc/meta/br/061302470593,author_title
+b32,A Closed-Form Solution to Non-Rigid Shape and Motion Recovery,A Closed-Form Solution To Non-Rigid Shape And Motion Recovery,70,10.1007/s11263-005-3962-9,https://w3id.org/oc/meta/br/062602831202,year_volume_page
+b33,Supervised Descent Method and Its Applications to Face Alignment,Supervised Descent Method And Its Applications To Face Alignment,70,10.1109/cvpr.2013.75,https://w3id.org/oc/meta/br/06902947142,author_title

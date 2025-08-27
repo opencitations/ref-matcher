@@ -1,0 +1,6 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_1,Diagnostic and statistical manual of mental disorders,Diagnostic And Statistical Manual Of Mental Disorders,70,10.1176/appi.books.9780890425596,https://w3id.org/oc/meta/br/06903050381,year_and_doi
+ref_3,Mindblindness,Mindblindness,70,10.7551/mitpress/4635.001.0001,https://w3id.org/oc/meta/br/06102549892,year_and_doi
+ref_22,Autism,First Impressions Of Adults With Autism Improve With Diagnostic Disclosure And Increased Autism Knowledge Of Peers,70,10.1177/1362361317729526,https://w3id.org/oc/meta/br/061101187868,year_and_doi
+ref_24,Autism,"Investigating Eye Movement Patterns, Language, And Social Ability In Children With Autism Spectrum Disorder",70,10.1017/s0954579414000108,https://w3id.org/oc/meta/br/0637068981,author_title
+ref_25,Cognition,A Grassmannian Approach To Address View Change Problem In Gait Recognition,70,10.1109/tcyb.2016.2545693,https://w3id.org/oc/meta/br/06902782452,author_title

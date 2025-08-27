@@ -1,0 +1,872 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2024-11-19T17:47:59Z",
+      "timestamp": 1732038479736
+    },
+    "reference-count": 67,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001711",
+        "name": "Swiss National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001711",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100013339",
+        "name": "Swiss Competence Center for Energy Research",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100013339",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Renewable and Sustainable Energy Reviews"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.rser.2019.109298",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          8
+        ]
+      ],
+      "date-time": "2019-08-08T10:10:43Z",
+      "timestamp": 1565259043000
+    },
+    "page": "109298",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 52,
+    "special_numbering": "C",
+    "title": [
+      "Energy and greenhouse gas emission reduction potentials resulting from different commuter electric bicycle adoption scenarios in Switzerland"
+    ],
+    "prefix": "10.1016",
+    "volume": "114",
+    "author": [
+      {
+        "given": "Dominik",
+        "family": "Bucher",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "René",
+        "family": "Buffat",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andreas",
+        "family": "Froemelt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Martin",
+        "family": "Raubal",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "year": "2015",
+        "series-title": "Bundesamt für Energie BFE, Faktenblatt Nr. 5: energiestrategie 2050",
+        "author": "EnergieSchweiz",
+        "key": "10.1016/j.rser.2019.109298_bib1"
+      },
+      {
+        "year": "2016",
+        "series-title": "Schweizerische Statistik der erneuerbaren Energien 2016",
+        "author": "Bundesamt für Energie BFE",
+        "key": "10.1016/j.rser.2019.109298_bib2"
+      },
+      {
+        "issue": "7441",
+        "key": "10.1016/j.rser.2019.109298_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "305",
+        "DOI": "10.1038/495305a",
+        "article-title": "Policy: sustainable development goals for people and planet",
+        "volume": "495",
+        "author": "Griggs",
+        "year": "2013",
+        "journal-title": "Nature"
+      },
+      {
+        "year": "1995",
+        "series-title": "World energy scenarios: a two-kilowatt society-plausible future or illusion",
+        "author": "Kesselring",
+        "key": "10.1016/j.rser.2019.109298_bib4"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib5",
+        "first-page": "2015",
+        "volume": "7",
+        "author": "Bundesamt für Energie",
+        "year": "2016",
+        "journal-title": "Schweizerische Gesamtenergiestatistik"
+      },
+      {
+        "issue": "15",
+        "key": "10.1016/j.rser.2019.109298_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "8467",
+        "DOI": "10.1021/acs.est.8b01452",
+        "article-title": "Using data mining to assess environmental impacts of household consumption behaviors",
+        "volume": "52",
+        "author": "Froemelt",
+        "year": "2018",
+        "journal-title": "Environ Sci Technol"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.rser.2019.109298_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "329",
+        "DOI": "10.1111/jiec.12391",
+        "article-title": "Worldwide greenhouse gas reduction potentials in transportation by 2050",
+        "volume": "20",
+        "author": "Taptich",
+        "year": "2016",
+        "journal-title": "J Ind Ecol"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.rser.2019.109298_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1177/0013916508319587",
+        "article-title": "Attitude-based target groups to reduce the ecological impact of daily mobility behavior",
+        "volume": "42",
+        "author": "Hunecke",
+        "year": "2010",
+        "journal-title": "Environ Behav"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib9",
+        "series-title": "Proceedings of the SIGCHI conference on human factors in computing systems",
+        "first-page": "1999",
+        "article-title": "The design of eco-feedback technology",
+        "author": "Froehlich",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib10",
+        "series-title": "Proceedings of the 4th international conference on ICT for sustainability (ICT4S), advances in computer science research",
+        "first-page": "89",
+        "article-title": "Exploiting fitness apps for sustainable mobility - challenges deploying the goeco! app",
+        "author": "Bucher",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib11",
+        "series-title": "Proceedings of the 2013 ACM conference on Pervasive and ubiquitous computing adjunct publication",
+        "first-page": "227",
+        "article-title": "Matkahupi: a persuasive mobile application for sustainable mobility",
+        "author": "Jylhä",
+        "year": "2013"
+      },
+      {
+        "year": "2015",
+        "series-title": "Technology-centered electric mobility assessment (THELMA)",
+        "author": "Competence Center Energy and Mobility CCEM",
+        "key": "10.1016/j.rser.2019.109298_bib12"
+      },
+      {
+        "year": "2016",
+        "series-title": "Velosuisse - uebersicht fahrradmarkt 2016",
+        "author": "Verband Velosuisse",
+        "key": "10.1016/j.rser.2019.109298_bib13"
+      },
+      {
+        "year": "2016",
+        "series-title": "Optimizing the operation range of e-bikes in routing systems",
+        "author": "Haumann",
+        "key": "10.1016/j.rser.2019.109298_bib14"
+      },
+      {
+        "volume": "vol. 8",
+        "year": "2014",
+        "author": "Buffat",
+        "key": "10.1016/j.rser.2019.109298_bib15"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib16",
+        "series-title": "Societal geo-innovation: short papers, posters and poster abstracts of the 20th AGILE conference on geographic information science. Wageningen university & research 9-12 may",
+        "article-title": "Energy-based routing and cruising range estimation for electric bicycles",
+        "author": "Haumann",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "350",
+        "DOI": "10.1016/j.jpowsour.2012.10.007",
+        "article-title": "Co-benefits of large scale plug-in hybrid electric vehicle and solar pv deployment",
+        "volume": "236",
+        "author": "Denholm",
+        "year": "2013",
+        "journal-title": "J Power Sources"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "443",
+        "DOI": "10.1016/j.renene.2014.01.049",
+        "article-title": "Photovoltaics (pv) and electric vehicle-to-grid (v2g) strategies for peak demand reduction in urban regions in Brazil in a smart grid environment",
+        "volume": "68",
+        "author": "Drude",
+        "year": "2014",
+        "journal-title": "Renew Energy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "94",
+        "DOI": "10.1016/j.apenergy.2014.03.003",
+        "article-title": "Gis-driven analysis of e-mobility in urban areas: an evaluation of the impact on the electric energy grid",
+        "volume": "124",
+        "author": "Gennaro",
+        "year": "2014",
+        "journal-title": "Appl Energy"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib20",
+        "series-title": "2009 IEEE power energy society general meeting",
+        "first-page": "1",
+        "article-title": "On the suitability of plug-in hybrid electric vehicle (phev) charging infrastructures based on wind and solar energy",
+        "author": "Li",
+        "year": "2009"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "247",
+        "DOI": "10.1016/j.rser.2012.11.042",
+        "article-title": "Electric vehicles and the electric grid: a review of modeling approaches, impacts, and renewable energy integration",
+        "volume": "19",
+        "author": "Richardson",
+        "year": "2013",
+        "journal-title": "Renew Sustain Energy Rev"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.rser.2019.109298_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "860",
+        "DOI": "10.1038/nclimate2685",
+        "article-title": "Autonomous taxis could greatly reduce greenhouse-gas emissions of us light-duty vehicles",
+        "volume": "5",
+        "author": "Greenblatt",
+        "year": "2015",
+        "journal-title": "Nat Clim Chang"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib23",
+        "series-title": "Autonomes Fahren: technische, rechtliche und gesellschaftliche Aspekte",
+        "first-page": "399",
+        "article-title": "Autonomous mobility-on-demand systems for future urban mobility",
+        "author": "Pavone",
+        "year": "2015"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.rser.2019.109298_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.1007/s40518-015-0038-5",
+        "article-title": "Automated vehicles, on-demand mobility, and environmental impacts",
+        "volume": "2",
+        "author": "Greenblatt",
+        "year": "2015",
+        "journal-title": "Current Sustainable/Renewable Energy Reports"
+      },
+      {
+        "year": "2017",
+        "series-title": "Autonomous vehicle implementation predictions",
+        "author": "Litman",
+        "key": "10.1016/j.rser.2019.109298_bib25"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "30",
+        "DOI": "10.1016/j.envsci.2014.09.005",
+        "article-title": "Free-floating electric carsharing-fleets in smart cities: the dawning of a post-private car era in urban environments?",
+        "volume": "45",
+        "author": "Firnkorn",
+        "year": "2015",
+        "journal-title": "Environ Sci Policy"
+      },
+      {
+        "year": "2015",
+        "series-title": "Plug-in vehicles and carsharing: user preferences, energy consumption and potential for growth",
+        "author": "Zoepf",
+        "key": "10.1016/j.rser.2019.109298_bib27"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib28",
+        "series-title": "In proceedings of Swiss transport research conference (STRC)",
+        "first-page": "3",
+        "article-title": "A large-scale agent-based traffic microsimulation based on queue model",
+        "author": "Cetin",
+        "year": "2003"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.rser.2019.109298_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "485",
+        "DOI": "10.1109/TITS.2010.2048313",
+        "article-title": "A review of the applications of agent technology in traffic and transportation systems",
+        "volume": "11",
+        "author": "Chen",
+        "year": "2010",
+        "journal-title": "IEEE Trans Intell Transp Syst"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib30",
+        "series-title": "Proceedings of the 4th middle East symposium on simulation and modelling",
+        "first-page": "183",
+        "article-title": "Sumo (simulation of urban mobility)-an open-source traffic simulation",
+        "author": "Krajzewicz",
+        "year": "2002"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.rser.2019.109298_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "DOI": "10.1007/s11704-011-1192-6",
+        "article-title": "Prediction of urban human mobility using large-scale taxi traces and its applications",
+        "volume": "6",
+        "author": "Li",
+        "year": "2012",
+        "journal-title": "Front Comput Sci"
+      },
+      {
+        "issue": "5968",
+        "key": "10.1016/j.rser.2019.109298_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1018",
+        "DOI": "10.1126/science.1177170",
+        "article-title": "Limits of predictability in human mobility",
+        "volume": "327",
+        "author": "Song",
+        "year": "2010",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib33",
+        "series-title": "Journal of the transportation research board 2190",
+        "first-page": "1",
+        "article-title": "How far out of the way will we travel?, Transportation Research Record",
+        "author": "Winters",
+        "year": "2010"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.rser.2019.109298_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "969",
+        "DOI": "10.1007/s11524-010-9509-6",
+        "article-title": "Built environment influences on healthy transportation choices: bicycling versus driving",
+        "volume": "87",
+        "author": "Winters",
+        "year": "2010",
+        "journal-title": "J Urban Health"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1016/j.jtrangeo.2013.05.003",
+        "article-title": "The effect of environmental factors on bicycle commuters in Vermont: influences of a northern climate",
+        "volume": "31",
+        "author": "Spencer",
+        "year": "2013",
+        "journal-title": "J Transp Geogr"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.rser.2019.109298_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "417",
+        "DOI": "10.1016/S0965-8564(98)00022-6",
+        "article-title": "The effect of weather and climate on bicycle commuting",
+        "volume": "33",
+        "author": "Nankervis",
+        "year": "1999",
+        "journal-title": "Transp Res A Policy Pract"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "618",
+        "DOI": "10.1016/j.egypro.2015.12.046",
+        "article-title": "A dynamic model for the performance and environmental analysis of an innovative e-bike",
+        "volume": "81",
+        "author": "Abagnale",
+        "year": "2015",
+        "journal-title": "Energy Procedia"
+      },
+      {
+        "year": "2018",
+        "series-title": "Data mining meets life cycle assessment: towards understanding and quantifying environmental impacts of individual households",
+        "author": "Frömelt",
+        "key": "10.1016/j.rser.2019.109298_bib38"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib39",
+        "first-page": "treeze",
+        "article-title": "mobitool–grundlagenbericht: hintergrund, methodik & emissionsfaktoren",
+        "author": "Tuchschmid",
+        "year": "2010",
+        "journal-title": "Tech. rep."
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib40",
+        "series-title": "Using locally produced photovoltaic energy to charge electric vehicles",
+        "volume": "vol. 37",
+        "author": "Buffat",
+        "year": "2017"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.rser.2019.109298_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "59",
+        "DOI": "10.1080/01441640903187001",
+        "article-title": "Commuting by bicycle: an overview of the literature",
+        "volume": "30",
+        "author": "Heinen",
+        "year": "2010",
+        "journal-title": "Transp Rev"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "2352",
+        "DOI": "10.1016/j.trpro.2016.05.264",
+        "article-title": "Enhancing utilitarian cycling: a case study",
+        "volume": "14",
+        "author": "Strömberg",
+        "year": "2016",
+        "journal-title": "Transportation Research Procedia"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib43",
+        "series-title": "Proceedings of the SIGCHI conference on human factors in computing systems",
+        "first-page": "1043",
+        "article-title": "Ubigreen: investigating a mobile tool for tracking and supporting green transportation habits",
+        "author": "Froehlich",
+        "year": "2009"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.rser.2019.109298_bib44",
+        "doi-asserted-by": "crossref",
+        "first-page": "1645",
+        "DOI": "10.1007/s10668-013-9454-0",
+        "article-title": "The in-use annual energy and carbon saving by switching from a car to an electric bicycle in an urban UK general medical practice: the implication for nhs commuters",
+        "volume": "15",
+        "author": "Pierce",
+        "year": "2013",
+        "journal-title": "Environ Dev Sustain"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.rser.2019.109298_bib45",
+        "doi-asserted-by": "crossref",
+        "first-page": "131",
+        "DOI": "10.1007/s11116-012-9415-8",
+        "article-title": "How can we alter our carbon footprint? estimating ghg emissions based on travel survey information",
+        "volume": "40",
+        "author": "Mathez",
+        "year": "2013",
+        "journal-title": "Transportation"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.rser.2019.109298_bib46",
+        "doi-asserted-by": "crossref",
+        "first-page": "261",
+        "DOI": "10.1016/j.ecolecon.2004.06.028",
+        "article-title": "Decomposition of factors determining the trend of co2 emissions from car travel in great britain (1970–2000)",
+        "volume": "53",
+        "author": "Kwon",
+        "year": "2005",
+        "journal-title": "Ecol Econ"
+      },
+      {
+        "volume": "vol. 5",
+        "year": "2017",
+        "key": "10.1016/j.rser.2019.109298_bib47"
+      },
+      {
+        "year": "2013",
+        "series-title": "Bundesamt für Raumentwiklung ARE, Reisezeiten und ÖV-Güteklassen",
+        "author": "Swiss Federal Statistical Office",
+        "key": "10.1016/j.rser.2019.109298_bib48"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.rser.2019.109298_bib49",
+        "doi-asserted-by": "crossref",
+        "first-page": "347",
+        "DOI": "10.1127/0941-2948/2008/0309",
+        "article-title": "The regional climate model cosmo-clm (cclm)",
+        "volume": "17",
+        "author": "Rockel",
+        "year": "2008",
+        "journal-title": "Meteorol Z"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.rser.2019.109298_bib50",
+        "doi-asserted-by": "crossref",
+        "first-page": "3887",
+        "DOI": "10.1175/MWR-D-10-05013.1",
+        "article-title": "Operational convective-scale numerical weather prediction with the cosmo model: description and sensitivities",
+        "volume": "139",
+        "author": "Baldauf",
+        "year": "2011",
+        "journal-title": "Mon Weather Rev"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib51",
+        "doi-asserted-by": "crossref",
+        "first-page": "389",
+        "DOI": "10.1016/j.apenergy.2018.02.008",
+        "article-title": "A scalable method for estimating rooftop solar irradiation potential over large regions",
+        "volume": "216",
+        "author": "Buffat",
+        "year": "2018",
+        "journal-title": "Appl Energy"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.rser.2019.109298_bib52",
+        "doi-asserted-by": "crossref",
+        "first-page": "843",
+        "DOI": "10.1016/S0965-8564(01)00044-1",
+        "article-title": "Selected country circuity factors for road travel distance estimation",
+        "volume": "36",
+        "author": "Ballou",
+        "year": "2002",
+        "journal-title": "Transp Res A Policy Pract"
+      },
+      {
+        "author": "Chancellery",
+        "key": "10.1016/j.rser.2019.109298_bib53"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.rser.2019.109298_bib54",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.1016/j.tbs.2013.10.006",
+        "article-title": "Experiences of electric bicycle users in the sacramento, California area",
+        "volume": "1",
+        "author": "Popovich",
+        "year": "2014",
+        "journal-title": "Travel Behaviour and Society"
+      },
+      {
+        "author": "Swiss Federal Statistical Office",
+        "key": "10.1016/j.rser.2019.109298_bib55"
+      },
+      {
+        "author": "Federal Statistical Office",
+        "key": "10.1016/j.rser.2019.109298_bib56"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib57",
+        "doi-asserted-by": "crossref",
+        "first-page": "250",
+        "DOI": "10.1016/j.jclepro.2013.09.024",
+        "article-title": "Electric bike sharing: simulation of user demand and system availability",
+        "volume": "85",
+        "author": "Ji",
+        "year": "2014",
+        "journal-title": "J Clean Prod"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib58",
+        "doi-asserted-by": "crossref",
+        "first-page": "174",
+        "DOI": "10.1016/j.aap.2014.09.010",
+        "article-title": "The safety of electrically assisted bicycles compared to classic bicycles",
+        "volume": "73",
+        "author": "Schepers",
+        "year": "2014",
+        "journal-title": "Accid Anal Prev"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.rser.2019.109298_bib59",
+        "doi-asserted-by": "crossref",
+        "first-page": "301",
+        "DOI": "10.1007/s11116-007-9118-8",
+        "article-title": "The transition to electric bikes in China: history and key reasons for rapid growth",
+        "volume": "34",
+        "author": "Weinert",
+        "year": "2007",
+        "journal-title": "Transportation"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.rser.2019.109298_bib60",
+        "doi-asserted-by": "crossref",
+        "first-page": "151",
+        "DOI": "10.1016/S0967-070X(01)00005-1",
+        "article-title": "Travelling to work: will people move out of their cars",
+        "volume": "8",
+        "author": "Kingham",
+        "year": "2001",
+        "journal-title": "Transp Policy"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.rser.2019.109298_bib61",
+        "doi-asserted-by": "crossref",
+        "first-page": "53",
+        "DOI": "10.1016/S1361-9209(02)00018-4",
+        "article-title": "Employer travel plans, cycling and gender: will travel plan measures improve the outlook for cycling to work in the UK?",
+        "volume": "8",
+        "author": "Dickinson",
+        "year": "2003",
+        "journal-title": "Transp Res D Transp Environ"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib62",
+        "doi-asserted-by": "crossref",
+        "first-page": "165",
+        "DOI": "10.3141/2140-18",
+        "article-title": "Influence of individual perceptions and bicycle infrastructure on decision to bike, Transportation Research Record",
+        "author": "Akar",
+        "year": "2009",
+        "journal-title": "Journal of the Transportation Research Board 2140"
+      },
+      {
+        "key": "10.1016/j.rser.2019.109298_bib63",
+        "series-title": "Proceedings of the international NTNU sustainability science conference 2017",
+        "first-page": "31",
+        "article-title": "Targeted sensing technology for bicycle research - early results from a longitudinal study in oslo",
+        "author": "Pritchard",
+        "year": "2017"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.rser.2019.109298_bib64",
+        "doi-asserted-by": "crossref",
+        "first-page": "2204",
+        "DOI": "10.1249/MSS.0b013e31821cbdc8",
+        "article-title": "Electric bicycles as a new active transportation modality to promote health",
+        "volume": "43",
+        "author": "Gojanvic",
+        "year": "2011",
+        "journal-title": "Med Sci Sport Exerc"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.rser.2019.109298_bib65",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1088/1748-9326/7/4/044042",
+        "article-title": "Decarbonizing urban transport in european cities: four cases show possibly high co-benefits",
+        "volume": "7",
+        "author": "Creutzig",
+        "year": "2012",
+        "journal-title": "Environ Res Lett"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.rser.2019.109298_bib66",
+        "doi-asserted-by": "crossref",
+        "first-page": "495",
+        "DOI": "10.1080/01441640701806612",
+        "article-title": "Making cycling irresistible: lessons from The Netherlands, Denmark and Germany",
+        "volume": "28",
+        "author": "Pucher",
+        "year": "2008",
+        "journal-title": "Transp Rev"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.rser.2019.109298_bib67",
+        "doi-asserted-by": "crossref",
+        "first-page": "91",
+        "DOI": "10.1080/15568310903514789",
+        "article-title": "Factors correlated with bicycle commuting: a study in six small u.s. cities",
+        "volume": "5",
+        "author": "Handy",
+        "year": "2011",
+        "journal-title": "International Journal of Sustainable Transportation"
+      }
+    ],
+    "container-title": [
+      "Renewable and Sustainable Energy Reviews"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1364032119305064?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1364032119305064?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          18
+        ]
+      ],
+      "date-time": "2023-09-18T22:53:45Z",
+      "timestamp": 1695077625000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1364032119305064"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 67,
+    "alternative-id": [
+      "S1364032119305064"
+    ],
+    "URL": "https://doi.org/10.1016/j.rser.2019.109298",
+    "relation": {},
+    "ISSN": [
+      "1364-0321"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1364-0321"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Energy and greenhouse gas emission reduction potentials resulting from different commuter electric bicycle adoption scenarios in Switzerland",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Renewable and Sustainable Energy Reviews",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.rser.2019.109298",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 Elsevier Ltd. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "109298"
+  }
+}

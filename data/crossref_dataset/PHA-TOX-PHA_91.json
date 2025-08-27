@@ -1,0 +1,882 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          21
+        ]
+      ],
+      "date-time": "2025-01-21T14:10:16Z",
+      "timestamp": 1737468616454,
+      "version": "3.33.0"
+    },
+    "reference-count": 55,
+    "publisher": "MDPI AG",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              18
+            ]
+          ],
+          "date-time": "2019-10-18T00:00:00Z",
+          "timestamp": 1571356800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "National Key R&amp;D Program of China",
+        "award": [
+          "2018YFC0311106"
+        ]
+      },
+      {
+        "name": "the Key Research an Development Program of Jiangsu (Social Development)",
+        "award": [
+          "BE2016702"
+        ]
+      },
+      {
+        "name": "the Priority Academic Program Development of Jiangsu Higher Education Institutions",
+        "award": [
+          "PAPD"
+        ]
+      },
+      {
+        "name": "the Postgraduate Research &amp;Practice Innovation Program of Jiangsu Province",
+        "award": [
+          "SJCX18-0948"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Marine Drugs"
+    ],
+    "abstract": "<jats:p>Dextranase, a hydrolase that specifically hydrolyzes α-1,6-glucosidic bonds, has been used in the pharmaceutical, food, and biotechnology industries. In this study, the strain of Catenovulum agarivorans MNH15 was screened from marine samples. When the temperature, initial pH, NaCl concentration, and inducer concentration were 30 °C, 8.0, 5 g/L, and 8 g/L, respectively, it yielded more dextranase. The molecular weight of the dextranase was approximately 110 kDa. The maximum enzyme activity was achieved at 40 °C and a pH of 8.0. The enzyme was stable at 30 °C and a pH of 5–9. The metal ion Sr2+ enhanced its activity, whereas NH4+, Co2+, Cu2+, and Li+ had the opposite effect. The dextranase effectively inhibited the formation of biofilm by Streptococcus mutans. Moreover, sodium fluoride, xylitol, and sodium benzoate, all used in dental care products, had no significant effect on dextranase activity. In addition, high-performance liquid chromatography (HPLC) showed that dextran was mainly hydrolyzed to glucose, maltose, and maltoheptaose. The results indicated that dextranase has high application potential in dental products such as toothpaste and mouthwash.</jats:p>",
+    "DOI": "10.3390/md17100592",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2019-10-21T07:40:29Z",
+      "timestamp": 1571643629000
+    },
+    "page": "592",
+    "source": "Crossref",
+    "is-referenced-by-count": 26,
+    "title": [
+      "The Marine Catenovulum agarivorans MNH15 and Dextranase: Removing Dental Plaque"
+    ],
+    "prefix": "10.3390",
+    "volume": "17",
+    "author": [
+      {
+        "given": "Xiaohua",
+        "family": "Lai",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Jiangsu Key Laboratory of Marine Bioresources and Environment/Jiangsu Key Laboratory of Marine Biotechnology, Jiangsu Ocean University, Lianyungang 222005, China"
+          },
+          {
+            "name": "Co-Innovation Center of Jiangsu Marine Bio-industry Technology, Jiangsu Ocean University, Lianyungang 222005, China"
+          }
+        ]
+      },
+      {
+        "given": "Xin",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Jiangsu Key Laboratory of Marine Bioresources and Environment/Jiangsu Key Laboratory of Marine Biotechnology, Jiangsu Ocean University, Lianyungang 222005, China"
+          },
+          {
+            "name": "Co-Innovation Center of Jiangsu Marine Bio-industry Technology, Jiangsu Ocean University, Lianyungang 222005, China"
+          }
+        ]
+      },
+      {
+        "given": "Xueqin",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Jiangsu Key Laboratory of Marine Bioresources and Environment/Jiangsu Key Laboratory of Marine Biotechnology, Jiangsu Ocean University, Lianyungang 222005, China"
+          },
+          {
+            "name": "Co-Innovation Center of Jiangsu Marine Bio-industry Technology, Jiangsu Ocean University, Lianyungang 222005, China"
+          }
+        ]
+      },
+      {
+        "given": "Tian",
+        "family": "Deng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Jiangsu Key Laboratory of Marine Bioresources and Environment/Jiangsu Key Laboratory of Marine Biotechnology, Jiangsu Ocean University, Lianyungang 222005, China"
+          },
+          {
+            "name": "Co-Innovation Center of Jiangsu Marine Bio-industry Technology, Jiangsu Ocean University, Lianyungang 222005, China"
+          }
+        ]
+      },
+      {
+        "given": "Yanli",
+        "family": "Feng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Jiangsu Key Laboratory of Marine Bioresources and Environment/Jiangsu Key Laboratory of Marine Biotechnology, Jiangsu Ocean University, Lianyungang 222005, China"
+          },
+          {
+            "name": "Co-Innovation Center of Jiangsu Marine Bio-industry Technology, Jiangsu Ocean University, Lianyungang 222005, China"
+          }
+        ]
+      },
+      {
+        "given": "Xiaopeng",
+        "family": "Tian",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Jiangsu Key Laboratory of Marine Bioresources and Environment/Jiangsu Key Laboratory of Marine Biotechnology, Jiangsu Ocean University, Lianyungang 222005, China"
+          },
+          {
+            "name": "Co-Innovation Center of Jiangsu Marine Bio-industry Technology, Jiangsu Ocean University, Lianyungang 222005, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4409-3766",
+        "authenticated-orcid": false,
+        "given": "Mingsheng",
+        "family": "Lyu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Jiangsu Key Laboratory of Marine Bioresources and Environment/Jiangsu Key Laboratory of Marine Biotechnology, Jiangsu Ocean University, Lianyungang 222005, China"
+          },
+          {
+            "name": "Co-Innovation Center of Jiangsu Marine Bio-industry Technology, Jiangsu Ocean University, Lianyungang 222005, China"
+          },
+          {
+            "name": "Collaborative Innovation Center of Modern Biological Manufacturing, Anhui University, Hefei 230039, China"
+          }
+        ]
+      },
+      {
+        "given": "Shujun",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Jiangsu Key Laboratory of Marine Bioresources and Environment/Jiangsu Key Laboratory of Marine Biotechnology, Jiangsu Ocean University, Lianyungang 222005, China"
+          },
+          {
+            "name": "Co-Innovation Center of Jiangsu Marine Bio-industry Technology, Jiangsu Ocean University, Lianyungang 222005, China"
+          },
+          {
+            "name": "Collaborative Innovation Center of Modern Biological Manufacturing, Anhui University, Hefei 230039, China"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          18
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "675",
+        "DOI": "10.1016/S0958-6946(01)00113-3",
+        "article-title": "Homopolysaccharides from lactic acid bacteria",
+        "volume": "11",
+        "author": "Monsan",
+        "year": "2001",
+        "journal-title": "Int. Dairy J."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1183",
+        "DOI": "10.1016/S0008-6215(03)00148-4",
+        "article-title": "Dextran molecular size and degree of branching as a function of sucrose concentration, pH, and temperature of reaction of Leuconostoc mesenteroides B-512FMCM dextransucrase",
+        "volume": "338",
+        "author": "Kim",
+        "year": "2003",
+        "journal-title": "Carbohydr. Res."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "447",
+        "DOI": "10.1016/j.carbpol.2012.05.064",
+        "article-title": "Ultrasonic degradation of aqueous dextran: Effect of initial molecular weight and concentration",
+        "volume": "90",
+        "author": "Zou",
+        "year": "2012",
+        "journal-title": "Carbohydr. Polym."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "S11",
+        "DOI": "10.1016/S0300-5712(10)70005-1",
+        "article-title": "Controlling the oral biofilm with antimicrobials",
+        "volume": "38",
+        "author": "Marsh",
+        "year": "2010",
+        "journal-title": "J. Dent."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "3724",
+        "DOI": "10.1128/aem.63.9.3724-3728.1997",
+        "article-title": "Enzymatic removal and disinfection of bacterial biofilms",
+        "volume": "63",
+        "author": "Johansen",
+        "year": "1997",
+        "journal-title": "Appl. Environ. Microbiol."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "285",
+        "DOI": "10.1016/S0144-8617(00)00262-9",
+        "article-title": "Characterisation of polysaccharides synthesised by Gluconobacter oxydans NCIMB 4943",
+        "volume": "45",
+        "author": "Sims",
+        "year": "2001",
+        "journal-title": "Carbohydr. Polym."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "237",
+        "DOI": "10.1016/0168-3659(96)01456-3",
+        "article-title": "Regulated insulin release from biodegradable dextran hydrogels containing poly(ethylene glycol)",
+        "volume": "42",
+        "author": "Moriyama",
+        "year": "1996",
+        "journal-title": "Control. Release"
+      },
+      {
+        "key": "ref_8",
+        "first-page": "47",
+        "article-title": "Impact of Sugarcane Delivery Schedule on Product Value at Raw Sugar Factories",
+        "volume": "22",
+        "author": "Salassi",
+        "year": "2004",
+        "journal-title": "J. Agribus."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "227",
+        "DOI": "10.1021/jf00014a012",
+        "article-title": "Specific method for quantitative measure of the total dextran content of raw sugar",
+        "volume": "40",
+        "author": "Brown",
+        "year": "1992",
+        "journal-title": "J. Agric. Food Chem."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "178",
+        "DOI": "10.14219/jada.archive.2008.0134",
+        "article-title": "Adverse events associated with chlorhexidine use: Results from the Department of Veterans Affairs Dental Diabetes Study",
+        "volume": "139",
+        "author": "McCoy",
+        "year": "2008",
+        "journal-title": "Am. Dent. Assoc."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "311",
+        "DOI": "10.1093/chemse/bjm095",
+        "article-title": "Regional Specificity of Chlorhexidine Effects on Taste Perception",
+        "volume": "33",
+        "author": "Grover",
+        "year": "2008",
+        "journal-title": "Chem. Senses"
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "306",
+        "DOI": "10.1128/MMBR.69.2.306-325.2005",
+        "article-title": "Microbial Dextran-Hydrolyzing Enzymes: Fundamentals and Applications",
+        "volume": "69",
+        "author": "Khalikova",
+        "year": "2005",
+        "journal-title": "Microbiol. Mol. Biol. Rev."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1151",
+        "DOI": "10.1128/jb.100.3.1151-1154.1969",
+        "article-title": "Modified Substrates and Modified Products as Inducers of Carbohydrases",
+        "volume": "100",
+        "author": "Reese",
+        "year": "1970",
+        "journal-title": "J. Bacteriol."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "841",
+        "DOI": "10.1139/m70-141",
+        "article-title": "Stimulation of dextranase production by oxidized dextran",
+        "volume": "16",
+        "author": "Brown",
+        "year": "1970",
+        "journal-title": "Can. J. Microbiol."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "998",
+        "DOI": "10.1093/ps/84.7.998",
+        "article-title": "Isomaltooligosaccharide increases cecal Bifidobacterium population in young broiler chickens",
+        "volume": "84",
+        "author": "Thitaram",
+        "year": "2005",
+        "journal-title": "Poult. Sci."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "135",
+        "DOI": "10.1007/s12355-009-0020-x",
+        "article-title": "Application of dextranases in sugarcane factory: Overcoming practical problems",
+        "volume": "11",
+        "author": "Eggleston",
+        "year": "2009",
+        "journal-title": "Sugar Tech"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Eggleston, G., Dilks, A., Blowers, M., and Winters, K. (2011, January 2–5). Successful application of dextranase in sugar beet factories. Proceedings of the American Society of Sugarbeet Tchnologist, Albuquerque, NM, USA.",
+        "DOI": "10.5274/ASSBT.2011.59"
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "440",
+        "DOI": "10.1016/j.jbiotec.2007.07.946",
+        "article-title": "Immobilization of dextranase from Chaetomium erraticum",
+        "volume": "131",
+        "author": "Erhardt",
+        "year": "2007",
+        "journal-title": "J. Biotechnol."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "337",
+        "DOI": "10.1006/abio.2000.4829",
+        "article-title": "Diphenylamine-aniline-phosphoric acid reagent, a versatile spray reagent for revealing glycoconjugates on thin-layer chromatography plates",
+        "volume": "287",
+        "author": "Anderson",
+        "year": "2000",
+        "journal-title": "Anal. Biochem."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "327",
+        "DOI": "10.1007/s00284-004-4308-5",
+        "article-title": "Isolation and Characterization of Genes Encoding Thermoactive and Thermostable Dextranases from Two Thermotolerant Soil Bacteria",
+        "volume": "49",
+        "author": "Finnegan",
+        "year": "2004",
+        "journal-title": "Curr. Microbiol."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "387",
+        "DOI": "10.1016/j.carbpol.2014.06.018",
+        "article-title": "Biosynthesis of oligodextrans with different M-w by synergistic catalysis of dextransucrase and dextranase",
+        "volume": "112",
+        "author": "Gan",
+        "year": "2014",
+        "journal-title": "Carbohydr. Polym."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "4375",
+        "DOI": "10.1128/iai.61.10.4375-4381.1993",
+        "article-title": "Expression and secretion of an Arthrobacter dextranase in the oral bacterium Streptococcus gordonii",
+        "volume": "61",
+        "author": "Kubo",
+        "year": "1993",
+        "journal-title": "Infect. Immun."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "2079",
+        "DOI": "10.1128/aem.55.8.2079-2081.1989",
+        "article-title": "Induction of Lipomyces starkeyi Dextranase",
+        "volume": "55",
+        "author": "Koenig",
+        "year": "1989",
+        "journal-title": "Appl. Environ. Microbiol."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1111",
+        "DOI": "10.1016/S0969-2126(03)00147-3",
+        "article-title": "Dextranase from Penicillium minioluteum: Reaction course, crystal structure, and product complex",
+        "volume": "11",
+        "author": "Larsson",
+        "year": "2003",
+        "journal-title": "Structure"
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1050",
+        "DOI": "10.1016/0141-0229(95)00039-9",
+        "article-title": "Dextransucrase constitutive mutants of Leuconostoc mesenteroides B-1299",
+        "volume": "17",
+        "author": "Kim",
+        "year": "1995",
+        "journal-title": "Enzyme Microb. Technol."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "844",
+        "DOI": "10.1016/0141-0229(94)90058-2",
+        "article-title": "A new process for the production of clinical dextran by mixed-culture fermentation of Lipomyces starkeyi and Leuconostoc mesenteroides",
+        "volume": "16",
+        "author": "Kim",
+        "year": "1994",
+        "journal-title": "Enzyme Microb. Technol."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "317",
+        "DOI": "10.1007/s10295-016-1886-8",
+        "article-title": "Purification, characterization, and application of a thermostable dextranase from Talaromyces pinophilus",
+        "volume": "44",
+        "author": "Zhang",
+        "year": "2016",
+        "journal-title": "Ind. Microbiol. Biotechnol."
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "252",
+        "DOI": "10.1016/j.mib.2009.05.002",
+        "article-title": "Chasing the Treasures of the Sea—Bacterial Marine Natural Products",
+        "volume": "12",
+        "author": "Gulder",
+        "year": "2009",
+        "journal-title": "Curr. Opin. Microbiol."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "1778",
+        "DOI": "10.1007/s12010-011-9526-2",
+        "article-title": "Antibiofilm Activity of α-Amylase from Bacillus subtilis S8-18 Against Biofilm Forming Human Bacterial Pathogens",
+        "volume": "167",
+        "author": "Kalpana",
+        "year": "2012",
+        "journal-title": "Appl. Biochem. Biotechnol."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "27",
+        "DOI": "10.1016/j.pep.2004.09.002",
+        "article-title": "Cloning, expression, and purification of a recombinant cold-adapted β-galactosidase from antarctic bacterium Pseudoalteromonas sp. 22b",
+        "volume": "39",
+        "author": "Kur",
+        "year": "2005",
+        "journal-title": "Protein Expr. Purif."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/0168-1656(94)90093-0",
+        "article-title": "Properties of cold-adapted microorganisms and their potential role in biotechnology",
+        "volume": "33",
+        "author": "Margesin",
+        "year": "1994",
+        "journal-title": "J. Biotechnol."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "2",
+        "DOI": "10.1016/j.biortech.2012.01.002",
+        "article-title": "Biocatalytic potential of an alkalophilic and thermophilic dextranase as a remedial measure for dextran removal during sugar manufacture",
+        "volume": "115",
+        "author": "Purushe",
+        "year": "2012",
+        "journal-title": "Bioresour. Technol."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "657",
+        "DOI": "10.2174/1389203711109070657",
+        "article-title": "Molecular Determinants of Enzyme Cold Adaptation: Comparative Structural and Computational Studies of Cold- and Warm-Adapted Enzymes",
+        "volume": "12",
+        "author": "Papaleo",
+        "year": "2011",
+        "journal-title": "Curr. Protein Pept. Sci."
+      },
+      {
+        "key": "ref_34",
+        "first-page": "278",
+        "article-title": "The PH of various tooth whitening products on the south African market",
+        "volume": "66",
+        "author": "Majeed",
+        "year": "2011",
+        "journal-title": "S. Afr. Dent. Assoc."
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ren, W., Cai, R., Yan, W., Lyu, M., Fang, Y., and Wang, S. (2018). Purification and Characterization of a Biofilm-Degradable Dextranase from a Marine Bacterium. Mar. Drugs, 16.",
+        "DOI": "10.3390/md16020051"
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "69",
+        "DOI": "10.1017/S0953756296002158",
+        "article-title": "Hydrolysis of dextran by Penicillium notatum dextranase and identification of final digestion products",
+        "volume": "101",
+        "author": "Rogalski",
+        "year": "1997",
+        "journal-title": "Mycol. Res."
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "3894",
+        "DOI": "10.1099/ijsem.0.002219",
+        "article-title": "Catenovulum sediminis sp. nov., isolated from coastal sediment",
+        "volume": "67",
+        "author": "Shi",
+        "year": "2017",
+        "journal-title": "Int. Syst. Evol. Microbiol."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "309",
+        "DOI": "10.1128/iai.12.2.309-317.1975",
+        "article-title": "Dextranases from oral bacteria: Inhibition of water-insoluble glucan production and adherence to smooth surfaces by Streptococcus mutans",
+        "volume": "12",
+        "author": "Schachtele",
+        "year": "1975",
+        "journal-title": "Infect. Immun."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "91",
+        "DOI": "10.1007/s002030050619",
+        "article-title": "Purification and characterization of a dextranase from Sporothrix schenckii",
+        "volume": "170",
+        "author": "Arnold",
+        "year": "1998",
+        "journal-title": "Arch. Microbiol."
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "first-page": "243",
+        "DOI": "10.1016/j.ijbiomac.2015.04.007",
+        "article-title": "Purification, characterization and end product analysis of dextran degrading endodextranase from Bacillus licheniformis KIBGE-IB25",
+        "volume": "78",
+        "author": "Zohra",
+        "year": "2015",
+        "journal-title": "Biol. Macromol."
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "first-page": "242",
+        "DOI": "10.1016/S0141-0229(96)00118-4",
+        "article-title": "Isolation and characterization of a thermostable dextranase",
+        "volume": "20",
+        "author": "Wynter",
+        "year": "1997",
+        "journal-title": "Enzyme Microb. Technol."
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "first-page": "161",
+        "DOI": "10.1111/j.1432-1033.1989.tb14908.x",
+        "article-title": "The purification and characterization of a dextranase from Lipomyces starkeyi",
+        "volume": "183",
+        "author": "Koenig",
+        "year": "1989",
+        "journal-title": "Eur. J.Biochem."
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1007/s10295-013-1369-0",
+        "article-title": "Characterization of a marine-derived dextranase and its application to the prevention of dental caries",
+        "volume": "41",
+        "author": "Jiao",
+        "year": "2014",
+        "journal-title": "J. Ind. Microbiol. Biotechnol."
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "first-page": "152",
+        "DOI": "10.1007/s002849900092",
+        "article-title": "Extracellular α-Glucosidase with Dextran-Hydrolyzing Activity from the Thermophilic Fungus, Thermomyces lanuginosus",
+        "volume": "33",
+        "author": "Jensen",
+        "year": "1996",
+        "journal-title": "Curr. Microbiol."
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "first-page": "1942",
+        "DOI": "10.1016/j.procbio.2011.06.025",
+        "article-title": "Purification and characterization of extracellular dextranase from a novel producer, Hypocrea lixii F1002, and its use in oligodextran production",
+        "volume": "46",
+        "author": "Wu",
+        "year": "2011",
+        "journal-title": "Process Biochem."
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "first-page": "1113",
+        "DOI": "10.1093/oxfordjournals.jbchem.a129564",
+        "article-title": "Studies on mold dextranases. I. Penicillium luteum dextranase: Its production and some enzymatic properties",
+        "volume": "69",
+        "author": "Fukumoto",
+        "year": "1971",
+        "journal-title": "J. Biochem."
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "first-page": "117",
+        "DOI": "10.1271/bbb.62.117",
+        "article-title": "Purification and Characterization of an Isomaltotriose-producing Endo-dextranase from a Fusarium sp.",
+        "volume": "62",
+        "author": "Shimizu",
+        "year": "1998",
+        "journal-title": "Biosci. Biotechnol. Biochem."
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "first-page": "757",
+        "DOI": "10.1007/s10068-010-0106-y",
+        "article-title": "Biochemical Characterization of Dextranase from Arthrobacter oxydans and Its Cloning and Expression in Escherichia coli",
+        "volume": "19",
+        "author": "Lee",
+        "year": "2010",
+        "journal-title": "Food Sci. Biotechnol."
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Y.M., Liu, B.L., Zheng, X.H., Huang, X.J., Li, H.Y., Zhang, Y., Zhang, T.T., Sun, D.Y., Lin, B.R., and Zhou, G.X. (2017). Anandins A and B, Two Rare Steroidal Alkaloids from a Marine Streptomyces anandii H41-59. Mar. Drugs, 15.",
+        "DOI": "10.3390/md15110355"
+      },
+      {
+        "key": "ref_50",
+        "first-page": "180",
+        "article-title": "The caries-preventive effect of xylitol/maltitol and erythritol/maltitol lozenges: Results of a double-blinded, cluster-randomized clinical trial in an area of natural fluoridation",
+        "volume": "22",
+        "author": "Hurme",
+        "year": "2011",
+        "journal-title": "J. Paediatr. Dent."
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "first-page": "267",
+        "DOI": "10.1111/j.1600-0528.2011.00656.x",
+        "article-title": "Effect of 5% fluoride varnish application on caries among school children in rural Brazil: A randomized controlled trial",
+        "volume": "40",
+        "author": "Arruda",
+        "year": "2012",
+        "journal-title": "Community Dent. Oral Epidemiol."
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "first-page": "426",
+        "DOI": "10.1021/ac60147a030",
+        "article-title": "Use of Dinitrosalicylic Acid Reagent for Detection of Reducing Sugars",
+        "volume": "31",
+        "author": "Miller",
+        "year": "1959",
+        "journal-title": "Anal. Chem."
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "first-page": "996",
+        "DOI": "10.1128/jcm.22.6.996-1006.1985",
+        "article-title": "Adherence of coagulase-negative staphylococci to plastic tissue culture plates: A quantitative model for the adherence of staphylococci to medical devices",
+        "volume": "22",
+        "author": "Christensen",
+        "year": "1985",
+        "journal-title": "J. Clin. Microbiol."
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "first-page": "1100",
+        "DOI": "10.1093/jac/dkl120",
+        "article-title": "Effect of MUC7 peptides on the growth of bacteria and on Streptococcus mutans biofilm",
+        "volume": "57",
+        "author": "Wei",
+        "year": "2006",
+        "journal-title": "Antimicrob. Chemother."
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "first-page": "1748",
+        "DOI": "10.1016/j.peptides.2011.06.008",
+        "article-title": "Antimicrobial and antibiofilm activity of pleurocidin against cariogenic microorganisms",
+        "volume": "32",
+        "author": "Tao",
+        "year": "2011",
+        "journal-title": "Peptides"
+      }
+    ],
+    "container-title": [
+      "Marine Drugs"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/1660-3397/17/10/592/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          21
+        ]
+      ],
+      "date-time": "2025-01-21T13:53:38Z",
+      "timestamp": 1737467618000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/1660-3397/17/10/592"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          18
+        ]
+      ]
+    },
+    "references-count": 55,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "md17100592"
+    ],
+    "URL": "https://doi.org/10.3390/md17100592",
+    "relation": {},
+    "ISSN": [
+      "1660-3397"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "1660-3397"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          18
+        ]
+      ]
+    }
+  }
+}

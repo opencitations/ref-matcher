@@ -1,0 +1,398 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          29
+        ]
+      ],
+      "date-time": "2025-01-29T05:50:30Z",
+      "timestamp": 1738129830725,
+      "version": "3.33.0"
+    },
+    "reference-count": 31,
+    "publisher": "SAGE Publications",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              11,
+              14
+            ]
+          ],
+          "date-time": "2018-11-14T00:00:00Z",
+          "timestamp": 1542153600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.sagepub.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Feline Medicine and Surgery"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:sec><jats:title>Objectives</jats:title><jats:p> A prospective experimental study was performed in nine young healthy cats to investigate a pharmacokinetic profile and the clinical relevance of rectally administered buprenorphine. Rectal pH value was measured in all nine cats. </jats:p></jats:sec><jats:sec><jats:title>Methods</jats:title><jats:p> Blood was collected 15, 30, 60, 90, 120, 240 and 480 mins and 24 h after the rectal administration of a suppository and a gel at doses between 0.02 mg/kg and 0.1 mg/kg buprenorphine to determine the plasma concentration of buprenorphine. Rectal pH was measured with pH paper. </jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p> Upon pharmacokinetic non-compartment analysis of high-dose buprenorphine (0.1 mg/kg), average maximal plasma concentration was found to be 1.13 ng/ml, time to maximal plasma concentration was 45 mins and area under the plasma concentration–time curve was 94.19 ng*min/ml, representing low but potential bioavailability. Mean residual time was 152.2 mins and the half-life was 92.6 mins. A wide range of plasma concentrations within the cohort was measured and two of the cats had to be excluded from statistical analysis owing to incomplete uptake. Vital parameters of all cats were considered to be normal but three of the cats showed mydriasis up to 8 h after application. After the administration of a low-dose suppository or a rectal gel (0.02 mg/kg) within pilot studies, no buprenorphine was detected in cat plasma. Rectal pH in all cats was between 7.7 and 8. </jats:p></jats:sec><jats:sec><jats:title>Conclusions and relevance</jats:title><jats:p> The rectal application of buprenorphine at a dose of 0.1 mg/kg revealed a potential but weak uptake in cats. Regarding effective concentrations in previous pharmacokinetic investigations, rectal administration is currently not recommended for good provision of opioid analgesia in cats. Pharmacological investigations of formulation and galenics in order to improve the rectal bioavailability of buprenorphine remain to be clarified before further dose-finding and pharmacokinetic/pharmacodynamic studies are performed. </jats:p></jats:sec>",
+    "DOI": "10.1177/1098612x18810933",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          14
+        ]
+      ],
+      "date-time": "2018-11-14T14:01:39Z",
+      "timestamp": 1542204099000
+    },
+    "page": "938-943",
+    "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Pharmacokinetics of low-dose and high-dose buprenorphine in cats after rectal administration of different formulations"
+    ],
+    "prefix": "10.1177",
+    "volume": "21",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5537-1031",
+        "authenticated-orcid": false,
+        "given": "Maike",
+        "family": "Schroers",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Small Animal Surgery, Faculty of Veterinary Medicine, Ludwig Maximilians University Munich, Munich, Germany"
+          }
+        ]
+      },
+      {
+        "given": "Andrea",
+        "family": "Meyer-Lindenberg",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Small Animal Surgery, Faculty of Veterinary Medicine, Ludwig Maximilians University Munich, Munich, Germany"
+          }
+        ]
+      },
+      {
+        "given": "Sven",
+        "family": "Reese",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Veterinary Science, Faculty of Veterinary Medicine, Ludwig Maximilians University Munich, Munich, Germany"
+          }
+        ]
+      },
+      {
+        "given": "Britta",
+        "family": "Dobenecker",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Veterinary Science, Faculty of Veterinary Medicine, Ludwig Maximilians University Munich, Munich, Germany"
+          }
+        ]
+      },
+      {
+        "given": "Korbinian",
+        "family": "Pieper",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Small Animal Surgery, Faculty of Veterinary Medicine, Ludwig Maximilians University Munich, Munich, Germany"
+          }
+        ]
+      }
+    ],
+    "member": "179",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          14
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "bibr1-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/vr.153.15.462"
+      },
+      {
+        "key": "bibr2-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jfms.2003.10.002"
+      },
+      {
+        "key": "bibr3-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2885.2005.00677.x"
+      },
+      {
+        "key": "bibr4-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-2995.2012.00779.x"
+      },
+      {
+        "key": "bibr5-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jfms.2009.09.004"
+      },
+      {
+        "key": "bibr6-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2460/javma.245.2.195"
+      },
+      {
+        "key": "bibr7-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1053/svms.2002.36609"
+      },
+      {
+        "key": "bibr8-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0750-7658(05)80295-3"
+      },
+      {
+        "key": "bibr9-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2174/1570159043359477"
+      },
+      {
+        "key": "bibr10-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2460/ajvr.68.7.699"
+      },
+      {
+        "key": "bibr11-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1467-2987.2001.00062.x"
+      },
+      {
+        "key": "bibr12-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1098612X12442038"
+      },
+      {
+        "key": "bibr13-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jvp.12084"
+      },
+      {
+        "key": "bibr14-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/vr.152.22.675"
+      },
+      {
+        "key": "bibr15-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0176443"
+      },
+      {
+        "key": "bibr16-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jvp.12203"
+      },
+      {
+        "key": "bibr17-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2885.2006.00800.x"
+      },
+      {
+        "key": "bibr18-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1098612X15581206"
+      },
+      {
+        "key": "bibr19-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rvsc.2010.07.010"
+      },
+      {
+        "key": "bibr20-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2885.2009.01069.x"
+      },
+      {
+        "key": "bibr21-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/vr.160.17.578"
+      },
+      {
+        "key": "bibr22-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.2042-7158.1981.tb13848.x"
+      },
+      {
+        "key": "bibr23-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2165/00003088-198207040-00002"
+      },
+      {
+        "key": "bibr24-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/adc.62.8.771"
+      },
+      {
+        "key": "bibr25-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/pm/pnx321"
+      },
+      {
+        "key": "bibr26-1098612X18810933",
+        "first-page": "298",
+        "volume": "45",
+        "author": "Akatsuka M",
+        "year": "1996",
+        "journal-title": "Masui"
+      },
+      {
+        "key": "bibr27-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.vascn.2005.04.012"
+      },
+      {
+        "key": "bibr28-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cmpb.2010.01.007"
+      },
+      {
+        "key": "bibr29-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0168-3659(95)00096-8"
+      },
+      {
+        "key": "bibr30-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1053/rvsc.2001.0543"
+      },
+      {
+        "key": "bibr31-1098612X18810933",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tvjl.2008.06.017"
+      }
+    ],
+    "container-title": [
+      "Journal of Feline Medicine and Surgery"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1098612X18810933",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/1098612X18810933",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1098612X18810933",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          28
+        ]
+      ],
+      "date-time": "2025-01-28T18:41:10Z",
+      "timestamp": 1738089670000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journals.sagepub.com/doi/10.1177/1098612X18810933"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          14
+        ]
+      ]
+    },
+    "references-count": 31,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1177/1098612X18810933"
+    ],
+    "URL": "https://doi.org/10.1177/1098612x18810933",
+    "relation": {},
+    "ISSN": [
+      "1098-612X",
+      "1532-2750"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1098-612X"
+      },
+      {
+        "type": "electronic",
+        "value": "1532-2750"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          14
+        ]
+      ]
+    }
+  }
+}

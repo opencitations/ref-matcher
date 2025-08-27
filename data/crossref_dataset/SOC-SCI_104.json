@@ -1,0 +1,139 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          24
+        ]
+      ],
+      "date-time": "2024-03-24T15:20:44Z",
+      "timestamp": 1711293644176
+    },
+    "reference-count": 0,
+    "publisher": "American Library Association",
+    "issue": "6",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "C&amp;RL"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "DOI": "10.5860/crl.80.6.827",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          4
+        ]
+      ],
+      "date-time": "2019-09-04T21:31:01Z",
+      "timestamp": 1567632661000
+    },
+    "page": "827-842",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Ebook Rate of Use in OhioLINK: A Ten-Year Study of Local and Consortial Use of Publisher Packages in Ohio"
+    ],
+    "prefix": "10.5860",
+    "volume": "80",
+    "author": [
+      {
+        "given": "Amy",
+        "family": "Fry",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "3932",
+    "published-online": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "container-title": [
+      "College &amp; Research Libraries"
+    ],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          4
+        ]
+      ],
+      "date-time": "2019-09-04T21:31:06Z",
+      "timestamp": 1567632666000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://crl.acrl.org/index.php/crl/article/view/23530"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "6",
+      "published-online": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.5860/crl.80.6.827",
+    "relation": {},
+    "ISSN": [
+      "0010-0870"
+    ],
+    "issn-type": [
+      {
+        "value": "0010-0870",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    }
+  }
+}

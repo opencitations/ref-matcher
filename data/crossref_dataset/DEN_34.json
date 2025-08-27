@@ -1,0 +1,528 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          30
+        ]
+      ],
+      "date-time": "2024-12-30T18:46:31Z",
+      "timestamp": 1735584391193
+    },
+    "reference-count": 48,
+    "publisher": "Wiley",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              2
+            ]
+          ],
+          "date-time": "2019-06-02T00:00:00Z",
+          "timestamp": 1559433600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "81870791"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003399",
+        "name": "Science and Technology Commission of Shanghai Municipality",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "17140903700"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100003399",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "aap.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Periodontology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:title>Background</jats:title><jats:p>Autophagy has recently emerged as a protective mechanism in response to compressive force and an important process in maintenance of bone homeostasis. It appears to be involved in the degradation of osteoclasts, osteoblasts, and osteocytes. The aim of this study was to investigate the role of compressive force‐induced autophagy in periodontal ligament (PDL) cells in regulating osteoclastogenesis of orthodontic tooth movement (OTM).</jats:p></jats:sec><jats:sec><jats:title>Methods</jats:title><jats:p>An OTM model and compressive force on PDL cells were employed to investigate the expression of autophagy markers in vivo and in vitro, respectively. Autophagosomes and autolysosomes were observed in PDL cells by transmission electron microscope (TEM) and autophagy LC3 double labelling. 3‐Methyladenine (3‐MA) and rapamycin were respectively used to inhibit and promote autophagy, and the effect of autophagy on osteoclastogenesis was explored via microcomputed tomography, hematoxylin and eosin (H&amp;E) staining, histochemistry of titrate‐resistant acid phosphatase, and real‐time polymerase chain reaction (RT‐PCR) in vivo. Receptor activator of nuclear factor‐kappa B ligand/osteoprotegerin (RANKL/OPG) was investigated by RT‐PCR and ELISA in vitro.</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>Orthodontic force‐induced autophagy was prominent on the pressured side of PDL tissues. Administration of 3‐MA downregulated bone density and upregulated osteoclasts, while rapamycin had reverse results in OTM. The autophagy activity increased initially then decreased in PDL cells during compressive force application and responded to light force. In PDL cells, administration of 3‐MA upregulated while rapamycin downregulated the RANKL/OPG ratio.</jats:p></jats:sec><jats:sec><jats:title>Conclusion</jats:title><jats:p>Autophagy is activated by compressive force in PDL cells. Besides, it could modulate OTM by negatively regulating osteoclastogenesis and keep bone homeostasis via RANKL/OPG signaling.</jats:p></jats:sec>",
+    "DOI": "10.1002/jper.19-0049",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          11
+        ]
+      ],
+      "date-time": "2019-05-11T14:06:08Z",
+      "timestamp": 1557583568000
+    },
+    "page": "1170-1181",
+    "update-policy": "http://dx.doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 23,
+    "title": [
+      "Compressive force‐induced autophagy in periodontal ligament cells downregulates osteoclastogenesis during tooth movement"
+    ],
+    "prefix": "10.1002",
+    "volume": "90",
+    "author": [
+      {
+        "given": "Liyuan",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Orthodontics School of Stomatology Tongji University, Shanghai Engineering Research Center of Tooth Restoration and Regeneration  Shanghai China"
+          }
+        ]
+      },
+      {
+        "given": "Shenzheng",
+        "family": "Mo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Orthodontics School of Stomatology Tongji University, Shanghai Engineering Research Center of Tooth Restoration and Regeneration  Shanghai China"
+          }
+        ]
+      },
+      {
+        "given": "Yongmei",
+        "family": "Hua",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Orthodontics School of Stomatology Tongji University, Shanghai Engineering Research Center of Tooth Restoration and Regeneration  Shanghai China"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          2
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0022034509338914"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14219/jada.archive.2008.0184"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/prd.12194"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0002-9416(76)90316-X"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jcp.28108"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3892/mmr.2015.4141"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.lfs.2018.03.038"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bone.2012.07.005"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0022034517690388"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ejo/cjl001"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1359/jbmr.2002.17.2.210"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/154405910608500812"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/mBio.01446-15"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1083/jcb.200412022"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature04724"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature06639"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1242/jcs.02760"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/307648a0"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.joca.2013.10.002"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4161/auto.7.12.17924"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1042/BSR20160086"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "first-page": "87",
+        "article-title": "Electron microscopic study of periodontal tissues in the pressure side by intermittent forces",
+        "volume": "15",
+        "author": "Kazama T",
+        "year": "1989",
+        "journal-title": "Tsurumi Shigaku"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4161/auto.36182"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/15548627.2018.1483807"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.devcel.2011.08.016"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/annrheumdis-2015-207240"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3892/mmr.2017.7813"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.archoralbio.2013.08.004"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bbrc.2018.05.015"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ajodo.2005.10.007"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.arr.2015.08.004"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1267/ahc.17.571"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1748-1716.2010.02173.x"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1600-0757.2005.00141.x"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jbiomech.2012.09.006"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.semcancer.2013.05.008"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.molcel.2010.09.023"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1534-5807(04)00099-1"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/35044114"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2443.2007.01050.x"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1083/jcb.152.4.657"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/emboj/19.21.5720"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jbmr.1668"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jbmr.36"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/scd.2009.0147"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ndt/gfr214"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00109-011-0823-6"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1601-6343.2009.01444.x"
+      }
+    ],
+    "container-title": [
+      "Journal of Periodontology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/JPER.19-0049",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/JPER.19-0049",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/JPER.19-0049",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          8
+        ]
+      ],
+      "date-time": "2023-09-08T21:49:06Z",
+      "timestamp": 1694209746000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0049"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          2
+        ]
+      ]
+    },
+    "references-count": 48,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/JPER.19-0049"
+    ],
+    "URL": "https://doi.org/10.1002/jper.19-0049",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0022-3492",
+      "1943-3670"
+    ],
+    "issn-type": [
+      {
+        "value": "0022-3492",
+        "type": "print"
+      },
+      {
+        "value": "1943-3670",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2019-01-27",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-04-28",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-06-02",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1043 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2024-09-25T12:18:22Z",
+      "timestamp": 1727266702855
+    },
+    "reference-count": 74,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001412",
+        "name": "CSIR",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "OLP0105"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001412",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Protein Expression and Purification"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.pep.2019.05.004",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          17
+        ]
+      ],
+      "date-time": "2019-05-17T08:04:30Z",
+      "timestamp": 1558080270000
+    },
+    "page": "1-8",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "special_numbering": "C",
+    "title": [
+      "Cloning and purification of an anti-thrombotic, chimeric Staphylokinase in Pichia pastoris"
+    ],
+    "prefix": "10.1016",
+    "volume": "162",
+    "author": [
+      {
+        "family": "Vandana",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Satish",
+        "family": "Kantipudi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Neeraj",
+        "family": "Maheshwari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sheetal",
+        "family": "Sharma",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Girish",
+        "family": "Sahni",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "331",
+        "DOI": "10.1080/21655979.2016.1229718",
+        "article-title": "The evolution of recombinant thrombolytics: current status and future directions",
+        "volume": "8",
+        "author": "Adivitiya",
+        "year": "2017",
+        "journal-title": "Bioengineered"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1016/S0021-9258(19)57350-1",
+        "article-title": "beta-hydroxyaspartic acid or 6-hydroxyasparagine in bovine low density lipoprotein receptor and in bovine thrombomodulin*",
+        "volume": "263",
+        "author": "Stenflos",
+        "year": "1988",
+        "journal-title": "J. Biol. Chem."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1255",
+        "DOI": "10.1016/S0735-1097(86)80144-9",
+        "article-title": "Importance of continued activation of thrombin reflected by fibrinopeptide A to the efficacy of thrombolysis",
+        "volume": "7",
+        "author": "Eisenberg",
+        "year": "1986",
+        "journal-title": "J. Am. Coll. Cardiol."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "424",
+        "DOI": "10.1161/01.STR.21.3.424",
+        "article-title": "Prognostic significance of fibrinopeptide a in survivors of cerebral infarction",
+        "volume": "21",
+        "author": "Landi",
+        "year": "1990",
+        "journal-title": "Stroke"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "527",
+        "DOI": "10.1016/S0735-1097(87)80194-8",
+        "article-title": "Paradoxic elevation of fibrinopeptide A after streptokinase: evidence for continued thrombosis despite intense fibrinolysis",
+        "volume": "10",
+        "author": "Eisenberg",
+        "year": "1987",
+        "journal-title": "J. Am. Coll. Cardiol."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.1016/0735-1097(94)00360-3",
+        "article-title": "Thrombin generation and activity during thrombolysis and concomitant heparin therapy in patients with acute myocardial infarction",
+        "volume": "25",
+        "author": "Angelica Merlini",
+        "year": "1995",
+        "journal-title": "J. Am. Coll. Cardiol."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib8",
+        "first-page": "177",
+        "article-title": "The roles of fibrinogen and fibrin in hemostasis and thrombosis",
+        "volume": "29",
+        "author": "Mosesson",
+        "year": "1992",
+        "journal-title": "Semin. Hematol."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "857",
+        "DOI": "10.1038/216857a0",
+        "article-title": "Actions of thrombin and other coagulant and proteolytic enzymes on blood platelets",
+        "volume": "216",
+        "author": "DAVEY",
+        "year": "1967",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "915",
+        "DOI": "10.1146/annurev.bi.57.070188.004411",
+        "article-title": "Cofactor proteins in the assembly and expression ofblood clotting enzyme complexes",
+        "volume": "57",
+        "author": "Mann",
+        "year": "1988",
+        "journal-title": "Annu. Rev. Biochem."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "181",
+        "DOI": "10.1016/0167-4838(88)90114-8",
+        "article-title": "Subunit structure of thrombin-activated human factor VIIIa",
+        "volume": "952",
+        "author": "Fay",
+        "year": "1988",
+        "journal-title": "Biochim. Biophys. Acta"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "909",
+        "DOI": "10.1126/science.1652157",
+        "article-title": "Factor XI activation in a revised model of blood coagulation",
+        "volume": "253",
+        "author": "Gailani",
+        "year": "1991",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "58",
+        "DOI": "10.1016/0003-9861(64)90235-8",
+        "article-title": "Activation of the fibrin stabilizing factor of plasma by thrombin",
+        "volume": "105",
+        "author": "Lorand",
+        "year": "1964",
+        "journal-title": "Arch. Biochem. Biophys."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "14477",
+        "DOI": "10.1074/jbc.270.24.14477",
+        "article-title": "Purification and characterization of TAFI, a thrombin-activable fibrinolysis inhibitor *",
+        "volume": "270",
+        "author": "M.R.",
+        "year": "1995",
+        "journal-title": "J. Biol. Chem."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "544",
+        "DOI": "10.1161/01.CIR.97.6.544",
+        "article-title": "Thrombin binds to soluble fibrin degradation products where it is protected from inhibition by heparin-antithrombin but susceptible to inactivation by antithrombin-independent inhibitors",
+        "volume": "97",
+        "author": "Weitz",
+        "year": "1998",
+        "journal-title": "Circulation"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "385",
+        "DOI": "10.1172/JCI114723",
+        "article-title": "Clot-bound thrombin is protected from inhibition by heparin-antithrombin III but is susceptible to inactivation by antithrombin III-independent inhibitors",
+        "volume": "86",
+        "author": "Weitz",
+        "year": "1990",
+        "journal-title": "J. Clin. Investig."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "3619",
+        "DOI": "10.1073/pnas.86.10.3619",
+        "article-title": "Fibrin monomer protects thrombin from inactivation by heparin-antithrombin III: implications for heparin efficacy",
+        "volume": "86",
+        "author": "Hogg",
+        "year": "1989",
+        "journal-title": "Proc. Natl. Acad. Sci. U.S.A."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "307",
+        "DOI": "10.1111/j.1432-1033.1993.tb18147.x",
+        "article-title": "Mechanisms of activation of mammalian plasma fibrinolytic systems with streptokinase and with recombinant staphylokinase",
+        "volume": "216",
+        "author": "Collen",
+        "year": "1993",
+        "journal-title": "Eur. J. Biochem."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "11826",
+        "DOI": "10.1016/S0021-9258(18)99031-9",
+        "article-title": "On the mechanism of fibrin-specific plasminogen activation by staphylokinase",
+        "volume": "266",
+        "author": "Roger Lijnen",
+        "year": "1991",
+        "journal-title": "J. Biol. Chem."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "925",
+        "DOI": "10.1182/blood.V76.5.925.925",
+        "article-title": "Thrombolytic properties of staphylokinase",
+        "volume": "76",
+        "author": "Matsuo",
+        "year": "1990",
+        "journal-title": "Blood"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "9811",
+        "DOI": "10.1016/S0021-9258(18)98419-X",
+        "article-title": "The interaction between staphylokinase, plasmin(ogen) and α2-antiplasmin. Recycling of staphylokinase after neutralization of the plasmin-staphylokinase complex by α2-antiplasmin",
+        "volume": "268",
+        "author": "Silence",
+        "year": "1993",
+        "journal-title": "J. Biol. Chem."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1348",
+        "DOI": "10.1126/science.3029867",
+        "article-title": "The regulation of natural anticoagulant pathways",
+        "volume": "235",
+        "author": "Esmon",
+        "year": "1987",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "4743",
+        "DOI": "10.1016/S0021-9258(18)83649-3",
+        "article-title": "The roles of protein C and thrombomodulin in the regulation of blood coagulation",
+        "volume": "264",
+        "author": "Esmon",
+        "year": "1989",
+        "journal-title": "J. Biol. Chem."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib24",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/S0021-9258(18)33076-X",
+        "article-title": "Inactivation of human coagulation factor V by activated protein C.",
+        "volume": "258",
+        "author": "Suzuki",
+        "year": "1983",
+        "journal-title": "J. Biol. Chem."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "5993",
+        "DOI": "10.1016/S0021-9258(18)68735-6",
+        "article-title": "A10-kDa cyanogen bromide fragment from the epidermal growth factor homology domain of rabbit thrombomodulin contains the primary thrombinbinding site",
+        "volume": "263",
+        "author": "Kurosawa",
+        "year": "1988",
+        "journal-title": "J. Biol. Chem."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "3352",
+        "DOI": "10.1016/S0021-9258(18)94073-1",
+        "article-title": "Micro-thrombomodulin Residues 310–486 from the epidermal growth factor precursor homology domain of thrombomodulin will accelerate protein activation",
+        "volume": "264",
+        "author": "Stearns",
+        "year": "1989",
+        "journal-title": "J. Biol. Chem."
+      },
+      {
+        "year": "2014",
+        "series-title": "Life Technologies",
+        "key": "10.1016/j.pep.2019.05.004_bib27"
+      },
+      {
+        "year": "1998",
+        "series-title": "Pichia Protocols(methods in Molecular Biology)",
+        "author": "C.J.Higgins",
+        "key": "10.1016/j.pep.2019.05.004_bib28"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "51",
+        "DOI": "10.1016/0378-1119(89)90358-2",
+        "article-title": "Site-directed mutagenesis by overlap extension using the polymerase chain reaction",
+        "volume": "77",
+        "author": "Ho",
+        "year": "1989",
+        "journal-title": "Gene"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "18199",
+        "DOI": "10.1074/jbc.M210919200",
+        "article-title": "A fast-acting, modular-structured staphylokinase fusion with Kringle-1 from human plasminogen as the fibrin-targeting domain offers improved clot lysis efficacy",
+        "volume": "278",
+        "author": "Wu",
+        "year": "2003",
+        "journal-title": "J. Biol. Chem."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "6309",
+        "DOI": "10.1016/S0021-9258(18)53254-3",
+        "article-title": "The short loop between epidermal growth factor-like domains 4 and 5 is critical for human thrombomodulin function",
+        "volume": "268",
+        "author": "Clarke",
+        "year": "1993",
+        "journal-title": "J. Biol. Chem."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1251",
+        "DOI": "10.1016/j.procbio.2010.04.014",
+        "article-title": "Molecular cloning, expression, purification and characterization of truncated forms of human plasminogen in Pichia pastoris expression system",
+        "volume": "45",
+        "author": "Joshi",
+        "year": "2010",
+        "journal-title": "Process Biochem."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "303",
+        "DOI": "10.1016/0167-4838(83)90386-2",
+        "article-title": "Denaturations studies on bovine pancreatic ribonuclease: effect of trichloroacetic acid",
+        "volume": "743",
+        "author": "Sagar",
+        "year": "1983",
+        "journal-title": "Biochim. Biophys. Acta Protein Struct. Mol. Enzymol."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "680",
+        "DOI": "10.1038/227680a0",
+        "article-title": "Cleavage of structural proteins during the assembly of the head of bacteriophage T4",
+        "volume": "227",
+        "author": "Laemmli",
+        "year": "1970",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "4350",
+        "DOI": "10.1073/pnas.76.9.4350",
+        "article-title": "Electrophoretic transfer of proteins from polyacrylamide gels to nitrocellulose sheets: procedure and some applications",
+        "volume": "76",
+        "author": "Towbin",
+        "year": "1979",
+        "journal-title": "Proc. Natl. Acad. Sci. Unit. States Am."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "248",
+        "DOI": "10.1016/0003-2697(76)90527-3",
+        "article-title": "Rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding",
+        "volume": "72",
+        "author": "Bradford",
+        "year": "1976",
+        "journal-title": "Anal. Biochem."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.1124/mol.62.2.203",
+        "article-title": "Fusion proteins with anticoagulant and fibrinolytic properties: functional studies and structural considerations",
+        "volume": "62",
+        "author": "Icke",
+        "year": "2002",
+        "journal-title": "Mol. Pharmacol."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "773",
+        "DOI": "10.1002/pro.5560040417",
+        "article-title": "Thrombin inhibition by cyclic peptides from thrombomodulin",
+        "volume": "4",
+        "author": "Lougheed",
+        "year": "1995",
+        "journal-title": "Protein Sci."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "1850",
+        "DOI": "10.1161/01.CIR.87.6.1850",
+        "article-title": "Coronary thrombolysis with recombinant staphylokinase in patients with evolving myocardial infarction",
+        "volume": "87",
+        "author": "Collen",
+        "year": "1993",
+        "journal-title": "Circulation"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "2050",
+        "DOI": "10.1161/01.CIR.92.8.2050",
+        "article-title": "Thrombolytic therapy of peripheral arterial occlusion with recombinant staphylokinase",
+        "volume": "92",
+        "author": "Vanderschueren",
+        "year": "1995",
+        "journal-title": "Circulation"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "666",
+        "DOI": "10.1055/s-0037-1613889",
+        "article-title": "Outcome and one year follow-up of intra-arterial staphylokinase in 191 patients with peripheral arterial occlusion",
+        "volume": "83",
+        "author": "Heymans",
+        "year": "2000",
+        "journal-title": "Thromb. Haemostasis"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "1337",
+        "DOI": "10.1016/S0169-409X(03)00113-3",
+        "article-title": "Clinical development of PEGylated recombinant staphylokinase (PEG–Sak) for bolus thrombolytic treatment of patients with acute myocardial infarction",
+        "volume": "55",
+        "author": "Moreadith",
+        "year": "2003",
+        "journal-title": "Adv. Drug Deliv. Rev."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib43",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1007/s11239-006-0006-4",
+        "article-title": "A dose-finding clinical trial of staphylokinase SY162 in patients with long-term venous access catheter thrombotic occlusion",
+        "volume": "24",
+        "author": "Verhamme",
+        "year": "2007",
+        "journal-title": "J. Thromb. Thrombolysis"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib44",
+        "doi-asserted-by": "crossref",
+        "first-page": "271",
+        "DOI": "10.1007/BF00330650",
+        "article-title": "Cloning and expression of the staphylokinase gene of Staphylococcus aureus in Escherichia coli",
+        "volume": "190",
+        "author": "Sako",
+        "year": "1983",
+        "journal-title": "MGG Mol. Gen. Genet."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib45",
+        "doi-asserted-by": "crossref",
+        "first-page": "557",
+        "DOI": "10.1111/j.1432-1033.1985.tb08961.x",
+        "article-title": "Overproduction of staphylokinase in Escherichia coli and its characterization",
+        "volume": "149",
+        "author": "Sako",
+        "year": "1985",
+        "journal-title": "Eur. J. Biochem."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib46",
+        "doi-asserted-by": "crossref",
+        "first-page": "528",
+        "DOI": "10.1007/BF00327208",
+        "article-title": "Cloning and expression in Escherichia coli, Bacillus subtilis, and Streptococcus sanguis of a gene for staphylokinase — a bacterial plasminogen activator",
+        "volume": "210",
+        "author": "Behnke",
+        "year": "1987",
+        "journal-title": "Mol. Gen. Genet."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib47",
+        "first-page": "7769",
+        "article-title": "Glycosylation of asparagine-28 of recombinant staphylokinase with high-mannose-type oligosaccharides results in a protein with highly attenuated plasminogen activator activity",
+        "volume": "274",
+        "author": "Miele",
+        "year": "1999",
+        "journal-title": "*"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib48",
+        "doi-asserted-by": "crossref",
+        "first-page": "811",
+        "DOI": "10.1007/s10529-009-9938-z",
+        "article-title": "High-level expression of non-glycosylated and active staphylokinase from Pichia pastoris",
+        "volume": "31",
+        "author": "Apte-Deshpnade",
+        "year": "2009",
+        "journal-title": "Biotechnol. Lett."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib49",
+        "doi-asserted-by": "crossref",
+        "first-page": "379",
+        "DOI": "10.1080/10826068.2016.1252924",
+        "article-title": "High-level expression of a biologically active staphylokinase in Pichia pastoris",
+        "volume": "47",
+        "author": "Faraji",
+        "year": "2017",
+        "journal-title": "Prep. Biochem. Biotechnol."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib50",
+        "doi-asserted-by": "crossref",
+        "first-page": "2565",
+        "DOI": "10.1172/JCI116151",
+        "article-title": "Oxidation of a specific methionine in thrombomodulin by activated neutrophil products blocks cofactor activity. A potential rapid mechanism for modulation of coagulation",
+        "volume": "90",
+        "author": "Glaser",
+        "year": "1992",
+        "journal-title": "J. Clin. Investig."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib51",
+        "doi-asserted-by": "crossref",
+        "first-page": "506",
+        "DOI": "10.1128/AEM.65.2.506-513.1999",
+        "article-title": "Staphylokinase as a plasminogen activator component in recombinant fusion proteins",
+        "volume": "65",
+        "author": "Szarka",
+        "year": "1999",
+        "journal-title": "Appl. Environ. Microbiol."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib52",
+        "doi-asserted-by": "crossref",
+        "first-page": "435",
+        "DOI": "10.1016/S0049-3848(00)00204-8",
+        "article-title": "PLATSAK, a potent antithrombotic and fibrinolytic protein, inhibits arterial and venous thrombosis in a baboon model",
+        "volume": "98",
+        "author": "Van Zyl",
+        "year": "2000",
+        "journal-title": "Thromb. Res."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib53",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.1124/mol.62.2.203",
+        "article-title": "Fusion proteins with anticoagulant and fibrinolytic properties: functional studies and structural considerations",
+        "volume": "62",
+        "author": "Icke",
+        "year": "2002",
+        "journal-title": "Mol. Pharmacol."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib54",
+        "doi-asserted-by": "crossref",
+        "first-page": "250",
+        "DOI": "10.1006/mgme.2001.3292",
+        "article-title": "Modular design of a novel chimeric protein with combined thrombin inhibitory activity and plasminogen-activating potential",
+        "volume": "75",
+        "author": "Wirsching",
+        "year": "2002",
+        "journal-title": "Mol. Genet. Metab."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib55",
+        "doi-asserted-by": "crossref",
+        "first-page": "26677",
+        "DOI": "10.1074/jbc.M303241200",
+        "article-title": "Engineering of a staphylokinase-based fibrinolytic agent with antithrombotic activity and targeting capability toward thrombin-rich fibrin and plasma clots*",
+        "volume": "278",
+        "author": "Lian",
+        "year": "2003",
+        "journal-title": "J. Biol. Chem."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib56",
+        "doi-asserted-by": "crossref",
+        "first-page": "2156",
+        "DOI": "10.1111/j.1538-7836.2005.01480.x",
+        "article-title": "A new recombinant thrombolytic and antithrombotic agent with higher fibrin affinity - a staphylokinase variant - an in-vivo study",
+        "volume": "3",
+        "author": "Szemraj",
+        "year": "2005",
+        "journal-title": "J. Thromb. Haemost."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib57",
+        "doi-asserted-by": "crossref",
+        "first-page": "283",
+        "DOI": "10.1007/s11239-007-0036-6",
+        "article-title": "Locally activity-released bifunctional fusion protein enhances antithrombosis and alleviates bleeding risk",
+        "volume": "24",
+        "author": "Shi",
+        "year": "2007",
+        "journal-title": "J. Thromb. Thrombolysis"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib58",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.18388/abp.2009_2515",
+        "article-title": "Cloning and expression of a new recombinant thrombolytic and anthithrombotic agent - a staphylokinase variant",
+        "volume": "56",
+        "author": "Kowalski",
+        "year": "2008",
+        "journal-title": "Acta Biochim. Pol."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib59",
+        "doi-asserted-by": "crossref",
+        "first-page": "1169",
+        "DOI": "10.1016/S1734-1140(11)70636-3",
+        "article-title": "New derivative of staphylokinase SAK-RGD-K2-Hirul exerts thrombolytic effects in the arterial thrombosis model in rats",
+        "volume": "63",
+        "author": "Szemraj",
+        "year": "2011",
+        "journal-title": "Pharmacol. Rep."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib60",
+        "doi-asserted-by": "crossref",
+        "first-page": "1122",
+        "DOI": "10.1271/bbb.60279",
+        "article-title": "Staphylokinase-annexin XI chimera exhibited efficient in vitro thrombolytic activities",
+        "volume": "71",
+        "author": "CHIOU",
+        "year": "2007",
+        "journal-title": "Biosci. Biotechnol. Biochem."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib61",
+        "first-page": "1008",
+        "article-title": "Cloning and high level expression of recombinant heterologous fusion protein SAK RGD in methanol inducible Pichia pastoris GS115",
+        "volume": "3",
+        "author": "Pulicherla",
+        "year": "2009",
+        "journal-title": "Int. J. Res. Pharm. Biomed. Sci."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib62",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1111/joim.12138",
+        "article-title": "Advantages and limitations of the new anticoagulants",
+        "volume": "275",
+        "author": "Schulman",
+        "year": "2014",
+        "journal-title": "J. Intern. Med."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib63",
+        "doi-asserted-by": "crossref",
+        "first-page": "967",
+        "DOI": "10.2147/TCRM.S84210",
+        "article-title": "New oral anticoagulants: their advantages and disadvantages compared with vitamin K antagonists in the prevention and treatment of patients with thromboembolic events",
+        "volume": "11",
+        "author": "Mekaj",
+        "year": "2015",
+        "journal-title": "Therapeut. Clin. Risk Manag."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib64",
+        "doi-asserted-by": "crossref",
+        "first-page": "7227",
+        "DOI": "10.4081/gc.2018.7227",
+        "article-title": "Advantages and disadvantages of direct oral anticoagulants in older patients",
+        "volume": "4",
+        "author": "Cherubini",
+        "year": "2018",
+        "journal-title": "Geriatr. Care"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib65",
+        "doi-asserted-by": "crossref",
+        "first-page": "154",
+        "DOI": "10.1038/nrd2957",
+        "article-title": "Antiplatelet therapies for the treatment of cardiovascular disease",
+        "volume": "9",
+        "author": "Michelson",
+        "year": "2010",
+        "journal-title": "Nat. Rev. Drug Discov."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib66",
+        "first-page": "33",
+        "article-title": "Newer agents in antiplatelet therapy-:a review",
+        "volume": "2012",
+        "author": "Yeung",
+        "year": "2012",
+        "journal-title": "J. Blood Med."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib67",
+        "doi-asserted-by": "crossref",
+        "first-page": "2155",
+        "DOI": "10.1056/NEJMoa1409312",
+        "article-title": "Twelve or 30 Months of dual antiplatelet therapy after drug-eluting stents",
+        "volume": "23",
+        "author": "Mauri",
+        "year": "2014",
+        "journal-title": "NEJM.Org. N Engl J Med."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib68",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.5742/MEWFM.2017.93050",
+        "article-title": "Comparison of postoperative bleeding in patients undergoing coronary artery bypass surgery in two groups taking aspirin and aspirin plus CLS clopidogrel",
+        "volume": "15",
+        "author": "Pooria",
+        "year": "2017",
+        "journal-title": "WORLD Fam. Med. EAST J. Fam. Med."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib69",
+        "doi-asserted-by": "crossref",
+        "first-page": "439",
+        "DOI": "10.1002/rth2.12115",
+        "article-title": "Novel aspects of antiplatelet therapy in cardiovascular disease",
+        "volume": "2",
+        "author": "Gremmel",
+        "year": "2018",
+        "journal-title": "Res. Pract. Thromb. Haemost."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib70",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1371/journal.pone.0150315",
+        "article-title": "Amino-terminal fusion of epidermal growth factor 4,5,6 domains of human thrombomodulin on streptokinase confers anti-reocclusion characteristics along with plasmin-mediated clot specificity",
+        "volume": "11",
+        "author": "Maheshwari",
+        "year": "2016",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib71",
+        "doi-asserted-by": "crossref",
+        "first-page": "1662",
+        "DOI": "10.1126/science.281.5383.1662",
+        "article-title": "Crystal structure of the catalytic domain of human plasmin complexed with streptokinase",
+        "volume": "281",
+        "author": "Wang",
+        "year": "1998",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib72",
+        "doi-asserted-by": "crossref",
+        "first-page": "357",
+        "DOI": "10.1038/nsb0597-357",
+        "article-title": "Three-dimensional structure of staphylokinase, a plasminogen activator with therapeutic potential",
+        "volume": "4",
+        "author": "Rabijns",
+        "year": "1997",
+        "journal-title": "Nat. Struct. Mol. Biol."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib73",
+        "first-page": "322",
+        "article-title": "Reocclusion of recanalized arteries during intra-arterial thrombolysis for acute ischemic stroke",
+        "volume": "25",
+        "author": "Qureshi",
+        "year": "2003",
+        "journal-title": "Am. J. Neuroradiol."
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib74",
+        "doi-asserted-by": "crossref",
+        "first-page": "1452",
+        "DOI": "10.1161/01.STR.0000170711.43405.81",
+        "article-title": "Predictors of early arterial reocclusion after Tissue plasminogen activator-induced recanalization in acute ischemic stroke",
+        "volume": "36",
+        "author": "Rubiera",
+        "year": "2005",
+        "journal-title": "Stroke"
+      },
+      {
+        "key": "10.1016/j.pep.2019.05.004_bib75",
+        "doi-asserted-by": "crossref",
+        "first-page": "253",
+        "DOI": "10.3174/ajnr.A0825",
+        "article-title": "Impact of arterial reocclusion and distal fragmentation during thrombolysis among patients with acute ischemic stroke",
+        "volume": "29",
+        "author": "Janjua",
+        "year": "2008",
+        "journal-title": "Am. J. Neuroradiol."
+      }
+    ],
+    "updated-by": [
+      {
+        "updated": {
+          "date-parts": [
+            [
+              2020,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2020-03-01T00:00:00Z",
+          "timestamp": 1583020800000
+        },
+        "DOI": "10.1016/j.pep.2019.105488",
+        "type": "erratum",
+        "source": "publisher",
+        "label": "Erratum"
+      }
+    ],
+    "container-title": [
+      "Protein Expression and Purification"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1046592818304224?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1046592818304224?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          18
+        ]
+      ],
+      "date-time": "2022-09-18T01:38:06Z",
+      "timestamp": 1663465086000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1046592818304224"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 74,
+    "alternative-id": [
+      "S1046592818304224"
+    ],
+    "URL": "https://doi.org/10.1016/j.pep.2019.05.004",
+    "relation": {},
+    "ISSN": [
+      "1046-5928"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1046-5928"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Cloning and purification of an anti-thrombotic, chimeric Staphylokinase in Pichia pastoris",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Protein Expression and Purification",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.pep.2019.05.004",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 Published by Elsevier Inc.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

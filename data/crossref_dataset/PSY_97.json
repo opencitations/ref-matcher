@@ -1,0 +1,522 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          11
+        ]
+      ],
+      "date-time": "2024-06-11T17:17:31Z",
+      "timestamp": 1718126251403
+    },
+    "reference-count": 43,
+    "publisher": "Wiley",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              11,
+              29
+            ]
+          ],
+          "date-time": "2018-11-29T00:00:00Z",
+          "timestamp": 1543449600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000027",
+        "name": "National Institute on Alcohol Abuse and Alcoholism",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "F31 AA023128",
+          "T32/AA007453"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000027",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000025",
+        "name": "National Institute of Mental Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "R01 MH60838"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000025",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Personality"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:title>Objective</jats:title><jats:p>Children’s effortful control and impulsivity are important predictors of the personality trait, ego resiliency (i.e., resiliency). Most researchers have not considered the fact that effortful control and impulsivity share substantial conceptual and empirical overlap, yet they also have been shown to be distinct. We tested a bifactor model of effortful control and impulsivity to characterize their shared and unique variance, the prospective prediction of resiliency by the factors of the bifactor model, and moderation by sex and age.</jats:p></jats:sec><jats:sec><jats:title>Method</jats:title><jats:p>In a longitudinal study of children (<jats:italic>N = </jats:italic>214; 76.5% non‐Hispanic Caucasian, 12.2% Hispanic, 11.3% other race/ethnicity), parent‐ and teacher‐reported effortful control and impulsivity, as well as behavioral measures of effortful control, were assessed on two occasions (T1: 4.5–8 years; T2: 6–10 years). Parent‐reported resiliency was used as a covariate (T1) and the outcome (T3: 8–12 years).</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>The bifactor model yielded a common effortful inhibitory control factor, pure attentional control factor, and pure impulsivity factor. Pure impulsivity and pure attentional control positively predicted resiliency, but only for girls. Effortful inhibitory control did not uniquely predict resiliency.</jats:p></jats:sec><jats:sec><jats:title>Conclusion</jats:title><jats:p>Disentangling the shared and unique aspects of effortful control and impulsivity could clarify the roles they play in important outcomes, such as resiliency.</jats:p></jats:sec>",
+    "DOI": "10.1111/jopy.12444",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          13
+        ]
+      ],
+      "date-time": "2018-11-13T08:49:18Z",
+      "timestamp": 1542098958000
+    },
+    "page": "919-933",
+    "update-policy": "http://dx.doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Bifactor model of effortful control and impulsivity and their prospective prediction of ego resiliency"
+    ],
+    "prefix": "10.1111",
+    "volume": "87",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0001-6548-0031",
+        "authenticated-orcid": false,
+        "given": "Frances L.",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Psychiatry University of Pittsburgh  Pittsburgh, PA"
+          }
+        ]
+      },
+      {
+        "given": "Nancy",
+        "family": "Eisenberg",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Psychology Arizona State University  Tempe Arizona"
+          }
+        ]
+      },
+      {
+        "given": "Tracy L.",
+        "family": "Spinrad",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "T. Denny Sanford School of Social and Family Dynamics Arizona State University  Tempe Arizona"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          29
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_7_2_1",
+        "volume-title": "Integrative guide for the 1991 CBCL/4–18, YSR, and TRF profiles",
+        "author": "Achenbach T. M.",
+        "year": "1991"
+      },
+      {
+        "key": "e_1_2_7_3_1",
+        "volume-title": "Manual for the Child Behavior Checklist/4–18 and 1991 profile",
+        "author": "Achenbach T. M.",
+        "year": "1991"
+      },
+      {
+        "key": "e_1_2_7_4_1",
+        "volume-title": "Multiple regression: Testing and interpreting interactions",
+        "author": "Aiken L. S.",
+        "year": "1991"
+      },
+      {
+        "key": "e_1_2_7_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1076/chin.8.2.71.8724"
+      },
+      {
+        "key": "e_1_2_7_6_1",
+        "first-page": "39",
+        "volume-title": "Minnesota symposium on child psychology",
+        "author": "Block J. H.",
+        "year": "1980"
+      },
+      {
+        "key": "e_1_2_7_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1207/s15327906mbr4102_5"
+      },
+      {
+        "key": "e_1_2_7_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0165025406072795"
+      },
+      {
+        "key": "e_1_2_7_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1207/s15327752jpa6401_2"
+      },
+      {
+        "key": "e_1_2_7_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9507.2004.000263.x"
+      },
+      {
+        "key": "e_1_2_7_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/15374410701448513"
+      },
+      {
+        "key": "e_1_2_7_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467-8624.00337"
+      },
+      {
+        "key": "e_1_2_7_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/a0031745"
+      },
+      {
+        "key": "e_1_2_7_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S095457940000701X"
+      },
+      {
+        "key": "e_1_2_7_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0022-3514.78.1.136"
+      },
+      {
+        "key": "e_1_2_7_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/152988602317319294"
+      },
+      {
+        "key": "e_1_2_7_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-8624.2004.00652.x"
+      },
+      {
+        "key": "e_1_2_7_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0012-1649.39.4.761"
+      },
+      {
+        "key": "e_1_2_7_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/14797-006"
+      },
+      {
+        "key": "e_1_2_7_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0033-2909.132.1.33"
+      },
+      {
+        "key": "e_1_2_7_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0096-3445.133.1.101"
+      },
+      {
+        "key": "e_1_2_7_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fpsyg.2015.00946"
+      },
+      {
+        "key": "e_1_2_7_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0021-843X.106.3.404"
+      },
+      {
+        "key": "e_1_2_7_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1023277413027"
+      },
+      {
+        "key": "e_1_2_7_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0012-1649.36.2.220"
+      },
+      {
+        "key": "e_1_2_7_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0003-066X.56.3.227"
+      },
+      {
+        "key": "e_1_2_7_27_1",
+        "first-page": "413",
+        "article-title": "Consistency and change in children’s emotionality and regulation: A longitudinal study",
+        "volume": "45",
+        "author": "Murphy B. C.",
+        "year": "1999",
+        "journal-title": "Merrill‐Palmer Quarterly"
+      },
+      {
+        "key": "e_1_2_7_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.ecolsys.28.1.341"
+      },
+      {
+        "key": "e_1_2_7_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jcpp.12675"
+      },
+      {
+        "key": "e_1_2_7_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0022-3514.78.1.122"
+      },
+      {
+        "key": "e_1_2_7_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467-8624.00355"
+      },
+      {
+        "key": "e_1_2_7_32_1",
+        "first-page": "99",
+        "volume-title": "Handbook of child psychology: Vol. 3. Social, emotional, and personality development",
+        "author": "Rothbart M. K.",
+        "year": "2006"
+      },
+      {
+        "key": "e_1_2_7_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1750-8606.2007.00002.x"
+      },
+      {
+        "key": "e_1_2_7_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jrp.2008.03.002"
+      },
+      {
+        "key": "e_1_2_7_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/1528-3542.6.3.498"
+      },
+      {
+        "key": "e_1_2_7_36_1",
+        "unstructured": "U.S. Census Bureau. (2000).Census 2000 data for the state of Arizona. Retrieved fromhttps://www.census.gov/census2000/states/az.html"
+      },
+      {
+        "key": "e_1_2_7_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467-6494.7106011"
+      },
+      {
+        "key": "e_1_2_7_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/1528-3542.6.3.459"
+      },
+      {
+        "key": "e_1_2_7_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00004583-200202000-00013"
+      },
+      {
+        "key": "e_1_2_7_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1088868310365565"
+      },
+      {
+        "key": "e_1_2_7_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/cdev.12406"
+      },
+      {
+        "key": "e_1_2_7_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0954579415001224"
+      },
+      {
+        "key": "e_1_2_7_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0191-8869(00)00064-7"
+      },
+      {
+        "key": "e_1_2_7_44_1",
+        "first-page": "349",
+        "article-title": "US socioeconomic and racial differences in health: Patterns and explanations",
+        "volume": "21",
+        "author": "Williams D. R.",
+        "year": "1995",
+        "journal-title": "Annual Review of Psychology"
+      }
+    ],
+    "container-title": [
+      "Journal of Personality"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fjopy.12444",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jopy.12444",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/jopy.12444",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jopy.12444",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          9
+        ]
+      ],
+      "date-time": "2023-09-09T23:58:30Z",
+      "timestamp": 1694303910000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/jopy.12444"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          29
+        ]
+      ]
+    },
+    "references-count": 43,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/jopy.12444"
+    ],
+    "URL": "https://doi.org/10.1111/jopy.12444",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0022-3506",
+      "1467-6494"
+    ],
+    "issn-type": [
+      {
+        "value": "0022-3506",
+        "type": "print"
+      },
+      {
+        "value": "1467-6494",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          29
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2018-05-06",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2018-11-04",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2018-11-29",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

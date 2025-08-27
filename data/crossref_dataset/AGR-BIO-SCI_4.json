@@ -1,0 +1,936 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          5
+        ]
+      ],
+      "date-time": "2024-09-05T08:35:12Z",
+      "timestamp": 1725525312125
+    },
+    "reference-count": 67,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              10
+            ]
+          ],
+          "date-time": "2019-10-10T00:00:00Z",
+          "timestamp": 1570665600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Plant Sci."
+    ],
+    "DOI": "10.3389/fpls.2019.01237",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2019-10-10T00:43:48Z",
+      "timestamp": 1570668228000
+    },
+    "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 19,
+    "title": [
+      "Ethylene and Phloem Signals Are Involved in the Regulation of Responses to Fe and P Deficiencies in Roots of Strategy I Plants"
+    ],
+    "prefix": "10.3389",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Carlos",
+        "family": "Lucena",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Rafael",
+        "family": "Porras",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "María J.",
+        "family": "García",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Esteban",
+        "family": "Alcántara",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rafael",
+        "family": "Pérez-Vicente",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ángel M.",
+        "family": "Zamarreño",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Eva",
+        "family": "Bacaicoa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "José M.",
+        "family": "García-Mina",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Aaron P.",
+        "family": "Smith",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Francisco J.",
+        "family": "Romera",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          10
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "doi-asserted-by": "publisher",
+        "first-page": "303",
+
+        "article-title": "Phosphate sensing in root development",
+        "volume": "14",
+        "author": "Abel",
+        "year": "2011",
+        "journal-title": "Curr. Opin. Plant Biol."
+      },
+      {
+        "key": "B2",
+        "doi-asserted-by": "publisher",
+        "first-page": "988",
+
+        "article-title": "PHO2, microRNA399, and PHR1 define a phosphate- pathway in plants",
+        "volume": "141",
+        "author": "Bari",
+        "year": "2006",
+        "journal-title": "Plant Physiol."
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "first-page": "425",
+
+        "article-title": "Ethylene: a regulator of root architectural responses to soil phosphorus availability",
+        "volume": "22",
+        "author": "Borch",
+        "year": "1999",
+        "journal-title": "Plant Cell Environ."
+      },
+      {
+        "key": "B4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1409",
+
+        "article-title": "A mechanistic framework for auxin dependent Arabidopsis root hair elongation to low external phosphate",
+        "volume": "9",
+        "author": "Bhosale",
+        "year": "2018",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "B5",
+        "doi-asserted-by": "publisher",
+        "first-page": "124",
+
+        "article-title": "Molecular mechanisms governing Arabidopsis iron uptake",
+        "volume": "20",
+        "author": "Brumbarova",
+        "year": "2015",
+        "journal-title": "Trends Plant Sci."
+      },
+      {
+        "key": "B6",
+        "doi-asserted-by": "publisher",
+        "first-page": "64",
+
+        "article-title": "Phloem small RNAs, nutrient stress responses, and systemic mobility",
+        "volume": "10",
+        "author": "Buhtz",
+        "year": "2010",
+        "journal-title": "BMC Plant Biol."
+      },
+      {
+        "key": "B7",
+        "doi-asserted-by": "publisher",
+        "first-page": "1102",
+
+        "article-title": "Overexpression of the FRO2 ferric chelate reductase confers tolerance to growth on low iron and uncovers posttranscriptional control",
+        "volume": "133",
+        "author": "Connolly",
+        "year": "2003",
+        "journal-title": "Plant Physiol."
+      },
+      {
+        "key": "B8",
+        "doi-asserted-by": "publisher",
+        "first-page": "810",
+
+        "article-title": "Nitric oxide acts downstream of auxin to trigger root ferric-chelate reductase activity in response to iron deficiency in Arabidopsis thaliana",
+        "volume": "154",
+        "author": "Chen",
+        "year": "2010",
+        "journal-title": "Plant Physiol."
+      },
+      {
+        "key": "B9",
+        "doi-asserted-by": "publisher",
+        "first-page": "185",
+
+        "article-title": "Network in sensing phosphate availability in plants",
+        "volume": "62",
+        "author": "Chiou",
+        "year": "2011",
+        "journal-title": "Annu Rev Plant Biol."
+      },
+      {
+        "key": "B10",
+        "doi-asserted-by": "publisher",
+        "first-page": "167",
+
+        "article-title": "Iron nutrition of plants at high pH",
+        "volume": "79",
+        "author": "de Kock",
+        "year": "1955",
+        "journal-title": "Soil Sci."
+      },
+      {
+        "key": "B11",
+        "doi-asserted-by": "publisher",
+        "first-page": "207",
+
+        "article-title": "Characterization of a phosphate accumulator mutant of Arabidopsis thaliana",
+        "volume": "107",
+        "author": "Delhaize",
+        "year": "1995",
+        "journal-title": "Plant Physiol."
+      },
+      {
+        "key": "B12",
+        "doi-asserted-by": "publisher",
+        "first-page": "579",
+
+        "article-title": "A type 5 acid phosphatase gene from Arabidopsis thaliana is induced by phosphate starvation and by som other types of phosphate mobilising/oxidative stress conditions",
+        "volume": "19",
+        "author": "del Pozo",
+        "year": "1999",
+        "journal-title": "Plant J."
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "publisher",
+        "first-page": "285",
+
+        "article-title": "The transcriptional control of plant responses to phosphate limitation",
+        "volume": "55",
+        "author": "Franco-Zorrilla",
+        "year": "2004",
+        "journal-title": "J. Exp. Bot."
+      },
+      {
+        "key": "B14",
+        "doi-asserted-by": "publisher",
+        "first-page": "3885",
+
+        "article-title": "Ethylene and nitric oxide involvement in the up-regulation of key genes related to iron acquisition and homeostasis in Arabidopsis",
+        "volume": "61",
+        "author": "García",
+        "year": "2010",
+        "journal-title": "J. Exp. Bot."
+      },
+      {
+        "key": "B15",
+        "doi-asserted-by": "publisher",
+        "first-page": "537",
+
+        "article-title": "A new model involving ethylene, nitric oxide and Fe to explain the regulation of Fe-acquisition genes in Strategy I plants",
+        "volume": "49",
+        "author": "García",
+        "year": "2011",
+        "journal-title": "Plant Physiol. Biochem."
+      },
+      {
+        "key": "B16",
+        "doi-asserted-by": "publisher",
+        "first-page": "65",
+
+        "article-title": "Shoot to root communication is necessary to control the expression of iron-acquisition genes in Strategy I plants",
+        "volume": "237",
+        "author": "García",
+        "year": "2013",
+        "journal-title": "Planta"
+      },
+      {
+        "key": "B17",
+        "doi-asserted-by": "publisher",
+        "first-page": "95",
+
+        "article-title": "Hypoxia and bicarbonate could block the expression of iron acquisition genes in Strategy I plants by affecting ethylene synthesis and signaling in different ways",
+        "volume": "150",
+        "author": "García",
+        "year": "2014",
+        "journal-title": "Physiol. Plant."
+      },
+      {
+        "key": "B18",
+        "doi-asserted-by": "publisher",
+        "first-page": "51",
+
+        "article-title": "Ethylene and the regulation of physiological and morphological responses to nutrient deficiencies",
+        "volume": "169",
+        "author": "García",
+        "year": "2015",
+        "journal-title": "Plant Physiol."
+      },
+      {
+        "key": "B19",
+        "doi-asserted-by": "publisher",
+        "first-page": "1325",
+
+        "article-title": "A shoot Fe pathway requiring the OPT3 transporter controls GSNO reductase and ethylene in Arabidopsis thaliana roots",
+        "volume": "9",
+        "author": "García",
+        "year": "2018",
+        "journal-title": "Front. Plant Sci."
+      },
+      {
+        "key": "B20",
+        "doi-asserted-by": "publisher",
+        "first-page": "949",
+
+        "article-title": "Nitric oxide accumulation is required for molecular and physiological responses to iron deficiency in tomato roots",
+        "volume": "52",
+        "author": "Graziano",
+        "year": "2007",
+        "journal-title": "Plant J."
+      },
+      {
+        "key": "B21",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+
+        "article-title": "Insights into plant phosphate sensing and signaling",
+        "volume": "49",
+        "author": "Ham",
+        "year": "2018",
+        "journal-title": "Curr. Opi. Biotech"
+      },
+      {
+        "key": "B22",
+        "doi-asserted-by": "publisher",
+        "first-page": "1362",
+
+        "article-title": "Growth response of herbaceous ornamental to phosphorus fertilization",
+        "volume": "52",
+        "author": "Henry",
+        "year": "2017",
+        "journal-title": "Hortscience"
+      },
+      {
+        "key": "B23",
+        "doi-asserted-by": "publisher",
+        "first-page": "1767",
+
+        "article-title": "Phosphate deficiency promotes modification of iron distribution in Arabidopsis plants",
+        "volume": "88",
+        "author": "Hirsch",
+        "year": "2006",
+        "journal-title": "Biochimic."
+      },
+      {
+        "key": "B24",
+        "doi-asserted-by": "publisher",
+        "first-page": "27",
+
+        "article-title": "Fitting into the harsh reality: regulation of iron-deficiency responses in dicotyledonous plants",
+        "volume": "5",
+        "author": "Ivanov",
+        "year": "2012",
+        "journal-title": "Mol. Plant"
+      },
+      {
+        "key": "B25",
+        "doi-asserted-by": "publisher",
+        "first-page": "285",
+
+        "article-title": "Involvement of Small RNAs in phosphorus and sulfur sensing, and stress: current update",
+        "volume": "8",
+        "author": "Kumar",
+        "year": "2017",
+        "journal-title": "Front. Plant. Sci."
+      },
+      {
+        "key": "B26",
+        "doi-asserted-by": "publisher",
+        "first-page": "1084",
+
+        "article-title": "Ethylene is involved in regulation of phosphate starvation-induced gene expression and production of acid phosphatases and anthocyanin in Arabidopsis",
+        "volume": "189",
+        "author": "Lei",
+        "year": "2011",
+        "journal-title": "New Phytol."
+      },
+      {
+        "key": "B27",
+        "doi-asserted-by": "publisher",
+        "first-page": "2168",
+
+        "article-title": "PHO2-dependent degradation of PHO1 modulates phosphate homeostasis in Arabidopsis",
+        "volume": "24",
+        "author": "Liu",
+        "year": "2012",
+        "journal-title": "Plant Cell"
+      },
+      {
+        "key": "B28",
+        "doi-asserted-by": "publisher",
+        "first-page": "862",
+
+        "article-title": "Ethylene response factor AtERF72 negatively regulates Arabidopsis thaliana response to iron deficiency",
+        "volume": "491",
+        "author": "Liu",
+        "year": "2017",
+        "journal-title": "Biochem. Biophys. Res. Commun."
+      },
+      {
+        "key": "B29",
+        "doi-asserted-by": "publisher",
+        "first-page": "4145",
+
+        "article-title": "Ethylene could influence ferric reductase, iron transporter and H+-ATPase gene expression by affecting FER (or FER-like) gene activity",
+        "volume": "57",
+        "author": "Lucena",
+        "year": "2006",
+        "journal-title": "J. Exp. Bot."
+      },
+      {
+        "key": "B30",
+        "doi-asserted-by": "publisher",
+        "first-page": "1002",
+
+        "article-title": "Bicarbonate blocks the expression of several genes involved in the physiological responses to Fe deficiency of Strategy I plants",
+        "volume": "34",
+        "author": "Lucena",
+        "year": "2007",
+        "journal-title": "Funct. Plant Biol."
+      },
+      {
+        "key": "B31",
+        "doi-asserted-by": "publisher",
+
+        "article-title": "Ethylene participates in the regulation of Fe deficiency responses in Strategy I plants and in rice",
+        "volume": "6",
+        "author": "Lucena",
+        "year": "2015",
+        "journal-title": "Front. Plant Sci."
+      },
+      {
+        "key": "B32",
+        "doi-asserted-by": "publisher",
+        "first-page": "148",
+
+        "article-title": "Similarities and differences in the acquisition of Fe and P by dicot plants",
+        "volume": "8",
+        "author": "Lucena",
+        "year": "2018",
+        "journal-title": "Agronomy"
+      },
+      {
+        "key": "B33",
+        "volume-title": "Mineral nutrition of higher plants.",
+        "author": "Marschner",
+        "year": "1995"
+      },
+      {
+        "key": "B34",
+        "doi-asserted-by": "publisher",
+        "first-page": "1055",
+
+        "article-title": "Nitric oxide is the shared signalling molecule in phosphorus- and iron deficiency- induced formation of cluster roots in white lupin (Lupinus albus)",
+        "volume": "109",
+        "author": "Meng",
+        "year": "2012",
+        "journal-title": "Ann. Bot."
+      },
+      {
+        "key": "B35",
+        "doi-asserted-by": "publisher",
+        "first-page": "1054",
+
+        "article-title": "Improvement in phosphate acquisition and utilization by a secretory purple acid phosphatase (OsPAP21b) in rice",
+        "volume": "15",
+        "author": "Mehra",
+        "year": "2017",
+        "journal-title": "Plant Biotech. J."
+      },
+      {
+        "key": "B36",
+        "doi-asserted-by": "publisher",
+        "first-page": "11934",
+
+        "article-title": "A genome-wide transcriptional analysis using Arabidopsis thaliana Affymetrix gene chips determined plant responses to phosphate deprivation",
+        "volume": "102",
+        "author": "Misson",
+        "year": "2005",
+        "journal-title": "Proc. Natl. Acad. Sci. Biol."
+      },
+      {
+        "key": "B37",
+        "doi-asserted-by": "publisher",
+        "first-page": "1000",
+
+        "article-title": "SIZ1 regulation of phosphate starvation induced root architecture remodeling involves the control of auxin accumulation",
+        "volume": "155",
+        "author": "Miura",
+        "year": "2011",
+        "journal-title": "Plant Physiol."
+      },
+      {
+        "key": "B38",
+        "doi-asserted-by": "publisher",
+        "first-page": "24",
+
+        "article-title": "The humic acid-induced changes in the root concentration of nitric oxide, IAA and ethylene do not explain the changes in root architecture caused by humic acid in cucumber",
+        "volume": "76",
+        "author": "Mora",
+        "year": "2012",
+        "journal-title": "Environ. Exp. Bot."
+      },
+      {
+        "key": "B39",
+        "doi-asserted-by": "publisher",
+        "first-page": "156",
+
+        "article-title": "Genome wide analysis of the Arabidopsis leaf transcriptome reveals interaction of phosphate and sugar metabolism",
+        "volume": "143",
+        "author": "Müller",
+        "year": "2007",
+        "journal-title": "Plant Physiol."
+      },
+      {
+        "key": "B40",
+        "doi-asserted-by": "publisher",
+        "first-page": "277",
+
+        "article-title": "Ethylene´s role in phosphate starvation: more than just a root growth regulator",
+        "volume": "53",
+        "author": "Nagarajan",
+        "year": "2012",
+        "journal-title": "Plant Cell Physiol."
+      },
+      {
+        "key": "B41",
+        "doi-asserted-by": "publisher",
+
+        "article-title": "The role of ethylene in plant adaptations for phosphate acquisition in soils—A review",
+        "volume": "6",
+        "author": "Neumann",
+        "year": "2016",
+        "journal-title": "Front. Plant Sci."
+      },
+      {
+        "key": "B42",
+        "doi-asserted-by": "publisher",
+        "first-page": "1541",
+
+        "article-title": "Identification of nutrient-responsive Arabidopsis and rapeseed microARNs by comprehensive real-time polymerase chain reaction profiling and small RNA sequencing",
+        "volume": "150",
+        "author": "Pant",
+        "year": "2009",
+        "journal-title": "Plant Physiol."
+      },
+      {
+        "key": "B43",
+        "doi-asserted-by": "publisher",
+        "first-page": "180",
+
+        "article-title": "Arabidopsis copper transport protein COPT2 participates in the cross talk between iron deficiency responses and low-phosphate",
+        "volume": "162",
+        "author": "Perea-García",
+        "year": "2013",
+        "journal-title": "Plant Physiol."
+      },
+      {
+        "key": "B44",
+        "doi-asserted-by": "publisher",
+        "first-page": "6531",
+
+        "article-title": "The secreted purple acid phosphatase isozymes AtPAP12 and AtPAP26 play a pivotal role in extracellular phosphate-scavenging by Arabidopsis thaliana",
+        "volume": "63",
+        "author": "Robinson",
+        "year": "2012",
+        "journal-title": "J. Exp. Bot."
+      },
+      {
+        "key": "B45",
+        "doi-asserted-by": "publisher",
+        "first-page": "1519",
+
+        "article-title": "Effects of bicarbonate, phosphate and high pH on the reducing capacity of Fe-deficient sunflower and cucumber plants",
+        "volume": "15",
+        "author": "Romera",
+        "year": "1992",
+        "journal-title": "J. Plant Nutr."
+      },
+      {
+        "key": "B46",
+        "doi-asserted-by": "publisher",
+        "first-page": "1133",
+
+        "article-title": "Iron-deficiency stress responses in cucumber (Cucumis sativus L.) roots. A possible role for ethylene",
+        "volume": "105",
+        "author": "Romera",
+        "year": "1994",
+        "journal-title": "Plant Physiol."
+      },
+      {
+        "key": "B47",
+        "doi-asserted-by": "publisher",
+        "first-page": "lt013",
+
+        "article-title": "Ethylene and the responses of plants to phosphate deficiency",
+        "volume": "5",
+        "author": "Roldán",
+        "year": "2013",
+        "journal-title": "AoB PLANTS"
+      },
+      {
+        "key": "B48",
+        "doi-asserted-by": "publisher",
+        "first-page": "2122",
+
+        "article-title": "A conversed MYB transcription factor involved in phosphate starvation both in vascular plants and in unicellular algae",
+        "volume": "15",
+        "author": "Rubio",
+        "year": "2001",
+        "journal-title": "Genes Dev."
+      },
+      {
+        "key": "B49",
+        "doi-asserted-by": "publisher",
+        "first-page": "31",
+
+        "article-title": "Phosphate aggravates iron chlorosis in carbonate–iron oxide systems",
+        "volume": "373",
+        "author": "Sánchez-Rodriguez",
+        "year": "2013",
+        "journal-title": "Plant Soil"
+      },
+      {
+        "key": "B50",
+        "doi-asserted-by": "publisher",
+        "first-page": "589",
+
+        "article-title": "The Arabidopsis AtOPT3 protein functions in metal homeostasis and movement of iron to developing seeds",
+        "volume": "146",
+        "author": "Stacey",
+        "year": "2008",
+        "journal-title": "Plant Physiol."
+      },
+      {
+        "key": "B51",
+        "doi-asserted-by": "publisher",
+
+        "article-title": "Increased root hair density by loss of WRKY6 in Arabidopsis thaliana",
+        "volume": "5",
+        "author": "Stetter",
+        "year": "2017",
+        "journal-title": "Peer J."
+      },
+      {
+        "key": "B52",
+        "doi-asserted-by": "publisher",
+        "first-page": "796",
+
+        "article-title": "Ethylene and plant responses to phosphate deficiency",
+        "volume": "6",
+        "author": "Song",
+        "year": "2015",
+        "journal-title": "Front. Plant Sci."
+      },
+      {
+        "key": "B53",
+        "doi-asserted-by": "publisher",
+        "first-page": "1030",
+
+        "article-title": "Response of Arabidopsis to iron deficiency stress as revealed by microarray analysis",
+        "volume": "127",
+        "author": "Thimm",
+        "year": "2001",
+        "journal-title": "Plant Physiol."
+      },
+      {
+        "key": "B54",
+        "doi-asserted-by": "publisher",
+        "first-page": "1003",
+
+        "article-title": "Transcripts of MYB-like genes respond to phosphorus and nitrogen deprivation in Arabidopsis",
+        "volume": "219",
+        "author": "Todd",
+        "year": "2004",
+        "journal-title": "Planta"
+      },
+      {
+        "key": "B55",
+        "doi-asserted-by": "publisher",
+        "first-page": "530",
+
+        "article-title": "Time to pump iron: iron-deficiency mechanisms of higher plants",
+        "volume": "11",
+        "author": "Walker",
+        "year": "2008",
+        "journal-title": "Curr. Opin. Plant Biol."
+      },
+      {
+        "key": "B56",
+        "doi-asserted-by": "publisher",
+        "first-page": "1370",
+
+        "article-title": "Rapid introduction of regulatory and transporter genes in response to phosphorus, potassium, and iron deficiencies in tomato roots. Evidence for cross talk and root/rhizosphere-mediated signals",
+        "volume": "130",
+        "author": "Wang",
+        "year": "2002",
+        "journal-title": "Plant Physiol."
+      },
+      {
+        "key": "B57",
+        "doi-asserted-by": "publisher",
+        "first-page": "S131",
+
+        "article-title": "Ethylene biosynthesis and networks",
+        "volume": "2002",
+        "author": "Wang",
+        "year": "2002",
+        "journal-title": "Plant Cell"
+      },
+      {
+        "key": "B58",
+        "doi-asserted-by": "publisher",
+        "first-page": "233",
+
+        "article-title": "Overexpressing AtPAP15 enhances phosphorus efficiency in soybean",
+        "volume": "151",
+        "author": "Wang",
+        "year": "2009",
+        "journal-title": "Plant Physiol."
+      },
+      {
+        "key": "B59",
+        "doi-asserted-by": "publisher",
+        "first-page": "323",
+
+        "article-title": "The regulatory network of cluster-root function and development in phosphate deficient white lupin (Lupinus albus) identified by transcriptome sequencing",
+        "volume": "151",
+        "author": "Wang",
+        "year": "2014",
+        "journal-title": "Physiol. Plant"
+      },
+      {
+        "key": "B60",
+        "doi-asserted-by": "publisher",
+        "first-page": "114",
+
+        "article-title": "Molecular mechanisms of phosphate transport and in higher plants",
+        "volume": "74",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Semin. Cell Develop. Biol."
+      },
+      {
+        "key": "B61",
+        "doi-asserted-by": "publisher",
+        "first-page": "108",
+
+        "article-title": "Functions and regulation of phosphate starvation-induced secreted acid phosphatases in higher plants",
+        "volume": "271",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Plant Sci."
+      },
+      {
+        "key": "B62",
+        "doi-asserted-by": "publisher",
+        "first-page": "1181",
+
+        "article-title": "The effect of iron on the primary root elongation of Arabidopsis during phosphate deficiency",
+        "volume": "147",
+        "author": "Ward",
+        "year": "2008",
+        "journal-title": "Plant Physiol."
+      },
+      {
+        "key": "B63",
+        "doi-asserted-by": "publisher",
+        "first-page": "385",
+
+        "article-title": "FIT interacts with AtbHLH38 and AtbHLH39 in regulating iron uptake gene expression for iron homeostasis in Arabidopsis",
+        "volume": "18",
+        "author": "Yuan",
+        "year": "2008",
+        "journal-title": "Cell Res."
+      },
+      {
+        "key": "B64",
+        "doi-asserted-by": "publisher",
+        "first-page": "529",
+
+        "article-title": "Pho3: a phosphorus-deficient mutant of Arabidopsis thaliana (L.) Heynh",
+        "volume": "212",
+        "author": "Zakhleniuk",
+        "year": "2001",
+        "journal-title": "Planta"
+      },
+      {
+        "key": "B65",
+        "doi-asserted-by": "publisher",
+        "first-page": "2249",
+
+        "article-title": "OPT3 is a Phloem-specific iron transporter that is essential for systemic iron and redistriburtion of iron and cadmium in Arabidopsis",
+        "volume": "26",
+        "author": "Zhai",
+        "year": "2014",
+        "journal-title": "Plant Cell"
+      },
+      {
+        "key": "B66",
+        "doi-asserted-by": "publisher",
+        "first-page": "192",
+
+        "article-title": "Molecular mechanisms underlying phosphate sensing, and adaptation in plants",
+        "volume": "56",
+        "author": "Zhang",
+        "year": "2014",
+        "journal-title": "J. Integrative Plant Biol."
+      },
+      {
+        "key": "B67",
+        "doi-asserted-by": "publisher",
+        "first-page": "262",
+
+        "article-title": "Physiological and transcriptome analysis of iron and phosphorus interaction in rice seedlings",
+        "volume": "151",
+        "author": "Zheng",
+        "year": "2009",
+        "journal-title": "Plant Physiol."
+      }
+    ],
+    "container-title": [
+      "Frontiers in Plant Science"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/article/10.3389/fpls.2019.01237/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2019-10-10T00:43:50Z",
+      "timestamp": 1570668230000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/article/10.3389/fpls.2019.01237/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          10
+        ]
+      ]
+    },
+    "references-count": 67,
+    "alternative-id": [
+      "10.3389/fpls.2019.01237"
+    ],
+    "URL": "https://doi.org/10.3389/fpls.2019.01237",
+    "relation": {},
+    "ISSN": [
+      "1664-462X"
+    ],
+    "issn-type": [
+      {
+        "value": "1664-462X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          10
+        ]
+      ]
+    }
+  }
+}

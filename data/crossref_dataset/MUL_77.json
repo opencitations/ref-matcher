@@ -1,0 +1,791 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          19
+        ]
+      ],
+      "date-time": "2024-09-19T15:59:56Z",
+      "timestamp": 1726761596313
+    },
+    "reference-count": 75,
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "issue": "6464",
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "1656890"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001691",
+        "name": "Japan Society for the Promotion of Science",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "17H05009"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001691",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002241",
+        "name": "Japan Science and Technology Agency",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "JPMJPR15Q5"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002241",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Syngenta Crop Protection"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          25
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Plant thirst quenched without water</jats:title>\n          <jats:p>\n            Drought causes many billions of dollars of annual losses to farmers worldwide. Central to a plant's water use efficiency are signaling pathways regulated by the hormone abscisic acid and its receptors. Vaidya\n            <jats:italic>et al.</jats:italic>\n            screened a pool of candidate small molecules and used structure-guided design to optimize the function of an abscisic acid receptor agonist (see the Perspective by Phillips and Sussman). Application of the agonist protected\n            <jats:italic>Arabidopsis</jats:italic>\n            , wheat, and tomato from underwatering.\n          </jats:p>\n          <jats:p>\n            <jats:italic>Science</jats:italic>\n            , this issue p.\n            <jats:related-article xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"doi\" related-article-type=\"in-this-issue\" xlink:href=\"10.1126/science.aaw8848\">eaaw8848</jats:related-article>\n            ; see also p.\n            <jats:related-article xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"doi\" issue=\"6464\" page=\"416\" related-article-type=\"in-this-issue\" vol=\"366\" xlink:href=\"10.1126/science.aaz4857\">416</jats:related-article>\n          </jats:p>",
+    "DOI": "10.1126/science.aaw8848",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2019-10-24T23:05:58Z",
+      "timestamp": 1571958358000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 121,
+    "title": [
+      "Dynamic control of plant water use using designed ABA receptor agonists"
+    ],
+    "prefix": "10.1126",
+    "volume": "366",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0002-4120-1744",
+        "authenticated-orcid": true,
+        "given": "Aditya S.",
+        "family": "Vaidya",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Institute for Integrative Genome Biology, University of California, Riverside, Riverside, CA 92521, USA."
+          },
+          {
+            "name": "Department of Botany and Plant Sciences, University of California, Riverside, Riverside, CA 92521, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-4942-9305",
+        "authenticated-orcid": true,
+        "given": "Jonathan D. M.",
+        "family": "Helander",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Integrative Genome Biology, University of California, Riverside, Riverside, CA 92521, USA."
+          },
+          {
+            "name": "Department of Botany and Plant Sciences, University of California, Riverside, Riverside, CA 92521, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-9890-4224",
+        "authenticated-orcid": true,
+        "given": "Francis C.",
+        "family": "Peterson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI 53226, USA."
+          }
+        ]
+      },
+      {
+        "given": "Dezi",
+        "family": "Elzinga",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Integrative Genome Biology, University of California, Riverside, Riverside, CA 92521, USA."
+          },
+          {
+            "name": "Department of Botany and Plant Sciences, University of California, Riverside, Riverside, CA 92521, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-3869-2228",
+        "authenticated-orcid": true,
+        "given": "Wim",
+        "family": "Dejonghe",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Integrative Genome Biology, University of California, Riverside, Riverside, CA 92521, USA."
+          },
+          {
+            "name": "Department of Botany and Plant Sciences, University of California, Riverside, Riverside, CA 92521, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-9154-1173",
+        "authenticated-orcid": true,
+        "given": "Amita",
+        "family": "Kaundal",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Integrative Genome Biology, University of California, Riverside, Riverside, CA 92521, USA."
+          },
+          {
+            "name": "Department of Plants, Soils and Climate, Utah State University, Logan, UT 84322, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-9651-9792",
+        "authenticated-orcid": true,
+        "given": "Sang-Youl",
+        "family": "Park",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Integrative Genome Biology, University of California, Riverside, Riverside, CA 92521, USA."
+          },
+          {
+            "name": "Department of Botany and Plant Sciences, University of California, Riverside, Riverside, CA 92521, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-6335-9772",
+        "authenticated-orcid": true,
+        "given": "Zenan",
+        "family": "Xing",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Integrative Genome Biology, University of California, Riverside, Riverside, CA 92521, USA."
+          },
+          {
+            "name": "Department of Botany and Plant Sciences, University of California, Riverside, Riverside, CA 92521, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-1844-2934",
+        "authenticated-orcid": true,
+        "given": "Ryousuke",
+        "family": "Mega",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Arid Land Research Center, Tottori University, 1390 Hamasaka, Tottori 680-0001, Japan."
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-3049-8965",
+        "authenticated-orcid": true,
+        "given": "Jun",
+        "family": "Takeuchi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Agriculture, Shizuoka University, Shizuoka 422-8529, Japan."
+          },
+          {
+            "name": "Research Institute of Green Science and Technology, Shizuoka University, Shizuoka 422-8529, Japan."
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-3307-2225",
+        "authenticated-orcid": true,
+        "given": "Bardia",
+        "family": "Khanderahoo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Integrative Genome Biology, University of California, Riverside, Riverside, CA 92521, USA."
+          },
+          {
+            "name": "Department of Botany and Plant Sciences, University of California, Riverside, Riverside, CA 92521, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-0450-3257",
+        "authenticated-orcid": true,
+        "given": "Steven",
+        "family": "Bishay",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Integrative Genome Biology, University of California, Riverside, Riverside, CA 92521, USA."
+          },
+          {
+            "name": "Department of Botany and Plant Sciences, University of California, Riverside, Riverside, CA 92521, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-6681-5179",
+        "authenticated-orcid": true,
+        "given": "Brian F.",
+        "family": "Volkman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI 53226, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-4650-4477",
+        "authenticated-orcid": true,
+        "given": "Yasushi",
+        "family": "Todoroki",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Agriculture, Shizuoka University, Shizuoka 422-8529, Japan."
+          },
+          {
+            "name": "Research Institute of Green Science and Technology, Shizuoka University, Shizuoka 422-8529, Japan."
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-1743-0408",
+        "authenticated-orcid": true,
+        "given": "Masanori",
+        "family": "Okamoto",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Center for Bioscience Research and Education, Utsunomiya University, 350 Mine, Utsunomiya, Tochigi 321-8505, Japan."
+          },
+          {
+            "name": "PRESTO, Japan Science and Technology Agency, 4-1-8 Honcho, Kawaguchi, Saitama 332-0012, Japan."
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-8593-0885",
+        "authenticated-orcid": true,
+        "given": "Sean R.",
+        "family": "Cutler",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Integrative Genome Biology, University of California, Riverside, Riverside, CA 92521, USA."
+          },
+          {
+            "name": "Department of Botany and Plant Sciences, University of California, Riverside, Riverside, CA 92521, USA."
+          }
+        ]
+      }
+    ],
+    "member": "221",
+    "reference": [
+      {
+        "key": "e_1_3_2_2_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature11983"
+      },
+      {
+        "key": "e_1_3_2_3_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.plantsci.2018.01.020"
+      },
+      {
+        "key": "e_1_3_2_4_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1439-037X.1996.tb00454.x"
+      },
+      {
+        "key": "e_1_3_2_5_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2135/cropsci1998.0011183X003800060011x"
+      },
+      {
+        "key": "e_1_3_2_6_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bmc.2015.11.010"
+      },
+      {
+        "key": "e_1_3_2_7_2",
+        "unstructured": "J. Bruinsma Ed. World Agriculture: Towards 2015/2030: An FAO Perspective (Earthscan 2003)."
+      },
+      {
+        "key": "e_1_3_2_8_2",
+        "unstructured": "“Disasters causing billions in agricultural losses with drought leading the way ” Food and Agriculture Organization of the United Nations (15 March 2018); www.fao.org/news/story/en/item/1106977/icode/."
+      },
+      {
+        "key": "e_1_3_2_9_2",
+        "unstructured": "J. Frackenpohl I. Hans-Joachim Zeiss I. Heinemann L. Willms T. Mueller M. Busch P. Von Koskull-Doering C. H. Rosinger J. Dittgen M. J. Hills Use of substituted isoquinolinones isoquinolindiones isoquinolintriones and dihydroisoquinolinones or in each case salts thereof as active agents against abiotic stress in plants U.S. Patent 9173395 (2015); https://patentimages.storage.googleapis.com/85/bf/14/6a7bab7007eff7/US9173395.pdf."
+      },
+      {
+        "key": "e_1_3_2_10_2",
+        "unstructured": "S. R. Cutler S. V. Wendeborn P. J. Jung M. D. Lachia R. Dumeunier Compounds that induce aba responses U.S. Patent 20160280651 (2016); https://patentimages.storage.googleapis.com/3c/8e/a5/53ecd16d2042a7/US20160280651A1.pdf."
+      },
+      {
+        "key": "e_1_3_2_11_2",
+        "unstructured": "S. R. Cutler M. Okamoto Synthetic compounds for vegetative ABA responses U.S. Patent 9345245 (2016); https://patentimages.storage.googleapis.com/0d/77/e5/b485cd4b65b762/US9345245.pdf."
+      },
+      {
+        "key": "e_1_3_2_12_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/pcp/pcy126"
+      },
+      {
+        "key": "e_1_3_2_13_2",
+        "unstructured": "M. D. Lachia S. V. Wendeborn P. J. M. Jung D. Sabbadin O. Loiseleur A. Beck 2-oxo-3 4-dihydroquinoline compounds as plant growth regulators U.S. Patent 20180044297 (2018); https://patentimages.storage.googleapis.com/02/4b/ee/fc4a6a0f677484/US20180044297A1.pdf."
+      },
+      {
+        "key": "e_1_3_2_14_2",
+        "unstructured": "J. Frackenpohl G. Bojack H. Helmke S. Lehr T. Müller L. Willms H. Dietrich D. Schmutzler R. Baltz U. Bickers Use of substitute oxo tetrahydroquinoline sulfonamides or salts thereof for raising stress tolerance of plants U.S. Patent 20170027172 (2017); https://patentimages.storage.googleapis.com/0d/e0/59/3fb3cd32900682/US20170027172A1.pdf."
+      },
+      {
+        "key": "e_1_3_2_15_2",
+        "unstructured": "J. Frackenpohl G. Bojack H. Helmke S. Lehr T. Mueller L. Willms J. Dittgen D. Schmutzler U. Bickers H. Strek R. Baltz Use of substituted dihydrooxindolylsulfonamides or the salts thereof for increasing the stress tolerance of plants U.S. Patent 20160237035 (2016); https://patentimages.storage.googleapis.com/cb/6e/25/842328f2b2cbef/US20160237035A1.pdf."
+      },
+      {
+        "key": "e_1_3_2_16_2",
+        "unstructured": "J. Frackenpohl G. Bojack H. Helmke L. Willms S. Lehr T. Mueller J. Dittgen D. Schmutzler R. Baltz U. Bickers Substituted 1-cycloalkyl-2-oxotetrahydroquinolin-6-ylsulfonamides or salts thereof and use thereof to increase stress tolerance in plants U.S. Patent 20180020662 (2018); https://patentimages.storage.googleapis.com/6d/43/e5/67dd0ad006b0f2/US20180020662A1.pdf."
+      },
+      {
+        "key": "e_1_3_2_17_2",
+        "unstructured": "J. Frackenpohl L. Willms J. Dittgen Substituted cyano cycloalkyl penta-2 4-dienes cyano cycloalkyl pent-2-en-4-ynes cyano heterocyclyl penta-2 4-dienes and cyano heterocyclyl pent-2-en-4-ynes as active substances U.S. Patent Application 20170210701A1 (2017); https://patents.google.com/patent/US20170210701A1/en."
+      },
+      {
+        "key": "e_1_3_2_18_2",
+        "unstructured": "J. Frackenpohl I. Heinemann T. Müller P. Von Koskull-Döring J. Dittgen D. Schmutzler C. H. Rosinger I. Häuser-Hahn M. J. Hills Aryl-and hetarylsulfonamides as active ingredients against abiotic plant stress U.S. Patent 20110230350 (2011); https://patentimages.storage.googleapis.com/a7/2d/ea/8a60a636e4fdd7/US20110230350A1.pdf."
+      },
+      {
+        "key": "e_1_3_2_19_2",
+        "unstructured": "S. R. Cutler M. D. Lachia S. V. Wendeborn C. R. A. Godfrey D. Sabbadin Carbamate quinabactin World Patent 2018017490 (2018); https://patentimages.storage.googleapis.com/65/27/d8/68509d60cc0199/WO2018017490A1.pdf."
+      },
+      {
+        "key": "e_1_3_2_20_2",
+        "unstructured": "C. R. A. Godfrey M. D. Lachia S. V.Wendeborn D. Sabbadin Plant growth regulator compounds World Patent 2018007217 (2018); https://patentimages.storage.googleapis.com/87/fd/61/816a6c284d84f1/WO2018007217A1.pdf."
+      },
+      {
+        "key": "e_1_3_2_21_2",
+        "unstructured": "S. R. Cutler S. V. Wendeborn O. Loiseleur M. D. Lachia D. Sabbadin Derivatives of halo quinabactin U.S. Patent 20180312470 (2018); https://patentimages.storage.googleapis.com/af/59/c9/c06faa2b1d5db6/US20180312470A1.pdf."
+      },
+      {
+        "key": "e_1_3_2_22_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.pbi.2010.09.007"
+      },
+      {
+        "key": "e_1_3_2_23_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tplants.2012.11.002"
+      },
+      {
+        "key": "e_1_3_2_24_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1601954113"
+      },
+      {
+        "key": "e_1_3_2_25_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41477-019-0361-8"
+      },
+      {
+        "key": "e_1_3_2_26_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-017-01239-3"
+      },
+      {
+        "key": "e_1_3_2_27_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1305919110"
+      },
+      {
+        "key": "e_1_3_2_28_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ejoc.201701769"
+      },
+      {
+        "key": "e_1_3_2_29_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ejoc.201701687"
+      },
+      {
+        "key": "e_1_3_2_30_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1104/pp.111.182584"
+      },
+      {
+        "key": "e_1_3_2_31_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/b509193d"
+      },
+      {
+        "key": "e_1_3_2_32_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tplants.2010.04.006"
+      },
+      {
+        "key": "e_1_3_2_33_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cub.2011.03.015"
+      },
+      {
+        "key": "e_1_3_2_34_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acschembio.7b00650"
+      },
+      {
+        "key": "e_1_3_2_35_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1746-4811-4-6"
+      },
+      {
+        "key": "e_1_3_2_36_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/msb.2010.28"
+      },
+      {
+        "key": "e_1_3_2_37_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/jbc.M110.149005"
+      },
+      {
+        "key": "e_1_3_2_38_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nsmb.1887"
+      },
+      {
+        "key": "e_1_3_2_39_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nsmb.1898"
+      },
+      {
+        "key": "e_1_3_2_40_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/cr.2013.95"
+      },
+      {
+        "key": "e_1_3_2_41_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jm030644s"
+      },
+      {
+        "key": "e_1_3_2_42_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ci049714+"
+      },
+      {
+        "key": "e_1_3_2_43_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature08613"
+      },
+      {
+        "key": "e_1_3_2_44_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nsmb.1730"
+      },
+      {
+        "key": "e_1_3_2_45_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature08583"
+      },
+      {
+        "key": "e_1_3_2_46_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C6MD00377J"
+      },
+      {
+        "key": "e_1_3_2_47_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aau5445"
+      },
+      {
+        "key": "e_1_3_2_48_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acschembio.8b00955"
+      },
+      {
+        "key": "e_1_3_2_49_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nchembio.1524"
+      },
+      {
+        "key": "e_1_3_2_50_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ja0527525"
+      },
+      {
+        "key": "e_1_3_2_51_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/bi026423q"
+      },
+      {
+        "key": "e_1_3_2_52_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ja038461i"
+      },
+      {
+        "key": "e_1_3_2_53_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.drudis.2008.07.005"
+      },
+      {
+        "key": "e_1_3_2_54_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrd3054"
+      },
+      {
+        "key": "e_1_3_2_55_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jm501003k"
+      },
+      {
+        "key": "e_1_3_2_56_2",
+        "unstructured": "T. L. Lemke D. A. Williams Foye’s Principles of Medicinal Chemistry (Lippincott Williams & Wilkins 2008)."
+      },
+      {
+        "key": "e_1_3_2_57_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aai7685"
+      },
+      {
+        "key": "e_1_3_2_58_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00344-010-9147-y"
+      },
+      {
+        "key": "e_1_3_2_59_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00344-015-9509-6"
+      },
+      {
+        "key": "e_1_3_2_60_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10725-013-9881-9"
+      },
+      {
+        "key": "e_1_3_2_61_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5501/wjv.v5.i2.85"
+      },
+      {
+        "key": "e_1_3_2_62_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-313X.2009.03981.x"
+      },
+      {
+        "key": "e_1_3_2_63_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fpls.2018.00422"
+      },
+      {
+        "key": "e_1_3_2_64_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10822-010-9349-1"
+      },
+      {
+        "key": "e_1_3_2_65_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jm051256o"
+      },
+      {
+        "key": "e_1_3_2_66_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0076-6879(97)76066-X"
+      },
+      {
+        "key": "e_1_3_2_67_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0907444909052925"
+      },
+      {
+        "key": "e_1_3_2_68_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0907444904019158"
+      },
+      {
+        "key": "e_1_3_2_69_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0907444909042073"
+      },
+      {
+        "key": "e_1_3_2_70_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkm216"
+      },
+      {
+        "key": "e_1_3_2_71_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1112838108"
+      },
+      {
+        "key": "e_1_3_2_72_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1173041"
+      },
+      {
+        "key": "e_1_3_2_73_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0005-2728(89)80347-0"
+      },
+      {
+        "key": "e_1_3_2_74_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/pcp/pcy061"
+      },
+      {
+        "key": "e_1_3_2_75_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1746-4811-9-36"
+      },
+      {
+        "key": "e_1_3_2_76_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0146021"
+      }
+    ],
+    "container-title": [
+      "Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1126/science.aaw8848",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://www.science.org/doi/pdf/10.1126/science.aaw8848",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2024-01-16T00:37:12Z",
+      "timestamp": 1705365432000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.science.org/doi/10.1126/science.aaw8848"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          25
+        ]
+      ]
+    },
+    "references-count": 75,
+    "journal-issue": {
+      "issue": "6464",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10,
+            25
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1126/science.aaw8848"
+    ],
+    "URL": "https://doi.org/10.1126/science.aaw8848",
+    "relation": {},
+    "ISSN": [
+      "0036-8075",
+      "1095-9203"
+    ],
+    "issn-type": [
+      {
+        "value": "0036-8075",
+        "type": "print"
+      },
+      {
+        "value": "1095-9203",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          25
+        ]
+      ]
+    }
+  }
+}

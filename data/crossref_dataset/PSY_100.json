@@ -1,0 +1,681 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          18
+        ]
+      ],
+      "date-time": "2024-07-18T09:10:56Z",
+      "timestamp": 1721293856016
+    },
+    "reference-count": 37,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              2
+            ]
+          ],
+          "date-time": "2019-07-02T00:00:00Z",
+          "timestamp": 1562025600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              2
+            ]
+          ],
+          "date-time": "2019-07-02T00:00:00Z",
+          "timestamp": 1562025600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J Autism Dev Disord"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1007/s10803-019-04114-w",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          2
+        ]
+      ],
+      "date-time": "2019-07-02T16:02:33Z",
+      "timestamp": 1562083353000
+    },
+    "page": "4067-4078",
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "The Empathizing–Systemizing Theory and ‘Extreme Male Brain’ (EMB) Theory in Parents of Children with Autism Spectrum Disorders (ASD): An Explorative, Cross-Sectional Study"
+    ],
+    "prefix": "10.1007",
+    "volume": "49",
+    "author": [
+      {
+        "given": "Francesco",
+        "family": "Craig",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Andrea",
+        "family": "De Giacomo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rosa",
+        "family": "Savino",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marta",
+        "family": "Ruggiero",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Luigi",
+        "family": "Russo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Isabella",
+        "family": "Fanizza",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lucia",
+        "family": "Margari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Antonio",
+        "family": "Trabacca",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          2
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "4114_CR1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1176/appi.books.9780890425596",
+        "volume-title": "Diagnostic and statistical manual of mental disorders (DSM-5®)",
+        "author": "American Psychiatric Association",
+        "year": "2013",
+        "unstructured": "American Psychiatric Association. (2013). Diagnostic and statistical manual of mental disorders (DSM-5®). Washington, DC: American Psychiatric Association."
+      },
+      {
+        "issue": "6",
+        "key": "4114_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "248",
+        "DOI": "10.1016/S1364-6613(02)01904-6",
+        "volume": "6",
+        "author": "S Baron-Cohen",
+        "year": "2002",
+        "unstructured": "Baron-Cohen, S. (2002). The extreme male brain theory of autism. Trends in Cognitive Sciences, 6(6), 248–254.",
+        "journal-title": "Trends in Cognitive Sciences"
+      },
+      {
+        "issue": "5",
+        "key": "4114_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "865",
+        "DOI": "10.1016/j.pnpbp.2006.01.010",
+        "volume": "30",
+        "author": "S Baron-Cohen",
+        "year": "2006",
+        "unstructured": "Baron-Cohen, S. (2006). The hyper-systemizing, assortative mating theory of autism. Progress in Neuro-Psychopharmacology and Biological Psychiatry, 30(5), 865–872. https://doi.org/10.1016/j.pnpbp.2006.01.010 .",
+        "journal-title": "Progress in Neuro-Psychopharmacology and Biological Psychiatry"
+      },
+      {
+        "key": "4114_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "68",
+        "DOI": "10.1111/j.1749-6632.2009.04467.x",
+        "volume": "1156",
+        "author": "S Baron-Cohen",
+        "year": "2009",
+        "unstructured": "Baron-Cohen, S. (2009). Autism: the empathizing-systemizing (E-S) theory. Annals of the New York Academy of Sciences, 1156, 68–80. https://doi.org/10.1111/j.1749-6632.2009.04467.x .",
+        "journal-title": "Annals of the New York Academy of Sciences"
+      },
+      {
+        "key": "4114_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "167",
+        "DOI": "10.1016/B978-0-444-53630-3.00011-7",
+        "volume": "186",
+        "author": "S Baron-Cohen",
+        "year": "2010",
+        "unstructured": "Baron-Cohen, S. (2010). Empathizing, systemizing, and the extreme male brain theory of autism. Progress in Brain Research, 186, 167–175. https://doi.org/10.1016/B978-0-444-53630-3.00011-7 .",
+        "journal-title": "Progress in Brain Research"
+      },
+      {
+        "issue": "3",
+        "key": "4114_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "369",
+        "DOI": "10.1038/mp.2014.48",
+        "volume": "20",
+        "author": "S Baron-Cohen",
+        "year": "2015",
+        "unstructured": "Baron-Cohen, S., Auyeung, B., Nørgaard-Pedersen, B., Hougaard, D. M., Abdallah, M. W., Melgaard, L., et al. (2015). Elevated fetal steroidogenic activity in autism. Molecular Psychiatry, 20(3), 369–376. https://doi.org/10.1038/mp.2014.48 .",
+        "journal-title": "Molecular Psychiatry"
+      },
+      {
+        "issue": "1430",
+        "key": "4114_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "361",
+        "DOI": "10.1098/rstb.2002.1206",
+        "volume": "358",
+        "author": "S Baron-Cohen",
+        "year": "2003",
+        "unstructured": "Baron-Cohen, S., Richler, J., Bisarya, D., Gurunathan, N., & Wheelwright, S. (2003). The systemizing quotient: An investigation of adults with Asperger syndrome or high-functioning autism, and normal sex differences. Philosophical Transactions of the Royal Society of London. Series B, Biological sciences, 358(1430), 361–374. https://doi.org/10.1098/rstb.2002.1206 .",
+        "journal-title": "Philosophical Transactions of the Royal Society of London. Series B, Biological sciences"
+      },
+      {
+        "issue": "2",
+        "key": "4114_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "163",
+        "DOI": "10.1023/B:JADD.0000022607.19833.00",
+        "volume": "34",
+        "author": "S Baron-Cohen",
+        "year": "2004",
+        "unstructured": "Baron-Cohen, S., & Wheelwright, S. (2004). The empathy quotient: an investigation of adults with Asperger syndrome or high functioning autism, and normal sex differences. Journal of Autism and Developmental Disorders, 34(2), 163–175.",
+        "journal-title": "Journal of Autism and Developmental Disorders"
+      },
+      {
+        "issue": "1",
+        "key": "4114_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "5",
+        "DOI": "10.1023/A:1005653411471",
+        "volume": "31",
+        "author": "S Baron-Cohen",
+        "year": "2001",
+        "unstructured": "Baron-Cohen, S., Wheelwright, S., Skinner, R., Martin, J., & Clubley, E. (2001). The autism-spectrum quotient (AQ): Evidence from Asperger syndrome/high-functioning autism, males and females, scientists and mathematicians. Journal of Autism and Developmental Disorders, 31(1), 5–17.",
+        "journal-title": "Journal of Autism and Developmental Disorders"
+      },
+      {
+        "key": "4114_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "346",
+        "DOI": "10.3389/fnins.2016.00346",
+        "volume": "10",
+        "author": "L Billeci",
+        "year": "2016",
+        "unstructured": "Billeci, L., Calderoni, S., Conti, E., Gesi, C., Carmassi, C., Dell’Osso, L., et al. (2016). The Broad Autism (Endo)Phenotype: Neurostructural and neurofunctional correlates in parents of individuals with autism spectrum disorders. Frontiers in Neuroscience, 10, 346. https://doi.org/10.3389/fnins.2016.00346 .",
+        "journal-title": "Frontiers in Neuroscience"
+      },
+      {
+        "issue": "3",
+        "key": "4114_CR11",
+        "doi-asserted-by": "crossref",
+        "first-page": "281",
+        "DOI": "10.31887/DCNS.2012.14.3/pchaste",
+        "volume": "14",
+        "author": "P Chaste",
+        "year": "2012",
+        "unstructured": "Chaste, P., & Leboyer, M. (2012). Autism risk factors: Genes, environment, and gene-environment interactions. Dialogues in Clinical Neuroscience, 14(3), 281–292.",
+        "journal-title": "Dialogues in Clinical Neuroscience"
+      },
+      {
+        "issue": "2",
+        "key": "4114_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "163",
+        "DOI": "10.1017/S0033291706008750",
+        "volume": "37",
+        "author": "J Flint",
+        "year": "2007",
+        "unstructured": "Flint, J., & Munafò, M. R. (2007). The endophenotype concept in psychiatric genetics. Psychological Medicine, 37(2), 163–180. https://doi.org/10.1017/S0033291706008750 .",
+        "journal-title": "Psychological Medicine"
+      },
+      {
+        "key": "4114_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "17",
+        "DOI": "10.1186/s13229-018-0192-x",
+        "volume": "9",
+        "author": "DL Floris",
+        "year": "2018",
+        "unstructured": "Floris, D. L., Lai, M. C., Nath, T., Milham, M. P., & Di Martino, A. (2018). Network-specific sex differentiation of intrinsic brain function in males with autism. Mol Autism, 9, 17. https://doi.org/10.1186/s13229-018-0192-x .",
+        "journal-title": "Mol Autism"
+      },
+      {
+        "issue": "1",
+        "key": "4114_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "2",
+        "DOI": "10.1038/sj.mp.4001896",
+        "volume": "12",
+        "author": "CM Freitag",
+        "year": "2007",
+        "unstructured": "Freitag, C. M. (2007). The genetics of autistic disorders and its clinical relevance: A review of the literature. Molecular Psychiatry, 12(1), 2–22. https://doi.org/10.1038/sj.mp.4001896 .",
+        "journal-title": "Molecular Psychiatry"
+      },
+      {
+        "key": "4114_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "545901",
+        "DOI": "10.1155/2011/545901",
+        "volume": "2011",
+        "author": "J Gerdts",
+        "year": "2011",
+        "unstructured": "Gerdts, J., & Bernier, R. (2011). The broader autism phenotype and its implications on the etiology and treatment of autism spectrum disorders. Autism Research and Treatment, 2011, 545901. https://doi.org/10.1155/2011/545901 .",
+        "journal-title": "Autism Research and Treatment"
+      },
+      {
+        "issue": "6",
+        "key": "4114_CR16",
+        "first-page": "8",
+        "volume": "2",
+        "author": "N Goldenfeld",
+        "year": "2005",
+        "unstructured": "Goldenfeld, N., Baron-Cohen, S., & Wheelwright, S. (2005). Empathizing and systemizing in males, females, and autism. Clinical Neuropsychiatry: Journal of Treatment Evaluation, 2(6), 8.",
+        "journal-title": "Clinical Neuropsychiatry: Journal of Treatment Evaluation"
+      },
+      {
+        "issue": "4",
+        "key": "4114_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "636",
+        "DOI": "10.1176/appi.ajp.160.4.636",
+        "volume": "160",
+        "author": "II Gottesman",
+        "year": "2003",
+        "unstructured": "Gottesman, I. I., & Gould, T. D. (2003). The endophenotype concept in psychiatry: Etymology and strategic intentions. American Journal of Psychiatry, 160(4), 636–645. https://doi.org/10.1176/appi.ajp.160.4.636 .",
+        "journal-title": "American Journal of Psychiatry"
+      },
+      {
+        "issue": "48",
+        "key": "4114_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "12152",
+        "DOI": "10.1073/pnas.1811032115",
+        "volume": "115",
+        "author": "DM Greenberg",
+        "year": "2018",
+        "unstructured": "Greenberg, D. M., Warrier, V., Allison, C., & Baron-Cohen, S. (2018). Testing the Empathizing-Systemizing theory of sex differences and the Extreme Male Brain theory of autism in half a million people. Proceedings of the National Academy of Sciences of the United States of America, 115(48), 12152–12157. https://doi.org/10.1073/pnas.1811032115 .",
+        "journal-title": "Proceedings of the National Academy of Sciences of the United States of America"
+      },
+      {
+        "issue": "2",
+        "key": "4114_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "600",
+        "DOI": "10.1037/a0031919",
+        "volume": "122",
+        "author": "R Grove",
+        "year": "2013",
+        "unstructured": "Grove, R., Baillie, A., Allison, C., Baron-Cohen, S., & Hoekstra, R. A. (2013). Empathizing, systemizing, and autistic traits: Latent structure in individuals with autism, their parents, and general population controls. Journal of Abnormal Psychology, 122(2), 600–609. https://doi.org/10.1037/a0031919 .",
+        "journal-title": "Journal of Abnormal Psychology"
+      },
+      {
+        "issue": "3",
+        "key": "4114_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "136",
+        "DOI": "10.1111/pcn.12210",
+        "volume": "69",
+        "author": "C Hasegawa",
+        "year": "2015",
+        "unstructured": "Hasegawa, C., Kikuchi, M., Yoshimura, Y., Hiraishi, H., Munesue, T., Nakatani, H., et al. (2015). Broader autism phenotype in mothers predicts social responsiveness in young children with autism spectrum disorders. Psychiatry and Clinical Neurosciences, 69(3), 136–144. https://doi.org/10.1111/pcn.12210 .",
+        "journal-title": "Psychiatry and Clinical Neurosciences"
+      },
+      {
+        "issue": "9",
+        "key": "4114_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "1679",
+        "DOI": "10.1007/s10803-006-0299-3",
+        "volume": "37",
+        "author": "RS Hurley",
+        "year": "2007",
+        "unstructured": "Hurley, R. S., Losh, M., Parlier, M., Reznick, J. S., & Piven, J. (2007). The broad autism phenotype questionnaire. Journal of Autism and Developmental Disorders, 37(9), 1679–1690. https://doi.org/10.1007/s10803-006-0299-3 .",
+        "journal-title": "Journal of Autism and Developmental Disorders"
+      },
+      {
+        "issue": "3",
+        "key": "4114_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "415",
+        "DOI": "10.1016/j.ajhg.2014.02.001",
+        "volume": "94",
+        "author": "S Jacquemont",
+        "year": "2014",
+        "unstructured": "Jacquemont, S., Coe, B. P., Hersch, M., Duyzend, M. H., Krumm, N., Bergmann, S., et al. (2014). A higher mutational burden in females supports a “female protective model” in neurodevelopmental disorders. American Journal of Human Genetics, 94(3), 415–425. https://doi.org/10.1016/j.ajhg.2014.02.001 .",
+        "journal-title": "American Journal of Human Genetics"
+      },
+      {
+        "issue": "2",
+        "key": "4114_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "74",
+        "DOI": "10.1038/nrneurol.2013.278",
+        "volume": "10",
+        "author": "SS Jeste",
+        "year": "2014",
+        "unstructured": "Jeste, S. S., & Geschwind, D. H. (2014). Disentangling the heterogeneity of autism spectrum disorder through genetic findings. Nature Reviews Neurology, 10(2), 74–81. https://doi.org/10.1038/nrneurol.2013.278 .",
+        "journal-title": "Nature Reviews Neurology"
+      },
+      {
+        "issue": "3",
+        "key": "4114_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0194515",
+        "DOI": "10.1371/journal.pone.0194515",
+        "volume": "13",
+        "author": "R Kidron",
+        "year": "2018",
+        "unstructured": "Kidron, R., Kaganovskiy, L., & Baron-Cohen, S. (2018). Empathizing-systemizing cognitive styles: Effects of sex and academic degree. PLoS ONE, 13(3), e0194515. https://doi.org/10.1371/journal.pone.0194515 .",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "key": "4114_CR25",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Lai, M. C., Lombardo, M. V., Chakrabarti, B., Ecker, C., Sadek, S. A., Wheelwright, S. J., … Consortium, M. A. (2012). Individual differences in brain structure underpin empathizing-systemizing cognitive styles in male adults. Neuroimage, 61(4), 1347–1354. https://doi.org/10.1016/j.neuroimage.2012.03.018 .",
+        "DOI": "10.1016/j.neuroimage.2012.03.018"
+      },
+      {
+        "key": "4114_CR26",
+        "volume-title": "Autism diagnostic observation schedule",
+        "author": "C Lord",
+        "year": "2012",
+        "unstructured": "Lord, C., Rutter, M., DiLavore, P. C., Risi, S., & Gotham, K. (2012). Autism diagnostic observation schedule (2nd ed., Vol. Volume ADOS-2). Torrence, CA: Western Psychological Services.",
+        "edition": "2"
+      },
+      {
+        "issue": "4",
+        "key": "4114_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "424",
+        "DOI": "10.1002/ajmg.b.30612",
+        "volume": "147B",
+        "author": "M Losh",
+        "year": "2008",
+        "unstructured": "Losh, M., Childress, D., Lam, K., & Piven, J. (2008). Defining key features of the broad autism phenotype: A comparison across parents of multiple- and single-incidence autism families. American Journal of Medical Genetics Part B: Neuropsychiatric Genetics, 147B(4), 424–433. https://doi.org/10.1002/ajmg.b.30612 .",
+        "journal-title": "American Journal of Medical Genetics Part B: Neuropsychiatric Genetics"
+      },
+      {
+        "issue": "6",
+        "key": "4114_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "13217",
+        "DOI": "10.3390/ijms160613217",
+        "volume": "16",
+        "author": "E Pisula",
+        "year": "2015",
+        "unstructured": "Pisula, E., & Ziegart-Sadowska, K. (2015). Broader autism phenotype in siblings of children with ASD–A review. International Journal of Molecular Sciences, 16(6), 13217–13258. https://doi.org/10.3390/ijms160613217 .",
+        "journal-title": "International Journal of Molecular Sciences"
+      },
+      {
+        "key": "4114_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "e360",
+        "DOI": "10.1038/tp.2014.4",
+        "volume": "4",
+        "author": "DA Rossignol",
+        "year": "2014",
+        "unstructured": "Rossignol, D. A., Genuis, S. J., & Frye, R. E. (2014). Environmental toxicants and autism spectrum disorders: A systematic review. Translational Psychiatry, 4, e360. https://doi.org/10.1038/tp.2014.4 .",
+        "journal-title": "Translational Psychiatry"
+      },
+      {
+        "issue": "6",
+        "key": "4114_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "1705",
+        "DOI": "10.1007/s10826-018-1026-3",
+        "volume": "27",
+        "author": "E Rubenstein",
+        "year": "2018",
+        "unstructured": "Rubenstein, E., & Chawla, D. (2018). Broader autism phenotype in parents of children with autism: A systematic review of percentage estimates. Journal of Child and Family Studies, 27(6), 1705–1720. https://doi.org/10.1007/s10826-018-1026-3 .",
+        "journal-title": "Journal of Child and Family Studies"
+      },
+      {
+        "key": "4114_CR31",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Rubenstein, E., Edmondson Pretzel, R., Windham, G. C., Schieve, L. A., Wiggins, L. D., DiGuiseppi, C.,… Daniels, J. (2017). The broader autism phenotype in mothers is associated with increased discordance between maternal-reported and clinician-observed instruments that measure child autism spectrum disorder. Journal of Autism and Developmental Disorders, 47(10), 3253–3266. https://doi.org/10.1007/s10803-017-3248-4 .",
+        "DOI": "10.1007/s10803-017-3248-4"
+      },
+      {
+        "issue": "1",
+        "key": "4114_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "e84782",
+        "DOI": "10.1371/journal.pone.0084782",
+        "volume": "9",
+        "author": "H Takeuchi",
+        "year": "2014",
+        "unstructured": "Takeuchi, H., Taki, Y., Sassa, Y., Hashizume, H., Sekiguchi, A., Fukushima, A., et al. (2014). Regional gray matter volume is associated with empathizing and systemizing in young adults. PLoS ONE, 9(1), e84782. https://doi.org/10.1371/journal.pone.0084782 .",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "issue": "5",
+        "key": "4114_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "585",
+        "DOI": "10.1111/jcpp.12499",
+        "volume": "57",
+        "author": "B Tick",
+        "year": "2016",
+        "unstructured": "Tick, B., Bolton, P., Happé, F., Rutter, M., & Rijsdijk, F. (2016). Heritability of autism spectrum disorders: A meta-analysis of twin studies. Journal of Child Psychology and Psychiatry, 57(5), 585–595. https://doi.org/10.1111/jcpp.12499 .",
+        "journal-title": "Journal of Child Psychology and Psychiatry"
+      },
+      {
+        "key": "4114_CR34",
+        "volume-title": "WISC-III: Wechsler intelligence scale for children: Manual",
+        "author": "D Wechsler",
+        "year": "1991",
+        "unstructured": "Wechsler, D. (1991). WISC-III: Wechsler intelligence scale for children: Manual. San Antonio, TX: The Psychological Corporation."
+      },
+      {
+        "key": "4114_CR35",
+        "volume-title": "The Wechsler preschool and primary scale of intelligence",
+        "author": "D Wechsler",
+        "year": "2002",
+        "unstructured": "Wechsler, D. (2002). The Wechsler preschool and primary scale of intelligence (3rd ed.). San Antonio, TX: The Psychological Corporation Canadian Journal of School Psychology.",
+        "edition": "3"
+      },
+      {
+        "issue": "2",
+        "key": "4114_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "e31661",
+        "DOI": "10.1371/journal.pone.0031661",
+        "volume": "7",
+        "author": "DB Wright",
+        "year": "2012",
+        "unstructured": "Wright, D. B., & Skagerberg, E. M. (2012). Measuring empathizing and systemizing with a large US sample. PLoS ONE, 7(2), e31661. https://doi.org/10.1371/journal.pone.0031661 .",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "key": "4114_CR37",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Zhao, X., Leotta, A., Kustanovich, V., Lajonchere, C., Geschwind, D. H., Law, K.,… Wigler, M. (2007). A unified genetic theory for sporadic and inherited autism. Proceedings of the National Academy of Sciences of the United States of America, 104(31), 12831–12836. https://doi.org/10.1073/pnas.0705803104 .",
+        "DOI": "10.1073/pnas.0705803104"
+      }
+    ],
+    "container-title": [
+      "Journal of Autism and Developmental Disorders"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s10803-019-04114-w.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/article/10.1007/s10803-019-04114-w/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s10803-019-04114-w.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          9
+        ]
+      ],
+      "date-time": "2021-01-09T09:11:06Z",
+      "timestamp": 1610183466000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://link.springer.com/10.1007/s10803-019-04114-w"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          2
+        ]
+      ]
+    },
+    "references-count": 37,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "4114"
+    ],
+    "URL": "https://doi.org/10.1007/s10803-019-04114-w",
+    "relation": {},
+    "ISSN": [
+      "0162-3257",
+      "1573-3432"
+    ],
+    "issn-type": [
+      {
+        "value": "0162-3257",
+        "type": "print"
+      },
+      {
+        "value": "1573-3432",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2 July 2019",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Compliance with Ethical Standards"
+        }
+      },
+      {
+        "value": "The authors declare that they have no conflict of interest.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Conflict of interest"
+        }
+      }
+    ]
+  }
+}

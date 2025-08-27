@@ -1,0 +1,8 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_13,An Introduction to Interfaces and Colloids,An Introduction To Interfaces And Colloids,70,10.1142/7579,https://w3id.org/oc/meta/br/062302775124,author_title
+ref_14,Adaptive divergence in experimental populations of Pseudomonas fluorescens. I. genetic and phenotypic bases of wrinkly spreader fitness,Adaptive Divergence In Experimental Populations Of Pseudomonas Fluorescens. I. Genetic And Phenotypic Bases Of Wrinkly Spreader Fitness,70,10.1093/genetics/161.1.33,https://w3id.org/oc/meta/br/06402619430,year_and_doi
+ref_16,"A mechanistic explanation linking adaptive mutation, niche change, and fitness advantage for the wrinkly spreader","A Mechanistic Explanation Linking Adaptive Mutation, Niche Change, And Fitness Advantage For The Wrinkly Spreader",70,10.1155/2014/675432,https://w3id.org/oc/meta/br/06503081671,author_title
+ref_53,Random walks in biology,Random Walks In Biology,50,10.1515/9781400820023,https://w3id.org/oc/meta/br/069053105,author_title
+ref_60,Surfactants and Polymers in Aqueous Solution,Surfactants And Polymers In Aqueous Solution,70,10.1002/0470856424,https://w3id.org/oc/meta/br/06803722893,year_and_doi
+ref_67,Microbial degradation of polyethylene glycols,Microbial Degradation Of Polyethylene Glycols,70,10.1128/am.29.5.621-625.1975,https://w3id.org/oc/meta/br/06110219101,year_volume_page
+ref_68,Efficient biodegradation of high-molecular-weight polyethylene glycols by pure cultures of Pseudomonas stutzeri,Efficient Biodegradation Of High-Molecular-Weight Polyethylene Glycols By Pure Cultures Of Pseudomonas Stutzeri,70,10.1128/aem.57.8.2383-2388.1991,https://w3id.org/oc/meta/br/06230272744,year_and_doi

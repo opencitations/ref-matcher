@@ -1,0 +1,659 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          5
+        ]
+      ],
+      "date-time": "2024-09-05T20:51:21Z",
+      "timestamp": 1725569481086
+    },
+    "reference-count": 33,
+    "publisher": "Optica Publishing Group",
+    "issue": "22",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              16
+            ]
+          ],
+          "date-time": "2019-10-16T00:00:00Z",
+          "timestamp": 1571184000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.1364/OA_License_v1#VOR-OA"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              16
+            ]
+          ],
+          "date-time": "2019-10-16T00:00:00Z",
+          "timestamp": 1571184000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://opg.optica.org/policies/opg-tdm-policy.json"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001711",
+        "name": "Swiss National Science Foundation",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "200020_172644"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001711",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.osapublishing.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Opt. Express"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          28
+        ]
+      ]
+    },
+    "DOI": "10.1364/oe.27.031465",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          16
+        ]
+      ],
+      "date-time": "2019-10-16T14:31:14Z",
+      "timestamp": 1571236274000
+    },
+    "page": "31465",
+    "update-policy": "http://dx.doi.org/10.1364/osa_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 60,
+    "title": [
+      "Power scaling of ultrafast oscillators: 350-W average-power sub-picosecond thin-disk laser"
+    ],
+    "prefix": "10.1364",
+    "volume": "27",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0001-5338-7462",
+        "authenticated-orcid": true,
+        "given": "F.",
+        "family": "Saltarelli",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-2383-3876",
+        "authenticated-orcid": true,
+        "given": "I. J.",
+        "family": "Graumann",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-2201-1547",
+        "authenticated-orcid": true,
+        "given": "L.",
+        "family": "Lang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "D.",
+        "family": "Bauer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-5307-153X",
+        "authenticated-orcid": true,
+        "given": "C. R.",
+        "family": "Phillips",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-1689-8041",
+        "authenticated-orcid": true,
+        "given": "U.",
+        "family": "Keller",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "285",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          16
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "oe-27-22-31465-R2",
+        "doi-asserted-by": "crossref",
+        "first-page": "599",
+        "DOI": "10.1038/nphoton.2008.194",
+        "volume": "2",
+        "author": "Südmeyer",
+        "year": "2008",
+        "journal-title": "Nat. Photonics"
+      },
+      {
+        "key": "oe-27-22-31465-R3",
+        "doi-asserted-by": "crossref",
+        "first-page": "6037",
+        "DOI": "10.1364/OL.43.006037",
+        "volume": "43",
+        "author": "Müller",
+        "year": "2018",
+        "journal-title": "Opt. Lett."
+      },
+      {
+        "key": "oe-27-22-31465-R4",
+        "doi-asserted-by": "crossref",
+        "first-page": "4169",
+        "DOI": "10.1364/OL.35.004169",
+        "volume": "35",
+        "author": "Russbueldt",
+        "year": "2010",
+        "journal-title": "Opt. Lett."
+      },
+      {
+        "key": "oe-27-22-31465-R5",
+        "doi-asserted-by": "crossref",
+        "first-page": "21064",
+        "DOI": "10.1364/OE.23.021064",
+        "volume": "23",
+        "author": "Negel",
+        "year": "2015",
+        "journal-title": "Opt. Express"
+      },
+      {
+        "key": "oe-27-22-31465-R7",
+        "doi-asserted-by": "crossref",
+        "first-page": "365",
+        "DOI": "10.1007/BF01081875",
+        "volume": "58",
+        "author": "Giesen",
+        "year": "1994",
+        "journal-title": "Appl. Phys. B: Lasers Opt."
+      },
+      {
+        "key": "oe-27-22-31465-R8",
+        "doi-asserted-by": "crossref",
+        "first-page": "1381",
+        "DOI": "10.1364/OL.42.001381",
+        "volume": "42",
+        "author": "Nubbemeyer",
+        "year": "2017",
+        "journal-title": "Opt. Lett."
+      },
+      {
+        "key": "oe-27-22-31465-R9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1817",
+        "DOI": "10.1103/PhysRevD.26.1817",
+        "volume": "26",
+        "author": "Caves",
+        "year": "1982",
+        "journal-title": "Phys. Rev. D"
+      },
+      {
+        "key": "oe-27-22-31465-R10",
+        "doi-asserted-by": "crossref",
+        "first-page": "106",
+        "DOI": "10.1109/JSTQE.2014.2341588",
+        "volume": "21",
+        "author": "Saraceno",
+        "year": "2015",
+        "journal-title": "IEEE J. Sel. Top. Quantum Electron."
+      },
+      {
+        "key": "oe-27-22-31465-R11",
+        "doi-asserted-by": "crossref",
+        "first-page": "980",
+        "DOI": "10.1364/OPTICA.2.000980",
+        "volume": "2",
+        "author": "Emaury",
+        "year": "2015",
+        "journal-title": "Optica"
+      },
+      {
+        "key": "oe-27-22-31465-R12",
+        "doi-asserted-by": "crossref",
+        "first-page": "5909",
+        "DOI": "10.1364/OL.43.005909",
+        "volume": "43",
+        "author": "Meyer",
+        "year": "2018",
+        "journal-title": "Opt. Lett."
+      },
+      {
+        "key": "oe-27-22-31465-R13",
+        "doi-asserted-by": "crossref",
+        "first-page": "5170",
+        "DOI": "10.1364/OL.42.005170",
+        "volume": "42",
+        "author": "Labaye",
+        "year": "2017",
+        "journal-title": "Opt. Lett."
+      },
+      {
+        "key": "oe-27-22-31465-R14",
+        "doi-asserted-by": "crossref",
+        "first-page": "4511",
+        "DOI": "10.1364/OL.41.004511",
+        "volume": "41",
+        "author": "Schulte",
+        "year": "2016",
+        "journal-title": "Opt. Lett."
+      },
+      {
+        "key": "oe-27-22-31465-R15",
+        "doi-asserted-by": "crossref",
+        "first-page": "4643",
+        "DOI": "10.1364/OL.43.004643",
+        "volume": "43",
+        "author": "Fritsch",
+        "year": "2018",
+        "journal-title": "Opt. Lett."
+      },
+      {
+        "key": "oe-27-22-31465-R16",
+        "doi-asserted-by": "crossref",
+        "first-page": "859",
+        "DOI": "10.1364/OL.25.000859",
+        "volume": "25",
+        "author": "Aus der Au",
+        "year": "2000",
+        "journal-title": "Opt. Lett."
+      },
+      {
+        "key": "oe-27-22-31465-R17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1921",
+        "DOI": "10.1364/OL.29.001921",
+        "volume": "29",
+        "author": "Brunner",
+        "year": "2004",
+        "journal-title": "Opt. Lett."
+      },
+      {
+        "key": "oe-27-22-31465-R18",
+        "doi-asserted-by": "crossref",
+        "first-page": "2728",
+        "DOI": "10.1364/OL.31.002728",
+        "volume": "31",
+        "author": "Marchese",
+        "year": "2006",
+        "journal-title": "Opt. Lett."
+      },
+      {
+        "key": "oe-27-22-31465-R19",
+        "doi-asserted-by": "crossref",
+        "first-page": "9698",
+        "DOI": "10.1364/OE.20.009698",
+        "volume": "20",
+        "author": "Bauer",
+        "year": "2012",
+        "journal-title": "Opt. Express"
+      },
+      {
+        "key": "oe-27-22-31465-R20",
+        "doi-asserted-by": "crossref",
+        "first-page": "23535",
+        "DOI": "10.1364/OE.20.023535",
+        "volume": "20",
+        "author": "Saraceno",
+        "year": "2012",
+        "journal-title": "Opt. Express"
+      },
+      {
+        "key": "oe-27-22-31465-R21",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.1364/OL.39.000009",
+        "volume": "39",
+        "author": "Saraceno",
+        "year": "2014",
+        "journal-title": "Opt. Lett."
+      },
+      {
+        "key": "oe-27-22-31465-R22",
+        "doi-asserted-by": "crossref",
+        "first-page": "4746",
+        "DOI": "10.1364/OL.36.004746",
+        "volume": "36",
+        "author": "Pronin",
+        "year": "2011",
+        "journal-title": "Opt. Lett."
+      },
+      {
+        "key": "oe-27-22-31465-R23",
+        "doi-asserted-by": "crossref",
+        "first-page": "6442",
+        "DOI": "10.1364/OL.39.006442",
+        "volume": "39",
+        "author": "Brons",
+        "year": "2014",
+        "journal-title": "Opt. Lett."
+      },
+      {
+        "key": "oe-27-22-31465-R24",
+        "doi-asserted-by": "crossref",
+        "first-page": "4227",
+        "DOI": "10.1364/OL.44.004227",
+        "volume": "44",
+        "author": "Poetzlberger",
+        "year": "2019",
+        "journal-title": "Opt. Lett."
+      },
+      {
+        "key": "oe-27-22-31465-R25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1962",
+        "DOI": "10.1364/JOSAA.4.001962",
+        "volume": "4",
+        "author": "Magni",
+        "year": "1987",
+        "journal-title": "J. Opt. Soc. Am. A"
+      },
+      {
+        "key": "oe-27-22-31465-R26",
+        "doi-asserted-by": "crossref",
+        "first-page": "972615",
+        "DOI": "10.1117/12.2212789",
+        "volume": "9726",
+        "author": "Schad",
+        "year": "2016",
+        "journal-title": "Proc. SPIE"
+      },
+      {
+        "key": "oe-27-22-31465-R27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1603",
+        "DOI": "10.1364/OPTICA.5.001603",
+        "volume": "5",
+        "author": "Saltarelli",
+        "year": "2018",
+        "journal-title": "Optica"
+      },
+      {
+        "key": "oe-27-22-31465-R28",
+        "doi-asserted-by": "crossref",
+        "first-page": "540",
+        "DOI": "10.1109/2944.571754",
+        "volume": "2",
+        "author": "Kartner",
+        "year": "1996",
+        "journal-title": "IEEE J. Sel. Top. Quantum Electron."
+      },
+      {
+        "key": "oe-27-22-31465-R29",
+        "doi-asserted-by": "crossref",
+        "first-page": "10512",
+        "DOI": "10.1364/OE.24.010512",
+        "volume": "24",
+        "author": "Diebold",
+        "year": "2016",
+        "journal-title": "Opt. Express"
+      },
+      {
+        "key": "oe-27-22-31465-R30",
+        "doi-asserted-by": "crossref",
+        "first-page": "12648",
+        "DOI": "10.1364/OE.26.012648",
+        "volume": "26",
+        "author": "Diebold",
+        "year": "2018",
+        "journal-title": "Opt. Express"
+      },
+      {
+        "key": "oe-27-22-31465-R31",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1109/JSTQE.2010.2092753",
+        "volume": "18",
+        "author": "Saraceno",
+        "year": "2012",
+        "journal-title": "IEEE J. Sel. Top. Quantum Electron."
+      },
+      {
+        "key": "oe-27-22-31465-R32",
+        "doi-asserted-by": "crossref",
+        "first-page": "7571",
+        "DOI": "10.1364/OE.16.007571",
+        "volume": "16",
+        "author": "Maas",
+        "year": "2008",
+        "journal-title": "Opt. Express"
+      },
+      {
+        "key": "oe-27-22-31465-R33",
+        "doi-asserted-by": "crossref",
+        "first-page": "498",
+        "DOI": "10.1364/JOSAB.11.000498",
+        "volume": "11",
+        "author": "Herrmann",
+        "year": "1994",
+        "journal-title": "J. Opt. Soc. Am. B"
+      },
+      {
+        "key": "oe-27-22-31465-R34",
+        "doi-asserted-by": "crossref",
+        "first-page": "22519",
+        "DOI": "10.1364/OE.25.022519",
+        "volume": "25",
+        "author": "Graumann",
+        "year": "2017",
+        "journal-title": "Opt. Express"
+      },
+      {
+        "key": "oe-27-22-31465-R35",
+        "doi-asserted-by": "crossref",
+        "first-page": "4254",
+        "DOI": "10.1364/OE.25.004254",
+        "volume": "25",
+        "author": "Piehler",
+        "year": "2017",
+        "journal-title": "Opt. Express"
+      }
+    ],
+    "container-title": [
+      "Optics Express"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.osapublishing.org/viewmedia.cfm?URI=oe-27-22-31465&seq=0",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          6
+        ]
+      ],
+      "date-time": "2024-08-06T19:25:22Z",
+      "timestamp": 1722972322000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://opg.optica.org/abstract.cfm?URI=oe-27-22-31465"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          16
+        ]
+      ]
+    },
+    "references-count": 33,
+    "journal-issue": {
+      "issue": "22",
+      "published-online": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1364/oe.27.031465",
+    "relation": {},
+    "ISSN": [
+      "1094-4087"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "1094-4087"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          16
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "OSA - The Optical Society",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "https://doi.org/10.1364/OE.27.031465",
+        "name": "articlelink",
+        "label": "Crossref DOI link to publisher maintained version"
+      },
+      {
+        "value": "research-article",
+        "name": "content_type",
+        "label": "Article type"
+      },
+      {
+        "value": "Screened by Similarity Check",
+        "name": "cross_check",
+        "label": "Similarity check"
+      },
+      {
+        "value": "Yes",
+        "order": 0,
+        "name": "peer_reviewed",
+        "label": "Peer reviewed",
+        "group": {
+          "name": "peer_review",
+          "label": "Peer review"
+        }
+      },
+      {
+        "value": "Single blind",
+        "order": 1,
+        "name": "review_process",
+        "label": "Review process",
+        "group": {
+          "name": "peer_review",
+          "label": "Peer review"
+        }
+      },
+      {
+        "value": "9 July 2019",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "7 October 2019",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "16 October 2019",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "© 2019 Optical Society of America under the terms of the OSA Open Access Publishing Agreement",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

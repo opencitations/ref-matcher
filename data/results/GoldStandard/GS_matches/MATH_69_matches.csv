@@ -1,0 +1,10 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+b0,Inverses of trees,Inverses Of Trees,70,10.1007/bf02579440,https://w3id.org/oc/meta/br/062601778904,year_volume_page
+b2,On some graphs which possess inverses,On Some Graphs Which Possess Inverses,65,10.1080/03081087.2015.1091434,https://w3id.org/oc/meta/br/06101043582,year_volume_page
+b3,On the inverse of a class of bipartite graphs with unique perfect matchings,On The Inverse Of A Class Of Bipartite Graphs With Unique Perfect Matchings,70,10.13001/1081-3810.2865,https://w3id.org/oc/meta/br/06210573495,year_author_page
+b4,Inverses of bicyclic graphs,Inverses Of Bicyclic Graphs,70,10.13001/1081-3810.3322,https://w3id.org/oc/meta/br/06210573415,year_author_page
+b5,Unicyclic graphs with bicyclic inverses,Unicyclic Graphs With Bicyclic Inverses,70,10.21136/cmj.2017.0429-16,https://w3id.org/oc/meta/br/06702726427,year_volume_page
+b6,On some graphs which satisfy the reciprocal eigenvalue properties,On Some Graphs Which Satisfy Reciprocal Eigenvalue Properties,70,10.1016/j.laa.2017.04.017,https://w3id.org/oc/meta/br/061701579054,year_author_page
+b7,Solution to a problem of C.D.Godsil regarding bipartite graphs with unique perfect matching,Solution To A Problem Of C. D. Godsil Regarding Bipartite Graphs With Unique Perfect Matching,65,10.1007/bf02122687,https://w3id.org/oc/meta/br/06101776369,year_volume_page
+b8,Directed intervals and dual of a graph,Directed Intervals And The Dual Of A Graph,70,10.1016/j.laa.2009.03.032,https://w3id.org/oc/meta/br/062201567083,year_volume_page
+b9,Strongly self-dual graphs,Strongly Self-Dual Graphs,70,10.1016/j.laa.2011.05.010,https://w3id.org/oc/meta/br/062101568905,year_volume_page

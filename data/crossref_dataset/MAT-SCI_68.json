@@ -1,0 +1,816 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          20
+        ]
+      ],
+      "date-time": "2024-09-20T16:31:28Z",
+      "timestamp": 1726849888505
+    },
+    "reference-count": 50,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "13-14",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              22
+            ]
+          ],
+          "date-time": "2019-07-22T00:00:00Z",
+          "timestamp": 1563753600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              22
+            ]
+          ],
+          "date-time": "2019-07-22T00:00:00Z",
+          "timestamp": 1563753600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Cellulose"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1007/s10570-019-02635-2",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          22
+        ]
+      ],
+      "date-time": "2019-07-22T09:04:13Z",
+      "timestamp": 1563786253000
+    },
+    "page": "8121-8133",
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 38,
+    "title": [
+      "Toward durable and robust superhydrophobic cotton fabric through hydrothermal growth of ZnO for oil/water separation"
+    ],
+    "prefix": "10.1007",
+    "volume": "26",
+    "author": [
+      {
+        "given": "Meng",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Min",
+        "family": "Peng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yun-Xuan",
+        "family": "Weng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yi-Dong",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-1822-446X",
+        "authenticated-orcid": false,
+        "given": "Jian-Bing",
+        "family": "Zeng",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          22
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2635_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "122",
+        "DOI": "10.1016/j.carbpol.2015.03.036",
+        "volume": "126",
+        "author": "R Aladpoosh",
+        "year": "2015",
+        "unstructured": "Aladpoosh R, Montazer M (2015) The role of cellulosic chains of cotton in biosynthesis of ZnO nanorods producing multifunctional properties: mechanism, characterizations and features. Carbohydr Polym 126:122–129. \n                    https://doi.org/10.1016/j.carbpol.2015.03.036",
+        "journal-title": "Carbohydr Polym"
+      },
+      {
+        "key": "2635_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "10433",
+        "DOI": "10.1039/C6RA27036K",
+        "volume": "7",
+        "author": "A Bhadani",
+        "year": "2017",
+        "unstructured": "Bhadani A, Iwabata K, Sakai K, Koura S, Sakai H, Abe M (2017) Sustainable oleic and stearic acid based biodegradable surfactants. RSC Adv 7:10433–10442. \n                    https://doi.org/10.1039/c6ra27036k",
+        "journal-title": "RSC Adv"
+      },
+      {
+        "key": "2635_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/j.pmatsci.2010.04.003",
+        "volume": "56",
+        "author": "B Bhushan",
+        "year": "2011",
+        "unstructured": "Bhushan B, Jung YC (2011) Natural and biomimetic artificial surfaces for superhydrophobicity, self-cleaning, low adhesion, and drag reduction. Prog Mater Sci 56:1–108. \n                    https://doi.org/10.1016/j.pmatsci.2010.04.003",
+        "journal-title": "Prog Mater Sci"
+      },
+      {
+        "key": "2635_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "86",
+        "DOI": "10.1016/j.polymertesting.2018.09.033",
+        "volume": "72",
+        "author": "XH Caol",
+        "year": "2018",
+        "unstructured": "Caol XH, Zhou YJ, Wei XD, Zhai W, Zheng GQ, Dai K, Liu CT, Shen CY (2018) Lightweight, mechanical robust foam with a herringbone-like porous structure for oil/water separation and filtering. Polym Test 72:86–93. \n                    https://doi.org/10.1016/j.polymertesting.2018.09.033",
+        "journal-title": "Polym Test"
+      },
+      {
+        "key": "2635_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "10",
+        "DOI": "10.1016/j.coco.2017.03.003",
+        "volume": "4",
+        "author": "JT Chen",
+        "year": "2017",
+        "unstructured": "Chen JT, Shen CH, Yang SD, Rana M, Ma PC (2017) Acid and temperature dual-responsive cotton fabrics with polymer coating. Compos Commun 4:10–15. \n                    https://doi.org/10.1016/j.coco.2017.03.003",
+        "journal-title": "Compos Commun"
+      },
+      {
+        "key": "2635_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "11440",
+        "DOI": "10.1021/acssuschemeng.7b02549",
+        "volume": "5",
+        "author": "QY Cheng",
+        "year": "2017",
+        "unstructured": "Cheng QY, An XP, Li YD, Huang CL, Zeng JB (2017) Sustainable and biodegradable superhydrophobic coating from epoxidized soybean oil and ZnO nanoparticles on cellulosic substrates for efficient oil/water separation. ACS Sustain Chem Eng 5:11440–11450. \n                    https://doi.org/10.1021/acssuschemeng.7b02549",
+        "journal-title": "ACS Sustain Chem Eng"
+      },
+      {
+        "key": "2635_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "390",
+        "DOI": "10.1016/j.carbpol.2018.07.046",
+        "volume": "199",
+        "author": "QY Cheng",
+        "year": "2018",
+        "unstructured": "Cheng QY, Guan CS, Wang M, Li YD, Zeng JB (2018a) Cellulose nanocrystal coated cotton fabric with superhydrophobicity for efficient oil/water separation. Carbohydr Polym 199:390–396. \n                    https://doi.org/10.1016/j.carbpol.2018.07.046",
+        "journal-title": "Carbohydr Polym"
+      },
+      {
+        "key": "2635_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "41",
+        "DOI": "10.1016/j.polymertesting.2018.01.005",
+        "volume": "66",
+        "author": "QY Cheng",
+        "year": "2018",
+        "unstructured": "Cheng QY, Liu MC, Li YD, Zhu J, Du AK, Zeng JB (2018b) Biobased super-hydrophobic coating on cotton fabric fabricated by spray coating for efficient oil/water separation. Polym Test 66:41–47. \n                    https://doi.org/10.1016/j.polymertesting.2018.01.005",
+        "journal-title": "Polym Test"
+      },
+      {
+        "key": "2635_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "2861",
+        "DOI": "10.1007/s10570-019-02267-6",
+        "volume": "26",
+        "author": "QY Cheng",
+        "year": "2019",
+        "unstructured": "Cheng QY, Guan CS, Li YD, Zhu J, Zeng JB (2019) Robust and durable superhydrophobic cotton fabrics via a one-step solvothermal method for efficient oil/water separation. Cellulose 26:2861–2872. \n                    https://doi.org/10.1007/s10570-019-02267-6",
+        "journal-title": "Cellulose"
+      },
+      {
+        "key": "2635_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "2328",
+        "DOI": "10.1002/anie.201405785",
+        "volume": "54",
+        "author": "ZL Chu",
+        "year": "2015",
+        "unstructured": "Chu ZL, Feng YJ, Seeger S (2015) Oil/water separation with selective superantiwetting/superwetting surface materials. Angew Chem Int Ed 54:2328–2338. \n                    https://doi.org/10.1002/anie.201405785",
+        "journal-title": "Angew Chem Int Ed"
+      },
+      {
+        "key": "2635_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "480",
+        "DOI": "10.1016/j.compositesb.2018.12.097",
+        "volume": "160",
+        "author": "JG Dai",
+        "year": "2019",
+        "unstructured": "Dai JG, Tian QF, Sun QQ, Wei WK, Zhuang JD, Liu MZ, Cao Z, Xie WZ, Fan MZ (2019) TiO2-alginate composite aerogels as novel oil/water separation and wastewater remediation filters. Compos Part B-Eng 160:480–487. \n                    https://doi.org/10.1016/j.compositesb.2018.12.097",
+        "journal-title": "Compos Part B-Eng"
+      },
+      {
+        "key": "2635_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "2122",
+        "DOI": "10.1039/C8TA10869B",
+        "volume": "7",
+        "author": "XL Dong",
+        "year": "2019",
+        "unstructured": "Dong XL, Gao SW, Huang JY, Li SH, Zhu TX, Cheng Y, Zhao Y, Chen Z, Lai YK (2019) A self-roughened and biodegradable superhydrophobic coating with UV shielding, solar-induced self-healing and versatile oil-water separation ability. J Mater Chem A 7:2122–2128. \n                    https://doi.org/10.1039/c8ta10869b",
+        "journal-title": "J Mater Chem A"
+      },
+      {
+        "key": "2635_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "1857",
+        "DOI": "10.1002/adma.200290020",
+        "volume": "14",
+        "author": "L Feng",
+        "year": "2002",
+        "unstructured": "Feng L, Li SH, Li YS, Li HJ, Zhang LJ, Zhai J, Song YL, Liu BQ, Jiang L, Zhu DB (2002) Super-hydrophobic surfaces: from natural to artificial. Adv Mater 14:1857–1860. \n                    https://doi.org/10.1002/adma.200290020",
+        "journal-title": "Adv Mater"
+      },
+      {
+        "key": "2635_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "9047",
+        "DOI": "10.1021/acssuschemeng.8b01397",
+        "volume": "6",
+        "author": "RN Gao",
+        "year": "2018",
+        "unstructured": "Gao RN, Xiao SL, Gan WT, Liu Q, Amer H, Rosenau T, Li J, Lu Y (2018) Mussel adhesive-inspired design of superhydrophobic nanofibrillated cellulose aerogels for oil/water separation. ACS Sustain Chem Eng 6:9047–9055. \n                    https://doi.org/10.1021/acssuschemeng.8b01397",
+        "journal-title": "ACS Sustain Chem Eng"
+      },
+      {
+        "key": "2635_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "18",
+        "DOI": "10.1016/j.coco.2016.12.001",
+        "volume": "3",
+        "author": "MM Ghobashy",
+        "year": "2017",
+        "unstructured": "Ghobashy MM, Elhady MA (2017) Radiation crosslinked magnetized wax (PE/Fe3O4) nano composite for selective oil adsorption. Compos Commun 3:18–22. \n                    https://doi.org/10.1016/j.coco.2016.12.001",
+        "journal-title": "Compos Commun"
+      },
+      {
+        "key": "2635_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "5968",
+        "DOI": "10.1021/acsami.6b13547",
+        "volume": "9",
+        "author": "JC Gu",
+        "year": "2017",
+        "unstructured": "Gu JC, Xiao P, Chen P, Zhang L, Wang HL, Dai LW, Song LP, Huang YJ, Zhang JW, Chen T (2017) Functionalization of biodegradable PLA nonwoven fabric as superoleophilic and superhydrophobic material for efficient oil absorption and oil/water separation. ACS Appl Mater Interfaces 9:5968–5973. \n                    https://doi.org/10.1021/acsami.6b13547",
+        "journal-title": "ACS Appl Mater Interfaces"
+      },
+      {
+        "key": "2635_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "21866",
+        "DOI": "10.1039/C7TA05599D",
+        "volume": "5",
+        "author": "F Guo",
+        "year": "2017",
+        "unstructured": "Guo F, Wen QY, Peng YB, Guo ZG (2017) Simple one-pot approach toward robust and boiling-water resistant superhydrophobic cotton fabric and the application in oil/water separation. J Mater Chem A 5:21866–21874. \n                    https://doi.org/10.1039/c7ta05599d",
+        "journal-title": "J Mater Chem A"
+      },
+      {
+        "key": "2635_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "16025",
+        "DOI": "10.1039/C7TA02070H",
+        "volume": "5",
+        "author": "RK Gupta",
+        "year": "2017",
+        "unstructured": "Gupta RK, Dunderdale GJ, England MW, Hozumi A (2017) Oil/water separation techniques: a review of recent progresses and future directions. J Mater Chem A 5:16025–16058. \n                    https://doi.org/10.1039/c7ta02070h",
+        "journal-title": "J Mater Chem A"
+      },
+      {
+        "key": "2635_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "1522",
+        "DOI": "10.1007/s12221-018-8150-y",
+        "volume": "19",
+        "author": "JT Hu",
+        "year": "2018",
+        "unstructured": "Hu JT, Gao QH, Xu L, Wang ML, Zhang MJ, Zhang K, Guo XJ, Liu WH, Wu GZ (2018) Highly durable and robust superhydrophobic/superoleophilic cotton fabric with well-designed roughness for oil/water separation. Fiber Polym 19:1522–1531. \n                    https://doi.org/10.1007/s12221-018-8150-y",
+        "journal-title": "Fiber Polym"
+      },
+      {
+        "key": "2635_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "2825",
+        "DOI": "10.1039/C4TA05332J",
+        "volume": "3",
+        "author": "JY Huang",
+        "year": "2015",
+        "unstructured": "Huang JY, Li SH, Ge MZ, Wang LN, Xing TL, Chen GQ, Liu XF, Al-Deyab SS, Zhang KQ, Chen T, Lai YK (2015) Robust superhydrophobic TiO2@fabrics for UV shielding, self-cleaning and oil–water separation. J Mater Chem A 3:2825–2832. \n                    https://doi.org/10.1039/c4ta05332j",
+        "journal-title": "J Mater Chem A"
+      },
+      {
+        "key": "2635_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "11783",
+        "DOI": "10.1021/acssuschemeng.8b01996",
+        "volume": "6",
+        "author": "YL Kang",
+        "year": "2018",
+        "unstructured": "Kang YL, Zhang J, Wu G, Zhang MX, Chen SC, Wang YZ (2018) Full-biobased nanofiber membranes toward decontamination of wastewater containing multiple pollutants. ACS Sustain Chem Eng 6:11783–11792. \n                    https://doi.org/10.1021/acssuschemeng.8b01996",
+        "journal-title": "ACS Sustain Chem Eng"
+      },
+      {
+        "key": "2635_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "843",
+        "DOI": "10.1016/j.nano.2016.11.002",
+        "volume": "13",
+        "author": "P Kielbik",
+        "year": "2017",
+        "unstructured": "Kielbik P, Kaszewski J, Rosowska J, Wolska E, Witkowski BS, Gralak MA, Gajewski Z, Godlewski M, Godlewski MM (2017) Biodegradation of the ZnO: Eu nanoparticles in the tissues of adult mouse after alimentary application. Nanomed-Nanotechnol 13:843–852. \n                    https://doi.org/10.1016/j.nano.2016.11.002",
+        "journal-title": "Nanomed-Nanotechnol"
+      },
+      {
+        "key": "2635_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "10262",
+        "DOI": "10.1021/acsami.8b20651",
+        "volume": "11",
+        "author": "SK Lahiri",
+        "year": "2019",
+        "unstructured": "Lahiri SK, Zhang PC, Zhang C, Liu L (2019) Robust fluorine-free and self-healing superhydrophobic coatings by H3BO3 incorporation with SiO2-Alkyl-Silane@PDMS on cotton fabric. ACS Appl Mater Interfaces 11:10262–10275. \n                    https://doi.org/10.1021/acsami.8b20651",
+        "journal-title": "ACS Appl Mater Interfaces"
+      },
+      {
+        "key": "2635_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "11112",
+        "DOI": "10.1039/C5CP90057C",
+        "volume": "17",
+        "author": "J Li",
+        "year": "2015",
+        "unstructured": "Li J, Yan L, Zhao YZ, Zha F, Wang QT, Lei ZQ (2015) One-step fabrication of robust fabrics with both-faced superhydrophobicity for the separation and capture of oil from water (vol 17, pg 6451, 2015). Phys Chem Chem Phys 17:11112. \n                    https://doi.org/10.1039/c5cp90057c",
+        "journal-title": "Phys Chem Chem Phys"
+      },
+      {
+        "key": "2635_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "134",
+        "DOI": "10.1016/j.cej.2017.04.080",
+        "volume": "323",
+        "author": "YM Li",
+        "year": "2017",
+        "unstructured": "Li YM, Li Q, Zhang CQ, Cai P, Bai NN, Xu X (2017) Intelligent self-healing superhydrophobic modification of cotton fabrics via surface-initiated ARGET ATRP of styrene. Chem Eng J 323:134–142. \n                    https://doi.org/10.1016/j.cej.2017.04.080",
+        "journal-title": "Chem Eng J"
+      },
+      {
+        "key": "2635_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "69",
+        "DOI": "10.1016/j.coco.2018.01.001",
+        "volume": "7",
+        "author": "MF Li",
+        "year": "2018",
+        "unstructured": "Li MF, Li YQ, Chang KQ, Cheng P, Liu K, Liu QZ, Wang YD, Lu ZT, Wang D (2018a) The poly(vinyl alcohol-co-ethylene) nanofiber/silica coated composite membranes for oil/water and oil-in-water emulsion separation. Compos Commun 7:69–73. \n                    https://doi.org/10.1016/j.coco.2018.01.001",
+        "journal-title": "Compos Commun"
+      },
+      {
+        "key": "2635_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "6691",
+        "DOI": "10.1007/s10570-018-2024-8",
+        "volume": "25",
+        "author": "Y Li",
+        "year": "2018",
+        "unstructured": "Li Y, Yu Q, Yin XZ, Xu J, Cai YJ, Han L, Huang H, Zhou YS, Tan YQ, Wang LX, Wang H (2018b) Fabrication of superhydrophobic and superoleophilic polybenzoxazine-based cotton fabric for oil–water separation. Cellulose 25:6691–6704. \n                    https://doi.org/10.1007/s10570-018-2024-8",
+        "journal-title": "Cellulose"
+      },
+      {
+        "key": "2635_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "17615",
+        "DOI": "10.1039/C8NJ03112F",
+        "volume": "42",
+        "author": "LJ Liu",
+        "year": "2018",
+        "unstructured": "Liu LJ, Yuan WZ (2018) A hierarchical functionalized biodegradable PLA electrospun nanofibrous membrane with superhydrophobicity and antibacterial properties for oil/water separation. New J Chem 42:17615–17624. \n                    https://doi.org/10.1039/c8nj03112f",
+        "journal-title": "New J Chem"
+      },
+      {
+        "key": "2635_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "2186",
+        "DOI": "10.1002/smll.201503685",
+        "volume": "12",
+        "author": "QL Ma",
+        "year": "2016",
+        "unstructured": "Ma QL, Cheng HF, Fane AG, Wang R, Zhang H (2016) Recent development of advanced materials with special wettability for selective oil/water separation. Small 12:2186–2202. \n                    https://doi.org/10.1002/smll.201503685",
+        "journal-title": "Small"
+      },
+      {
+        "key": "2635_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "184",
+        "DOI": "10.1016/j.carbpol.2018.02.066",
+        "volume": "190",
+        "author": "P Phanthong",
+        "year": "2018",
+        "unstructured": "Phanthong P, Reubroycharoen P, Kongparakul S, Samart C, Wang ZD, Hao XG, Abudula A, Guan GQ (2018) Fabrication and evaluation of nanocellulose sponge for oil/water separation. Carbohydr Polym 190:184–189. \n                    https://doi.org/10.1016/j.carbpol.2018.02.066",
+        "journal-title": "Carbohydr Polym"
+      },
+      {
+        "key": "2635_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "370",
+        "DOI": "10.1016/j.ijbiomac.2017.07.050",
+        "volume": "105",
+        "author": "S Samadi",
+        "year": "2017",
+        "unstructured": "Samadi S, Yazd SS, Abdoli H, Jafari P, Aliabadi M (2017) Fabrication of novel chitosan/PAN/magnetic ZSM-5 zeolite coated sponges for absorption of oil from water surfaces. Int J Biol Macromol 105:370–376. \n                    https://doi.org/10.1016/j.ijbiomac.2017.07.050",
+        "journal-title": "Int J Biol Macromol"
+      },
+      {
+        "key": "2635_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "651",
+        "DOI": "10.1021/acsami.5b09782",
+        "volume": "8",
+        "author": "K Sasaki",
+        "year": "2016",
+        "unstructured": "Sasaki K, Tenjimbayashi M, Manabe K, Shiratori S (2016) Asymmetric superhydrophobic/superhydrophilic cotton fabrics designed by spraying polymer and nanoparticles. ACS Appl Mater Interfaces 8:651–659. \n                    https://doi.org/10.1021/acsami.5b09782",
+        "journal-title": "ACS Appl Mater Interfaces"
+      },
+      {
+        "key": "2635_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "2445",
+        "DOI": "10.1021/acssuschemeng.7b03897",
+        "volume": "6",
+        "author": "JW Shi",
+        "year": "2018",
+        "unstructured": "Shi JW, Zhang L, Xiao P, Huang YJ, Chen P, Wang XF, Gu JC, Zhang JW, Chen T (2018) Biodegradable PLA nonwoven fabric with controllable wettability for efficient water purification and photocatalysis degradation. ACS Sustain Chem Eng 6:2445–2452. \n                    https://doi.org/10.1021/acssuschemeng.7b03897",
+        "journal-title": "ACS Sustain Chem Eng"
+      },
+      {
+        "key": "2635_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "4618",
+        "DOI": "10.1039/C7NJ01042G",
+        "volume": "41",
+        "author": "AK Singh",
+        "year": "2017",
+        "unstructured": "Singh AK, Singh JK (2017) Fabrication of durable superhydrophobic coatings on cotton fabrics with photocatalytic activity by fluorine-free chemical modification for dual-functional water purification. New J Chem 41:4618–4628. \n                    https://doi.org/10.1039/c7nj01042g",
+        "journal-title": "New J Chem"
+      },
+      {
+        "key": "2635_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "9866",
+        "DOI": "10.1021/acssuschemeng.8b01047",
+        "volume": "6",
+        "author": "SJ Sun",
+        "year": "2018",
+        "unstructured": "Sun SJ, Zhu LY, Liu XH, Wu LL, Dai K, Liu CT, Shen CY, Guo XK, Zheng GQ, Guo ZH (2018) Superhydrophobic shish-kebab membrane with self-cleaning and oil/water separation properties. ACS Sustain Chem Eng 6:9866–9875. \n                    https://doi.org/10.1021/acssuschemeng.8b01047",
+        "journal-title": "ACS Sustain Chem Eng"
+      },
+      {
+        "key": "2635_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "336",
+        "DOI": "10.1039/C4CS00220B",
+        "volume": "44",
+        "author": "B Wang",
+        "year": "2015",
+        "unstructured": "Wang B, Liang W, Guo Z, Liu W (2015) Biomimetic super-lyophobic and super-lyophilic materials applied for oil/water separation: a new strategy beyond nature. Chem Soc Rev 44:336–361. \n                    https://doi.org/10.1039/c4cs00220b",
+        "journal-title": "Chem Soc Rev"
+      },
+      {
+        "key": "2635_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "174",
+        "DOI": "10.1016/j.jiec.2017.05.031",
+        "volume": "54",
+        "author": "JT Wang",
+        "year": "2017",
+        "unstructured": "Wang JT, Han FL, Liang B, Geng GH (2017a) Hydrothermal fabrication of robustly superhydrophobic cotton fibers for efficient separation of oil/water mixtures and oil-in-water emulsions. J Ind Eng Chem 54:174–183. \n                    https://doi.org/10.1016/j.jiec.2017.05.031",
+        "journal-title": "J Ind Eng Chem"
+      },
+      {
+        "key": "2635_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "303",
+        "DOI": "10.1016/j.indcrop.2017.06.059",
+        "volume": "108",
+        "author": "JT Wang",
+        "year": "2017",
+        "unstructured": "Wang JT, Wang AQ, Wang WB (2017b) Highly efficient separation of oil layer in water and capture of oil droplets in oil-in-water emulsions. Ind Crop Prod 108:303–311. \n                    https://doi.org/10.1016/j.indcrop.2017.06.059",
+        "journal-title": "Ind Crop Prod"
+      },
+      {
+        "key": "2635_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "77",
+        "DOI": "10.1016/j.apmt.2017.05.007",
+        "volume": "9",
+        "author": "YY Wang",
+        "year": "2017",
+        "unstructured": "Wang YY, Liu XH, Lian M, Zheng GQ, Dai K, Guo ZH, Liu CT, Shen CY (2017c) Continuous fabrication of polymer microfiber bundles with interconnected microchannels for oil/water separation. Appl Mater Today 9:77–81. \n                    https://doi.org/10.1016/j.apmt.2017.05.007",
+        "journal-title": "Appl Mater Today"
+      },
+      {
+        "key": "2635_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "1753",
+        "DOI": "10.1021/acssuschemeng.7b03102",
+        "volume": "6",
+        "author": "JX Wu",
+        "year": "2018",
+        "unstructured": "Wu JX, Zhang J, Kang YL, Wu G, Chen SC, Wang YZ (2018) Reusable and recyclable superhydrophilic electrospun nanofibrous membranes with in situ co-cross-linked polymer-chitin nanowhisker network for robust oil-in-water emulsion separation. ACS Sustain Chem Eng 6:1753–1762. \n                    https://doi.org/10.1021/acssuschemeng.7b03102",
+        "journal-title": "ACS Sustain Chem Eng"
+      },
+      {
+        "key": "2635_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "2935",
+        "DOI": "10.1039/C7TA10739K",
+        "volume": "6",
+        "author": "CL Xu",
+        "year": "2018",
+        "unstructured": "Xu CL, Wang YZ (2018) Novel dual superlyophobic materials in water-oil systems: under oil magneto-fluid transportation and oil–water separation. J Mater Chem A 6:2935–2941. \n                    https://doi.org/10.1039/c7ta10739k",
+        "journal-title": "J Mater Chem A"
+      },
+      {
+        "key": "2635_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "4527",
+        "DOI": "10.1002/anie.201411283",
+        "volume": "54",
+        "author": "ZG Xu",
+        "year": "2015",
+        "unstructured": "Xu ZG, Zhao Y, Wang HX, Wang XG, Lin T (2015) A superamphiphobic coating with an ammonia-triggered transition to superhydrophilic and superoleophobic for oil–water separation. Angew Chem Int Ed 54:4527–4530. \n                    https://doi.org/10.1002/anie.201411283",
+        "journal-title": "Angew Chem Int Ed"
+      },
+      {
+        "key": "2635_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "1328",
+        "DOI": "10.1016/j.cej.2016.11.024",
+        "volume": "313",
+        "author": "CL Xu",
+        "year": "2017",
+        "unstructured": "Xu CL, Song F, Wang XL, Wang YZ (2017) Surface modification with hierarchical CuO arrays toward a flexible, durable superhydrophobic and self-cleaning material. Chem Eng J 313:1328–1334. \n                    https://doi.org/10.1016/j.cej.2016.11.024",
+        "journal-title": "Chem Eng J"
+      },
+      {
+        "key": "2635_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "23432",
+        "DOI": "10.1039/c3ra41902a",
+        "volume": "3",
+        "author": "ZX Xue",
+        "year": "2013",
+        "unstructured": "Xue ZX, Sun ZX, Cao YZ, Chen YN, Tao L, Li K, Feng L, Fu Q, Wei Y (2013) Superoleophilic and superhydrophobic biodegradable material with porous structures for oil absorption and oil–water separation. RSC Adv 3:23432–23437. \n                    https://doi.org/10.1039/c3ra41902a",
+        "journal-title": "RSC Adv"
+      },
+      {
+        "key": "2635_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "2445",
+        "DOI": "10.1039/C3TA13397D",
+        "volume": "2",
+        "author": "ZX Xue",
+        "year": "2014",
+        "unstructured": "Xue ZX, Cao YZ, Liu N, Feng L, Jiang L (2014) Special wettable materials for oil/water separation. J Mater Chem A 2:2445–2460. \n                    https://doi.org/10.1039/c3ta13397d",
+        "journal-title": "J Mater Chem A"
+      },
+      {
+        "key": "2635_CR46",
+        "doi-asserted-by": "publisher",
+        "first-page": "241",
+        "DOI": "10.1016/j.apsusc.2018.09.156",
+        "volume": "465",
+        "author": "CH Xue",
+        "year": "2019",
+        "unstructured": "Xue CH, Fan QQ, Guo XJ, An QF, Jia ST (2019) Fabrication of superhydrophobic cotton fabrics by grafting of POSS-based polymers on fibers. Appl Surf Sci 465:241–248. \n                    https://doi.org/10.1016/j.apsusc.2018.09.156",
+        "journal-title": "Appl Surf Sci"
+      },
+      {
+        "key": "2635_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "406",
+        "DOI": "10.1016/j.ijbiomac.2019.03.219",
+        "volume": "132",
+        "author": "X Zhao",
+        "year": "2019",
+        "unstructured": "Zhao X, Luo Y, Tan P, Liu M, Zhou C (2019) Hydrophobically modified chitin/halloysite nanotubes composite sponges for high efficiency oil–water separation. Int J Biol Macromol 132:406–415. \n                    https://doi.org/10.1016/j.ijbiomac.2019.03.219",
+        "journal-title": "Int J Biol Macromol"
+      },
+      {
+        "key": "2635_CR48",
+        "doi-asserted-by": "publisher",
+        "first-page": "7208",
+        "DOI": "10.1021/am4015346",
+        "volume": "5",
+        "author": "XY Zhou",
+        "year": "2013",
+        "unstructured": "Zhou XY, Zhang ZZ, Xu XH, Guo F, Zhu XT, Men XH, Ge B (2013) Robust and durable superhydrophobic cotton fabrics for oil/water separation. ACS Appl Mater Interfaces 5:7208–7214. \n                    https://doi.org/10.1021/am4015346",
+        "journal-title": "ACS Appl Mater Interfaces"
+      },
+      {
+        "key": "2635_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "9184",
+        "DOI": "10.1021/acsami.7b00412",
+        "volume": "9",
+        "author": "CL Zhou",
+        "year": "2017",
+        "unstructured": "Zhou CL, Chen ZD, Yang H, Hou K, Zeng XJ, Zheng YF, Cheng J (2017) Nature-inspired strategy toward superhydrophobic fabrics for versatile oil/water separation. ACS Appl Mater Interfaces 9:9184–9194. \n                    https://doi.org/10.1021/acsami.7b00412",
+        "journal-title": "ACS Appl Mater Interfaces"
+      },
+      {
+        "key": "2635_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "11246",
+        "DOI": "10.1039/c3ta12224g",
+        "volume": "1",
+        "author": "HL Zou",
+        "year": "2013",
+        "unstructured": "Zou HL, Lin SD, Tu YY, Liu GJ, Hu JW, Li F, Miao L, Zhang GW, Luo HS, Liu F, Hou CM, Hu ML (2013) Simple approach towards fabrication of highly durable and robust superhydrophobic cotton fabric from functional diblock copolymer. J Mater Chem A 1:11246–11260. \n                    https://doi.org/10.1039/c3ta12224g",
+        "journal-title": "J Mater Chem A"
+      }
+    ],
+    "container-title": [
+      "Cellulose"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s10570-019-02635-2.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/article/10.1007/s10570-019-02635-2/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s10570-019-02635-2.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          20
+        ]
+      ],
+      "date-time": "2020-07-20T23:07:34Z",
+      "timestamp": 1595286454000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://link.springer.com/10.1007/s10570-019-02635-2"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          22
+        ]
+      ]
+    },
+    "references-count": 50,
+    "journal-issue": {
+      "issue": "13-14",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "2635"
+    ],
+    "URL": "https://doi.org/10.1007/s10570-019-02635-2",
+    "relation": {},
+    "ISSN": [
+      "0969-0239",
+      "1572-882X"
+    ],
+    "issn-type": [
+      {
+        "value": "0969-0239",
+        "type": "print"
+      },
+      {
+        "value": "1572-882X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          22
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "31 May 2019",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "16 July 2019",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "22 July 2019",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      }
+    ]
+  }
+}

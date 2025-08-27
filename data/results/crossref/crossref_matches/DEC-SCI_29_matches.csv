@@ -1,0 +1,4 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_25,Science,Royal Academy Of Medicine In Ireland Section Of Biological Sciences,65,10.1007/bf02940233,https://w3id.org/oc/meta/br/0660942613,author_title
+ref_28,Omega,MICROMEGAS Detectors In The CAST Experiment,65,10.1088/1748-0221/5/01/p01009,https://w3id.org/oc/meta/br/06220502141,author_title
+ref_34,Oper Res,Roper Resonance And The Short-Range Structure Of The Deuteron,50,10.1016/0550-3213(70)90063-5,https://w3id.org/oc/meta/br/06502865176,author_title

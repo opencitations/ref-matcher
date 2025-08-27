@@ -1,0 +1,885 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          2
+        ]
+      ],
+      "date-time": "2024-07-02T04:39:46Z",
+      "timestamp": 1719895186685
+    },
+    "reference-count": 52,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2020-10-01T00:00:00Z",
+          "timestamp": 1601510400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 366,
+        "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "HA"
+      },
+      {
+        "DOI": "10.13039/100000016",
+        "name": "U.S. Department of Health and Human Services",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "HHSN272201400004C"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000016",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000060",
+        "name": "NIAID",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000060",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000060",
+        "name": "National Institute for Allergy and Infectious Disease",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000060",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "NIH",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "T32AI106699"
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004543",
+        "name": "China Scholarship Council",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100004543",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "clinicalkey.jp",
+        "clinicalkey.com",
+        "clinicalkey.es",
+        "clinicalkey.com.au",
+        "clinicalkey.fr",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Virology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.virol.2019.08.005",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          6
+        ]
+      ],
+      "date-time": "2019-08-06T15:14:29Z",
+      "timestamp": 1565104469000
+    },
+    "page": "78-90",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "special_numbering": "C",
+    "title": [
+      "A conserved histidine in Group-1 influenza subtype hemagglutinin proteins is essential for membrane fusion activity"
+    ],
+    "prefix": "10.1016",
+    "volume": "536",
+    "author": [
+      {
+        "given": "Jessica F.",
+        "family": "Trost",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Wei",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bo",
+        "family": "Liang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Summer E.",
+        "family": "Galloway",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Evangeline",
+        "family": "Agbogu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lauren",
+        "family": "Byrd-Leotis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David A.",
+        "family": "Steinhauer",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "7639",
+        "DOI": "10.1073/pnas.78.12.7639",
+        "article-title": "Sequence relationships among the hemagglutinin genes of 12 subtypes of influenza A virus",
+        "volume": "78",
+        "author": "Air",
+        "year": "1981",
+        "journal-title": "Proc. Natl. Acad. Sci. U. S. A."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "92",
+        "DOI": "10.1038/376092a0",
+        "article-title": "Structure of influenza virus haemagglutinin complexed with a neutralizing antibody",
+        "volume": "376",
+        "author": "Bizebard",
+        "year": "1995",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2967",
+        "DOI": "10.1021/bi00063a007",
+        "article-title": "Inhibition of the fusion-inducing conformational change of influenza hemagglutinin by benzoquinones and hydroquinones",
+        "volume": "32",
+        "author": "Bodian",
+        "year": "1993",
+        "journal-title": "Biochemistry"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.1038/371037a0",
+        "article-title": "Structure of influenza haemagglutinin at the pH of membrane fusion",
+        "volume": "371",
+        "author": "Bullough",
+        "year": "1994",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib5",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0112302",
+        "article-title": "A recommended numbering scheme for influenza A HA subtypes",
+        "volume": "9",
+        "author": "Burke",
+        "year": "2014",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "4504",
+        "DOI": "10.1128/JVI.00057-15",
+        "article-title": "Influenza hemagglutinin (HA) stem region mutations that stabilize or destabilize the structure of multiple HA subtypes",
+        "volume": "89",
+        "author": "Byrd-Leotis",
+        "year": "2015",
+        "journal-title": "J. Virol."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "409",
+        "DOI": "10.1016/S0092-8674(00)81771-7",
+        "article-title": "Structure of the hemagglutinin precursor cleavage site, a determinant of influenza pathogenicity and the origin of the labile conformation",
+        "volume": "95",
+        "author": "Chen",
+        "year": "1998",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "850",
+        "DOI": "10.1126/science.1205669",
+        "article-title": "A neutralizing antibody selected from plasma cells that binds to group 1 and group 2 influenza a hemagglutinins",
+        "volume": "333",
+        "author": "Corti",
+        "year": "2011",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "766",
+        "DOI": "10.2174/092986609788681715",
+        "article-title": "Composition and functions of the influenza fusion peptide",
+        "volume": "16",
+        "author": "Cross",
+        "year": "2009",
+        "journal-title": "Protein Pept. Lett."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "4432",
+        "DOI": "10.1093/emboj/20.16.4432",
+        "article-title": "Studies on influenza haemagglutinin fusion peptide mutants generated by reverse genetics",
+        "volume": "20",
+        "author": "Cross",
+        "year": "2001",
+        "journal-title": "EMBO J."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "431",
+        "DOI": "10.1016/0092-8674(85)90157-6",
+        "article-title": "Fusion mutants of the influenza virus hemagglutinin glycoprotein",
+        "volume": "40",
+        "author": "Daniels",
+        "year": "1985",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "7149",
+        "DOI": "10.1128/JVI.02975-12",
+        "article-title": "Structure of a classical broadly neutralizing stem antibody in complex with a pandemic H2 influenza virus hemagglutinin",
+        "volume": "87",
+        "author": "Dreyfus",
+        "year": "2013",
+        "journal-title": "J. Virol."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "246",
+        "DOI": "10.1126/science.1171491",
+        "article-title": "Antibody recognition of a highly conserved influenza virus epitope",
+        "volume": "324",
+        "author": "Ekiert",
+        "year": "2009",
+        "journal-title": "Science (New York, N.Y.)"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "843",
+        "DOI": "10.1126/science.1204839",
+        "article-title": "A highly conserved neutralizing epitope on group 2 influenza A viruses",
+        "volume": "333",
+        "author": "Ekiert",
+        "year": "2011",
+        "journal-title": "Science (New York, N.Y.)"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "816",
+        "DOI": "10.1126/science.1202617",
+        "article-title": "Computational design of proteins targeting the conserved stem region of influenza hemagglutinin",
+        "volume": "332",
+        "author": "Fleishman",
+        "year": "2011",
+        "journal-title": "Science (New York, N.Y.)"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib16",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.ppat.1003151",
+        "article-title": "Influenza HA subtypes demonstrate divergent phenotypes for cleavage activation and pH of fusion: implications for host range and adaptation",
+        "volume": "9",
+        "author": "Galloway",
+        "year": "2013",
+        "journal-title": "PLoS Pathog."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1838",
+        "DOI": "10.1126/science.1093155",
+        "article-title": "The structure and receptor binding properties of the 1918 influenza hemagglutinin",
+        "volume": "303",
+        "author": "Gamblin",
+        "year": "2004",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "665",
+        "DOI": "10.1016/j.str.2015.02.006",
+        "article-title": "Dynamic changes during acid-induced activation of influenza hemagglutinin",
+        "volume": "23",
+        "author": "Garcia",
+        "year": "2015",
+        "journal-title": "Structure"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1083/jcb.102.1.11",
+        "article-title": "Studies on the mechanism of membrane fusion: site-specific mutagenesis of the hemagglutinin of influenza virus",
+        "volume": "102",
+        "author": "Gething",
+        "year": "1986",
+        "journal-title": "J. Cell Biol."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "3403",
+        "DOI": "10.1128/AAC.45.12.3403-3408.2001",
+        "article-title": "Comparison of the activities of zanamivir, oseltamivir, and RWJ-270201 against clinical isolates of influenza virus and neuraminidase inhibitor-resistant variants",
+        "volume": "45",
+        "author": "Gubareva",
+        "year": "2001",
+        "journal-title": "Antimicrob. Agents Chemother."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "865",
+        "DOI": "10.1093/emboj/21.5.865",
+        "article-title": "H5 avian and H9 swine influenza virus haemagglutinin structures: possible origin of influenza subtypes",
+        "volume": "21",
+        "author": "Ha",
+        "year": "2002",
+        "journal-title": "EMBO J."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "873",
+        "DOI": "10.1177/135965350501000811",
+        "article-title": "Neuraminidase inhibitor susceptibility network position statement: antiviral resistance in influenza A/H5N1 viruses",
+        "volume": "10",
+        "author": "Hayden",
+        "year": "2005",
+        "journal-title": "Antivir. Ther."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "913",
+        "DOI": "10.1056/NEJMoa1716197",
+        "article-title": "Baloxavir marboxil for uncomplicated influenza in adults and adolescents",
+        "volume": "379",
+        "author": "Hayden",
+        "year": "2018",
+        "journal-title": "N. Engl. J. Med."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "8808",
+        "DOI": "10.1128/JVI.71.11.8808-8820.1997",
+        "article-title": "tructure-based identification of an inducer of the low-pH conformational change in the influenza virus hemagglutinin: irreversible inhibition of infectivity",
+        "volume": "71",
+        "author": "Hoffman",
+        "year": "1997",
+        "journal-title": "J. Virol."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib25",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.7554/eLife.00333",
+        "article-title": "Influenza-virus membrane fusion by cooperative fold-back of stochastically induced hemagglutinin intermediates",
+        "volume": "2",
+        "author": "Ivanovic",
+        "year": "2013",
+        "journal-title": "eLife"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "596",
+        "DOI": "10.1016/j.cell.2016.05.073",
+        "article-title": "Structure and function analysis of an antibody recognizing all influenza a subtypes",
+        "volume": "166",
+        "author": "Kallewaard",
+        "year": "2016",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "426",
+        "DOI": "10.1016/0042-6822(75)90284-6",
+        "article-title": "Activation of influenza A viruses by trypsin treatment",
+        "volume": "68",
+        "author": "Klenk",
+        "year": "1975",
+        "journal-title": "Virology"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "440",
+        "DOI": "10.1016/0042-6822(75)90285-8",
+        "article-title": "Enhancement of the infectivity of influenza A and B viruses by proteolytic cleavage of the hemagglutinin polypeptide",
+        "volume": "68",
+        "author": "Lazarowitz",
+        "year": "1975",
+        "journal-title": "Virology"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "9654",
+        "DOI": "10.1021/acs.jpcb.6b06775",
+        "article-title": "Lowered pH leads to fusion peptide release and a highly dynamic intermediate of influenza hemagglutinin",
+        "volume": "120",
+        "author": "Lin",
+        "year": "2016",
+        "journal-title": "J. Phys. Chem. B"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "17175",
+        "DOI": "10.1073/pnas.0906849106",
+        "article-title": "Structures of receptor complexes formed by hemagglutinins from the Asian Influenza pandemic of 1957",
+        "volume": "106",
+        "author": "Liu",
+        "year": "2009",
+        "journal-title": "Proc. Natl. Acad. Sci. U. S. A."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "12861",
+        "DOI": "10.1128/JVI.01606-12",
+        "article-title": "Insights into avian influenza virus pathogenicity: the hemagglutinin precursor HA0 of subtype H16 has an alpha-helix structure in its cleavage site with inefficient HA1/HA2 cleavage",
+        "volume": "86",
+        "author": "Lu",
+        "year": "2012",
+        "journal-title": "J. Virol."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "475",
+        "DOI": "10.1016/0042-6822(91)90588-3",
+        "article-title": "Comparison of complete amino acid sequences and receptor-binding properties among 13 serotypes of hemagglutinins of influenza A viruses",
+        "volume": "182",
+        "author": "Nobusawa",
+        "year": "1991",
+        "journal-title": "Virology"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "2759",
+        "DOI": "10.1091/mbc.10.8.2759",
+        "article-title": "A specific point mutant at position 1 of the influenza hemagglutinin fusion peptide displays a hemifusion phenotype",
+        "volume": "10",
+        "author": "Qiao",
+        "year": "1999",
+        "journal-title": "Mol. Biol. Cell"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "3568",
+        "DOI": "10.1128/JVI.02238-08",
+        "article-title": "Amino acid residues in the fusion peptide pocket regulate the pH of activation of the H5N1 influenza virus hemagglutinin protein",
+        "volume": "83",
+        "author": "Reed",
+        "year": "2009",
+        "journal-title": "J. Virol."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "287",
+        "DOI": "10.1016/j.virol.2004.04.040",
+        "article-title": "H1 and H7 influenza haemagglutinin structures extend a structural classification of haemagglutinin subtypes",
+        "volume": "325",
+        "author": "Russell",
+        "year": "2004",
+        "journal-title": "Virology"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "17736",
+        "DOI": "10.1073/pnas.0807142105",
+        "article-title": "Structure of influenza hemagglutinin in complex with an inhibitor of membrane fusion",
+        "volume": "105",
+        "author": "Russell",
+        "year": "2008",
+        "journal-title": "Proc. Natl. Acad. Sci. U. S. A."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "12873",
+        "DOI": "10.1073/pnas.93.23.12873",
+        "article-title": "Studies using double mutants of the conformational transitions in influenza hemagglutinin required for its membrane fusion activity",
+        "volume": "93",
+        "author": "Steinhauer",
+        "year": "1996",
+        "journal-title": "Proc. Natl. Acad. Sci. U. S. A."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "6643",
+        "DOI": "10.1128/JVI.69.11.6643-6651.1995",
+        "article-title": "Studies of the membrane fusion activities of fusion peptide mutants of influenza virus hemagglutinin",
+        "volume": "69",
+        "author": "Steinhauer",
+        "year": "1995",
+        "journal-title": "J. Virol."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "1866",
+        "DOI": "10.1126/science.1093373",
+        "article-title": "Structure of the uncleaved human H1 hemagglutinin from the extinct 1918 influenza virus",
+        "volume": "303",
+        "author": "Stevens",
+        "year": "2004",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "265",
+        "DOI": "10.1038/nsmb.1566",
+        "article-title": "Structural and functional bases for broad-spectrum neutralization of avian and human influenza A viruses",
+        "volume": "16",
+        "author": "Sui",
+        "year": "2009",
+        "journal-title": "Nat. Struct. Mol. Biol."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "403",
+        "DOI": "10.1016/j.virol.2007.08.035",
+        "article-title": "Analysis of residues near the fusion peptide in the influenza hemagglutinin structure for roles in triggering membrane fusion",
+        "volume": "370",
+        "author": "Thoennes",
+        "year": "2008",
+        "journal-title": "Virology"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib42",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0003942",
+        "article-title": "Heterosubtypic neutralizing monoclonal antibodies cross-protective against H5N1 and H1N1 recovered from human IgM+ memory B cells",
+        "volume": "3",
+        "author": "Throsby",
+        "year": "2008",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib43",
+        "doi-asserted-by": "crossref",
+        "first-page": "4269",
+        "DOI": "10.1073/pnas.1116200109",
+        "article-title": "A distinct lineage of influenza A virus from bats",
+        "volume": "109",
+        "author": "Tong",
+        "year": "2012",
+        "journal-title": "Proc. Natl. Acad. Sci. U. S. A."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib44",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.ppat.1003657",
+        "article-title": "New world bats harbor diverse influenza A viruses",
+        "volume": "9",
+        "author": "Tong",
+        "year": "2013",
+        "journal-title": "PLoS Pathog."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib45",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0199683",
+        "article-title": "Development of a high-throughput assay to detect antibody inhibition of low pH induced conformational changes of influenza virus hemagglutinin",
+        "volume": "13",
+        "author": "Trost",
+        "year": "2018",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib46",
+        "doi-asserted-by": "crossref",
+        "first-page": "2475",
+        "DOI": "10.1099/0022-1317-82-10-2475",
+        "article-title": "Antigenic structure of the haemagglutinin of human influenza A/H2N2 virus",
+        "volume": "82",
+        "author": "Tsuchiya",
+        "year": "2001",
+        "journal-title": "J. Gen. Virol."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib47",
+        "doi-asserted-by": "crossref",
+        "first-page": "eaar6221",
+        "DOI": "10.1126/science.aar6221",
+        "article-title": "A small-molecule fusion inhibitor of influenza virus is orally active in mice",
+        "volume": "363",
+        "author": "van Dongen",
+        "year": "2019",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib48",
+        "doi-asserted-by": "crossref",
+        "first-page": "2887",
+        "DOI": "10.1083/jcb.105.6.2887",
+        "article-title": "Anti-peptide antibodies detect steps in a protein conformational change: low-pH activation of the influenza virus hemagglutinin",
+        "volume": "105",
+        "author": "White",
+        "year": "1987",
+        "journal-title": "J. Cell Biol."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib49",
+        "doi-asserted-by": "crossref",
+        "first-page": "366",
+        "DOI": "10.1038/289366a0",
+        "article-title": "Structure of the haemagglutinin membrane glycoprotein of influenza virus at 3 A resolution",
+        "volume": "289",
+        "author": "Wilson",
+        "year": "1981",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib50",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/ncomms8708",
+        "article-title": "A potent broad-spectrum protective human monoclonal antibody crosslinking two haemagglutinin monomers of influenza A virus",
+        "volume": "6",
+        "author": "Wu",
+        "year": "2015",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib51",
+        "doi-asserted-by": "crossref",
+        "first-page": "5172",
+        "DOI": "10.1128/JVI.02430-10",
+        "article-title": "Structural characterization of an early fusion intermediate of influenza virus hemagglutinin",
+        "volume": "85",
+        "author": "Xu",
+        "year": "2011",
+        "journal-title": "J. Virol."
+      },
+      {
+        "key": "10.1016/j.virol.2019.08.005_bib52",
+        "doi-asserted-by": "crossref",
+        "first-page": "933",
+        "DOI": "10.1128/JVI.67.2.933-942.1993",
+        "article-title": "Mutations in or near the fusion peptide of the influenza virus hemagglutinin affect an antigenic site in the globular region",
+        "volume": "67",
+        "author": "Yewdell",
+        "year": "1993",
+        "journal-title": "J. Virol."
+      }
+    ],
+    "container-title": [
+      "Virology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0042682219302107?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0042682219302107?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2022-09-25T07:01:55Z",
+      "timestamp": 1664089315000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0042682219302107"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 52,
+    "alternative-id": [
+      "S0042682219302107"
+    ],
+    "URL": "https://doi.org/10.1016/j.virol.2019.08.005",
+    "relation": {},
+    "ISSN": [
+      "0042-6822"
+    ],
+    "issn-type": [
+      {
+        "value": "0042-6822",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "A conserved histidine in Group-1 influenza subtype hemagglutinin proteins is essential for membrane fusion activity",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Virology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.virol.2019.08.005",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 Elsevier Inc.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

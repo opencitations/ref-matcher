@@ -1,0 +1,1144 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          15
+        ]
+      ],
+      "date-time": "2024-09-15T20:44:14Z",
+      "timestamp": 1726433054689
+    },
+    "reference-count": 87,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100007567",
+        "name": "City University of Hong Kong",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100007567",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100008414",
+        "name": "University of Canterbury",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100008414",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Business Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jbusres.2019.06.005",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          15
+        ]
+      ],
+      "date-time": "2019-06-15T07:34:14Z",
+      "timestamp": 1560584054000
+    },
+    "page": "34-44",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 51,
+    "special_numbering": "C",
+    "title": [
+      "Cultivating loyal customers through online customer communities: A psychological contract perspective"
+    ],
+    "prefix": "10.1016",
+    "volume": "103",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0002-0832-8487",
+        "authenticated-orcid": false,
+        "given": "Qingqing",
+        "family": "Bi",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0005",
+        "series-title": "Managing brand equity: Capitalizing on the value of a brand name",
+        "author": "Aaker",
+        "year": "1991"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0010",
+        "series-title": "Managing brand equity",
+        "author": "Aaker",
+        "year": "2009"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "634",
+        "DOI": "10.1007/s11747-009-0178-5",
+        "article-title": "The influence of C2C communications in online brand communities on customer purchase behavior",
+        "volume": "38",
+        "author": "Adjei",
+        "year": "2010",
+        "journal-title": "Journal of the Academy of Marketing Science"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "756",
+        "DOI": "10.1287/mksc.1090.0555",
+        "article-title": "The impact of customer community participation on customer behaviors: An empirical investigation",
+        "volume": "29",
+        "author": "Algesheimer",
+        "year": "2010",
+        "journal-title": "Marketing Science"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1016/j.indmarman.2004.07.002",
+        "article-title": "Relationship marketing and brand involvement of professionals through web-enhanced brand communities: The case of Coloplast",
+        "volume": "34",
+        "author": "Andersen",
+        "year": "2005",
+        "journal-title": "Industrial Marketing Management"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.005_bb5000",
+        "doi-asserted-by": "crossref",
+        "first-page": "221",
+        "DOI": "10.2753/MTP1069-6679190207",
+        "article-title": "Customer satisfaction and loyalty in e-markets: A PLS path modeling approach",
+        "volume": "19",
+        "author": "Anderson",
+        "year": "2011",
+        "journal-title": "Journal of Marketing Theory and Practice"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "18",
+        "DOI": "10.1177/002224379202900103",
+        "article-title": "The use of pledges to build and sustain commitment in distribution channels",
+        "author": "Anderson",
+        "year": "1992",
+        "journal-title": "Journal of Marketing Research"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1016/j.ijresmar.2006.01.005",
+        "article-title": "Antecedents and purchase consequences of customer participation in small group brand communities",
+        "volume": "23",
+        "author": "Bagozzi",
+        "year": "2006",
+        "journal-title": "International Journal of Research in Marketing"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "841",
+        "DOI": "10.1287/isre.1090.0265",
+        "article-title": "Research note—The impact of community commitment on participation in online communities",
+        "volume": "22",
+        "author": "Bateman",
+        "year": "2011",
+        "journal-title": "Information Systems Research"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "155",
+        "DOI": "10.1016/S0019-8501(01)00186-9",
+        "article-title": "Building customer relations over the internet",
+        "volume": "31",
+        "author": "Bauer",
+        "year": "2002",
+        "journal-title": "Industrial Marketing Management"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "351",
+        "DOI": "10.2307/3250921",
+        "article-title": "Understanding information systems continuance: An expectation-confirmation model",
+        "author": "Bhattacherjee",
+        "year": "2001",
+        "journal-title": "MIS Quarterly"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0055",
+        "unstructured": "Bi, Q. (2013). Influences of e-retailer sponsored virtual communities on customer loyalty: An investigation of underlying mechanisms (Doctoral dissertation, City University of Hong Kong, Hong Kong). Retrieved from https://scholars.cityu.edu.hk/en/theses/influences-of-eretailer-sponsored-virtual-communities-on-customer-loyalty(c0598237-9039-4179-b884-4f30d0645d85.html."
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0060",
+        "series-title": "Influences of e-retailer sponsored virtual community on consumer loyalty: An exploration of underlying mechanisms. Paper presented at the Pacific Asia conference on information systems, Korea",
+        "author": "Bi",
+        "year": "2013"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0065",
+        "series-title": "Exchange and power in social life",
+        "author": "Blau",
+        "year": "1964"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.1177/0092070300281009",
+        "article-title": "Implications of loyalty program membership and service experiences for customer retention and value",
+        "volume": "28",
+        "author": "Bolton",
+        "year": "2000",
+        "journal-title": "Journal of the Academy of Marketing Science"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0075",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1111/j.1540-4560.1984.tb01104.x",
+        "article-title": "Social support: An introduction to a complex phenomenon",
+        "volume": "40",
+        "author": "Brownell",
+        "year": "1984",
+        "journal-title": "Journal of Social Issues"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "208",
+        "DOI": "10.1108/17566691211269549",
+        "article-title": "Contracts as cornerstones in relationship building",
+        "volume": "4",
+        "author": "Camén",
+        "year": "2012",
+        "journal-title": "International Journal of Quality and Service Sciences"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1080/13527260701535236",
+        "article-title": "Promoting consumer's participation in virtual brand communities: A new paradigm in branding strategy",
+        "volume": "14",
+        "author": "Casaló",
+        "year": "2008",
+        "journal-title": "Journal of Marketing Communications"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "279",
+        "DOI": "10.1177/0165551508099088",
+        "article-title": "Understanding the sustainability of a virtual community: Model development and empirical test",
+        "volume": "35",
+        "author": "Cheung",
+        "year": "2009",
+        "journal-title": "Journal of Information Science"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "68",
+        "DOI": "10.1177/002224299005400306",
+        "article-title": "Relationship quality in services selling: An interpersonal influence perspective",
+        "author": "Crosby",
+        "year": "1990",
+        "journal-title": "Journal of Marketing"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "241",
+        "DOI": "10.1111/j.1467-8551.2006.00499.x",
+        "article-title": "Satisfaction with virtual communities of interest: Effect on members' visit frequency",
+        "volume": "18",
+        "author": "De Valck",
+        "year": "2007",
+        "journal-title": "British Journal of Management"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0105",
+        "doi-asserted-by": "crossref",
+        "first-page": "185",
+        "DOI": "10.1016/j.dss.2009.02.008",
+        "article-title": "Virtual communities: A marketing perspective",
+        "volume": "47",
+        "author": "De Valck",
+        "year": "2009",
+        "journal-title": "Decision Support Systems"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0110",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.1509/jmkg.65.4.33.18386",
+        "article-title": "Investments in consumer relationships: A cross-country and cross-industry exploration",
+        "volume": "65",
+        "author": "De Wulf",
+        "year": "2001",
+        "journal-title": "Journal of Marketing"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "208",
+        "DOI": "10.1177/1094670509338618",
+        "article-title": "Communal service delivery: How customers benefit from participation in firm-hosted virtual P3 communities",
+        "volume": "12",
+        "author": "Dholakia",
+        "year": "2009",
+        "journal-title": "Journal of Service Research"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "99",
+        "DOI": "10.1177/0092070394222001",
+        "article-title": "Customer loyalty: Toward an integrated conceptual framework",
+        "volume": "22",
+        "author": "Dick",
+        "year": "1994",
+        "journal-title": "Journal of the Academy of Marketing Science"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "217",
+        "DOI": "10.1111/j.1468-2370.2011.00314.x",
+        "article-title": "Loyalty programmes: Current knowledge and research directions",
+        "volume": "14",
+        "author": "Dorotic",
+        "year": "2012",
+        "journal-title": "International Journal of Management Reviews"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0130",
+        "doi-asserted-by": "crossref",
+        "first-page": "1079",
+        "DOI": "10.5465/amj.2008.35732596",
+        "article-title": "Not all responses to breach are the same: The interconnection of social exchange and psychological contract processes in organizations",
+        "volume": "51",
+        "author": "Dulac",
+        "year": "2008",
+        "journal-title": "Academy of Management Journal"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.005_bb5005",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1177/002224378101800104",
+        "article-title": "Evaluating structural equation models with unobservable variables and measurement error",
+        "volume": "18",
+        "author": "Fornell",
+        "year": "1981",
+        "journal-title": "Journal of Marketing Research"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0135",
+        "series-title": "The psychology of gratitude",
+        "first-page": "166",
+        "article-title": "Gratitude, like other positive emotions, broadens and builds",
+        "volume": "Vol. 145",
+        "author": "Fredrickson",
+        "year": "2004"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1086/209380",
+        "article-title": "The persuasion knowledge model: How people cope with persuasion attempts",
+        "volume": "21",
+        "author": "Friestad",
+        "year": "1994",
+        "journal-title": "Journal of Consumer Research"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0145",
+        "doi-asserted-by": "crossref",
+        "first-page": "2",
+        "DOI": "10.17705/1jais.00022",
+        "article-title": "Customer loyalty in e-commerce",
+        "volume": "3",
+        "author": "Gefen",
+        "year": "2002",
+        "journal-title": "Journal of the Association for Information Systems"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "51",
+        "DOI": "10.2307/30036519",
+        "article-title": "Trust and TAM in online shopping: An integrated model",
+        "volume": "27",
+        "author": "Gefen",
+        "year": "2003",
+        "journal-title": "MIS Quarterly"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0155",
+        "doi-asserted-by": "crossref",
+        "first-page": "1639",
+        "DOI": "10.1177/0146167208323743",
+        "article-title": "Sunken costs and desired plans: Examining different types of investments in close relationships",
+        "volume": "34",
+        "author": "Goodfriend",
+        "year": "2008",
+        "journal-title": "Personality and Social Psychology Bulletin"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0160",
+        "doi-asserted-by": "crossref",
+        "first-page": "257",
+        "DOI": "10.1037/a0028723",
+        "article-title": "To have and to hold: Gratitude promotes relationship maintenance in intimate bonds",
+        "volume": "103",
+        "author": "Gordon",
+        "year": "2012",
+        "journal-title": "Journal of Personality and Social Psychology"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0165",
+        "doi-asserted-by": "crossref",
+        "first-page": "161",
+        "DOI": "10.2307/2092623",
+        "article-title": "The norm of reciprocity: A preliminary statement",
+        "author": "Gouldner",
+        "year": "1960",
+        "journal-title": "American Sociological Review"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0170",
+        "doi-asserted-by": "crossref",
+        "first-page": "357",
+        "DOI": "10.1007/s11747-015-0462-5",
+        "article-title": "Seeing relationships through the lens of psychological contracts: The structure of consumer service relationships",
+        "volume": "45",
+        "author": "Guo",
+        "year": "2017",
+        "journal-title": "Journal of the Academy of Marketing Science"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0175",
+        "doi-asserted-by": "crossref",
+        "first-page": "210",
+        "DOI": "10.1509/jmkg.2005.69.4.210",
+        "article-title": "The effects of customer satisfaction, relationship commitment dimensions, and triggers on customer retention",
+        "volume": "69",
+        "author": "Gustafsson",
+        "year": "2005",
+        "journal-title": "Journal of Marketing"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0180",
+        "doi-asserted-by": "crossref",
+        "first-page": "136",
+        "DOI": "10.1016/j.jbusres.2016.08.026",
+        "article-title": "Branding co-creation with members of online brand communities",
+        "volume": "70",
+        "author": "Hajli",
+        "year": "2017",
+        "journal-title": "Journal of Business Research"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0185",
+        "doi-asserted-by": "crossref",
+        "first-page": "256",
+        "DOI": "10.1016/j.jcps.2011.02.007",
+        "article-title": "Review of the theoretical underpinnings of loyalty programs",
+        "volume": "21",
+        "author": "Henderson",
+        "year": "2011",
+        "journal-title": "Journal of Consumer Psychology"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0190",
+        "doi-asserted-by": "crossref",
+        "first-page": "403",
+        "DOI": "10.1108/10610420810904149",
+        "article-title": "Online satisfaction, trust and loyalty, and the impact of the offline parent brand",
+        "volume": "17",
+        "author": "Horppu",
+        "year": "2008",
+        "journal-title": "The Journal of Product and Brand Management"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0195",
+        "first-page": "156",
+        "article-title": "Exploring customer satisfaction, trust and destination loyalty in tourism",
+        "volume": "10",
+        "author": "Huang",
+        "year": "2006",
+        "journal-title": "Journal of American Academy of Business"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0200",
+        "doi-asserted-by": "crossref",
+        "first-page": "1318",
+        "DOI": "10.1016/j.jbusres.2014.12.001",
+        "article-title": "The influence of relationship marketing investments on customer gratitude in retailing",
+        "volume": "68",
+        "author": "Huang",
+        "year": "2015",
+        "journal-title": "Journal of Business Research"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0205",
+        "series-title": "Brand loyalty: A conceptual definition. Paper presented at the proceedings of the annual convention of the American Psychological Association",
+        "author": "Jacoby",
+        "year": "1971"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0210",
+        "series-title": "Brand loyalty: Measurement and management",
+        "author": "Jacoby",
+        "year": "1978"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0215",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1177/002224377301000101",
+        "article-title": "Brand loyalty vs. repeat purchasing behavior",
+        "author": "Jacoby",
+        "year": "1973",
+        "journal-title": "Journal of Marketing Research"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "185",
+        "DOI": "10.1007/s11747-015-0427-8",
+        "article-title": "Understanding and resolving major contractual breaches in buyer–seller relationships: A grounded theory approach",
+        "volume": "44",
+        "author": "Johnson",
+        "year": "2016",
+        "journal-title": "Journal of the Academy of Marketing Science"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0225",
+        "doi-asserted-by": "crossref",
+        "first-page": "59",
+        "DOI": "10.1016/j.bushor.2009.09.003",
+        "article-title": "Users of the world, unite! The challenges and opportunities of social media",
+        "volume": "53",
+        "author": "Kaplan",
+        "year": "2010",
+        "journal-title": "Business Horizons"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0230",
+        "doi-asserted-by": "crossref",
+        "first-page": "275",
+        "DOI": "10.1080/10196780802265843",
+        "article-title": "Customer loyalty in e-commerce settings: An empirical study",
+        "volume": "18",
+        "author": "Kassim",
+        "year": "2008",
+        "journal-title": "Electronic Markets"
+      },
+      {
+        "issue": "3–4",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0235",
+        "doi-asserted-by": "crossref",
+        "first-page": "409",
+        "DOI": "10.1362/026725708X306167",
+        "article-title": "It takes a marketplace community to raise brand commitment: The role of online communities",
+        "volume": "24",
+        "author": "Kim",
+        "year": "2008",
+        "journal-title": "Journal of Marketing Management"
+      },
+      {
+        "issue": "9/10",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0240",
+        "doi-asserted-by": "crossref",
+        "first-page": "1053",
+        "DOI": "10.1108/03090560710773345",
+        "article-title": "The impact of psychological contracts on trust and commitment in supplier-distributor relationships",
+        "volume": "41",
+        "author": "Kingshott",
+        "year": "2007",
+        "journal-title": "European Journal of Marketing"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb5010",
+        "series-title": "Principles and practice of structural equation modeling",
+        "author": "Kline",
+        "year": "2016"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0245",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1509/jm.15.0430",
+        "article-title": "Online relationship formation",
+        "volume": "81",
+        "author": "Kozlenkova",
+        "year": "2017",
+        "journal-title": "Journal of Marketing"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0250",
+        "series-title": "E-commerce statistics & technology trendsetters for 2017",
+        "author": "Lazar",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0255",
+        "series-title": "The dynamics of brand loyalty and brand switching. Paper presented at the proceedings of the fifth annual conference of the advertising research foundation",
+        "author": "Lipstein",
+        "year": "1959"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0260",
+        "doi-asserted-by": "crossref",
+        "first-page": "211",
+        "DOI": "10.1080/714005009",
+        "article-title": "The role of psychological contracts within internal service networks",
+        "volume": "21",
+        "author": "Llewellyn",
+        "year": "2001",
+        "journal-title": "Service Industries Journal"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0265",
+        "doi-asserted-by": "crossref",
+        "first-page": "367",
+        "DOI": "10.1287/mksc.2014.0890",
+        "article-title": "Social dollars: The economic impact of customer participation in a firm-sponsored online customer community",
+        "volume": "34",
+        "author": "Manchanda",
+        "year": "2015",
+        "journal-title": "Marketing Science"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0270",
+        "doi-asserted-by": "crossref",
+        "first-page": "249",
+        "DOI": "10.1037/0033-2909.127.2.249",
+        "article-title": "Is gratitude a moral affect?",
+        "volume": "127",
+        "author": "McCullough",
+        "year": "2001",
+        "journal-title": "Psychological Bulletin"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0275",
+        "doi-asserted-by": "crossref",
+        "first-page": "806",
+        "DOI": "10.1086/426615",
+        "article-title": "Giving firms an “E” for effort: Consumer responses to high-effort firms",
+        "volume": "31",
+        "author": "Morales",
+        "year": "2005",
+        "journal-title": "Journal of Consumer Research"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0280",
+        "doi-asserted-by": "crossref",
+        "first-page": "20",
+        "DOI": "10.1177/002224299405800302",
+        "article-title": "The commitment-trust theory of relationship marketing",
+        "author": "Morgan",
+        "year": "1994",
+        "journal-title": "Journal of Marketing"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb5015",
+        "series-title": "Mplus user's guide",
+        "first-page": "19982006",
+        "author": "Muthen",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0285",
+        "series-title": "Mplus: Statistical analysis with latent variables (User's guide)",
+        "author": "Muthén",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0290",
+        "series-title": "Satisfaction: A behavioral perspective on the consumer",
+        "author": "Oliver",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0295",
+        "series-title": "Oxford English dictionary",
+        "year": "2017"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0300",
+        "doi-asserted-by": "crossref",
+        "first-page": "136",
+        "DOI": "10.1509/jmkg.70.4.136",
+        "article-title": "Factors influencing the effectiveness of relationship marketing: A meta-analysis",
+        "volume": "70",
+        "author": "Palmatier",
+        "year": "2006",
+        "journal-title": "Journal of Marketing"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0305",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1509/jmkg.73.5.1",
+        "article-title": "The role of customer gratitude in relationship marketing",
+        "volume": "73",
+        "author": "Palmatier",
+        "year": "2009",
+        "journal-title": "Journal of Marketing"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0310",
+        "doi-asserted-by": "crossref",
+        "first-page": "2372",
+        "DOI": "10.1016/j.chb.2011.07.016",
+        "article-title": "Mediating roles of self-presentation desire in online game community commitment and trust behavior of massive multiplayer online role-playing games",
+        "volume": "27",
+        "author": "Park",
+        "year": "2011",
+        "journal-title": "Computers in Human Behavior"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0315",
+        "doi-asserted-by": "crossref",
+        "first-page": "101",
+        "DOI": "10.1080/10864415.2003.11044275",
+        "article-title": "Consumer acceptance of electronic commerce: Integrating trust and risk with the technology acceptance model",
+        "volume": "7",
+        "author": "Pavlou",
+        "year": "2003",
+        "journal-title": "International Journal of Electronic Commerce"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0320",
+        "doi-asserted-by": "crossref",
+        "first-page": "251",
+        "DOI": "10.1002/per.474",
+        "article-title": "The personal norm of reciprocity",
+        "volume": "17",
+        "author": "Perugini",
+        "year": "2003",
+        "journal-title": "European Journal of Personality"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0325",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1016/j.indmarman.2007.11.001",
+        "article-title": "Reciprocity as a key stabilizing norm of interpersonal marketing relationships: Scale development and validation",
+        "volume": "38",
+        "author": "Pervan",
+        "year": "2009",
+        "journal-title": "Industrial Marketing Management"
+      },
+      {
+        "issue": "3–4",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0330",
+        "doi-asserted-by": "crossref",
+        "first-page": "278",
+        "DOI": "10.1080/0965254X.2015.1095226",
+        "article-title": "Relationship building through Facebook brand pages: The multifaceted roles of identification, satisfaction, and perceived relationship investment",
+        "volume": "24",
+        "author": "Popp",
+        "year": "2016",
+        "journal-title": "Journal of Strategic Marketing"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0335",
+        "doi-asserted-by": "crossref",
+        "first-page": "113",
+        "DOI": "10.1287/mnsc.1070.0765",
+        "article-title": "Cultivating trust and harvesting value in virtual communities",
+        "volume": "54",
+        "author": "Porter",
+        "year": "2008",
+        "journal-title": "Management Science"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0340",
+        "series-title": "eCommerce in China: The future is already here",
+        "author": "PWC Report",
+        "year": "2017"
+      },
+      {
+        "issue": "3–4",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0345",
+        "doi-asserted-by": "crossref",
+        "first-page": "494",
+        "DOI": "10.1080/0267257X.2012.737356",
+        "article-title": "Building customer loyalty in online retailing: The role of relationship quality",
+        "volume": "29",
+        "author": "Rafiq",
+        "year": "2013",
+        "journal-title": "Journal of Marketing Management"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0350",
+        "doi-asserted-by": "crossref",
+        "first-page": "455",
+        "DOI": "10.1007/s11747-009-0144-2",
+        "article-title": "Gratitude works: Its impact and the mediating role of affective commitment in driving positive outcomes",
+        "volume": "37",
+        "author": "Raggio",
+        "year": "2009",
+        "journal-title": "Journal of the Academy of Marketing Science"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0355",
+        "first-page": "105",
+        "article-title": "E-loyalty: Your secret weapon on the web",
+        "volume": "78",
+        "author": "Reichheld",
+        "year": "2000",
+        "journal-title": "Harvard Business Review"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0360",
+        "doi-asserted-by": "crossref",
+        "first-page": "90",
+        "DOI": "10.5465/amr.1994.9410122009",
+        "article-title": "Developmental processes of cooperative interorganizational relationships",
+        "volume": "19",
+        "author": "Ring",
+        "year": "1994",
+        "journal-title": "Academy of Management Review"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0365",
+        "doi-asserted-by": "crossref",
+        "first-page": "289",
+        "DOI": "10.1002/job.4030160309",
+        "article-title": "Psychological contracts and OCB: The effect of unfulfilled obligations on civic virtue behavior",
+        "volume": "16",
+        "author": "Robinson",
+        "year": "1995",
+        "journal-title": "Journal of Organizational Behavior"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0370",
+        "doi-asserted-by": "crossref",
+        "first-page": "121",
+        "DOI": "10.1007/BF01384942",
+        "article-title": "Psychological and implied contracts in organizations",
+        "volume": "2",
+        "author": "Rousseau",
+        "year": "1989",
+        "journal-title": "Employee Responsibilities and Rights Journal"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0375",
+        "doi-asserted-by": "crossref",
+        "first-page": "172",
+        "DOI": "10.1016/0022-1031(80)90007-4",
+        "article-title": "Commitment and satisfaction in romantic associations: A test of the investment model",
+        "volume": "16",
+        "author": "Rusbult",
+        "year": "1980",
+        "journal-title": "Journal of Experimental Social Psychology"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0380",
+        "doi-asserted-by": "crossref",
+        "first-page": "101",
+        "DOI": "10.1037/0022-3514.45.1.101",
+        "article-title": "A longitudinal test of the investment model: The development (and deterioration) of satisfaction and commitment in heterosexual involvements",
+        "volume": "45",
+        "author": "Rusbult",
+        "year": "1983",
+        "journal-title": "Journal of Personality and Social Psychology"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0385",
+        "doi-asserted-by": "crossref",
+        "first-page": "30",
+        "DOI": "10.1509/jmkg.73.5.30",
+        "article-title": "How brand community practices create value",
+        "volume": "73",
+        "author": "Schau",
+        "year": "2009",
+        "journal-title": "Journal of Marketing"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0390",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1016/S0022-4359(01)00065-3",
+        "article-title": "Customer loyalty in e-commerce: An exploration of its antecedents and consequences",
+        "volume": "78",
+        "author": "Srinivasan",
+        "year": "2002",
+        "journal-title": "Journal of Retailing"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0395",
+        "doi-asserted-by": "crossref",
+        "first-page": "1050",
+        "DOI": "10.1002/mar.20373",
+        "article-title": "“I won't leave you although you disappoint me”: The interplay between satisfaction, investment, and alternatives in determining consumer–brand relationship commitment",
+        "volume": "27",
+        "author": "Sung",
+        "year": "2010",
+        "journal-title": "Psychology & Marketing"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.005_bb0400",
+        "series-title": "Statistics and data analysis: From elementary to intermediate",
+        "author": "Tamhane",
+        "year": "2000"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0405",
+        "doi-asserted-by": "crossref",
+        "first-page": "199",
+        "DOI": "10.1108/10662241211214566",
+        "article-title": "Investigating member commitment to virtual communities using an integrated perspective",
+        "volume": "22",
+        "author": "Wang",
+        "year": "2012",
+        "journal-title": "Internet Research"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0410",
+        "doi-asserted-by": "crossref",
+        "first-page": "293",
+        "DOI": "10.1108/07363760710773111",
+        "article-title": "Consumer reactance against loyalty programs",
+        "volume": "24",
+        "author": "Wendlandt",
+        "year": "2007",
+        "journal-title": "Journal of Consumer Marketing"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.005_bb0415",
+        "first-page": "81",
+        "article-title": "Four smart ways to run online communities",
+        "volume": "41",
+        "author": "Williams",
+        "year": "2000",
+        "journal-title": "MIT Sloan Management Review"
+      }
+    ],
+    "container-title": [
+      "Journal of Business Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S014829631930356X?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S014829631930356X?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          21
+        ]
+      ],
+      "date-time": "2019-09-21T21:42:33Z",
+      "timestamp": 1569102153000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S014829631930356X"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 87,
+    "alternative-id": [
+      "S014829631930356X"
+    ],
+    "URL": "https://doi.org/10.1016/j.jbusres.2019.06.005",
+    "relation": {},
+    "ISSN": [
+      "0148-2963"
+    ],
+    "issn-type": [
+      {
+        "value": "0148-2963",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Cultivating loyal customers through online customer communities: A psychological contract perspective",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Business Research",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jbusres.2019.06.005",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 Elsevier Inc. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

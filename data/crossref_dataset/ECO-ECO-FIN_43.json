@@ -1,0 +1,493 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2024-11-19T17:42:08Z",
+      "timestamp": 1732038128536
+    },
+    "reference-count": 26,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2019-09-01T00:00:00Z",
+          "timestamp": 1567296000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "71571197"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012176",
+        "name": "111 Project",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "B17050"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012176",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Finance Research Letters"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.frl.2019.03.026",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          3,
+          19
+        ]
+      ],
+      "date-time": "2019-03-19T15:08:22Z",
+      "timestamp": 1553008102000
+    },
+    "page": "51-59",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 18,
+    "special_numbering": "C",
+    "title": [
+      "Is there still a weather anomaly? An investigation of stock and foreign exchange markets"
+    ],
+    "prefix": "10.1016",
+    "volume": "30",
+    "author": [
+      {
+        "given": "Athanasios",
+        "family": "Andrikopoulos",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Changyu",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Min",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0001",
+        "doi-asserted-by": "crossref",
+        "first-page": "929",
+        "DOI": "10.1111/jofi.12021",
+        "article-title": "Value and momentum everywhere",
+        "volume": "68",
+        "author": "Asness",
+        "year": "2013",
+        "journal-title": "J. Finance"
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0002",
+        "unstructured": "Bank for International Settlements (BIS), 2016. Triennial Central Bank Survey, Basel, Switzerland, 1–23."
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0003",
+        "doi-asserted-by": "crossref",
+        "first-page": "511",
+        "DOI": "10.1146/annurev-financial-102710-144913",
+        "article-title": "Carry trade and momentum in currency markets",
+        "volume": "3",
+        "author": "Burnside",
+        "year": "2011",
+        "journal-title": "Annu. Rev. Financ. Econ."
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0004",
+        "doi-asserted-by": "crossref",
+        "first-page": "1559",
+        "DOI": "10.1016/j.jbankfin.2004.06.028",
+        "article-title": "Stock market returns: A note on temperature anomaly",
+        "volume": "29",
+        "author": "Cao",
+        "year": "2005",
+        "journal-title": "J. Bank. Finance"
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "1754",
+        "DOI": "10.1016/j.jbankfin.2007.12.007",
+        "article-title": "Weather and intraday patterns in stock returns and trading activity",
+        "volume": "32",
+        "author": "Chang",
+        "year": "2008",
+        "journal-title": "J. Bank. Finance"
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0006",
+        "series-title": "7 Winning Strategies for Trading Forex",
+        "author": "Cheng",
+        "year": "2007"
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0007",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Colacito, R., Riddiough, S., and Sarno, L., 2018. Business cycles and the cross-section of currency returns, Available at SSRN 2906600.",
+        "DOI": "10.2139/ssrn.2906600"
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0008",
+        "doi-asserted-by": "crossref",
+        "first-page": "1947",
+        "DOI": "10.1037/0022-3514.37.11.1947",
+        "article-title": "Weather, mood, and helping behavior: Quasi experiments with the sunshine Samaritan",
+        "volume": "37",
+        "author": "Cunningham",
+        "year": "1979",
+        "journal-title": "J. Pers. Soc. Psychol."
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0009",
+        "doi-asserted-by": "crossref",
+        "first-page": "1839",
+        "DOI": "10.1111/0022-1082.00077",
+        "article-title": "Investor psychology and security market under- and overreactions",
+        "volume": "53",
+        "author": "Daniel",
+        "year": "1998",
+        "journal-title": "J. Finance"
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "337",
+        "DOI": "10.1016/j.irfa.2004.10.003",
+        "article-title": "Weather, biorhythms, beliefs and stock returns—Some preliminary Irish evidence",
+        "volume": "14",
+        "author": "Dowling",
+        "year": "2005",
+        "journal-title": "Int. Rev. Financ. Anal."
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0011",
+        "doi-asserted-by": "crossref",
+        "first-page": "145",
+        "DOI": "10.1016/j.mulfin.2007.06.002",
+        "article-title": "Robust global mood influences in equity pricing",
+        "volume": "18",
+        "author": "Dowling",
+        "year": "2008",
+        "journal-title": "J. Multinatl. Financ. Manag."
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0012",
+        "doi-asserted-by": "crossref",
+        "first-page": "1009",
+        "DOI": "10.1111/1540-6261.00556",
+        "article-title": "Good day sunshine: Stock returns and the weather",
+        "volume": "58",
+        "author": "Hirshleifer",
+        "year": "2003",
+        "journal-title": "J. Finance"
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0013",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1111/j.2044-8295.1984.tb02785.x",
+        "article-title": "A multidimensional approach to the relationship between mood and weather",
+        "volume": "75",
+        "author": "Howarth",
+        "year": "1984",
+        "journal-title": "Br. J. Psychol."
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0014",
+        "doi-asserted-by": "crossref",
+        "first-page": "75",
+        "DOI": "10.1207/S15327663JCP1102_01",
+        "article-title": "An influence of positive affect on decision making in complex situations: Theoretical issues with practical implications",
+        "volume": "11",
+        "author": "Isen",
+        "year": "2001",
+        "journal-title": "J. Consum. Psychol."
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0015",
+        "series-title": "Sustainability in Finance: Banking on the Planet",
+        "author": "Jeucken",
+        "year": "2004"
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0016",
+        "doi-asserted-by": "crossref",
+        "first-page": "526",
+        "DOI": "10.1016/j.jbankfin.2007.08.004",
+        "article-title": "Is it the weather?",
+        "volume": "32",
+        "author": "Jacobsen",
+        "year": "2008",
+        "journal-title": "J. Bank. Finance"
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0017",
+        "doi-asserted-by": "crossref",
+        "first-page": "415",
+        "DOI": "10.1111/j.1467-629x.2004.00135.x",
+        "article-title": "Influence of weather on New Zealand financial securities",
+        "volume": "45",
+        "author": "Keef",
+        "year": "2005",
+        "journal-title": "Account. Finance"
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0018",
+        "doi-asserted-by": "crossref",
+        "first-page": "13",
+        "DOI": "10.1016/0304-405X(83)90025-9",
+        "article-title": "Size related anomalies and stock return seasonality: Further empirical evidence",
+        "volume": "12",
+        "author": "Keim",
+        "year": "1983",
+        "journal-title": "J. Financ. Econ."
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0019",
+        "doi-asserted-by": "crossref",
+        "first-page": "343",
+        "DOI": "10.1017/S0022109000003100",
+        "article-title": "Weather, stock returns, and the impact of localized trading behavior",
+        "volume": "39",
+        "author": "Loughran",
+        "year": "2004",
+        "journal-title": "J. Financ. Quant. Anal."
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "89",
+        "DOI": "10.1257/aer.97.1.89",
+        "article-title": "The cross section of foreign currency risk premia and consumption growth risk",
+        "volume": "97",
+        "author": "Lustig",
+        "year": "2007",
+        "journal-title": "Am. Econ. Rev."
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0021",
+        "doi-asserted-by": "crossref",
+        "first-page": "3731",
+        "DOI": "10.1093/rfs/hhr068",
+        "article-title": "Common risk factors in currency markets",
+        "volume": "24",
+        "author": "Lustig",
+        "year": "2011",
+        "journal-title": "Rev. Financ. Stud."
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0022",
+        "series-title": "Environmental Psychology",
+        "author": "MacAndrew",
+        "year": "1993"
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0023",
+        "doi-asserted-by": "crossref",
+        "first-page": "660",
+        "DOI": "10.1016/j.jfineco.2012.06.009",
+        "article-title": "Currency momentum strategies",
+        "volume": "106",
+        "author": "Menkhoff",
+        "year": "2012",
+        "journal-title": "J. Financ. Econ."
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0024",
+        "doi-asserted-by": "crossref",
+        "first-page": "416",
+        "DOI": "10.1093/rfs/hhw067",
+        "article-title": "Currency value",
+        "volume": "30",
+        "author": "Menkhoff",
+        "year": "2016",
+        "journal-title": "Rev. Financ. Stud."
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "682",
+        "DOI": "10.1080/00140130210158419",
+        "article-title": "Effects of hot and cold temperature exposure on performance: A meta-analytic review",
+        "volume": "45",
+        "author": "Pilcher",
+        "year": "2002",
+        "journal-title": "Ergonomics"
+      },
+      {
+        "key": "10.1016/j.frl.2019.03.026_bib0026",
+        "first-page": "1337",
+        "article-title": "Stock prices and wall street weather",
+        "volume": "83",
+        "author": "Saunders",
+        "year": "1993",
+        "journal-title": "Am. Econ. Rev."
+      }
+    ],
+    "container-title": [
+      "Finance Research Letters"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1544612319300030?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1544612319300030?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2019-10-21T13:27:04Z",
+      "timestamp": 1571664424000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1544612319300030"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          9
+        ]
+      ]
+    },
+    "references-count": 26,
+    "alternative-id": [
+      "S1544612319300030"
+    ],
+    "URL": "https://doi.org/10.1016/j.frl.2019.03.026",
+    "relation": {},
+    "ISSN": [
+      "1544-6123"
+    ],
+    "issn-type": [
+      {
+        "value": "1544-6123",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          9
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Is there still a weather anomaly? An investigation of stock and foreign exchange markets",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Finance Research Letters",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.frl.2019.03.026",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 Elsevier Inc. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          27
+        ]
+      ],
+      "date-time": "2024-08-27T07:46:16Z",
+      "timestamp": 1724744776388
+    },
+    "reference-count": 32,
+    "publisher": "Hindawi Limited",
+    "issue": "7",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              20
+            ]
+          ],
+          "date-time": "2019-08-20T00:00:00Z",
+          "timestamp": 1566259200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              20
+            ]
+          ],
+          "date-time": "2019-08-20T00:00:00Z",
+          "timestamp": 1566259200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "J Nurs Manag"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1111/jonm.12826",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          10
+        ]
+      ],
+      "date-time": "2019-07-10T20:48:56Z",
+      "timestamp": 1562791736000
+    },
+    "page": "1431-1437",
+    "update-policy": "http://dx.doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Intensive care nurses in South Africa: Expectations and experiences in a public sector hospital"
+    ],
+    "prefix": "10.1155",
+    "volume": "27",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0001-6129-6595",
+        "authenticated-orcid": false,
+        "given": "Linda",
+        "family": "Ronnie",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Cape Town Rondebosch South Africa"
+          }
+        ]
+      }
+    ],
+    "member": "98",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          20
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "volume-title": "Understanding organizational behaviour",
+        "author": "Argyris C.",
+        "year": "1960"
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1478-4491-11-1"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1049732316654870"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/14780887.2014.955224"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "volume-title": "Business research methods",
+        "author": "Bryman A. E.",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1468794105056924"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/0376835X.2012.730972"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/acprof:oso/9780199280643.001.0001"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jvb.2011.01.003"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1108/LHS-02-2017-0008"
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2834.2010.01074.x"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1748-8583.2002.tb00062.x"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9655.2012.01779.x"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.12968/ijpn.2010.16.12.599"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4135/9781473983304"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2834.2010.01206.x"
+      },
+      {
+        "key": "e_1_2_9_18_1",
+        "volume-title": "Practical research: Planning and design",
+        "author": "Leedy P. D.",
+        "year": "2019"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.iccn.2015.07.006"
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijnurstu.2013.10.003"
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1164/rccm.200606-735OC"
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1108/01425451211191841"
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1108/17511870910928010"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "volume-title": "South African clinical nurse practitioners’ manual",
+        "author": "Rispel L.",
+        "year": "2010"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01384942"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "volume-title": "Psychological Contract Inventory Technical Report",
+        "author": "Rousseau D. M.",
+        "year": "2000"
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "volume-title": "Organizational psychology",
+        "author": "Schein E. H.",
+        "year": "1965"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apnr.2015.02.008"
+      },
+      {
+        "key": "e_1_2_9_29_1",
+        "volume-title": "Code of ethics for nursing practitioners in South Africa",
+        "author": "South African Nursing Council",
+        "year": "2013"
+      },
+      {
+        "key": "e_1_2_9_30_1",
+        "volume-title": "Competencies for critical care nurse specialist (adult)",
+        "author": "South African Nursing Council",
+        "year": "2014"
+      },
+      {
+        "issue": "3",
+        "key": "e_1_2_9_31_1",
+        "first-page": "295",
+        "article-title": "Characteristics of the supervisor‐subordinate relationship as predictors of psychological contract breach",
+        "volume": "20",
+        "author": "Suazo M. M.",
+        "year": "2008",
+        "journal-title": "Journal of Managerial Issues"
+      },
+      {
+        "key": "e_1_2_9_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00134-011-2300-7"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2834.2012.01467.x"
+      }
+    ],
+    "container-title": [
+      "Journal of Nursing Management"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fjonm.12826",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jonm.12826",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/jonm.12826",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jonm.12826",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          9
+        ]
+      ],
+      "date-time": "2023-02-09T15:39:13Z",
+      "timestamp": 1675957153000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/jonm.12826"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          20
+        ]
+      ]
+    },
+    "references-count": 32,
+    "journal-issue": {
+      "issue": "7",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            5,
+            13
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/jonm.12826"
+    ],
+    "URL": "https://doi.org/10.1111/jonm.12826",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0966-0429",
+      "1365-2834"
+    ],
+    "issn-type": [
+      {
+        "value": "0966-0429",
+        "type": "print"
+      },
+      {
+        "value": "1365-2834",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          20
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2019-01-02",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-07-06",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-08-20",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

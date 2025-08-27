@@ -1,0 +1,885 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          15
+        ]
+      ],
+      "date-time": "2024-09-15T01:42:43Z",
+      "timestamp": 1726364563438
+    },
+    "reference-count": 43,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100007202",
+        "name": "Gouvernement du Canada | Instituts de Recherche en Sant&#x00E9; du Canada | CIHR Skin Research Training Centre",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100007202",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000038",
+        "name": "Gouvernement du Canada | Natural Sciences and Engineering Research Council of Canada",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100000038",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "FEDERER ISCII"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sci Rep"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>TRAPPC11 was identified as a component of the TRAPP III complex that functions in membrane trafficking and autophagy. Variants in <jats:italic>TRAPPC11</jats:italic> have been reported to be associated with a broad spectrum of phenotypes but all affected individuals display muscular pathology. Identifying additional variants will further our understanding of the clinical spectrum of phenotypes and will reveal regions of the protein critical for its functions. Here we report three individuals from unrelated families that have bi-allellic <jats:italic>TRAPPC11</jats:italic> variants. Subject 1 harbors a compound heterozygous variant (c.1287 + 5G &gt; A and c.3379_3380insT). The former variant results in a partial deletion of the foie gras domain (p.Ala372_Ser429del), while the latter variant results in a frame-shift and extension at the carboxy terminus (p.Asp1127Valfs*47). Subjects 2 and 3 both harbour a homozygous missense variant (c.2938G &gt; A; p.Gly980Arg). Fibroblasts from all three subjects displayed membrane trafficking defects manifested as delayed endoplasmic reticulum (ER)-to-Golgi transport and/or a delay in protein exit from the Golgi. All three individuals also show a defect in glycosylation of an ER-resident glycoprotein. However, only the compound heterozygous subject displayed an autophagic flux defect. Collectively, our characterization of these individuals with bi-allelic <jats:italic>TRAPPC11</jats:italic> variants highlights the functional importance of the carboxy-terminal portion of the protein.</jats:p>",
+    "DOI": "10.1038/s41598-019-50415-6",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          1
+        ]
+      ],
+      "date-time": "2019-10-01T10:02:32Z",
+      "timestamp": 1569924152000
+    },
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 14,
+    "title": [
+      "Characterization of three TRAPPC11 variants suggests a critical role for the extreme carboxy terminus of the protein"
+    ],
+    "prefix": "10.1038",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Miroslav P.",
+        "family": "Milev",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Daniela",
+        "family": "Stanga",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anne",
+        "family": "Schänzer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrés",
+        "family": "Nascimento",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Djenann",
+        "family": "Saint-Dic",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Carlos",
+        "family": "Ortez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel",
+        "family": "Natera-de Benito",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Desiré González",
+        "family": "Barrios",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jaume",
+        "family": "Colomer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Carmen",
+        "family": "Badosa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Cristina",
+        "family": "Jou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Pia",
+        "family": "Gallano",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lidia",
+        "family": "Gonzalez-Quereda",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ana",
+        "family": "Töpf",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Katherine",
+        "family": "Johnson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Volker",
+        "family": "Straub",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andreas",
+        "family": "Hahn",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael",
+        "family": "Sacher",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Cecilia",
+        "family": "Jimenez-Mallebrera",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          1
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "50415_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "2083",
+        "DOI": "10.1091/mbc.E10-11-0873",
+        "volume": "22",
+        "author": "PJ Scrivens",
+        "year": "2011",
+        "unstructured": "Scrivens, P. J. et al. C4orf41 and TTC-15 are mammalian TRAPP components with a role at an early stage in ER-to-Golgi trafficking. Mol Biol Cell 22, 2083–2093, https://doi.org/10.1091/mbc.E10-11-0873 (2011).",
+        "journal-title": "Mol Biol Cell"
+      },
+      {
+        "key": "50415_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "304",
+        "DOI": "10.1038/emboj.2009.350",
+        "volume": "29",
+        "author": "F Wendler",
+        "year": "2010",
+        "unstructured": "Wendler, F. et al. A genome-wide RNA interference screen identifies two novel components of the metazoan secretory pathway. EMBO J 29, 304–314, https://doi.org/10.1038/emboj.2009.350 (2010).",
+        "journal-title": "EMBO J"
+      },
+      {
+        "key": "50415_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "68",
+        "DOI": "10.1038/nature09204",
+        "volume": "466",
+        "author": "C Behrends",
+        "year": "2010",
+        "unstructured": "Behrends, C., Sowa, M. E., Gygi, S. P. & Harper, J. W. Network organization of the human autophagy system. Nature 466, 68–76, https://doi.org/10.1038/nature09204 (2010).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "50415_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "281",
+        "DOI": "10.15252/embj.201592695",
+        "volume": "35",
+        "author": "CA Lamb",
+        "year": "2016",
+        "unstructured": "Lamb, C. A. et al. TBC1D14 regulates autophagy via the TRAPP complex and ATG9 traffic. EMBO J 35, 281–301, https://doi.org/10.15252/embj.201592695 (2016).",
+        "journal-title": "EMBO J"
+      },
+      {
+        "key": "50415_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "2251",
+        "DOI": "10.1242/jcs.199521",
+        "volume": "130",
+        "author": "S Ramirez-Peinado",
+        "year": "2017",
+        "unstructured": "Ramirez-Peinado, S. et al. TRAPPC13 modulates autophagy and the response to Golgi stress. J Cell Sci 130, 2251–2265, https://doi.org/10.1242/jcs.199521 (2017).",
+        "journal-title": "J Cell Sci"
+      },
+      {
+        "key": "50415_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "325",
+        "DOI": "10.1111/tra.12640",
+        "volume": "20",
+        "author": "D Stanga",
+        "year": "2019",
+        "unstructured": "Stanga, D. et al. TRAPPC11 functions in autophagy by recruiting ATG2B-WIPI4/WDR45 to preautophagosomal membranes. Traffic 20, 325–345, https://doi.org/10.1111/tra.12640 (2019).",
+        "journal-title": "Traffic"
+      },
+      {
+        "key": "50415_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "4403",
+        "DOI": "10.1091/mbc.11.12.4403",
+        "volume": "11",
+        "author": "S Jones",
+        "year": "2000",
+        "unstructured": "Jones, S., Newman, C., Liu, F. & Segev, N. The TRAPP complex is a nucleotide exchanger for Ypt1 and Ypt31/32. Mol Biol Cell 11, 4403–4411, https://doi.org/10.1091/mbc.11.12.4403 (2000).",
+        "journal-title": "Mol Biol Cell"
+      },
+      {
+        "key": "50415_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "283",
+        "DOI": "10.1083/jcb.201705214",
+        "volume": "217",
+        "author": "LL Thomas",
+        "year": "2018",
+        "unstructured": "Thomas, L. L., Joiner, A. M. N. & Fromme, J. C. The TRAPPIII complex activates the GTPase Ypt1 (Rab1) in the secretory pathway. J Cell Biol 217, 283–298, https://doi.org/10.1083/jcb.201705214 (2018).",
+        "journal-title": "J Cell Biol"
+      },
+      {
+        "key": "50415_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "8090797",
+        "DOI": "10.1155/2018/8090797",
+        "volume": "2018",
+        "author": "X Wang",
+        "year": "2018",
+        "unstructured": "Wang, X. et al. Novel TRAPPC11 Mutations in a Chinese Pedigree of Limb Girdle Muscular Dystrophy. Case Rep Genet 2018, 8090797, https://doi.org/10.1155/2018/8090797 (2018).",
+        "journal-title": "Case Rep Genet"
+      },
+      {
+        "key": "50415_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "601",
+        "DOI": "10.1083/jcb.201705068",
+        "volume": "217",
+        "author": "F Riedel",
+        "year": "2018",
+        "unstructured": "Riedel, F., Galindo, A., Muschalik, N. & Munro, S. The two TRAPP complexes of metazoans have distinct roles and act on different Rab GTPases. J Cell Biol 217, 601–617, https://doi.org/10.1083/jcb.201705068 (2018).",
+        "journal-title": "J Cell Biol"
+      },
+      {
+        "key": "50415_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "1220",
+        "DOI": "10.1091/mbc.E15-08-0557",
+        "volume": "27",
+        "author": "C DeRossi",
+        "year": "2016",
+        "unstructured": "DeRossi, C. et al. trappc11 is required for protein glycosylation in zebrafish and humans. Mol Biol Cell 27, 1220–1234, https://doi.org/10.1091/mbc.E15-08-0557 (2016).",
+        "journal-title": "Mol Biol Cell"
+      },
+      {
+        "key": "50415_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "221",
+        "DOI": "10.1083/jcb.201501090",
+        "volume": "209",
+        "author": "MP Milev",
+        "year": "2015",
+        "unstructured": "Milev, M. P. et al. TRAMM/TrappC12 plays a role in chromosome congression, kinetochore stability, and CENP-E recruitment. J Cell Biol 209, 221–234, https://doi.org/10.1083/jcb.201501090 (2015).",
+        "journal-title": "J Cell Biol"
+      },
+      {
+        "key": "50415_CR13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/srep43207",
+        "volume": "7",
+        "author": "S Zhao",
+        "year": "2017",
+        "unstructured": "Zhao, S. et al. Mammalian TRAPPIII Complex positively modulates the recruitment of Sec. 13/31 onto COPII vesicles. Sci Rep 7, 43207, https://doi.org/10.1038/srep43207 (2017).",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "50415_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "5",
+        "DOI": "10.1111/tra.12615",
+        "volume": "20",
+        "author": "M Sacher",
+        "year": "2019",
+        "unstructured": "Sacher, M., Shahrzad, N., Kamel, H. & Milev, M. P. TRAPPopathies: An emerging set of disorders linked to variations in the genes encoding transport protein particle (TRAPP)-associated proteins. Traffic 20, 5–26, https://doi.org/10.1111/tra.12615 (2019).",
+        "journal-title": "Traffic"
+      },
+      {
+        "key": "50415_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "181",
+        "DOI": "10.1016/j.ajhg.2013.05.028",
+        "volume": "93",
+        "author": "N Bogershausen",
+        "year": "2013",
+        "unstructured": "Bogershausen, N. et al. Recessive TRAPPC11 mutations cause a disease spectrum of limb girdle muscular dystrophy and myopathy with movement disorder and intellectual disability. Am J Hum Genet 93, 181–190, https://doi.org/10.1016/j.ajhg.2013.05.028 (2013).",
+        "journal-title": "Am J Hum Genet"
+      },
+      {
+        "key": "50415_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "27",
+        "DOI": "10.1097/CND.0000000000000173",
+        "volume": "19",
+        "author": "DB Fee",
+        "year": "2017",
+        "unstructured": "Fee, D. B., Harmelink, M., Monrad, P. & Pyzik, E. Siblings With Mutations in TRAPPC11 Presenting With Limb-Girdle Muscular Dystrophy 2S. J Clin Neuromuscul Dis 19, 27–30, https://doi.org/10.1097/CND.0000000000000173 (2017).",
+        "journal-title": "J Clin Neuromuscul Dis"
+      },
+      {
+        "key": "50415_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "176",
+        "DOI": "10.1136/jmedgenet-2016-104108",
+        "volume": "54",
+        "author": "K Koehler",
+        "year": "2017",
+        "unstructured": "Koehler, K. et al. A novel TRAPPC11 mutation in two Turkish families associated with cerebral atrophy, global retardation, scoliosis, achalasia and alacrima. J Med Genet 54, 176–185, https://doi.org/10.1136/jmedgenet-2016-104108 (2017).",
+        "journal-title": "J Med Genet"
+      },
+      {
+        "key": "50415_CR18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13395-018-0163-0",
+        "volume": "8",
+        "author": "AA Larson",
+        "year": "2018",
+        "unstructured": "Larson, A. A. et al. TRAPPC11 and GOSR2 mutations associate with hypoglycosylation of alpha-dystroglycan and muscular dystrophy. Skelet Muscle 8, 17, https://doi.org/10.1186/s13395-018-0163-0 (2018).",
+        "journal-title": "Skelet Muscle"
+      },
+      {
+        "key": "50415_CR19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13395-015-0056-4",
+        "volume": "5",
+        "author": "WC Liang",
+        "year": "2015",
+        "unstructured": "Liang, W. C. et al. Congenital muscular dystrophy with fatty liver and infantile-onset cataract caused by TRAPPC11 mutations: broadening of the phenotype. Skelet Muscle 5, 29, https://doi.org/10.1186/s13395-015-0056-4 (2015).",
+        "journal-title": "Skelet Muscle"
+      },
+      {
+        "key": "50415_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "148",
+        "DOI": "10.1002/humu.23145",
+        "volume": "38",
+        "author": "L Matalonga",
+        "year": "2017",
+        "unstructured": "Matalonga, L. et al. Mutations in TRAPPC11 are associated with a congenital disorder of glycosylation. Hum Mutat 38, 148–151, https://doi.org/10.1002/humu.23145 (2017).",
+        "journal-title": "Hum Mutat"
+      },
+      {
+        "key": "50415_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "1091",
+        "DOI": "10.1111/tra.12095",
+        "volume": "14",
+        "author": "S Brunet",
+        "year": "2013",
+        "unstructured": "Brunet, S., Shahrzad, N., Saint-Dic, D., Dutczak, H. & Sacher, M. A trs20 mutation that mimics an SEDT-causing mutation blocks selective and non-selective autophagy: a model for TRAPP III organization. Traffic 14, 1091–1104, https://doi.org/10.1111/tra.12095 (2013).",
+        "journal-title": "Traffic"
+      },
+      {
+        "key": "50415_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "e23350",
+        "DOI": "10.1371/journal.pone.0023350",
+        "volume": "6",
+        "author": "M Zong",
+        "year": "2011",
+        "unstructured": "Zong, M. et al. The adaptor function of TRAPPC2 in mammalian TRAPPs explains TRAPPC2-associated SEDT and TRAPPC9-associated congenital intellectual disability. PLoS One 6, e23350, https://doi.org/10.1371/journal.pone.0023350 (2011).",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "50415_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "753",
+        "DOI": "10.1136/jmedgenet-2018-105441",
+        "volume": "55",
+        "author": "MP Milev",
+        "year": "2018",
+        "unstructured": "Milev, M. P. et al. Bi-allelic mutations in TRAPPC2L result in a neurodevelopmental disorder and have an impact on RAB11 in fibroblasts. J Med Genet 55, 753–764, https://doi.org/10.1136/jmedgenet-2018-105441 (2018).",
+        "journal-title": "J Med Genet"
+      },
+      {
+        "key": "50415_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "D886",
+        "DOI": "10.1093/nar/gky1016",
+        "volume": "47",
+        "author": "P Rentzsch",
+        "year": "2019",
+        "unstructured": "Rentzsch, P., Witten, D., Cooper, G. M., Shendure, J. & Kircher, M. CADD: predicting the deleteriousness of variants throughout the human genome. Nucleic Acids Res 47, D886–D894, https://doi.org/10.1093/nar/gky1016 (2019).",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "50415_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "493",
+        "DOI": "10.1038/nmeth.1928",
+        "volume": "9",
+        "author": "G Boncompain",
+        "year": "2012",
+        "unstructured": "Boncompain, G. et al. Synchronization of secretory protein traffic in populations of cells. Nat Methods 9, 493–498, https://doi.org/10.1038/nmeth.1928 (2012).",
+        "journal-title": "Nat Methods"
+      },
+      {
+        "key": "50415_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "1137",
+        "DOI": "10.1016/S0092-8674(00)80379-7",
+        "volume": "90",
+        "author": "SJ Scales",
+        "year": "1997",
+        "unstructured": "Scales, S. J., Pepperkok, R. & Kreis, T. E. Visualization of ER-to-Golgi transport in living cells reveals a sequential mode of action for COPII and COPI. Cell 90, 1137–1148 (1997).",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "50415_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "291",
+        "DOI": "10.1016/j.ajhg.2017.07.006",
+        "volume": "101",
+        "author": "MP Milev",
+        "year": "2017",
+        "unstructured": "Milev, M. P. et al. Mutations in TRAPPC12 Manifest in Progressive Childhood Encephalopathy and Golgi Dysfunction. Am J Hum Genet 101, 291–299, https://doi.org/10.1016/j.ajhg.2017.07.006 (2017).",
+        "journal-title": "Am J Hum Genet"
+      },
+      {
+        "key": "50415_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "823",
+        "DOI": "10.1242/dmm.014472",
+        "volume": "7",
+        "author": "AM Vacaru",
+        "year": "2014",
+        "unstructured": "Vacaru, A. M. et al. Molecularly defined unfolded protein response subclasses have distinct correlations with fatty liver disease in zebrafish. Dis Model Mech 7, 823–835, https://doi.org/10.1242/dmm.014472 (2014).",
+        "journal-title": "Dis Model Mech"
+      },
+      {
+        "key": "50415_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "3787",
+        "DOI": "10.1091/mbc.10.11.3787",
+        "volume": "10",
+        "author": "K Haze",
+        "year": "1999",
+        "unstructured": "Haze, K., Yoshida, H., Yanagi, H., Yura, T. & Mori, K. Mammalian transcription factor ATF6 is synthesized as a transmembrane protein and activated by proteolysis in response to endoplasmic reticulum stress. Mol Biol Cell 10, 3787–3799, https://doi.org/10.1091/mbc.10.11.3787 (1999).",
+        "journal-title": "Mol Biol Cell"
+      },
+      {
+        "key": "50415_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "896",
+        "DOI": "10.1091/mbc.E11-09-0785",
+        "volume": "23",
+        "author": "AK Velikkakath",
+        "year": "2012",
+        "unstructured": "Velikkakath, A. K., Nishimura, T., Oita, E., Ishihara, N. & Mizushima, N. Mammalian Atg2 proteins are essential for autophagosome formation and important for regulation of size and distribution of lipid droplets. Mol Biol Cell 23, 896–909, https://doi.org/10.1091/mbc.E11-09-0785 (2012).",
+        "journal-title": "Mol Biol Cell"
+      },
+      {
+        "key": "50415_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "817",
+        "DOI": "10.1016/j.cell.2006.09.029",
+        "volume": "127",
+        "author": "YG Kim",
+        "year": "2006",
+        "unstructured": "Kim, Y. G. et al. The architecture of the multisubunit TRAPP I complex suggests a model for vesicle tethering. Cell 127, 817–830, https://doi.org/10.1016/j.cell.2006.09.029 (2006).",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "50415_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "433",
+        "DOI": "10.1016/S1097-2765(01)00190-3",
+        "volume": "7",
+        "author": "M Sacher",
+        "year": "2001",
+        "unstructured": "Sacher, M. et al. TRAPP I implicated in the specificity of tethering in ER-to-Golgi transport. Mol Cell 7, 433–442 (2001).",
+        "journal-title": "Mol Cell"
+      },
+      {
+        "key": "50415_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "234",
+        "DOI": "10.1016/S0076-6879(01)29083-1",
+        "volume": "329",
+        "author": "M Sacher",
+        "year": "2001",
+        "unstructured": "Sacher, M. & Ferro-Novick, S. Purification of TRAPP from Saccharomyces cerevisiae and identification of its mammalian counterpart. Methods Enzymol 329, 234–241 (2001).",
+        "journal-title": "Methods Enzymol"
+      },
+      {
+        "key": "50415_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "2494",
+        "DOI": "10.1093/emboj/17.9.2494",
+        "volume": "17",
+        "author": "M Sacher",
+        "year": "1998",
+        "unstructured": "Sacher, M. et al. TRAPP, a highly conserved novel complex on the cis-Golgi that mediates vesicle docking and fusion. EMBO J 17, 2494–2503, https://doi.org/10.1093/emboj/17.9.2494 (1998).",
+        "journal-title": "EMBO J"
+      },
+      {
+        "key": "50415_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "28",
+        "DOI": "10.4161/cl.19414",
+        "volume": "2",
+        "author": "S Brunet",
+        "year": "2012",
+        "unstructured": "Brunet, S. et al. The SMS domain of Trs23p is responsible for the in vitro appearance of the TRAPP I complex in Saccharomyces cerevisiae. Cell Logist 2, 28–42, https://doi.org/10.4161/cl.19414 (2012).",
+        "journal-title": "Cell Logist"
+      },
+      {
+        "key": "50415_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "29233",
+        "DOI": "10.1074/jbc.M501670200",
+        "volume": "280",
+        "author": "WH Hu",
+        "year": "2005",
+        "unstructured": "Hu, W. H. et al. NIBP, a novel NIK and IKK(beta)-binding protein that enhances NF-(kappa)B activation. J Biol Chem 280, 29233–29241, https://doi.org/10.1074/jbc.M501670200 (2005).",
+        "journal-title": "J Biol Chem"
+      },
+      {
+        "key": "50415_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "1668",
+        "DOI": "10.1126/science.1224947",
+        "volume": "337",
+        "author": "R Venditti",
+        "year": "2012",
+        "unstructured": "Venditti, R. et al. Sedlin controls the ER export of procollagen by regulating the Sar1 cycle. Science 337, 1668–1672, https://doi.org/10.1126/science.1224947 (2012).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "50415_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "69",
+        "DOI": "10.1038/cr.2013.161",
+        "volume": "24",
+        "author": "P Jiang",
+        "year": "2014",
+        "unstructured": "Jiang, P. & Mizushima, N. Autophagy and human diseases. Cell Res 24, 69–79, https://doi.org/10.1038/cr.2013.161 (2014).",
+        "journal-title": "Cell Res"
+      },
+      {
+        "key": "50415_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "92",
+        "DOI": "10.1016/j.arr.2018.11.006",
+        "volume": "49",
+        "author": "TR Soares",
+        "year": "2019",
+        "unstructured": "Soares, T. R., Reis, S. D., Pinho, B. R., Duchen, M. R. & Oliveira, J. M. A. Targeting the proteostasis network in Huntington’s disease. Ageing Res Rev 49, 92–103, https://doi.org/10.1016/j.arr.2018.11.006 (2019).",
+        "journal-title": "Ageing Res Rev"
+      },
+      {
+        "key": "50415_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "1364",
+        "DOI": "10.1038/s41431-017-0022-1",
+        "volume": "25",
+        "author": "B Popp",
+        "year": "2017",
+        "unstructured": "Popp, B. et al. Exome Pool-Seq in neurodevelopmental disorders. Eur J Hum Genet 25, 1364–1376, https://doi.org/10.1038/s41431-017-0022-1 (2017).",
+        "journal-title": "Eur J Hum Genet"
+      },
+      {
+        "key": "50415_CR41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13023-017-0722-1",
+        "volume": "12",
+        "author": "K Johnson",
+        "year": "2017",
+        "unstructured": "Johnson, K. et al. Identification of GAA variants through whole exome sequencing targeted to a cohort of 606 patients with unexplained limb-girdle muscle weakness. Orphanet J Rare Dis 12, 173, https://doi.org/10.1186/s13023-017-0722-1 (2017).",
+        "journal-title": "Orphanet J Rare Dis"
+      },
+      {
+        "key": "50415_CR42",
+        "unstructured": "Dubowitz, V., Sewry, C. A. & Oldfors, A. Muscle biopsy: A practical approach. 4th edition. London. Saunders Elsevier (2014)."
+      },
+      {
+        "key": "50415_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "724",
+        "DOI": "10.1111/j.1600-0854.2009.00906.x",
+        "volume": "10",
+        "author": "PJ Scrivens",
+        "year": "2009",
+        "unstructured": "Scrivens, P. J. et al. TRAPPC2L is a novel, highly conserved TRAPP-interacting protein. Traffic 10, 724–736, https://doi.org/10.1111/j.1600-0854.2009.00906.x (2009).",
+        "journal-title": "Traffic"
+      }
+    ],
+    "updated-by": [
+      {
+        "updated": {
+          "date-parts": [
+            [
+              2020,
+              11,
+              10
+            ]
+          ],
+          "date-time": "2020-11-10T00:00:00Z",
+          "timestamp": 1604966400000
+        },
+        "DOI": "10.1038/s41598-020-76436-0",
+        "type": "correction",
+        "source": "publisher",
+        "label": "Correction"
+      }
+    ],
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41598-019-50415-6.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-019-50415-6",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-019-50415-6.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          17
+        ]
+      ],
+      "date-time": "2022-12-17T14:03:45Z",
+      "timestamp": 1671285825000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41598-019-50415-6"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          1
+        ]
+      ]
+    },
+    "references-count": 43,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "50415"
+    ],
+    "URL": "https://doi.org/10.1038/s41598-019-50415-6",
+    "relation": {},
+    "ISSN": [
+      "2045-2322"
+    ],
+    "issn-type": [
+      {
+        "value": "2045-2322",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "10 April 2019",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "11 September 2019",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "1 October 2019",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "10 November 2020",
+        "order": 4,
+        "name": "change_date",
+        "label": "Change Date",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "Correction",
+        "order": 5,
+        "name": "change_type",
+        "label": "Change Type",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "An amendment to this paper has been published and can be accessed via a link at the top of the paper.",
+        "order": 6,
+        "name": "change_details",
+        "label": "Change Details",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing Interests"
+        }
+      }
+    ],
+    "article-number": "14036"
+  }
+}

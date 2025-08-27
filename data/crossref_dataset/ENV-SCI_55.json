@@ -1,0 +1,656 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          4
+        ]
+      ],
+      "date-time": "2023-09-04T15:00:36Z",
+      "timestamp": 1693839636894
+    },
+    "reference-count": 65,
+    "publisher": "Wiley",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              20
+            ]
+          ],
+          "date-time": "2019-07-20T00:00:00Z",
+          "timestamp": 1563580800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100000270",
+        "name": "Natural Environment Research Council",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100000270",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "besjournals.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Applied Ecology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>\n<jats:list>\n\n<jats:list-item><jats:p>Small, declining populations can face simultaneous, interacting, ecological and genetic threats to viability. Conservation management strategies designed to tackle such threats independently may then prove ineffective. Population viability analyses that evaluate the efficacy of management strategies implemented independently versus simultaneously are then essential to the design of effective management plans, yet such quantitative evaluations are typically lacking.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p>We used stochastic individual‐based models, parameterised with high‐quality multi‐year demographic and genetic data, to evaluate the efficacy of independent or simultaneous ecological (supplementary feeding) and genetic (translocations to alleviate inbreeding) management strategies for a red‐billed chough (<jats:italic>Pyrrhocorax pyrrhocorax</jats:italic>) population of major conservation concern. This population is experiencing ecological threats from food limitation and genetic threats from escalating inbreeding. Conservation managers therefore face a dilemma: supplementary feeding may be ineffective if inbreeding is limiting stochastic population growth rate (<jats:italic>λ</jats:italic><jats:sub>s</jats:sub>), while translocations may be ineffective if food is limiting.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p>Model simulations suggested that the focal population will decline to extinction relatively rapidly with no conservation management (mean <jats:italic>λ</jats:italic><jats:sub>s</jats:sub> ≈ 0.86) and with genetic management alone (<jats:italic>λ</jats:italic><jats:sub>s</jats:sub> ≈ 0.90). Ecological management alone reduced, but did not halt the population decline (<jats:italic>λ</jats:italic><jats:sub>s</jats:sub> ≈ 0.93). However, simultaneous genetic and ecological management yielded population stability (<jats:italic>λ</jats:italic><jats:sub>s</jats:sub> ≈ 1), with genetic rescue lasting ~25 years.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p>These outcomes arose because the capacity for translocations to alleviate inbreeding depression is limited by food availability, while supplementary feeding cannot achieve population viability in the presence of accumulating inbreeding. However, supplementary feeding improved environmental quality enough to allow expression of variance in fitness and thus inbreeding depression, meaning that reductions in inbreeding following translocations can increase <jats:italic>λ</jats:italic><jats:sub>s</jats:sub>.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p><jats:italic>Synthesis and applications</jats:italic>. Our analyses suggest that simultaneous management of ecological and genetic threats will be critical to ensuring viability of Scotland's chough population; neither strategy independently is likely to achieve population persistence and may consequently waste conservation resources. Managers of other resource‐limited, inbred populations should consider that the efficacy of strategies designed to alleviate ecological and genetic threats may be interdependent, such that holistic management is essential to ensure population viability.</jats:p></jats:list-item>\n</jats:list>\n</jats:p>",
+    "DOI": "10.1111/1365-2664.13464",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          25
+        ]
+      ],
+      "date-time": "2019-06-25T21:41:00Z",
+      "timestamp": 1561498860000
+    },
+    "page": "2264-2273",
+    "update-policy": "http://dx.doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Evaluating the efficacy of independent versus simultaneous management strategies to address ecological and genetic threats to population viability"
+    ],
+    "prefix": "10.1111",
+    "volume": "56",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0002-9398-2861",
+        "authenticated-orcid": false,
+        "given": "Amanda E.",
+        "family": "Trask",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Biological Sciences, Zoology Building University of Aberdeen Aberdeen UK"
+          }
+        ]
+      },
+      {
+        "given": "Sarah R.",
+        "family": "Fenn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Biological Sciences, Zoology Building University of Aberdeen Aberdeen UK"
+          }
+        ]
+      },
+      {
+        "given": "Eric M.",
+        "family": "Bignal",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Scottish Chough Study Group Isle of Islay UK"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-5057-0448",
+        "authenticated-orcid": false,
+        "given": "Davy I.",
+        "family": "McCracken",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Integrated Land Management Scotland's Rural College Auchincruive Ayr UK"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-2430-0326",
+        "authenticated-orcid": false,
+        "given": "Pat",
+        "family": "Monaghan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Biodiversity, Animal Health &amp; Comparative Medicine University of Glasgow Glasgow UK"
+          }
+        ]
+      },
+      {
+        "given": "Jane M.",
+        "family": "Reid",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Biological Sciences, Zoology Building University of Aberdeen Aberdeen UK"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          20
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspb.2011.0261"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/mec.13797"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1469-1795.1999.tb00050.x"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/B:COGE.0000014059.49606.dd"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/3802534"
+      },
+      {
+        "issue": "5",
+        "key": "e_1_2_8_7_1",
+        "first-page": "315",
+        "article-title": "Supplementary feeding of subadult choughs",
+        "volume": "22",
+        "author": "Bignal C.",
+        "year": "2011",
+        "journal-title": "British Wildlife"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10592-008-9547-8"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tree.2008.03.011"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1935620"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg2664"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1469-8137.2010.03541.x"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/cobi.12049"
+      },
+      {
+        "issue": "5",
+        "key": "e_1_2_8_14_1",
+        "first-page": "763",
+        "article-title": "Some possibilities for measuring selection intensities in man",
+        "volume": "61",
+        "author": "Crow J. F.",
+        "year": "1958",
+        "journal-title": "Human Biology"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/tpbi.1995.1025"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5962/bhl.title.110800"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2664.2010.01783.x"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/9781444355833.ch9"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1461-0248.2005.00845.x"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsbl.2009.0468"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1558-5646.2010.01108.x"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/mec.13139"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.biocon.2005.11.014"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1504732112"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0169-5347(02)02489-8"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspb.2013.3337"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspb.2002.2049"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "volume-title": "Vortex 10 user's manual",
+        "author": "Lacy R. C.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "volume-title": "Vortex: A stochastic simulation of the extinction process",
+        "author": "Lacy R. C.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1600-048X.2010.05164.x"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0168880"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsbl.2004.0266"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/conl.12257"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/genetics/163.3.1153"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "first-page": "114",
+        "article-title": "The distribution and status of the chough in Scotland in 1986",
+        "volume": "15",
+        "author": "Monaghan P.",
+        "year": "1989",
+        "journal-title": "Scottish Birds"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1558-5646.1997.tb02422.x"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.biocon.2006.05.016"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0004084"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/hdy.2016.100"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0006-3207(94)90332-8"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.biocon.2017.08.014"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "volume-title": "R: A language and environment for statistical computing",
+        "author": "R Development Core Team",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/conl.12412"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2664.2011.01973.x"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2656.2008.01400.x"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365-2656.2003.00750.x"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365-2656.2003.00673.x"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.0021-8790.2004.00854.x"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2656.2006.01143.x"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/genetics/155.1.337"
+      },
+      {
+        "issue": "9",
+        "key": "e_1_2_8_51_1",
+        "first-page": "355",
+        "article-title": "Importance of lethal control of invasive predators for island conservation",
+        "volume": "47",
+        "author": "Russell J. C.",
+        "year": "2015",
+        "journal-title": "Conservation Biology"
+      },
+      {
+        "key": "e_1_2_8_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/33136"
+      },
+      {
+        "key": "e_1_2_8_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/aob/mcw190"
+      },
+      {
+        "key": "e_1_2_8_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1526-100X.2010.00724.x"
+      },
+      {
+        "key": "e_1_2_8_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.282.5394.1658"
+      },
+      {
+        "key": "e_1_2_8_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1365-2656.12503"
+      },
+      {
+        "key": "e_1_2_8_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1365-2656.12703"
+      },
+      {
+        "key": "e_1_2_8_58_1",
+        "unstructured": "Trask A. E. Fenn S. R. Bignal E. M. McCracken D. I. Monaghan P. Pennycott T. &Reid J. M.(2019a).Conservation strategy for red‐billed choughs in Scotland: Assessment of the impact of supplementary feeding and evalutation of future management strategies. Scottish Natural Heritage Commissioned Report."
+      },
+      {
+        "key": "e_1_2_8_59_1",
+        "article-title": "Data from: Evaluating the efficacy of independent versus simultaneous management strategies to address ecological and genetic threats to population viability",
+        "author": "Trask A. E.",
+        "year": "2019",
+        "journal-title": "Dryad Digital Repository"
+      },
+      {
+        "key": "e_1_2_8_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1650/CONDOR-14-18.1"
+      },
+      {
+        "key": "e_1_2_8_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1523-1739.2005.00275.x"
+      },
+      {
+        "key": "e_1_2_8_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1558-5646.2008.00325.x"
+      },
+      {
+        "key": "e_1_2_8_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2148-11-318"
+      },
+      {
+        "key": "e_1_2_8_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1755-0998.2010.02885.x"
+      },
+      {
+        "key": "e_1_2_8_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tree.2014.10.009"
+      },
+      {
+        "key": "e_1_2_8_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1523-1739.2003.01526.x"
+      }
+    ],
+    "container-title": [
+      "Journal of Applied Ecology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2F1365-2664.13464",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2664.13464",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/1365-2664.13464",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2664.13464",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          28
+        ]
+      ],
+      "date-time": "2023-08-28T08:35:03Z",
+      "timestamp": 1693211703000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2664.13464"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          20
+        ]
+      ]
+    },
+    "references-count": 65,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/1365-2664.13464"
+    ],
+    "URL": "https://doi.org/10.1111/1365-2664.13464",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0021-8901",
+      "1365-2664"
+    ],
+    "issn-type": [
+      {
+        "value": "0021-8901",
+        "type": "print"
+      },
+      {
+        "value": "1365-2664",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          20
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2019-02-07",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-06-05",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-07-20",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

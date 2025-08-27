@@ -1,0 +1,19 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_2,J Humanit Logist Supply Chain Manag,Coordination In Humanitarian Relief Chains: Chain Coordinators,70,10.1108/20426741211226019,https://w3id.org/oc/meta/br/06302412346,author_title
+ref_4,OR Spectr,Nano Particle Trapping By Ultra-Short Tweezer And Wells Using Microring Resonator Interferometer System For Spectroscopy Application,70,10.1166/nnl.2013.1636,https://w3id.org/oc/meta/br/061202670553,author_title
+ref_9,Robust optimization,Robust Optimization,70,10.1515/9781400831050,https://w3id.org/oc/meta/br/06303059396,author_title
+ref_10,Soc-Econ Plan Sci,Transportation In Disaster Response Operations,70,10.1016/j.seps.2011.05.002,https://w3id.org/oc/meta/br/06130776503,author_title
+ref_11,Op Res,The Price Of Robustness,70,10.1287/opre.1030.0065,https://w3id.org/oc/meta/br/06210748903,author_title
+ref_15,Transp Res Part E: Logist Transp Rev,A Scenario Planning Approach For The Flood Emergency Logistics Preparation Problem Under Uncertainty,70,10.1016/j.tre.2006.10.013,https://w3id.org/oc/meta/br/06190835682,author_title
+ref_17,Optim Lett,A Two-Echelon Stochastic Facility Location Model For Humanitarian Relief Logistics,65,10.1007/s11590-011-0421-0,https://w3id.org/oc/meta/br/061702887990,author_title
+ref_19,,Collaboration In Humanitarian Logistics,70,10.1061/41139(387)155,https://w3id.org/oc/meta/br/06903188382,author_title
+ref_21,Eur J Op Res,Recent Advances In Robust Optimization: An Overview,70,10.1016/j.ejor.2013.09.036,https://w3id.org/oc/meta/br/06240220484,author_title
+ref_22,Soc-Econ Plan Sci,Prepositioning Of Supplies In Preparation For A Hurricane Under Potential Destruction Of Prepositioned Supplies,70,10.1016/j.seps.2012.11.002,https://w3id.org/oc/meta/br/06130776457,author_title
+ref_23,Eur J Op Res,Review Of Recent Developments In OR/MS Research In Disaster Operations Management,70,10.1016/j.ejor.2013.01.039,https://w3id.org/oc/meta/br/06240220892,author_title
+ref_24,Surv Op Res Manag Sci,Two-stage Stochastic Programming In Disaster Management: A Literature Survey,70,10.1016/j.sorms.2016.11.002,https://w3id.org/oc/meta/br/062202147086,author_title
+ref_33,Prod Op Manag,Location And Emergency Inventory Pre-Positioning For Disaster Response Operations: Min-Max Robust Model And A Case Study Of Yushu Earthquake,65,10.1111/poms.12789,https://w3id.org/oc/meta/br/0690106322,author_title
+ref_35,Transp Res Part B: Methodol,Reliable Logistics Networks Design With Facility Disruptions,70,10.1016/j.trb.2011.05.022,https://w3id.org/oc/meta/br/06170399171,author_title
+ref_39,Uncertain Supply Chain Manag,Robust Humanitarian Relief Logistics Network Planning,70,10.5267/j.uscm.2014.1.002,https://w3id.org/oc/meta/br/061801502555,author_title
+ref_40,Prod Op Manag,Stochastic Optimization For Natural Disaster Asset Prepositioning,70,10.1111/j.1937-5956.2009.01119.x,https://w3id.org/oc/meta/br/0622094728,author_title
+ref_43,Op Res,Earthquake Mechanism And Displacement Fields Close To Fault Zones: Report On The Sixth GEOP Research Conference,65,10.1029/eo055i009p00836,https://w3id.org/oc/meta/br/061102747731,author_title
+ref_47,Eur J Op Res,A Dynamic Logistics Coordination Model For Evacuation And Support In Disaster Response Activities,70,10.1016/j.ejor.2005.03.077,https://w3id.org/oc/meta/br/0620220903,author_title

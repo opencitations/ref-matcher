@@ -1,0 +1,685 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          23
+        ]
+      ],
+      "date-time": "2024-09-23T04:12:41Z",
+      "timestamp": 1727064761288
+    },
+    "reference-count": 87,
+    "publisher": "Informa UK Limited",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              20
+            ]
+          ],
+          "date-time": "2019-09-20T00:00:00Z",
+          "timestamp": 1568937600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.tandfonline.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Environmental Policy &amp; Planning"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          11,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1080/1523908x.2019.1670048",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          20
+        ]
+      ],
+      "date-time": "2019-09-20T13:11:55Z",
+      "timestamp": 1568985115000
+    },
+    "page": "675-691",
+    "update-policy": "http://dx.doi.org/10.1080/tandf_crossmark_01",
+    "source": "Crossref",
+    "is-referenced-by-count": 86,
+    "title": [
+      "The economy that runs on waste: accumulation in the circular city"
+    ],
+    "prefix": "10.1080",
+    "volume": "21",
+    "author": [
+      {
+        "given": "Federico",
+        "family": "Savini",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of geography, planning and international development studies, University of Amsterdam, Amsterdam, Netherlands"
+          }
+        ]
+      }
+    ],
+    "member": "301",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          20
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "CIT0001",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.polgeo.2017.08.009"
+      },
+      {
+        "key": "CIT0002",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7551/mitpress/8720.001.0001"
+      },
+      {
+        "key": "CIT0003",
+        "volume-title": "Assessment of separate collection schemes in the 28 capitals of the EU. (Report No. 070201/ENV/2014/691401/SFRA/A2)",
+        "author": "BiPRO/CRI",
+        "year": "2015"
+      },
+      {
+        "key": "CIT0004",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/2399654417746172"
+      },
+      {
+        "key": "CIT0005",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3917/dec.boyer.2004.01",
+        "volume-title": "Théorie de la régulation: 1. Les fondamentaux",
+        "author": "Boyer R.",
+        "year": "2004"
+      },
+      {
+        "key": "CIT0006",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/09538259.2018.1449480"
+      },
+      {
+        "key": "CIT0007",
+        "volume-title": "Municipal waste management in Europe: A comparative study in building regimes",
+        "volume": "10",
+        "author": "Buclet N.",
+        "year": "2013"
+      },
+      {
+        "key": "CIT0008",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1068/a38269"
+      },
+      {
+        "key": "CIT0009",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/anti.12087"
+      },
+      {
+        "key": "CIT0010",
+        "unstructured": "CBS, PBL, RIVM, & WUR. (2017).Afvalproductie en wijze van verwerking, 1985–2014. (Report No. 0204 version 12) The Hague."
+      },
+      {
+        "key": "CIT0011",
+        "volume-title": "Wasted: Approaches to circular city making",
+        "author": "Cities Foundation",
+        "year": "2018"
+      },
+      {
+        "key": "CIT0012",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/10455750903441615"
+      },
+      {
+        "key": "CIT0013",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/10455752.2013.849747"
+      },
+      {
+        "key": "CIT0014",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0305-9006(99)00023-9"
+      },
+      {
+        "key": "CIT0015",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.resconrec.2017.01.011"
+      },
+      {
+        "key": "CIT0016",
+        "volume-title": "Klimaatakkord - Draft",
+        "author": "Dutch Government",
+        "year": "2019"
+      },
+      {
+        "key": "CIT0017",
+        "unstructured": "EC. (2017).Study on the review of the list of critical raw materials critical raw materials factsheets. (Report No. ET-04-15-307-EN-N) Brussels: European Commission."
+      },
+      {
+        "key": "CIT0018",
+        "volume-title": "Report on critical raw materials and the circular economy",
+        "author": "EC",
+        "year": "2018"
+      },
+      {
+        "key": "CIT0019",
+        "unstructured": "Ellen Macarthur Foundation. (2013).Towards the circular economy, economic and business rationale for accelerated transition. [Online Report]. Retrieved from https://www.ellenmacarthurfoundation.org/assets/downloads/publications/Ellen-MacArthur-Foundation-Towards-the-Circular-Economy-vol.1.pdf"
+      },
+      {
+        "key": "CIT0020",
+        "unstructured": "Ellen MacArthur Foundation. (2015).Why the circular economy matters. Delivering the Circular Economy: A Toolkit for Policymakers. [Online Report]. Retrieved from https://www.ellenmacarthurfoundation.org/assets/downloads/publications/EllenMacArthurFoundation_PolicymakerToolkit.pdf"
+      },
+      {
+        "key": "CIT0021",
+        "unstructured": "Eurocities. (2017).Full circle: cities and circular economy. [Online Report]. Retrieved from http://nws.eurocities.eu/MediaShell/media/2017cities_and_circular_economy-web-spreads.pdf"
+      },
+      {
+        "key": "CIT0022",
+        "first-page": "25",
+        "volume-title": "Culture and waste: The creation and destruction of value",
+        "author": "Frow J.",
+        "year": "2003"
+      },
+      {
+        "key": "CIT0023",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/1360481042000313509"
+      },
+      {
+        "key": "CIT0024",
+        "unstructured": "Ganzevles, J., Potting, J. & Hanemaaijer, A. (2016, June 30). Evaluatie Green Deals circulaire economie. [Web page]. Retrieved from https://www.pbl.nl/publicaties/evaluatie-green-deals-circulaire-economie"
+      },
+      {
+        "key": "CIT0025",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jclepro.2016.12.048"
+      },
+      {
+        "key": "CIT0026",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jclepro.2015.09.007"
+      },
+      {
+        "key": "CIT0027",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-8330.2011.00902.x"
+      },
+      {
+        "key": "CIT0028",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1068/a42122"
+      },
+      {
+        "key": "CIT0029",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4324/9781315764375"
+      },
+      {
+        "key": "CIT0030",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4324/9780203452202"
+      },
+      {
+        "key": "CIT0031",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-environ-102014-021105"
+      },
+      {
+        "key": "CIT0032",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/03085147.2015.1013353"
+      },
+      {
+        "key": "CIT0033",
+        "volume-title": "Marx, capital, and the madness of economic Reason",
+        "author": "Harvey D.",
+        "year": "2018"
+      },
+      {
+        "key": "CIT0034",
+        "volume-title": "The city as a terminal: The urban context of logistics and freight transport",
+        "author": "Hesse M.",
+        "year": "2008"
+      },
+      {
+        "key": "CIT0035",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0309132514566342"
+      },
+      {
+        "key": "CIT0036",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.futures.2016.05.012"
+      },
+      {
+        "key": "CIT0037",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/14649357.2017.1321776"
+      },
+      {
+        "key": "CIT0038",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1751-9020.2008.00112.x"
+      },
+      {
+        "key": "CIT0039",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4324/9780203435557"
+      },
+      {
+        "key": "CIT0040",
+        "volume-title": "The economy of cities",
+        "author": "Jacobs J.",
+        "year": "1969"
+      },
+      {
+        "key": "CIT0041",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467-9760.00036"
+      },
+      {
+        "key": "CIT0042",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1068/d9107"
+      },
+      {
+        "key": "CIT0043",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1468-2427.00239"
+      },
+      {
+        "key": "CIT0044",
+        "unstructured": "Kamer van Koophandel. (2014).Logistieke Monitor Regionale Benchmark 1e kwartaal2014. [Online report]. Retrieved from https://www.kvk.nl/download/Pers_KvK_Logistieke_Monitor_Regional_Benchmark_tcm109-389027.pdf"
+      },
+      {
+        "key": "CIT0045",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envpol.2010.10.022"
+      },
+      {
+        "key": "CIT0046",
+        "volume-title": "Waste to wealth: The circular economy advantage",
+        "author": "Lacy P.",
+        "year": "2016"
+      },
+      {
+        "key": "CIT0047",
+        "volume-title": "Global garbage: Urban imaginaries of waste, excess, and abandonment",
+        "author": "Lindner C.",
+        "year": "2016"
+      },
+      {
+        "key": "CIT0048",
+        "volume-title": "Regenerative design for sustainable development",
+        "author": "Lyle J. T.",
+        "year": "1996"
+      },
+      {
+        "key": "CIT0049",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/09644016.2019.1549780"
+      },
+      {
+        "key": "CIT0050",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jup.2006.09.003"
+      },
+      {
+        "key": "CIT0051",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.futures.2011.06.011"
+      },
+      {
+        "key": "CIT0052",
+        "volume-title": "Cradle to cradle: Remaking the way We make Things",
+        "author": "McDonough W.",
+        "year": "2010"
+      },
+      {
+        "key": "CIT0053",
+        "volume-title": "Meer waarde uit afval, note to the Parliament",
+        "author": "Ministry of Infrastructure and Environment",
+        "year": "2011"
+      },
+      {
+        "key": "CIT0054",
+        "volume-title": "Landlijk Afvalbeheerplan 2",
+        "author": "Ministry of Infrastructure and Environment",
+        "year": "2014"
+      },
+      {
+        "key": "CIT0055",
+        "volume-title": "Netherlands Circulair in 2050",
+        "author": "Ministry of Infrastructure and Environment",
+        "year": "2016"
+      },
+      {
+        "key": "CIT0056",
+        "volume-title": "Landlijk Afvalbeheerplan 3",
+        "author": "Ministry of Infrastructure and Environment",
+        "year": "2017"
+      },
+      {
+        "key": "CIT0057",
+        "unstructured": "Morozov, E. (2014, January 1). Making it: Pick up a spot welder and join the revolution.The New Yorker. Retrieved from https://www.newyorker.com/magazine/2014/01/13/making-it-2"
+      },
+      {
+        "key": "CIT0058",
+        "unstructured": "Municipality of Amsterdam. (2014a).Towards the Amsterdam Circular Economy. [Online report]. Retrieved from https://assets.amsterdam.nl/…/towards_the_amsterdam_circular_economy_web.pdf"
+      },
+      {
+        "key": "CIT0059",
+        "unstructured": "Municipality of Amsterdam. (2014b).De circulaire metropool Amsterdam 2014-2018. [Online report]. Retrieved from http://www.biobasedbouwen.nl/wp-content/uploads/2014/11/de_circulaire_metropool_amsterdam_2014_2018_printversie_2mb_versie_-_20140618.pdf"
+      },
+      {
+        "key": "CIT0060",
+        "unstructured": "Municipality of Amsterdam. (2015).Amsterdamse Ambachtseconomie 2010-2014. [Online report]. Retrieved from https://www.ois.amsterdam.nl/downloads/nieuws/2015_ambachtseconomie.pdf"
+      },
+      {
+        "key": "CIT0061",
+        "unstructured": "Municipality of Amsterdam. (2016).Circular Amsterdam. [Online report]. Retrieved from https://www.circle-economy.com/wp-content/uploads/2016/04/Circular-Amsterdam-EN-small-210316.pdf"
+      },
+      {
+        "key": "CIT0062",
+        "unstructured": "Municipality of Amsterdam. (2017).Roadmap Circulaire Gronduitgifte. [Online report]. Retrieved from https://www.amsterdam.nl/wonen-leefomgeving/duurzaam-amsterdam/publicaties-duurzaam/roadmap-circulaire/"
+      },
+      {
+        "key": "CIT0063",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10551-015-2693-2"
+      },
+      {
+        "key": "CIT0064",
+        "unstructured": "OECD. (2000). Competition in local services: Solid waste management.OECD Competition Law and Policy Working Paper No. 28. [Online report]. Retrieved from https://papers.ssrn.com/sol3/papers.cfm?abstract_id=318764"
+      },
+      {
+        "key": "CIT0065",
+        "volume-title": "Upcycling",
+        "author": "Pauli G.",
+        "year": "1999"
+      },
+      {
+        "key": "CIT0066",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0308518X17719461"
+      },
+      {
+        "key": "CIT0067",
+        "unstructured": "Port of Amsterdam. (2015).Visie 2030: Port of Amsterdam, Port of Partnerships. [Online report]. Retrieved from https://www.portofamsterdam.com/sites/poa/files/media/projecten/strategie/ha-visie-2030-juni_2015_los.pdf"
+      },
+      {
+        "key": "CIT0068",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eist.2017.03.002"
+      },
+      {
+        "key": "CIT0069",
+        "author": "Ranta V.",
+        "year": "2017",
+        "journal-title": "Resources, Conservation and Recycling"
+      },
+      {
+        "key": "CIT0070",
+        "volume-title": "Doughnut economics: Seven ways to think like a 21st-century economist",
+        "author": "Raworth K.",
+        "year": "2017"
+      },
+      {
+        "key": "CIT0071",
+        "author": "Reike D.",
+        "year": "2017",
+        "journal-title": "Resources, Conservation and Recycling"
+      },
+      {
+        "key": "CIT0072",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1542-734X.1983.0601_100.x"
+      },
+      {
+        "key": "CIT0073",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0002764211429368"
+      },
+      {
+        "key": "CIT0074",
+        "volume-title": "Evaluation of From Waste to Resources (VANG) programme 2014–2016",
+        "author": "RIVM",
+        "year": "2018"
+      },
+      {
+        "key": "CIT0075",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cities.2016.02.013"
+      },
+      {
+        "key": "CIT0076",
+        "volume-title": "A database of circular economy policies and projects: Europe (A) and initial exploration worldwide (B",
+        "author": "Savini F.",
+        "year": "2018"
+      },
+      {
+        "key": "CIT0077",
+        "unstructured": "Schmidt J.H & 2.0 Consultants. (2009). 25-year forecasts of the cumulated physical stocks, waste generation, and environmental impacts for each scenario for EU-27 and for the case study countries. [Online report: Report No. Deliverable 6-2]. Retrieved from http://forwast.brgm.fr/Documents/Deliverables/Forwast_D62.pdf"
+      },
+      {
+        "key": "CIT0078",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0734242X16650516"
+      },
+      {
+        "key": "CIT0079",
+        "volume-title": "Transition agenda circular Economa",
+        "author": "Taskforce Biomas and Food",
+        "year": "2017"
+      },
+      {
+        "key": "CIT0080",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jclepro.2017.09.047"
+      },
+      {
+        "issue": "1",
+        "key": "CIT0081",
+        "first-page": "23",
+        "volume": "17",
+        "author": "Valenzuela F.",
+        "year": "2017",
+        "journal-title": "Ephemera"
+      },
+      {
+        "key": "CIT0082",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/su8070647"
+      },
+      {
+        "key": "CIT0083",
+        "first-page": "227",
+        "volume-title": "The transport system and transport policy: An Introduction",
+        "author": "Van Wee B.",
+        "year": "2013"
+      },
+      {
+        "key": "CIT0084",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.0309-1317.2004.00535.x"
+      },
+      {
+        "key": "CIT0085",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1475-5661.2009.00362.x"
+      },
+      {
+        "key": "CIT0086",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.0309-1317.2004.00535.x"
+      },
+      {
+        "key": "CIT0087",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0042098018806133"
+      }
+    ],
+    "container-title": [
+      "Journal of Environmental Policy &amp; Planning"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.tandfonline.com/doi/pdf/10.1080/1523908X.2019.1670048",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          29
+        ]
+      ],
+      "date-time": "2022-09-29T04:43:47Z",
+      "timestamp": 1664426627000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.tandfonline.com/doi/full/10.1080/1523908X.2019.1670048"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          20
+        ]
+      ]
+    },
+    "references-count": 87,
+    "journal-issue": {
+      "issue": "6",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            11,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1080/1523908X.2019.1670048"
+    ],
+    "URL": "https://doi.org/10.1080/1523908x.2019.1670048",
+    "relation": {},
+    "ISSN": [
+      "1523-908X",
+      "1522-7200"
+    ],
+    "issn-type": [
+      {
+        "value": "1523-908X",
+        "type": "print"
+      },
+      {
+        "value": "1522-7200",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          20
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+        "order": 1,
+        "name": "peerreview_statement",
+        "label": "Peer Review Statement"
+      },
+      {
+        "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=cjoe20",
+        "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=cjoe20",
+        "order": 2,
+        "name": "aims_and_scope_url",
+        "label": "Aim & Scope"
+      },
+      {
+        "value": "2018-05-01",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-08-18",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-09-20",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

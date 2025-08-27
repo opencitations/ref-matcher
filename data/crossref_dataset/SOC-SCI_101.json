@@ -1,0 +1,320 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          3
+        ]
+      ],
+      "date-time": "2022-04-03T05:50:39Z",
+      "timestamp": 1648965039109
+    },
+    "reference-count": 33,
+    "publisher": "Cogitatio",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              30
+            ]
+          ],
+          "date-time": "2019-09-30T00:00:00Z",
+          "timestamp": 1569801600000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "UP"
+    ],
+    "abstract": "<jats:p>This article traces an African Housing Renaissance through the Trabantenstadt (Satellite City) vision for Kigali embedded in the Gacuriro Valley Satellite, which is composed of two settlements (or umudugudu, in Kinyarwanda): Kigali 2020 (2001–2005) and Kigali Vision (2013–2016). While the Kigali 2020 is an integrated Trabant (Satellite) which is able to interact with the existing context and trace the future built and unbuilt developments, the Kigali Vision adopts the idea of a protected compound, morphologically connected with the older settlements, but unable to tackle and solve spatial and social issues due to its ‘defensive’ character. The particular topography of the hillside receives an ambivalent interpretation: in the first umudugudu, the slope inspires the whole project, an organic raumplan, and in the second it has been denied, having been leveled for flat houses’ foundations and consequently a flat spatial indoor distribution. Nevertheless, this article argues that despite the evident architectural differences between the two settlements, they remain in the tradition of the Neues Bauen, in which mass housing represents the physical way of accommodating different social classes, granting equal and favorable living conditions. The typological variety demonstrates the aim to inclusively target distinct segments of the population. Apartment buildings (condominiums), row houses, twin houses and single houses mixed with public facilities, schools, a church, and sports structures, make up the settlements as unique pieces of a system and, at the same time, a singular whole.</jats:p>",
+    "DOI": "10.17645/up.v4i3.2210",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2019-09-30T17:24:25Z",
+      "timestamp": 1569864265000
+    },
+    "page": "265-290",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "African Housing Renaissance: The Case of Gacuriro Valley Satellite Settlements, Kigali, Rwanda"
+    ],
+    "prefix": "10.17645",
+    "volume": "4",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0003-2098-3414",
+        "authenticated-orcid": false,
+        "given": "Manlio",
+        "family": "Michieletto",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Olatunde",
+        "family": "Adedayo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Victor Bay",
+        "family": "Mukanya",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "6951",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          30
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "unstructured": "Badiene, A. (2013). Croissance Sans urbanisation durable, pas de développement durable [Growth without sustainable urbanization, no sustainable development]. Jeune Afrique, 4(1), 41-47."
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Byerley, A. (2018). Drawing white elephants in Africa? Re-contextualizing Ernst May’s Kampala plans in relation to the fraught political realities of late colonial rule. Planning Perspectives, 34(4), 643-666.",
+        "DOI": "10.1080/02665433.2018.1425635"
+      },
+      {
+        "key": "ref3",
+        "unstructured": "Demissie, F. (2012). Colonial architecture and urbanism in Africa: Intertwined and contested histories. Burlington: Ashgate."
+      },
+      {
+        "key": "ref4",
+        "unstructured": "Folkers, A. (2010). The contemporary African city. In A. Folkers (Ed.), Modern architecture in Africa (pp. 140–141). Amsterdam: SUN Architecture."
+      },
+      {
+        "key": "ref5",
+        "unstructured": "Göckede, R. (2012). The architect as a colonial technocrat of dependent modernisation: Ernst May’s plans for Kampala. In K. Pinther, L. Förster , & C. Hanussek (Eds.), Afropolis. City, media, art (pp. 54-65). Auckland Park: Jacana Media."
+      },
+      {
+        "key": "ref6",
+        "unstructured": "Gropius, W. (1929). Die Wohnformen: Flach-, Mittel-, oder Hochbau? [Housing types: Low, medium or high building]. Das Neue Berlin, 4, 74-80."
+      },
+      {
+        "key": "ref7",
+        "unstructured": "Gutschow, K. K. (2009). Das Neue Afrika: Ernst May’s 1947 Kampala plan as cultural program. London: Ashgate."
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Henderson, S. R. (2013). Building culture: Ernst May and the Frankfurt initiative, 1926–1931. New York, NY: Peter Lang.",
+        "DOI": "10.1093/gerhis/ghu070"
+      },
+      {
+        "key": "ref9",
+        "unstructured": "Herrel, E. (2001). Ernst May. Architekt und Stadtplanner in Afrika 1934–1953 [Ernst May. Architect and urban planner in Africa 1934–1953]. Frankfurt am Main: Deutsches Architektur Museum."
+      },
+      {
+        "key": "ref10",
+        "unstructured": "Kultermann, U. (1969). New directions in African architecture. London: Studio Vista Limited."
+      },
+      {
+        "key": "ref11",
+        "unstructured": "Manirakiza, V. (2011). Processus d’urbanisation de la ville de Kigali, Rwanda: Relation entre la dynamique spatiale et démographique [Urbanization process of the city of Kigali, Rwanda: Relationship between spatial and demographic dynamics]. Paper presented at the Conference Urbanisation, Migrations Internes et Comportements Démographiques, Louvain-la-Neuve."
+      },
+      {
+        "key": "ref12",
+        "unstructured": "May, E. (1922). Stadterweiterung mittels Trabanten [Satellites urban development]. Schlesishes Heim, 11, 271."
+      },
+      {
+        "key": "ref13",
+        "unstructured": "May, E. (1923). Stadterweiterungsplan für den Westteil von Leobschütz [Urban development plan for the western part of Leobschütz]. Schlesishes Heim, 1, 194."
+      },
+      {
+        "key": "ref14",
+        "unstructured": "May, E. (1928). Der Wohnungsbau der Stadt Frankfurt am Main 1925–1928 [The housing construction of Frankfurt am Main 1925–1928]. Das Neue Frankfurt. Monatschrift für die Fragen der Groβstadt-gestaltung, 1928(7/8)."
+      },
+      {
+        "key": "ref15",
+        "unstructured": "May, E. (1929). Die Wohnung für das Existenzminimum [The apartment for the subsistence minimum]. In Das neue Frankfurt, 11, 209-211."
+      },
+      {
+        "key": "ref16",
+        "unstructured": "May, E. (1930). Fünf Jahre Wohnungsbautätigkeit in Frankfurt am Main [Five years of housing construction in Frankfurt am Main]. Das Neue Frankfurt. Monatschrift für die Fragen der Groβstadt-gestaltung, 1930(2/3), 31."
+      },
+      {
+        "key": "ref17",
+        "unstructured": "May, E. (1947). Report on the Kampala extension scheme, Kololo-Naguru (Government Report). Nairobi."
+      },
+      {
+        "key": "ref18",
+        "unstructured": "Michieletto, M. (2013). Le Caire, Lagos Kinshasa. Cosmographie de continents urbaines [Cairo, Lagos Kinshasa. Cosmography of urban continents]. Paper presented at the Conférence Internationale, Nouveau Cosmographie Africaine 2050, Venice, Italy."
+      },
+      {
+        "key": "ref19",
+        "unstructured": "Michieletto, M. (2011a). Compose the Siedlung: The Niddatal project by Ernst May, Frankfurt 1925–1930 (Unpublished Doctoral dissertation). IUAV University, Venice, Italy."
+      },
+      {
+        "key": "ref20",
+        "unstructured": "Michieletto, M. (2011b). Von Sparsamen Bauen [On affordable housing]. In S. Malcovati & A. Moro (Eds.), Peter Behrens. Maestro di maestri [Peter Behrens. Master of masters] (pp. 65–68). Milano: Libraccio."
+      },
+      {
+        "key": "ref21",
+        "unstructured": "Michieletto, M. (2011c). Siedlung Praunheim Komponieren [Composing the Praunheim Siedlung]. In H. Preβler & S. Böhner (Eds.), May-Siedlung Praunheim 1927–2011 (pp. 26–29). Frankfurt am Main: Verlagshaus Zarbock."
+      },
+      {
+        "key": "ref22",
+        "unstructured": "Mumford, E. (2002). The CIAM discourse on urbanism, 1928–1960. Cambridge, MA: MIT Press."
+      },
+      {
+        "key": "ref23",
+        "unstructured": "Panerai, P., Castex, J., Depaule, J. C. & Samuels, I. (1997). Formes urbaines, de l’Îlot à la barre [Urban forms, from the block to the unit]. Marseilles: Editions Parenthèses."
+      },
+      {
+        "key": "ref24",
+        "unstructured": "REMA. (2017). Rwanda state of environment and outlook report 2017. Achieving sustainable urbanization. Kigali: Surbana."
+      },
+      {
+        "key": "ref25",
+        "unstructured": "Ribbeck, E. (2005). Die Welt wird Stadt, Stadtbilder aus Asien, Afrika, Lateinamerika [The world becomes city, cityscapes from Asia, Africa, Latin America]. Stuttgart: Taschenbuch."
+      },
+      {
+        "key": "ref26",
+        "unstructured": "ROR. (2004). National human settlement policy. Kigali: Ministry of Infrastructure, Republic of Rwanda."
+      },
+      {
+        "key": "ref27",
+        "unstructured": "Rossi, A. (1984). The architecture of the city. Cambridge, MA: The MIT Press."
+      },
+      {
+        "key": "ref28",
+        "unstructured": "Rudloff, C. H. (1931). Die Siedlung Römerstadt bei Frankfurt am Main [The Römerstadt Siedlung in Frankfurt am Main]. Deutsche Bauzeitung, 65, 649."
+      },
+      {
+        "key": "ref29",
+        "unstructured": "Schürmeyer, W. (1928). Siedlungspolitik und Stadterweiterung in Frankfurt am Main [Siedlung policy and urban development in Frankfurt am Main]. Stadt und Siedlung, 1, 3."
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Smith, K. H., & Berlanda, T. (2018). Interpreting Kigali, Rwanda. Fayetteville: The University of Arkansas Press.",
+        "DOI": "10.2307/j.ctv3mt8t6"
+      },
+      {
+        "key": "ref31",
+        "unstructured": "Surbana International Consultants (2013). Kigali city Masterplan report (Task order No. 3). Kigali: Surbana."
+      },
+      {
+        "key": "ref32",
+        "unstructured": "Tafuri, M. (1977). Kapitalismus und Architektur. Von Corbusier “Utopia” zur Trabantestadt [Capitalism and architecture. From Corbusier “Utopia” to satellite city]. Hamburg: VSA."
+      },
+      {
+        "key": "ref33",
+        "unstructured": "Umucunguzi, R. (2018). Ibiciro by’inyubako zo muri Vision City byagabanyijweho 60% ku bakozi ba leta [Prices for Vision City homes slashed 60% for civil servants]. Igihe. Retrieved from http://www.igihe.com"
+      }
+    ],
+    "container-title": [
+      "Urban Planning"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.cogitatiopress.com/urbanplanning/article/viewFile/2210/2210",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.cogitatiopress.com/urbanplanning/article/viewFile/2210/2210",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          22
+        ]
+      ],
+      "date-time": "2020-07-22T14:47:09Z",
+      "timestamp": 1595429229000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.cogitatiopress.com/urbanplanning/article/view/2210"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          30
+        ]
+      ]
+    },
+    "references-count": 33,
+    "journal-issue": {
+      "issue": "3",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            9,
+            30
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.17645/up.v4i3.2210",
+    "relation": {},
+    "ISSN": [
+      "2183-7635"
+    ],
+    "issn-type": [
+      {
+        "value": "2183-7635",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          30
+        ]
+      ]
+    }
+  }
+}

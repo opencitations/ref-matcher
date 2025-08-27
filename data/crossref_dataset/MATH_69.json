@@ -1,0 +1,282 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          1
+        ]
+      ],
+      "date-time": "2022-04-01T03:32:36Z",
+      "timestamp": 1648783956651
+    },
+    "reference-count": 10,
+    "publisher": "Informa UK Limited",
+    "issue": "10",
+    "content-domain": {
+      "domain": [
+        "www.tandfonline.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Linear and Multilinear Algebra"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1080/03081087.2018.1481357",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          22
+        ]
+      ],
+      "date-time": "2018-06-22T12:30:38Z",
+      "timestamp": 1529670638000
+    },
+    "page": "2065-2076",
+    "update-policy": "http://dx.doi.org/10.1080/tandf_crossmark_01",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Almost self-inverse graphs"
+    ],
+    "prefix": "10.1080",
+    "volume": "67",
+    "author": [
+      {
+        "given": "R. B.",
+        "family": "Bapat",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Indian Statistical Institute Delhi Center, New Delhi, India"
+          }
+        ]
+      },
+      {
+        "given": "S. K.",
+        "family": "Panda",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Technion-Israel Institute of Technology, Haifa, Israel"
+          }
+        ]
+      }
+    ],
+    "member": "301",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          22
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "CIT0001",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02579440"
+      },
+      {
+        "key": "CIT0002",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.laa.2006.10.017"
+      },
+      {
+        "key": "CIT0003",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/03081087.2015.1091434"
+      },
+      {
+        "key": "CIT0004",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13001/1081-3810.2865"
+      },
+      {
+        "key": "CIT0005",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13001/1081-3810.3322"
+      },
+      {
+        "key": "CIT0006",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21136/CMJ.2017.0429-16"
+      },
+      {
+        "key": "CIT0007",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.laa.2017.04.017"
+      },
+      {
+        "key": "CIT0008",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02122687"
+      },
+      {
+        "key": "CIT0009",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.laa.2009.03.032"
+      },
+      {
+        "key": "CIT0010",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.laa.2011.05.010"
+      }
+    ],
+    "container-title": [
+      "Linear and Multilinear Algebra"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.tandfonline.com/doi/pdf/10.1080/03081087.2018.1481357",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          1
+        ]
+      ],
+      "date-time": "2019-08-01T11:29:46Z",
+      "timestamp": 1564658986000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.tandfonline.com/doi/full/10.1080/03081087.2018.1481357"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          22
+        ]
+      ]
+    },
+    "references-count": 10,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2018,
+            6,
+            28
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1080/03081087.2018.1481357"
+    ],
+    "URL": "https://doi.org/10.1080/03081087.2018.1481357",
+    "relation": {},
+    "ISSN": [
+      "0308-1087",
+      "1563-5139"
+    ],
+    "issn-type": [
+      {
+        "value": "0308-1087",
+        "type": "print"
+      },
+      {
+        "value": "1563-5139",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          22
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+        "order": 1,
+        "name": "peerreview_statement",
+        "label": "Peer Review Statement"
+      },
+      {
+        "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=glma20",
+        "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=glma20",
+        "order": 2,
+        "name": "aims_and_scope_url",
+        "label": "Aim & Scope"
+      },
+      {
+        "value": "2017-11-19",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2018-05-22",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2018-06-22",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

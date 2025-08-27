@@ -1,0 +1,701 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          3
+        ]
+      ],
+      "date-time": "2024-07-03T21:55:57Z",
+      "timestamp": 1720043757909
+    },
+    "reference-count": 54,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2019-09-01T00:00:00Z",
+          "timestamp": 1567296000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Data &amp; Knowledge Engineering"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.datak.2019.101721",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          24
+        ]
+      ],
+      "date-time": "2019-07-24T15:16:02Z",
+      "timestamp": 1563981362000
+    },
+    "page": "101721",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "special_numbering": "C",
+    "title": [
+      "An efficient dynamic switching algorithm for mining colossal closed itemsets from high dimensional datasets"
+    ],
+    "prefix": "10.1016",
+    "volume": "123",
+    "author": [
+      {
+        "given": "Manjunath K.",
+        "family": "Vanahalli",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Nagamma",
+        "family": "Patil",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.datak.2019.101721_b1",
+        "series-title": "Proc. 20th Int. Conf. Very Large Data Bases, VLDB, Vol. 1215",
+        "first-page": "487",
+        "article-title": "Fast algorithms for mining association rules",
+        "author": "Agrawal",
+        "year": "1994"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b2",
+        "series-title": "ACM Sigmod Record, Vol. 27",
+        "first-page": "85",
+        "article-title": "Efficiently mining long patterns from databases",
+        "author": "Bayardo Jr",
+        "year": "1998"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b3",
+        "series-title": "ACM Sigmod Record, Vol. 29",
+        "first-page": "1",
+        "article-title": "Mining frequent patterns without candidate generation",
+        "author": "Han",
+        "year": "2000"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b4",
+        "doi-asserted-by": "crossref",
+        "first-page": "278",
+        "DOI": "10.1016/j.ins.2014.02.060",
+        "article-title": "A frequent itemset mining algorithm based on the principle of inclusion–exclusion and transaction mapping",
+        "volume": "276",
+        "author": "Lin",
+        "year": "2014",
+        "journal-title": "Inform. Sci."
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b5",
+        "series-title": "Database Systems for Advanced Applications, 2003.(DASFAA 2003). Proceedings. Eighth International Conference on",
+        "first-page": "65",
+        "article-title": "Ascending frequency ordered prefix-tree: efficient mining of frequent patterns",
+        "author": "Liu",
+        "year": "2003"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b6",
+        "series-title": "FIMI",
+        "article-title": "Afopt: An efficient implementation of pattern growth approach",
+        "author": "Liu",
+        "year": "2003"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b7",
+        "series-title": "Machine Learning and Cybernetics, 2004. Proceedings of 2004 International Conference on, Vol. 3",
+        "first-page": "1665",
+        "article-title": "An improved algorithm of mining from fp-tree",
+        "author": "Qiu",
+        "year": "2004"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.datak.2019.101721_b8",
+        "doi-asserted-by": "crossref",
+        "first-page": "559",
+        "DOI": "10.1016/j.ins.2008.10.027",
+        "article-title": "Efficient single-pass frequent pattern mining using a prefix-tree",
+        "volume": "179",
+        "author": "Tanbeer",
+        "year": "2009",
+        "journal-title": "Inform. Sci."
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b9",
+        "series-title": "Health Informatics and Bioinformatics (HIBIT), 2011 6th International Symposium on",
+        "first-page": "116",
+        "article-title": "Mining frequent patterns from microarray data",
+        "author": "Yildiz",
+        "year": "2011"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.datak.2019.101721_b10",
+        "doi-asserted-by": "crossref",
+        "first-page": "507",
+        "DOI": "10.1016/j.knosys.2008.03.011",
+        "article-title": "Index-bittablefi: An improved algorithm for mining frequent itemsets",
+        "volume": "21",
+        "author": "Song",
+        "year": "2008",
+        "journal-title": "Knowl.-Based Syst."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.datak.2019.101721_b11",
+        "doi-asserted-by": "crossref",
+        "first-page": "321",
+        "DOI": "10.1023/B:DAPD.0000031634.19130.bd",
+        "article-title": "Frequent pattern mining on message passing multiprocessor systems",
+        "volume": "16",
+        "author": "Javed",
+        "year": "2004",
+        "journal-title": "Distrib. Parallel Databases"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.datak.2019.101721_b12",
+        "doi-asserted-by": "crossref",
+        "first-page": "205",
+        "DOI": "10.1504/IJAHUC.2010.035533",
+        "article-title": "A novel parallel algorithm for frequent pattern mining with privacy preserved in cloud computing environments",
+        "volume": "6",
+        "author": "Lin",
+        "year": "2010",
+        "journal-title": "Int. J. Ad Hoc Ubiquitous Comput."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.datak.2019.101721_b13",
+        "doi-asserted-by": "crossref",
+        "first-page": "2486",
+        "DOI": "10.1016/j.eswa.2009.07.072",
+        "article-title": "Parallel tid-based frequent pattern mining algorithm on a pc cluster and grid computing system",
+        "volume": "37",
+        "author": "Yu",
+        "year": "2010",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b14",
+        "series-title": "Semantics, Knowledge and Grid, 2008. SKG’08. Fourth International Conference on",
+        "first-page": "103",
+        "article-title": "Balanced tidset-based parallel fp-tree algorithm for the frequent pattern mining on grid system",
+        "author": "Zhou",
+        "year": "2008"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b15",
+        "series-title": "Advances in Grid and Pervasive Computing",
+        "first-page": "18",
+        "article-title": "Tidset-based parallel fp-tree algorithm for the frequent pattern mining problem on pc clusters",
+        "author": "Zhou",
+        "year": "2008"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b16",
+        "doi-asserted-by": "crossref",
+        "first-page": "462",
+        "DOI": "10.1016/j.knosys.2012.09.005",
+        "article-title": "Parallel frequent itemset mining using systolic arrays",
+        "volume": "37",
+        "author": "Sohrabi",
+        "year": "2013",
+        "journal-title": "Knowl.-Based Syst."
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b17",
+        "doi-asserted-by": "crossref",
+        "first-page": "10",
+        "DOI": "10.1016/j.knosys.2013.04.004",
+        "article-title": "Efficient algorithms for frequent pattern mining in many-task computing environments",
+        "volume": "49",
+        "author": "Lin",
+        "year": "2013",
+        "journal-title": "Knowl.-Based Syst."
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b18",
+        "series-title": "Data Mining, 2007. ICDM 2007. Seventh IEEE International Conference on",
+        "first-page": "242",
+        "article-title": "Parallel mining of frequent closed patterns: Harnessing modern computer architectures",
+        "author": "Lucchese",
+        "year": "2007"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b19",
+        "series-title": "Data Mining, 2006. ICDM’06. Sixth International Conference on",
+        "first-page": "97",
+        "article-title": "Adaptive parallel graph mining for cmp architectures",
+        "author": "Buehrer",
+        "year": "2006"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b20",
+        "series-title": "Data Mining Workshops (ICDMW), 2012 IEEE 12th International Conference on",
+        "first-page": "449",
+        "article-title": "Mapreduce-based closed frequent itemset mining with efficient redundancy filtering",
+        "author": "Wang",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b21",
+        "series-title": "Data Mining Workshop (ICDMW), 2015 IEEE International Conference on",
+        "first-page": "839",
+        "article-title": "Pampa-hd: a parallel mapreduce-based frequent pattern miner for high-dimensional data",
+        "author": "Apiletti",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b22",
+        "series-title": "High Performance Computing and Simulation (HPCS), 2010 International Conference on",
+        "first-page": "521",
+        "article-title": "Discovering closed frequent itemsets on multicore: Parallelizing computations and optimizing memory accesses",
+        "author": "Negrevergne",
+        "year": "2010"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.datak.2019.101721_b23",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1109/TKDE.2006.10",
+        "article-title": "Fast and memory efficient mining of frequent closed itemsets",
+        "volume": "18",
+        "author": "Lucchese",
+        "year": "2006",
+        "journal-title": "IEEE Trans. Knowl. Data Eng."
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b24",
+        "series-title": "Database Theory—ICDT’99",
+        "first-page": "398",
+        "article-title": "Discovering frequent closed itemsets for association rules",
+        "author": "Pasquier",
+        "year": "1999"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b25",
+        "series-title": "ACM SIGMOD Workshop on Research Issues in Data Mining and Knowledge Discovery, Vol. 4",
+        "first-page": "21",
+        "article-title": "Closet: An efficient algorithm for mining frequent closed itemsets",
+        "author": "Pei",
+        "year": "2000"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b26",
+        "series-title": "FIMI, Vol. 90",
+        "article-title": "Lcm: An efficient algorithm for enumerating frequent closed item sets",
+        "author": "Uno",
+        "year": "2003"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b27",
+        "series-title": "Fimi, Vol. 126",
+        "article-title": "Lcm ver 2: Efficient mining algorithms for frequent/closed/maximal itemsets",
+        "author": "Uno",
+        "year": "2004"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b28",
+        "series-title": "Proceedings of the 1st International Workshop on Open Source Data Mining: Frequent Pattern Mining Implementations",
+        "first-page": "77",
+        "article-title": "Lcm ver. 3: collaboration of array, bitmap and prefix tree for frequent itemset mining",
+        "author": "Uno",
+        "year": "2005"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b29",
+        "series-title": "Proceedings of the Ninth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+        "first-page": "236",
+        "article-title": "Closet+: Searching for the best strategies for mining frequent closed itemsets",
+        "author": "Wang",
+        "year": "2003"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b30",
+        "series-title": "SDM, Vol. 2",
+        "first-page": "457",
+        "article-title": "Charm: An efficient algorithm for closed itemset mining",
+        "author": "Zaki",
+        "year": "2002"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.datak.2019.101721_b31",
+        "doi-asserted-by": "crossref",
+        "first-page": "462",
+        "DOI": "10.1109/TKDE.2005.60",
+        "article-title": "Efficient algorithms for mining closed itemsets and their lattice structure",
+        "volume": "17",
+        "author": "Zaki",
+        "year": "2005",
+        "journal-title": "IEEE Trans. Knowl. Data Eng."
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b32",
+        "series-title": "Data Mining, 2004. ICDM’04. Fourth IEEE International Conference on",
+        "first-page": "363",
+        "article-title": "Mining frequent closed patterns in microarray data",
+        "author": "Cong",
+        "year": "2004"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b33",
+        "series-title": "Proceeding of the 2006 SIAM International Conference on Data Mining (SDM’06)",
+        "first-page": "280",
+        "article-title": "Mining frequent patterns on very high dimensional data: a topdown row enumeration approach",
+        "author": "Liu",
+        "year": "2006"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.datak.2019.101721_b34",
+        "doi-asserted-by": "crossref",
+        "first-page": "899",
+        "DOI": "10.1016/j.ins.2008.11.033",
+        "article-title": "Top-down mining of frequent closed patterns from very high dimensional data",
+        "volume": "179",
+        "author": "Liu",
+        "year": "2009",
+        "journal-title": "Inform. Sci."
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b35",
+        "series-title": "Proceedings of the Ninth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+        "first-page": "637",
+        "article-title": "Carpenter: Finding closed patterns in long biological datasets",
+        "author": "Pan",
+        "year": "2003"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b36",
+        "series-title": "Sixth International Conference on Graphic and Image Processing (ICGIP 2014), International Society for Optics and Photonics",
+        "first-page": "94431V",
+        "article-title": "Top-down vertical itemset mining",
+        "author": "Sohrabi",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b37",
+        "doi-asserted-by": "crossref",
+        "first-page": "171",
+        "DOI": "10.1016/j.ins.2014.04.044",
+        "article-title": "Disclosed: An efficient depth-first, top-down algorithm for mining disjunctive closed itemsets in high-dimensional data",
+        "volume": "280",
+        "author": "Vimieiro",
+        "year": "2014",
+        "journal-title": "Inform. Sci."
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b38",
+        "series-title": "Scientific and Statistical Database Management, 2004. Proceedings. 16th International Conference on",
+        "first-page": "21",
+        "article-title": "Cobbler: combining column and row enumeration for closed pattern discovery",
+        "author": "Pan",
+        "year": "2004"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b39",
+        "first-page": "bbp042",
+        "article-title": "Gene association analysis: a survey of frequent pattern mining from gene expression data",
+        "author": "Alves",
+        "year": "2009",
+        "journal-title": "Brief. Bioinform."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.datak.2019.101721_b40",
+        "doi-asserted-by": "crossref",
+        "first-page": "54",
+        "DOI": "10.1186/1471-2105-7-54",
+        "article-title": "Integrated analysis of gene expression by association rules discovery",
+        "volume": "7",
+        "author": "Carmona-Saez",
+        "year": "2006",
+        "journal-title": "BMC Bioinform."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.datak.2019.101721_b41",
+        "doi-asserted-by": "crossref",
+        "first-page": "1299",
+        "DOI": "10.1089/cmb.2006.13.1299",
+        "article-title": "Detecting conserved interaction patterns in biological networks",
+        "volume": "13",
+        "author": "Koyutürk",
+        "year": "2006",
+        "journal-title": "J. Comput. Biol."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.datak.2019.101721_b42",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pone.0047411",
+        "article-title": "Cross-ontology multi-level association rule mining in the gene ontology",
+        "volume": "7",
+        "author": "Manda",
+        "year": "2012",
+        "journal-title": "PLoS One"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.datak.2019.101721_b43",
+        "doi-asserted-by": "crossref",
+        "first-page": "216",
+        "DOI": "10.1093/bib/bbt074",
+        "article-title": "A primer to frequent itemset mining for bioinformatics",
+        "volume": "16",
+        "author": "Naulaerts",
+        "year": "2015",
+        "journal-title": "Brief. Bioinform."
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b44",
+        "doi-asserted-by": "crossref",
+        "first-page": "75",
+        "DOI": "10.1016/j.knosys.2017.01.034",
+        "article-title": "Efficient algorithms for mining colossal patterns in high dimensional databases",
+        "volume": "122",
+        "author": "Nguyen",
+        "year": "2017",
+        "journal-title": "Knowl.-Based Syst."
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b45",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1016/j.knosys.2012.03.003",
+        "article-title": "Efficient colossal pattern mining in high dimensional datasets",
+        "volume": "33",
+        "author": "Sohrabi",
+        "year": "2012",
+        "journal-title": "Knowl.-Based Syst."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.datak.2019.101721_b46",
+        "doi-asserted-by": "crossref",
+        "first-page": "609",
+        "DOI": "10.1109/TCBB.2011.131",
+        "article-title": "Subcellular localization prediction through boosting association rules",
+        "volume": "9",
+        "author": "Yoon",
+        "year": "2012",
+        "journal-title": "IEEE/ACM Trans. Comput. Biol. Bioinform."
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b47",
+        "series-title": "Data Engineering, 2007. ICDE 2007. IEEE 23rd International Conference on",
+        "first-page": "706",
+        "article-title": "Mining colossal frequent patterns by core pattern fusion",
+        "author": "Zhu",
+        "year": "2007"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b48",
+        "series-title": "Formal Concept Analysis",
+        "first-page": "244",
+        "article-title": "Finding top-n colossal patterns based on clique search with dynamic update of graph",
+        "author": "Okubo",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b49",
+        "series-title": "Emerging Trends in Knowledge Discovery and Data Mining",
+        "first-page": "141",
+        "article-title": "Disclose: discovering colossal closed itemsets via a memory efficient compact row-tree",
+        "author": "Zulkurnain",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b50",
+        "series-title": "Systems, Man, and Cybernetics (SMC), 2016 IEEE International Conference on",
+        "first-page": "003119",
+        "article-title": "A new method for mining colossal patterns",
+        "author": "Nguyen",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b51",
+        "series-title": "International Conference on Information Systems Architecture and Technology",
+        "first-page": "195",
+        "article-title": "Constraint-based method for mining colossal patterns in high dimensional databases",
+        "author": "Nguyen",
+        "year": "2017"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.datak.2019.101721_b52",
+        "doi-asserted-by": "crossref",
+        "first-page": "59",
+        "DOI": "10.3233/IDA-2005-9105",
+        "article-title": "Constraint-based concept mining and its application to microarray data analysis",
+        "volume": "9",
+        "author": "Besson",
+        "year": "2005",
+        "journal-title": "Intell. Data Anal."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.datak.2019.101721_b53",
+        "doi-asserted-by": "crossref",
+        "first-page": "652",
+        "DOI": "10.1109/TKDE.2005.81",
+        "article-title": "Tfp: An efficient algorithm for mining top-k frequent closed itemsets",
+        "volume": "17",
+        "author": "Wang",
+        "year": "2005",
+        "journal-title": "IEEE Trans. Knowl. Data Eng."
+      },
+      {
+        "key": "10.1016/j.datak.2019.101721_b54",
+        "unstructured": "Biological-Datasets, http://datam.i2r.a-star.edu.sg/datasets/krbd/index.html."
+      }
+    ],
+    "container-title": [
+      "Data &amp; Knowledge Engineering"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0169023X18301009?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0169023X18301009?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          11,
+          8
+        ]
+      ],
+      "date-time": "2019-11-08T16:35:53Z",
+      "timestamp": 1573230953000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0169023X18301009"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          9
+        ]
+      ]
+    },
+    "references-count": 54,
+    "alternative-id": [
+      "S0169023X18301009"
+    ],
+    "URL": "https://doi.org/10.1016/j.datak.2019.101721",
+    "relation": {},
+    "ISSN": [
+      "0169-023X"
+    ],
+    "issn-type": [
+      {
+        "value": "0169-023X",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          9
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "An efficient dynamic switching algorithm for mining colossal closed itemsets from high dimensional datasets",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Data & Knowledge Engineering",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.datak.2019.101721",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 Elsevier B.V. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "101721"
+  }
+}

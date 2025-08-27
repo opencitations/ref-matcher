@@ -1,0 +1,573 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          12
+        ]
+      ],
+      "date-time": "2024-09-12T11:57:59Z",
+      "timestamp": 1726142279527
+    },
+    "reference-count": 27,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              13
+            ]
+          ],
+          "date-time": "2019-06-13T00:00:00Z",
+          "timestamp": 1560384000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              13
+            ]
+          ],
+          "date-time": "2019-06-13T00:00:00Z",
+          "timestamp": 1560384000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100012363",
+        "name": "Saudi Arabia Cultural Bureau in London",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100012363",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J Autism Dev Disord"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1007/s10803-019-04101-1",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          13
+        ]
+      ],
+      "date-time": "2019-06-13T15:03:48Z",
+      "timestamp": 1560438228000
+    },
+    "page": "3973-3982",
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 40,
+    "title": [
+      "Is There a Link Between Autistic People Being Perceived Unfavorably and Having a Mind That Is Difficult to Read?"
+    ],
+    "prefix": "10.1007",
+    "volume": "49",
+    "author": [
+      {
+        "given": "Rabi Samil",
+        "family": "Alkhaldi",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-6528-0766",
+        "authenticated-orcid": false,
+        "given": "Elizabeth",
+        "family": "Sheppard",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Peter",
+        "family": "Mitchell",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          13
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "4101_CR1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1176/appi.books.9780890425596",
+        "volume-title": "Diagnostic and statistical manual of mental disorders",
+        "author": "American Psychiatric Association",
+        "year": "2013",
+        "unstructured": "American Psychiatric Association. (2013). Diagnostic and statistical manual of mental disorders (5th ed.). Washington, DC: American Psychiatric Association.",
+        "edition": "5"
+      },
+      {
+        "key": "4101_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "2248",
+        "DOI": "10.1073/pnas.1516191113",
+        "volume": "113",
+        "author": "S Anders",
+        "year": "2016",
+        "unstructured": "Anders, S., de Jong, R., Beck, C., Haynes, J., & Ethofer, T. (2016). A neural link between affective understanding and interpersonal attraction. Proceedings of the National Academy of Sciences of the United States of America,\n                           113, 2248–2257.",
+        "journal-title": "Proceedings of the National Academy of Sciences of the United States of America"
+      },
+      {
+        "key": "4101_CR3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7551/mitpress/4635.001.0001",
+        "volume-title": "Mindblindness",
+        "author": "S Baron-Cohen",
+        "year": "1995",
+        "unstructured": "Baron-Cohen, S. (1995). Mindblindness. Cambridge: MIT Press."
+      },
+      {
+        "key": "4101_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "147",
+        "DOI": "10.1080/13668250410001709494",
+        "volume": "29",
+        "author": "JD Beadle-Brown",
+        "year": "2004",
+        "unstructured": "Beadle-Brown, J. D., & Whiten, A. (2004). Elicited imitation in children and adults with autism: Is there a deficit? Journal of Intellectual and Developmental Disability,\n                           29, 147–163.",
+        "journal-title": "Journal of Intellectual and Developmental Disability"
+      },
+      {
+        "key": "4101_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "e11",
+        "DOI": "10.1016/S2215-0366(17)30162-1",
+        "volume": "6",
+        "author": "S Cassidy",
+        "year": "2017",
+        "unstructured": "Cassidy, S., & Rodgers, J. (2017). Understanding and preventing suicide in autism. The Lancet Psychiatry,\n                           6, e11.",
+        "journal-title": "The Lancet Psychiatry"
+      },
+      {
+        "key": "4101_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "879",
+        "DOI": "10.1037/abn0000199",
+        "volume": "125",
+        "author": "R Edey",
+        "year": "2016",
+        "unstructured": "Edey, R., Cook, J., Brewer, R., Johnson, M. H., Bird, G., & Press, C. (2016). Interaction takes two: Typical adults exhibit mind-blindness towards those with Autism Spectrum Disorder. Journal of Abnormal Psychology,\n                           125, 879.",
+        "journal-title": "Journal of Abnormal Psychology"
+      },
+      {
+        "key": "4101_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "75",
+        "DOI": "10.1007/s10803-014-2194-7",
+        "volume": "45",
+        "author": "DJ Faso",
+        "year": "2015",
+        "unstructured": "Faso, D. J., Sasson, N. J., & Pinkham, A. E. (2015). Evaluating posed and evoked facial expressions of emotion from adults with autism spectrum disorder. Journal of Autism and Developmental Disorders,\n                           45, 75–89.",
+        "journal-title": "Journal of Autism and Developmental Disorders"
+      },
+      {
+        "key": "4101_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "493",
+        "DOI": "10.1016/S1364-6613(98)01262-5",
+        "volume": "2",
+        "author": "V Gallese",
+        "year": "1998",
+        "unstructured": "Gallese, V., & Goldman, A. (1998). Mirror neurons and the simulation theory of mind-reading. Trends in Cognitive Sciences,\n                           2, 493–501.",
+        "journal-title": "Trends in Cognitive Sciences"
+      },
+      {
+        "key": "4101_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "1035",
+        "DOI": "10.1044/1092-4388(2012/12-0067)",
+        "volume": "56",
+        "author": "RB Grossman",
+        "year": "2013",
+        "unstructured": "Grossman, R. B., Edelson, L. R., & Tager-Flusberg, H. (2013). Emotional facial and vocal expressions during story retelling by children and adolescents with high-functioning autism. Journal of Speech, Language and Hearing Research,\n                           56, 1035–1044.",
+        "journal-title": "Journal of Speech, Language and Hearing Research"
+      },
+      {
+        "key": "4101_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "243",
+        "DOI": "10.2307/1416950",
+        "volume": "57",
+        "author": "F Heider",
+        "year": "1944",
+        "unstructured": "Heider, F., & Simmel, M. (1944). An experimental study of apparent behavior. The American Journal of Psychology,\n                           57, 243.",
+        "journal-title": "The American Journal of Psychology"
+      },
+      {
+        "key": "4101_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "389",
+        "DOI": "10.1016/S1364-6613(98)01230-3",
+        "volume": "2",
+        "author": "A Karmiloff-Smith",
+        "year": "1998",
+        "unstructured": "Karmiloff-Smith, A. (1998). Development itself is the key to understanding developmental disorders. Trends in Cognitive Sciences,\n                           2, 389–398.",
+        "journal-title": "Trends in Cognitive Sciences"
+      },
+      {
+        "key": "4101_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "31",
+        "DOI": "10.1007/s10803-013-1966-9",
+        "volume": "45",
+        "author": "B López",
+        "year": "2015",
+        "unstructured": "López, B. (2015). Beyond modularisation: The need of a socio-neuro-constructivist model of autism. Journal of Autism and Developmental Disorders,\n                           45, 31–41.",
+        "journal-title": "Journal of Autism and Developmental Disorders"
+      },
+      {
+        "key": "4101_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "865",
+        "DOI": "10.1111/j.1469-7610.1989.tb00288.x",
+        "volume": "30",
+        "author": "H Macdonald",
+        "year": "1989",
+        "unstructured": "Macdonald, H., Rutter, M., Howlin, P., Rios, P., Le Couter, A., Evered, C., et al. (1989). Recognition and expression of emotional cues by autistic and normal adults. Journal of Child Psychology and Psychiatry,\n                           30, 865–877.",
+        "journal-title": "Journal of Child Psychology and Psychiatry"
+      },
+      {
+        "key": "4101_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "883",
+        "DOI": "10.1080/09687599.2012.710008",
+        "volume": "27",
+        "author": "D Milton",
+        "year": "2012",
+        "unstructured": "Milton, D. (2012). On the ontological status of autism: The double empathy problem. Disability and Society,\n                           27, 883–887.",
+        "journal-title": "Disability and Society"
+      },
+      {
+        "key": "4101_CR15",
+        "volume-title": "Environmental influences on ToM development",
+        "author": "P Mitchell",
+        "year": "2017",
+        "unstructured": "Mitchell, P. (2017). Mindreading as a transactional process: Insights from autism. In V. Slaughter & M. de Rosnay (Eds.), Environmental influences on ToM development. Hove: Psychology Press."
+      },
+      {
+        "key": "4101_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "8",
+        "DOI": "10.1016/j.jneumeth.2006.11.017",
+        "volume": "162",
+        "author": "JW Peirce",
+        "year": "2007",
+        "unstructured": "Peirce, J. W. (2007). PsychoPy—psychophysics software in Python. Journal of Neuroscience Methods,\n                           162, 8–13.",
+        "journal-title": "Journal of Neuroscience Methods"
+      },
+      {
+        "issue": "11",
+        "key": "4101_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "e49859",
+        "DOI": "10.1371/journal.pone.0049859",
+        "volume": "7",
+        "author": "D Pillai",
+        "year": "2012",
+        "unstructured": "Pillai, D., Sheppard, E., & Mitchell, P. (2012). Can people guess what happened to others from their reactions? PLoS ONE,\n                           7(11), e49859.",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "key": "4101_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "2430",
+        "DOI": "10.1007/s10803-014-2106-x",
+        "volume": "44",
+        "author": "D Pillai",
+        "year": "2014",
+        "unstructured": "Pillai, D., Sheppard, E., Ropar, D., Marsh, L., Pearson, A., & Mitchell, P. (2014). Using other minds as a window onto the world: Guessing what happened from clues in behavior. Journal of Autism and Developmental Disorders,\n                           44, 2430–2439.",
+        "journal-title": "Journal of Autism and Developmental Disorders"
+      },
+      {
+        "key": "4101_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "2147",
+        "DOI": "10.1016/j.neubiorev.2012.07.004",
+        "volume": "36",
+        "author": "M Poletti",
+        "year": "2012",
+        "unstructured": "Poletti, M., Enrici, I., & Adenzato, M. (2012). Cognitive and affective Theory of Mind in neurodegenerative diseases: Neuropsychological, neuroanatomical and neurochemical levels. Neuroscience & Bioehavioral Reviews,\n                           36, 2147–2164.",
+        "journal-title": "Neuroscience & Bioehavioral Reviews"
+      },
+      {
+        "key": "4101_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "3291",
+        "DOI": "10.1016/j.neuropsychologia.2010.07.012",
+        "volume": "48",
+        "author": "C Press",
+        "year": "2010",
+        "unstructured": "Press, C., Richardson, D., & Bird, G. (2010). Intact imitation of facial actions in autism spectrum conditions. Neuropsychologia,\n                           48, 3291–3297.",
+        "journal-title": "Neuropsychologia"
+      },
+      {
+        "key": "4101_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "40700",
+        "DOI": "10.1038/srep40700",
+        "volume": "7",
+        "author": "N Sasson",
+        "year": "2017",
+        "unstructured": "Sasson, N., Faso, D., Nugent, J., Lovell, S., Kennedy, D., & Grossman, R. (2017). Neurotypical peers are less willing to interact with those with autism based on thin slice judgments. Scientific Reports,\n                           7, 40700.",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "key": "4101_CR22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1362361317729526",
+        "author": "N Sasson",
+        "year": "2017",
+        "unstructured": "Sasson, N., & Morrison, K. E. (2017). First impressions of adults with autism improve with diagnostic disclosure and increased autism knowledge of peers. Autism. \n                    https://doi.org/10.1177/1362361317729526\n                    \n                  .",
+        "journal-title": "Autism"
+      },
+      {
+        "issue": "4",
+        "key": "4101_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "1247",
+        "DOI": "10.1007/s10803-015-2662-8",
+        "volume": "46",
+        "author": "E Sheppard",
+        "year": "2016",
+        "unstructured": "Sheppard, E., Pillai, D., Wong, G., Ropar, D., & Mitchell, P. (2016). How easy is it to read the minds of people with Autism Spectrum Disorder? Journal of Autism and Developmental Disorders,\n                           46(4), 1247–1254.",
+        "journal-title": "Journal of Autism and Developmental Disorders"
+      },
+      {
+        "key": "4101_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "704",
+        "DOI": "10.1177/1362361313492392",
+        "volume": "18",
+        "author": "SD Stagg",
+        "year": "2014",
+        "unstructured": "Stagg, S. D., Slavny, R., Hand, C., Cardoso, A., & Smith, P. (2014). Does facial expressivity count? How typically developing children respond initially to children with autism. Autism,\n                           18, 704–711.",
+        "journal-title": "Autism"
+      },
+      {
+        "key": "4101_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "48",
+        "DOI": "10.1016/j.cognition.2016.11.003",
+        "volume": "159",
+        "author": "Y Teoh",
+        "year": "2017",
+        "unstructured": "Teoh, Y., Wallis, E., Stephen, I., & Mitchell, P. (2017). Seeing the world through others’ minds: Inferring social context from behavior. Cognition,\n                           159, 48–60.",
+        "journal-title": "Cognition"
+      },
+      {
+        "key": "4101_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "1165",
+        "DOI": "10.1037/a0013067",
+        "volume": "95",
+        "author": "G Thomas",
+        "year": "2008",
+        "unstructured": "Thomas, G., & Maio, G. R. (2008). Man, I feel like a woman: When and how gender-role motivation helps mind-reading. Journal of Personality and Social Psychology,\n                           95, 1165–1179.",
+        "journal-title": "Journal of Personality and Social Psychology"
+      },
+      {
+        "key": "4101_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "195",
+        "DOI": "10.1177/1088357609347325",
+        "volume": "24",
+        "author": "MA Volker",
+        "year": "2009",
+        "unstructured": "Volker, M. A., Lopata, C., Smith, D. A., & Thomeer, M. L. (2009). Facial encoding of children with high-functioning autism spectrum disorders. Focus on Autism and Other Developmental Disabilities,\n                           24, 195–204.",
+        "journal-title": "Focus on Autism and Other Developmental Disabilities"
+      }
+    ],
+    "container-title": [
+      "Journal of Autism and Developmental Disorders"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s10803-019-04101-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/article/10.1007/s10803-019-04101-1/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s10803-019-04101-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          11
+        ]
+      ],
+      "date-time": "2020-06-11T23:15:26Z",
+      "timestamp": 1591917326000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://link.springer.com/10.1007/s10803-019-04101-1"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          13
+        ]
+      ]
+    },
+    "references-count": 27,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "4101"
+    ],
+    "URL": "https://doi.org/10.1007/s10803-019-04101-1",
+    "relation": {},
+    "ISSN": [
+      "0162-3257",
+      "1573-3432"
+    ],
+    "issn-type": [
+      {
+        "value": "0162-3257",
+        "type": "print"
+      },
+      {
+        "value": "1573-3432",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          13
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "13 June 2019",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Compliance with Ethical Standards"
+        }
+      },
+      {
+        "value": "The authors declare that they have no conflict of interest.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Conflict of interest"
+        }
+      },
+      {
+        "value": "All procedures performed in studies involving human participants were in accordance with the ethical standards of the institutional and/or national research committee and with the 1964 Helsinki declaration and its later amendments or comparable ethical standards.",
+        "order": 3,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Ethical Approval"
+        }
+      },
+      {
+        "value": "Informed consent was obtained from all individual participants included in the study.",
+        "order": 4,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Informed Consent"
+        }
+      }
+    ]
+  }
+}

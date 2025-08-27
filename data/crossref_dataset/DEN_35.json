@@ -1,0 +1,588 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          4
+        ]
+      ],
+      "date-time": "2024-09-04T05:12:47Z",
+      "timestamp": 1725426767912
+    },
+    "reference-count": 50,
+    "publisher": "Wiley",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              29
+            ]
+          ],
+          "date-time": "2019-05-29T00:00:00Z",
+          "timestamp": 1559088000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100002428",
+        "name": "Austrian Science Fund",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "P29440"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002428",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "aap.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Periodontology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:title>Background</jats:title><jats:p>Although periodontitis is associated with disruption of the host‐microbial homeostasis, viruses are currently discussed to influence disease progression. Viral pathogens are recognized by Toll‐like receptor (TLR)‐3, which engages a different signaling pathway than other TLRs. This study aimed to investigate the effect of TLR‐3 agonist polyinosinic:polycytidylic acid (Poly I:C) on the expression of inflammatory markers and bone metabolism proteins by human periodontal ligament stem cells (hPDLSCs) compared with TLR‐2 agonist Pam3CSK4, which mimics the effect of bacterial lipoproteins. To assess potential combined effects of bacterial and viral infections, hPDLSCs response to simultaneous TLR‐2 and TLR‐3 activation was investigated.</jats:p></jats:sec><jats:sec><jats:title>Methods</jats:title><jats:p>HPDLSCs were stimulated with Poly I:C (0.0001‐1 µg/mL), Pam3CSK4 (1 µg/mL), and their combinations for 24 hours. Gene expression and protein levels of interleukin (IL)‐6, IL‐8, monocyte chemoattractant protein (MCP)‐1, and osteoprotegerin (OPG) were measured with qPCR and ELISA.</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>Production of IL‐6, IL‐8, MCP‐1, and OPG was significantly increased by Poly I:C or Pam3CSK4 to a similar extent. The levels of all inflammatory mediators induced by simultaneous stimulation with Poly I:C and Pam3CSK4 were significantly higher compared with single stimuli as well as to their summed response. Gene expression and protein levels of OPG were enhanced by Poly I:C, but by lesser extent than by Pam3CSK4. OPG levels upon simultaneous stimulation with Pam3CSK4 and Poly I:C were significantly lower compared with Pam3CSK4 stimulation alone.</jats:p></jats:sec><jats:sec><jats:title>Conclusions</jats:title><jats:p>Simultaneous TLR‐2 and TLR‐3 activation synergistically triggers IL‐6, IL‐8, and MCP‐1 production, which was not observed for OPG. These findings suggest that TLR‐3 activation by viral infections might promote periodontitis progression.</jats:p></jats:sec>",
+    "DOI": "10.1002/jper.19-0005",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          3
+        ]
+      ],
+      "date-time": "2019-05-03T05:59:42Z",
+      "timestamp": 1556863182000
+    },
+    "page": "1190-1201",
+    "update-policy": "http://dx.doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 23,
+    "title": [
+      "Synergistic effects triggered by simultaneous Toll‐like receptor‐2 and ‐3 activation in human periodontal ligament stem cells"
+    ],
+    "prefix": "10.1002",
+    "volume": "90",
+    "author": [
+      {
+        "given": "Alice",
+        "family": "Blufstein",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Conservative Dentistry and Periodontology University Clinic of Dentistry Medical University of Vienna  Vienna Austria"
+          }
+        ]
+      },
+      {
+        "given": "Christian",
+        "family": "Behm",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Conservative Dentistry and Periodontology University Clinic of Dentistry Medical University of Vienna  Vienna Austria"
+          }
+        ]
+      },
+      {
+        "given": "Johannes",
+        "family": "Gahn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Conservative Dentistry and Periodontology University Clinic of Dentistry Medical University of Vienna  Vienna Austria"
+          }
+        ]
+      },
+      {
+        "given": "Oksana",
+        "family": "Uitz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Conservative Dentistry and Periodontology University Clinic of Dentistry Medical University of Vienna  Vienna Austria"
+          }
+        ]
+      },
+      {
+        "given": "Ivana",
+        "family": "Naumovska",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Conservative Dentistry and Periodontology University Clinic of Dentistry Medical University of Vienna  Vienna Austria"
+          }
+        ]
+      },
+      {
+        "given": "Andreas",
+        "family": "Moritz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Conservative Dentistry and Periodontology University Clinic of Dentistry Medical University of Vienna  Vienna Austria"
+          }
+        ]
+      },
+      {
+        "given": "Xiaohui",
+        "family": "Rausch‐Fan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Conservative Dentistry and Periodontology University Clinic of Dentistry Medical University of Vienna  Vienna Austria"
+          }
+        ]
+      },
+      {
+        "given": "Oleh",
+        "family": "Andrukhov",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Conservative Dentistry and Periodontology University Clinic of Dentistry Medical University of Vienna  Vienna Austria"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          29
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/prd.12221"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/prd.12105"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nri3785"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/prd.12085"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1600-0757.2006.00179.x"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/v3060920"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ni.1863"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/odi.12468"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1902/jop.2012.120496"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/IAI.01036-12"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cyto.2008.01.006"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "first-page": "6186",
+        "article-title": "Toll‐like receptor 4 gene polymorphism is associated with chronic periodontitis",
+        "volume": "8",
+        "author": "Ding Y‐S",
+        "year": "2015",
+        "journal-title": "Int J Clin Exp Med"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jre.12066"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1600-051X.2011.01702.x"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4049/jimmunol.177.12.8296"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/omi.12165"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2013.11.024"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2015/972313"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1601-6343.2007.00399.x"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jre.12193"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/prd.12024"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00784-013-0935-1"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "article-title": "TLR activation inhibits the osteogenic potential of human periodontal ligament stem cells through Akt signaling in a Myd88‐ or TRIF‐dependent manner",
+        "author": "Zhu Y",
+        "year": "2018",
+        "journal-title": "J Periodontol"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "first-page": "205",
+        "volume-title": "Interface Oral Health Science 2016",
+        "author": "Klincumhom N",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jre.12549"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0160848"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-017-12480-7"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/eji.200636483"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.imlet.2007.11.014"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0180073"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/ar1917"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0065-2776(08)60509-X"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/154405910708600403"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1600-0463.2009.02532.x"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "first-page": "8127301",
+        "article-title": "The response of periodontal ligament stem cells to toll‐like receptor 2 agonists is enhanced by soluble CD14",
+        "volume": "2019",
+        "author": "Behm C",
+        "journal-title": "Mediators Inflamm"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4049/jimmunol.178.2.1151"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/IAI.72.9.5041-5051.2004"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2007.09.008"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bbrc.2009.08.062"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.immuni.2010.03.012"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1510760112"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "first-page": "21",
+        "volume-title": "Periodontology and Dental Implantology",
+        "author": "Andrukhov O",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fimmu.2012.00182"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2353/ajpath.2006.060180"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1359/jbmr.1999.14.9.1486"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1034/j.1600-0722.2003.00051.x"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.micpath.2007.03.001"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bone.2004.04.023"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jcb.23109"
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/scd.2014.0127"
+      }
+    ],
+    "container-title": [
+      "Journal of Periodontology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2FJPER.19-0005",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/JPER.19-0005",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/JPER.19-0005",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/JPER.19-0005",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          8
+        ]
+      ],
+      "date-time": "2023-09-08T21:49:23Z",
+      "timestamp": 1694209763000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0005"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          29
+        ]
+      ]
+    },
+    "references-count": 50,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/JPER.19-0005"
+    ],
+    "URL": "https://doi.org/10.1002/jper.19-0005",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0022-3492",
+      "1943-3670"
+    ],
+    "issn-type": [
+      {
+        "value": "0022-3492",
+        "type": "print"
+      },
+      {
+        "value": "1943-3670",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          29
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2019-01-05",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-04-17",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-05-29",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

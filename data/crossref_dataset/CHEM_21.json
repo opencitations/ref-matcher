@@ -1,0 +1,398 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          23
+        ]
+      ],
+      "date-time": "2024-09-23T04:12:24Z",
+      "timestamp": 1727064744836
+    },
+    "reference-count": 17,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              2
+            ]
+          ],
+          "date-time": "2019-09-02T00:00:00Z",
+          "timestamp": 1567382400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "American Lightweight Materials Manufacturing Innovation Institute",
+        "award": [
+          "N00014-14-2-0002"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Electrochemistry Communications"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.elecom.2019.106537",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          3
+        ]
+      ],
+      "date-time": "2019-09-03T02:18:25Z",
+      "timestamp": 1567477105000
+    },
+    "page": "106537",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 26,
+    "special_numbering": "C",
+    "title": [
+      "Hard chromium composite electroplating on high-strength stainless steel from a Cr(III)-ionic liquid solution"
+    ],
+    "prefix": "10.1016",
+    "volume": "107",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0002-4023-5504",
+        "authenticated-orcid": false,
+        "given": "Hadi",
+        "family": "Khani",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Joan F.",
+        "family": "Brennecke",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.elecom.2019.106537_bb0005",
+        "unstructured": "Directive 2002/95/EC of the European Parliament and of the Council of 27 January 2003 on the restriction of the use of certain hazardous substances in electrical and electronic equipment (RoHS) and amendments."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106537_bb0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "50",
+        "DOI": "10.2174/1874464810902010050",
+        "article-title": "A review of recent patents on trivalent chromium plating",
+        "volume": "2",
+        "author": "Zhixiang",
+        "year": "2009",
+        "journal-title": "Recent Pat. Mater. Sci."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106537_bb0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "91",
+        "DOI": "10.1016/j.ijhydene.2008.10.026",
+        "article-title": "Hydrogen evolution reaction of low carbon steel electrode in hydrochloric acid as a source for hydrogen production",
+        "volume": "34",
+        "author": "El-Meligi",
+        "year": "2009",
+        "journal-title": "Int. J. Hydrog. Energy"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106537_bb0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "3170",
+        "DOI": "10.1016/j.ijhydene.2006.03.017",
+        "article-title": "Studies on the hydrogen evolution reaction on different stainless steels",
+        "volume": "32",
+        "author": "Olivares-Ramírez",
+        "year": "2007",
+        "journal-title": "Int. J. Hydrog. Energy"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106537_bb0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "64174",
+        "DOI": "10.1039/C4RA12335B",
+        "article-title": "Electrochemical mechanism of Cr(III) reduction for preparing crystalline chromium coatings based on 1-butyl-3-methylimidazolium hydrogen sulfate ionic liquid",
+        "volume": "4",
+        "author": "He",
+        "year": "2014",
+        "journal-title": "RSC Adv."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106537_bb0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "245",
+        "DOI": "10.1016/j.electacta.2014.03.027",
+        "article-title": "Electrochemical mechanism of trivalent chromium reduction in 1-butyl-3-methylimidazolium bromide ionic liquid",
+        "volume": "130",
+        "author": "He",
+        "year": "2014",
+        "journal-title": "Electrochim. Acta"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106537_bb0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "4265",
+        "DOI": "10.1039/b607329h",
+        "article-title": "Application of ionic liquids to the electrodeposition of metals",
+        "volume": "8",
+        "author": "Abbott",
+        "year": "2006",
+        "journal-title": "PCCP"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106537_bb0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "4879",
+        "DOI": "10.1021/ie505026v",
+        "article-title": "Characterization of imidazolium chloride ionic liquids plus trivalent chromium chloride for chromium electroplating",
+        "volume": "54",
+        "author": "Sun",
+        "year": "2015",
+        "journal-title": "Ind. Eng. Chem. Res."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106537_bb0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "7",
+        "DOI": "10.1016/j.microc.2011.02.017",
+        "article-title": "Mechanistic study on the effect of PEG molecules in a trivalent chromium electrodeposition process",
+        "volume": "99",
+        "author": "Phuong",
+        "year": "2011",
+        "journal-title": "Microchem. J."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106537_bb0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "4349",
+        "DOI": "10.1016/j.surfcoat.2012.04.025",
+        "article-title": "The effects of pH and polyethylene glycol on the Cr(III) solution chemistry and electrodeposition of chromium",
+        "volume": "206",
+        "author": "Phuong",
+        "year": "2012",
+        "journal-title": "Surf. Coat. Technol."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106537_bb0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "13131",
+        "DOI": "10.1039/c3ra42770f",
+        "article-title": "Environmentally friendly chromium electrodeposition: effect of pre-electrolysis on a Cr(III) bath in an anion-exchange membrane reactor",
+        "volume": "3",
+        "author": "Yao",
+        "year": "2013",
+        "journal-title": "RSC Adv."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106537_bb0060",
+        "series-title": "Metals Handbook: Metallography and Microstructures, Volume 9",
+        "year": "1985"
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106537_bb0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "189",
+        "DOI": "10.1007/BF00616141",
+        "article-title": "The effect of the additive cetyl trimethyl ammonium bromide on the electrodeposition of lead dioxide",
+        "volume": "6",
+        "author": "Gnanasekaran",
+        "year": "1976",
+        "journal-title": "J. Appl. Electrochem."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106537_bb0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "158",
+        "DOI": "10.1016/j.surfcoat.2014.02.002",
+        "article-title": "Effects of phosphorus content on corrosion behavior of trivalent chromium coatings in 3.5 wt.% NaCl solution",
+        "volume": "244",
+        "author": "Ramezani-Varzaneh",
+        "year": "2014",
+        "journal-title": "Surf. Coat. Technol."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106537_bb0075",
+        "doi-asserted-by": "crossref",
+        "first-page": "1972",
+        "DOI": "10.1039/b407386j",
+        "article-title": "Electrochemical reduction of an imidazolium cation: a convenient preparation of imidazol-2-ylidenes and their observation in an ionic liquid",
+        "author": "Gorodetsky",
+        "year": "2004",
+        "journal-title": "Chem. Commun."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106537_bb0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "4107",
+        "DOI": "10.1016/j.matlet.2007.01.066",
+        "article-title": "Fabrication of a nanocrystalline Cr–C layer with excellent anti-wear performance",
+        "volume": "61",
+        "author": "Zeng",
+        "year": "2007",
+        "journal-title": "Mater. Lett."
+      },
+      {
+        "key": "10.1016/j.elecom.2019.106537_bb0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "1173",
+        "DOI": "10.1016/S0010-938X(02)00220-2",
+        "article-title": "Improved corrosion resistance through microstructural modifications induced by codepositing SiC-particles with electrolytic nickel",
+        "volume": "45",
+        "author": "Garcia",
+        "year": "2003",
+        "journal-title": "Corros. Sci."
+      }
+    ],
+    "container-title": [
+      "Electrochemistry Communications"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1388248119302000?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1388248119302000?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          8
+        ]
+      ],
+      "date-time": "2020-04-08T19:50:42Z",
+      "timestamp": 1586375442000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1388248119302000"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 17,
+    "alternative-id": [
+      "S1388248119302000"
+    ],
+    "URL": "https://doi.org/10.1016/j.elecom.2019.106537",
+    "relation": {},
+    "ISSN": [
+      "1388-2481"
+    ],
+    "issn-type": [
+      {
+        "value": "1388-2481",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Hard chromium composite electroplating on high-strength stainless steel from a Cr(III)-ionic liquid solution",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Electrochemistry Communications",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.elecom.2019.106537",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 The Authors. Published by Elsevier B.V.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "106537"
+  }
+}

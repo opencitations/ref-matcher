@@ -1,0 +1,1005 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          15
+        ]
+      ],
+      "date-time": "2024-09-15T06:29:27Z",
+      "timestamp": 1726381767840
+    },
+    "reference-count": 73,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              15
+            ]
+          ],
+          "date-time": "2019-10-15T00:00:00Z",
+          "timestamp": 1571097600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "31600820",
+          "81701158"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100011789",
+        "name": "Department of Science and Technology of Jilin Province",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "20180520110JH"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100011789",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Cell. Neurosci."
+    ],
+    "DOI": "10.3389/fncel.2019.00466",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2019-10-15T00:51:33Z",
+      "timestamp": 1571100693000
+    },
+    "update-policy": "http://dx.doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 47,
+    "title": [
+      "Maresin 1 Improves Cognitive Decline and Ameliorates Inflammation in a Mouse Model of Alzheimer’s Disease"
+    ],
+    "prefix": "10.3389",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Ping",
+        "family": "Yin",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Xu",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shuang",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yafen",
+        "family": "Wei",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jiachun",
+        "family": "Feng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mingqin",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          15
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "doi-asserted-by": "publisher",
+        "first-page": "826",
+        "DOI": "10.1093/brain/aww330",
+        "article-title": "Interleukin-2 improves amyloid pathology, synaptic failure and memory in Alzheimer’s disease mice.",
+        "volume": "140",
+        "author": "Alves",
+        "year": "2017",
+        "journal-title": "Brain"
+      },
+      {
+        "key": "B2",
+        "doi-asserted-by": "publisher",
+        "first-page": "429",
+        "DOI": "10.1002/ca.980080612",
+        "article-title": "An english translation of Alzheimer’s 1907 paper, “Uber eine eigenartige Erkankung der Hirnrinde”.",
+        "volume": "8",
+        "author": "Alzheimer",
+        "year": "1995",
+        "journal-title": "Clin. Anat."
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "first-page": "21409",
+        "DOI": "10.1074/jbc.M114.634162",
+        "article-title": "Nicotinic acetylcholine receptors sensitize a MAPK-linked toxicity pathway on prolonged exposure to beta-amyloid.",
+        "volume": "290",
+        "author": "Arora",
+        "year": "2015",
+        "journal-title": "J. Biol. Chem."
+      },
+      {
+        "key": "B4",
+        "doi-asserted-by": "publisher",
+        "first-page": "679",
+        "DOI": "10.1038/nri3495",
+        "article-title": "Mitogen-activated protein kinases in innate immunity.",
+        "volume": "13",
+        "author": "Arthur",
+        "year": "2013",
+        "journal-title": "Nat. Rev. Immunol."
+      },
+      {
+        "key": "B5",
+        "doi-asserted-by": "publisher",
+        "first-page": "349",
+        "DOI": "10.1111/j.1471-4159.2004.02722.x",
+        "article-title": "MAPK recruitment by beta-amyloid in organotypic hippocampal slice cultures depends on physical state and exposure time.",
+        "volume": "91",
+        "author": "Bell",
+        "year": "2004",
+        "journal-title": "J. Neurochem."
+      },
+      {
+        "key": "B6",
+        "first-page": "141",
+        "article-title": "Brain interleukin-1β in Alzheimer’s disease and vascular dementia.",
+        "volume": "16",
+        "author": "Cacabelos",
+        "year": "1994",
+        "journal-title": "Methods Find Exp. Clin. Pharmacol."
+      },
+      {
+        "key": "B7",
+        "doi-asserted-by": "publisher",
+        "first-page": "497",
+        "DOI": "10.1007/s11011-016-9806-1",
+        "article-title": "The rise and fall of insulin signaling in Alzheimer’s disease.",
+        "volume": "31",
+        "author": "Chami",
+        "year": "2016",
+        "journal-title": "Metab. Brain Dis."
+      },
+      {
+        "key": "B8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1179573517709278",
+        "article-title": "Tumor necrosis factor alpha inhibition for Alzheimer’s disease.",
+        "volume": "9",
+        "author": "Chang",
+        "year": "2017",
+        "journal-title": "J. Cent. Nerv. Syst. Dis."
+      },
+      {
+        "key": "B9",
+        "doi-asserted-by": "publisher",
+        "first-page": "20315",
+        "DOI": "10.1074/jbc.M601016200",
+        "article-title": "ERK1/2 activation mediates Abeta oligomer-induced neurotoxicity via caspase-3 activation and tau cleavage in rat organotypic hippocampal slice cultures.",
+        "volume": "281",
+        "author": "Chong",
+        "year": "2006",
+        "journal-title": "J. Biol. Chem."
+      },
+      {
+        "key": "B10",
+        "doi-asserted-by": "publisher",
+        "first-page": "335",
+        "DOI": "10.1002/art.24266",
+        "article-title": "Evaluation of the efficacy and safety of pamapimod, a p38 MAP kinase inhibitor, in a double-blind, methotrexate-controlled study of patients with active rheumatoid arthritis.",
+        "volume": "60",
+        "author": "Cohen",
+        "year": "2009",
+        "journal-title": "Arthritis Rheum."
+      },
+      {
+        "key": "B11",
+        "doi-asserted-by": "publisher",
+        "first-page": "1704",
+        "DOI": "10.1111/j.1476-5381.2010.00669.x",
+        "article-title": "Soluble beta amyloid(1-42): a critical player in producing behavioural and biochemical changes evoking depressive-related state?",
+        "volume": "159",
+        "author": "Colaianna",
+        "year": "2010",
+        "journal-title": "Br. J. Pharmacol."
+      },
+      {
+        "key": "B12",
+        "doi-asserted-by": "publisher",
+        "first-page": "1179",
+        "DOI": "10.1523/jneurosci.21-04-01179.2001",
+        "article-title": "beta-Amyloid stimulation of microglia and monocytes results in TNFalpha-dependent expression of inducible nitric oxide synthase and neuronal apoptosis.",
+        "volume": "21",
+        "author": "Combs",
+        "year": "2001",
+        "journal-title": "J. Neurosci."
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "publisher",
+        "first-page": "12232",
+        "DOI": "10.1073/pnas.1607003113",
+        "article-title": "Maresin conjugates in tissue regeneration biosynthesis enzymes in human macrophages.",
+        "volume": "113",
+        "author": "Dalli",
+        "year": "2016",
+        "journal-title": "Proc. Natl. Acad. Sci. U.S.A."
+      },
+      {
+        "key": "B14",
+        "doi-asserted-by": "publisher",
+        "first-page": "2573",
+        "DOI": "10.1096/fj.13-227728",
+        "article-title": "The novel 13S,14S-epoxy-maresin is converted by human macrophages to maresin 1 (MaR1), inhibits leukotriene A4 hydrolase (LTA4H), and shifts macrophage phenotype.",
+        "volume": "27",
+        "author": "Dalli",
+        "year": "2013",
+        "journal-title": "FASEB J."
+      },
+      {
+        "key": "B15",
+        "doi-asserted-by": "publisher",
+        "first-page": "1237",
+        "DOI": "10.1093/brain/awv408",
+        "article-title": "Regulatory T cells delay disease progression in Alzheimer-like pathology.",
+        "volume": "139",
+        "author": "Dansokho",
+        "year": "2016",
+        "journal-title": "Brain"
+      },
+      {
+        "key": "B16",
+        "doi-asserted-by": "publisher",
+        "first-page": "70",
+        "DOI": "10.1016/0304-3940(95)11384-9",
+        "article-title": "Reciprocal control of inflammatory cytokines, IL-1 and IL-6, and Aβ production in cultures.",
+        "volume": "188",
+        "author": "Del Bo",
+        "year": "1995",
+        "journal-title": "Neurosci. Lett."
+      },
+      {
+        "key": "B17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0102362",
+        "article-title": "Maresin biosynthesis and identification of maresin 2, a new anti-inflammatory and pro-resolving mediator from human macrophages.",
+        "volume": "9",
+        "author": "Deng",
+        "year": "2014",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "B18",
+        "doi-asserted-by": "publisher",
+        "first-page": "4125",
+        "DOI": "10.1523/jneurosci.21-12-04125.2001",
+        "article-title": "Beta-amyloid activates the mitogen-activated protein kinase cascade via hippocampal alpha7 nicotinic acetylcholine receptors: in vitro and in vivo mechanisms related to Alzheimer’s disease.",
+        "volume": "21",
+        "author": "Dineley",
+        "year": "2001",
+        "journal-title": "J. Neurosci."
+      },
+      {
+        "key": "B19",
+        "doi-asserted-by": "publisher",
+        "first-page": "893",
+        "DOI": "10.3233/JAD-141335",
+        "article-title": "Restoration of lipoxin A4 signaling reduces Alzheimer’s disease-like pathology in the 3xTg-AD mouse model.",
+        "volume": "43",
+        "author": "Dunn",
+        "year": "2015",
+        "journal-title": "J. Alzheimers Dis."
+      },
+      {
+        "key": "B20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ncomms12859",
+        "article-title": "An imbalance between specialized pro-resolving lipid mediators and pro-inflammatory leukotrienes promotes instability of atherosclerotic plaques.",
+        "volume": "7",
+        "author": "Fredman",
+        "year": "2016",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "B21",
+        "doi-asserted-by": "publisher",
+        "first-page": "3086",
+        "DOI": "10.4049/jimmunol.1500610",
+        "article-title": "Female-specific downregulation of tissue polymorphonuclear neutrophils drives impaired regulatory T cell and amplified effector T cell responses in autoimmune dry eye disease.",
+        "volume": "195",
+        "author": "Gao",
+        "year": "2015",
+        "journal-title": "J. Immunol."
+      },
+      {
+        "key": "B22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fneur.2017.00244",
+        "article-title": "Role of interleukin-10 in acute brain injuries.",
+        "volume": "8",
+        "author": "Garcia",
+        "year": "2017",
+        "journal-title": "Front. Neurol."
+      },
+      {
+        "key": "B23",
+        "doi-asserted-by": "publisher",
+        "first-page": "185",
+        "DOI": "10.3233/JAD-130497",
+        "article-title": "BDNF, TNFalpha, HSP90, CFH, and IL-10 serum levels in patients with early or late onset Alzheimer’s disease or mild cognitive impairment.",
+        "volume": "37",
+        "author": "Gezen-Ak",
+        "year": "2013",
+        "journal-title": "J. Alzheimers Dis."
+      },
+      {
+        "key": "B24",
+        "doi-asserted-by": "publisher",
+        "first-page": "72",
+        "DOI": "10.1097/FJC.0000000000000245",
+        "article-title": "Resolvin D1 reduces infarct size through a phosphoinositide 3-kinase/protein kinase b mechanism.",
+        "volume": "66",
+        "author": "Gilbert",
+        "year": "2015",
+        "journal-title": "J. Cardiovasc. Pharmacol."
+      },
+      {
+        "key": "B25",
+        "doi-asserted-by": "publisher",
+        "first-page": "631",
+        "DOI": "10.1016/j.neuron.2013.04.014",
+        "article-title": "Alzheimer’s disease risk gene CD33 inhibits microglial uptake of amyloid-β.",
+        "volume": "78",
+        "author": "Griciuc",
+        "year": "2013",
+        "journal-title": "Neuron"
+      },
+      {
+        "key": "B26",
+        "doi-asserted-by": "publisher",
+        "first-page": "7611",
+        "DOI": "10.1073/pnas.86.19.7611",
+        "article-title": "Brain interleukin 1 and S-100 immunoreactivity are elevated in down syndrome and Alzheimer disease.",
+        "volume": "86",
+        "author": "Griffin",
+        "year": "1989",
+        "journal-title": "Proc. Natl. Acad. Sci. U.S.A."
+      },
+      {
+        "key": "B27",
+        "doi-asserted-by": "publisher",
+        "first-page": "534",
+        "DOI": "10.1016/j.neuron.2014.12.068",
+        "article-title": "Il10 deficiency rebalances innate immunity to mitigate Alzheimer-like pathology.",
+        "volume": "85",
+        "author": "Guillot-Sestier",
+        "year": "",
+        "journal-title": "Neuron"
+      },
+      {
+        "key": "B28",
+        "doi-asserted-by": "publisher",
+        "first-page": "674",
+        "DOI": "10.1016/j.tins.2015.08.008",
+        "article-title": "Innate immunity fights Alzheimer’s disease.",
+        "volume": "38",
+        "author": "Guillot-Sestier",
+        "year": "",
+        "journal-title": "Trends Neurosci."
+      },
+      {
+        "key": "B29",
+        "doi-asserted-by": "publisher",
+        "first-page": "1944",
+        "DOI": "10.1007/s11064-010-0351-358",
+        "article-title": "NPD1 induction of retinal pigment epithelial cell survival involves PI3K/Akt phosphorylation signaling.",
+        "volume": "35",
+        "author": "Halapin",
+        "year": "2010",
+        "journal-title": "Neurochem. Res."
+      },
+      {
+        "key": "B30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2019/2309175",
+        "article-title": "Maresin1 alleviates metabolic dysfunction in septic mice: a (1)H NMR-based metabolomics analysis.",
+        "volume": "2019",
+        "author": "Hao",
+        "year": "2019",
+        "journal-title": "Mediators Inflamm."
+      },
+      {
+        "key": "B31",
+        "doi-asserted-by": "publisher",
+        "first-page": "1129",
+        "DOI": "10.1111/j.1471-4159.2009.06181.x",
+        "article-title": "The amyloid hypothesis for Alzheimer’s disease: a critical reappraisal.",
+        "volume": "110",
+        "author": "Hardy",
+        "year": "2009",
+        "journal-title": "J. Neurochem."
+      },
+      {
+        "key": "B32",
+        "doi-asserted-by": "crossref",
+        "first-page": "2053",
+        "DOI": "10.1046/j.1471-4159.1999.0722053.x",
+        "article-title": "p38 kinase is activated in the Alzheimer’s disease brain.",
+        "volume": "72",
+        "author": "Hensley",
+        "year": "1999",
+        "journal-title": "J. Neurochem."
+      },
+      {
+        "key": "B33",
+        "doi-asserted-by": "publisher",
+        "first-page": "358",
+        "DOI": "10.1038/nrn3880",
+        "article-title": "Immune attack: the role of inflammation in Alzheimer disease.",
+        "volume": "16",
+        "author": "Heppner",
+        "year": "2015",
+        "journal-title": "Nat. Rev. Neurosci."
+      },
+      {
+        "key": "B34",
+        "doi-asserted-by": "publisher",
+        "first-page": "8354",
+        "DOI": "10.1523/JNEUROSCI.0616-08.2008",
+        "article-title": "Microglial dysfunction and defective beta-amyloid clearance pathways in aging Alzheimer’s disease mice.",
+        "volume": "28",
+        "author": "Hickman",
+        "year": "2008",
+        "journal-title": "J. Neurosci."
+      },
+      {
+        "key": "B35",
+        "doi-asserted-by": "publisher",
+        "first-page": "715",
+        "DOI": "10.1210/er.2011-1049",
+        "article-title": "Lipid metabolism and neuroinflammation in Alzheimer’s disease: a role for liver X receptors.",
+        "volume": "33",
+        "author": "Kang",
+        "year": "2012",
+        "journal-title": "Endocr. Rev."
+      },
+      {
+        "key": "B36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2013/863720",
+        "article-title": "7,8-Dihydroxyflavone suppresses oxidative stress-induced base modification in DNA via induction of the repair enzyme 8-oxoguanine DNA glycosylase-1.",
+        "volume": "2013",
+        "author": "Kim",
+        "year": "2013",
+        "journal-title": "Biomed. Res. Int."
+      },
+      {
+        "key": "B37",
+        "doi-asserted-by": "publisher",
+        "first-page": "239",
+        "DOI": "10.3892/or.2017.6101",
+        "article-title": "omega3-polyunsaturated fatty acids induce cell death through apoptosis and autophagy in glioblastoma cells: in vitro and in vivo.",
+        "volume": "39",
+        "author": "Kim",
+        "year": "2018",
+        "journal-title": "Oncol. Rep."
+      },
+      {
+        "key": "B38",
+        "doi-asserted-by": "publisher",
+        "first-page": "53",
+        "DOI": "10.1016/j.jbior.2015.05.002",
+        "article-title": "Class I PI 3-kinases: function and evolution.",
+        "volume": "59",
+        "author": "Kriplani",
+        "year": "2015",
+        "journal-title": "Adv. Biol. Regul."
+      },
+      {
+        "key": "B39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/molecules22081287",
+        "article-title": "Recent advances in the inhibition of p38 MAPK as a potential strategy for the treatment of Alzheimer’s disease.",
+        "volume": "22",
+        "author": "Lee",
+        "year": "2017",
+        "journal-title": "Molecules"
+      },
+      {
+        "key": "B40",
+        "doi-asserted-by": "publisher",
+        "first-page": "4405",
+        "DOI": "10.2174/0929867321666140915143040",
+        "article-title": "p38 MAPK: a potential target of chronic pain.",
+        "volume": "21",
+        "author": "Lin",
+        "year": "2014",
+        "journal-title": "Curr. Med. Chem."
+      },
+      {
+        "key": "B41",
+        "doi-asserted-by": "publisher",
+        "first-page": "2774",
+        "DOI": "10.1172/JCI25420",
+        "article-title": "A role for docosahexaenoic acid-derived neuroprotectin D1 in neural cell survival and Alzheimer disease.",
+        "volume": "115",
+        "author": "Lukiw",
+        "year": "2005",
+        "journal-title": "J. Clin. Invest."
+      },
+      {
+        "key": "B42",
+        "doi-asserted-by": "publisher",
+        "first-page": "485",
+        "DOI": "10.1016/j.yjmcc.2010.10.021",
+        "article-title": "The p38 mitogen-activated protein kinase pathway–a potential target for intervention in infarction, hypertrophy, and heart failure.",
+        "volume": "51",
+        "author": "Marber",
+        "year": "2011",
+        "journal-title": "J. Mol. Cell Cardiol."
+      },
+      {
+        "key": "B43",
+        "doi-asserted-by": "crossref",
+        "first-page": "1285",
+        "DOI": "10.1212/WNL.38.8.1285",
+        "article-title": "Reactive microglia are positive for HLA-DR in the substantia nigra of Parkinson’s and Alzheimer’s disease brains.",
+        "volume": "38",
+        "author": "McGeer",
+        "year": "1988",
+        "journal-title": "Neurology"
+      },
+      {
+        "key": "B44",
+        "doi-asserted-by": "publisher",
+        "first-page": "195",
+        "DOI": "10.1016/0304-3940(87)90696-3",
+        "article-title": "Reactive microglia in patients with senile dementia of the Alzheimer type are positive for the histocompatibility glycoprotein HLA-DR.",
+        "volume": "79",
+        "author": "McGeer",
+        "year": "1987",
+        "journal-title": "Neurosci. Lett."
+      },
+      {
+        "key": "B45",
+        "doi-asserted-by": "publisher",
+        "first-page": "1780",
+        "DOI": "10.1016/j.ajpath.2013.01.051",
+        "article-title": "Aspirin-triggered lipoxin A4 stimulates alternative activation of microglia and reduces Alzheimer disease-like pathology in mice.",
+        "volume": "182",
+        "author": "Medeiros",
+        "year": "2013",
+        "journal-title": "Am. J. Pathol."
+      },
+      {
+        "key": "B46",
+        "doi-asserted-by": "publisher",
+        "first-page": "450",
+        "DOI": "10.1016/j.neuron.2015.01.021",
+        "article-title": "Anti-inflammatory signaling in microglia exacerbates Alzheimer’s disease-related pathology.",
+        "volume": "85",
+        "author": "Michaud",
+        "year": "2015",
+        "journal-title": "Neuron"
+      },
+      {
+        "key": "B47",
+        "doi-asserted-by": "publisher",
+        "first-page": "20967",
+        "DOI": "10.1074/jbc.273.33.20967",
+        "article-title": "Macrophage colony-stimulating factor augments beta-amyloid-induced interleukin-1, interleukin-6, and nitric oxide production by microglial cells.",
+        "volume": "273",
+        "author": "Murphy",
+        "year": "1998",
+        "journal-title": "J. Biol. Chem."
+      },
+      {
+        "key": "B48",
+        "doi-asserted-by": "publisher",
+        "first-page": "647",
+        "DOI": "10.1016/j.exger.2013.02.025",
+        "article-title": "PI3-kinase/Akt/mTOR signaling: impaired on/off switches in aging, cognitive decline and Alzheimer’s disease.",
+        "volume": "48",
+        "author": "O’Neill",
+        "year": "2013",
+        "journal-title": "Exp. Gerontol."
+      },
+      {
+        "key": "B49",
+        "doi-asserted-by": "publisher",
+        "first-page": "493",
+        "DOI": "10.1016/j.bbi.2009.12.003",
+        "article-title": "Involvement of phosphoinositide 3-kinase gamma in the neuro-inflammatory response and cognitive impairments induced by beta-amyloid 1-40 peptide in mice.",
+        "volume": "24",
+        "author": "Passos",
+        "year": "2010",
+        "journal-title": "Brain Behav. Immun."
+      },
+      {
+        "key": "B50",
+        "doi-asserted-by": "publisher",
+        "first-page": "1179",
+        "DOI": "10.1038/cdd.2009.220",
+        "article-title": "Lipoxin A4 impairment of apoptotic signaling in macrophages: implication of the PI3K/Akt and the ERK/Nrf-2 defense pathways.",
+        "volume": "17",
+        "author": "Prieto",
+        "year": "2010",
+        "journal-title": "Cell Death Differ."
+      },
+      {
+        "key": "B51",
+        "doi-asserted-by": "publisher",
+        "first-page": "461",
+        "DOI": "10.1007/s00401-013-1182-x",
+        "article-title": "Microglia actions in Alzheimer’s disease.",
+        "volume": "126",
+        "author": "Prokop",
+        "year": "2013",
+        "journal-title": "Acta Neuropathol."
+      },
+      {
+        "key": "B52",
+        "doi-asserted-by": "publisher",
+        "first-page": "83",
+        "DOI": "10.1016/j.lfs.2017.06.009",
+        "article-title": "Gene networks in neurodegenerative disorders.",
+        "volume": "183",
+        "author": "Recabarren",
+        "year": "2017",
+        "journal-title": "Life Sci."
+      },
+      {
+        "key": "B53",
+        "doi-asserted-by": "publisher",
+        "first-page": "35",
+        "DOI": "10.1016/s0169-328x(97)00356-2",
+        "article-title": "Enhancement of beta-amyloid precursor protein transcription and expression by the soluble interleukin-6 receptor/interleukin-6 complex.",
+        "volume": "55",
+        "author": "Ringheim",
+        "year": "1998",
+        "journal-title": "Brain Res. Mol. Brain Res."
+      },
+      {
+        "key": "B54",
+        "doi-asserted-by": "publisher",
+        "first-page": "35282",
+        "DOI": "10.1074/jbc.M110785200",
+        "article-title": "Signal transduction through tyrosine-phosphorylated C-terminal fragments of amyloid precursor protein via an enhanced interaction with Shc/Grb2 adaptor proteins in reactive astrocytes of Alzheimer’s disease brain.",
+        "volume": "277",
+        "author": "Russo",
+        "year": "2002",
+        "journal-title": "J. Biol. Chem."
+      },
+      {
+        "key": "B55",
+        "doi-asserted-by": "publisher",
+        "first-page": "183",
+        "DOI": "10.1002/glia.10274",
+        "article-title": "High-yield isolation of murine microglia by mild trypsinization.",
+        "volume": "44",
+        "author": "Saura",
+        "year": "2003",
+        "journal-title": "Glia"
+      },
+      {
+        "key": "B56",
+        "doi-asserted-by": "publisher",
+        "first-page": "2067",
+        "DOI": "10.1074/jbc.M115.695916",
+        "article-title": "Deficiency of neuronal p38alpha MAPK attenuates amyloid pathology in alzheimer disease mouse and cell models through facilitating lysosomal degradation of BACE1.",
+        "volume": "291",
+        "author": "Schnoder",
+        "year": "2016",
+        "journal-title": "J. Biol. Chem."
+      },
+      {
+        "key": "B57",
+        "doi-asserted-by": "publisher",
+        "first-page": "92",
+        "DOI": "10.1038/nature13479",
+        "article-title": "Pro-resolving lipid mediators are leads for resolution physiology.",
+        "volume": "510",
+        "author": "Serhan",
+        "year": "2014",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "B58",
+        "doi-asserted-by": "publisher",
+        "first-page": "1273",
+        "DOI": "10.1096/fj.201601222R",
+        "article-title": "Treating inflammation and infection in the 21st century: new hints from decoding resolution mediators and mechanisms.",
+        "volume": "31",
+        "author": "Serhan",
+        "year": "2017",
+        "journal-title": "FASEB J."
+      },
+      {
+        "key": "B59",
+        "doi-asserted-by": "publisher",
+        "first-page": "381",
+        "DOI": "10.1006/bbrc.1999.0344",
+        "article-title": "Changes in caspase expression in Alzheimer’s disease: comparison with development and aging.",
+        "volume": "256",
+        "author": "Shimohama",
+        "year": "1999",
+        "journal-title": "Biochem. Biophys. Res. Commun."
+      },
+      {
+        "key": "B60",
+        "doi-asserted-by": "publisher",
+        "first-page": "486",
+        "DOI": "10.1212/WNL.0000000000000665",
+        "article-title": "Interleukin-6 and C-reactive protein as predictors of cognitive decline in late midlife.",
+        "volume": "83",
+        "author": "Singh-Manoux",
+        "year": "2014",
+        "journal-title": "Neurology"
+      },
+      {
+        "key": "B61",
+        "doi-asserted-by": "crossref",
+        "first-page": "427",
+        "DOI": "10.1615/CritRevImmunol.v21.i5.20",
+        "article-title": "Interleukin-10 in the brain.",
+        "volume": "21",
+        "author": "Strle",
+        "year": "2001",
+        "journal-title": "Crit. Rev. Immunol."
+      },
+      {
+        "key": "B62",
+        "doi-asserted-by": "publisher",
+        "first-page": "394",
+        "DOI": "10.1016/s0014-4886(03)00180-8",
+        "article-title": "P38 MAP kinase is activated at early stages in Alzheimer’s disease brain.",
+        "volume": "183",
+        "author": "Sun",
+        "year": "2003",
+        "journal-title": "Exp. Neurol."
+      },
+      {
+        "key": "B63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2017/9634803",
+        "article-title": "Maresin 1 ameliorates lung ischemia/reperfusion injury by suppressing oxidative stress via activation of the Nrf-2-mediated HO-1 signaling pathway.",
+        "volume": "2017",
+        "author": "Sun",
+        "year": "2017",
+        "journal-title": "Oxid. Med. Cell Longev."
+      },
+      {
+        "key": "B64",
+        "doi-asserted-by": "publisher",
+        "first-page": "103",
+        "DOI": "10.1016/j.intimp.2019.01.032",
+        "article-title": "Maresin1 regulates neutrophil recruitment and IL-10 expression in Aspergillus Fumigatus keratitis.",
+        "volume": "69",
+        "author": "Tang",
+        "year": "2019",
+        "journal-title": "Int Immunopharmacol"
+      },
+      {
+        "key": "B65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40035-018-0133-9",
+        "article-title": "Intranasal rapamycin ameliorates Alzheimer-like cognitive decline in a mouse model of down syndrome.",
+        "volume": "7",
+        "author": "Tramutola",
+        "year": "2018",
+        "journal-title": "Transl. Neurodegener."
+      },
+      {
+        "key": "B66",
+        "doi-asserted-by": "publisher",
+        "first-page": "33",
+        "DOI": "10.1080/14737175.2017.1244482",
+        "article-title": "Targeting mTOR to reduce Alzheimer-related cognitive decline: from current hits to future therapies.",
+        "volume": "17",
+        "author": "Tramutola",
+        "year": "2017",
+        "journal-title": "Expert Rev. Neurother."
+      },
+      {
+        "key": "B67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jalz.2013.12.024",
+        "article-title": "Resolution of inflammation is altered in Alzheimer’s disease.",
+        "volume": "11",
+        "author": "Wang",
+        "year": "2015",
+        "journal-title": "Alzheimers Dement."
+      },
+      {
+        "key": "B68",
+        "doi-asserted-by": "publisher",
+        "first-page": "769",
+        "DOI": "10.3892/mmr.2016.5321",
+        "article-title": "Dexmedetomidine attenuates repeated propofol exposure-induced hippocampal apoptosis, PI3K/Akt/Gsk-3beta signaling disruption, and juvenile cognitive deficits in neonatal rats.",
+        "volume": "14",
+        "author": "Wang",
+        "year": "2016",
+        "journal-title": "Mol. Med. Rep."
+      },
+      {
+        "key": "B69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0015600",
+        "article-title": "Aβ42 oligomers impair function of human embryonic stem cell-derived forebrain cholinergic neurons.",
+        "volume": "5",
+        "author": "Wicklund",
+        "year": "2010",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "B70",
+        "doi-asserted-by": "publisher",
+        "first-page": "456",
+        "DOI": "10.1016/j.jalz.2010.01.013",
+        "article-title": "Beneficial effects of docosahexaenoic acid on cognition in age-related cognitive decline.",
+        "volume": "6",
+        "author": "Yurko-Mauro",
+        "year": "2010",
+        "journal-title": "Alzheimers Dement."
+      },
+      {
+        "key": "B71",
+        "doi-asserted-by": "publisher",
+        "first-page": "543",
+        "DOI": "10.1038/labinvest.2016.150",
+        "article-title": "Maresin1 stimulates alveolar fluid clearance through the alveolar epithelial sodium channel Na, K-ATPase via the ALX/PI3K/Nedd4-2 pathway.",
+        "volume": "97",
+        "author": "Zhang",
+        "year": "2017",
+        "journal-title": "Lab. Invest."
+      },
+      {
+        "key": "B72",
+        "doi-asserted-by": "publisher",
+        "first-page": "2733",
+        "DOI": "10.1007/s12035-015-9544-0",
+        "article-title": "Pro-resolving lipid mediators improve neuronal survival and increase Abeta42 phagocytosis.",
+        "volume": "53",
+        "author": "Zhu",
+        "year": "2016",
+        "journal-title": "Mol. Neurobiol."
+      },
+      {
+        "key": "B73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1742-2094-9-47",
+        "article-title": "Who fans the flames of Alzheimer’s disease brains? Misfolded tau on the crossroad of neurodegenerative and inflammatory pathways.",
+        "volume": "9",
+        "author": "Zilka",
+        "year": "2012",
+        "journal-title": "J. Neuroinflamm."
+      }
+    ],
+    "container-title": [
+      "Frontiers in Cellular Neuroscience"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/article/10.3389/fncel.2019.00466/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2019-10-15T00:51:37Z",
+      "timestamp": 1571100697000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/article/10.3389/fncel.2019.00466/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          15
+        ]
+      ]
+    },
+    "references-count": 73,
+    "alternative-id": [
+      "10.3389/fncel.2019.00466"
+    ],
+    "URL": "https://doi.org/10.3389/fncel.2019.00466",
+    "relation": {},
+    "ISSN": [
+      "1662-5102"
+    ],
+    "issn-type": [
+      {
+        "value": "1662-5102",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          15
+        ]
+      ]
+    }
+  }
+}

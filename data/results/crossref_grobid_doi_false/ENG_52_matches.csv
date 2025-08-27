@@ -1,0 +1,4 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_2,Support-vector networks,Support-vector Networks,70,10.1007/bf00994018,https://w3id.org/oc/meta/br/061503305834,author_title
+ref_5,Efficient optimization of support vector machine learning parameters for unbalanced datasets,Efficient Optimization Of Support Vector Machine Learning Parameters For Unbalanced Datasets,70,10.1016/j.cam.2005.09.009,https://w3id.org/oc/meta/br/06220218298,author_title
+ref_10,,Performance Assessment Of Full-Scale Wastewater Treatment Plants Based On Seasonal Variability Of Microbial Communities Via High-Throughput Sequencing,70,10.1371/journal.pone.0152998,https://w3id.org/oc/meta/br/061701522672,author_title

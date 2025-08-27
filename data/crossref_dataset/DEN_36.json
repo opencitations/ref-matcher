@@ -1,0 +1,539 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          17
+        ]
+      ],
+      "date-time": "2024-07-17T21:40:10Z",
+      "timestamp": 1721252410950
+    },
+    "reference-count": 35,
+    "publisher": "Wiley",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              27
+            ]
+          ],
+          "date-time": "2019-05-27T00:00:00Z",
+          "timestamp": 1558915200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "aap.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Periodontology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:title>Background</jats:title><jats:p>Recently, a relationship was found between periodontitis and chronic migraine. Calcitonin gene‐related peptide (CGRP) is a key element in migraine pathophysiology. However, no information exists of the potential association between periodontal inflammation and CGRP in chronic migraine. The aim of the study was, therefore, to investigate whether there is a link between periodontitis and peripheral levels of CGRP in a cohort of patients with chronic migraine.</jats:p></jats:sec><jats:sec><jats:title>Methods</jats:title><jats:p>We included 102 chronic migraineurs and 77 age‐ and sex‐matched individuals free of headache/migraine. Full‐mouth periodontal parameters were recorded and the periodontal inflamed surface area (PISA) was calculated to quantify the periodontal inflammatory status for each participant. Sociodemographic data and comorbidities were assessed by means of a standard questionnaire. We collected blood samples and serum concentrations were done for CGRP, interleukin (IL)‐6 and IL‐10.</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>In the chronic migraine group, patients with periodontitis had greater levels of serum CGRP (19.7 ± 6.5 versus 15.3 ± 6.2 pg/mL,<jats:italic>P</jats:italic>&lt; 0.0001) and IL‐6 (15.1 ± 9.2 versus 9.6 ± 6.3 pg/mL,<jats:italic>P</jats:italic> &lt; 0.0001) while non‐significant differences were observed with IL‐10 (2.0 ± 1.0 versus 2.8 ± 1.5 pg/mL,<jats:italic>P</jats:italic> = 0.675) concentrations than those without periodontitis. PISA was independently associated with CGRP in patients with chronic migraine (β = 0.003; 95% confidence interval: 0.001 to 0.006,<jats:italic>P</jats:italic> = 0.031). PISA correlated positively with CGRP (r = 0.236;<jats:italic>P</jats:italic> = 0.017) and IL‐6 (r = 0.262;<jats:italic>P</jats:italic> = 0.008) in chronic migraine.</jats:p></jats:sec><jats:sec><jats:title>Conclusions</jats:title><jats:p>Periodontal inflammation is associated with increased circulating levels of CGRP in chronic migraineurs. Elucidating the exact mechanisms through which periodontitis and CGRP are linked in these patients deserves further investigation.</jats:p></jats:sec>",
+    "DOI": "10.1002/jper.19-0051",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          9
+        ]
+      ],
+      "date-time": "2019-05-09T16:45:08Z",
+      "timestamp": 1557420308000
+    },
+    "page": "1088-1095",
+    "update-policy": "http://dx.doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 24,
+    "title": [
+      "Periodontal inflammation is related to increased serum calcitonin gene‐related peptide levels in patients with chronic migraine"
+    ],
+    "prefix": "10.1002",
+    "volume": "90",
+    "author": [
+      {
+        "given": "Yago",
+        "family": "Leira",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Periodontology Unit UCL Eastman Dental Institute and Hospital University College London London UK"
+          },
+          {
+            "name": "Periodontology Unit Faculty of Medicine and Odontology University of Santiago de Compostela Santiago de Compostela Spain"
+          },
+          {
+            "name": "Medical‐Surgical Dentistry (OMEQUI) Research Group Health Research Institute of Santiago de Compostela (IDIS) Santiago de Compostela Spain"
+          }
+        ]
+      },
+      {
+        "given": "Pablo",
+        "family": "Ameijeira",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Periodontology Unit Faculty of Medicine and Odontology University of Santiago de Compostela Santiago de Compostela Spain"
+          }
+        ]
+      },
+      {
+        "given": "Clara",
+        "family": "Domínguez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Neurology Headache Unit University Clinical Hospital University of Santiago de Compostela Santiago de Compostela Spain"
+          }
+        ]
+      },
+      {
+        "given": "Esteban",
+        "family": "López‐Arias",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Clinical Neurosciences Research Laboratory Department of Neurology Clinical University Hospital Health Research Institute of Santiago de Compostela (IDIS) Santiago de Compostela Spain"
+          }
+        ]
+      },
+      {
+        "given": "Paulo",
+        "family": "Ávila‐Gómez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Clinical Neurosciences Research Laboratory Department of Neurology Clinical University Hospital Health Research Institute of Santiago de Compostela (IDIS) Santiago de Compostela Spain"
+          }
+        ]
+      },
+      {
+        "given": "María",
+        "family": "Pérez‐Mato",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Clinical Neurosciences Research Laboratory Department of Neurology Clinical University Hospital Health Research Institute of Santiago de Compostela (IDIS) Santiago de Compostela Spain"
+          }
+        ]
+      },
+      {
+        "given": "Tomás",
+        "family": "Sobrino",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Clinical Neurosciences Research Laboratory Department of Neurology Clinical University Hospital Health Research Institute of Santiago de Compostela (IDIS) Santiago de Compostela Spain"
+          }
+        ]
+      },
+      {
+        "given": "Francisco",
+        "family": "Campos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Clinical Neurosciences Research Laboratory Department of Neurology Clinical University Hospital Health Research Institute of Santiago de Compostela (IDIS) Santiago de Compostela Spain"
+          }
+        ]
+      },
+      {
+        "given": "Francesco",
+        "family": "D'Aiuto",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Periodontology Unit UCL Eastman Dental Institute and Hospital University College London London UK"
+          }
+        ]
+      },
+      {
+        "given": "Rogelio",
+        "family": "Leira",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Neurology Headache Unit University Clinical Hospital University of Santiago de Compostela Santiago de Compostela Spain"
+          },
+          {
+            "name": "Clinical Neurosciences Research Laboratory Department of Neurology Clinical University Hospital Health Research Institute of Santiago de Compostela (IDIS) Santiago de Compostela Spain"
+          }
+        ]
+      },
+      {
+        "given": "Juan",
+        "family": "Blanco",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Periodontology Unit Faculty of Medicine and Odontology University of Santiago de Compostela Santiago de Compostela Spain"
+          },
+          {
+            "name": "Medical‐Surgical Dentistry (OMEQUI) Research Group Health Research Institute of Santiago de Compostela (IDIS) Santiago de Compostela Spain"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          27
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1056/NEJMra010917"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0333102413485658"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1526-4610.2008.01217.x"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1474-4422(18)30322-3"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1468-2982.2002.00310.x"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ejphar.2004.07.035"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/WCO.0000000000000440"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ana.410280213"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0b013e31826170ce"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.0b013e3182a6cb72"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/j.pain.0000000000000119"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/head.12372"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/head.13211"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrdp.2017.38"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1161/01.ATV.0000078603.90302.4A"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10266-018-0360-7"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jcpe.12819"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/JPER.17-0603"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mehy.2017.03.019"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1523/JNEUROSCI.16-15-04742.1996"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0197-0186(01)00094-8"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00726-011-1161-2"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jclinepi.2007.11.008"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jcpe.13032"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "first-page": "229",
+        "article-title": "Problems and proposals for recording gingivitis and plaque",
+        "volume": "25",
+        "author": "Ainamo J",
+        "year": "1975",
+        "journal-title": "Int Dent J"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1902/jop.2012.110664"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1600-051X.2008.01249.x"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1034/j.1600-0765.2001.00011.x"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1212/WNL.64.10_suppl_2.S9"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "first-page": "54",
+        "article-title": "Calcitonin gene‐related peptide triggers migraine‐like attacks in patients with migraine with aura",
+        "volume": "22",
+        "author": "Hansen JM",
+        "year": "2002",
+        "journal-title": "Cephalalgia"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11910-015-0547-z"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s10194-018-0883-x"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.1902/jop.2017.170249",
+        "article-title": "Salivary neuropeptides, stress and periodontitis",
+        "volume": "89",
+        "author": "Haririan H",
+        "year": "2017",
+        "journal-title": "J Periodontol"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1034/j.1600-051X.1999.260403.x"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0165-5728(97)00257-9"
+      }
+    ],
+    "container-title": [
+      "Journal of Periodontology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2FJPER.19-0051",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/JPER.19-0051",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/JPER.19-0051",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/JPER.19-0051",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          17
+        ]
+      ],
+      "date-time": "2024-07-17T21:08:05Z",
+      "timestamp": 1721250485000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://aap.onlinelibrary.wiley.com/doi/10.1002/JPER.19-0051"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          27
+        ]
+      ]
+    },
+    "references-count": 35,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/JPER.19-0051"
+    ],
+    "URL": "https://doi.org/10.1002/jper.19-0051",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0022-3492",
+      "1943-3670"
+    ],
+    "issn-type": [
+      {
+        "value": "0022-3492",
+        "type": "print"
+      },
+      {
+        "value": "1943-3670",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          27
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2019-01-27",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-05-07",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-05-27",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

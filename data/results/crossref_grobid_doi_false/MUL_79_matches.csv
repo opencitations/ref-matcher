@@ -1,0 +1,28 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_1,Mol Biol Cell,C4orf41 And TTC-15 Are Mammalian TRAPP Components With A Role At An Early Stage In ER-to-Golgi Trafficking,70,10.1091/mbc.e10-11-0873,https://w3id.org/oc/meta/br/0617096969,author_title
+ref_2,EMBO J,A Genome-Wide RNA Interference Screen Identifies Two Novel Components Of The Metazoan Secretory Pathway,65,10.1038/emboj.2009.350,https://w3id.org/oc/meta/br/061401849418,author_title
+ref_3,Nature,BAG3 Proteomic Signature Under Proteostasis Stress,50,10.3390/cells9112416,https://w3id.org/oc/meta/br/06102202234,author_title
+ref_7,Mol Biol Cell,The TRAPP Complex Is A Nucleotide Exchanger For Ypt1 And Ypt31/32,70,10.1091/mbc.11.12.4403,https://w3id.org/oc/meta/br/0616099507,author_title
+ref_9,Case Rep Genet,Novel TRAPPC11 Mutations In A Chinese Pedigree Of Limb Girdle Muscular Dystrophy,70,10.1155/2018/8090797,https://w3id.org/oc/meta/br/06101526597,author_title
+ref_10,J Cell Biol,The Two TRAPP Complexes Of Metazoans Have Distinct Roles And Act On Different Rab GTPases,65,10.1083/jcb.201705068,https://w3id.org/oc/meta/br/06201653799,author_title
+ref_12,J Cell Biol,"TRAMM/TrappC12 Plays A Role In Chromosome Congression, Kinetochore Stability, And CENP-E Recruitment",70,10.1083/jcb.201501090,https://w3id.org/oc/meta/br/06301655301,author_title
+ref_14,Traffic,Membrane Traffic Fuses With Cartilage Development,50,10.1016/s0014-5793(03)00854-8,https://w3id.org/oc/meta/br/06301365981,author_title
+ref_16,J Clin Neuromuscul Dis,Siblings With Mutations In TRAPPC11 Presenting With Limb-Girdle Muscular Dystrophy 2S,70,10.1097/cnd.0000000000000173,https://w3id.org/oc/meta/br/062201498250,author_title
+ref_19,Skelet Muscle,Congenital Muscular Dystrophy With Fatty Liver And Infantile-Onset Cataract Caused By TRAPPC11 Mutations: Broadening Of The Phenotype,70,10.1186/s13395-015-0056-4,https://w3id.org/oc/meta/br/062601099164,author_title
+ref_21,Traffic,Validation Of The Peritraumatic Dissociative Experiences Questionnaire And Peritraumatic Distress Inventory In School-Aged Victims Of Road Traffic Accidents,50,10.1016/j.eurpsy.2010.09.007,https://w3id.org/oc/meta/br/06602787359,author_title
+ref_22,PLoS One,The Adaptor Function Of TRAPPC2 In Mammalian TRAPPs Explains TRAPPC2-Associated SEDT And TRAPPC9-Associated Congenital Intellectual Disability,70,10.1371/journal.pone.0023350,https://w3id.org/oc/meta/br/06201531778,author_title
+ref_23,J Med Genet,Bi-allelic Mutations In TRAPPC2L Result In A Neurodevelopmental Disorder And Have An Impact On RAB11 In Fibroblasts,70,10.1136/jmedgenet-2018-105441,https://w3id.org/oc/meta/br/06220237793,author_title
+ref_25,Nat Methods,Synchronization Of Secretory Protein Traffic In Populations Of Cells,70,10.1038/nmeth.1928,https://w3id.org/oc/meta/br/06502146568,author_title
+ref_26,Cell,Visualization Of ER-to-Golgi Transport In Living Cells Reveals A Sequential Mode Of Action For COPII And COPI,70,10.1016/s0092-8674(00)80379-7,https://w3id.org/oc/meta/br/06140671975,author_title
+ref_27,Am J Hum Genet,Mutations In TRAPPC12 Manifest In Progressive Childhood Encephalopathy And Golgi Dysfunction,70,10.1016/j.ajhg.2017.07.006,https://w3id.org/oc/meta/br/06160929386,author_title
+ref_28,Dis Model Mech,Molecularly Defined Unfolded Protein Response Subclasses Have Distinct Correlations With Fatty Liver Disease In Zebrafish,70,10.1242/dmm.014472,https://w3id.org/oc/meta/br/0670192037,author_title
+ref_29,Mol Biol Cell,Mammalian Transcription Factor ATF6 Is Synthesized As A Transmembrane Protein And Activated By Proteolysis In Response To Endoplasmic Reticulum Stress,70,10.1091/mbc.10.11.3787,https://w3id.org/oc/meta/br/0616099559,author_title
+ref_30,Mol Biol Cell,Mammalian Atg2 Proteins Are Essential For Autophagosome Formation And Important For Regulation Of Size And Distribution Of Lipid Droplets,70,10.1091/mbc.e11-09-0785,https://w3id.org/oc/meta/br/0617096669,author_title
+ref_31,Cell,Resistant Pure Red Cell Aplasia After Allogeneic Bone Marrow Transplantation With Major ABO Mismatch Treated By Purified CD34+ Cell Infusion,70,10.1111/j.1600-0609.2005.00582.x,https://w3id.org/oc/meta/br/061201287427,author_title
+ref_32,Mol Cell,TRAPP I Implicated In The Specificity Of Tethering In ER-to-Golgi Transport,70,10.1016/s1097-2765(01)00190-3,https://w3id.org/oc/meta/br/06601322945,author_title
+ref_33,Methods Enzymol,[24] Purification Of TRAPP From Saccharomyces Cerevisiae And Identification Of Its Mammalian Counterpart,70,10.1016/s0076-6879(01)29083-1,https://w3id.org/oc/meta/br/06503807652,author_title
+ref_34,EMBO J,"TRAPP, A Highly Conserved Novel Complex On The cis-Golgi That Mediates Vesicle Docking And Fusion",70,10.1093/emboj/17.9.2494,https://w3id.org/oc/meta/br/06102257456,author_title
+ref_37,Science,Science-rich Sites For In Situ Resource Utilization Characterization And End-to-end Demonstration Missions,50,10.3847/psj/abedbb,https://w3id.org/oc/meta/br/06501857129,author_title
+ref_38,Cell Res,Immunization With Adenovirus LIGHT-engineered Dendritic Cells Induces Potent T Cell Responses And Therapeutic Immunity In HBV Transgenic Mice,70,10.1016/j.vaccine.2014.06.039,https://w3id.org/oc/meta/br/061403024260,author_title
+ref_41,Orphanet J Rare Dis,Identification Of GAA Variants Through Whole Exome Sequencing Targeted To A Cohort Of 606 Patients With Unexplained Limb-Girdle Muscle Weakness,70,10.1186/s13023-017-0722-1,https://w3id.org/oc/meta/br/0650151139,author_title
+ref_43,Traffic,C4orf41 And TTC-15 Are Mammalian TRAPP Components With A Role At An Early Stage In ER-to-Golgi Trafficking,50,10.1091/mbc.e10-11-0873,https://w3id.org/oc/meta/br/0617096969,author_title

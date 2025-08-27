@@ -1,0 +1,191 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          25
+        ]
+      ],
+      "date-time": "2024-05-25T13:48:48Z",
+      "timestamp": 1716644928425
+    },
+    "reference-count": 0,
+    "publisher": "American Psychological Association (APA)",
+    "issue": "10",
+    "funder": [
+      {
+        "DOI": "10.13039/100006324",
+        "name": "American Psychological Association",
+        "doi-asserted-by": "crossref",
+        "id": [
+          {
+            "id": "10.13039/100006324",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Journal of Applied Psychology"
+    ],
+    "DOI": "10.1037/apl0000399",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          4,
+          15
+        ]
+      ],
+      "date-time": "2019-04-15T13:08:11Z",
+      "timestamp": 1555333691000
+    },
+    "page": "1266-1282",
+    "source": "Crossref",
+    "is-referenced-by-count": 18,
+    "title": [
+      "Affective antecedents and consequences of revealing and concealing a lesbian, gay, or bisexual identity."
+    ],
+    "prefix": "10.1037",
+    "volume": "104",
+    "author": [
+      {
+        "given": "Jonathan J.",
+        "family": "Mohr",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Hannah M.",
+        "family": "Markell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Eden B.",
+        "family": "King",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kristen P.",
+        "family": "Jones",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chad I.",
+        "family": "Peddie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matthew S.",
+        "family": "Kendra",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "15",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "container-title": [
+      "Journal of Applied Psychology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://psycnet.apa.org/journals/apl/104/10/1266.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          5
+        ]
+      ],
+      "date-time": "2024-02-05T23:07:21Z",
+      "timestamp": 1707174441000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://doi.apa.org/doi/10.1037/apl0000399"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "2019-20676-001",
+      "30985158"
+    ],
+    "URL": "https://doi.org/10.1037/apl0000399",
+    "relation": {},
+    "ISSN": [
+      "1939-1854",
+      "0021-9010"
+    ],
+    "issn-type": [
+      {
+        "value": "1939-1854",
+        "type": "electronic"
+      },
+      {
+        "value": "0021-9010",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    }
+  }
+}

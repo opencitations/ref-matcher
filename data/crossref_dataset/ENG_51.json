@@ -1,0 +1,410 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          30
+        ]
+      ],
+      "date-time": "2025-01-30T05:36:07Z",
+      "timestamp": 1738215367622,
+      "version": "3.34.0"
+    },
+    "reference-count": 35,
+    "publisher": "SAGE Publications",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.sagepub.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Advances in Mechanical Engineering"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:p> Wireless sensor networks have gained the attention of researchers from various fields due to increased applicability. This has thus led to rapid development in the field. However, these networks still suffer from various challenges and limitations. These range from computation and processing power and available energy to mention but a few. These problems are even much more pronounced in some areas of the field such as real-time Internet of Things-based applications. In this study, a dynamic protocol that efficiently utilizes the available resources is proposed. The protocol employs five developed algorithms that aid the data transmission, neighbor, and optimal path finding processes. The protocol can be utilized in, but not limited to, real-time large-data streaming applications. The protocol is implemented on sensor nodes that are custom made by our research team. In this article, a structure that enables the sensor devices to communicate with each other over their local network or Internet as required in order to preserve the available resources is defined. Both theoretical and experimental result analyses of the entire protocol in general and individual algorithms are also performed. </jats:p>",
+    "DOI": "10.1177/1687814019866062",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2019-10-23T10:26:39Z",
+      "timestamp": 1571826399000
+    },
+    "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 19,
+    "title": [
+      "Designing a dynamic protocol for real-time Industrial Internet of Things-based applications by efficient management of system resources"
+    ],
+    "prefix": "10.1177",
+    "volume": "11",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0354-9344",
+        "authenticated-orcid": false,
+        "given": "Farzad",
+        "family": "Kiani",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Computer Engineering Department, Engineering and Architecture Faculty, Istanbul Arel University, Istanbul, Turkey"
+          },
+          {
+            "name": "Computer Engineering Department, Engineering and Natural Sciences Faculty, Istanbul Sabahattin Zaim University, Istanbul, Turkey"
+          }
+        ]
+      },
+      {
+        "given": "Sajjad",
+        "family": "Nematzadehmiandoab",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Computer Programming Department, Beykent University, Istanbul, Turkey"
+          }
+        ]
+      },
+      {
+        "given": "Amir",
+        "family": "Seyyedabbasi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Computer Engineering Department, Engineering and Natural Sciences Faculty, Istanbul Sabahattin Zaim University, Istanbul, Turkey"
+          }
+        ]
+      }
+    ],
+    "member": "179",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          23
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "bibr1-1687814019866062",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCE.2017.015063"
+      },
+      {
+        "key": "bibr2-1687814019866062",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compag.2018.06.046"
+      },
+      {
+        "first-page": "430",
+        "volume-title": "Proceedings of the 9th international congress on ultra-modern telecommunications and control systems and workshops (ICUMT)",
+        "author": "Stangaciu V",
+        "key": "bibr3-1687814019866062"
+      },
+      {
+        "key": "bibr4-1687814019866062",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/bdcc2020010"
+      },
+      {
+        "key": "bibr5-1687814019866062",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2015/618072"
+      },
+      {
+        "volume-title": "Designing new routing algorithms optimized for wireless sensor network",
+        "year": "2014",
+        "author": "Kiani F",
+        "key": "bibr6-1687814019866062"
+      },
+      {
+        "key": "bibr7-1687814019866062",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1389-1286(01)00302-4"
+      },
+      {
+        "key": "bibr8-1687814019866062",
+        "first-page": "68",
+        "volume": "3",
+        "author": "Niewiadomska E",
+        "year": "2009",
+        "journal-title": "J Telecommun Technol"
+      },
+      {
+        "key": "bibr9-1687814019866062",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2017.2687083"
+      },
+      {
+        "key": "bibr10-1687814019866062",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s101210506"
+      },
+      {
+        "key": "bibr11-1687814019866062",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.aeue.2017.10.034"
+      },
+      {
+        "key": "bibr12-1687814019866062",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.adhoc.2008.06.003"
+      },
+      {
+        "key": "bibr13-1687814019866062",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.aeue.2017.11.026"
+      },
+      {
+        "key": "bibr14-1687814019866062",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.comcom.2015.09.006"
+      },
+      {
+        "first-page": "1",
+        "volume-title": "Proceedings of the 21st international IEEE conference on advanced networking and applications (AINA’07)",
+        "author": "Andr L.",
+        "key": "bibr15-1687814019866062"
+      },
+      {
+        "first-page": "1361",
+        "volume-title": "Proceedings of the thirtieth international conference on very large data bases (VLDB)",
+        "author": "Abadi DJ",
+        "key": "bibr16-1687814019866062"
+      },
+      {
+        "first-page": "1",
+        "volume-title": "Proceedings of the twenty-first ACM SIGMOD–SIGACT–SIGART symposium on principles of database systems",
+        "author": "Babcock B",
+        "key": "bibr17-1687814019866062"
+      },
+      {
+        "key": "bibr18-1687814019866062",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1061318.1061322"
+      },
+      {
+        "first-page": "1",
+        "volume-title": "Proceedings of workshop on network-related data management (NRDM’01)",
+        "author": "Babu S",
+        "key": "bibr19-1687814019866062"
+      },
+      {
+        "first-page": "1",
+        "volume-title": "Proceedings of the 21st international conference on data engineering (ICDE ‘05)",
+        "author": "Ledlie J",
+        "key": "bibr20-1687814019866062"
+      },
+      {
+        "key": "bibr21-1687814019866062",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/972374.972396"
+      },
+      {
+        "first-page": "124",
+        "volume-title": "Proceedings of the third international symposium on information processing in sensor networks",
+        "author": "Willett R",
+        "key": "bibr22-1687814019866062"
+      },
+      {
+        "key": "bibr23-1687814019866062",
+        "first-page": "10",
+        "volume-title": "Proceedings of the 1st international workshop on data management for sensor networks in conjunction with VLDB 2004",
+        "volume": "72",
+        "author": "Jain A"
+      },
+      {
+        "first-page": "401",
+        "volume-title": "Proceedings of the 27th IEEE international real-time systems",
+        "author": "Subramaniam S",
+        "key": "bibr24-1687814019866062"
+      },
+      {
+        "key": "bibr25-1687814019866062",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4614-6309-2_7"
+      },
+      {
+        "first-page": "1",
+        "volume-title": "Proceedings of the 3rd international conference on networked sensing systems (INSS 2006)",
+        "author": "Santini S",
+        "key": "bibr26-1687814019866062"
+      },
+      {
+        "key": "bibr27-1687814019866062",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s91209666"
+      },
+      {
+        "key": "bibr28-1687814019866062",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2012/863545"
+      },
+      {
+        "key": "bibr29-1687814019866062",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jnca.2011.12.006"
+      },
+      {
+        "first-page": "263",
+        "volume-title": "Proceedings of the 29th international IEEE conference on advanced information networking and applications",
+        "author": "Xhafa F",
+        "key": "bibr30-1687814019866062"
+      },
+      {
+        "key": "bibr31-1687814019866062",
+        "first-page": "99",
+        "volume": "9",
+        "author": "Kiani F",
+        "year": "2018",
+        "journal-title": "Int J Adv Comput Sci Appl"
+      },
+      {
+        "key": "bibr32-1687814019866062",
+        "unstructured": "https://www.robotistan.com/sixfab-wireless-sensor-network-development-board"
+      },
+      {
+        "key": "bibr33-1687814019866062",
+        "unstructured": "http://www.ti.com/product/CC1101"
+      },
+      {
+        "key": "bibr34-1687814019866062",
+        "unstructured": "http://www.ti.com/product/CC1190"
+      },
+      {
+        "key": "bibr35-1687814019866062",
+        "unstructured": "SmartRF® Studio (swrc046.zip), http://www.ti.com/tool/SMARTRFTMUDIO"
+      }
+    ],
+    "container-title": [
+      "Advances in Mechanical Engineering"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1687814019866062",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/1687814019866062",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/1687814019866062",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2024-10-05T17:10:28Z",
+      "timestamp": 1728148228000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journals.sagepub.com/doi/10.1177/1687814019866062"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 35,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1177/1687814019866062"
+    ],
+    "URL": "https://doi.org/10.1177/1687814019866062",
+    "relation": {},
+    "ISSN": [
+      "1687-8132",
+      "1687-8140"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1687-8132"
+      },
+      {
+        "type": "electronic",
+        "value": "1687-8140"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    }
+  }
+}

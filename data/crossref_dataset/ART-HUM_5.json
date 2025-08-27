@@ -1,0 +1,754 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          31
+        ]
+      ],
+      "date-time": "2024-05-31T17:12:21Z",
+      "timestamp": 1717175541738
+    },
+    "reference-count": 99,
+    "publisher": "University of California Press",
+    "issue": "1",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Composers convey emotion through music by co-varying structural cues. Although the complex interplay provides a rich listening experience, this creates challenges for understanding the contributions of individual cues. Here we investigate how three specific cues (attack rate, mode, and pitch height) work together to convey emotion in Bach's Well Tempered-Clavier (WTC). In three experiments, we explore responses to (1) eight-measure excerpts and (2) musically “resolved” excerpts, and (3) investigate the role of different standard dimensional scales of emotion. In each experiment, thirty nonmusician participants rated perceived emotion along scales of valence and intensity (Experiments 1 &amp; 2) or valence and arousal (Experiment 3) for 48 pieces in the WTC. Responses indicate listeners used attack rate, Mode, and pitch height to make judgements of valence, but only attack rate for intensity/arousal. Commonality analyses revealed mode predicted the most variance for valence ratings, followed by attack rate, with pitch height contributing minimally. In Experiment 2 mode increased in predictive power compared to Experiment 1. For Experiment 3, using “arousal” instead of “intensity” showed similar results to Experiment 1. We discuss how these results complement and extend previous findings of studies with tightly controlled stimuli, providing additional perspective on complex issues of interpersonal communication.</jats:p>",
+    "DOI": "10.1525/mp.2019.37.1.66",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2019-09-16T23:25:12Z",
+      "timestamp": 1568676312000
+    },
+    "page": "66-91",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "title": [
+      "Acoustically Expressing Affect"
+    ],
+    "prefix": "10.1525",
+    "volume": "37",
+    "author": [
+      {
+        "given": "Aimee",
+        "family": "Battcock",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "McMaster University, Hamilton, Canada"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Schutz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "McMaster University, Hamilton, Canada"
+          }
+        ]
+      }
+    ],
+    "member": "408",
+    "reference": [
+      {
+        "key": "2020101218125057200_ref1",
+        "unstructured": "Bach, J. S. (1953). Bach: The Well-Tempered Clavier Book I - Prelude #24 in B minor, BWV 855 [CD; Recorded by R. Tureck]. RFA-Neef, Wittingen, Germany: Deutsche Grammonphon. (Original work published 1722)"
+      },
+      {
+        "key": "2020101218125057200_ref2",
+        "unstructured": "Bach, J. S. (1965). Bach: The Well-Tempered Clavier, Book I Prelude #10 in E minor, BWV 855 [CD; Recorded by G. Gould]. New York: Sony Classical. (Original work published 1722)"
+      },
+      {
+        "key": "2020101218125057200_ref3",
+        "unstructured": "Bach, J. S. (1973). Bach: The Well-Tempered Clavier, Book I - [CD; Recorded by F. Gulda]. MPS-Tonstudio, Villingen, Germany: Decca. (Original work published 1722)"
+      },
+      {
+        "key": "2020101218125057200_ref4",
+        "unstructured": "Bach, J. S. (1971). Bach: The Well-Tempered Clavier, Book I - Prelude #10 in E minor, BWV 869 [CD; Recorded by A. Newman]. New York: Columbia Records. (Original work published 1722)"
+      },
+      {
+        "key": "2020101218125057200_ref5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bachorowski, J. (1999). Vocal expression and perception of emotion. Current Directions in Psychological Science, 8, 53-57.",
+        "DOI": "10.1111/1467-8721.00013"
+      },
+      {
+        "key": "2020101218125057200_ref6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bachorowski, J., & Owren, M. (1995). Vocal expression of emotion: Intensity and context. Psychological Science, 6, 219–224.",
+        "DOI": "10.1111/j.1467-9280.1995.tb00596.x"
+      },
+      {
+        "key": "2020101218125057200_ref7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Balkwill, L.-L., & Thompson, W. F. (1999). A cross-cultural investigation of the perception of emotion in music: Psychophysical and cultural cues. Music Perception, 17, 43–64.",
+        "DOI": "10.2307/40285811"
+      },
+      {
+        "key": "2020101218125057200_ref8",
+        "unstructured": "Beaton, A. E. (1973, March). Commonality. (ERIC Document Reproduction Service No. ED111829)."
+      },
+      {
+        "key": "2020101218125057200_ref9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bigand, E., Vieillard, S., Madurell, F., Marozeau, J., & DACQUET, A. (2005). Multidimensional scaling of emotional responses to music: The effect of musical expertise and the duration of the excerpts. Cognition and Emotion, 19, 1113–1139.",
+        "DOI": "10.1080/02699930500204250"
+      },
+      {
+        "key": "2020101218125057200_ref10",
+        "unstructured": "Borod, J. C. (2000). The neuropsychology of emotion (1st ed.). Oxford, UK: Oxford University Press."
+      },
+      {
+        "key": "2020101218125057200_ref11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Breitenstein, C., Van Lancker, D., & Daum, I. (2001). The contribution of speech rate and pitch variation to the perception of vocal emotions in a German and an American sample. Cognition and Emotion, 15, 57-79.",
+        "DOI": "10.1080/02699930126095"
+      },
+      {
+        "key": "2020101218125057200_ref12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Broze, Y., & Shanahan, D. (2013). Diachronic changes in jazz harmony: A cognitive perspective. Music Perception, 3, 32–45.",
+        "DOI": "10.1525/mp.2013.31.1.32"
+      },
+      {
+        "key": "2020101218125057200_ref13",
+        "unstructured": "Capraro, R. M., & Capraro, M. M. (2001) Commonality analysis: Understanding variance contributions to overall canonical correlation effects of attitude toward mathematics on geometry achievement. Multiple Linear Regression Viewpoints, 27, 16–23."
+      },
+      {
+        "key": "2020101218125057200_ref14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carroll, J. M., Yik, M. S., Russell, J. A. & Barrett, L.F. (1999). On the psychometric principles of affect. Review of General Psychology, 3, 14–22.",
+        "DOI": "10.1037/1089-2680.3.1.14"
+      },
+      {
+        "key": "2020101218125057200_ref15",
+        "unstructured": "Cohen, J., & Cohen, P. (1983). Applied multiple regression/correlation analysis for the behavioral sciences. Hillsdale, NJ: Erlbaum."
+      },
+      {
+        "key": "2020101218125057200_ref16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Collier, W. G., & Hubbard, T. L. (2001). Musical scales and evaluations of happiness and awkwardness: Effects of pitch, direction, and scale mode. American Journal of Psychology, 114, 355–375.",
+        "DOI": "10.2307/1423686"
+      },
+      {
+        "key": "2020101218125057200_ref17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Corrigall, K. A., & Trainor, L. J. (2014). Enculturation to musical pitch structure in young children: Evidence from behavioral and electrophysiological methods. Developmental Science, 17, 142–158.",
+        "DOI": "10.1111/desc.12100"
+      },
+      {
+        "key": "2020101218125057200_ref18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Costa, M., Fine, P., Enrico, P., & Bitti, P. E. R. (2004). Interval distributions, mode, and tonal strength of melodies as predictors of perceived emotion. Music Perception, 22, 1–14.",
+        "DOI": "10.1525/mp.2004.22.1.1"
+      },
+      {
+        "key": "2020101218125057200_ref19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Crowder, R. G. (1985). Perception of the major/minor distinction: III. Hedonic, musical, and affective discriminations. Bulletin of the Psychonomic Society, 23, 314–316.",
+        "DOI": "10.3758/BF03330169"
+      },
+      {
+        "issue": "3",
+        "key": "2020101218125057200_ref20",
+        "doi-asserted-by": "crossref",
+        "first-page": "B1",
+        "DOI": "10.1016/S0010-0277(00)00136-0",
+        "article-title": "A developmental study of the affective value of tempo and mode in music",
+        "volume": "80",
+        "year": "2001",
+        "journal-title": "Cognition"
+      },
+      {
+        "issue": "4",
+        "key": "2020101218125057200_ref21",
+        "doi-asserted-by": "crossref",
+        "first-page": "e18591",
+        "DOI": "10.1371/journal.pone.0018591",
+        "article-title": "Acoustic intensity causes perceived changes in arousal levels in music: An experimental investigation",
+        "volume": "6",
+        "year": "2011",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "key": "2020101218125057200_ref22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dibben, N. (2004). The role of peripheral feedback in emotional experience with music. Music Perception, 22, 79–115.",
+        "DOI": "10.1525/mp.2004.22.1.79"
+      },
+      {
+        "key": "2020101218125057200_ref23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Eerola, T. (2011). Are the emotions expressed in music genrespecific? An audio-based evaluation of datasets spanning classical, film, pop and mixed genres. Journal of New Music Research, 40, 349–366.",
+        "DOI": "10.1080/09298215.2011.602195"
+      },
+      {
+        "key": "2020101218125057200_ref24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Eerola, T., Friberg, A., & Bresin, R. (2013). Emotional expression in music: Contribution, linearity, and additivity of primary musical cues. Frontiers in Psychology, 4, 1–12.",
+        "DOI": "10.3389/fpsyg.2013.00487"
+      },
+      {
+        "key": "2020101218125057200_ref25",
+        "unstructured": "Eerola, T., Lartillot, O., & Toiviainen, P. (2009). Prediction of multidimensional emotional ratings in music from audio using multivariate regression models. In K. Hirata, G. Tzanetakis, & K. Yoshii (Eds.), Proceedings of the 10th International Conference on Music Information Retrieval (pp. 621–626). Kobe, Japan: International Society for Music Information Retrieval."
+      },
+      {
+        "key": "2020101218125057200_ref26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Eerola, T., & Vuoskoski, J. K. (2010). A comparison of the discrete and dimensional models of emotion in music. Psychology of Music, 39, 18–49.",
+        "DOI": "10.1177/0305735610362821"
+      },
+      {
+        "key": "2020101218125057200_ref27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Eerola, T., & Vuoskoski, J. K. (2013). A review of music and emotion studies: Approaches, emotion models, and stimuli. Music Perception, 30, 307–340.",
+        "DOI": "10.1525/mp.2012.30.3.307"
+      },
+      {
+        "key": "2020101218125057200_ref28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Eitan, Z., & Timmers, R. (2010). Beethoven's last piano sonata and those who follow crocodiles: Cross-domain mappings of auditory pitch in a musical context. Cognition, 114, 405–422.",
+        "DOI": "10.1016/j.cognition.2009.10.013"
+      },
+      {
+        "key": "2020101218125057200_ref29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ekman, P. (1992). An argument for basic emotions. Cognition and Emotion, 6, 162–200.",
+        "DOI": "10.1080/02699939208411068"
+      },
+      {
+        "key": "2020101218125057200_ref30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fabian, D., & Schubert, E. (2003). Expressive devices and perceived musical character in 34 performances of Variation-7 from Bach's “Goldberg Variations.” Musicae Scientiae, 7, 49–71.",
+        "DOI": "10.1177/10298649040070S103"
+      },
+      {
+        "key": "2020101218125057200_ref31",
+        "unstructured": "Frederick, B. N. (1999). Partitioning variance in the multivariate case: A step-by-step guide to cannonical commonality analysis. In B. Thompson (Ed.), Advances in social science methodology (Vol. 5, pp. 305–318). Standford, CT: JAI Press."
+      },
+      {
+        "key": "2020101218125057200_ref32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Friberg, A., Schoonderwaldt, E., Hedblad, A., Fabiani, M., & Elowsson, A. (2014). Using listener-based perceptual features as intermediate representations in music information retrieval. Journal of the Acoustical Society of America, 136, 1951–1963.",
+        "DOI": "10.1121/1.4892767"
+      },
+      {
+        "key": "2020101218125057200_ref33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gabrielsson, A. (2002). Perceived emotion and felt emotion: same or different?Musicae Scientiae, 6, 123–148.",
+        "DOI": "10.1177/10298649020050S105"
+      },
+      {
+        "key": "2020101218125057200_ref34",
+        "unstructured": "Gabrielsson, A., & Lindström, E. (2010). The role of structure in the musical expression of emotions. In P. Juslin & J. Sloboda (Eds.), Handbook of music and emotion: Theory, research, applications (pp. 367–400). New York: Oxford University Press."
+      },
+      {
+        "key": "2020101218125057200_ref35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gagnon, L., & Peretz, I. (2003). Mode and tempo relative contributions to “happy-sad” judgements in equitone melodies. Cognition and Emotion, 17, 25–40.",
+        "DOI": "10.1080/02699930302279"
+      },
+      {
+        "key": "2020101218125057200_ref36",
+        "unstructured": "Gardner, H. (1993). Multiple intelligences: The theory in practice. New York: Basic Books."
+      },
+      {
+        "key": "2020101218125057200_ref37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gerardi, G. M., & Gerken, L. (1995). The development of affective responses to modality and melodic contour. Music Perception, 12, 279–290.",
+        "DOI": "10.2307/40286184"
+      },
+      {
+        "issue": "2",
+        "key": "2020101218125057200_ref38",
+        "doi-asserted-by": "crossref",
+        "first-page": "91",
+        "DOI": "10.1016/j.ijpsycho.2004.02.002",
+        "article-title": "Affective and physiological responses to environmental noises and music",
+        "volume": "53",
+        "year": "2004",
+        "journal-title": "International Journal of Psychophysiology"
+      },
+      {
+        "key": "2020101218125057200_ref39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gomez, P., & Danuser, B. (2007). Relationships between musical structure and psychophysiological measures of emotion. Emotion, 7, 377–387.",
+        "DOI": "10.1037/1528-3542.7.2.377"
+      },
+      {
+        "key": "2020101218125057200_ref40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gundlach, R. H. (1935). Factors determining the characterization of musical phrases. American Journal of Psychology, 47, 624–643.",
+        "DOI": "10.2307/1416007"
+      },
+      {
+        "key": "2020101218125057200_ref41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hailstone, J. C., Omar, R., Henley, S. M. D., Frost, C., Kenward, M. G., & Warren, J. D. (2009). It's not what you play, it's how you play it: Timbre affects perception of emotion in music. Quarterly Journal of Experimental Psychology, 62, 2141–2155.",
+        "DOI": "10.1080/17470210902765957"
+      },
+      {
+        "key": "2020101218125057200_ref42",
+        "unstructured": "Hatten, R. S. (2004). Interpreting musical gestures, topics, and tropes: Mozart, Beethoven, and Schubert. Bloomington, IN: Indiana University Press."
+      },
+      {
+        "key": "2020101218125057200_ref43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Heinlein, C. P. (1928). The affective characters of the major and minor modes in music. Journal of Comparative Psychology, 8, 101–142.",
+        "DOI": "10.1037/h0070573"
+      },
+      {
+        "key": "2020101218125057200_ref44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hevner, K. (1935). The affective character of the major and minor modes in music. American Journal of Psychology, 47, 103–118.",
+        "DOI": "10.2307/1416710"
+      },
+      {
+        "key": "2020101218125057200_ref45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hevner, K. (1936). Experimental studies of the elements of expression in music. American Journal of Psychology, 48, 246–268.",
+        "DOI": "10.2307/1415746"
+      },
+      {
+        "key": "2020101218125057200_ref46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hevner, K. (1937). The affective value of pitch and tempo in music. American Journal of Psychology, 49, 621–630.",
+        "DOI": "10.2307/1416385"
+      },
+      {
+        "key": "2020101218125057200_ref47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Horn, K., & Huron, D. (2015). On the changing use of the major and minor modes 1750-1900. Music Theory Online, 21, 1–11.",
+        "DOI": "10.30535/mto.21.1.4"
+      },
+      {
+        "key": "2020101218125057200_ref48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hunter, P. G., Schellenberg, E. G., & Schimmack, U. (2008). Mixed affective responses to music with conflicting cues. Cognition and Emotion, 22, 327–352.",
+        "DOI": "10.1080/02699930701438145"
+      },
+      {
+        "key": "2020101218125057200_ref49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hunter, P. G., Schellenberg, E. G., & Schimmack, U. (2010). Feelings and perceptions of happiness and sadness induced by music: Similarities, differences, and mixed emotions. Psychology of Aesthetics, Creativity, and the Arts, 4, 47–56.",
+        "DOI": "10.1037/a0016873"
+      },
+      {
+        "key": "2020101218125057200_ref50",
+        "unstructured": "Huron, D., Yim, G., & Chordia, P. (2010). The effect of pitch exposure on sadness judgments: An association between sadness and lower than normal pitch. In S. M. Demorest, S. J. Morrison, & P. S. Campbell (Eds.), Proceedings of the 11th International Conference on Music Perception and Cognition (pp. 63–66). Seattle, WA: Causal Productions."
+      },
+      {
+        "key": "2020101218125057200_ref51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Husain, G., Thompson, W. F., & Schellenberg, E. G. (2002). Effects of musical tempo and Mode on arousal, mood, and spatial abilities. Music Perception, 20, 151–171.",
+        "DOI": "10.1525/mp.2002.20.2.151"
+      },
+      {
+        "key": "2020101218125057200_ref52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ilie, G., & Thompson, W. F. (2006). A comparison of acoustic cues in music and speech for three dimensions of affect. Music Perception, 23, 319–330.",
+        "DOI": "10.1525/mp.2006.23.4.319"
+      },
+      {
+        "key": "2020101218125057200_ref53",
+        "unstructured": "Johnstone, T., & Scherer, K. R. (2000). Vocal communication of emotion. In M. Lewis & J. Haviland (Eds.), The handbook of emotion (Vol. 2, pp. 220–235). New York: Guilford."
+      },
+      {
+        "key": "2020101218125057200_ref54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Juslin, P. N. (1997). Emotional communication in music performance: A functionalist perspective and some data. Music Perception, 14, 383–418.",
+        "DOI": "10.2307/40285731"
+      },
+      {
+        "key": "2020101218125057200_ref55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Juslin, P. N., & Laukka, P. (2003). Communication of emotions in vocal expression and music performance: Different channels, same code?Psychological Bulletin, 129, 770–814.",
+        "DOI": "10.1037/0033-2909.129.5.770"
+      },
+      {
+        "key": "2020101218125057200_ref56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Juslin, P. N., & Laukka, P. (2004). Expression, perception, and induction of musical emotions: A review and a questionnaire study of everyday listening. Journal of New Music Research, 33, 217–238.",
+        "DOI": "10.1080/0929821042000317813"
+      },
+      {
+        "key": "2020101218125057200_ref57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Juslin, P. N., & Lindström, E. (2010). Musical expression of emotions: Modelling listeners’ judgements of composed and performed features. Music Analysis, 29, 334–364.",
+        "DOI": "10.1111/j.1468-2249.2011.00323.x"
+      },
+      {
+        "key": "2020101218125057200_ref58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Juslin, P. N., & Madison, G. (1999). The role of timing patterns in recognition of emotional expression from musical performance. Music Perception, 17, 197–221.",
+        "DOI": "10.2307/40285891"
+      },
+      {
+        "key": "2020101218125057200_ref59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kastner, M. P., & Crowder, R. G. (1990). Perception of the major/minor distinction: IV. Emotional connotations in young children. Music Perception, 8, 189–202.",
+        "DOI": "10.2307/40285496"
+      },
+      {
+        "key": "2020101218125057200_ref60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Koelsch, S., Kasper, E., Sammler, D., Schulze, K., Gunter, T., & Friederici, A. D. (2004). Music, language and meaning: brain signatures of semantic processing. Nature Neuroscience, 7, 302–307.",
+        "DOI": "10.1038/nn1197"
+      },
+      {
+        "key": "2020101218125057200_ref61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Korhonen, M. D., Clausi, D. A., & Jernigan, M.E. (2006). Modeling emotional content of music using system identification. IEEE Transactions on Systems, Man, and Cybernetics, 36, 588–599.",
+        "DOI": "10.1109/TSMCB.2005.862491"
+      },
+      {
+        "key": "2020101218125057200_ref62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Laukka, P., Eerola, T., Thingujam, N. S., Yamasaki, T., & Beller, G. (2013). Universal and culture-specific factors in the recognition and performance of musical affect expressions. Emotion, 13, 434–449.",
+        "DOI": "10.1037/a0031388"
+      },
+      {
+        "key": "2020101218125057200_ref63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Leman, M., Vermeulen, V., De Voogdt, L., Moelants, D., & Lesafre, M. (2005). Prediction of musical affect using a combination of acoustic structural cues. Journal of New Music Research, 34, 39–67.",
+        "DOI": "10.1080/09298210500123978"
+      },
+      {
+        "key": "2020101218125057200_ref64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lindström, E. (2006). Impact of melodic organization of melodic structure and emotional expression. Musicae Scientiae, 10, 85–117.",
+        "DOI": "10.1177/102986490601000105"
+      },
+      {
+        "key": "2020101218125057200_ref65",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Luck, G., Toiviainen, P., Errkkila, J., Lartillot, O., Riikkila, K., Makela, A., et al (2008). Modelling the relationships between emotional responses to, and musical content of, music therapy improvisations. Psychology of Music, 36, 25–45.",
+        "DOI": "10.1177/0305735607079714"
+      },
+      {
+        "key": "2020101218125057200_ref66",
+        "unstructured": "Meyer, L. B. (1956). Emotion and meaning in music. Chicago, IL: university of Chicago Press."
+      },
+      {
+        "key": "2020101218125057200_ref67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mote, J. (2011). The effects of tempo and familiarity on children's affective interpretation of music. Emotion, 11, 618–622.",
+        "DOI": "10.1037/a0022573"
+      },
+      {
+        "key": "2020101218125057200_ref68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Paggioli de Carvalho, L. (2016). Bach's Well-Tempered Clavier: Pedagogical approaches and the different styles of preludes. Per Musi, 33, 97–115.",
+        "DOI": "10.1590/permusi20163305"
+      },
+      {
+        "key": "2020101218125057200_ref69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pallesen, K. J., Brattico, E., Bailey, C., Korvenoja, A., Koivisto, J., Gjedde, A., & Carlson, S. (2005). Emotion processing of major, minor, and dissonant chords: A functional magnetic resonance imaging study. Annals of the New York Academy of Sciences, 1060, 450–453.",
+        "DOI": "10.1196/annals.1360.047"
+      },
+      {
+        "key": "2020101218125057200_ref70",
+        "unstructured": "Palmer, W. A. (1994). J. S. Bach: The Well-Tempered Clavier (Third). Los Angeles, CA: Alfred Music Publishing."
+      },
+      {
+        "key": "2020101218125057200_ref71",
+        "unstructured": "Pedhazur, E. J. (1997). Multiple regression in behavioral research: Explanation and prediction (3rd ed.). Fort Worth, TX: Harcourt Brace."
+      },
+      {
+        "key": "2020101218125057200_ref72",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peirce, J., Gray, J. R., Simpson, S., MacAskill, M., Höchenberger, R., Sogo, H., et al. (2019). PsychoPy2: Experiments in behavior made easy. Behavior Research Methods, 51, 195–203.",
+        "DOI": "10.3758/s13428-018-01193-y"
+      },
+      {
+        "key": "2020101218125057200_ref73",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Poon, M., & Schutz, M. (2015). Cueing musical emotions: An empirical analysis of 24-piece sets by Bach and Chopin documents parallels with emotional speech. Frontiers in Psychology, 6, 1–13.",
+        "DOI": "10.3389/fpsyg.2015.01419"
+      },
+      {
+        "key": "2020101218125057200_ref74",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Post, O., & Huron, D. (2009). Western Classical music in the minor mode is slower (except in the Romantic period). Empirical Musicology Review, 4, 2–10.",
+        "DOI": "10.18061/1811/36601"
+      },
+      {
+        "key": "2020101218125057200_ref75",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Quinto, L., Thompson, W. F., & Keating, F. L. (2013). Emotional communication in speech and music: The role of melodic and rhythmic contrasts. Frontiers in Psychology, 4, 1–8.",
+        "DOI": "10.3389/fpsyg.2013.00184"
+      },
+      {
+        "key": "2020101218125057200_ref76",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ray-Mukherjee, J., Nimon, K., Mukherjee, S., Morris, D. W., Slotow, R., & Hamer, M. (2014). Using commonality analysis in multiple regressions: A tool to decompose regression effects in the face of multicollinearity. Methods in Ecology and Evolution, 5, 320–328.",
+        "DOI": "10.1111/2041-210X.12166"
+      },
+      {
+        "key": "2020101218125057200_ref77",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rigg, M. G. (1940). Speed as a determiner of musical mood. Journal of Experimental Psychology, 27, 566–571.",
+        "DOI": "10.1037/h0058652"
+      },
+      {
+        "key": "2020101218125057200_ref78",
+        "doi-asserted-by": "crossref",
+        "unstructured": "RodÀ, A., Canazza, S., De Poli, G., & Rod, A. (2014). Clustering affective qualities of classical music: Beyond the valence-arousal plane, IEEE Transactions on Affective Computing, 5, 364–376.",
+        "DOI": "10.1109/TAFFC.2014.2343222"
+      },
+      {
+        "key": "2020101218125057200_ref79",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Russell, J. A. (1980). A circumplex model of affect. Journal of Personality and Social Psychology, 39, 1161–1178.",
+        "DOI": "10.1037/h0077714"
+      },
+      {
+        "key": "2020101218125057200_ref80",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schellenberg, E. G., Krysciak, A. M., & Campbell, R. J. (2000). Perceiving emotion in melody: interactive effects of pitch and rhythm. Music Perception, 18, 155–171.",
+        "DOI": "10.2307/40285907"
+      },
+      {
+        "key": "2020101218125057200_ref81",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Scherer, K. R. (1995). Expression of emotion in voice and music. Journal of Voice, 9, 235–248.",
+        "DOI": "10.1016/S0892-1997(05)80231-0"
+      },
+      {
+        "key": "2020101218125057200_ref82",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Scherer, K. R. (2003). Vocal communication of emotion: A review of research paradigms. Speech Communication, 40, 227–256.",
+        "DOI": "10.1016/S0167-6393(02)00084-5"
+      },
+      {
+        "key": "2020101218125057200_ref83",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Scherer, K. R., & Oshinsky, J. S. (1977). Cue utilization in emotion attribution from auditory stimuli. Motivation and Emotion, 1, 331–346.",
+        "DOI": "10.1007/BF00992539"
+      },
+      {
+        "key": "2020101218125057200_ref84",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schimmack, U., & Grob, A. (2000). Dimensional model of core affect: A quantitative comparison by means of structural equation modeling. European Journal of Personality, 14, 325–345.",
+        "DOI": "10.1002/1099-0984(200007/08)14:4<325::AID-PER380>3.0.CO;2-I"
+      },
+      {
+        "key": "2020101218125057200_ref85",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schubert, E. (1999). Measuring emotion continuously: Validity and reliability of the two-dimensional emotion-space. Australian Journal of Psychology, 51, 154–165.",
+        "DOI": "10.1080/00049539908255353"
+      },
+      {
+        "key": "2020101218125057200_ref86",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schubert, E. (2004). Modeling perceived emotion with continuous musical features. Music Perception, 21, 561–585.",
+        "DOI": "10.1525/mp.2004.21.4.561"
+      },
+      {
+        "key": "2020101218125057200_ref87",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schutz, M. (2017). Acoustic constraints and musical consequences: Exploring composers’ use of cues for musical emotion. Frontiers in Psychology, 8.",
+        "DOI": "10.3389/fpsyg.2017.01402"
+      },
+      {
+        "key": "2020101218125057200_ref88",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tan, S. L., Pfordresher, P. Q., & Harré, R. (2010). Psychology of music: From sound to significance (1st ed.). New York: Psychology Press.",
+        "DOI": "10.4324/9780203855362"
+      },
+      {
+        "key": "2020101218125057200_ref89",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Temperley, D., & de Clercq, T. (2013). Statistical analysis of harmony and melody in rock music. Journal of New Music Research, 42, 187–204.",
+        "DOI": "10.1080/09298215.2013.788039"
+      },
+      {
+        "key": "2020101218125057200_ref90",
+        "unstructured": "Trainor, L. J., & Schmidt, L. A. (2001). Processing emotions induced by music. Cognition and Emotion, 15, 487-500."
+      },
+      {
+        "key": "2020101218125057200_ref91",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vieillard, S., Peretz, I., Gosselin, N., Khalfa, S., Gagnon, L., & Bouchard, B. (2008). Happy, sad, scary and peaceful musical excerpts for research on emotions. Cognition and Emotion, 22, 720–752.",
+        "DOI": "10.1080/02699930701503567"
+      },
+      {
+        "key": "2020101218125057200_ref92",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vuoskoski, J. K., & Eerola, T. (2011). Measuring music-induced emotion: A comparison of emotion models, personality biases, and intensity of experiences. Musicae Scientiae, 15, 159–173.",
+        "DOI": "10.1177/1029864911403367"
+      },
+      {
+        "issue": "2",
+        "key": "2020101218125057200_ref93",
+        "doi-asserted-by": "crossref",
+        "first-page": "i",
+        "DOI": "10.1037/h0093496",
+        "article-title": "The nature and measurement of musical meanings",
+        "volume": "54",
+        "year": "1942",
+        "journal-title": "Psychological Monographs"
+      },
+      {
+        "key": "2020101218125057200_ref94",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Webster, G. D., & Weir, C. G. (2005). Emotional responses to music: Interactive effects of mode, texture, and tempo. Motivation and Emotion, 29, 19–39.",
+        "DOI": "10.1007/s11031-005-4414-0"
+      },
+      {
+        "key": "2020101218125057200_ref95",
+        "unstructured": "Wedin, L. (1969). Dimension analysis of emotional expression in music. Swedish Journal of Musicology, 51, 119–140."
+      },
+      {
+        "key": "2020101218125057200_ref96",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wedin, L. (1972a). A multidimensional study of perceptual - emotional qualities in music. Scandinavian Journal of Psychology, 13, 241–257.",
+        "DOI": "10.1111/j.1467-9450.1972.tb00072.x"
+      },
+      {
+        "issue": "349",
+        "key": "2020101218125057200_ref97",
+        "first-page": "1",
+        "article-title": "Evaluation of a three-dimensional model of emotional expression in music",
+        "volume": "54",
+        "year": "1972",
+        "journal-title": "The Psychological Laboratories"
+      },
+      {
+        "key": "2020101218125057200_ref98",
+        "unstructured": "Wiggins, G. A. (1998). Music, syntax, and the meaning of “meaning.” In Proceedings of the First Symposium on Music and Computers (pp. 18-23). Corfu, Greece: Ionian University."
+      },
+      {
+        "issue": "3",
+        "key": "2020101218125057200_ref99",
+        "first-page": "1",
+        "article-title": "Machine recognition of music emotion",
+        "volume": "3",
+        "year": "2012",
+        "journal-title": "ACM Transactions on Intelligent Systems and Technology"
+      }
+    ],
+    "container-title": [
+      "Music Perception"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://online.ucpress.edu/mp/article-pdf/37/1/66/191634/mp_2019_37_1_66.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://online.ucpress.edu/mp/article-pdf/37/1/66/191634/mp_2019_37_1_66.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          12
+        ]
+      ],
+      "date-time": "2020-10-12T22:13:55Z",
+      "timestamp": 1602540835000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://online.ucpress.edu/mp/article/37/1/66/62853/Acoustically-Expressing-Affect"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          1
+        ]
+      ]
+    },
+    "references-count": 99,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            9,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1525/mp.2019.37.1.66",
+    "relation": {},
+    "ISSN": [
+      "0730-7829",
+      "1533-8312"
+    ],
+    "issn-type": [
+      {
+        "value": "0730-7829",
+        "type": "print"
+      },
+      {
+        "value": "1533-8312",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published-other": {
+      "date-parts": [
+        [
+          2019,
+          9
+        ]
+      ]
+    },
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          1
+        ]
+      ]
+    }
+  }
+}

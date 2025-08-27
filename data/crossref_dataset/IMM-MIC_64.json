@@ -1,0 +1,425 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          18
+        ]
+      ],
+      "date-time": "2024-06-18T19:51:33Z",
+      "timestamp": 1718740293425
+    },
+    "reference-count": 45,
+    "publisher": "Microbiology Society",
+    "issue": "10",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1099/mic.0.000834",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          20
+        ]
+      ],
+      "date-time": "2019-08-20T14:13:48Z",
+      "timestamp": 1566310428000
+    },
+    "page": "1086-1094",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Reconciling DNA replication and transcription in a hyphal organism: visualizing transcription complexes in live Streptomyces coelicolor"
+    ],
+    "prefix": "10.1099",
+    "volume": "165",
+    "author": [
+      {
+        "given": "Leena",
+        "family": "Kerr",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Strathclyde Institute of Pharmacy and Biomedical Sciences, University of Strathclyde, Glasgow, UK"
+          },
+          {
+            "name": "School of Energy, Geoscience, Infrastructure and Society, Heriot-Watt University, Riccarton, Edinburgh, UK"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-4332-1640",
+        "authenticated-orcid": false,
+        "given": "Paul A.",
+        "family": "Hoskisson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Strathclyde Institute of Pharmacy and Biomedical Sciences, University of Strathclyde, Glasgow, UK"
+          }
+        ]
+      }
+    ],
+    "member": "345",
+    "reference": [
+      {
+        "key": "R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrmicro2800"
+      },
+      {
+        "key": "R2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2958.2012.08102.x"
+      },
+      {
+        "key": "R3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pgen.1006488"
+      },
+      {
+        "key": "R4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365-2958.2002.02993.x"
+      },
+      {
+        "key": "R5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JB.01707-08"
+      },
+      {
+        "key": "R6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrmicro1968"
+      },
+      {
+        "key": "R7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JB.00307-06"
+      },
+      {
+        "key": "R8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JB.00940-06"
+      },
+      {
+        "key": "R9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkl649"
+      },
+      {
+        "key": "R10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mib.2009.10.004"
+      },
+      {
+        "key": "R11",
+        "first-page": "5295",
+        "article-title": "Cell division gene ftsQ is required for efficient sporulation but not growth and viability in Streptomyces coelicolor A3(2)",
+        "volume": "178",
+        "author": "McCormick",
+        "year": "1996"
+      },
+      {
+        "key": "R12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2958.2006.05134.x"
+      },
+      {
+        "key": "R13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JB.183.17.5180-5186.2001"
+      },
+      {
+        "key": "R14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JB.01326-10"
+      },
+      {
+        "key": "R15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2958.2004.04343.x"
+      },
+      {
+        "key": "R16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1099/mic.0.2008/018549-0"
+      },
+      {
+        "key": "R17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365-2958.2003.03805.x"
+      },
+      {
+        "key": "R18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2958.2004.04267.x"
+      },
+      {
+        "key": "R19",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/BF00258408",
+        "article-title": "Dispersed growth of Streptomyces in liquid culture",
+        "volume": "31",
+        "author": "Hobbs",
+        "year": "1989",
+        "journal-title": "Applied Microbiology and Biotechnology"
+      },
+      {
+        "key": "R20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1472-765x.2000.00680.x"
+      },
+      {
+        "key": "R21",
+        "article-title": "Practical Streptomyces genetics",
+        "author": "Kieser",
+        "year": "2000",
+        "journal-title": "John Innes Foundation"
+      },
+      {
+        "key": "R22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/jb.179.18.5854-5861.1997"
+      },
+      {
+        "key": "R23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365-2958.1996.6191336.x"
+      },
+      {
+        "key": "R24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0337542100"
+      },
+      {
+        "key": "R25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/AEM.01233-08"
+      },
+      {
+        "key": "R26",
+        "doi-asserted-by": "crossref",
+        "first-page": "146",
+        "DOI": "10.1111/j.1574-6968.2007.00872.x",
+        "article-title": "Characterization of heterogeneous LSU rRNA profiles in Streptomyces coelicolor under different growth stages and conditions",
+        "volume": "275",
+        "author": "Kim",
+        "year": "2008",
+        "journal-title": "FEMS Microbiology Letters"
+      },
+      {
+        "key": "R27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1099/00221287-94-1-159"
+      },
+      {
+        "key": "R28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/417141a"
+      },
+      {
+        "key": "R29",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/ncomms11836",
+        "article-title": "Cross-membranes orchestrate compartmentalization and morphogenesis in Streptomyces",
+        "volume": "7",
+        "author": "Celler",
+        "year": "2016",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "R30",
+        "first-page": "1708",
+        "article-title": "Heterogeneous rRNA molecules encoded by Streptomyces coelicolor M145 genome are all expressed and assembled into ribosomes",
+        "volume": "17",
+        "author": "Kim",
+        "year": "2007",
+        "journal-title": "J Microbiol Biotechnol"
+      },
+      {
+        "key": "R31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrg2592"
+      },
+      {
+        "key": "R32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsob.120097"
+      },
+      {
+        "key": "R33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2008.01.042"
+      },
+      {
+        "key": "R34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrmicro2720"
+      },
+      {
+        "key": "R35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365-2958.2001.02221.x"
+      },
+      {
+        "key": "R36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JB.183.11.3488-3498.2001"
+      },
+      {
+        "key": "R37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1099/00221287-143-11-3581"
+      },
+      {
+        "key": "R38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0054316"
+      },
+      {
+        "key": "R39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0378-1119(95)00771-7"
+      },
+      {
+        "key": "R40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1099/00221287-145-9-2281"
+      },
+      {
+        "key": "R41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1207409109"
+      },
+      {
+        "key": "R42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mib.2012.10.012"
+      },
+      {
+        "key": "R43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/gb-2007-8-8-r161"
+      },
+      {
+        "key": "R44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/jb.178.14.4289-4293.1996"
+      },
+      {
+        "key": "R45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1184939"
+      }
+    ],
+    "container-title": [
+      "Microbiology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.microbiologyresearch.org/content/journal/micro/10.1099/mic.0.000834?crawler=true",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          2,
+          19
+        ]
+      ],
+      "date-time": "2020-02-19T07:10:04Z",
+      "timestamp": 1582096204000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.microbiologyresearch.org/content/journal/micro/10.1099/mic.0.000834"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          1
+        ]
+      ]
+    },
+    "references-count": 45,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1099/mic.0.000834",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.1101/498634",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "1350-0872",
+      "1465-2080"
+    ],
+    "issn-type": [
+      {
+        "value": "1350-0872",
+        "type": "print"
+      },
+      {
+        "value": "1465-2080",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          1
+        ]
+      ]
+    }
+  }
+}

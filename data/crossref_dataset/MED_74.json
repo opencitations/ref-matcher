@@ -1,0 +1,648 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2024-11-19T17:47:34Z",
+      "timestamp": 1732038454530
+    },
+    "reference-count": 33,
+    "publisher": "American Medical Association (AMA)",
+    "issue": "10",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "JAMA Intern Med"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1001/jamainternmed.2019.2407",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          29
+        ]
+      ],
+      "date-time": "2019-07-29T15:31:27Z",
+      "timestamp": 1564414287000
+    },
+    "page": "1388",
+    "source": "Crossref",
+    "is-referenced-by-count": 169,
+    "title": [
+      "Acupuncture as Adjunctive Therapy for Chronic Stable Angina"
+    ],
+    "prefix": "10.1001",
+    "volume": "179",
+    "author": [
+      {
+        "given": "Ling",
+        "family": "Zhao",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Acupuncture and Tuina School, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China"
+          }
+        ]
+      },
+      {
+        "given": "Dehua",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Acupuncture, the Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China"
+          }
+        ]
+      },
+      {
+        "given": "Hui",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Acupuncture and Tuina School, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China"
+          }
+        ]
+      },
+      {
+        "given": "Xiaorong",
+        "family": "Chang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Acupuncture and Tuina School, Hunan University of Traditional Chinese Medicine, Changsha, Hunan, China"
+          }
+        ]
+      },
+      {
+        "given": "Jin",
+        "family": "Cui",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Acupuncture and Tuina School, Guiyang University of Traditional Chinese Medicine, Guiyang, Guizhou, China"
+          }
+        ]
+      },
+      {
+        "given": "Ruihui",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Acupuncture and Tuina School, Shaanxi University of Chinese Medicine, Xianyang, Shaanxi, China"
+          }
+        ]
+      },
+      {
+        "given": "Jing",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Acupuncture and Tuina School, Yunnan Provincial Hospital of Traditional Chinese Medicine, Kunming, Yunnan, China"
+          }
+        ]
+      },
+      {
+        "given": "Hailong",
+        "family": "Fan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Acupuncture and Tuina School, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China"
+          }
+        ]
+      },
+      {
+        "given": "Ying",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Acupuncture and Tuina School, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China"
+          }
+        ]
+      },
+      {
+        "given": "Xin",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Chinese Evidence-Based Medicine Centre, West China Hospital, Sichuan University, Chengdu, Sichuan, China"
+          }
+        ]
+      },
+      {
+        "given": "Fuwen",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Ophthalmology, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China"
+          }
+        ]
+      },
+      {
+        "given": "Xi",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Acupuncture and Tuina School, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China"
+          }
+        ]
+      },
+      {
+        "given": "Fanrong",
+        "family": "Liang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Acupuncture and Tuina School, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China"
+          }
+        ]
+      }
+    ],
+    "member": "10",
+    "reference": [
+      {
+        "issue": "10",
+        "key": "ioi190051r1",
+        "doi-asserted-by": "publisher",
+        "first-page": "e146",
+        "DOI": "10.1161/CIR.0000000000000485",
+        "article-title": "Heart disease and stroke statistics—2017 update: a report from the American Heart Association.",
+        "volume": "135",
+        "author": "Benjamin",
+        "year": "2017",
+        "journal-title": "Circulation"
+      },
+      {
+        "issue": "6",
+        "key": "ioi190051r2",
+        "first-page": "521",
+        "article-title": "Summary of cardiovascular disease report in China—2016.",
+        "volume": "32",
+        "author": "Chen",
+        "year": "2017",
+        "journal-title": "Chin Circ J"
+      },
+      {
+        "issue": "12",
+        "key": "ioi190051r3",
+        "doi-asserted-by": "publisher",
+        "first-page": "1167",
+        "DOI": "10.1056/NEJMcp1502240",
+        "article-title": "Clinical practice: chronic stable angina.",
+        "volume": "374",
+        "author": "Ohman",
+        "year": "2016",
+        "journal-title": "N Engl J Med"
+      },
+      {
+        "issue": "4",
+        "key": "ioi190051r4",
+        "first-page": "e38",
+        "article-title": "Heart disease and stroke statistics—2016 update: a report from the American Heart Association.",
+        "volume": "133",
+        "author": "Mozaffarian",
+        "year": "2016",
+        "journal-title": "Circulation"
+      },
+      {
+        "issue": "2",
+        "key": "ioi190051r5",
+        "doi-asserted-by": "publisher",
+        "first-page": "627",
+        "DOI": "10.1016/j.ijcard.2014.09.126",
+        "article-title": "The prevalence of doctor-diagnosed angina in 4314 older adults in China and comparison with the Rose Angina Questionnaire: the 4 Province Study.",
+        "volume": "177",
+        "author": "Greaves",
+        "year": "2014",
+        "journal-title": "Int J Cardiol"
+      },
+      {
+        "issue": "6",
+        "key": "ioi190051r6",
+        "doi-asserted-by": "publisher",
+        "first-page": "500",
+        "DOI": "10.1136/heartjnl-2011-301436",
+        "article-title": "Management of stable angina: summary of NICE guidance.",
+        "volume": "98",
+        "author": "Henderson",
+        "year": "2012",
+        "journal-title": "Heart"
+      },
+      {
+        "issue": "10115",
+        "key": "ioi190051r7",
+        "doi-asserted-by": "publisher",
+        "first-page": "31",
+        "DOI": "10.1016/S0140-6736(17)32714-9",
+        "article-title": "Percutaneous coronary intervention in stable angina (ORBITA): a double-blind, randomised controlled trial.",
+        "volume": "391",
+        "author": "Al-Lamee",
+        "year": "2018",
+        "journal-title": "Lancet"
+      },
+      {
+        "key": "ioi190051r8",
+        "doi-asserted-by": "publisher",
+        "first-page": "28",
+        "DOI": "10.1016/j.ijcard.2015.05.043",
+        "article-title": "Efficacy of electroacupuncture pretreatment for myocardial injury in patients undergoing percutaneous coronary intervention: a randomized clinical trial with a 2-year follow-up.",
+        "volume": "194",
+        "author": "Wang",
+        "year": "2015",
+        "journal-title": "Int J Cardiol"
+      },
+      {
+        "issue": "4",
+        "key": "ioi190051r9",
+        "doi-asserted-by": "publisher",
+        "first-page": "236",
+        "DOI": "10.1097/00132580-200107000-00006",
+        "article-title": "Alternative approaches to the medical management of angina pectoris: acupuncture, electrical nerve stimulation, and spinal cord stimulation.",
+        "volume": "3",
+        "author": "Bueno",
+        "year": "2001",
+        "journal-title": "Heart Dis"
+      },
+      {
+        "issue": "2",
+        "key": "ioi190051r10",
+        "doi-asserted-by": "publisher",
+        "first-page": "149",
+        "DOI": "10.1142/S0192415X99000197",
+        "article-title": "Effect of acupuncture at nei-kuan on left ventricular function in patients with coronary artery disease.",
+        "volume": "27",
+        "author": "Ho",
+        "year": "1999",
+        "journal-title": "Am J Chin Med"
+      },
+      {
+        "issue": "2",
+        "key": "ioi190051r11",
+        "doi-asserted-by": "publisher",
+        "first-page": "367",
+        "DOI": "10.1016/j.ijcard.2014.07.011",
+        "article-title": "A randomized controlled trial of acupuncture in stable ischemic heart disease patients.",
+        "volume": "176",
+        "author": "Mehta",
+        "year": "2014",
+        "journal-title": "Int J Cardiol"
+      },
+      {
+        "issue": "2",
+        "key": "ioi190051r12",
+        "doi-asserted-by": "publisher",
+        "first-page": "308",
+        "DOI": "10.1161/01.CIR.71.2.308",
+        "article-title": "The effects of transcutaneous electrical nerve stimulation in patients with severe angina pectoris.",
+        "volume": "71",
+        "author": "Mannheimer",
+        "year": "1985",
+        "journal-title": "Circulation"
+      },
+      {
+        "issue": "2",
+        "key": "ioi190051r13",
+        "doi-asserted-by": "publisher",
+        "first-page": "175",
+        "DOI": "10.1093/oxfordjournals.eurheartj.a059865",
+        "article-title": "Effect of acupuncture in patients with angina pectoris.",
+        "volume": "12",
+        "author": "Richter",
+        "year": "1991",
+        "journal-title": "Eur Heart J"
+      },
+      {
+        "issue": "1",
+        "key": "ioi190051r14",
+        "doi-asserted-by": "publisher",
+        "first-page": "25",
+        "DOI": "10.1111/joim.1990.227.issue-1",
+        "article-title": "Effects of acupuncture in moderate, stable angina pectoris: a controlled study.",
+        "volume": "227",
+        "author": "Ballegaard",
+        "year": "1990",
+        "journal-title": "J Intern Med"
+      },
+      {
+        "issue": "9",
+        "key": "ioi190051r15",
+        "doi-asserted-by": "publisher",
+        "first-page": "H1818",
+        "DOI": "10.1152/ajpheart.00030.2012",
+        "article-title": "Cardioprotection of electroacupuncture against myocardial ischemia-reperfusion injury by modulation of cardiac norepinephrine release.",
+        "volume": "302",
+        "author": "Zhou",
+        "year": "2012",
+        "journal-title": "Am J Physiol Heart Circ Physiol"
+      },
+      {
+        "issue": "10",
+        "key": "ioi190051r16",
+        "doi-asserted-by": "publisher",
+        "first-page": "H1464",
+        "DOI": "10.1152/ajpheart.00889.2013",
+        "article-title": "Electroacupuncture improves cardiac function and remodeling by inhibition of sympathoexcitation in chronic heart failure rats.",
+        "volume": "306",
+        "author": "Ma",
+        "year": "2014",
+        "journal-title": "Am J Physiol Heart Circ Physiol"
+      },
+      {
+        "issue": "16",
+        "key": "ioi190051r17",
+        "doi-asserted-by": "publisher",
+        "first-page": "1484",
+        "DOI": "10.1016/j.lfs.2007.01.019",
+        "article-title": "Acupuncture pretreatment protects heart from injury in rats with myocardial ischemia and reperfusion via inhibition of the beta(1)-adrenoceptor signaling pathway.",
+        "volume": "80",
+        "author": "Gao",
+        "year": "2007",
+        "journal-title": "Life Sci"
+      },
+      {
+        "issue": "10",
+        "key": "ioi190051r18",
+        "doi-asserted-by": "publisher",
+        "first-page": "16158",
+        "DOI": "10.3390/molecules191016158",
+        "article-title": "Electro-acupuncture at neiguan pretreatment alters genome-wide gene expressions and protects rat myocardium against ischemia-reperfusion.",
+        "volume": "19",
+        "author": "Huang",
+        "year": "2014",
+        "journal-title": "Molecules"
+      },
+      {
+        "issue": "2",
+        "key": "ioi190051r19",
+        "doi-asserted-by": "publisher",
+        "first-page": "101",
+        "DOI": "10.1089/acu.2013.0960",
+        "article-title": "Acupuncture’s cardiovascular actions: a mechanistic perspective.",
+        "volume": "25",
+        "author": "Longhurst",
+        "year": "2013",
+        "journal-title": "Med Acupunct"
+      },
+      {
+        "issue": "4",
+        "key": "ioi190051r20",
+        "doi-asserted-by": "publisher",
+        "first-page": "307",
+        "DOI": "10.1111/j.0954-6820.1986.tb02770.x",
+        "article-title": "Acupuncture in severe, stable angina pectoris: a randomized trial.",
+        "volume": "220",
+        "author": "Ballegaard",
+        "year": "1986",
+        "journal-title": "Acta Med Scand"
+      },
+      {
+        "issue": "5",
+        "key": "ioi190051r21",
+        "first-page": "417",
+        "article-title": "Impacts on neutrophil to lymphocyte ratio in patients of chronic stable angina pectoris treated with acupuncture at Neiguan (PC 6)",
+        "volume": "35",
+        "author": "Wang",
+        "year": "2015",
+        "journal-title": "Zhongguo Zhen Jiu"
+      },
+      {
+        "key": "ioi190051r22",
+        "doi-asserted-by": "publisher",
+        "first-page": "90",
+        "DOI": "10.1186/s12906-015-0586-7",
+        "article-title": "Effectiveness of acupuncture for angina pectoris: a systematic review of randomized controlled trials.",
+        "volume": "15",
+        "author": "Yu",
+        "year": "2015",
+        "journal-title": "BMC Complement Altern Med"
+      },
+      {
+        "issue": "2",
+        "key": "ioi190051r23",
+        "doi-asserted-by": "publisher",
+        "first-page": "101",
+        "DOI": "10.3727/036012995816357113",
+        "article-title": "Acupuncture in angina pectoris: do psycho-social and neurophysiological factors relate to the effect?",
+        "volume": "20",
+        "author": "Ballegaard",
+        "year": "1995",
+        "journal-title": "Acupunct Electrother Res"
+      },
+      {
+        "issue": "4",
+        "key": "ioi190051r24",
+        "doi-asserted-by": "publisher",
+        "first-page": "357",
+        "DOI": "10.1111/joim.1991.229.issue-4",
+        "article-title": "Acupuncture in angina pectoris: does acupuncture have a specific effect?",
+        "volume": "229",
+        "author": "Ballegaard",
+        "year": "1991",
+        "journal-title": "J Intern Med"
+      },
+      {
+        "issue": "2",
+        "key": "ioi190051r25",
+        "doi-asserted-by": "publisher",
+        "first-page": "261",
+        "DOI": "10.1161/CIRCULATIONAHA.107.188208",
+        "article-title": "2007 Focused update of the ACC/AHA/SCAI 2005 guideline update for percutaneous coronary intervention: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines: 2007 Writing Group to review new evidence and update the ACC/AHA/SCAI 2005 guideline update for percutaneous coronary intervention, writing on behalf of the 2005 Writing Committee.",
+        "volume": "117",
+        "author": "King",
+        "year": "2008",
+        "journal-title": "Circulation"
+      },
+      {
+        "issue": "3",
+        "key": "ioi190051r26",
+        "first-page": "195",
+        "article-title": "Guideline for diagnosis and treatment of patients with chronic stable angina",
+        "volume": "35",
+        "author": "Chinese Society of Cardiology, Chinese Medical Association",
+        "year": "2007",
+        "journal-title": "Zhonghua Xin Xue Guan Bing Za Zhi"
+      },
+      {
+        "key": "ioi190051r27",
+        "doi-asserted-by": "publisher",
+        "first-page": "50",
+        "DOI": "10.1186/1745-6215-15-50",
+        "article-title": "Acupuncture for chronic, stable angina pectoris and an investigation of the characteristics of acupoint specificity: study protocol for a multicenter randomized controlled trial.",
+        "volume": "15",
+        "author": "Li",
+        "year": "2014",
+        "journal-title": "Trials"
+      },
+      {
+        "issue": "6",
+        "key": "ioi190051r28",
+        "first-page": "1209",
+        "article-title": "Application of data-mining to analyze characteristics of meridians and acupoints selected for acumoxibustion treatment of chest blockage in ancient literatures of different periods of ancient days.",
+        "volume": "40",
+        "author": "He",
+        "year": "2013",
+        "journal-title": "Liaoning J Tradit Chin Med"
+      },
+      {
+        "issue": "11",
+        "key": "ioi190051r29",
+        "first-page": "2195",
+        "article-title": "Analysis of characteristics of meridians and acupoints selected for modern acu-moxibustion treatment of angina pectoris based on data mining.",
+        "volume": "40",
+        "author": "He",
+        "year": "2013",
+        "journal-title": "Liaoning J Trad Chin Med"
+      },
+      {
+        "issue": "4",
+        "key": "ioi190051r30",
+        "doi-asserted-by": "publisher",
+        "first-page": "508",
+        "DOI": "10.1001/jamainternmed.2016.9378",
+        "article-title": "The long-term effect of acupuncture for migraine prophylaxis: a randomized clinical trial.",
+        "volume": "177",
+        "author": "Zhao",
+        "year": "2017",
+        "journal-title": "JAMA Intern Med"
+      },
+      {
+        "issue": "24",
+        "key": "ioi190051r31",
+        "doi-asserted-by": "publisher",
+        "first-page": "e44",
+        "DOI": "10.1016/j.jacc.2012.07.013",
+        "article-title": "2012 ACCF/AHA/ACP/AATS/PCNA/SCAI/STS guideline for the diagnosis and management of patients with stable ischemic heart disease: a report of the American College of Cardiology Foundation/American Heart Association Task Force on Practice Guidelines and the American College of Physicians, American Association for Thoracic Surgery, Preventive Cardiovascular Nurses Association, Society for Cardiovascular Angiography and Interventions, and Society of Thoracic Surgeons.",
+        "volume": "60",
+        "author": "Fihn",
+        "year": "2012",
+        "journal-title": "J Am Coll Cardiol"
+      },
+      {
+        "issue": "1",
+        "key": "ioi190051r32",
+        "first-page": "CD004473",
+        "article-title": "Chinese herbal medicine suxiao jiuxin wan for angina pectoris.",
+        "author": "Duan",
+        "year": "2008",
+        "journal-title": "Cochrane Database Syst Rev"
+      },
+      {
+        "issue": "2",
+        "key": "ioi190051r33",
+        "doi-asserted-by": "publisher",
+        "first-page": "268",
+        "DOI": "10.1111/j.1526-4637.2010.01051.x",
+        "article-title": "The effect of brief electrical and manual acupuncture stimulation on mechanical experimental pain.",
+        "volume": "12",
+        "author": "Schliessbach",
+        "year": "2011",
+        "journal-title": "Pain Med"
+      }
+    ],
+    "container-title": [
+      "JAMA Internal Medicine"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://jamanetwork.com/journals/jamainternalmedicine/articlepdf/2739058/jamainternal_zhao_2019_oi_190051.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2019-10-07T15:01:01Z",
+      "timestamp": 1570460461000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2739058"
+      }
+    },
+    "subtitle": [
+      "A Randomized Clinical Trial"
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          1
+        ]
+      ]
+    },
+    "references-count": 33,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            10,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1001/jamainternmed.2019.2407",
+    "relation": {},
+    "ISSN": [
+      "2168-6106"
+    ],
+    "issn-type": [
+      {
+        "value": "2168-6106",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          1
+        ]
+      ]
+    }
+  }
+}

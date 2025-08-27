@@ -1,0 +1,1339 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2024-11-19T17:45:54Z",
+      "timestamp": 1732038354061
+    },
+    "reference-count": 104,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              12
+            ]
+          ],
+          "date-time": "2019-06-12T00:00:00Z",
+          "timestamp": 1560297600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Nordic Innovation",
+        "award": [
+          "ENT13508"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Business Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jbusres.2019.06.013",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          18
+        ]
+      ],
+      "date-time": "2019-06-18T04:13:50Z",
+      "timestamp": 1560831230000
+    },
+    "page": "56-70",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 149,
+    "special_numbering": "C",
+    "title": [
+      "Reward crowdfunding contribution as planned behaviour: An extended framework"
+    ],
+    "prefix": "10.1016",
+    "volume": "103",
+    "author": [
+      {
+        "given": "Rotem",
+        "family": "Shneor",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Ziaul Haque",
+        "family": "Munim",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "179",
+        "DOI": "10.1016/0749-5978(91)90020-T",
+        "article-title": "The theory of planned behavior",
+        "volume": "50",
+        "author": "Ajzen",
+        "year": "1991",
+        "journal-title": "Organizational Behavior and Human Decision Process"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0010",
+        "series-title": "The handbook of attitudes",
+        "first-page": "173",
+        "article-title": "The influence of attitudes on behaviour",
+        "author": "Ajzen",
+        "year": "2005"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "453",
+        "DOI": "10.1016/0022-1031(86)90045-4",
+        "article-title": "Prediction of goal-directed behavior: Attitudes, intentions, and perceived behavioral control",
+        "volume": "22",
+        "author": "Ajzen",
+        "year": "1986",
+        "journal-title": "Journal of Experimental Social Psychology"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1509/jmkg.69.3.19.66363",
+        "article-title": "The social influence of brand community: Evidence from European car clubs",
+        "volume": "69",
+        "author": "Algesheimer",
+        "year": "2005",
+        "journal-title": "Journal of Marketing"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "471",
+        "DOI": "10.1348/014466601164939",
+        "article-title": "Efficacy of the theory of planned behaviour: A meta-analytic review",
+        "volume": "40",
+        "author": "Armitage",
+        "year": "2001",
+        "journal-title": "British Journal of Social Psychology"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.1007/BF02723327",
+        "article-title": "On the evaluation of structural equation models",
+        "volume": "16",
+        "author": "Bagozzi",
+        "year": "1988",
+        "journal-title": "Journal of the Academy of Marketing Science"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "437",
+        "DOI": "10.1111/j.2044-8309.1995.tb01076.x",
+        "article-title": "A comparison of leading theories for the prediction of goal-directed behaviours",
+        "volume": "34",
+        "author": "Bagozzi",
+        "year": "1995",
+        "journal-title": "British Journal of Social Psychology"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "1591",
+        "DOI": "10.1016/j.chb.2010.06.006",
+        "article-title": "Predicting adolescents' use of social networking sites from an extended theory of planned behaviour perspective",
+        "volume": "26",
+        "author": "Baker",
+        "year": "2010",
+        "journal-title": "Computers in Human Behavior"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "122",
+        "DOI": "10.1037/0003-066X.37.2.122",
+        "article-title": "Self-efficacy mechanism in human agency",
+        "volume": "37",
+        "author": "Bandura",
+        "year": "1982",
+        "journal-title": "American Psychologist"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0050",
+        "series-title": "Social foundations of thought and action: A social cognitive theory",
+        "author": "Bandura",
+        "year": "1986"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "788",
+        "DOI": "10.1016/j.chb.2015.10.033",
+        "article-title": "Strategic self-presentation on Facebook: Personal motives and audience response to online behavior",
+        "volume": "55",
+        "author": "Bareket-Bojmel",
+        "year": "2016",
+        "journal-title": "Computers in Human Behavior"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "585",
+        "DOI": "10.1016/j.jbusvent.2013.07.003",
+        "article-title": "Crowdfunding: Tapping the right crowd",
+        "volume": "29",
+        "author": "Belleflamme",
+        "year": "2014",
+        "journal-title": "Journal of Business Venturing"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "238",
+        "DOI": "10.1037/0033-2909.107.2.238",
+        "article-title": "Comparative fit indexes in structural models",
+        "volume": "107",
+        "author": "Bentler",
+        "year": "1990",
+        "journal-title": "Psychological Bulletin"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "588",
+        "DOI": "10.1037/0033-2909.88.3.588",
+        "article-title": "Significance tests and goodness of fit in the analysis of covariance structures",
+        "volume": "88",
+        "author": "Bentler",
+        "year": "1980",
+        "journal-title": "Psychological Bulletin"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0075",
+        "doi-asserted-by": "crossref",
+        "first-page": "233",
+        "DOI": "10.1016/j.socscimed.2017.02.008",
+        "article-title": "Producing a worthy illness: Personal crowdfunding amidst financial crisis",
+        "volume": "187",
+        "author": "Berliner",
+        "year": "2017",
+        "journal-title": "Social Science and Medicine"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "10",
+        "DOI": "10.1016/j.jbusres.2016.10.001",
+        "article-title": "The influence of online information on investing decisions of reward-based crowdfunding",
+        "volume": "71",
+        "author": "Bi",
+        "year": "2017",
+        "journal-title": "Journal of Business Research"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "123",
+        "DOI": "10.1177/0049124192021002001",
+        "article-title": "Tests for structural equation models: Introduction",
+        "volume": "21",
+        "author": "Bollen",
+        "year": "1992",
+        "journal-title": "Sociological Methods and Research"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0090",
+        "first-page": "1",
+        "article-title": "From friendfunding to crowdfunding: Relevance of relationships, social media, and platform activities to crowdfunding performance",
+        "author": "Borst",
+        "year": "2017",
+        "journal-title": "New Media & Society"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "246",
+        "DOI": "10.1016/j.jsis.2017.02.002",
+        "article-title": "Not just an ego-trip: Exploring backers' motivation for funding in incentive-based crowdfunding",
+        "volume": "26",
+        "author": "Bretschneider",
+        "year": "2017",
+        "journal-title": "The Journal of Strategic Information Systems"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "499",
+        "DOI": "10.1287/isre.1120.0468",
+        "article-title": "An empirical examination of the antecedents and consequences of contribution patterns in crowd-funded markets",
+        "volume": "24",
+        "author": "Burtch",
+        "year": "2013",
+        "journal-title": "Information Systems Research"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0105",
+        "doi-asserted-by": "crossref",
+        "first-page": "183",
+        "DOI": "10.1111/etap.12271",
+        "article-title": "Serial crowdfunding, social capital, and project success",
+        "volume": "41",
+        "author": "Butticè",
+        "year": "2017",
+        "journal-title": "Entrepreneurship Theory and Practice"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0110",
+        "doi-asserted-by": "crossref",
+        "first-page": "456",
+        "DOI": "10.1037/0033-2909.105.3.456",
+        "article-title": "Testing for the equivalence of factor covariance and mean structures: The issue of partial measurement invariance",
+        "volume": "105",
+        "author": "Byrne",
+        "year": "1989",
+        "journal-title": "Psychological Bulletin"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1207/s15327752jpa8301_04",
+        "article-title": "Psychological entitlement: Interpersonal consequences and validation of a self-report measure",
+        "volume": "83",
+        "author": "Campbell",
+        "year": "2004",
+        "journal-title": "Journal of Personality Assessment"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "898",
+        "DOI": "10.1016/j.tourman.2010.04.007",
+        "article-title": "Determinants of the intention to participate in firm-hosted online travel communities and effects on consumer behavioral intentions",
+        "volume": "31",
+        "author": "Casaló",
+        "year": "2010",
+        "journal-title": "Tourism Management"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1016/j.jpubeco.2014.01.002",
+        "article-title": "Fundraising through online social networks: A field experiment on peer-to-peer solicitation",
+        "volume": "114",
+        "author": "Castillo",
+        "year": "2014",
+        "journal-title": "Journal of Public Economics"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0130",
+        "doi-asserted-by": "crossref",
+        "first-page": "1005",
+        "DOI": "10.1037/a0013193",
+        "article-title": "What happens if we compare chopsticks with forks? The impact of making inappropriate comparisons in cross-cultural research",
+        "volume": "95",
+        "author": "Chen",
+        "year": "2008",
+        "journal-title": "Journal of Personality and Social Psychology"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0135",
+        "doi-asserted-by": "crossref",
+        "first-page": "218",
+        "DOI": "10.1016/j.dss.2012.01.015",
+        "article-title": "What drives consumers to spread electronic word of mouth in online consumer-opinion platforms",
+        "volume": "53",
+        "author": "Cheung",
+        "year": "2012",
+        "journal-title": "Decision Support Systems"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "260",
+        "DOI": "10.1016/j.chb.2016.08.031",
+        "article-title": "Service co-creation in social media: An extension of the theory of planned behavior",
+        "volume": "65",
+        "author": "Cheung",
+        "year": "2016",
+        "journal-title": "Computers in Human Behavior"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0145",
+        "doi-asserted-by": "crossref",
+        "first-page": "102",
+        "DOI": "10.1016/j.chb.2017.07.011",
+        "article-title": "The influence of the propensity to trust on mobile users' attitudes toward in-app advertisements: An extension of the theory of planned behavior",
+        "volume": "76",
+        "author": "Cheung",
+        "year": "2017",
+        "journal-title": "Computers in Human Behavior"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "312",
+        "DOI": "10.1016/j.chb.2017.03.013",
+        "article-title": "A cross-cultural comparative analysis of crowdfunding projects in the United States and South Korea",
+        "volume": "72",
+        "author": "Cho",
+        "year": "2017",
+        "journal-title": "Computers in Human Behavior"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0155",
+        "doi-asserted-by": "crossref",
+        "first-page": "145",
+        "DOI": "10.1111/etap.12139",
+        "article-title": "Does the possibility to make equity investments in crowdfunding projects crowd out reward-based investments?",
+        "volume": "39",
+        "author": "Cholakova",
+        "year": "2015",
+        "journal-title": "Entrepreneurship Theory and Practice"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0160",
+        "series-title": "Sampling techniques",
+        "author": "Cochran",
+        "year": "1977"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0165",
+        "doi-asserted-by": "crossref",
+        "first-page": "75",
+        "DOI": "10.1111/etap.12118",
+        "article-title": "Internal social capital and the attraction of early contributions in crowdfunding",
+        "volume": "39",
+        "author": "Colombo",
+        "year": "2015",
+        "journal-title": "Entrepreneurship Theory and Practice"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0170",
+        "doi-asserted-by": "crossref",
+        "first-page": "325",
+        "DOI": "10.1007/s10869-010-9181-6",
+        "article-title": "What reviewers should expect from authors regarding common method bias in organizational research",
+        "volume": "25",
+        "author": "Conway",
+        "year": "2010",
+        "journal-title": "Journal of Business and Psychology"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0175",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1016/j.chb.2018.01.014",
+        "article-title": "Being seen to care: The relationship between self-presentation and contributions to online pro-social crowdfunding campaigns",
+        "volume": "83",
+        "author": "Cox",
+        "year": "2018",
+        "journal-title": "Computers in Human Behavior"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0180",
+        "doi-asserted-by": "crossref",
+        "first-page": "361",
+        "DOI": "10.1080/13691066.2013.847635",
+        "article-title": "Demand-driven securities regulation: Evidence from crowdfunding",
+        "volume": "15",
+        "author": "Cumming",
+        "year": "2013",
+        "journal-title": "Venture Capital"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0185",
+        "author": "Daskalakis"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0190",
+        "series-title": "Mail and internet surveys, the tailored designed method",
+        "author": "Dillman",
+        "year": "2006"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0195",
+        "doi-asserted-by": "crossref",
+        "first-page": "44",
+        "DOI": "10.1525/cmr.2016.58.2.44",
+        "article-title": "Crowdfunding in Europe: Determinants of platform creation across countries",
+        "volume": "58",
+        "author": "Dushnitsky",
+        "year": "2016",
+        "journal-title": "California Management Review"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0200",
+        "author": "Eichhorn"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0205",
+        "first-page": "186",
+        "article-title": "Talk is cheap",
+        "volume": "85",
+        "author": "Farrell",
+        "year": "1995",
+        "journal-title": "The American Economic Review"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "127",
+        "DOI": "10.1057/jit.2016.1",
+        "article-title": "Information sharing and user behavior in internet-enabled peer-to-peer lending systems: An empirical study",
+        "volume": "32",
+        "author": "Feller",
+        "year": "2017",
+        "journal-title": "Journal of Information Technology"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0215",
+        "series-title": "Belief, attitude, intention, and behavior: An introduction to theory and research",
+        "author": "Fishbein",
+        "year": "1975"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "382",
+        "DOI": "10.1177/002224378101800313",
+        "article-title": "Structural equation models with unobservable variables and measurement error: Algebra and statistics",
+        "volume": "18",
+        "author": "Fornell",
+        "year": "1981",
+        "journal-title": "Journal of Marketing Research"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0225",
+        "doi-asserted-by": "crossref",
+        "first-page": "1717",
+        "DOI": "10.1257/0002828043052187",
+        "article-title": "Social comparisons and pro-social behavior: Testing “conditional cooperation” in a field experiment",
+        "volume": "94",
+        "author": "Frey",
+        "year": "2004",
+        "journal-title": "The American Economic Review"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0230",
+        "doi-asserted-by": "crossref",
+        "first-page": "247",
+        "DOI": "10.1080/13691066.2014.916512",
+        "article-title": "Exploring entrepreneurial legitimacy in reward-based crowdfunding",
+        "volume": "16",
+        "author": "Frydrych",
+        "year": "2014",
+        "journal-title": "Venture Capital"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0235",
+        "doi-asserted-by": "crossref",
+        "first-page": "616",
+        "DOI": "10.1016/j.elerap.2015.09.003",
+        "article-title": "Understanding why consumers engage in electronic word-of-mouth communication: Perspectives from theory of planned behavior and justice theory",
+        "volume": "14",
+        "author": "Fu",
+        "year": "2015",
+        "journal-title": "Electronic Commerce Research and Applications"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0240",
+        "series-title": "Review of crowdfunding regulation 2017: Interpretations of existing regulation concerning crowdfunding in Europe, North America and Israel",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0245",
+        "series-title": "The 2nd Asia Pacific region alternative finance industry report",
+        "author": "Garvey",
+        "year": "2017"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0250",
+        "doi-asserted-by": "crossref",
+        "first-page": "198",
+        "DOI": "10.1108/10662240410542634",
+        "article-title": "The theory of planned behavior and Internet purchasing",
+        "volume": "14",
+        "author": "George",
+        "year": "2004",
+        "journal-title": "Internet Research"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0255",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/2530540",
+        "article-title": "Crowdfunding: Motivations and deterrents for participation",
+        "volume": "20",
+        "author": "Gerber",
+        "year": "2013",
+        "journal-title": "ACM Trans. Comput.-Hum. Interact."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0260",
+        "doi-asserted-by": "crossref",
+        "first-page": "348",
+        "DOI": "10.1108/17468800710824509",
+        "article-title": "Applicability of theory of planned behavior in predicting intention to trade online: Some evidence from a developing country",
+        "volume": "2",
+        "author": "Gopi",
+        "year": "2007",
+        "journal-title": "International Journal of Emerging Markets"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0265",
+        "doi-asserted-by": "crossref",
+        "first-page": "292",
+        "DOI": "10.1016/j.jbusres.2009.11.015",
+        "article-title": "Comparing theories to explain e-commerce adoption",
+        "volume": "64",
+        "author": "Grandón",
+        "year": "2011",
+        "journal-title": "Journal of Business Research"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0270",
+        "doi-asserted-by": "crossref",
+        "first-page": "2237",
+        "DOI": "10.1016/j.jbusres.2015.06.004",
+        "article-title": "Viral effects of social network and media on consumers' purchase intention",
+        "volume": "68",
+        "author": "Gunawan",
+        "year": "2015",
+        "journal-title": "Journal of Business Research"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0275",
+        "series-title": "Multivariate data analysis",
+        "author": "Hair",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0280",
+        "first-page": "827",
+        "article-title": "Investor and market protection in the crowdfunding era: Disclosing to and for the ‘crowd’",
+        "volume": "38",
+        "author": "Heminway",
+        "year": "2014",
+        "journal-title": "Vermont Law Review"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0285",
+        "doi-asserted-by": "crossref",
+        "first-page": "146",
+        "DOI": "10.1108/IntR-08-2014-0202",
+        "article-title": "Success in the management of crowdfunding projects in the creative industries",
+        "volume": "26",
+        "author": "Hobbs",
+        "year": "2016",
+        "journal-title": "Internet Research"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0290",
+        "doi-asserted-by": "crossref",
+        "first-page": "597",
+        "DOI": "10.1086/222355",
+        "article-title": "Social behavior as exchange",
+        "volume": "63",
+        "author": "Homans",
+        "year": "1958",
+        "journal-title": "American Journal of Sociology"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0295",
+        "doi-asserted-by": "crossref",
+        "first-page": "604",
+        "DOI": "10.1016/j.intell.2012.08.006",
+        "article-title": "The cognitive basis of trust. The relation between education, cognitive ability, and generalized and political trust",
+        "volume": "40",
+        "author": "Hooghe",
+        "year": "2012",
+        "journal-title": "Intelligence"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0300",
+        "doi-asserted-by": "crossref",
+        "first-page": "65",
+        "DOI": "10.1016/j.im.2007.11.001",
+        "article-title": "Acceptance of blog usage: The roles of technology acceptance, social influence and knowledge sharing motivation",
+        "volume": "45",
+        "author": "Hsu",
+        "year": "2008",
+        "journal-title": "Information & Management"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0305",
+        "doi-asserted-by": "crossref",
+        "first-page": "369",
+        "DOI": "10.1016/j.dss.2003.08.001",
+        "article-title": "Internet self-efficacy and electronic service acceptance",
+        "volume": "38",
+        "author": "Hsu",
+        "year": "2004",
+        "journal-title": "Decision Support Systems"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0310",
+        "doi-asserted-by": "crossref",
+        "first-page": "889",
+        "DOI": "10.1016/j.ijhcs.2006.04.004",
+        "article-title": "A longitudinal investigation of continued online shopping behavior: An extension of the theory of planned behavior",
+        "volume": "64",
+        "author": "Hsu",
+        "year": "2006",
+        "journal-title": "International Journal of Human-Computer Studies"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0315",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1080/10705519909540118",
+        "article-title": "Cutoff criteria for fit indexes in covariance structure analysis: Conventional criteria versus new alternatives",
+        "volume": "6",
+        "author": "Hu",
+        "year": "1999",
+        "journal-title": "Structural Equation Modeling: A Multidisciplinary Journal"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0320",
+        "doi-asserted-by": "crossref",
+        "first-page": "161",
+        "DOI": "10.1111/etap.12263",
+        "article-title": "The role of community in crowdfunding success: Evidence on cultural attributes in funding campaigns to ‘save the local theater’",
+        "volume": "41",
+        "author": "Josefy",
+        "year": "2017",
+        "journal-title": "Entrepreneurship Theory and Practice"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0325",
+        "doi-asserted-by": "crossref",
+        "first-page": "1800",
+        "DOI": "10.1108/IMDS-07-2015-0312",
+        "article-title": "Understanding the determinants of funders' investment intentions on crowdfunding platforms: A trust-based perspective",
+        "volume": "116",
+        "author": "Kang",
+        "year": "2016",
+        "journal-title": "Industrial Management & Data Systems"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0330",
+        "series-title": "The crowdfunding revolution: How to raise venture capital using social media",
+        "author": "Lawton",
+        "year": "2012"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0335",
+        "doi-asserted-by": "crossref",
+        "first-page": "849",
+        "DOI": "10.1108/14684520911001873",
+        "article-title": "Understanding the behavioural intention to play online games: An extension of the theory of planned behaviour",
+        "volume": "33",
+        "author": "Lee",
+        "year": "2009",
+        "journal-title": "Online Information Review"
+      },
+      {
+        "issue": "5/6",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0340",
+        "doi-asserted-by": "crossref",
+        "first-page": "478",
+        "DOI": "10.1080/08985626.2014.922623",
+        "article-title": "The formation and interplay of social capital in crowdfunded social ventures",
+        "volume": "26",
+        "author": "Lehner",
+        "year": "2014",
+        "journal-title": "Entrepreneurship & Regional Development"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0345",
+        "doi-asserted-by": "crossref",
+        "first-page": "18",
+        "DOI": "10.1016/j.jbusres.2009.09.014",
+        "article-title": "The impact of word-of-mouth communication on attribute evaluation",
+        "volume": "64",
+        "author": "Lim",
+        "year": "2011",
+        "journal-title": "Journal of Business Research"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0350",
+        "doi-asserted-by": "crossref",
+        "first-page": "26",
+        "DOI": "10.1016/j.dss.2016.04.006",
+        "article-title": "Success drivers of online equity crowdfunding campaigns",
+        "volume": "87",
+        "author": "Lukkarinen",
+        "year": "2016",
+        "journal-title": "Decision Support Systems"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0355",
+        "author": "Lukkarinen"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0360",
+        "doi-asserted-by": "crossref",
+        "first-page": "191",
+        "DOI": "10.1002/jsc.2010",
+        "article-title": "Academic research on crowdfunders: What's been done and what's to come?",
+        "volume": "24",
+        "author": "Macht",
+        "year": "2015",
+        "journal-title": "Strategic Change"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0365",
+        "doi-asserted-by": "crossref",
+        "first-page": "185",
+        "DOI": "10.1016/j.jbusres.2017.12.019",
+        "article-title": "The role of electronic word of mouth in reducing information asymmetry: An empirical investigation of online hotel booking",
+        "volume": "85",
+        "author": "Manes",
+        "year": "2018",
+        "journal-title": "Journal of Business Research"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0370",
+        "doi-asserted-by": "crossref",
+        "first-page": "649",
+        "DOI": "10.1348/014466608X393136",
+        "article-title": "The effects of subjective norms on behaviour in the theory of planned behaviour: A meta-analysis",
+        "volume": "48",
+        "author": "Manning",
+        "year": "2009",
+        "journal-title": "British Journal of Social Psychology"
+      },
+      {
+        "issue": "15",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0375",
+        "doi-asserted-by": "crossref",
+        "first-page": "1375",
+        "DOI": "10.1111/j.1559-1816.1998.tb01682.x",
+        "article-title": "Distinguishing between perceived behavioral control and self-efficacy in the domain of academic achievement intentions and behaviors",
+        "volume": "28",
+        "author": "Manstead",
+        "year": "1998",
+        "journal-title": "Journal of Applied Social Psychology"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0380",
+        "doi-asserted-by": "crossref",
+        "first-page": "291",
+        "DOI": "10.1111/etap.12269",
+        "article-title": "How should crowdfunding research evolve? A survey of the Entrepreneurship Theory and Practice editorial board",
+        "volume": "41",
+        "author": "McKenny",
+        "year": "2017",
+        "journal-title": "Entrepreneurship Theory and Practice"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0385",
+        "doi-asserted-by": "crossref",
+        "first-page": "926",
+        "DOI": "10.1016/j.jpubeco.2010.11.026",
+        "article-title": "Brother, can you spare a dime? Peer pressure in charitable solicitation",
+        "volume": "95",
+        "author": "Meer",
+        "year": "2011",
+        "journal-title": "Journal of Public Economics"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0390",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.jbusvent.2013.06.005",
+        "article-title": "The dynamics of crowdfunding: An exploratory study",
+        "volume": "29",
+        "author": "Mollick",
+        "year": "2014",
+        "journal-title": "Journal of Business Venturing"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0395",
+        "series-title": "After the campaign: Outcomes of crowdfunding",
+        "author": "Mollick",
+        "year": "2014"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0400",
+        "doi-asserted-by": "crossref",
+        "first-page": "242",
+        "DOI": "10.5465/amr.1998.533225",
+        "article-title": "Social capital, intellectual capital, and the organizational advantage",
+        "volume": "23",
+        "author": "Nahapiet",
+        "year": "1998",
+        "journal-title": "The Academy of Management Review"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0405",
+        "doi-asserted-by": "crossref",
+        "first-page": "911",
+        "DOI": "10.1108/IJEBR-07-2017-0256",
+        "article-title": "Equity crowdfunding across borders: A conjoint experiment",
+        "volume": "24",
+        "author": "Niemand",
+        "year": "2018",
+        "journal-title": "International Journal of Entrepreneurial Behavior & Research"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0410",
+        "doi-asserted-by": "crossref",
+        "first-page": "341",
+        "DOI": "10.1016/j.jbusres.2016.12.030",
+        "article-title": "From value chains to technological platforms: The effects of crowdfunding in the digital game industry",
+        "volume": "78",
+        "author": "Nucciarelli",
+        "year": "2017",
+        "journal-title": "Journal of Business Research"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0415",
+        "doi-asserted-by": "crossref",
+        "first-page": "443",
+        "DOI": "10.1108/09564231111155079",
+        "article-title": "Crowd-funding: Transforming customers into investors through innovative service platforms",
+        "volume": "22",
+        "author": "Ordanini",
+        "year": "2011",
+        "journal-title": "Journal of Service Management"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0420",
+        "doi-asserted-by": "crossref",
+        "first-page": "101",
+        "DOI": "10.1080/10864415.2003.11044275",
+        "article-title": "Consumer acceptance of electronic commerce: Integrating trust and risk with the technology acceptance model",
+        "volume": "7",
+        "author": "Pavlou",
+        "year": "2003",
+        "journal-title": "International Journal of Electronic Commerce"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0425",
+        "doi-asserted-by": "crossref",
+        "first-page": "879",
+        "DOI": "10.1037/0021-9010.88.5.879",
+        "article-title": "Common method biases in behavioral research: A critical review of the literature and recommended remedies",
+        "volume": "88",
+        "author": "Podsakoff",
+        "year": "2003",
+        "journal-title": "Journal of Applied Psychology"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0430",
+        "doi-asserted-by": "crossref",
+        "first-page": "48",
+        "DOI": "10.1016/j.socscimed.2017.08.035",
+        "article-title": "Crowdfunding our health: Economic risks and benefits",
+        "volume": "191",
+        "author": "Renwick",
+        "year": "2017",
+        "journal-title": "Social Science & Medicine"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0435",
+        "first-page": "1",
+        "article-title": "Lavaan: An R package for structural equation modeling and more. Version 0.5–12 (BETA)",
+        "author": "Rosseel",
+        "year": "2012",
+        "journal-title": "Journal of Statistical Software"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0440",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1016/j.elerap.2016.01.006",
+        "article-title": "A typology of crowdfunding sponsors: Birds of a feather flock together?",
+        "volume": "16",
+        "author": "Ryu",
+        "year": "2016",
+        "journal-title": "Electronic Commerce Research and Applications"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0445",
+        "doi-asserted-by": "crossref",
+        "first-page": "89",
+        "DOI": "10.1016/0022-1031(82)90083-X",
+        "article-title": "Audiences' reactions to self-enhancing, self-denigrating, and accurate self-presentations",
+        "volume": "18",
+        "author": "Schlenker",
+        "year": "1982",
+        "journal-title": "Journal of Experimental Social Psychology"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0450",
+        "series-title": "Research methods for business: A skill building approach",
+        "author": "Sekaran",
+        "year": "2016"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0455",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1080/14792772143000003",
+        "article-title": "Intention—Behavior relations: A conceptual and empirical review",
+        "volume": "12",
+        "author": "Sheeran",
+        "year": "2002",
+        "journal-title": "European Review of Social Psychology"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0460",
+        "doi-asserted-by": "crossref",
+        "first-page": "213",
+        "DOI": "10.1108/10662240410542643",
+        "article-title": "The use of a decomposed theory of planned behavior to study Internet banking in Taiwan",
+        "volume": "14",
+        "author": "Shih",
+        "year": "2004",
+        "journal-title": "Internet Research"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0465",
+        "series-title": "Entrepreneurial challenges in the 21st century",
+        "first-page": "178",
+        "article-title": "Opportunities for entrepreneurial development and growth through online communities, collaboration, and value creating and co-creating activities",
+        "author": "Shneor",
+        "year": "2015"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0470",
+        "doi-asserted-by": "crossref",
+        "first-page": "134",
+        "DOI": "10.1108/BJM-01-2016-0013",
+        "article-title": "Introduction to the special issue: Current challenges and future prospects of entrepreneurship in Nordic and Baltic Europe",
+        "volume": "11",
+        "author": "Shneor",
+        "year": "2016",
+        "journal-title": "Baltic Journal of Management"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0475",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.1111/etap.12270",
+        "article-title": "Research on crowdfunding: Reviewing the (very recent) past and celebrating the present",
+        "volume": "41",
+        "author": "Short",
+        "year": "2017",
+        "journal-title": "Entrepreneurship Theory and Practice"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0480",
+        "doi-asserted-by": "crossref",
+        "first-page": "209",
+        "DOI": "10.1111/etap.12272",
+        "article-title": "The influence of internal social capital on serial creators' success in crowdfunding",
+        "volume": "41",
+        "author": "Skirnevskiy",
+        "year": "2017",
+        "journal-title": "Entrepreneurship Theory and Practice"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0485",
+        "doi-asserted-by": "crossref",
+        "first-page": "199",
+        "DOI": "10.1111/j.2044-8309.1995.tb01058.x",
+        "article-title": "The theory of planned behaviour: The effects of perceived behavioural control and self-efficacy",
+        "volume": "34",
+        "author": "Terry",
+        "year": "1995",
+        "journal-title": "British Journal of Social Psychology"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0490",
+        "doi-asserted-by": "crossref",
+        "first-page": "4",
+        "DOI": "10.1177/109442810031002",
+        "article-title": "A review and synthesis of the measurement invariance literature: Suggestions, practices, and recommendations for organizational research",
+        "volume": "3",
+        "author": "Vandenberg",
+        "year": "2000",
+        "journal-title": "Organizational Research Methods"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0495",
+        "doi-asserted-by": "crossref",
+        "first-page": "186",
+        "DOI": "10.1287/mnsc.46.2.186.11926",
+        "article-title": "A theoretical extension of the technology acceptance model: Four longitudinal field studies",
+        "volume": "46",
+        "author": "Venkatesh",
+        "year": "2000",
+        "journal-title": "Management Science"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0500",
+        "doi-asserted-by": "crossref",
+        "first-page": "915",
+        "DOI": "10.1016/j.jbusres.2015.06.040",
+        "article-title": "Configurational paths to sponsor satisfaction in crowdfunding",
+        "volume": "69",
+        "author": "Xu",
+        "year": "2016",
+        "journal-title": "Journal of Business Research"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0505",
+        "doi-asserted-by": "crossref",
+        "first-page": "669",
+        "DOI": "10.1016/j.dss.2013.02.001",
+        "article-title": "Exploring the effect of e-WOM participation on e-loyalty in e-commerce",
+        "volume": "55",
+        "author": "Yoo",
+        "year": "2013",
+        "journal-title": "Decision Support Systems"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbusres.2019.06.013_bb0510",
+        "doi-asserted-by": "crossref",
+        "first-page": "370",
+        "DOI": "10.1016/j.tele.2016.06.006",
+        "article-title": "Determinants of backers' funding intention in crowdfunding: Social exchange theory and regulatory focus",
+        "volume": "34",
+        "author": "Zhao",
+        "year": "2017",
+        "journal-title": "Telematics and Informatics"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0515",
+        "series-title": "The 2nd Americas alternative finance industry report",
+        "author": "Ziegler",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.jbusres.2019.06.013_bb0520",
+        "series-title": "Expanding horizons: The 3rd European alternative finance industry report",
+        "author": "Ziegler",
+        "year": "2018"
+      }
+    ],
+    "container-title": [
+      "Journal of Business Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S014829631930373X?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S014829631930373X?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          19
+        ]
+      ],
+      "date-time": "2022-06-19T07:16:22Z",
+      "timestamp": 1655622982000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S014829631930373X"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 104,
+    "alternative-id": [
+      "S014829631930373X"
+    ],
+    "URL": "https://doi.org/10.1016/j.jbusres.2019.06.013",
+    "relation": {},
+    "ISSN": [
+      "0148-2963"
+    ],
+    "issn-type": [
+      {
+        "value": "0148-2963",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Reward crowdfunding contribution as planned behaviour: An extended framework",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Business Research",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jbusres.2019.06.013",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2019 The Author(s). Published by Elsevier Inc.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

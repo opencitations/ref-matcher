@@ -1,0 +1,707 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          7
+        ]
+      ],
+      "date-time": "2024-08-07T00:11:36Z",
+      "timestamp": 1722989496212
+    },
+    "reference-count": 34,
+    "publisher": "Optica Publishing Group",
+    "issue": "22",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              17
+            ]
+          ],
+          "date-time": "2019-10-17T00:00:00Z",
+          "timestamp": 1571270400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.1364/OA_License_v1#VOR-OA"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              17
+            ]
+          ],
+          "date-time": "2019-10-17T00:00:00Z",
+          "timestamp": 1571270400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://opg.optica.org/policies/opg-tdm-policy.json"
+      }
+    ],
+    "funder": [
+      {
+        "name": "National Key program for S&T Research and Development",
+        "award": [
+          "2016YFA0401100"
+        ]
+      },
+      {
+        "name": "Fundamental Research Fund of Sun Yat-Sen University",
+        "award": [
+          "18lgpy77"
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "11425414",
+          "11534004",
+          "11804405",
+          "11874246",
+          "11874179"
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.osapublishing.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Opt. Express"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          28
+        ]
+      ]
+    },
+    "DOI": "10.1364/oe.27.031629",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          17
+        ]
+      ],
+      "date-time": "2019-10-17T15:16:11Z",
+      "timestamp": 1571325371000
+    },
+    "page": "31629",
+    "update-policy": "http://dx.doi.org/10.1364/osa_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 30,
+    "title": [
+      "Quantum dynamics of atomic Rydberg excitation in strong laser fields"
+    ],
+    "prefix": "10.1364",
+    "volume": "27",
+    "author": [
+      {
+        "given": "Shilin",
+        "family": "Hu",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Xiaolei",
+        "family": "Hao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hang",
+        "family": "Lv",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mingqing",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tianxiang",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Haifeng",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-0982-3655",
+        "authenticated-orcid": true,
+        "given": "Mingxing",
+        "family": "Jin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dajun",
+        "family": "Ding",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Qianguang",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Weidong",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wilhelm",
+        "family": "Becker",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jing",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "285",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          17
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "oe-27-22-31629-R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1092",
+        "DOI": "10.1103/PhysRevLett.59.1092",
+        "volume": "59",
+        "author": "Freeman",
+        "year": "1987",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "oe-27-22-31629-R2",
+        "doi-asserted-by": "crossref",
+        "first-page": "565",
+        "DOI": "10.1103/PhysRevLett.60.565",
+        "volume": "60",
+        "author": "Muller",
+        "year": "1988",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "oe-27-22-31629-R3",
+        "doi-asserted-by": "crossref",
+        "first-page": "R49",
+        "DOI": "10.1103/PhysRevA.47.R49",
+        "volume": "47",
+        "author": "Jones",
+        "year": "1993",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "oe-27-22-31629-R4",
+        "doi-asserted-by": "crossref",
+        "first-page": "4837",
+        "DOI": "10.1103/PhysRevA.49.4837",
+        "volume": "49",
+        "author": "Rottke",
+        "year": "1994",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "oe-27-22-31629-R5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1127",
+        "DOI": "10.1103/PhysRevLett.42.1127",
+        "volume": "42",
+        "author": "Agostini",
+        "year": "1979",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "oe-27-22-31629-R6",
+        "doi-asserted-by": "crossref",
+        "first-page": "35",
+        "DOI": "10.1016/S1049-250X(02)80006-4",
+        "volume": "48",
+        "author": "Becker",
+        "year": "2002",
+        "journal-title": "Adv. At., Mol., Opt. Phys."
+      },
+      {
+        "key": "oe-27-22-31629-R7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1011",
+        "DOI": "10.1103/RevModPhys.84.1011",
+        "volume": "84",
+        "author": "Becker",
+        "year": "2012",
+        "journal-title": "Rev. Mod. Phys."
+      },
+      {
+        "key": "oe-27-22-31629-R8",
+        "doi-asserted-by": "crossref",
+        "first-page": "2729",
+        "DOI": "10.1088/0256-307X/23/10/029",
+        "volume": "23",
+        "author": "Wang",
+        "year": "2006",
+        "journal-title": "Chin. Phys. Lett."
+      },
+      {
+        "key": "oe-27-22-31629-R9",
+        "doi-asserted-by": "crossref",
+        "first-page": "233001",
+        "DOI": "10.1103/PhysRevLett.101.233001",
+        "volume": "101",
+        "author": "Nubbemeyer",
+        "year": "2008",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "oe-27-22-31629-R10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1261",
+        "DOI": "10.1038/nature08481",
+        "volume": "461",
+        "author": "Eichmann",
+        "year": "2009",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "oe-27-22-31629-R11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1550",
+        "DOI": "10.1134/S1054660X09150377",
+        "volume": "19",
+        "author": "Shvetsov-Shilovski",
+        "year": "2009",
+        "journal-title": "Laser Phys."
+      },
+      {
+        "key": "oe-27-22-31629-R12",
+        "doi-asserted-by": "crossref",
+        "first-page": "394",
+        "DOI": "10.1134/S1063776111080127",
+        "volume": "113",
+        "author": "Volkova",
+        "year": "2011",
+        "journal-title": "J. Exp. Theor. Phys."
+      },
+      {
+        "key": "oe-27-22-31629-R13",
+        "doi-asserted-by": "crossref",
+        "first-page": "011402",
+        "DOI": "10.1103/PhysRevA.85.011402",
+        "volume": "85",
+        "author": "Emmanouilidou",
+        "year": "2012",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "oe-27-22-31629-R14",
+        "doi-asserted-by": "crossref",
+        "first-page": "023001",
+        "DOI": "10.1103/PhysRevLett.110.023001",
+        "volume": "110",
+        "author": "von Veltheim",
+        "year": "2013",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "oe-27-22-31629-R15",
+        "doi-asserted-by": "crossref",
+        "first-page": "033415",
+        "DOI": "10.1103/PhysRevA.87.033415",
+        "volume": "87",
+        "author": "Huang",
+        "year": "2013",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "oe-27-22-31629-R16",
+        "first-page": "012015",
+        "volume": "414",
+        "author": "Azarm",
+        "year": "2013",
+        "journal-title": "J. Phys.: Conf. Ser."
+      },
+      {
+        "key": "oe-27-22-31629-R17",
+        "doi-asserted-by": "crossref",
+        "first-page": "023421",
+        "DOI": "10.1103/PhysRevA.89.023421",
+        "volume": "89",
+        "author": "Li",
+        "year": "2014",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "oe-27-22-31629-R18",
+        "doi-asserted-by": "crossref",
+        "first-page": "013003",
+        "DOI": "10.1103/PhysRevLett.118.013003",
+        "volume": "118",
+        "author": "Zimmermann",
+        "year": "2017",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "oe-27-22-31629-R19",
+        "doi-asserted-by": "crossref",
+        "first-page": "043403",
+        "DOI": "10.1103/PhysRevA.96.043403",
+        "volume": "96",
+        "author": "Piraux",
+        "year": "2017",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "oe-27-22-31629-R20",
+        "doi-asserted-by": "crossref",
+        "first-page": "014002",
+        "DOI": "10.1088/1361-6455/aa948b",
+        "volume": "51",
+        "author": "Popruzhenko",
+        "year": "2018",
+        "journal-title": "J. Phys. B"
+      },
+      {
+        "key": "oe-27-22-31629-R21",
+        "doi-asserted-by": "crossref",
+        "first-page": "203002",
+        "DOI": "10.1103/PhysRevLett.110.203002",
+        "volume": "110",
+        "author": "Eichmann",
+        "year": "2013",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "oe-27-22-31629-R22",
+        "doi-asserted-by": "crossref",
+        "first-page": "123003",
+        "DOI": "10.1103/PhysRevLett.114.123003",
+        "volume": "114",
+        "author": "Zimmermann",
+        "year": "2015",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "oe-27-22-31629-R23",
+        "doi-asserted-by": "crossref",
+        "first-page": "043003",
+        "DOI": "10.1103/PhysRevLett.107.043003",
+        "volume": "107",
+        "author": "Wu",
+        "year": "2011",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "oe-27-22-31629-R24",
+        "doi-asserted-by": "crossref",
+        "first-page": "113002",
+        "DOI": "10.1103/PhysRevLett.102.113002",
+        "volume": "102",
+        "author": "Manschwetus",
+        "year": "2009",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "oe-27-22-31629-R25",
+        "doi-asserted-by": "crossref",
+        "first-page": "033415",
+        "DOI": "10.1103/PhysRevA.93.033415",
+        "volume": "93",
+        "author": "Lv",
+        "year": "2016",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "oe-27-22-31629-R26",
+        "first-page": "1191",
+        "volume": "64",
+        "author": "Ammosov",
+        "year": "1986",
+        "journal-title": "Sov. Phys. JETP"
+      },
+      {
+        "key": "oe-27-22-31629-R27",
+        "first-page": "1945",
+        "volume": "47",
+        "author": "Keldysh",
+        "year": "1964",
+        "journal-title": "Zh. Eksp. Teor. Fiz."
+      },
+      {
+        "key": "oe-27-22-31629-R28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1599",
+        "DOI": "10.1103/PhysRevLett.70.1599",
+        "volume": "70",
+        "author": "Schafer",
+        "year": "1993",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "oe-27-22-31629-R29",
+        "doi-asserted-by": "crossref",
+        "first-page": "1994",
+        "DOI": "10.1103/PhysRevLett.71.1994",
+        "volume": "71",
+        "author": "Corkum",
+        "year": "1993",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "oe-27-22-31629-R30",
+        "doi-asserted-by": "crossref",
+        "first-page": "2466",
+        "DOI": "10.1103/PhysRevB.16.2466",
+        "volume": "16",
+        "author": "Jones",
+        "year": "1977",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "oe-27-22-31629-R31",
+        "doi-asserted-by": "crossref",
+        "first-page": "538",
+        "DOI": "10.1103/PhysRevA.18.538",
+        "volume": "18",
+        "author": "Jain",
+        "year": "1978",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "oe-27-22-31629-R32",
+        "doi-asserted-by": "crossref",
+        "first-page": "053410",
+        "DOI": "10.1103/PhysRevA.76.053410",
+        "volume": "76",
+        "author": "Milošević",
+        "year": "2007",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "key": "oe-27-22-31629-R33",
+        "doi-asserted-by": "crossref",
+        "first-page": "2280",
+        "DOI": "10.1103/PhysRevLett.85.2280",
+        "volume": "85",
+        "author": "Muth-Böhm",
+        "year": "2000",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "oe-27-22-31629-R34",
+        "doi-asserted-by": "crossref",
+        "first-page": "223001",
+        "DOI": "10.1103/PhysRevLett.108.223001",
+        "volume": "108",
+        "author": "Lin",
+        "year": "2012",
+        "journal-title": "Phys. Rev. Lett."
+      }
+    ],
+    "container-title": [
+      "Optics Express"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.osapublishing.org/viewmedia.cfm?URI=oe-27-22-31629&seq=0",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          6
+        ]
+      ],
+      "date-time": "2024-08-06T19:25:24Z",
+      "timestamp": 1722972324000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://opg.optica.org/abstract.cfm?URI=oe-27-22-31629"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          17
+        ]
+      ]
+    },
+    "references-count": 34,
+    "journal-issue": {
+      "issue": "22",
+      "published-online": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1364/oe.27.031629",
+    "relation": {},
+    "ISSN": [
+      "1094-4087"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "1094-4087"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          17
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "OSA - The Optical Society",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "https://doi.org/10.1364/OE.27.031629",
+        "name": "articlelink",
+        "label": "Crossref DOI link to publisher maintained version"
+      },
+      {
+        "value": "research-article",
+        "name": "content_type",
+        "label": "Article type"
+      },
+      {
+        "value": "Screened by Similarity Check",
+        "name": "cross_check",
+        "label": "Similarity check"
+      },
+      {
+        "value": "Yes",
+        "order": 0,
+        "name": "peer_reviewed",
+        "label": "Peer reviewed",
+        "group": {
+          "name": "peer_review",
+          "label": "Peer review"
+        }
+      },
+      {
+        "value": "Single blind",
+        "order": 1,
+        "name": "review_process",
+        "label": "Review process",
+        "group": {
+          "name": "peer_review",
+          "label": "Peer review"
+        }
+      },
+      {
+        "value": "26 June 2019",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "19 September 2019",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "17 October 2019",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "© 2019 Optical Society of America under the terms of the OSA Open Access Publishing Agreement",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

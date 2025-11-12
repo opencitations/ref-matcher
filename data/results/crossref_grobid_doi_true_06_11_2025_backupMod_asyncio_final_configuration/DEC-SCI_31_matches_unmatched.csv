@@ -1,0 +1,9 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_3,2007,161,1663,Beume,,,,,"Beume N, Naujoks B, Emmerich M (2007) SMS-EMOA: multiobjective selection based on dominated hypervolume. Eur J Oper Res 161(3):1663–1669",22,22,N/A,N/A,No,Yes
+ref_7,,,,,,,,,"Branke J, Gamer J (2007) Efficient sampling in interactive multi-criteria selection. In: INFORMS simulation society research workshop, pp 42–46",N/A,N/A,N/A,N/A,No,No
+ref_9,,,,,,,,,"Branke J, Zhang W, Tao Y (2016) Multiobjective ranking and selection based on hypervolume. In: Winter simulation conference. IEEE, pp 859–870",17,17,N/A,N/A,No,Yes
+ref_17,2005,,,DeGroot,,,,,"DeGroot M (2005) Optimal statistical decisions, vol 82. Wiley, New York",21,21,N/A,N/A,No,Yes
+ref_19,,,,,,,,,"Feldman G, Hunter SR, Pasupathy R (2015) Multi-objective simulation optimization on finite sets: optimal allocation via scalarization. In: Winter simulation conference. IEEE, pp 3610–3621",22,22,N/A,N/A,No,Yes
+ref_27,,,,,,,,,"Hunter SR, Feldman G (2015) Optimal sampling laws for bi-objective simulation optimization on finite sets. In: Winter simulation conference. IEEE, pp 3749–3757",22,22,N/A,N/A,No,Yes
+ref_31,,,,,,,,,"Kim SH, Nelson BL (2006) Chapter 17 Selecting the best system. In: Henderson SG, Nelson BL (eds) Handbooks in operations research and management science, vol 13. Elsevier, pp 501–534",22,22,N/A,N/A,No,Yes
+ref_45,,,,,,,,,"Wan W, Wang H (2017) Sequential probability ratio testing for multiple-objective ranking and selection. In: Winter simulation conference. IEEE, pp 1998–2009",N/A,N/A,N/A,N/A,No,No

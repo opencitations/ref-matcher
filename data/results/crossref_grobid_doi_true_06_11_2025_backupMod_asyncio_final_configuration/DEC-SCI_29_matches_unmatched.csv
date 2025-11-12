@@ -1,0 +1,6 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_15,1979,,,Garey,,,,,"Garey MR, Johnson DS (1979) Computers and intractability: a guide to the theory of NP-completeness. Freeman, New York",N/A,N/A,N/A,N/A,No,No
+ref_31,,,,,,,,,"Swisslog (2017) CaddyPick: picking made easy. 
+                    https://www.swisslog.com/de-de/kontakt/downloads?mediaItem=5551B202AE7541FA9662BDC8A95B7041
+                    
+                  . Accessed Dec 2018",N/A,N/A,N/A,N/A,No,No

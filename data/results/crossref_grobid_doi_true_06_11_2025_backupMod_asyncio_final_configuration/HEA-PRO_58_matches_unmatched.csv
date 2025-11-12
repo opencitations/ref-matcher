@@ -1,0 +1,4 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_10,,,,,,,,,"10) Gonzalo-Skok O, Serna J, Rhea MR, et al.: Relationships between functional movement tests and performance tests in young elite male basketball players. Int J Sports Phys Ther, 2015, 10: 628–638.",11,11,N/A,N/A,No,Yes
+ref_13,,,,,,,,,"13) Zamunér AR, Moreno MA, Camargo TM, et al.: Assessment of subjective perceived exertion at the anaerobic threshold with the Borg CR-10 scale. J Sports Sci Med, 2011, 10: 130–136.",N/A,N/A,N/A,N/A,No,No
+ref_18,,,,,,,,,"18) Portney LG, Watkins MP: Foundations of clinical research. Application to practice, 3rd ed. Upper Saddle River: Prentice Hall, 2009.",N/A,N/A,N/A,N/A,No,No

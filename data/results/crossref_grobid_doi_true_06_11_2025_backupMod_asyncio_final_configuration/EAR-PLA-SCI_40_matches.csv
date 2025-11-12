@@ -1,0 +1,42 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_1,N/A,The Atmospheric Radiation Measurement Program,33,10.1063/1.1554135,https://w3id.org/oc/meta/br/06202172550,year_and_doi
+ref_2,N/A,"Cloud Radiative Effect, Cloud Fraction And Cloud Type At Two Stations In Switzerland Using Hemispherical Sky Cameras",32,10.5194/amt-10-4587-2017,https://w3id.org/oc/meta/br/06102290747,doi_title
+ref_3,N/A,Cloud Fraction Determined By Thermal Infrared And Visible All-Sky Cameras,32,10.5194/amt-11-5549-2018,https://w3id.org/oc/meta/br/06102290397,doi_title
+ref_4,N/A,SURFRAD—A National Surface Radiation Budget Network For Atmospheric Research,40,10.1175/1520-0477(2000)081<2341:sansrb>2.3.co;2,https://w3id.org/oc/meta/br/062203477414,author_title
+ref_5,N/A,Surface Summertime Radiative Forcing By Shallow Cumuli At The Atmospheric Radiation Measurement Southern Great Plains Site,33,10.1029/2010jd014593,https://w3id.org/oc/meta/br/06150280326,year_and_doi
+ref_6,N/A,On A Derivable Formula For Long-Wave Radiation From Clear Skies,33,10.1029/wr011i005p00742,https://w3id.org/oc/meta/br/061601066851,year_and_doi
+ref_7,N/A,Baseline Surface Radiation Network (BSRN): Structure And Data Description (1992–2017),31,10.5194/essd-10-1491-2018,https://w3id.org/oc/meta/br/06301827699,year_and_doi
+ref_9,N/A,Automatic Cloud Amount Detection By Surface Longwave Downward Radiation Measurements,33,10.1029/2003jd004182,https://w3id.org/oc/meta/br/06190288457,year_and_doi
+ref_13,N/A,The Global Energy Balance Archive,25,10.1175/1520-0477(1999)080<0831:tgeba>2.0.co;2,https://w3id.org/oc/meta/br/062203477497,author_title
+ref_14,N/A,Effective Atmospheric Boundary Layer Temperature From Longwave Radiation Measurements,33,10.1029/2009jd012274,https://w3id.org/oc/meta/br/06180285200,year_and_doi
+ref_17,N/A,Uncertainties Of Parameterized Surface Downward Clear-Sky Shortwave And All-Sky Longwave Radiation.,32,10.5194/acp-12-5077-2012,https://w3id.org/oc/meta/br/062201754743,doi_title
+ref_18,N/A,The World Optical Depth Research And Calibration Center (WORCC) Quality Assurance And Quality Control Of GAW-PFR AOD Measurements,32,10.5194/gi-7-39-2018,https://w3id.org/oc/meta/br/06202175824,doi_title
+ref_20,N/A,The Spectral Distribution Of Solar Radiation At The Earth'S Surface—Elements Of A Model,33,10.1016/0038-092x(78)90187-1,https://w3id.org/oc/meta/br/06601284284,year_and_doi
+ref_21,N/A,A Method For Continuous Estimation Of Clear-Sky Downwelling Longwave Radiative Flux Developed Using ARM Surface Measurements,33,10.1029/2008jd009936,https://w3id.org/oc/meta/br/06220277989,year_and_doi
+ref_22,N/A,Evaluations Of Atmospheric Downward Longwave Radiation From 44 Coupled General Circulation Models Of CMIP5,32,10.1002/2013jd021427,https://w3id.org/oc/meta/br/06702346321,doi_title
+ref_24,N/A,Altitude Dependence Of Surface Radiation Fluxes And Cloud Forcing In The Alps: Results From The Alpine Surface Radiation Budget Network,33,10.1007/s007040200019,https://w3id.org/oc/meta/br/062202438575,year_and_doi
+ref_25,N/A,Technical Note: The libRadtran Software Package For Radiative Transfer Calculations - Description And Examples Of Use,32,10.5194/acp-5-1855-2005,https://w3id.org/oc/meta/br/062501760962,doi_title
+ref_27,N/A,A Climatology Of Surface Cloud Radiative Effects At The ARM Tropical Western Pacific Sites,32,10.1175/jamc-d-12-0189.1,https://w3id.org/oc/meta/br/06502392953,year_and_doi
+ref_31,N/A,Ground-based Aerosol Optical Depth Trends At Three High-Altitude Sites In Switzerland And Southern Germany From 1995 To 2010,26,10.1029/2012jd017493,https://w3id.org/oc/meta/br/0680288448,year_author_volume
+ref_32,N/A,Revising Shortwave And Longwave Radiation Archives In View Of Possible Revisions Of The WSG And WISG Reference Scales: Methods And Implications,32,10.5194/amt-10-3057-2017,https://w3id.org/oc/meta/br/06102290832,doi_title
+ref_37,N/A,Radiative Forcing - Measured At Earth's Surface - Corroborate The Increasing Greenhouse Effect,26,10.1029/2003gl018765,https://w3id.org/oc/meta/br/062102805891,year_author_volume
+ref_38,N/A,Anthropogenic Greenhouse Forcing And Strong Water Vapor Feedback Increase Temperature In Europe,33,10.1029/2005gl023624,https://w3id.org/oc/meta/br/061602822355,year_and_doi
+ref_39,N/A,A New Long-Wave Formula For Estimating Downward Clear-Sky Radiation At The Surface,33,10.1002/qj.49712253306,https://w3id.org/oc/meta/br/061601207462,year_and_doi
+ref_40,N/A,The Climatological Record Of Clear‐Sky Longwave Radiation At The Earth's Surface: Evidence For Water Vapour Feedback?,33,10.1080/01431160802036508,https://w3id.org/oc/meta/br/0628018119,year_and_doi
+ref_41,N/A,Cloud-Radiative Forcing And Climate: Results From The Earth Radiation Budget Experiment,26,10.1126/science.243.4887.57,https://w3id.org/oc/meta/br/06150487335,year_author_volume
+ref_42,N/A,"Aerosols, Climate, And The Hydrological Cycle",33,10.1126/science.1064034,https://w3id.org/oc/meta/br/061703512070,year_and_doi
+ref_43,N/A,Assessment Of BSRN Radiation Records For The Computation Of Monthly Means,32,10.5194/amt-4-339-2011,https://w3id.org/oc/meta/br/06302276461,doi_title
+ref_44,N/A,"Observed Relationship Between Surface Specific Humidity, Integrated Water Vapor, And Longwave Downward Radiation At Different Altitudes",33,10.1029/2006jd007850,https://w3id.org/oc/meta/br/06130279947,year_and_doi
+ref_46,N/A,Accuracy Of Ground Surface Broadband Shortwave Radiation Monitoring,26,10.1002/2014jd022335,https://w3id.org/oc/meta/br/06602366690,year_author_volume
+ref_47,N/A,Trend Analysis Of Surface Cloud-Free Downwelling Long-Wave Radiation From Four Swiss Sites,26,10.1029/2010jd015343,https://w3id.org/oc/meta/br/06140277559,year_author_volume
+ref_48,N/A,Cloud Effect Of Persistent Stratus Nebulosus At The Payerne BSRN Site,26,10.1016/j.atmosres.2011.06.007,https://w3id.org/oc/meta/br/06170897451,year_author_volume
+ref_49,N/A,Trends In Surface Radiation And Cloud Radiative Effect Over Switzerland In The Past 15 Years,30,10.1063/1.4804859,https://w3id.org/oc/meta/br/06203362045,year_and_doi
+ref_50,N/A,A Method To Calculate Cloud-Free Long-Wave Irradiance At The Surface Based On Radiative Transfer Modeling And Temperature Lapse Rate Estimates,32,10.1007/s00704-013-0901-5,https://w3id.org/oc/meta/br/061602454766,doi_title
+ref_52,N/A,"Global Atmospheric Downward Longwave Radiation At The Surface From Ground-Based Observations, Satellite Retrievals, And Reanalyses",33,10.1002/rog.20009,https://w3id.org/oc/meta/br/0680776907,year_and_doi
+ref_53,N/A,Global Atmospheric Downward Longwave Radiation Over Land Surface Under All-Sky Conditions From 1973 To 2008,32,10.1029/2009jd011800,https://w3id.org/oc/meta/br/06180285274,year_and_doi
+ref_54,N/A,Factors Affecting The Detection Of Trends: Statistical Considerations And Applications To Environmental Data,26,10.1029/98jd00995,https://w3id.org/oc/meta/br/06260299727,year_author_volume
+ref_55,N/A,Homogeneity Of 20Th Century European Daily Temperature And Precipitation Series,33,10.1002/joc.906,https://w3id.org/oc/meta/br/062301347342,year_and_doi
+ref_57,N/A,Global Dimming And Brightening: A Review,30,10.1029/2008jd011470,https://w3id.org/oc/meta/br/06190286494,year_and_doi
+ref_58,N/A,Decadal Changes In Radiative Fluxes At Land And Ocean Surfaces And Their Relevance For Global Warming,32,10.1002/wcc.372,https://w3id.org/oc/meta/br/0630456716,doi_title
+ref_59,N/A,Changes In Shortwave And Longwave Radiative Fluxes As Observed At BSRN Sites And Simulated With CMIP5 Models,29,10.1063/1.4975554,https://w3id.org/oc/meta/br/061202462426,year_and_doi
+ref_60,N/A,New Estimates Of The Earth Radiation Budget Under Cloud-Free Conditions And Cloud Radiative Effects,30,10.1063/1.4975552,https://w3id.org/oc/meta/br/061202461821,year_and_doi

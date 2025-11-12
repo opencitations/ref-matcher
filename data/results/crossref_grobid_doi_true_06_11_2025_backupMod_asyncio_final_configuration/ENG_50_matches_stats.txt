@@ -1,0 +1,41 @@
+Processing Statistics
+==================================================
+Total references processed: 19
+Total matches found: 16
+Processing errors: 0
+Match percentage: 84.21%
+
+Coverage Breakdown:
+──────────────────────────────────────────────────
+References with DOI: 14
+References with title: 14
+References with author: 17
+References with year: 17
+References with volume: 13
+References with page: 13
+
+Field Match Statistics:
+──────────────────────────────────────────────────
+DOI matches: 14 (100.0% of refs with DOI)
+Author exact matches: 2 (11.8%)
+Year exact matches: 13
+Year adjacent matches (±1): 1
+Year total match rate: 82.4%
+Title exact matches: 13
+Title fuzzy matches: 1
+Title total match rate: 100.0%
+Volume matches: 7 (53.8%)
+Page matches: 12 (92.3%)
+
+Query Type Distribution:
+──────────────────────────────────────────────────
+  year_and_doi: 14 (87.5%)
+  author_title: 2 (12.5%)
+
+Grobid Fallback Statistics:
+──────────────────────────────────────────────────
+Grobid fallback attempts: 2
+Successful matches after Grobid: 2
+Grobid success rate: 100.0%
+
+Timestamp: 2025-11-07T01:12:58.591864

@@ -1,0 +1,37 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,,,,,,,,10.1016/j.jpainsymman.2016.02.009,,N/A,N/A,N/A,N/A,No,No
+ref_2,2016,184,16,K,,,,,,16,16,N/A,N/A,No,Yes
+ref_3,,,,,,,,10.1111/jocn.12773,,N/A,N/A,N/A,N/A,No,No
+ref_4,,,,,,,,10.5430/cns.v2n3p22,,N/A,N/A,N/A,N/A,No,No
+ref_5,,,,,,,,10.1111/j.1365-2702.2006.01473.x,,N/A,N/A,N/A,N/A,No,No
+ref_6,,,,,,,,10.1177/0269216310371411,,N/A,N/A,N/A,N/A,No,No
+ref_7,,,,,,,,10.1191/0969733006ne890oa,,N/A,N/A,N/A,N/A,No,No
+ref_8,2000,,,P,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_9,1987,,,VE,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_10,1980,,,ID,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_11,,,,,,,,10.1111/j.1365-2648.2010.05330.x,,N/A,N/A,N/A,N/A,No,No
+ref_12,,,,,,,,10.1348/000711201161082,,N/A,N/A,N/A,N/A,No,No
+ref_13,,,,,,,,10.1007/s11017-010-9141-1,,N/A,N/A,N/A,N/A,No,No
+ref_14,,,,,,,,10.1089/jpm.2006.9.1376,,N/A,N/A,N/A,N/A,No,No
+ref_15,,,,,,,,10.1080/17482620500501883,,N/A,N/A,N/A,N/A,No,No
+ref_16,,,,,,,,10.1080/13607863.2017.1348481,"Sjöberg M, Beck I, Rasmussen B, et al. Being disconnected from life – meanings of existential loneliness as narrated by frail older people. Aging Ment Health 2018; 22: 1357–1364.",N/A,N/A,N/A,N/A,No,No
+ref_17,2017,138,17,H,,,,,,12,12,N/A,N/A,No,Yes
+ref_18,,,,,,,,10.1016/j.socscimed.2015.05.015,,N/A,N/A,N/A,N/A,No,No
+ref_19,2014,28,13,M,,,,,,16,16,N/A,N/A,No,Yes
+ref_20,2016,015,2,R,,,,,,16,16,N/A,N/A,No,Yes
+ref_21,,,,,,,,,"International Council of Nurses (ICN). The ICN code of ethics for nurses, http://www.icn.ch/images/stories/documents/about/incode/ (2008, accessed 27 March 2018).",N/A,N/A,N/A,N/A,No,No
+ref_22,,,,,,,,10.1080/17482631.2018.1474673,"Sundström M, Edberg AK, Rämgård M, et al. Encountering existential loneliness among older people: perspectives of health care professionals. Submitted. 2017.",N/A,N/A,N/A,N/A,No,No
+ref_23,,,,,,,,10.1007/s00391-013-0475-y,,N/A,N/A,N/A,N/A,No,No
+ref_24,,,,,,,,10.1017/S1041610216002167,,N/A,N/A,N/A,N/A,No,No
+ref_25,,,,,,,,,"Edberg AK, Bolmsjö I. Study protocol: exploring existential loneliness among frail older people. The development phase of the LONE study. Submitted. 2017.",N/A,N/A,N/A,N/A,No,No
+ref_26,2008,,,Council,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_27,2003,,,RK,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_28,,,,,,,,10.1191/1478088706qp063oa,,N/A,N/A,N/A,N/A,No,No
+ref_29,,,,,,,,,"WMA Declaration of Helsinki, http://www.wma.net/policies-post/wma-declaration-of-helsinki-ethical-principles-for-medical-research-involving-human-subjects/ (2008, accessed 27 March 2018).",N/A,N/A,N/A,N/A,No,No
+ref_30,1998,,,E,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_32,2005,,,V,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_33,1955,,,M.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_34,,,,,,,,10.1016/j.ijnurstu.2011.10.016,,N/A,N/A,N/A,N/A,No,No
+ref_35,1982,,,EH,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_36,,,,,,,,10.1177/0969733014557119,,N/A,N/A,N/A,N/A,No,No
+ref_37,,,,,,,,10.3233/EFI-2004-22201,,N/A,N/A,N/A,N/A,No,No

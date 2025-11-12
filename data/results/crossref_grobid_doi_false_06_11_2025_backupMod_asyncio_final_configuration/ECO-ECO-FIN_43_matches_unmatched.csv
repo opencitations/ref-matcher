@@ -1,0 +1,7 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_2,,,,,,,,,"Bank for International Settlements (BIS), 2016. Triennial Central Bank Survey, Basel, Switzerland, 1–23.",N/A,N/A,N/A,N/A,No,No
+ref_6,2007,,,Cheng,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_7,,,,,,,,10.2139/ssrn.2906600,"Colacito, R., Riddiough, S., and Sarno, L., 2018. Business cycles and the cross-section of currency returns, Available at SSRN 2906600.",N/A,N/A,N/A,N/A,No,No
+ref_15,2004,,,Jeucken,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_22,1993,,,MacAndrew,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_26,1993,83,1337,Saunders,Stock prices and wall street weather,,,,,11,11,N/A,N/A,No,Yes

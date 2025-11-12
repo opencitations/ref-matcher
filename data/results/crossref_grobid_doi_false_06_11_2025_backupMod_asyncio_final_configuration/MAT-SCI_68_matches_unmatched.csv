@@ -1,0 +1,17 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_4,2018,72,86,Caol,,,,10.1016/j.polymertesting.2018.09.033,"Caol XH, Zhou YJ, Wei XD, Zhai W, Zheng GQ, Dai K, Liu CT, Shen CY (2018) Lightweight, mechanical robust foam with a herringbone-like porous structure for oil/water separation and filtering. Polym Test 72:86–93. 
+                    https://doi.org/10.1016/j.polymertesting.2018.09.033",12,12,N/A,N/A,No,Yes
+ref_10,2015,54,2328,Chu,,,,10.1002/anie.201405785,"Chu ZL, Feng YJ, Seeger S (2015) Oil/water separation with selective superantiwetting/superwetting surface materials. Angew Chem Int Ed 54:2328–2338. 
+                    https://doi.org/10.1002/anie.201405785",15,15,N/A,N/A,No,Yes
+ref_15,2017,3,18,Ghobashy,,,,10.1016/j.coco.2016.12.001,"Ghobashy MM, Elhady MA (2017) Radiation crosslinked magnetized wax (PE/Fe3O4) nano composite for selective oil adsorption. Compos Commun 3:18–22. 
+                    https://doi.org/10.1016/j.coco.2016.12.001",12,12,N/A,N/A,No,Yes
+ref_23,2019,11,10262,Lahiri,,,,10.1021/acsami.8b20651,"Lahiri SK, Zhang PC, Zhang C, Liu L (2019) Robust fluorine-free and self-healing superhydrophobic coatings by H3BO3 incorporation with SiO2-Alkyl-Silane@PDMS on cotton fabric. ACS Appl Mater Interfaces 11:10262–10275. 
+                    https://doi.org/10.1021/acsami.8b20651",11,11,N/A,N/A,No,Yes
+ref_41,2018,6,2935,Xu,,,,10.1039/C7TA10739K,"Xu CL, Wang YZ (2018) Novel dual superlyophobic materials in water-oil systems: under oil magneto-fluid transportation and oil–water separation. J Mater Chem A 6:2935–2941. 
+                    https://doi.org/10.1039/c7ta10739k",16,16,N/A,N/A,No,Yes
+ref_43,2017,313,1328,Xu,,,,10.1016/j.cej.2016.11.024,"Xu CL, Song F, Wang XL, Wang YZ (2017) Surface modification with hierarchical CuO arrays toward a flexible, durable superhydrophobic and self-cleaning material. Chem Eng J 313:1328–1334. 
+                    https://doi.org/10.1016/j.cej.2016.11.024",11,11,N/A,N/A,No,Yes
+ref_46,2019,465,241,Xue,,,,10.1016/j.apsusc.2018.09.156,"Xue CH, Fan QQ, Guo XJ, An QF, Jia ST (2019) Fabrication of superhydrophobic cotton fabrics by grafting of POSS-based polymers on fibers. Appl Surf Sci 465:241–248. 
+                    https://doi.org/10.1016/j.apsusc.2018.09.156",16,16,N/A,N/A,No,Yes
+ref_49,2017,9,9184,Zhou,,,,10.1021/acsami.7b00412,"Zhou CL, Chen ZD, Yang H, Hou K, Zeng XJ, Zheng YF, Cheng J (2017) Nature-inspired strategy toward superhydrophobic fabrics for versatile oil/water separation. ACS Appl Mater Interfaces 9:9184–9194. 
+                    https://doi.org/10.1021/acsami.7b00412",11,11,N/A,N/A,No,Yes

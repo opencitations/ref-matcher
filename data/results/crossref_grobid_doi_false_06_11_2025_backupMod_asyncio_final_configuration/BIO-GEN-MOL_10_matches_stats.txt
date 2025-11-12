@@ -1,0 +1,36 @@
+Processing Statistics
+==================================================
+Total references processed: 74
+Total matches found: 67
+Processing errors: 0
+Match percentage: 90.54%
+
+Coverage Breakdown:
+──────────────────────────────────────────────────
+References with DOI: 67
+References with title: 72
+References with author: 73
+References with year: 74
+References with volume: 72
+References with page: 71
+
+Field Match Statistics:
+──────────────────────────────────────────────────
+DOI matches: 65 (97.0% of refs with DOI)
+Author exact matches: 58 (79.5%)
+Year exact matches: 65
+Year adjacent matches (±1): 1
+Year total match rate: 89.2%
+Title exact matches: 61
+Title fuzzy matches: 6
+Title total match rate: 93.1%
+Volume matches: 60 (83.3%)
+Page matches: 63 (88.7%)
+
+Query Type Distribution:
+──────────────────────────────────────────────────
+  author_title: 56 (83.6%)
+  year_volume_page: 9 (13.4%)
+  year_author_page: 2 (3.0%)
+
+Timestamp: 2025-11-07T10:08:39.953975

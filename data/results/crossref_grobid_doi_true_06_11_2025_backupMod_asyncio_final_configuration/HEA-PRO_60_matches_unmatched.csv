@@ -1,0 +1,2 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_10,,,,,,,,,"10) Katayama Y, Senda M, Hamada M, et al.: Relationship between postural balance and knee and toe muscle power in young women. Acta Med Okayama, 2004, 58: 189–195.",11,11,N/A,N/A,No,Yes

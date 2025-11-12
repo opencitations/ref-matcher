@@ -1,0 +1,19 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,,,,,,,,,"Akima, H., and Gebhardt, A., 2015, akima: Interpolation of irregularly and regularly spaced data: R package, version 0.5-12: https://CRAN.R-project.org/package=akima (accessed January 2019).",N/A,N/A,N/A,N/A,No,No
+ref_4,2019,,639,Bretschneider,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_7,1976,,134,Butzer,Early Hydraulic Civilization in Egypt: A Study in Cultural Ecology,,,,,21,21,N/A,N/A,No,Yes
+ref_8,1966,,77,Carpenter,Discontinuity in Greek Civilization,,,,,N/A,N/A,N/A,N/A,No,No
+ref_13,1971,,312,Donlay,Analysis of the winter climate pattern at the time of the Mycenaean decline [Ph.D. thesis],,,,,N/A,N/A,N/A,N/A,No,No
+ref_15,1989,,340,Faegri,Textbook of Pollen Analysis,,,,,21,21,N/A,N/A,No,Yes
+ref_17,2006–2007,27–28,209,Gilboa,"Fragmenting the Sea Peoples, with an emphasis on Cyprus, Syria and Egypt: A Tel Dor perspective",,,,,N/A,N/A,N/A,N/A,No,No
+ref_21,1973,,206,Jalas,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_22,1979,,71,Jalas,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_23,1980,,119,Jalas,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_26,2009,19,1039,Kaniewski,Wild or cultivated Olea europaea L. in the Eastern Mediterranean during the middle–late Holocene?,,,,,12,12,N/A,N/A,No,Yes
+ref_32,2015,6,369,Kaniewski,Drought and societal collapse 3200 years ago in the Eastern Mediterranean: A review,,,,,12,12,N/A,N/A,No,Yes
+ref_34,2013,,772,Killebrew,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_36,2009,38,L21501,Kobashi,High variability of Greenland surface temperature over the past 4000 years estimated from trapped air in an ice core,,,,,10,10,N/A,N/A,No,Yes
+ref_45,,,,,,,,,"Ooms, J., James, D., DebRoy, S., Wickham, H., and Horner, J., 2016, RMySQL: Database interface and “MySQL” driver for R: R package, version 0.10.9, https://CRAN.R-project.org/package=RMySQL (accessed January 2019).",N/A,N/A,N/A,N/A,No,No
+ref_47,2014,,,Team,A language and environment for statistical computing,,,,,N/A,N/A,N/A,N/A,No,No
+ref_49,2000,,544,Shaw,,,,10.1093/oso/9780198150343.001.0001,,16,16,N/A,N/A,No,Yes
+ref_57,2006,,200,Yon,The City of Ugarit at Tell Ras Shamra,,,,,22,22,N/A,N/A,No,Yes

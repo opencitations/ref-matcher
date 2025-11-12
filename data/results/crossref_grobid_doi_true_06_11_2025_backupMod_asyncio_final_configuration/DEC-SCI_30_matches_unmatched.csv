@@ -1,0 +1,29 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,1994,,487,Agrawal,Fast algorithms for mining association rules,,,,,15,15,N/A,N/A,No,Yes
+ref_2,1998,,85,Jr,Efficiently mining long patterns from databases,,,,,15,15,N/A,N/A,No,Yes
+ref_5,2003,,65,Liu,Ascending frequency ordered prefix-tree: efficient mining of frequent patterns,,,,,N/A,N/A,N/A,N/A,No,No
+ref_6,2003,,,Liu,Afopt: An efficient implementation of pattern growth approach,,,,,N/A,N/A,N/A,N/A,No,No
+ref_7,2004,,1665,Qiu,An improved algorithm of mining from fp-tree,,,,,17,17,N/A,N/A,No,Yes
+ref_9,2011,,116,Yildiz,Mining frequent patterns from microarray data,,,,,22,22,N/A,N/A,No,Yes
+ref_14,2008,,103,Zhou,Balanced tidset-based parallel fp-tree algorithm for the frequent pattern mining on grid system,,,,,22,22,N/A,N/A,No,Yes
+ref_15,2008,,18,Zhou,Tidset-based parallel fp-tree algorithm for the frequent pattern mining problem on pc clusters,,,,,20,20,N/A,N/A,No,Yes
+ref_18,2007,,242,Lucchese,Parallel mining of frequent closed patterns: Harnessing modern computer architectures,,,,,N/A,N/A,N/A,N/A,No,No
+ref_19,2006,,97,Buehrer,Adaptive parallel graph mining for cmp architectures,,,,,22,22,N/A,N/A,No,Yes
+ref_20,2012,,449,Wang,Mapreduce-based closed frequent itemset mining with efficient redundancy filtering,,,,,22,22,N/A,N/A,No,Yes
+ref_21,2015,,839,Apiletti,Pampa-hd: a parallel mapreduce-based frequent pattern miner for high-dimensional data,,,,,22,22,N/A,N/A,No,Yes
+ref_22,2010,,521,Negrevergne,Discovering closed frequent itemsets on multicore: Parallelizing computations and optimizing memory accesses,,,,,22,22,N/A,N/A,No,Yes
+ref_25,2000,,21,Pei,Closet: An efficient algorithm for mining frequent closed itemsets,,,,,16,16,N/A,N/A,No,Yes
+ref_26,2003,,,Uno,Lcm: An efficient algorithm for enumerating frequent closed item sets,,,,,N/A,N/A,N/A,N/A,No,No
+ref_27,2004,,,Uno,Lcm ver 2: Efficient mining algorithms for frequent/closed/maximal itemsets,,,,,8,8,N/A,N/A,No,Yes
+ref_28,2005,,77,Uno,"Lcm ver. 3: collaboration of array, bitmap and prefix tree for frequent itemset mining",,,,,16,16,N/A,N/A,No,Yes
+ref_29,2003,,236,Wang,Closet+: Searching for the best strategies for mining frequent closed itemsets,,,,,N/A,N/A,N/A,N/A,No,No
+ref_30,2002,,457,Zaki,Charm: An efficient algorithm for closed itemset mining,,,,,22,22,N/A,N/A,No,Yes
+ref_32,2004,,363,Cong,Mining frequent closed patterns in microarray data,,,,,N/A,N/A,N/A,N/A,No,No
+ref_33,2006,,280,Liu,Mining frequent patterns on very high dimensional data: a topdown row enumeration approach,,,,,21,21,N/A,N/A,No,Yes
+ref_35,2003,,637,Pan,Carpenter: Finding closed patterns in long biological datasets,,,,,15,15,N/A,N/A,No,Yes
+ref_36,2015,,94431V,Sohrabi,Top-down vertical itemset mining,,,,,22,22,N/A,N/A,No,Yes
+ref_38,2004,,21,Pan,Cobbler: combining column and row enumeration for closed pattern discovery,,,,,16,16,N/A,N/A,No,Yes
+ref_39,2009,,bbp042,Alves,Gene association analysis: a survey of frequent pattern mining from gene expression data,,,,,22,22,N/A,N/A,No,Yes
+ref_47,2007,,706,Zhu,Mining colossal frequent patterns by core pattern fusion,,,,,N/A,N/A,N/A,N/A,No,No
+ref_50,2016,,003119,Nguyen,A new method for mining colossal patterns,,,,,22,22,N/A,N/A,No,Yes
+ref_54,,,,,,,,,"Biological-Datasets, http://datam.i2r.a-star.edu.sg/datasets/krbd/index.html.",N/A,N/A,N/A,N/A,No,No

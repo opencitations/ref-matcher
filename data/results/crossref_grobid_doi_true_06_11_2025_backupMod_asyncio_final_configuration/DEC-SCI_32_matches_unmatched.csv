@@ -1,0 +1,13 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_3,,,,,,,,,"Akkihal A (2006) Inventory pre-positioning for humanitarian operations. PhD thesis, Massachusetts Institute of Technology",N/A,N/A,N/A,N/A,No,No
+ref_14,,,,,,,,,"Center for Research on the Epidemiology of Disasters (CRED). Annual disaster statistical review 2017, 2018. 
+                    https://cred.be/sites/default/files/adsr_2017.pdf",N/A,N/A,N/A,N/A,No,No
+ref_18,,,,,,,,,"Dunning IR (2016) Advances in robust and adaptive optimization: algorithms, software, and insights. PhD thesis, Massachusetts Institute of Technology",N/A,N/A,N/A,N/A,No,No
+ref_25,2003,18,6,Gustavsson,,,,,Gustavsson L (2003) Humanitarian logistics: context and challenges. Forced Migr Rev 18(6):6–8,12,12,N/A,N/A,No,Yes
+ref_26,,,,,,,,,"International Federation of Red Cross and Red Crescent Societies (IFRC). World disasters report: Focus on local actor, the key to humanitarian effectiveness, (2015). 
+                    http://ifrc-media.org/interactive/world-disasters-report-2015/",N/A,N/A,N/A,N/A,No,No
+ref_27,,,,,,,,,"International Federation of Red Cross and Red Crescent Societies (IFRC). World disasters report: leaving no one behind, (2018). 
+                    https://media.ifrc.org/ifrc/world-disaster-report-2018/",N/A,N/A,N/A,N/A,No,No
+ref_28,,,,,,,,,"Kay MG (2013) Matlog: logistics engineering matlab toolbox. 
+                    http://www4.ncsu.edu/~kay/matlog/",N/A,N/A,N/A,N/A,No,No
+ref_30,,,,,,,,,"Mert A, Adivar BO (2010) Fuzzy disaster relief planning with credibility measures. In: 24th Mini EURO conference on Continuous optimization and information-based technologies in the financial sector, June, pp 23–26",N/A,N/A,N/A,N/A,No,No

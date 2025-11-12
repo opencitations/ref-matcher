@@ -1,0 +1,28 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,,,,,,,,10.1186/s12912-017-0242-2,,N/A,N/A,N/A,N/A,No,No
+ref_2,,,,,,,,10.1016/j.nedt.2017.05.015,,N/A,N/A,N/A,N/A,No,No
+ref_3,,,,,,,,10.1111/jonm.12514,,N/A,N/A,N/A,N/A,No,No
+ref_4,2016,,,Office,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_5,,,,,,,,10.1177/0969733013478307,,N/A,N/A,N/A,N/A,No,No
+ref_6,,,,,,,,10.1016/j.nedt.2015.12.007,,N/A,N/A,N/A,N/A,No,No
+ref_7,,,,,,,,10.1016/j.nepr.2017.06.004,,N/A,N/A,N/A,N/A,No,No
+ref_8,,,,,,,,10.1086/222197,,N/A,N/A,N/A,N/A,No,No
+ref_9,,,,,,,,10.1016/j.nedt.2018.04.002,,N/A,N/A,N/A,N/A,No,No
+ref_10,2012,9,45,K.,Developing a cultural responsiveness framework in healthcare systems: An Australian example,,,,,12,12,N/A,N/A,No,Yes
+ref_11,1978,,,B.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_12,1992,,,B.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_13,,,,,,,,10.1016/j.nedt.2017.12.005,,N/A,N/A,N/A,N/A,No,No
+ref_14,,,,,,,,10.1111/jocn.12500,,N/A,N/A,N/A,N/A,No,No
+ref_15,,,,,,,,10.1111/jocn.12141,,N/A,N/A,N/A,N/A,No,No
+ref_16,2010,6,1,C.,Counter narratives to multiculturalism and the assimilationist drift in British policy: Lessons from the era of new labour,,,,,16,16,N/A,N/A,No,Yes
+ref_17,,,,,,,,10.1111/jocn.13352,,N/A,N/A,N/A,N/A,No,No
+ref_18,,,,,,,,10.1016/j.ijnurstu.2015.02.012,,N/A,N/A,N/A,N/A,No,No
+ref_19,,,,,,,,10.1016/j.outlook.2017.09.002,,N/A,N/A,N/A,N/A,No,No
+ref_20,,,,,,,,10.1111/jocn.13926,,N/A,N/A,N/A,N/A,No,No
+ref_21,,,,,,,,10.1186/s12939-017-0571-5,,N/A,N/A,N/A,N/A,No,No
+ref_22,,,,,,,,10.3109/10398562.2011.562296,,N/A,N/A,N/A,N/A,No,No
+ref_23,,,,,,,,10.1111/jonm.12498,,N/A,N/A,N/A,N/A,No,No
+ref_25,,,,,,,,10.7748/ns2013.04.27.31.35.e7040,,N/A,N/A,N/A,N/A,No,No
+ref_26,,,,,,,,10.1186/1472-6963-14-99,,N/A,N/A,N/A,N/A,No,No
+ref_27,,,,,,,,,U.S. Department of Health and Human Services Office of Minority Health(2014).National standards for culturally and linguistically appropriate services in health and healthcare. Retrieved fromhttps://www.thinkculturalhealth.hhs.gov.pdfs/EnhalncedNationalCLASStandards.pdf,N/A,N/A,N/A,N/A,No,No
+ref_28,,,,,,,,10.1016/j.nedt.2018.08.012,,N/A,N/A,N/A,N/A,No,No

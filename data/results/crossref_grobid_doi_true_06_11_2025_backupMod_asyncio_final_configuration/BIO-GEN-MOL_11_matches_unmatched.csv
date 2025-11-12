@@ -1,0 +1,4 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_3,1986,49,233,Williams,Chromatin fibres are left-handed double helices with diameter and mass per unit length that depend on linker length,,,10.1016/S0006-3495(86)83637-2,,16,16,N/A,N/A,No,Yes
+ref_23,2002,,791,Agarwal,Computing the writhing number of a polygonal knot,,,,,21,21,N/A,N/A,No,Yes
+ref_40,2016,44,9131,Fang,Chromatin structure-dependent conformations of the H1 CTD,,,,,22,22,N/A,N/A,No,Yes

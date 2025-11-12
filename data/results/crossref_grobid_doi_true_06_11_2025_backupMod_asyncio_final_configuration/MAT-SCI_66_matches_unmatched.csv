@@ -1,0 +1,10 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_6,2008,,115,Clements,,,,10.1002/9783527619849.ch5,"Clements LD, Van Dyne DL (2008) The lignocellulosic biorefinery—a strategy for returning to a sustainable source of fuels and industrial organic chemicals. In: Kamm B, Gruber PR, Kamm M (eds) Biorefineries—industrial processes and products. Wiley, Weinheim, pp 115–128. 
+                    https://doi.org/10.1002/9783527619849.ch5",N/A,N/A,N/A,N/A,No,No
+ref_9,,,,,,,,,"European Bioplastics (2018) Bioplastics market data. 
+                    www.european-bioplastics.org
+                    
+                  . Accessed 26 June 2018",N/A,N/A,N/A,N/A,No,No
+ref_19,2017,,,Lehninger,,,,,"Lehninger AL, Nelson DL, Cox MM (2017) Lehninger principles of biochemistry, 7th edn. Freeman, New York",N/A,N/A,N/A,N/A,No,No
+ref_20,,,,,,,,,"Mao C, Del Rio LF, Wafa Al Dajani W, Wong D, Yuan Z, Browne T (2015) FPInnovations’ TMP-bio for lignocellulosic biomass: current state and scaling up. In: The 6th Nordic wood biorefinery conference, Helsinki, Finland",N/A,N/A,N/A,N/A,No,No
+ref_25,,,,,,,,,"Wafa Al Dajani W, Mao C, Yuan Z, Browne T (2013) Fermentation of TMP-bio process sugar hydrolysate to produce lactic acid. FPInnovations PRR 1959",N/A,N/A,N/A,N/A,No,No

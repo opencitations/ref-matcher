@@ -1,0 +1,34 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,2018,,,Jäger-Waldau,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_2,2018,,,Union,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_3,2018,,,Bloomberg,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_4,2014,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_6,2016,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_10,2017,,,Bódis,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_13,2012,,388,Latif,GIS-based estimation of rooftop solar photovoltaic potential using LiDAR,,,,,N/A,N/A,N/A,N/A,No,No
+ref_14,2019,,1,Calcabrini,A simplified skyline-based method for estimating the annual solar energy potential in urban environments,,,,,22,22,N/A,N/A,No,Yes
+ref_18,2014,,1,Jamal,,,,,,16,16,N/A,N/A,No,Yes
+ref_21,2016,,,Gagnon,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_23,,,,,,,,,"S. Pelland, Y. Poissant, An evaluation of the potential of building integrated photovoltaics in Canada, in: Proceedings of the SESCI 2006 conference, submitted, pp. 1–8.",N/A,N/A,N/A,N/A,No,No
+ref_27,2015,,,Vartiainen,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_30,2014,,,Huld,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_31,2016,,,Brown,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_33,2017,,,Ferri,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_34,,,,Odyssee-Mure,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_36,2018,,,Huld,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_37,2016,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_38,2015,,,Müller,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_40,2013,21,12,Jordan,Photovoltaic degradation rates–an analytical review,,,10.1002/pip.1182,,16,16,N/A,N/A,No,Yes
+ref_42,2018,,,Temperton,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_44,1995,,,Short,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_45,2016,,,Resch,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_48,,,,Eurostat,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_49,2016,,,Eurostat,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_50,2018,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_53,,,,,,,,,"M. Alam, K. Muttaqi, D. Sutanto, Distributed energy storage for mitigation of voltage-rise impact caused by rooftop solar PV., in: IEEE power and energy society general meeting, pp. 1–8.",21,21,N/A,N/A,No,Yes
+ref_57,2017,,,Pesaresi,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_58,2018,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_59,2000,vol. 40,,Bossard,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_60,2018,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_62,2017,,,Vartiainen,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_63,2015,,,,,,,,,N/A,N/A,N/A,N/A,No,No

@@ -1,0 +1,33 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_2,N/A,Using A Digital X-ray Imaging Device To Measure The Swelling Coefficients Of A Group Of Wood Cells,33,10.1016/s0963-8695(00)00072-4,https://w3id.org/oc/meta/br/061601015488,year_and_doi
+ref_3,N/A,The Shrinkage Of Oak Predicted From Its Anatomical Pattern: Validation Of A Cognitive Model,32,10.1007/s00468-006-0105-z,https://w3id.org/oc/meta/br/062401672040,year_and_doi
+ref_4,N/A,Wood Anatomy And Trait-Based Ecology,33,10.1163/22941932-20160127,https://w3id.org/oc/meta/br/06150138998,year_and_doi
+ref_5,N/A,Ncorr: Open-Source 2D Digital Image Correlation Matlab Software,32,10.1007/s11340-015-0009-1,https://w3id.org/oc/meta/br/062301182601,doi_title
+ref_7,N/A,New Insights On Wood Dimensional Stability Influenced By Secondary Metabolites: The Case Of A Fast-Growing Tropical Species Bagassa Guianensis Aubl.,33,10.1371/journal.pone.0150777,https://w3id.org/oc/meta/br/061801515627,year_and_doi
+ref_8,N/A,A Dendrite Method For Cluster Analysis,33,10.1080/03610927408827101,https://w3id.org/oc/meta/br/062301295332,year_and_doi
+ref_9,N/A,Wood Density Profiles And Their Corresponding Tissue Fractions In Tropical Angiosperm Trees,33,10.3390/f9120763,https://w3id.org/oc/meta/br/061702882271,year_and_doi
+ref_10,N/A,Hydraulic Conductivity Traits Predict Growth Rates And Adult Stature Of 40 Asian Tropical Tree Species Better Than Wood Density,33,10.1111/j.1365-2745.2011.01939.x,https://w3id.org/oc/meta/br/0660337145,year_and_doi
+ref_12,N/A,Wood Specific Gravity And Anatomy Of Branches And Roots In 113 A Mazonian Rainforest Tree Species Across Environmental Gradients,32,10.1111/nph.12632,https://w3id.org/oc/meta/br/06602511059,year_and_doi
+ref_13,N/A,Widespread Mistaken Identity In Tropical Plant Collections,32,10.1016/j.cub.2015.10.002,https://w3id.org/oc/meta/br/06110124906,doi_title
+ref_14,N/A,Localised Deformation Patterning In 2D Granular Materials Revealed By Digital Image Correlation,32,10.1007/s10035-009-0155-1,https://w3id.org/oc/meta/br/06101687938,year_and_doi
+ref_18,N/A,"Xylem Density, Biomechanics And Anatomical Traits Correlate With Water Stress In 17 Evergreen Shrub Species Of The Mediterranean-type Climate Region Of South Africa",33,10.1111/j.1365-2745.2006.01186.x,https://w3id.org/oc/meta/br/0660337905,year_and_doi
+ref_21,N/A,"Wood Shrinkage: Influence Of Anatomy, Cell Wall Architecture, Chemical Composition And Cambial Age",32,10.1007/s00107-009-0355-8,https://w3id.org/oc/meta/br/06801679956,year_and_doi
+ref_25,N/A,The Potential Of Using Xylarium Wood Samples For Wood Density Calculations: A Comparison Of Approaches For Volume Measurement,33,10.3832/ifor0575-004,https://w3id.org/oc/meta/br/061801819041,year_and_doi
+ref_26,N/A,Swelling Of Wood,33,10.1007/bf00192691,https://w3id.org/oc/meta/br/06301823953,year_and_doi
+ref_27,N/A,Wood Anatomy And Wood Density In Shrubs: Responses To Varying Aridity Along Transcontinental Transects,33,10.3732/ajb.0800237,https://w3id.org/oc/meta/br/062501542032,year_and_doi
+ref_30,N/A,Two-dimensional Digital Image Correlation For In-Plane Displacement And Strain Measurement: A Review,33,10.1088/0957-0233/20/6/062001,https://w3id.org/oc/meta/br/06103093017,year_and_doi
+ref_31,N/A,Incremental Calculation For Large Deformation Measurement Using Reliability-Guided Digital Image Correlation,33,10.1016/j.optlaseng.2011.05.005,https://w3id.org/oc/meta/br/0680829843,year_and_doi
+ref_32,N/A,Swelling Interactions Of Earlywood And Latewood Across A Growth Ring: Global And Local Deformations,32,10.1007/s00226-017-0960-3,https://w3id.org/oc/meta/br/06101841631,year_and_doi
+ref_33,N/A,Measurement Of Wood Shrinkage In Jack Pine Using Three Dimensional Digital Image Correlation (DIC),33,10.1515/hf-2011-0124,https://w3id.org/oc/meta/br/061501677517,year_and_doi
+ref_34,N/A,Regeneration Of Canopy Tree Species At Five Sites In West African Moist Forest,33,10.1016/0378-1127(96)03736-x,https://w3id.org/oc/meta/br/06402624435,year_and_doi
+ref_35,N/A,The Importance Of Wood Traits And Hydraulic Conductance For The Performance And Life History Strategies Of 42 Rainforest Tree Species,32,10.1111/j.1469-8137.2009.03092.x,https://w3id.org/oc/meta/br/06802508422,year_and_doi
+ref_36,N/A,"Relationships Among Xylem Transport, Biomechanics And Storage In Stems And Roots Of Nine Rhamnaceae Species Of The California Chaparral",30,10.1111/j.1469-8137.2007.02061.x,https://w3id.org/oc/meta/br/06902152383,year_and_doi
+ref_37,N/A,Wood Density And Vessel Traits As Distinct Correlates Of Ecological Strategy In 51 California Coast Range Angiosperms,33,10.1111/j.1469-8137.2006.01712.x,https://w3id.org/oc/meta/br/061702135210,year_and_doi
+ref_38,N/A,Logging In The Congo Basin: A Multi-Country Characterization Of Timber Companies,33,10.1016/j.foreco.2005.04.020,https://w3id.org/oc/meta/br/061602245997,year_and_doi
+ref_39,N/A,NIH Image To ImageJ: 25 Years Of Image Analysis,33,10.1038/nmeth.2089,https://w3id.org/oc/meta/br/06402154536,year_and_doi
+ref_40,N/A,How The Relationship Between Density And Shrinkage Of Wood Depends On Its Microstructure,32,10.1007/s00226-015-0699-7,https://w3id.org/oc/meta/br/06101841864,year_and_doi
+ref_43,N/A,Wood-Water Relations,30,10.1007/978-3-642-73683-4,https://w3id.org/oc/meta/br/065054447,year_and_doi
+ref_46,N/A,Ecological And Evolutionary Determinants Of A Key Plant Functional Trait: Wood Density And Its Community-Wide Variation Across Latitude And Elevation,32,10.3732/ajb.94.3.451,https://w3id.org/oc/meta/br/062601569554,year_and_doi
+ref_48,N/A,Preliminary Material,26,10.1163/22941932-90000496,https://w3id.org/oc/meta/br/06150139693,year_author_volume
+ref_49,N/A,Ggplot2,30,10.1007/978-0-387-98141-3,https://w3id.org/oc/meta/br/065057669,year_and_doi
+ref_50,N/A,Angiosperm Wood Structure: Global Patterns In Vessel Anatomy And Their Relation To Wood Density And Potential Conductivity,33,10.3732/ajb.0900178,https://w3id.org/oc/meta/br/062501541913,year_and_doi

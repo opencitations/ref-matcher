@@ -1,0 +1,11 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,2017,56,15113,Araujo,Single-step reagentless laser scribing fabrication of electrochemical paper-based analytical devices,,,10.1002/anie.201708527,,11,11,N/A,N/A,No,Yes
+ref_4,2015,4,S3044,Costa,A paper-based electrochemical sensor using inkjet-printed carbon nanotube electrodes,,,10.1149/2.0121510jss,,11,11,N/A,N/A,No,Yes
+ref_7,2016,765,8,Giuliani,Development and characterization of carbon based electrodes from pyrolyzed paper for biosensing applications,,,10.1016/j.jelechem.2015.07.055,,15,15,N/A,N/A,No,Yes
+ref_35,2016,63,52,Ramos,Free sulphite determination in wine using screen-printed carbon electrodes with prior gas-diffusion microextraction,,,10.1016/j.elecom.2015.12.010,,16,16,N/A,N/A,No,Yes
+ref_39,2017,251,522,Winiarski,Electrochemical reduction of sulfite based on gold nanoparticles/silsesquioxane-modified electrode,,,10.1016/j.electacta.2017.08.171,,11,11,N/A,N/A,No,Yes
+ref_45,2012,84,74,Ricci,A review of experimental aspects of electrochemical immunosensors,,,10.1016/j.electacta.2012.06.033,,12,12,N/A,N/A,No,Yes
+ref_49,2019,194,689,Pacheco,Electrochemical sensing of the thyroid hormone thyronamine (T0AM) via molecular imprinted polymers (MIPs),,,10.1016/j.talanta.2018.10.090,,16,16,N/A,N/A,No,Yes
+ref_58,2012,2,,OIV,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_61,2015,36,,Yilmaz,The geometric resistivity correction factor for several geometrical samples,,,10.1088/1674-4926/36/8/082001,,11,11,N/A,N/A,No,Yes
+ref_63,2018,,,Salim,Development of sheet resistivity on silver nanoparticle filled epoxy for electronic packaging devices,,,,,N/A,N/A,N/A,N/A,No,No

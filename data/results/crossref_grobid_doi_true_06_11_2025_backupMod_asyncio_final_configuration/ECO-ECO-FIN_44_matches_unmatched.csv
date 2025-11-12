@@ -1,0 +1,14 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_2,2019,,,Agarwal,Do Real Estate Agents Have Information Advantage in Housing Markets?,,,,,21,21,N/A,N/A,No,Yes
+ref_7,2010,3,1029,Ben-David,The political economy of financial regulation: Evidence from U.S. state usury laws in the 19th century,,,,,12,12,N/A,N/A,No,Yes
+ref_11,2012,,,Chalmers,,,,10.3386/w18158,,16,16,N/A,N/A,No,Yes
+ref_12,2016,,,Chang,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_13,2015,50,597,Chang,,,,,,19,19,N/A,N/A,No,Yes
+ref_15,2017,,,Clifford,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_22,2015,,,Dimmock,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_23,2018,,,Egan,Brokers vs. Retail investors: Conflicting Interests and Dominated Products,,,,,22,22,N/A,N/A,No,Yes
+ref_30,2018,,,Griffin,Do labor markets discipline? Evidence from RMBS bankers,,,,,21,21,N/A,N/A,No,Yes
+ref_31,2015,,,Gurun,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_35,2018,,,Mohliver,How Misconduct Spreads: Auditors' Role in the Diffusion of Stock-option Backdating,,,,,N/A,N/A,N/A,N/A,No,No
+ref_36,2012,,,Mullainathan,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_37,2017,,,Nguyen,,,,,,N/A,N/A,N/A,N/A,No,No

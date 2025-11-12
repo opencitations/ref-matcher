@@ -1,0 +1,71 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,,,,,,,,10.1016/0305-4403(90)90007-R,,N/A,N/A,N/A,N/A,No,No
+ref_2,,,,,,,,10.1007/978-3-662-02894-0_1,,N/A,N/A,N/A,N/A,No,No
+ref_3,,,,,,,,10.1007/s12520-017-0518-1,,N/A,N/A,N/A,N/A,No,No
+ref_4,,,,,,,,10.1016/j.jas.2011.02.017,,N/A,N/A,N/A,N/A,No,No
+ref_5,,,,,,,,10.1016/S0048-9697(01)00842-7,,N/A,N/A,N/A,N/A,No,No
+ref_6,,,,,,,,10.1080/08003831.2016.1154676,,N/A,N/A,N/A,N/A,No,No
+ref_7,2014,31,45,I.,Travelling in boreal forests: routes of communication in pre-industrial Northern Sweden,,,,"Bergman, I., Zackrisson, O., and Östlund, L., 2014. Travelling in boreal forests: routes of communication in pre-industrial Northern Sweden. Fennoscandia Archaeologica, 31, 45–60.",15,15,N/A,N/A,No,Yes
+ref_8,,,,,,,,10.1080/08003831.2013.847676,,N/A,N/A,N/A,N/A,No,No
+ref_9,,,,,,,,10.1002/(ISSN)1099-1212,,N/A,N/A,N/A,N/A,No,No
+ref_11,,,,,,,,10.1017/S0033822200044118,,N/A,N/A,N/A,N/A,No,No
+ref_12,,,,,,,,10.1038/317806a0,,N/A,N/A,N/A,N/A,No,No
+ref_13,,,,,,,,10.1016/0016-7037(78)90199-0,,N/A,N/A,N/A,N/A,No,No
+ref_14,,,,,,,,10.1017/RDC.2018.78,,N/A,N/A,N/A,N/A,No,No
+ref_15,2005,,,G.,,,,,"Faure, G., and Mensing, T.M., 2005. Principles of isotope geology. 3rd ed, 824–853. New York: John Wiley & Sons.",N/A,N/A,N/A,N/A,No,No
+ref_16,1986,,,P.,,,,,"Fjellström, P., 1986. Samernas samhälle i tradition och nutid. Stockholm: Norstedt.",N/A,N/A,N/A,N/A,No,No
+ref_17,,,,,,,,10.1371/journal.pbio.2003703,,N/A,N/A,N/A,N/A,No,No
+ref_18,1922,5,162,G.,Gravplatser och offerplatser i ryska lappmarken,,,,"Hallström, G., 1922. Gravplatser och offerplatser i ryska lappmarken. RIG, Föreningen För Svensk Kulturhistoria, 5, 162–192.",N/A,N/A,N/A,N/A,No,No
+ref_19,2004,,,L.I.,,,,,"Hansen, L.I., and Olsen, B., 2004. Samenes historie intill 1750. Oslo: Cappelen.",N/A,N/A,N/A,N/A,No,No
+ref_20,,,,,,,,10.1163/9789004252554,,N/A,N/A,N/A,N/A,No,No
+ref_21,,,,,,,,10.1002/(ISSN)1096-8644,,N/A,N/A,N/A,N/A,No,No
+ref_22,,,,,,,,10.1017/CBO9781139170697,,N/A,N/A,N/A,N/A,No,No
+ref_23,2014,,,A.J.,,,,,"Kirchhefer, A.J., 2014. Dendrologisk datering av likkister fra Gullholmen kirkegård i Tana commune. Vol. 33. Unpublished report. Finnmark, Tromsø: Dendroøkologen.",N/A,N/A,N/A,N/A,No,No
+ref_24,,,,,,,,10.1016/B978-0-444-41780-0.50017-1,,N/A,N/A,N/A,N/A,No,No
+ref_25,,,,,,,,10.1017/RDC.2017.52,,N/A,N/A,N/A,N/A,No,No
+ref_26,,,,,,,,10.1017/CBO9780511802676,,N/A,N/A,N/A,N/A,No,No
+ref_27,,,,,,,,10.7557/2.36.1.3767,,N/A,N/A,N/A,N/A,No,No
+ref_28,2000,229,42,K.,Det europeiske felleskapet før EU: fra Roma til Nord-Norge i mellomalderen,,,,"Lind, K., 2000. Det europeiske felleskapet før EU: fra Roma til Nord-Norge i mellomalderen. Ottar, 229, 42–47.",12,12,N/A,N/A,No,Yes
+ref_29,2003,,42,K.,,,,,"Lind, K. 2003. Yttervær på Loppa øy. In: M.A. Hauan, et al., eds. Karlsøy og verden utenfor: kulturhistoriske perspektiver på nordnorske steder. Festskrift til professor Håvard Dahl Bratrein på 70-årsdagen 13. 02.2003. Tromsø Museums Skrifter. Tromsø: Tromsø museum, Universitetsmusset, Vol. 30, 42–52.",12,12,N/A,N/A,No,Yes
+ref_30,2008,103,176,A.,An early Christian cemetery at Björned in northern Sweden: stable isotope analyses of skeletal material,,,,"Linderholm, A., et al. 2008. An early Christian cemetery at Björned in northern Sweden: stable isotope analyses of skeletal material. Fornvännen, 103, 176–189.",11,11,N/A,N/A,No,Yes
+ref_31,2006,,,N.,,,,,"Lynnerup, N., 2006. Rapport over skeletfund ved Kirkegårdsøya, Hammerfest kommune, Finnmark fylke, Norge – sommaren 2005. Laboratory of Forensic Anthropology, University of Copenhagen. Unpublished report.",N/A,N/A,N/A,N/A,No,No
+ref_32,2007,,,N.,,,,,"Lynnerup, N., 2007a. Rapport over skeletfund ved Gullholmen, Tana kommune, Finnmark fylke, Norge – sommaren 2006. Laboratory of Forensic Anthropology, University of Copenhagen. Unpublished report.",N/A,N/A,N/A,N/A,No,No
+ref_33,2007,,,N,,,,,"Lynnerup, N, 2007b. Rapport over skeletfund ved Gullholmen, tana kommune, finnmark fylke, norge – sommeren 2007. Laboratory of Forensic Anthropology, University of Copenhagen. Unpublished report.",N/A,N/A,N/A,N/A,No,No
+ref_34,2008,,,N.,,,,,"Lynnerup, N., Riddersholm, S., and Faurskov Nielsen, O., 2008. Echinicoccosis in an 18th century grave in Northern Norway. Laboratory of Biological Anthropology and Institute of Biochemistry, University of Copenhagen. Unpublished poster.",N/A,N/A,N/A,N/A,No,No
+ref_35,,,,,,,,10.1111/j.1502-3885.1972.tb00147.x,,N/A,N/A,N/A,N/A,No,No
+ref_36,,,,,,,,10.1016/j.quascirev.2006.03.010,,N/A,N/A,N/A,N/A,No,No
+ref_37,,,,,,,,10.1016/0033-5894(75)90028-9,,N/A,N/A,N/A,N/A,No,No
+ref_38,,,,,,,,10.1016/0016-7037(84)90204-7,,N/A,N/A,N/A,N/A,No,No
+ref_39,1998,,106,J.S.,,,,,"Munch, J.S., and Munch, G.S., 1998. Utgravningene på boplassen på Gållevarri. In: Ø. Vorren, 1998. Villreinfangst i Varanger fram til 1600-1700 årene. Vol. 28. Stonglandseidet: Nordkalott-forlaget. Tromsø Museums skrifter, 106–133.",12,12,N/A,N/A,No,Yes
+ref_40,,,,,,,,10.1016/j.jas.2013.08.022,,N/A,N/A,N/A,N/A,No,No
+ref_41,,,,,,,,10.1002/rcm.6682,,N/A,N/A,N/A,N/A,No,No
+ref_42,,,,,,,,10.1007/s12520-009-0003-6,,N/A,N/A,N/A,N/A,No,No
+ref_43,,,,,,,,10.1006/jasc.2001.0698,,N/A,N/A,N/A,N/A,No,No
+ref_44,,,,,,,,10.1006/jasc.1998.0383,,N/A,N/A,N/A,N/A,No,No
+ref_45,1984,,42,S.,Glimt fra Guollesuolu/Gullholmen,,,,"Pedersen, S., 1984. Glimt fra Guollesuolu/Gullholmen. Deatnu – Teno – Tana, 42–53.",12,12,N/A,N/A,No,Yes
+ref_46,2008,,111,H.C.,,,,,"Petersen, H.C., and Alexandersen, V., 2008. Non-metriske træk. In: N. Lynnerup, P. Bennike, and E. Iregren, eds.. Biologisk antropologi med human osteology. København: Gyldendal, 111–119.",12,12,N/A,N/A,No,Yes
+ref_47,,,,,,,,10.2458/azu_js_rc.55.16947,,N/A,N/A,N/A,N/A,No,No
+ref_48,,,,,,,,10.1002/oa.654,,N/A,N/A,N/A,N/A,No,No
+ref_49,1982,,,I.,,,,,"Ruong, I., 1982. Samerna i historien och nutiden. 4th ed. Stockholm: BonnierFakta.",N/A,N/A,N/A,N/A,No,No
+ref_50,2015,,,L.,,,,,"Ryd, L., 2015. Urfödan. Om självhushållets mat hos folk i Lappland. Skellefteå: Ord&visor.",N/A,N/A,N/A,N/A,No,No
+ref_51,,,,,,,,10.1016/j.jaa.2015.05.003,,N/A,N/A,N/A,N/A,No,No
+ref_52,,,,,,,,10.15184/aqy.2018.20,,N/A,N/A,N/A,N/A,No,No
+ref_53,,,,,,,,10.1016/0016-7037(84)90091-7,,N/A,N/A,N/A,N/A,No,No
+ref_54,2001,,269,J.,,,,,"Sealy, J., 2001. Body tissue chemistry and paleodiet. In: D.R. Brothwell and A.M. Pollard, eds. Handbook of archaeological sciences. New York: John Wiley & sons, 269–279.",16,16,N/A,N/A,No,Yes
+ref_55,1973,,,J.,,,,,"Sivertsen, J., 1973. Hammerfest 1789-1914. Hammerfest: Hammerfest kommune.",N/A,N/A,N/A,N/A,No,No
+ref_56,2009,,,T.,,,,,"Sjøvold, T., 2009. Spedbarnsskjeletter fra Gullholmen kirkegård, Tana kommune. Stockholm University. Unpublished report.",N/A,N/A,N/A,N/A,No,No
+ref_57,1971,,,N.,,,,,"Storå, N., 1971. Burial customs of the Skolt Lapps. Helsinki: Suomalainen tiedeakatemia.",N/A,N/A,N/A,N/A,No,No
+ref_58,,,,,,,,10.1017/S0033822200013874,,N/A,N/A,N/A,N/A,No,No
+ref_59,2006,,,A.,,,,,"Svestad, A., 2006. Undersøkelse av graver på Kirkegårdsøya Hammersfest kommune, Finnmark fylke. Institutt for arkeologi, Universitetet i Tromsø. Unpublished report.",N/A,N/A,N/A,N/A,No,No
+ref_60,2007,,,A.,,,,,"Svestad, A., 2007a. Undersøkelse av graver på Kirkegårdsøya Hammersfest kommune, Finnmark fylke. Institutt for arkeologi, Universitetet i Tromsø. Unpublished report.",N/A,N/A,N/A,N/A,No,No
+ref_61,2007,,,A.,,,,,"Svestad, A., 2007b. Arkeologisk utgraving på Gullholmen kirkegård, Deannu gielda/Tana kommune, Finnmark fylke. Institutt for arkeologi, Universitetet i Tromsø. Unpublished report.",N/A,N/A,N/A,N/A,No,No
+ref_62,2010,,77,A.,De døde skjuler mange ting – arkeologiske undersøkelser på Gullholmen kirkegård,,,,"Svestad, A., 2010. De døde skjuler mange ting – arkeologiske undersøkelser på Gullholmen kirkegård. Tana-årboka/Deatnu Jahkegirji, 77–91.",12,12,N/A,N/A,No,Yes
+ref_63,2011,28,39,A.,The Impact of materiality on sámi burial customs and religious concepts,,,,"Svestad, A., 2011. The Impact of materiality on sámi burial customs and religious concepts. Fennoscandia Archaeologica, 28, 39–56.",16,16,N/A,N/A,No,Yes
+ref_64,,,,,,,,10.1080/00293652.2013.839575,,N/A,N/A,N/A,N/A,No,No
+ref_65,,,,,,,,10.1006/jasc.1998.0385,,N/A,N/A,N/A,N/A,No,No
+ref_66,,,,,,,,10.1002/rcm.6447,,N/A,N/A,N/A,N/A,No,No
+ref_67,1964,,304,Ø.,,,,,"Vorren, Ø. 1964. Reindeer nomadism in the Island region of Helgeland. An analysis of the ecology of the reindeer industry with special reference to the Island area as winter pasture. In: A. Furumark, et al., eds. Lapponica. Essays presented to Isreal Ruong 26. 5.1963. Uppsala: Studia Ethnogrpahica Upsaliensia, Vol. 21, 304–320.",12,12,N/A,N/A,No,Yes
+ref_68,1998,,,Ø.,,,,,"Vorren, Ø., 1998. Villreinfangst i Varanger fram til 1600-1700 årene. Tromsø Museums skrifter, Vol. XXVIII. Stonglandseidet: Nordkalott-Forlaget.",N/A,N/A,N/A,N/A,No,No
+ref_69,1976,,,Ø.,,,,,"Vorren, Ø., and Manker, E., 1976. Samekulturen: en kulturhistorisk oversikt. 2nd. Tromsø: Universitetsforlaget.",N/A,N/A,N/A,N/A,No,No
+ref_70,,,,,,,,10.1111/j.1468-3083.2009.03426.x,,N/A,N/A,N/A,N/A,No,No
+ref_71,,,,,,,,10.1007/978-94-011-7846-4,,N/A,N/A,N/A,N/A,No,No

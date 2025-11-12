@@ -1,0 +1,16 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_6,2008,,115,Clements,,,,10.1002/9783527619849.ch5,"Clements LD, Van Dyne DL (2008) The lignocellulosic biorefinery—a strategy for returning to a sustainable source of fuels and industrial organic chemicals. In: Kamm B, Gruber PR, Kamm M (eds) Biorefineries—industrial processes and products. Wiley, Weinheim, pp 115–128. 
+                    https://doi.org/10.1002/9783527619849.ch5",N/A,N/A,N/A,N/A,No,No
+ref_9,,,,,,,,,"European Bioplastics (2018) Bioplastics market data. 
+                    www.european-bioplastics.org
+                    
+                  . Accessed 26 June 2018",N/A,N/A,N/A,N/A,No,No
+ref_10,2011,,475,Fatehi,,,,10.1021/bk-2011-1067.ch018,"Fatehi P, Ni Y (2011) Integrated forest biorefinery—prehydrolysis/dissolving pulping process. In: Zhu JY, Zhang X, Pan XJ (eds) Sustainable production of fuels, chemicals, and fibers from forest biomass. ACS symposium series. American Chemical Society, Washington, pp 475–506. 
+                    https://doi.org/10.1021/bk-2011-1067.ch018",N/A,N/A,N/A,N/A,No,No
+ref_13,2016,199,103,Jönsson,,,,10.1016/j.biortech.2015.10.009,"Jönsson LJ, Martín C (2016) Pretreatment of lignocellulose: formation of inhibitory by-products and strategies for minimizing their effects. Bioresour Technol 199:103–112. 
+                    https://doi.org/10.1016/j.biortech.2015.10.009",11,11,N/A,N/A,No,Yes
+ref_19,2017,,,Lehninger,,,,,"Lehninger AL, Nelson DL, Cox MM (2017) Lehninger principles of biochemistry, 7th edn. Freeman, New York",N/A,N/A,N/A,N/A,No,No
+ref_20,,,,,,,,,"Mao C, Del Rio LF, Wafa Al Dajani W, Wong D, Yuan Z, Browne T (2015) FPInnovations’ TMP-bio for lignocellulosic biomass: current state and scaling up. In: The 6th Nordic wood biorefinery conference, Helsinki, Finland",N/A,N/A,N/A,N/A,No,No
+ref_23,1999,,152,Singleton,,,,,"Singleton VL, Orthofer R, Lamuela-Raventós RM (1999) Analysis of total phenols and other oxidation substrates and antioxidants by means of folin-ciocalteu reagent. In: Packer L (ed) Methods in enzymology, vol 299. Elsevier, Amsterdam, pp 152–178",16,16,N/A,N/A,No,Yes
+ref_24,1999,,,Sjöström,,,,10.1007/978-3-662-03898-7,"Sjöström E, Alén R (1999) Analytical methods in wood chemistry, pulping, and papermaking. Springer, Berlin",N/A,N/A,N/A,N/A,No,No
+ref_25,,,,,,,,,"Wafa Al Dajani W, Mao C, Yuan Z, Browne T (2013) Fermentation of TMP-bio process sugar hydrolysate to produce lactic acid. FPInnovations PRR 1959",N/A,N/A,N/A,N/A,No,No

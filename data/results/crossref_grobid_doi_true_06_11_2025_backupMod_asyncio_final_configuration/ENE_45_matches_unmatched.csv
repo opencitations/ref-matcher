@@ -1,0 +1,28 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,2015,,,EnergieSchweiz,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_2,2016,,,BFE,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_4,1995,,,Kesselring,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_5,2016,7,2015,Energie,,,,,,12,12,N/A,N/A,No,Yes
+ref_9,2010,,1999,Froehlich,The design of eco-feedback technology,,,,,22,22,N/A,N/A,No,Yes
+ref_10,2016,,89,Bucher,Exploiting fitness apps for sustainable mobility - challenges deploying the goeco! app,,,,,22,22,N/A,N/A,No,Yes
+ref_11,2013,,227,Jylhä,Matkahupi: a persuasive mobile application for sustainable mobility,,,,,N/A,N/A,N/A,N/A,No,No
+ref_12,2015,,,CCEM,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_13,2016,,,Velosuisse,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_14,2016,,,Haumann,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_15,2014,vol. 8,,Buffat,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_16,2017,,,Haumann,Energy-based routing and cruising range estimation for electric bicycles,,,,,N/A,N/A,N/A,N/A,No,No
+ref_20,2009,,1,Li,On the suitability of plug-in hybrid electric vehicle (phev) charging infrastructures based on wind and solar energy,,,,,22,22,N/A,N/A,No,Yes
+ref_25,2017,,,Litman,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_27,2015,,,Zoepf,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_28,2003,,3,Cetin,A large-scale agent-based traffic microsimulation based on queue model,,,,,16,16,N/A,N/A,No,Yes
+ref_30,2002,,183,Krajzewicz,Sumo (simulation of urban mobility)-an open-source traffic simulation,,,,,N/A,N/A,N/A,N/A,No,No
+ref_38,2018,,,Frömelt,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_39,2010,,treeze,Tuchschmid,"mobitool–grundlagenbericht: hintergrund, methodik & emissionsfaktoren",,,,,N/A,N/A,N/A,N/A,No,No
+ref_40,2017,vol. 37,,Buffat,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_43,2009,,1043,Froehlich,Ubigreen: investigating a mobile tool for tracking and supporting green transportation habits,,,,,N/A,N/A,N/A,N/A,No,No
+ref_47,2017,vol. 5,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_48,2013,,,Office,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_53,,,,Chancellery,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_55,,,,Office,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_56,,,,Office,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_63,2017,,31,Pritchard,Targeted sensing technology for bicycle research - early results from a longitudinal study in oslo,,,,,16,16,N/A,N/A,No,Yes

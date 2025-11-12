@@ -1,0 +1,9 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,2013,,,Association,,,,10.1176/appi.books.9780890425596,"American Psychiatric Association. (2013). Diagnostic and statistical manual of mental disorders (5th ed.). Washington, DC: American Psychiatric Association.",N/A,N/A,N/A,N/A,No,No
+ref_5,2017,6,e11,Cassidy,,,,10.1016/S2215-0366(17)30162-1,"Cassidy, S., & Rodgers, J. (2017). Understanding and preventing suicide in autism. The Lancet Psychiatry,
+                           6, e11.",12,12,N/A,N/A,No,Yes
+ref_15,2017,,,Mitchell,,,,,"Mitchell, P. (2017). Mindreading as a transactional process: Insights from autism. In V. Slaughter & M. de Rosnay (Eds.), Environmental influences on ToM development. Hove: Psychology Press.",N/A,N/A,N/A,N/A,No,No
+ref_22,2017,,,Sasson,,,,10.1177/1362361317729526,"Sasson, N., & Morrison, K. E. (2017). First impressions of adults with autism improve with diagnostic disclosure and increased autism knowledge of peers. Autism. 
+                    https://doi.org/10.1177/1362361317729526
+                    
+                  .",N/A,N/A,N/A,N/A,No,No

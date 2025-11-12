@@ -1,0 +1,25 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_4,2013,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_7,2013,52,195,,Talent or not? Employee reactions to talent identification,,,10.1002/hrm.21525,,12,12,N/A,N/A,No,Yes
+ref_8,2007,17,320,,Transferring HR practices within multinational corporations,,,10.1111/j.1748-8583.2007.00048.x,,12,12,N/A,N/A,No,Yes
+ref_9,2011,,,,An economic perspective on the notion of ’human capital’,,,,,N/A,N/A,N/A,N/A,No,No
+ref_10,2005,44,129,,"Talentship, talent segmentation, and sustainability: a new HR decision science paradigm for a new strategy definition",,,10.1002/hrm.20054,,12,12,N/A,N/A,No,Yes
+ref_12,2001,24,17,,"The 21st century human resources function: It’s the talent, stupid!",,,,,12,12,N/A,N/A,No,Yes
+ref_13,2011,,,,Introduction,,,,,N/A,N/A,N/A,N/A,No,No
+ref_14,2008,86,74,,Talent management for the twenty-first century,,,,,12,12,N/A,N/A,No,Yes
+ref_15,2017,,,,The historical context of talent management,,,,,N/A,N/A,N/A,N/A,No,No
+ref_16,2012,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_19,2017,,,,Introduction,,,,,N/A,N/A,N/A,N/A,No,No
+ref_25,2014,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_30,2012,51,361,,How to identify leadership potential: development and testing of a consensus model,,,10.1002/hrm.21473,,12,12,N/A,N/A,No,Yes
+ref_36,2010,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_39,2017,,,,Talent management defined,,,,,N/A,N/A,N/A,N/A,No,No
+ref_45,2011,,,,Aligning human capital with organizational needs,,,,,N/A,N/A,N/A,N/A,No,No
+ref_48,2016,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_52,2017,,,,Star performers,,,,,N/A,N/A,N/A,N/A,No,No
+ref_59,2009,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_62,2013,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_64,2006,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_69,2009,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_70,2012,63,55,,What is talent?,,,,,12,12,N/A,N/A,No,Yes
+ref_71,2015,,,,Global talent management,,,,,N/A,N/A,N/A,N/A,No,No

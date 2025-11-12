@@ -1,0 +1,57 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,,,,,,,,10.1111/1365-2435.12666,,N/A,N/A,N/A,N/A,No,No
+ref_2,,,,,,,,10.2307/1313226,,N/A,N/A,N/A,N/A,No,No
+ref_3,,,,,,,,10.1111/1365-2656.12834,,N/A,N/A,N/A,N/A,No,No
+ref_4,,,,,,,,10.1111/1365-2435.12943,,N/A,N/A,N/A,N/A,No,No
+ref_5,,,,,,,,10.1890/03-9000,,N/A,N/A,N/A,N/A,No,No
+ref_6,,,,,,,,10.1016/j.soilbio.2016.06.033,,N/A,N/A,N/A,N/A,No,No
+ref_7,,,,,,,,10.1139/x00-014,,N/A,N/A,N/A,N/A,No,No
+ref_8,,,,,,,,10.1007/s12080-015-0281-9,,N/A,N/A,N/A,N/A,No,No
+ref_9,,,,,,,,10.1016/j.soilbio.2014.05.009,,N/A,N/A,N/A,N/A,No,No
+ref_10,,,,,,,,10.1111/j.1469-185X.2010.00138.x,,N/A,N/A,N/A,N/A,No,No
+ref_11,,,,,,,,10.1111/geb.12193,,N/A,N/A,N/A,N/A,No,No
+ref_12,,,,,,,,10.1111/1365-2435.12362,,N/A,N/A,N/A,N/A,No,No
+ref_13,1975,,342,M.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_14,,,,,,,,,Environment Canada.2016.Historical data.http://climate.weather.gc.ca/historical_data/search_historic_data_e.html,N/A,N/A,N/A,N/A,No,No
+ref_15,,,,,,,,10.1111/j.1469-7998.1985.tb05640.x,,N/A,N/A,N/A,N/A,No,No
+ref_16,,,,,,,,10.1603/0046-225X-33.5.1282,,N/A,N/A,N/A,N/A,No,No
+ref_17,,,,,,,,10.1111/1365-2664.12530,,N/A,N/A,N/A,N/A,No,No
+ref_18,2016,,,E.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_19,,,,,,,,10.1111/2041-210X.12103,,N/A,N/A,N/A,N/A,No,No
+ref_20,,,,,,,,10.1098/rstb.2015.0268,,N/A,N/A,N/A,N/A,No,No
+ref_21,,,,,,,,10.1007/s00442-012-2290-3,,N/A,N/A,N/A,N/A,No,No
+ref_22,,,,,,,,10.1111/1365-2435.12058,,N/A,N/A,N/A,N/A,No,No
+ref_23,,,,,,,,,L. J. Jobin C. Coulombe 1988,N/A,N/A,N/A,N/A,No,No
+ref_24,,,,,,,,10.2307/3235676,,N/A,N/A,N/A,N/A,No,No
+ref_25,,,,,,,,10.1111/j.1463-6409.1990.tb00255.x,,N/A,N/A,N/A,N/A,No,No
+ref_26,,,,,,,,10.1111/oik.04712,,N/A,N/A,N/A,N/A,No,No
+ref_27,,,,,,,,10.1111/jvs.12083,,N/A,N/A,N/A,N/A,No,No
+ref_28,,,,,,,,10.1111/1365-2435.12849,,N/A,N/A,N/A,N/A,No,No
+ref_29,,,,,,,,10.1007/s004420100716,,N/A,N/A,N/A,N/A,No,No
+ref_30,,,,,,,,10.1016/B978-0-444-53868-0.50018-6,,N/A,N/A,N/A,N/A,No,No
+ref_31,,,,,,,,10.1111/j.1461-0248.2012.01826.x,,N/A,N/A,N/A,N/A,No,No
+ref_32,,,,,,,,10.1111/j.1365-2745.2004.00838.x,,N/A,N/A,N/A,N/A,No,No
+ref_33,,,,,,,,10.1890/12-1936.1,,N/A,N/A,N/A,N/A,No,No
+ref_34,,,,,,,,10.1111/j.1365-2656.2008.01462.x,,N/A,N/A,N/A,N/A,No,No
+ref_35,,,,,,,,10.1111/1365-2435.12776,,N/A,N/A,N/A,N/A,No,No
+ref_36,,,,,,,,10.1111/j.0014-3820.2006.tb01858.x,,N/A,N/A,N/A,N/A,No,No
+ref_37,,,,,,,,10.1111/oik.02788,,N/A,N/A,N/A,N/A,No,No
+ref_38,,,,,,,,,J. Oksanen F. G. Blanchet R. Kindt P. Legendre P. R. Minchin B. O'Hara G. L. Simpson P. Solymos M. H. H. Steven H. Wagner 2013,N/A,N/A,N/A,N/A,No,No
+ref_39,,,,,,,,10.1007/s004420100720,,N/A,N/A,N/A,N/A,No,No
+ref_40,1986,,,H.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_41,,,,,,,,10.1016/j.baae.2014.03.007,,N/A,N/A,N/A,N/A,No,No
+ref_42,,,,,,,,,R Core Team.2017.R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing Vienna Austria.,7,7,N/A,N/A,No,Yes
+ref_43,,,,,,,,10.1111/1365-2745.12211,,N/A,N/A,N/A,N/A,No,No
+ref_44,,,,,,,,10.2307/1942161,,N/A,N/A,N/A,N/A,No,No
+ref_45,,,,,,,,10.12688/f1000research.11813.1,,N/A,N/A,N/A,N/A,No,No
+ref_46,2010,,,B.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_47,,,,,,,,10.1111/j.1095-8312.1979.tb00063.x,,N/A,N/A,N/A,N/A,No,No
+ref_48,,,,,,,,10.1111/1365-2656.12218,,N/A,N/A,N/A,N/A,No,No
+ref_49,2018,373332,1,F.,The taxonomic and functional biogeographies of phytoplankton and zooplankton communities across boreal lakes,,,,,16,16,N/A,N/A,No,Yes
+ref_50,,,,,,,,10.1086/303208,,N/A,N/A,N/A,N/A,No,No
+ref_51,,,,,,,,10.1111/j.1469-7998.2009.00628.x,,N/A,N/A,N/A,N/A,No,No
+ref_52,,,,,,,,10.1111/j.0030-1299.2008.15972.x,,N/A,N/A,N/A,N/A,No,No
+ref_53,,,,,,,,10.1111/j.0030-1299.2007.15559.x,,N/A,N/A,N/A,N/A,No,No
+ref_54,,,,,,,,10.1111/ele.12865,,N/A,N/A,N/A,N/A,No,No
+ref_55,,,,,,,,10.1016/0022-1910(89)90096-6,,N/A,N/A,N/A,N/A,No,No
+ref_56,2003,44,293,J.,"Diplopoda communities in different forest habitats of Białowieża Primeval Forest, Poland",,,,,12,12,N/A,N/A,No,Yes

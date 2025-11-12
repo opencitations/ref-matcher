@@ -1,0 +1,24 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_1,N/A,Practice Standards For Electrocardiographic Monitoring In Hospital Settings,34,10.1161/01.cir.0000145144.56673.59,https://w3id.org/oc/meta/br/06601136034,year_author_page
+ref_2,N/A,Electrolyte Abnormalities In Cystic Fibrosis: Systematic Review Of The Literature,33,10.1007/s00467-013-2712-4,https://w3id.org/oc/meta/br/06101707961,year_author_page
+ref_3,N/A,"Wearable Sensors: Modalities, Challenges, And Prospects",34,10.1039/c7lc00914c,https://w3id.org/oc/meta/br/0680188695,year_author_page
+ref_4,N/A,New Developments In Smart Bandage Technologies For Wound Diagnostics,34,10.1002/adma.201504829,https://w3id.org/oc/meta/br/06503024301,year_author_page
+ref_7,N/A,All-solid-state Sodium-Selective Electrode Based On A Calixarene Ionophore In A Poly(Vinyl Chloride) Membrane With A Polypyrrole Solid Contact,34,10.1021/ac00045a007,https://w3id.org/oc/meta/br/06190998908,year_author_page
+ref_8,N/A,Potential Stability Of All-Solid-State Ion-Selective Electrodes Using Conducting Polymers As Ion-to-Electron Transducers,34,10.1021/ac990497z,https://w3id.org/oc/meta/br/06301001722,year_author_page
+ref_9,N/A,All-solid-state Potentiometric Sensors: A New Wave For In Situ Aquatic Research,31,10.1016/j.coelec.2018.04.004,https://w3id.org/oc/meta/br/06402227894,year_author_page
+ref_10,N/A,Chemical Sensors,34,10.1021/a1980010w,https://w3id.org/oc/meta/br/0620998460,year_author_page
+ref_11,N/A,Ion-Specific Nutrient Management In Closed Systems: The Necessity For Ion-Selective Sensors In Terrestrial And Space-Based Agriculture And Water Management Systems,34,10.3390/s121013349,https://w3id.org/oc/meta/br/06140441213,year_author_page
+ref_12,N/A,Ion-Selective Electrodes With Colloid-Imprinted Mesoporous Carbon As Solid Contact,27,10.1021/ac501633r,https://w3id.org/oc/meta/br/06230984525,year_volume_page
+ref_13,N/A,Using sp2-C Dominant Porous Carbon Sub-Micrometer Spheres As Solid Transducers In Ion-Selective Electrodes,31,10.1016/j.elecom.2014.10.014,https://w3id.org/oc/meta/br/061602736027,year_author_page
+ref_14,N/A,Ion-Selective Electrodes Using Carbon Nanotubes As Ion-to-Electron Transducers,34,10.1021/ac071156l,https://w3id.org/oc/meta/br/06110997653,year_author_page
+ref_15,N/A,Transduction Mechanism Of Carbon Nanotubes In Solid-Contact Ion-Selective Electrodes,33,10.1021/ac802078z,https://w3id.org/oc/meta/br/06801001675,year_author_page
+ref_16,N/A,Electrochemical Sensing Based On Carbon Nanotubes,34,10.1016/j.trac.2010.06.006,https://w3id.org/oc/meta/br/06402770692,year_author_page
+ref_18,N/A,All-solid-state Potassium-Selective Electrode Using Graphene As The Solid Contact,27,10.1039/c1an15705a,https://w3id.org/oc/meta/br/06403198196,year_volume_page
+ref_21,N/A,Paper-Based Ion-Selective Potentiometric Sensors,34,10.1021/ac202979j,https://w3id.org/oc/meta/br/06301002633,year_author_page
+ref_22,N/A,A Three-Dimensional Origami Paper-Based Device For Potentiometric Biosensing,34,10.1002/anie.201606268,https://w3id.org/oc/meta/br/06230109025,year_author_page
+ref_23,N/A,Omniphobic “RFPaper” Produced By Silanization Of Paper With Fluoroalkyltrichlorosilanes,30,10.1002/adfm.201300780,https://w3id.org/oc/meta/br/062602869497,year_author_page
+ref_25,N/A,All Solid-State Hydrogen Ion-Selective Electrode Based On A Conducting Poly(Pyrrole) Solid Contact,34,10.1039/an9941902417,https://w3id.org/oc/meta/br/06902800862,year_author_page
+ref_26,N/A,All-solid-state Planar Miniature Ion-Selective Chloride Electrode,34,10.1016/s0003-2670(01)01407-6,https://w3id.org/oc/meta/br/06230982127,year_author_page
+ref_27,N/A,Polypyrrole Microcapsules In All-solid-state Reference Electrodes,33,10.1002/elan.201100551,https://w3id.org/oc/meta/br/062401902994,year_author_page
+ref_28,N/A,Sustainable Production Of Highly Conductive Multilayer Graphene Ink For Wireless Connectivity And IoT Applications,26,10.1038/s41467-018-07632-w,https://w3id.org/oc/meta/br/06801316906,year_author_volume
+ref_30,N/A,Factors Affecting The Potentiometric Response Of All-Solid-State Solvent Polymeric Membrane Calcium-Selective Electrode For Low-Level Measurements,34,10.1021/ac0492158,https://w3id.org/oc/meta/br/06220993705,year_author_page

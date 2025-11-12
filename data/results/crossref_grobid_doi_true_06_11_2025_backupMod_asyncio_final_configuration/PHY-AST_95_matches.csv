@@ -1,0 +1,33 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_1,N/A,Femtosecond Laser Oscillators For High-Field Science,27,10.1038/nphoton.2008.194,https://w3id.org/oc/meta/br/061901848225,year_and_doi
+ref_2,N/A,35 kW Coherently Combined Ultrafast Fiber Laser,27,10.1364/ol.43.006037,https://w3id.org/oc/meta/br/062501128426,year_and_doi
+ref_3,N/A,Compact Diode-Pumped 11 kW Yb:YAG Innoslab Femtosecond Amplifier,27,10.1364/ol.35.004169,https://w3id.org/oc/meta/br/061301136456,year_and_doi
+ref_4,N/A,"Ultrafast Thin-Disk Multipass Laser Amplifier Delivering 14 kW (47 mJ, 1030 Nm) Average Power Converted To 820 W At 515 Nm And 234 W At 343 Nm",27,10.1364/oe.23.021064,https://w3id.org/oc/meta/br/061103141572,year_and_doi
+ref_5,N/A,Scalable Concept For Diode-Pumped High-Power Solid-State Lasers,27,10.1007/bf01081875,https://w3id.org/oc/meta/br/061401997698,year_and_doi
+ref_6,N/A,"1 kW, 200 mJ Picosecond Thin-Disk Laser System",27,10.1364/ol.42.001381,https://w3id.org/oc/meta/br/06201144489,year_and_doi
+ref_7,N/A,Quantum Limits On Noise In Linear Amplifiers,27,10.1103/physrevd.26.1817,https://w3id.org/oc/meta/br/06503944875,year_and_doi
+ref_8,N/A,Toward Millijoule-Level High-Power Ultrafast Thin-Disk Oscillators,27,10.1109/jstqe.2014.2341588,https://w3id.org/oc/meta/br/06220182460,year_and_doi
+ref_9,N/A,Compact Extreme Ultraviolet Source At Megahertz Pulse Repetition Rate With A Low-Noise Ultrafast Thin-Disk Laser Oscillator,27,10.1364/optica.2.000980,https://w3id.org/oc/meta/br/06220847661,year_and_doi
+ref_10,N/A,Optical Rectification Of A 100 W Average Power Mode-Locked Thin-Disk Oscillator,27,10.1364/ol.43.005909,https://w3id.org/oc/meta/br/062501128456,year_and_doi
+ref_11,N/A,Extreme Ultraviolet Light Source At A Megahertz Repetition Rate Based On High-Harmonic Generation Inside A Mode-Locked Thin-Disk Laser Oscillator,27,10.1364/ol.42.005170,https://w3id.org/oc/meta/br/06101153544,year_and_doi
+ref_12,N/A,Nonlinear Pulse Compression In A Multi-Pass Cell,27,10.1364/ol.41.004511,https://w3id.org/oc/meta/br/06301141227,year_and_doi
+ref_13,N/A,All-solid-state Multipass Spectral Broadening To Sub-20 Fs,27,10.1364/ol.43.004643,https://w3id.org/oc/meta/br/062601155407,year_and_doi
+ref_14,N/A,162-W Average Power From A Diode-Pumped Femtosecond Yb:YAG Thin Disk Laser,27,10.1364/ol.25.000859,https://w3id.org/oc/meta/br/06301142708,year_and_doi
+ref_15,N/A,Powerful Red-Green-Blue Laser Source Pumped With A Mode-Locked Thin Disk Laser,27,10.1364/ol.29.001921,https://w3id.org/oc/meta/br/06701136528,year_and_doi
+ref_16,N/A,Pulse Energy Scaling To 5 μJ From A Femtosecond Thin Disk Laser,27,10.1364/ol.31.002728,https://w3id.org/oc/meta/br/06501152857,year_and_doi
+ref_17,N/A,Mode-locked Yb:YAG Thin-Disk Oscillator With 41 µJ Pulse Energy At 145 W Average Infrared Power And High Power Frequency Conversion,27,10.1364/oe.20.009698,https://w3id.org/oc/meta/br/062303130454,year_and_doi
+ref_18,N/A,275 W Average Output Power From A Femtosecond Thin Disk Oscillator Operated In A Vacuum Environment,27,10.1364/oe.20.023535,https://w3id.org/oc/meta/br/062203125187,year_and_doi
+ref_19,N/A,Ultrafast Thin-Disk Laser With 80 μJ Pulse Energy And 242 W Of Average Power,26,10.1364/ol.39.000009,https://w3id.org/oc/meta/br/06701135236,year_and_doi
+ref_20,N/A,High-power 200 Fs Kerr-lens Mode-Locked Yb:YAG Thin-Disk Oscillator,27,10.1364/ol.36.004746,https://w3id.org/oc/meta/br/061101141677,year_and_doi
+ref_21,N/A,Energy Scaling Of Kerr-lens Mode-Locked Thin-Disk Oscillators,27,10.1364/ol.39.006442,https://w3id.org/oc/meta/br/06501151950,year_and_doi
+ref_22,N/A,Kerr-lens Mode-Locked Thin-Disk Oscillator With 50% Output Coupling Rate,27,10.1364/ol.44.004227,https://w3id.org/oc/meta/br/062401113029,year_and_doi
+ref_23,N/A,Multielement Stable Resonators Containing A Variable Lens,27,10.1364/josaa.4.001962,https://w3id.org/oc/meta/br/061902419762,year_and_doi
+ref_25,N/A,Self-phase Modulation Cancellation In A High-Power Ultrafast Thin-Disk Laser Oscillator,27,10.1364/optica.5.001603,https://w3id.org/oc/meta/br/06140846538,year_and_doi
+ref_26,N/A,Soliton Mode-Locking With Saturable Absorbers,27,10.1109/2944.571754,https://w3id.org/oc/meta/br/06250184200,year_and_doi
+ref_27,N/A,Optimized SESAMs For Kilowatt-Level Ultrafast Lasers,27,10.1364/oe.24.010512,https://w3id.org/oc/meta/br/06803538980,year_and_doi
+ref_28,N/A,Gas-lens Effect In kW-class Thin-Disk Lasers,27,10.1364/oe.26.012648,https://w3id.org/oc/meta/br/06203550841,year_and_doi
+ref_29,N/A,SESAMs For High-Power Oscillators: Design Guidelines And Damage Thresholds,27,10.1109/jstqe.2010.2092753,https://w3id.org/oc/meta/br/06230190984,year_and_doi
+ref_30,N/A,High Precision Optical Characterization Of Semiconductor Saturable Absorber Mirrors,27,10.1364/oe.16.007571,https://w3id.org/oc/meta/br/06503559627,year_and_doi
+ref_31,N/A,Theory Of Kerr-lens Mode Locking: Role Of Self-Focusing And Radially Varying Gain,27,10.1364/josab.11.000498,https://w3id.org/oc/meta/br/06601217984,year_and_doi
+ref_32,N/A,Peak-power Scaling Of Femtosecond Yb:Lu_2O_3 Thin-Disk Lasers,27,10.1364/oe.25.022519,https://w3id.org/oc/meta/br/06403551289,year_and_doi
+ref_33,N/A,Deformable Mirrors For Intra-Cavity Use In High-Power Thin-Disk Lasers,27,10.1364/oe.25.004254,https://w3id.org/oc/meta/br/06603544664,year_and_doi

@@ -1,0 +1,12 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_3,1986,49,233,Williams,Chromatin fibres are left-handed double helices with diameter and mass per unit length that depend on linker length,,,10.1016/S0006-3495(86)83637-2,,16,16,N/A,N/A,No,Yes
+ref_10,2005,436,138,Schalch,X-ray structure of a tetranucleosome and its implications for the chromatin fibre,,,10.1038/nature03686,,N/A,N/A,N/A,N/A,No,No
+ref_15,1991,59,606,Williams,Small angle x-ray scattering of chromatin. Radius and mass per unit length depend on linker length,,,10.1016/S0006-3495(91)82276-7,,15,15,N/A,N/A,No,Yes
+ref_23,2002,,791,Agarwal,Computing the writhing number of a polygonal knot,,,,,21,21,N/A,N/A,No,Yes
+ref_31,1999,18,6610,Murphy,The structure of a chromosomal high mobility group protein-DNA complex reveals sequence-neutral mechanisms important for non-sequence-specific DNA recognition,,,10.1093/emboj/18.23.6610,,18,18,N/A,N/A,No,Yes
+ref_40,2016,44,9131,Fang,Chromatin structure-dependent conformations of the H1 CTD,,,,,22,22,N/A,N/A,No,Yes
+ref_46,2015,59,1,Zhou,Structural mechanisms of nucleosome recognition by linker histones,,,10.1016/j.molcel.2015.06.025,,19,19,N/A,N/A,No,Yes
+ref_51,2011,39,9139,Meyer,"From crystal and NMR structures, footprints and cryo-electron micrographs to large and soft structures: nanoscale modelling of the nucleosomal stem",,,10.1093/nar/gkr573,,11,11,N/A,N/A,No,Yes
+ref_62,1996,93,4461,Podgornik,"Bond orientational order, molecular motion, and free energy of high-density DNA mesophases",,,10.1073/pnas.93.9.4261,,N/A,N/A,N/A,N/A,No,No
+ref_71,2019,58,95,Maeshima,Dynamic chromatin organisation without the 30-nm fiber,,,10.1016/j.ceb.2019.02.003,,12,12,N/A,N/A,No,Yes
+ref_80,2013,3,3510,Arimura,Structural basis of a nucleosome containing histone H2A.B/H2A.Bbd that transiently associates with reorganized chromatin,,,10.1038/srep03510,,21,21,N/A,N/A,No,Yes

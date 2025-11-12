@@ -1,0 +1,2 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_42,2015,55,1126,Han,Screening and identification of a bacterium capable of converting agar to neoagaro oligosaccharides,,,,,12,12,N/A,N/A,No,Yes

@@ -1,0 +1,11 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_6,N/A,Photographic Image Synthesis With Cascaded Refinement Networks,30,10.1109/iccv.2017.168,https://w3id.org/oc/meta/br/06501923858,year_and_doi
+ref_11,N/A,Deep Stereo: Learning To Predict New Views From The World's Imagery,29,10.1109/cvpr.2016.595,https://w3id.org/oc/meta/br/061202473700,year_and_doi
+ref_17,N/A,DeepMVS: Learning Multi-view Stereopsis,30,10.1109/cvpr.2018.00298,https://w3id.org/oc/meta/br/062402303464,year_and_doi
+ref_21,N/A,End-to-End Learning Of Geometry And Context For Deep Stereo Regression,30,10.1109/iccv.2017.17,https://w3id.org/oc/meta/br/06501924292,year_and_doi
+ref_34,N/A,Structure-from-Motion Revisited,30,10.1109/cvpr.2016.445,https://w3id.org/oc/meta/br/06902500202,year_and_doi
+ref_35,N/A,Pixelwise View Selection For Unstructured Multi-View Stereo,30,10.1007/978-3-319-46487-9_31,https://w3id.org/oc/meta/br/061202407292,year_and_doi
+ref_39,N/A,Semantic Scene Completion From A Single Depth Image,30,10.1109/cvpr.2017.28,https://w3id.org/oc/meta/br/06502746287,year_and_doi
+ref_40,N/A,Learning To Synthesize A 4D RGBD Light Field From A Single Image,30,10.1109/iccv.2017.246,https://w3id.org/oc/meta/br/06501924189,year_and_doi
+ref_49,N/A,The Unreasonable Effectiveness Of Deep Features As A Perceptual Metric,30,10.1109/cvpr.2018.00068,https://w3id.org/oc/meta/br/062202301782,year_and_doi
+ref_50,N/A,Light Field From Micro-Baseline Image Pair,30,10.1109/cvpr.2015.7299004,https://w3id.org/oc/meta/br/061502521727,year_and_doi

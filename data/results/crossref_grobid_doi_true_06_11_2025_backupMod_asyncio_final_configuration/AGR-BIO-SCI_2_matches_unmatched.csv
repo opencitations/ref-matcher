@@ -1,0 +1,8 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_3,2006,83,120,Bondioli,,,,,"Bondioli P, Della-Bella L, Rettke P (2006) Alpha linolenic acid rich oils. Composition of Plukenetia volubilis (Sacha inchi) oil from Peru. Riv Ital Sostanze Gr 83:120–123",12,12,N/A,N/A,No,Yes
+ref_10,2011,L23,1,EU,,,,,Commission Regulation 2568/91 EU (2011) Regulation on the characteristics of olive oil and olive-residue oil and on the relevant methods of analysis. Off J Eur Union L23:1–14,N/A,N/A,N/A,N/A,No,No
+ref_12,2016,2,71,Fiori,,,,,"Fiori F, Dimandja JMD, Boselli E, Rossetti F, Chamkasem N (2016) Enhanced profile characterization of virgin olive oil minor polar compound extracts by comprehensive two-dimensional gas chromatography with time-of-flight mass spectrometric detection. Pol J Appl Sci 2:71–79",15,15,N/A,N/A,No,Yes
+ref_15,2007,57,157,Gliszczyńska-Świgło,,,,,"Gliszczyńska-Świgło A, Sikorska E, Khmelinskii I, Sikorski M (2007) Tocopherol content in edible plant oils. Pol J Food Nutr Sci 57:157–161",12,12,N/A,N/A,No,Yes
+ref_17,,,,,,,,,"IUPAC (1992) Standard methods for the analysis of oils, fats and derivatives. In: International union of pure and applied chemistry, 7th edn, Pergamon Press, Oxford",N/A,N/A,N/A,N/A,No,No
+ref_25,,,,,,,,,"NTP (2009) Norma Tecnica Peruana 151.400, 2009. Sacha inchi oil. Requirements, R.035-2009/INDECOPI-CNB: Lima, Peru",N/A,N/A,N/A,N/A,No,No
+ref_26,,,,,,,,,"NTP (2018) Norma Tecnica Peruana 151.400, amendment to NTP 151.400, 2014. Sacha inchi oil. Requirements, R.D. N° 047-2018-INACAL/DN: Lima, Peru",N/A,N/A,N/A,N/A,No,No

@@ -1,0 +1,44 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,1970,,,Anon,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_2,2018,,,Anon,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_3,2018,,,Anon,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_4,,,,,,,,10.1046/j.1365-2664.2003.00812.x,,N/A,N/A,N/A,N/A,No,No
+ref_5,,,,,,,,10.1007/s10336-015-1271-9,,N/A,N/A,N/A,N/A,No,No
+ref_6,2002,,,R.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_7,2018,12450,,J.,Time series analysis reveals synchrony and asynchrony between conflict management effort and increasing large grazing bird populations in northern Europe,,,,,N/A,N/A,N/A,N/A,No,No
+ref_8,1991,79,197,S.,The impact of hunting on mortality rates and spatial distribution of geese wintering in the Western Palearctic,,,,,15,15,N/A,N/A,No,Yes
+ref_9,,,,,,,,10.1007/s13280-016-0879-1,,N/A,N/A,N/A,N/A,No,No
+ref_10,,,,,,,,10.1111/brv.12258,,N/A,N/A,N/A,N/A,No,No
+ref_11,,,,,,,,10.1007/s13280-016-0878-2,,N/A,N/A,N/A,N/A,No,No
+ref_12,,,,,,,,10.1111/j.1365-2486.2005.00944.x,,N/A,N/A,N/A,N/A,No,No
+ref_13,,,,,,,,10.1007/s11284-015-1282-2,,N/A,N/A,N/A,N/A,No,No
+ref_14,,,,,,,,10.1007/s00300-013-1404-7,,N/A,N/A,N/A,N/A,No,No
+ref_15,2018,,,H.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_16,,,,,,,,10.1111/1365-2664.13184,,N/A,N/A,N/A,N/A,No,No
+ref_17,2005,,,G.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_18,2012,,,J.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_19,,,,,,,,10.1007/s13280-016-0888-0,,N/A,N/A,N/A,N/A,No,No
+ref_20,,,,,,,,10.1016/j.cropro.2017.03.001,,N/A,N/A,N/A,N/A,No,No
+ref_21,2011,,,J.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_22,,,,,,,,10.1111/1365-2664.12969,,N/A,N/A,N/A,N/A,No,No
+ref_23,,,,,,,,10.1007/s13280-016-0880-8,,N/A,N/A,N/A,N/A,No,No
+ref_24,,,,,,,,10.1086/283426,,N/A,N/A,N/A,N/A,No,No
+ref_25,,,,,,,,10.1111/1365-2664.12918,,N/A,N/A,N/A,N/A,No,No
+ref_26,2019,,,T.,Data from: Relating national levels of crop damage to the abundance of large grazing birds: Implications for management,,,,,N/A,N/A,N/A,N/A,No,No
+ref_27,2013,23,1,L.,Censuses of autumn staging and wintering goose populations in Sweden 1977/1978–2011/1912,,,,,16,16,N/A,N/A,No,Yes
+ref_28,2016,,,L.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_29,2016,,,L.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_30,2012,,,U.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_31,,,,,,,,10.1016/S0261-2194(01)00041-2,,N/A,N/A,N/A,N/A,No,No
+ref_32,,,,,,,,10.2307/2404344,,N/A,N/A,N/A,N/A,No,No
+ref_33,2018,,,T.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_34,2017,,,Team,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_35,,,,,,,,10.1016/j.tree.2012.08.021,,N/A,N/A,N/A,N/A,No,No
+ref_36,,,,,,,,10.1111/j.1467-9868.2008.00700.x,,N/A,N/A,N/A,N/A,No,No
+ref_37,2018,,,M.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_38,2014,,,P.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_39,,,,,,,,10.1007/s13280-017-0903-0,,N/A,N/A,N/A,N/A,No,No
+ref_40,,,,,,,,10.1111/j.1600-048X.2008.04440.x,,N/A,N/A,N/A,N/A,No,No
+ref_41,,,,,,,,10.1111/j.1365-2435.2005.01056.x,,N/A,N/A,N/A,N/A,No,No
+ref_42,,,,,,,,10.1016/j.biocon.2015.12.030,,N/A,N/A,N/A,N/A,No,No
+ref_43,2017,,,F.,,,,,,N/A,N/A,N/A,N/A,No,No

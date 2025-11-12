@@ -1,0 +1,4 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_16,2014,,,Rubin,,,,10.1002/9781119013563,,N/A,N/A,N/A,N/A,No,No
+ref_18,2016,102,30,Wu,Maintenance erlotinib versus erlotinib at disease progression in patients with advanced non-small-cell lung cancer who have not progressed following platinum-based chemotherapy (IUNO study),,,10.1016/j.lungcan.2016.10.007,,16,16,N/A,N/A,No,Yes
+ref_19,2003,9,1009,Ratain,Interethnic difference in the allelic distribution of human epidermal growth factor receptor intron 1 polymorphism,,,,,12,12,N/A,N/A,No,Yes

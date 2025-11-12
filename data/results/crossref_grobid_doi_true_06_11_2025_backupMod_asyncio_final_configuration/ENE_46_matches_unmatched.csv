@@ -1,0 +1,18 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,,,,,,,,10.13182/NSE03-2,,N/A,N/A,N/A,N/A,No,No
+ref_2,,,,,,,,10.2307/2841583,,N/A,N/A,N/A,N/A,No,No
+ref_3,,,,,,,,,"“Justification for Minimum Margin of Subcriticality for Safety,” FCSS ISG-10, Rev. 0, U.S. Nuclear Regulatory Commission, Office of Nuclear Material Safety and Safeguards, Division of Fuel Cycle Safety and Safeguards (2006).",N/A,N/A,N/A,N/A,No,No
+ref_4,,,,,,,,10.2172/1326509,,N/A,N/A,N/A,N/A,No,No
+ref_5,,,,,,,,10.2172/469122,"J. J. LICHTENWALTER et al. “Criticality Benchmark Guide for Light-Water-Reactor Fuel in Transportation and Storage Packages,” NUREG/CR-6361, ORNL/TM-13211, Oak Ridge National Laboratory (1997).",N/A,N/A,N/A,N/A,No,No
+ref_6,2014,181,17,C.,,,,,,12,12,N/A,N/A,No,Yes
+ref_7,,,,,,,,,"M. L. WILLIAMS et al. “TSURFER: An Adjustment Code to Determine Biases and Uncertainties in Nuclear System Responses by Consolidating Differential Data and Benchmark Integral Experiments,” ORNL/TM-2005/39 Version 6, Oak Ridge National Laboratory (2009).",N/A,N/A,N/A,N/A,No,No
+ref_8,2015,,,A.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_9,2008,,,T.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_10,,,,,,,,,"“International Handbook of Evaluated Criticality Safety Benchmark Experiments,” NEA/NSC/DOC(95)03, Organisation for Economic Co-operation and Development, Nuclear Energy Agency, Nuclear Science Committee (2016).",N/A,N/A,N/A,N/A,No,No
+ref_11,,,,,,,,10.2172/1028760,"W. J. MARSHALL and B. T. REARDEN, “Criticality Safety Validation of SCALE 6.1,” ORNL/TM-2011/450 (revised), Oak Ridge National Laboratory (2011).",N/A,N/A,N/A,N/A,No,No
+ref_12,,,,,,,,,"B. C. KIEDROWSKI, “Adjoint Weighting for Continuous-Energy Monte Carlo Radiation Transport,” PhD Dissertation, University of Wisconsin (2009).",N/A,N/A,N/A,N/A,No,No
+ref_13,,,,,,,,10.13182/NSE15-12,,N/A,N/A,N/A,N/A,No,No
+ref_15,,,,,,,,,"https://laws.lanl.gov/vhosts/mcnp.lanl.gov/pdf_files/la-ur-16-21659.pdf (current as of Dec. 10, 2018).",N/A,N/A,N/A,N/A,No,No
+ref_16,,,,,,,,10.13182/NSE10-109,,N/A,N/A,N/A,N/A,No,No
+ref_17,,,,,,,,10.1016/j.nds.2014.04.005,,N/A,N/A,N/A,N/A,No,No
+ref_18,,,,,,,,10.13182/NSE15-13,,N/A,N/A,N/A,N/A,No,No

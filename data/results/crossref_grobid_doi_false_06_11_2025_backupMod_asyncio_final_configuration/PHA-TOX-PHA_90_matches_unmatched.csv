@@ -1,0 +1,10 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,2006,23,1007,Mendez,"Indolocarbazole natural products: Occurrence, biosynthesis, and biological activity",,,10.1039/B601930G,,21,21,N/A,N/A,No,Yes
+ref_8,1992,7,371,Tapley,K252a is a selective inhibitor of the tyrosine protein kinase activity of the trk family of oncogenes and neurotrophin receptors,,,,,N/A,N/A,N/A,N/A,No,No
+ref_10,2006,132,S7,Welburn,Programmed cell death in African trypanosomes,,,10.1017/S0031182006000825,,17,17,N/A,N/A,No,Yes
+ref_17,2012,14,2422,Fu,"Streptocarbazoles A and B, Two Novel Indolocarbazoles from the Marine-Derived Actinomycete Strain Streptomyces sp. FMA",,,10.1021/ol3008638,,16,16,N/A,N/A,No,Yes
+ref_18,2019,9,11651,Cartuche,Staurosporine from Streptomyces sanyensis activates Programmed Cell Death in Acanthamoeba via the mitochondrial pathway and presents low cytotoxicity levels to vertebrate cells,,,10.1038/s41598-019-48261-7,,N/A,N/A,N/A,N/A,No,No
+ref_20,,,,,,,,10.3390/md16110443,"García-Davis, S., Sifaoui, I., Reyes-Batlle, M., Viveros-Valdez, E., Piñero, J.E., Lorenzo-Morales, J., Fernández, J.J., and Díaz-Marrero, A.R. (2018). Anti-Acanthamoeba Activity of Brominated Sesquiterpenes from Laurencia johnstonii. Mar. Drugs, 16.",N/A,N/A,N/A,N/A,No,No
+ref_27,2019,39,1294,Cinelli,"Topoisomerase 1B poisons: Over a half-century of drug leads, clinical candidates and serendipitous discoveries",,,10.1002/med.21546,,N/A,N/A,N/A,N/A,No,No
+ref_32,2014,2014,256310,,Morphological Features and In Vitro Cytopathic Effect of Acanthamoeba griffini Trophozoites Isolated from a Clinical Case,,,,,N/A,N/A,N/A,N/A,No,No
+ref_34,2015,22,10,Khan,"An update on Acanthamoeba keratitis: Diagnosis, pathogenesis and treatment",,,10.1051/parasite/2015010,,21,21,N/A,N/A,No,Yes

@@ -1,0 +1,11 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,,,,,,,,10.1007/BF02579440,,N/A,N/A,N/A,N/A,No,No
+ref_2,,,,,,,,10.1016/j.laa.2006.10.017,,N/A,N/A,N/A,N/A,No,No
+ref_3,,,,,,,,10.1080/03081087.2015.1091434,,N/A,N/A,N/A,N/A,No,No
+ref_4,,,,,,,,10.13001/1081-3810.2865,,N/A,N/A,N/A,N/A,No,No
+ref_5,,,,,,,,10.13001/1081-3810.3322,,N/A,N/A,N/A,N/A,No,No
+ref_6,,,,,,,,10.21136/CMJ.2017.0429-16,,N/A,N/A,N/A,N/A,No,No
+ref_7,,,,,,,,10.1016/j.laa.2017.04.017,,N/A,N/A,N/A,N/A,No,No
+ref_8,,,,,,,,10.1007/BF02122687,,N/A,N/A,N/A,N/A,No,No
+ref_9,,,,,,,,10.1016/j.laa.2009.03.032,,N/A,N/A,N/A,N/A,No,No
+ref_10,,,,,,,,10.1016/j.laa.2011.05.010,,N/A,N/A,N/A,N/A,No,No

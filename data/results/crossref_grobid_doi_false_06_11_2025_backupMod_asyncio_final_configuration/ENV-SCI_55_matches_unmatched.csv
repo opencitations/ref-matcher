@@ -1,0 +1,66 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,,,,,,,,10.1098/rspb.2011.0261,,N/A,N/A,N/A,N/A,No,No
+ref_2,,,,,,,,10.1111/mec.13797,,N/A,N/A,N/A,N/A,No,No
+ref_3,,,,,,,,10.1111/j.1469-1795.1999.tb00050.x,,N/A,N/A,N/A,N/A,No,No
+ref_4,,,,,,,,10.1023/B:COGE.0000014059.49606.dd,,N/A,N/A,N/A,N/A,No,No
+ref_5,,,,,,,,10.2307/3802534,,N/A,N/A,N/A,N/A,No,No
+ref_6,2011,22,315,C.,Supplementary feeding of subadult choughs,,,,,15,15,N/A,N/A,No,Yes
+ref_7,,,,,,,,10.1007/s10592-008-9547-8,,N/A,N/A,N/A,N/A,No,No
+ref_8,,,,,,,,10.1016/j.tree.2008.03.011,,N/A,N/A,N/A,N/A,No,No
+ref_9,,,,,,,,10.2307/1935620,,N/A,N/A,N/A,N/A,No,No
+ref_10,,,,,,,,10.1038/nrg2664,,N/A,N/A,N/A,N/A,No,No
+ref_11,,,,,,,,10.1111/j.1469-8137.2010.03541.x,,N/A,N/A,N/A,N/A,No,No
+ref_12,,,,,,,,10.1111/cobi.12049,,N/A,N/A,N/A,N/A,No,No
+ref_13,1958,61,763,F.,Some possibilities for measuring selection intensities in man,,,,,N/A,N/A,N/A,N/A,No,No
+ref_14,,,,,,,,10.1006/tpbi.1995.1025,,N/A,N/A,N/A,N/A,No,No
+ref_15,,,,,,,,10.5962/bhl.title.110800,,N/A,N/A,N/A,N/A,No,No
+ref_16,,,,,,,,10.1111/j.1365-2664.2010.01783.x,,N/A,N/A,N/A,N/A,No,No
+ref_17,,,,,,,,10.1002/9781444355833.ch9,,N/A,N/A,N/A,N/A,No,No
+ref_18,,,,,,,,10.1111/j.1461-0248.2005.00845.x,,N/A,N/A,N/A,N/A,No,No
+ref_19,,,,,,,,10.1098/rsbl.2009.0468,,N/A,N/A,N/A,N/A,No,No
+ref_20,,,,,,,,10.1111/j.1558-5646.2010.01108.x,,N/A,N/A,N/A,N/A,No,No
+ref_21,,,,,,,,10.1111/mec.13139,,N/A,N/A,N/A,N/A,No,No
+ref_22,,,,,,,,10.1016/j.biocon.2005.11.014,,N/A,N/A,N/A,N/A,No,No
+ref_23,,,,,,,,10.1073/pnas.1504732112,,N/A,N/A,N/A,N/A,No,No
+ref_24,,,,,,,,10.1016/S0169-5347(02)02489-8,,N/A,N/A,N/A,N/A,No,No
+ref_25,,,,,,,,10.1098/rspb.2013.3337,,N/A,N/A,N/A,N/A,No,No
+ref_26,,,,,,,,10.1098/rspb.2002.2049,,N/A,N/A,N/A,N/A,No,No
+ref_27,2017,,,C.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_28,2017,,,C.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_29,,,,,,,,10.1111/j.1600-048X.2010.05164.x,,N/A,N/A,N/A,N/A,No,No
+ref_30,,,,,,,,10.1371/journal.pone.0168880,,N/A,N/A,N/A,N/A,No,No
+ref_31,,,,,,,,10.1098/rsbl.2004.0266,,N/A,N/A,N/A,N/A,No,No
+ref_32,,,,,,,,10.1111/conl.12257,,N/A,N/A,N/A,N/A,No,No
+ref_33,,,,,,,,10.1093/genetics/163.3.1153,,N/A,N/A,N/A,N/A,No,No
+ref_34,1989,15,114,P.,The distribution and status of the chough in Scotland in 1986,,,,,12,12,N/A,N/A,No,Yes
+ref_35,,,,,,,,10.1111/j.1558-5646.1997.tb02422.x,,N/A,N/A,N/A,N/A,No,No
+ref_36,,,,,,,,10.1016/j.biocon.2006.05.016,,N/A,N/A,N/A,N/A,No,No
+ref_37,,,,,,,,10.1371/journal.pone.0004084,,N/A,N/A,N/A,N/A,No,No
+ref_38,,,,,,,,10.1038/hdy.2016.100,,N/A,N/A,N/A,N/A,No,No
+ref_39,,,,,,,,10.1016/0006-3207(94)90332-8,,N/A,N/A,N/A,N/A,No,No
+ref_40,,,,,,,,10.1016/j.biocon.2017.08.014,,N/A,N/A,N/A,N/A,No,No
+ref_41,2017,,,Team,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_42,,,,,,,,10.1111/conl.12412,,N/A,N/A,N/A,N/A,No,No
+ref_43,,,,,,,,10.1111/j.1365-2664.2011.01973.x,,N/A,N/A,N/A,N/A,No,No
+ref_44,,,,,,,,10.1111/j.1365-2656.2008.01400.x,,N/A,N/A,N/A,N/A,No,No
+ref_45,,,,,,,,10.1046/j.1365-2656.2003.00750.x,,N/A,N/A,N/A,N/A,No,No
+ref_46,,,,,,,,10.1046/j.1365-2656.2003.00673.x,,N/A,N/A,N/A,N/A,No,No
+ref_47,,,,,,,,10.1111/j.0021-8790.2004.00854.x,,N/A,N/A,N/A,N/A,No,No
+ref_48,,,,,,,,10.1111/j.1365-2656.2006.01143.x,,N/A,N/A,N/A,N/A,No,No
+ref_49,,,,,,,,10.1093/genetics/155.1.337,,N/A,N/A,N/A,N/A,No,No
+ref_50,2015,47,355,C.,Importance of lethal control of invasive predators for island conservation,,,,,12,12,N/A,N/A,No,Yes
+ref_51,,,,,,,,10.1038/33136,,N/A,N/A,N/A,N/A,No,No
+ref_52,,,,,,,,10.1093/aob/mcw190,,N/A,N/A,N/A,N/A,No,No
+ref_53,,,,,,,,10.1111/j.1526-100X.2010.00724.x,,N/A,N/A,N/A,N/A,No,No
+ref_54,,,,,,,,10.1126/science.282.5394.1658,,N/A,N/A,N/A,N/A,No,No
+ref_55,,,,,,,,10.1111/1365-2656.12503,,N/A,N/A,N/A,N/A,No,No
+ref_56,,,,,,,,10.1111/1365-2656.12703,,N/A,N/A,N/A,N/A,No,No
+ref_57,,,,,,,,,Trask A. E. Fenn S. R. Bignal E. M. McCracken D. I. Monaghan P. Pennycott T. &Reid J. M.(2019a).Conservation strategy for red‐billed choughs in Scotland: Assessment of the impact of supplementary feeding and evalutation of future management strategies. Scottish Natural Heritage Commissioned Report.,N/A,N/A,N/A,N/A,No,No
+ref_58,2019,,,E.,Data from: Evaluating the efficacy of independent versus simultaneous management strategies to address ecological and genetic threats to population viability,,,,,N/A,N/A,N/A,N/A,No,No
+ref_59,,,,,,,,10.1650/CONDOR-14-18.1,,N/A,N/A,N/A,N/A,No,No
+ref_60,,,,,,,,10.1111/j.1523-1739.2005.00275.x,,N/A,N/A,N/A,N/A,No,No
+ref_61,,,,,,,,10.1111/j.1558-5646.2008.00325.x,,N/A,N/A,N/A,N/A,No,No
+ref_62,,,,,,,,10.1186/1471-2148-11-318,,N/A,N/A,N/A,N/A,No,No
+ref_63,,,,,,,,10.1111/j.1755-0998.2010.02885.x,,N/A,N/A,N/A,N/A,No,No
+ref_64,,,,,,,,10.1016/j.tree.2014.10.009,,N/A,N/A,N/A,N/A,No,No
+ref_65,,,,,,,,10.1046/j.1523-1739.2003.01526.x,,N/A,N/A,N/A,N/A,No,No

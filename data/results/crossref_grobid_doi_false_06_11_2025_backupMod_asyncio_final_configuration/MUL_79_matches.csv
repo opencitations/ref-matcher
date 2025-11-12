@@ -1,0 +1,41 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_1,N/A,C4orf41 And TTC-15 Are Mammalian TRAPP Components With A Role At An Early Stage In ER-to-Golgi Trafficking,34,10.1091/mbc.e10-11-0873,https://w3id.org/oc/meta/br/0617096969,year_author_page
+ref_2,N/A,A Genome-Wide RNA Interference Screen Identifies Two Novel Components Of The Metazoan Secretory Pathway,33,10.1038/emboj.2009.350,https://w3id.org/oc/meta/br/061401849418,year_author_page
+ref_3,N/A,Network Organization Of The Human Autophagy System,34,10.1038/nature09204,https://w3id.org/oc/meta/br/06230356163,year_author_page
+ref_4,N/A,TBC1D14 Regulates Autophagy Via theTRAPPcomplex andATG9 Traffic,33,10.15252/embj.201592695,https://w3id.org/oc/meta/br/061201861198,year_author_page
+ref_6,N/A,TRAPPC11 Functions In Autophagy By Recruiting ATG2B‐WIPI4/WDR45 To Preautophagosomal Membranes,34,10.1111/tra.12640,https://w3id.org/oc/meta/br/062201409688,year_author_page
+ref_7,N/A,The TRAPP Complex Is A Nucleotide Exchanger For Ypt1 And Ypt31/32,27,10.1091/mbc.11.12.4403,https://w3id.org/oc/meta/br/0616099507,year_volume_page
+ref_8,N/A,The TRAPPIII Complex Activates The GTPase Ypt1 (Rab1) In The Secretory Pathway,26,10.1083/jcb.201705214,https://w3id.org/oc/meta/br/06201653856,year_volume_page
+ref_9,N/A,Novel TRAPPC11 Mutations In A Chinese Pedigree Of Limb Girdle Muscular Dystrophy,37,10.1155/2018/8090797,https://w3id.org/oc/meta/br/06101526597,author_title
+ref_10,N/A,The Two TRAPP Complexes Of Metazoans Have Distinct Roles And Act On Different Rab GTPases,33,10.1083/jcb.201705068,https://w3id.org/oc/meta/br/06201653799,year_author_page
+ref_11,N/A,Trappc11Is Required For Protein Glycosylation In Zebrafish And Humans,34,10.1091/mbc.e15-08-0557,https://w3id.org/oc/meta/br/0613095596,year_author_page
+ref_12,N/A,"TRAMM/TrappC12 Plays A Role In Chromosome Congression, Kinetochore Stability, And CENP-E Recruitment",34,10.1083/jcb.201501090,https://w3id.org/oc/meta/br/06301655301,year_author_page
+ref_13,N/A,Mammalian TRAPPIII Complex Positively Modulates The Recruitment Of Sec13/31 Onto COPII Vesicles,39,10.1038/srep43207,https://w3id.org/oc/meta/br/061102629727,author_title
+ref_14,N/A,TRAPPopathies: An Emerging Set Of Disorders Linked To Variations In The Genes Encoding Transport Protein Particle (TRAPP)‐associated Proteins,26,10.1111/tra.12615,https://w3id.org/oc/meta/br/062201409713,year_volume_page
+ref_15,N/A,Recessive TRAPPC11 Mutations Cause A Disease Spectrum Of Limb Girdle Muscular Dystrophy And Myopathy With Movement Disorder And Intellectual Disability,27,10.1016/j.ajhg.2013.05.028,https://w3id.org/oc/meta/br/06170927435,year_volume_page
+ref_16,N/A,Siblings With Mutations In TRAPPC11 Presenting With Limb-Girdle Muscular Dystrophy 2S,34,10.1097/cnd.0000000000000173,https://w3id.org/oc/meta/br/062201498250,year_author_page
+ref_17,N/A,"A novelTRAPPC11mutation In Two Turkish Families Associated With Cerebral Atrophy, Global Retardation, Scoliosis, Achalasia And Alacrima",33,10.1136/jmedgenet-2016-104108,https://w3id.org/oc/meta/br/06220237991,year_author_page
+ref_18,N/A,TRAPPC11 And GOSR2 Mutations Associate With Hypoglycosylation Of Α-Dystroglycan And Muscular Dystrophy,26,10.1186/s13395-018-0163-0,https://w3id.org/oc/meta/br/062601099057,year_author_volume
+ref_19,N/A,Congenital Muscular Dystrophy With Fatty Liver And Infantile-Onset Cataract Caused By TRAPPC11 Mutations: Broadening Of The Phenotype,26,10.1186/s13395-015-0056-4,https://w3id.org/oc/meta/br/062601099164,year_author_volume
+ref_20,N/A,Mutations inTRAPPC11are Associated With A Congenital Disorder Of Glycosylation,33,10.1002/humu.23145,https://w3id.org/oc/meta/br/062096746,year_author_page
+ref_21,N/A,Atrs20Mutation That Mimics An SEDT-Causing Mutation Blocks Selective And Non-Selective Autophagy: A Model For TRAPP III Organization,34,10.1111/tra.12095,https://w3id.org/oc/meta/br/062201410139,year_author_page
+ref_22,N/A,The Adaptor Function Of TRAPPC2 In Mammalian TRAPPs Explains TRAPPC2-Associated SEDT And TRAPPC9-Associated Congenital Intellectual Disability,34,10.1371/journal.pone.0023350,https://w3id.org/oc/meta/br/06201531778,year_author_page
+ref_23,N/A,Bi-allelic Mutations In TRAPPC2L Result In A Neurodevelopmental Disorder And Have An Impact On RAB11 In Fibroblasts,34,10.1136/jmedgenet-2018-105441,https://w3id.org/oc/meta/br/06220237793,year_author_page
+ref_25,N/A,Synchronization Of Secretory Protein Traffic In Populations Of Cells,34,10.1038/nmeth.1928,https://w3id.org/oc/meta/br/06502146568,year_author_page
+ref_26,N/A,Visualization Of ER-to-Golgi Transport In Living Cells Reveals A Sequential Mode Of Action For COPII And COPI,34,10.1016/s0092-8674(00)80379-7,https://w3id.org/oc/meta/br/06140671975,year_author_page
+ref_27,N/A,Mutations In TRAPPC12 Manifest In Progressive Childhood Encephalopathy And Golgi Dysfunction,34,10.1016/j.ajhg.2017.07.006,https://w3id.org/oc/meta/br/06160929386,year_author_page
+ref_28,N/A,Molecularly Defined Unfolded Protein Response Subclasses Have Distinct Correlations With Fatty Liver Disease In Zebrafish,34,10.1242/dmm.014472,https://w3id.org/oc/meta/br/0670192037,year_author_page
+ref_29,N/A,Mammalian Transcription Factor ATF6 Is Synthesized As A Transmembrane Protein And Activated By Proteolysis In Response To Endoplasmic Reticulum Stress,34,10.1091/mbc.10.11.3787,https://w3id.org/oc/meta/br/0616099559,year_author_page
+ref_30,N/A,Mammalian Atg2 Proteins Are Essential For Autophagosome Formation And Important For Regulation Of Size And Distribution Of Lipid Droplets,34,10.1091/mbc.e11-09-0785,https://w3id.org/oc/meta/br/0617096669,year_author_page
+ref_31,N/A,The Architecture Of The Multisubunit TRAPP I Complex Suggests A Model For Vesicle Tethering,48,10.1016/j.cell.2006.09.029,https://w3id.org/oc/meta/br/06110677550,author_title
+ref_32,N/A,TRAPP I Implicated In The Specificity Of Tethering In ER-to-Golgi Transport,34,10.1016/s1097-2765(01)00190-3,https://w3id.org/oc/meta/br/06601322945,year_author_page
+ref_33,N/A,[24] Purification Of TRAPP From Saccharomyces Cerevisiae And Identification Of Its Mammalian Counterpart,31,10.1016/s0076-6879(01)29083-1,https://w3id.org/oc/meta/br/06503807652,year_author_page
+ref_34,N/A,"TRAPP, A Highly Conserved Novel Complex On The cis-Golgi That Mediates Vesicle Docking And Fusion",34,10.1093/emboj/17.9.2494,https://w3id.org/oc/meta/br/06102257456,year_author_page
+ref_35,N/A,The SMS Domain Of Trs23p Is Responsible For The In Vitro Appearance Of The TRAPP I Complex inSaccharomyces Cerevisiae,34,10.4161/cl.19414,https://w3id.org/oc/meta/br/062103012801,year_author_page
+ref_36,N/A,"NIBP, A Novel NIK And IKKβ-binding Protein That Enhances NF-κB Activation",27,10.1074/jbc.m501670200,https://w3id.org/oc/meta/br/0623092481,year_volume_page
+ref_37,N/A,Sedlin Controls The ER Export Of Procollagen By Regulating The Sar1 Cycle,27,10.1126/science.1224947,https://w3id.org/oc/meta/br/0680489490,year_volume_page
+ref_38,N/A,Autophagy And Human Diseases,26,10.1038/cr.2013.161,https://w3id.org/oc/meta/br/0629060985,year_volume_page
+ref_39,N/A,Targeting The Proteostasis Network In Huntington’s Disease,31,10.1016/j.arr.2018.11.006,https://w3id.org/oc/meta/br/06703037912,year_author_page
+ref_40,N/A,Exome Pool-Seq In Neurodevelopmental Disorders,27,10.1038/s41431-017-0022-1,https://w3id.org/oc/meta/br/061201005298,year_volume_page
+ref_41,N/A,Identification Of GAA Variants Through Whole Exome Sequencing Targeted To A Cohort Of 606 Patients With Unexplained Limb-Girdle Muscle Weakness,40,10.1186/s13023-017-0722-1,https://w3id.org/oc/meta/br/0650151139,author_title
+ref_43,N/A,"TRAPPC2L Is A Novel, Highly Conserved TRAPP-Interacting Protein",34,10.1111/j.1600-0854.2009.00906.x,https://w3id.org/oc/meta/br/062301418296,year_author_page

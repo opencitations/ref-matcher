@@ -1,0 +1,26 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_1,N/A,Diagnostic And Statistical Manual Of Mental Disorders,30,10.1176/appi.books.9780890425596,https://w3id.org/oc/meta/br/06903050381,year_and_doi
+ref_2,N/A,A Neural Link Between Affective Understanding And Interpersonal Attraction,26,10.1073/pnas.1516191113,https://w3id.org/oc/meta/br/061503057610,year_author_volume
+ref_3,N/A,Mindblindness,30,10.7551/mitpress/4635.001.0001,https://w3id.org/oc/meta/br/06102549892,year_and_doi
+ref_4,N/A,Elicited Imitation In Children And Adults With Autism: Is There A Deficit?,27,10.1080/13668250410001709494,https://w3id.org/oc/meta/br/061301802261,year_and_doi
+ref_5,N/A,Understanding And Prevention Of Suicide In Autism,24,10.1016/s2215-0366(17)30162-1,https://w3id.org/oc/meta/br/061903797845,year_and_doi
+ref_6,N/A,Interaction Takes Two: Typical Adults Exhibit Mind-Blindness Towards Those With Autism Spectrum Disorder.,27,10.1037/abn0000199,https://w3id.org/oc/meta/br/062201468585,year_and_doi
+ref_7,N/A,Evaluating Posed And Evoked Facial Expressions Of Emotion From Adults With Autism Spectrum Disorder,26,10.1007/s10803-014-2194-7,https://w3id.org/oc/meta/br/06120579877,year_and_doi
+ref_8,N/A,Mirror Neurons And The Simulation Theory Of Mind-Reading.,31,10.1016/s1364-6613(98)01262-5,https://w3id.org/oc/meta/br/06110221334,year_author_page
+ref_9,N/A,Emotional Facial And Vocal Expressions During Story Retelling By Children And Adolescents With High-Functioning Autism.,31,10.1044/1092-4388(2012/12-0067),https://w3id.org/oc/meta/br/062202773619,year_author_page
+ref_10,N/A,An Experimental Study Of Apparent Behavior,27,10.2307/1416950,https://w3id.org/oc/meta/br/061302194471,year_and_doi
+ref_11,N/A,Development Itself Is The Key To Understanding Developmental Disorders.,31,10.1016/s1364-6613(98)01230-3,https://w3id.org/oc/meta/br/06110221092,year_author_page
+ref_12,N/A,Beyond Modularisation: The Need Of A Socio-Neuro-Constructionist Model Of Autism,39,10.1007/s10803-013-1966-9,https://w3id.org/oc/meta/br/06120580082,doi_title
+ref_13,N/A,Recognition And Expression Of Emotional Cues By Autistic And Normal Adults,27,10.1111/j.1469-7610.1989.tb00288.x,https://w3id.org/oc/meta/br/0660948571,year_and_doi
+ref_14,N/A,On The Ontological Status Of Autism: The ‘Double Empathy Problem’,27,10.1080/09687599.2012.710008,https://w3id.org/oc/meta/br/06250730058,year_and_doi
+ref_16,N/A,PsychoPy—Psychophysics Software In Python,27,10.1016/j.jneumeth.2006.11.017,https://w3id.org/oc/meta/br/0630463067,year_and_doi
+ref_17,N/A,Can People Guess What Happened To Others From Their Reactions?,27,10.1371/journal.pone.0049859,https://w3id.org/oc/meta/br/062401503459,year_and_doi
+ref_18,N/A,Using Other Minds As A Window Onto The World: Guessing What Happened From Clues In Behaviour,27,10.1007/s10803-014-2106-x,https://w3id.org/oc/meta/br/06120579955,year_and_doi
+ref_19,N/A,"Cognitive And Affective Theory Of Mind In Neurodegenerative Diseases: Neuropsychological, Neuroanatomical And Neurochemical Levels",27,10.1016/j.neubiorev.2012.07.004,https://w3id.org/oc/meta/br/06230968487,year_and_doi
+ref_20,N/A,Intact Imitation Of Emotional Facial Actions In Autism Spectrum Conditions,27,10.1016/j.neuropsychologia.2010.07.012,https://w3id.org/oc/meta/br/061402105157,year_and_doi
+ref_21,N/A,Neurotypical Peers Are Less Willing To Interact With Those With Autism Based On Thin Slice Judgments,33,10.1038/srep40700,https://w3id.org/oc/meta/br/061302609529,year_and_doi
+ref_23,N/A,How Easy Is It To Read The Minds Of People With Autism Spectrum Disorder?,26,10.1007/s10803-015-2662-8,https://w3id.org/oc/meta/br/06110591698,year_and_doi
+ref_24,N/A,Does Facial Expressivity Count? How Typically Developing Children Respond Initially To Children With Autism,26,10.1177/1362361313492392,https://w3id.org/oc/meta/br/061901194133,year_and_doi
+ref_25,N/A,Seeing The World Through Others’ Minds: Inferring Social Context From Behaviour,31,10.1016/j.cognition.2016.11.003,https://w3id.org/oc/meta/br/06250486294,year_author_page
+ref_26,N/A,"Man, I Feel Like A Woman: When And How Gender-Role Motivation Helps Mind-Reading.",27,10.1037/a0013067,https://w3id.org/oc/meta/br/0632038598,year_and_doi
+ref_27,N/A,Facial Encoding Of Children With High-Functioning Autism Spectrum Disorders,27,10.1177/1088357609347325,https://w3id.org/oc/meta/br/061802701548,year_and_doi

@@ -1,0 +1,6 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_7,1992,29,177,Mosesson,The roles of fibrinogen and fibrin in hemostasis and thrombosis,,,,,12,12,N/A,N/A,No,Yes
+ref_26,2014,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_27,1998,,,C.J.Higgins,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_60,2009,3,1008,Pulicherla,Cloning and high level expression of recombinant heterologous fusion protein SAK RGD in methanol inducible Pichia pastoris GS115,,,,,12,12,N/A,N/A,No,Yes
+ref_72,2003,25,322,Qureshi,Reocclusion of recanalized arteries during intra-arterial thrombolysis for acute ischemic stroke,,,,,12,12,N/A,N/A,No,Yes

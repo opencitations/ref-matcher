@@ -1,0 +1,4 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,2018,,,2018.,World Health Organization,,,,,N/A,N/A,N/A,N/A,No,No
+ref_29,2014,42,W320,Robert,Deciphering key features in protein structures with the new ENDscript server,,,10.1093/nar/gku316,,11,11,N/A,N/A,No,Yes
+ref_35,1997,276,307,Otwinowski,Processing of X-ray diffraction data collected in oscillation mode,,,10.1016/S0076-6879(97)76066-X,,11,11,N/A,N/A,No,Yes

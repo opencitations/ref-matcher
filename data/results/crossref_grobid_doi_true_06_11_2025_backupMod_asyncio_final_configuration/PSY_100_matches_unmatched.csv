@@ -1,0 +1,5 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_16,2005,2,8,Goldenfeld,,,,,"Goldenfeld, N., Baron-Cohen, S., & Wheelwright, S. (2005). Empathizing and systemizing in males, females, and autism. Clinical Neuropsychiatry: Journal of Treatment Evaluation, 2(6), 8.",21,21,N/A,N/A,No,Yes
+ref_26,2012,,,Lord,,,,,"Lord, C., Rutter, M., DiLavore, P. C., Risi, S., & Gotham, K. (2012). Autism diagnostic observation schedule (2nd ed., Vol. Volume ADOS-2). Torrence, CA: Western Psychological Services.",21,21,N/A,N/A,No,Yes
+ref_34,1991,,,Wechsler,,,,,"Wechsler, D. (1991). WISC-III: Wechsler intelligence scale for children: Manual. San Antonio, TX: The Psychological Corporation.",N/A,N/A,N/A,N/A,No,No
+ref_35,2002,,,Wechsler,,,,,"Wechsler, D. (2002). The Wechsler preschool and primary scale of intelligence (3rd ed.). San Antonio, TX: The Psychological Corporation Canadian Journal of School Psychology.",21,21,N/A,N/A,No,Yes

@@ -1,0 +1,34 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_1,N/A,Diagnostic And Statistical Manual Of Mental Disorders,30,10.1176/appi.books.9780890425596,https://w3id.org/oc/meta/br/06903050381,year_and_doi
+ref_2,N/A,The Extreme Male Brain Theory Of Autism,27,10.1016/s1364-6613(02)01904-6,https://w3id.org/oc/meta/br/061603796514,year_and_doi
+ref_3,N/A,"The Hyper-Systemizing, Assortative Mating Theory Of Autism",27,10.1016/j.pnpbp.2006.01.010,https://w3id.org/oc/meta/br/06190205871,year_and_doi
+ref_4,N/A,Autism: The Empathizing-Systemizing (E-S) Theory,27,10.1111/j.1749-6632.2009.04467.x,https://w3id.org/oc/meta/br/06503103515,year_and_doi
+ref_5,N/A,"Empathizing, Systemizing, And The Extreme Male Brain Theory Of Autism",31,10.1016/b978-0-444-53630-3.00011-7,https://w3id.org/oc/meta/br/062603185108,year_author_page
+ref_6,N/A,Elevated Fetal Steroidogenic Activity In Autism,26,10.1038/mp.2014.48,https://w3id.org/oc/meta/br/06120824181,year_and_doi
+ref_7,N/A,"The Systemizing Quotient: An Investigation Of Adults With Asperger Syndrome Or High–Functioning Autism, And Normal Sex Differences",27,10.1098/rstb.2002.1206,https://w3id.org/oc/meta/br/061303011109,year_and_doi
+ref_8,N/A,"The Empathy Quotient: An Investigation Of Adults With Asperger Syndrome Or High Functioning Autism, And Normal Sex Differences.",31,10.1023/b:jadd.0000022607.19833.00,https://w3id.org/oc/meta/br/06150588682,year_author_page
+ref_9,N/A,"The Autism-Spectrum Quotient (AQ): Evidence From Asperger Syndrome/High-Functioning Autism, Males And Females, Scientists And Mathematicians.",31,10.1023/a:1005653411471,https://w3id.org/oc/meta/br/06150589120,year_author_page
+ref_10,N/A,The Broad Autism (Endo)Phenotype: Neurostructural And Neurofunctional Correlates In Parents Of Individuals With Autism Spectrum Disorders,30,10.3389/fnins.2016.00346,https://w3id.org/oc/meta/br/06601718511,year_and_doi
+ref_11,N/A,"Autism Risk Factors: Genes, Environment, And Gene-Environment Interactions",27,10.31887/dcns.2012.14.3/pchaste,https://w3id.org/oc/meta/br/061601512079,year_and_doi
+ref_12,N/A,The Endophenotype Concept In Psychiatric Genetics,26,10.1017/s0033291706008750,https://w3id.org/oc/meta/br/06501325505,year_and_doi
+ref_13,N/A,Network-specific Sex Differentiation Of Intrinsic Brain Function In Males With Autism,33,10.1186/s13229-018-0192-x,https://w3id.org/oc/meta/br/06220710439,year_and_doi
+ref_14,N/A,The Genetics Of Autistic Disorders And Its Clinical Relevance: A Review Of The Literature,26,10.1038/sj.mp.4001896,https://w3id.org/oc/meta/br/06130828167,year_and_doi
+ref_15,N/A,The Broader Autism Phenotype And Its Implications On The Etiology And Treatment Of Autism Spectrum Disorders,30,10.1155/2011/545901,https://w3id.org/oc/meta/br/061401129980,year_and_doi
+ref_17,N/A,The Endophenotype Concept In Psychiatry: Etymology And Strategic Intentions,27,10.1176/appi.ajp.160.4.636,https://w3id.org/oc/meta/br/06702557202,year_and_doi
+ref_18,N/A,Testing The Empathizing–Systemizing Theory Of Sex Differences And The Extreme Male Brain Theory Of Autism In Half A Million People,27,10.1073/pnas.1811032115,https://w3id.org/oc/meta/br/06403476969,year_and_doi
+ref_19,N/A,"Empathizing, Systemizing, And Autistic Traits: Latent Structure In Individuals With Autism, Their Parents, And General Population Controls.",27,10.1037/a0031919,https://w3id.org/oc/meta/br/062201468907,year_and_doi
+ref_20,N/A,Broader Autism Phenotype In Mothers Predicts Social Responsiveness In Young Children With Autism Spectrum Disorders,26,10.1111/pcn.12210,https://w3id.org/oc/meta/br/06190423024,year_and_doi
+ref_21,N/A,The Broad Autism Phenotype Questionnaire,26,10.1007/s10803-006-0299-3,https://w3id.org/oc/meta/br/06140579488,year_and_doi
+ref_22,N/A,A Higher Mutational Burden In Females Supports A “Female Protective Model” In Neurodevelopmental Disorders,27,10.1016/j.ajhg.2014.02.001,https://w3id.org/oc/meta/br/06170927296,year_and_doi
+ref_23,N/A,Disentangling The Heterogeneity Of Autism Spectrum Disorder Through Genetic Findings,27,10.1038/nrneurol.2013.278,https://w3id.org/oc/meta/br/061802874574,year_and_doi
+ref_24,N/A,Empathizing-systemizing Cognitive Styles: Effects Of Sex And Academic Degree,27,10.1371/journal.pone.0194515,https://w3id.org/oc/meta/br/062501513993,year_and_doi
+ref_25,N/A,Individual Differences In Brain Structure Underpin Empathizing–Systemizing Cognitive Styles In Male Adults,33,10.1016/j.neuroimage.2012.03.018,https://w3id.org/oc/meta/br/06501336192,year_and_doi
+ref_27,N/A,Defining Key Features Of The Broad Autism Phenotype: A Comparison Across Parents Of Multiple- And Single-Incidence Autism Families,27,10.1002/ajmg.b.30612,https://w3id.org/oc/meta/br/0650217177,year_and_doi
+ref_28,N/A,Broader Autism Phenotype In Siblings Of Children With ASD—A Review,27,10.3390/ijms160613217,https://w3id.org/oc/meta/br/061401410569,year_and_doi
+ref_29,N/A,Environmental Toxicants And Autism Spectrum Disorders: A Systematic Review,33,10.1038/tp.2014.4,https://w3id.org/oc/meta/br/0647032679,year_and_doi
+ref_30,N/A,Broader Autism Phenotype In Parents Of Children With Autism: A Systematic Review Of Percentage Estimates,27,10.1007/s10826-018-1026-3,https://w3id.org/oc/meta/br/061603116908,year_and_doi
+ref_31,N/A,The Broader Autism Phenotype In Mothers Is Associated With Increased Discordance Between Maternal-Reported And Clinician-Observed Instruments That Measure Child Autism Spectrum Disorder,33,10.1007/s10803-017-3248-4,https://w3id.org/oc/meta/br/06110591132,year_and_doi
+ref_32,N/A,Regional Gray Matter Volume Is Associated With Empathizing And Systemizing In Young Adults,27,10.1371/journal.pone.0084782,https://w3id.org/oc/meta/br/061101528977,year_and_doi
+ref_33,N/A,Heritability Of Autism Spectrum Disorders: A Meta-Analysis Of Twin Studies,26,10.1111/jcpp.12499,https://w3id.org/oc/meta/br/0640951190,year_and_doi
+ref_36,N/A,Measuring Empathizing And Systemizing With A Large US Sample,27,10.1371/journal.pone.0031661,https://w3id.org/oc/meta/br/061801520815,year_and_doi
+ref_37,N/A,A Unified Genetic Theory For Sporadic And Inherited Autism,33,10.1073/pnas.0705803104,https://w3id.org/oc/meta/br/06203478035,year_and_doi

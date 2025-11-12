@@ -1,0 +1,21 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_2,2005,,173,Ajzen,The influence of attitudes on behaviour,,,,,N/A,N/A,N/A,N/A,No,No
+ref_10,1986,,,Bandura,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_18,2017,,1,Borst,"From friendfunding to crowdfunding: Relevance of relationships, social media, and platform activities to crowdfunding performance",,,,,22,22,N/A,N/A,No,Yes
+ref_32,1977,,,Cochran,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_37,,,,Daskalakis,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_38,2006,,,Dillman,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_40,,,,Eichhorn,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_41,1995,85,186,Farrell,Talk is cheap,,,,,12,12,N/A,N/A,No,Yes
+ref_43,1975,,,Fishbein,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_48,2017,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_49,2017,,,Garvey,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_55,2010,,,Hair,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_56,2014,38,827,Heminway,Investor and market protection in the crowdfunding era: Disclosing to and for the ‘crowd’,,,,,12,12,N/A,N/A,No,Yes
+ref_66,2012,,,Lawton,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_71,,,,Lukkarinen,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_79,2014,,,Mollick,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_87,2012,,1,Rosseel,Lavaan: An R package for structural equation modeling and more. Version 0.5–12 (BETA),,,,,21,21,N/A,N/A,No,Yes
+ref_90,2016,,,Sekaran,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_103,2017,,,Ziegler,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_104,2018,,,Ziegler,,,,,,N/A,N/A,N/A,N/A,No,No

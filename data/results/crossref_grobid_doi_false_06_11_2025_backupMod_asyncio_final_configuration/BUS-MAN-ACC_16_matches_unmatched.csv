@@ -1,0 +1,25 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,1991,,,Aaker,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_2,2009,,,Aaker,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_12,,,,,,,,,"Bi, Q. (2013). Influences of e-retailer sponsored virtual communities on customer loyalty: An investigation of underlying mechanisms (Doctoral dissertation, City University of Hong Kong, Hong Kong). Retrieved from https://scholars.cityu.edu.hk/en/theses/influences-of-eretailer-sponsored-virtual-communities-on-customer-loyalty(c0598237-9039-4179-b884-4f30d0645d85.html.",N/A,N/A,N/A,N/A,No,No
+ref_13,2013,,,Bi,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_14,1964,,,Blau,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_21,2007,18,241,Valck,Satisfaction with virtual communities of interest: Effect on members' visit frequency,,,10.1111/j.1467-8551.2006.00499.x,,12,12,N/A,N/A,No,Yes
+ref_22,2009,47,185,Valck,Virtual communities: A marketing perspective,,,10.1016/j.dss.2009.02.008,,12,12,N/A,N/A,No,Yes
+ref_23,2001,65,33,Wulf,Investments in consumer relationships: A cross-country and cross-industry exploration,,,10.1509/jmkg.65.4.33.18386,,12,12,N/A,N/A,No,Yes
+ref_29,2004,Vol. 145,166,Fredrickson,"Gratitude, like other positive emotions, broadens and builds",,,,,22,22,N/A,N/A,No,Yes
+ref_38,2017,70,136,Hajli,Branding co-creation with members of online brand communities,,,10.1016/j.jbusres.2016.08.026,,12,12,N/A,N/A,No,Yes
+ref_41,2006,10,156,Huang,"Exploring customer satisfaction, trust and destination loyalty in tourism",,,,,16,16,N/A,N/A,No,Yes
+ref_43,1971,,,Jacoby,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_44,1978,,,Jacoby,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_51,2016,,,Kline,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_53,2017,,,Lazar,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_54,1959,,,Lipstein,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_60,2010,,19982006,Muthen,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_61,2018,,,Muthén,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_62,2014,,,Oliver,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_63,2017,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_72,2017,,,Report,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_75,2000,78,105,Reichheld,E-loyalty: Your secret weapon on the web,,,,,12,12,N/A,N/A,No,Yes
+ref_84,2000,,,Tamhane,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_87,2000,41,81,Williams,Four smart ways to run online communities,,,,,16,16,N/A,N/A,No,Yes

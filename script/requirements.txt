@@ -1,10 +1,22 @@
-rdflib>=6.3.2
-SPARQLWrapper>=1.8.5
-lxml>=5.1.0
-requests>=2.31.0
-tqdm>=4.66.2
-pandas>=2.2.2
-numpy>=1.26.4
-unidecode>=1.3.8
+# Requirements for Reference Matching Tool
+# Python 3.8+ required
+
+# ============================================================================
+# CORE DEPENDENCIES (Required)
+# ============================================================================
+
+# Fuzzy string matching for title comparison
 fuzzywuzzy>=0.18.0
-python-Levenshtein>=0.23.0
+python-Levenshtein>=0.12.2  # Optional but highly recommended for speed
+
+# GROBID client for parsing unstructured citations
+grobid-client-python>=0.8.0
+
+# Unicode normalization
+Unidecode>=1.3.6
+
+# Progress bars
+tqdm>=4.65.0
+
+# Async HTTP client for OpenCitations queries
+aiohttp>=3.9.0

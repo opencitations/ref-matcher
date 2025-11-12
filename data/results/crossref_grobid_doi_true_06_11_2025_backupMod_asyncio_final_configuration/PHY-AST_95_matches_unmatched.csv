@@ -1,0 +1,2 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_24,2016,9726,972615,Schad,,,,10.1117/12.2212789,,16,16,N/A,N/A,No,Yes

@@ -1,0 +1,16 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_1,N/A,Electronic Health Records: New Opportunities For Clinical Research,27,10.1111/joim.12119,https://w3id.org/oc/meta/br/0610897973,year_and_doi
+ref_2,N/A,The South London And Maudsley NHS Foundation Trust Biomedical Research Centre (SLAM BRC) Case Register: Development And Descriptive Data,33,10.1186/1471-244x-9-51,https://w3id.org/oc/meta/br/0660459995,year_and_doi
+ref_4,N/A,Machine Learning In Automated Text Categorization,27,10.1145/505282.505283,https://w3id.org/oc/meta/br/061603520946,year_and_doi
+ref_6,N/A,Understanding Natural Language,27,10.1016/0010-0285(72)90002-3,https://w3id.org/oc/meta/br/0620489592,year_and_doi
+ref_7,N/A,Cohort Profile Of The South London And Maudsley NHS Foundation Trust Biomedical Research Centre (SLaM BRC) Case Register: Current Status And Recent Enhancement Of An Electronic Mental Health Record-derived Data Resource,27,10.1136/bmjopen-2015-008721,https://w3id.org/oc/meta/br/061201958246,year_and_doi
+ref_9,N/A,Toward Electronic Medical Records That Improve Care,27,10.7326/0003-4819-122-9-199505010-00007,https://w3id.org/oc/meta/br/06504294912,year_and_doi
+ref_10,N/A,Extracting Information From Textual Documents In The Electronic Health Record: A Review Of Recent Research,27,10.1055/s-0038-1638592,https://w3id.org/oc/meta/br/06160889477,year_and_doi
+ref_11,N/A,"Obsessive-Compulsive Symptoms And Positive, Negative, And Depressive Symptoms In Patients With Recent-Onset Schizophrenic Disorders",27,10.1177/070674370505000904,https://w3id.org/oc/meta/br/062101280932,year_and_doi
+ref_12,N/A,The 5-Year Course Of Obsessive-Compulsive Symptoms And Obsessive-Compulsive Disorder In First-Episode Schizophrenia And Related Disorders,27,10.1093/schbul/sbr077,https://w3id.org/oc/meta/br/06180671203,year_and_doi
+ref_13,N/A,Extracting Antipsychotic Polypharmacy Data From Electronic Health Records: Developing And Evaluating A Novel Process,33,10.1186/s12888-015-0557-z,https://w3id.org/oc/meta/br/0690467719,year_and_doi
+ref_15,N/A,The Yale-Brown Obsessive Compulsive Scale: Interview Versus Self-Report.,31,10.1016/0005-7967(96)00036-8,https://w3id.org/oc/meta/br/06210527983,year_author_page
+ref_16,N/A,The Use Of Confidence Or Fiducial Limits Illustrated In The Case Of The Binomial,30,10.1093/biomet/26.4.404,https://w3id.org/oc/meta/br/06230327821,year_and_doi
+ref_17,N/A,Identification Of The Delivery Of Cognitive Behavioural Therapy For Psychosis (CBTp) Using A Cross-Sectional Sample From Electronic Health Records And Open-Text Information In A Large UK-based Mental Health Case Register,27,10.1136/bmjopen-2016-015297,https://w3id.org/oc/meta/br/06802342598,year_and_doi
+ref_18,N/A,Identification Of Adverse Drug Events From Free Text Electronic Patient Records And Information In A Large Mental Health Case Register,27,10.1371/journal.pone.0134208,https://w3id.org/oc/meta/br/061101526076,year_and_doi
+ref_19,N/A,Rule-based Information Extraction From Patients’ Clinical Data,27,10.1016/j.jbi.2009.07.007,https://w3id.org/oc/meta/br/06210956297,year_and_doi

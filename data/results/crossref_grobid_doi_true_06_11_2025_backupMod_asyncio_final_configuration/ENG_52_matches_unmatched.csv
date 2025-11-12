@@ -1,0 +1,8 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_3,2005,,,Davies,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_4,1996,9,155,Drucker,Support vector regression machines,,,,,12,12,N/A,N/A,No,Yes
+ref_6,2008,,,Henze,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_7,2000,,,Henze,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_8,,,,,,,,,"Hsu, C., Chang, C., and Lin, C. (2010). A practical guide to support vector classification. https://www.csie.ntu.edu.tw/∼cjlin/papers/guide/guide.pdf. Online; accessed 12 Oktober 2018.",7,7,N/A,N/A,No,Yes
+ref_12,2002,,,Scholkopf,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_13,2014,,,Xu,,,,,,N/A,N/A,N/A,N/A,No,No

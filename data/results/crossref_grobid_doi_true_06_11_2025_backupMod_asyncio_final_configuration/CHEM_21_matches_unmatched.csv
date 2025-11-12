@@ -1,0 +1,3 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,,,,,,,,,Directive 2002/95/EC of the European Parliament and of the Council of 27 January 2003 on the restriction of the use of certain hazardous substances in electrical and electronic equipment (RoHS) and amendments.,N/A,N/A,N/A,N/A,No,No
+ref_12,1985,,,,,,,,,N/A,N/A,N/A,N/A,No,No

@@ -1,0 +1,70 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_8,,,,,,,,,"Dürr, B.: The greenhouse effect in the Alps by models and observations,
+Ph.D. thesis, 81 pp., Swiss Fed. Inst. of Technol. at Zurich, Zurich,
+Switzerland, 2004.",N/A,N/A,N/A,N/A,No,No
+ref_10,,,,,,,,10.1088/0026-1394/49/2/S34,"Fehlmann, A., Kopp, G., Schmutz, W., Winkler, R., Finsterle, W., and Fox,
+N.: Fourth World Radiometric Reference to SI radiometric scale comparison
+and implications for on-orbit measurements of the total solar irradiance,
+Metrologia, 49, S34–S38, https://doi.org/10.1088/0026-1394/49/2/S34, 2012.",N/A,N/A,N/A,N/A,No,No
+ref_11,,,,,,,,,"Forster, P., Ramaswamy, V., Artaxo, P., Berntsen, T., Betts, R., Fahey, D. W., Haywood, J., Lean, J., Lowe, D. C., Myhre, G., Nganga, J., Prinn, R., Raga, G., Schulz, M., and Dorland, R. van: Changes in atmospheric constituents and in radiative
+forcing, in: Climate Change 2007: The Physical Science Basis, edited by: Solomon, S., Qin, D., Manning, M., Marquis, M., Averyt, K.,
+Tignor, M. M. B., LeRoy Miller Jr., H., and
+Chen, Z., 137–141, Cambridge Univ. Press, Cambridge, UK, 2007.",N/A,N/A,N/A,N/A,No,No
+ref_12,,,,,,,,,"Gilbert, R.: Statistical Methods for Environmental Pollution Monitoring, Van
+Nostrand Reinhold, New York, 1987.",21,21,N/A,N/A,No,Yes
+ref_15,,,,,,,,10.1002/2014JD021630,"Gröbner, J., Reda, I., Wacker, S., Nyeki, S., Behrens, K., and Gorman,
+J.: A new absolute reference for atmospheric longwave irradiance
+measurements with traceability to SI units, J. Geophys. Res., 119, 7083–7090,
+https://doi.org/10.1002/2014JD021630, 2014.",19,19,N/A,N/A,No,Yes
+ref_16,,,,,,,,,"Gröbner, J., Reda, I., Wacker, S., Nyeki, S., Behrens, K., and Gorman, J.: The 2nd International Pyrgeometer
+Intercomparison, IPgC-II, WMO IOM Report, No. 129, 2018.",N/A,N/A,N/A,N/A,No,No
+ref_19,,,,,,,,,"König-Langlo, G., Sieger, R., Schmithüsen, H., Bücker, A.,
+Richter, F., and Dutton, E. G.: The baseline surface radiation network and its
+world radiation monitoring centre at the Alfred Wegener Institute, GCOS
+Report 174: update of the technical plan for BSRN data management, World
+Meteorological Organization (WMO),
+available at: https://www.wmo.int/pages/prog/gcos/Publications/gcos-174.pdf (last access: August 2017), 2013.",N/A,N/A,N/A,N/A,No,No
+ref_23,,,,,,,,,"Marty, C.: Surface radiation, cloud forcing and greenhouse effect in the
+Alps, Ph.D. thesis, 122 pp., Swiss Fed. Inst. of Technol. at Zurich, Zurich,
+Switzerland, 2000.",N/A,N/A,N/A,N/A,No,No
+ref_26,,,,,,,,,"McArthur, B.: Baseline Surface Radiation Network (BSRN), Operations Manual
+Version 2.1, WCRP 121, WMO/TD-No. 1274, 2005.",N/A,N/A,N/A,N/A,No,No
+ref_28,,,,,,,,10.1175/JTECH-D-11-00216.1,"Meloni, D., Di Biagio, C., Di Sarra, A., Monteleone, F., Pace, G., and
+Sferlazzo, D. M.: Accounting for the solar radiation influence on downward
+longwave irradiance measurements by pyrgeometers, J. Atmos.
+Ocean. Technol., 29, 1629–s1643, https://doi.org/10.1175/JTECH-D-11-00216.1, 2012.",19,19,N/A,N/A,No,Yes
+ref_29,,,,,,,,10.1029/2005JD006043,"Morland, J., Liniger, M. A., Kunz, H., Balin, I., Nyeki, S., Mätzler,
+C., and Kämpfer, N.: Comparison of GPS and ERA40 IWV in the Alpine
+region, including correction of GPS observations at Jungfraujoch (3584 m),
+J. Geophys. Res., 111, D04102, https://doi.org/10.1029/2005JD006043, 2006.",N/A,N/A,N/A,N/A,No,No
+ref_30,,,,,,,,10.1029/2005GL024079,"Nyeki, S., Vuilleumier, L., Morland, J., Bokoye, A., Viatte, P.,
+Mätzler, C., and Kämpfer, N.: A 10-year integrated atmospheric water
+vapor record using precision filter radiometers at two high-alpine sites,
+Geophys. Res. Lett., 32, L23803, https://doi.org/10.1029/2005GL024079, 2005.",19,19,N/A,N/A,No,Yes
+ref_33,,,,,,,,10.1175/JCLI-D-15-0476.1,"Parding, K. M., Liepert, B. G., Hinkelman, L. M., Ackerman, T. P., Dagestad,
+K-F., and Olseth, J. A.: Influence of synoptic weather patterns on solar
+irradiance variability in northern Europe, J. Climate, 29, 4229–4250, https://doi.org/10.1175/JCLI-D-15-0476.1, 2016.",19,19,N/A,N/A,No,Yes
+ref_34,,,,,,,,10.1038/nclimate2563,"Pepin, N., Bradley, R. S., Diaz, H. F., Baraër, M., Caceres, E. B.,
+Forsythe, N., Fowler, H., Greenwood, G., Hashmi, M. Z., Liu, X. D., and
+Miller, J. R.: Elevation-dependent warming in mountain regions of the world,
+Nat. Clim. Change, 5, 424, https://doi.org/10.1038/nclimate2563, 2015.",N/A,N/A,N/A,N/A,No,No
+ref_35,,,,,,,,10.1002/2017JD027418,"Pfeifroth, U., Sanchez-Lorenzo, A., Manara, V., Trentmann, J., and Hollmann,
+R.: Trends and variability of surface solar radiation in Europe based on
+surface- and satellite-based data records, J. Geophys. Res., 123, 1735–1754,
+https://doi.org/10.1002/2017JD027418, 2018.",19,19,N/A,N/A,No,Yes
+ref_36,,,,,,,,,"Philipona, R., Marty, C., and Fröhlich, C.: Measurements of the
+long-wave radiation budget in the Alps, in: IRS 96: Current Problems in
+Atmospheric Radiation, 786–789, A. Deepak, Hampton, Va., 1996.",21,21,N/A,N/A,No,Yes
+ref_45,,,,,,,,10.1038/srep41475,"Sanchez-Lorenzo, A., Enriquez-Alonso, A., Calbo, J., Gonzalez, J-A., Wild,
+M., Folini, D., Norris, J. R., and Vicente-Serrano, S. M.: Fewer clouds in
+the Mediterranean: consistency of observations and climate simulations,
+Sci. Reports, 7, 41475, https://doi.org/10.1038/srep41475, 2017.",N/A,N/A,N/A,N/A,No,No
+ref_51,,,,,,,,10.1002/2014JD022643,"Wacker, S., Gröbner, J., Zysset, C., Diener, L., Tzoumanikas, P.,
+Kazantzidis, A., Vuilleumier, L., Stöckli, R., Nyeki, S., and
+Kämpfer N.: Cloud observations in Switzerland using hemispherical sky
+cameras, J. Geophys. Res., 120, 695–707, https://doi.org/10.1002/2014JD022643, 2015.",N/A,N/A,N/A,N/A,No,No
+ref_56,,,,,,,,,"Wilcox, R. R.: Theil-Sen Estimator, in Introduction to Robust Estimation and
+Hypothesis Testing, Academic Press, 423–427, ISBN 978-0-12-751542-7,
+2005.",21,21,N/A,N/A,No,Yes
+ref_61,,,,,,,,,"WMO: CIMO-XIV, Activity Report, 7–14 December 2006, WMO No. 1019 (Part II),
+2006.",N/A,N/A,N/A,N/A,No,No

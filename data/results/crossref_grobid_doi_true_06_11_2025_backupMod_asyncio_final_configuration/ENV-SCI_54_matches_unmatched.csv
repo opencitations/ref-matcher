@@ -1,0 +1,88 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,,,,,,,,10.1016/j.polgeo.2017.08.009,,N/A,N/A,N/A,N/A,No,No
+ref_2,,,,,,,,10.7551/mitpress/8720.001.0001,,N/A,N/A,N/A,N/A,No,No
+ref_3,2015,,,BiPRO/CRI,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_4,,,,,,,,10.1177/2399654417746172,,N/A,N/A,N/A,N/A,No,No
+ref_5,2004,,,R.,,,,10.3917/dec.boyer.2004.01,,16,16,N/A,N/A,No,Yes
+ref_6,,,,,,,,10.1080/09538259.2018.1449480,,N/A,N/A,N/A,N/A,No,No
+ref_7,2013,10,,N.,,,,,,11,11,N/A,N/A,No,Yes
+ref_8,,,,,,,,10.1068/a38269,,N/A,N/A,N/A,N/A,No,No
+ref_9,,,,,,,,10.1111/anti.12087,,N/A,N/A,N/A,N/A,No,No
+ref_10,,,,,,,,,"CBS, PBL, RIVM, & WUR. (2017).Afvalproductie en wijze van verwerking, 1985–2014. (Report No. 0204 version 12) The Hague.",N/A,N/A,N/A,N/A,No,No
+ref_11,2018,,,Foundation,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_12,,,,,,,,10.1080/10455750903441615,,N/A,N/A,N/A,N/A,No,No
+ref_13,,,,,,,,10.1080/10455752.2013.849747,,N/A,N/A,N/A,N/A,No,No
+ref_14,,,,,,,,10.1016/S0305-9006(99)00023-9,,N/A,N/A,N/A,N/A,No,No
+ref_15,,,,,,,,10.1016/j.resconrec.2017.01.011,,N/A,N/A,N/A,N/A,No,No
+ref_16,2019,,,Government,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_17,,,,,,,,,EC. (2017).Study on the review of the list of critical raw materials critical raw materials factsheets. (Report No. ET-04-15-307-EN-N) Brussels: European Commission.,N/A,N/A,N/A,N/A,No,No
+ref_18,2018,,,EC,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_19,,,,,,,,,"Ellen Macarthur Foundation. (2013).Towards the circular economy, economic and business rationale for accelerated transition. [Online Report]. Retrieved from https://www.ellenmacarthurfoundation.org/assets/downloads/publications/Ellen-MacArthur-Foundation-Towards-the-Circular-Economy-vol.1.pdf",N/A,N/A,N/A,N/A,No,No
+ref_20,,,,,,,,,Ellen MacArthur Foundation. (2015).Why the circular economy matters. Delivering the Circular Economy: A Toolkit for Policymakers. [Online Report]. Retrieved from https://www.ellenmacarthurfoundation.org/assets/downloads/publications/EllenMacArthurFoundation_PolicymakerToolkit.pdf,N/A,N/A,N/A,N/A,No,No
+ref_21,,,,,,,,,Eurocities. (2017).Full circle: cities and circular economy. [Online Report]. Retrieved from http://nws.eurocities.eu/MediaShell/media/2017cities_and_circular_economy-web-spreads.pdf,N/A,N/A,N/A,N/A,No,No
+ref_22,2003,,25,J.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_23,,,,,,,,10.1080/1360481042000313509,,N/A,N/A,N/A,N/A,No,No
+ref_24,,,,,,,,,"Ganzevles, J., Potting, J. & Hanemaaijer, A. (2016, June 30). Evaluatie Green Deals circulaire economie. [Web page]. Retrieved from https://www.pbl.nl/publicaties/evaluatie-green-deals-circulaire-economie",N/A,N/A,N/A,N/A,No,No
+ref_25,,,,,,,,10.1016/j.jclepro.2016.12.048,,N/A,N/A,N/A,N/A,No,No
+ref_26,,,,,,,,10.1016/j.jclepro.2015.09.007,,N/A,N/A,N/A,N/A,No,No
+ref_27,,,,,,,,10.1111/j.1467-8330.2011.00902.x,,N/A,N/A,N/A,N/A,No,No
+ref_28,,,,,,,,10.1068/a42122,,N/A,N/A,N/A,N/A,No,No
+ref_29,,,,,,,,10.4324/9781315764375,,N/A,N/A,N/A,N/A,No,No
+ref_30,,,,,,,,10.4324/9780203452202,,N/A,N/A,N/A,N/A,No,No
+ref_31,,,,,,,,10.1146/annurev-environ-102014-021105,,N/A,N/A,N/A,N/A,No,No
+ref_32,,,,,,,,10.1080/03085147.2015.1013353,,N/A,N/A,N/A,N/A,No,No
+ref_33,2018,,,D.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_34,2008,,,M.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_35,,,,,,,,10.1177/0309132514566342,,N/A,N/A,N/A,N/A,No,No
+ref_36,,,,,,,,10.1016/j.futures.2016.05.012,,N/A,N/A,N/A,N/A,No,No
+ref_37,,,,,,,,10.1080/14649357.2017.1321776,,N/A,N/A,N/A,N/A,No,No
+ref_38,,,,,,,,10.1111/j.1751-9020.2008.00112.x,,N/A,N/A,N/A,N/A,No,No
+ref_39,,,,,,,,10.4324/9780203435557,,N/A,N/A,N/A,N/A,No,No
+ref_40,1969,,,J.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_41,,,,,,,,10.1111/1467-9760.00036,,N/A,N/A,N/A,N/A,No,No
+ref_42,,,,,,,,10.1068/d9107,,N/A,N/A,N/A,N/A,No,No
+ref_43,,,,,,,,10.1111/1468-2427.00239,,N/A,N/A,N/A,N/A,No,No
+ref_44,,,,,,,,,Kamer van Koophandel. (2014).Logistieke Monitor Regionale Benchmark 1e kwartaal2014. [Online report]. Retrieved from https://www.kvk.nl/download/Pers_KvK_Logistieke_Monitor_Regional_Benchmark_tcm109-389027.pdf,N/A,N/A,N/A,N/A,No,No
+ref_45,,,,,,,,10.1016/j.envpol.2010.10.022,,N/A,N/A,N/A,N/A,No,No
+ref_46,2016,,,P.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_47,2016,,,C.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_48,1996,,,T.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_49,,,,,,,,10.1080/09644016.2019.1549780,,N/A,N/A,N/A,N/A,No,No
+ref_50,,,,,,,,10.1016/j.jup.2006.09.003,,N/A,N/A,N/A,N/A,No,No
+ref_51,,,,,,,,10.1016/j.futures.2011.06.011,,N/A,N/A,N/A,N/A,No,No
+ref_52,2010,,,W.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_53,2011,,,Environment,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_54,2014,,,Environment,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_55,2016,,,Environment,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_56,2017,,,Environment,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_57,,,,,,,,,"Morozov, E. (2014, January 1). Making it: Pick up a spot welder and join the revolution.The New Yorker. Retrieved from https://www.newyorker.com/magazine/2014/01/13/making-it-2",N/A,N/A,N/A,N/A,No,No
+ref_58,,,,,,,,,Municipality of Amsterdam. (2014a).Towards the Amsterdam Circular Economy. [Online report]. Retrieved from https://assets.amsterdam.nl/…/towards_the_amsterdam_circular_economy_web.pdf,N/A,N/A,N/A,N/A,No,No
+ref_59,,,,,,,,,Municipality of Amsterdam. (2014b).De circulaire metropool Amsterdam 2014-2018. [Online report]. Retrieved from http://www.biobasedbouwen.nl/wp-content/uploads/2014/11/de_circulaire_metropool_amsterdam_2014_2018_printversie_2mb_versie_-_20140618.pdf,N/A,N/A,N/A,N/A,No,No
+ref_60,,,,,,,,,Municipality of Amsterdam. (2015).Amsterdamse Ambachtseconomie 2010-2014. [Online report]. Retrieved from https://www.ois.amsterdam.nl/downloads/nieuws/2015_ambachtseconomie.pdf,N/A,N/A,N/A,N/A,No,No
+ref_61,,,,,,,,,Municipality of Amsterdam. (2016).Circular Amsterdam. [Online report]. Retrieved from https://www.circle-economy.com/wp-content/uploads/2016/04/Circular-Amsterdam-EN-small-210316.pdf,N/A,N/A,N/A,N/A,No,No
+ref_62,,,,,,,,,Municipality of Amsterdam. (2017).Roadmap Circulaire Gronduitgifte. [Online report]. Retrieved from https://www.amsterdam.nl/wonen-leefomgeving/duurzaam-amsterdam/publicaties-duurzaam/roadmap-circulaire/,N/A,N/A,N/A,N/A,No,No
+ref_63,,,,,,,,10.1007/s10551-015-2693-2,,N/A,N/A,N/A,N/A,No,No
+ref_64,,,,,,,,,OECD. (2000). Competition in local services: Solid waste management.OECD Competition Law and Policy Working Paper No. 28. [Online report]. Retrieved from https://papers.ssrn.com/sol3/papers.cfm?abstract_id=318764,N/A,N/A,N/A,N/A,No,No
+ref_65,1999,,,G.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_66,,,,,,,,10.1177/0308518X17719461,,N/A,N/A,N/A,N/A,No,No
+ref_67,,,,,,,,,"Port of Amsterdam. (2015).Visie 2030: Port of Amsterdam, Port of Partnerships. [Online report]. Retrieved from https://www.portofamsterdam.com/sites/poa/files/media/projecten/strategie/ha-visie-2030-juni_2015_los.pdf",N/A,N/A,N/A,N/A,No,No
+ref_68,,,,,,,,10.1016/j.eist.2017.03.002,,N/A,N/A,N/A,N/A,No,No
+ref_69,2017,,,V.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_70,2017,,,K.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_71,2017,,,D.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_72,,,,,,,,10.1111/j.1542-734X.1983.0601_100.x,,N/A,N/A,N/A,N/A,No,No
+ref_73,,,,,,,,10.1177/0002764211429368,,N/A,N/A,N/A,N/A,No,No
+ref_74,2018,,,RIVM,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_75,,,,,,,,10.1016/j.cities.2016.02.013,,N/A,N/A,N/A,N/A,No,No
+ref_76,2018,,,F.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_77,,,,,,,,,"Schmidt J.H & 2.0 Consultants. (2009). 25-year forecasts of the cumulated physical stocks, waste generation, and environmental impacts for each scenario for EU-27 and for the case study countries. [Online report: Report No. Deliverable 6-2]. Retrieved from http://forwast.brgm.fr/Documents/Deliverables/Forwast_D62.pdf",11,11,N/A,N/A,No,Yes
+ref_78,,,,,,,,10.1177/0734242X16650516,,N/A,N/A,N/A,N/A,No,No
+ref_79,2017,,,Food,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_80,,,,,,,,10.1016/j.jclepro.2017.09.047,,N/A,N/A,N/A,N/A,No,No
+ref_81,2017,17,23,F.,,,,,,16,16,N/A,N/A,No,Yes
+ref_82,,,,,,,,10.3390/su8070647,,N/A,N/A,N/A,N/A,No,No
+ref_83,2013,,227,B.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_84,,,,,,,,10.1111/j.0309-1317.2004.00535.x,,N/A,N/A,N/A,N/A,No,No
+ref_85,,,,,,,,10.1111/j.1475-5661.2009.00362.x,,N/A,N/A,N/A,N/A,No,No
+ref_86,,,,,,,,10.1111/j.0309-1317.2004.00535.x,,N/A,N/A,N/A,N/A,No,No
+ref_87,,,,,,,,10.1177/0042098018806133,,N/A,N/A,N/A,N/A,No,No

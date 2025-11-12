@@ -1,0 +1,11 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,2017,,,Heiser,More women than men enrolled in U.S. medical schools in 2017,,,,,N/A,N/A,N/A,N/A,No,No
+ref_2,,,,Colleges,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_5,2016,,,,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_11,,,,,,,,,"Clarivate Analytics. Data citation index. Available at: https://www.clarivate.com/products/web-of-science-forum/data-citation-index/. Accessed April 12, 2018.",N/A,N/A,N/A,N/A,No,No
+ref_12,,,,Kovalchik,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_13,,,,Fantini,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_14,,,,Wais,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_16,2018,,,Shen,Persistent underrepresentation of women’s science in high profile journals,,,,,22,22,N/A,N/A,No,Yes
+ref_17,,,,Colleges,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_18,1991,154,423,Levinson,Mentors and role models for women in academic medicine,,,,,11,11,N/A,N/A,No,Yes

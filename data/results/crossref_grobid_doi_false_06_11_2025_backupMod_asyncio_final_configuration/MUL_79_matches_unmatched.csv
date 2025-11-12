@@ -1,0 +1,4 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_5,2017,130,2251,Ramirez-Peinado,,,,10.1242/jcs.199521,"Ramirez-Peinado, S. et al. TRAPPC13 modulates autophagy and the response to Golgi stress. J Cell Sci 130, 2251–2265, https://doi.org/10.1242/jcs.199521 (2017).",12,12,N/A,N/A,No,Yes
+ref_24,2019,47,D886,Rentzsch,,,,10.1093/nar/gky1016,"Rentzsch, P., Witten, D., Cooper, G. M., Shendure, J. & Kircher, M. CADD: predicting the deleteriousness of variants throughout the human genome. Nucleic Acids Res 47, D886–D894, https://doi.org/10.1093/nar/gky1016 (2019).",N/A,N/A,N/A,N/A,No,No
+ref_42,,,,,,,,,"Dubowitz, V., Sewry, C. A. & Oldfors, A. Muscle biopsy: A practical approach. 4th edition. London. Saunders Elsevier (2014).",N/A,N/A,N/A,N/A,No,No

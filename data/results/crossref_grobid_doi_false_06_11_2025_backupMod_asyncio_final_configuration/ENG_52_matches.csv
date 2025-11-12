@@ -1,0 +1,4 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_2,Support-vector networks,Support-vector Networks,48,10.1007/bf00994018,https://w3id.org/oc/meta/br/061503305834,author_title
+ref_5,Efficient optimization of support vector machine learning parameters for unbalanced datasets,Efficient Optimization Of Support Vector Machine Learning Parameters For Unbalanced Datasets,48,10.1016/j.cam.2005.09.009,https://w3id.org/oc/meta/br/06220218298,author_title
+ref_9,Tha-lassospira sp,Thalassospira Sp. Isolated From The Oligotrophic Eastern Mediterranean Sea Exhibits Chemotaxis Toward Inorganic Phosphate During Starvation,25,10.1128/aem.00490-11,https://w3id.org/oc/meta/br/0670269040,year_volume_page

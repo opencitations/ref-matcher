@@ -1,0 +1,48 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,,,,,,,,,Martín Abadi Ashish Agarwal Paul Barham Eugene Brevdo Zhifeng Chen Craig Citro Greg S. Corrado Andy Davis Jeffrey Dean Matthieu Devin etal 2015. TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems. (2015). https://www.tensorflow.org/  Martín Abadi Ashish Agarwal Paul Barham Eugene Brevdo Zhifeng Chen Craig Citro Greg S. Corrado Andy Davis Jeffrey Dean Matthieu Devin et al. 2015. TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems. (2015). https://www.tensorflow.org/,N/A,N/A,N/A,N/A,No,No
+ref_2,,,,,,,,10.1145/2980179.2980257,,N/A,N/A,N/A,N/A,No,No
+ref_3,,,,,,,,10.1145/383259.383309,,N/A,N/A,N/A,N/A,No,No
+ref_4,,,,,,,,10.1145/344779.344932,,N/A,N/A,N/A,N/A,No,No
+ref_5,,,,,,,,10.1145/2487228.2487238,,N/A,N/A,N/A,N/A,No,No
+ref_6,,,,,,,,10.1109/ICCV.2017.168,Qifeng Chen and Vladlen Koltun. 2017. Photographic Image Synthesis With Cascaded Refinement Networks. In ICCV.  Qifeng Chen and Vladlen Koltun. 2017. Photographic Image Synthesis With Cascaded Refinement Networks. In ICCV.,7,7,N/A,N/A,No,Yes
+ref_7,,,,,,,,10.1145/166117.166153,,N/A,N/A,N/A,N/A,No,No
+ref_8,,,,,,,,10.1111/j.1467-8659.2012.03009.x,,N/A,N/A,N/A,N/A,No,No
+ref_9,,,,,,,,10.1145/237170.237191,,N/A,N/A,N/A,N/A,No,No
+ref_10,,,,,,,,,Piotr Didyk Pitchaya Sitthi-Amorn William T. Freeman Fredo Durand and Wojciech Matusik. 2013. 3DTV at Home: Eulerian-Lagrangian Stereo-to-Multiview Conversion. In SIGGRAPH Asia.  Piotr Didyk Pitchaya Sitthi-Amorn William T. Freeman Fredo Durand and Wojciech Matusik. 2013. 3DTV at Home: Eulerian-Lagrangian Stereo-to-Multiview Conversion. In SIGGRAPH Asia.,N/A,N/A,N/A,N/A,No,No
+ref_11,,,,,,,,10.1109/CVPR.2016.595,John Flynn Ivan Neulander James Philbin and Noah Snavely. 2016. DeepStereo: Learning to Predict New Views From the World's Imagery. In CVPR.  John Flynn Ivan Neulander James Philbin and Noah Snavely. 2016. DeepStereo: Learning to Predict New Views From the World's Imagery. In CVPR.,N/A,N/A,N/A,N/A,No,No
+ref_12,,,,,,,,10.1145/237170.237200,,N/A,N/A,N/A,N/A,No,No
+ref_13,,,,,,,,10.1145/3130800.3130828,,N/A,N/A,N/A,N/A,No,No
+ref_14,,,,,,,,10.1145/3197517.3201384,,N/A,N/A,N/A,N/A,No,No
+ref_15,,,,,,,,10.1145/3272127.3275084,,N/A,N/A,N/A,N/A,No,No
+ref_16,,,,,,,,10.1145/2980179.2982420,,N/A,N/A,N/A,N/A,No,No
+ref_18,,,,,,,,10.1145/2980179.2980251,,N/A,N/A,N/A,N/A,No,No
+ref_19,,,,,,,,10.1145/2487228.2487237,,N/A,N/A,N/A,N/A,No,No
+ref_20,,,,,,,,10.1145/3072959.3073617,,N/A,N/A,N/A,N/A,No,No
+ref_22,2015,,,Diederik,,,,,Diederik P. Kingma and Jimmy Ba . 2015 . Adam : A Method for Stochastic Optimization. In ICLR. Diederik P. Kingma and Jimmy Ba. 2015. Adam: A Method for Stochastic Optimization. In ICLR.,N/A,N/A,N/A,N/A,No,No
+ref_23,,,,,,,,10.1145/2508363.2508369,,N/A,N/A,N/A,N/A,No,No
+ref_24,,,,,,,,10.1145/192161.192283,,N/A,N/A,N/A,N/A,No,No
+ref_25,,,,,,,,10.1145/1457515.1409084,,N/A,N/A,N/A,N/A,No,No
+ref_26,2016,,,Lei,,,,,"Jimmy Lei Ba , Jamie Ryan Kiros, and Geoffrey E. Hinton . 2016 . Layer Normalization. In arXiv:1607.06450. Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E. Hinton. 2016. Layer Normalization. In arXiv:1607.06450.",N/A,N/A,N/A,N/A,No,No
+ref_27,,,,,,,,10.1145/237170.237199,,N/A,N/A,N/A,N/A,No,No
+ref_28,,,,,,,,10.1145/218380.218398,,N/A,N/A,N/A,N/A,No,No
+ref_29,,,,,,,,10.1109/3DV.2015.59,,N/A,N/A,N/A,N/A,No,No
+ref_30,,,,,,,,10.1145/3272127.3275031,,N/A,N/A,N/A,N/A,No,No
+ref_31,,,,,,,,10.1145/3130800.3130855,,N/A,N/A,N/A,N/A,No,No
+ref_32,,,,,,,,10.1145/800031.808606,,N/A,N/A,N/A,N/A,No,No
+ref_33,,,,,,,,10.1145/3123266.3129396,,N/A,N/A,N/A,N/A,No,No
+ref_34,,,,,,,,10.1109/CVPR.2016.445,Johannes Lutz Schönberger and Jan-Michael Frahm. 2016. Structure-from-Motion Revisited. In CVPR.  Johannes Lutz Schönberger and Jan-Michael Frahm. 2016. Structure-from-Motion Revisited. In CVPR.,N/A,N/A,N/A,N/A,No,No
+ref_35,,,,,,,,10.1007/978-3-319-46487-9_31,Johannes Lutz Schönberger Enliang Zheng Marc Pollefeys and Jan-Michael Frahm. 2016. Pixelwise View Selection for Unstructured Multi-View Stereo. In ECCV.  Johannes Lutz Schönberger Enliang Zheng Marc Pollefeys and Jan-Michael Frahm. 2016. Pixelwise View Selection for Unstructured Multi-View Stereo. In ECCV.,N/A,N/A,N/A,N/A,No,No
+ref_36,,,,,,,,10.1145/280814.280882,,N/A,N/A,N/A,N/A,No,No
+ref_37,,,,,,,,10.1117/12.386541,,N/A,N/A,N/A,N/A,No,No
+ref_38,,,,,,,,10.1145/2185520.2185596,,N/A,N/A,N/A,N/A,No,No
+ref_40,,,,,,,,10.1109/ICCV.2017.246,Pratul P. Srinivasan Tongzhou Wang Ashwin Sreelal Ravi Ramamoorthi and Ren Ng. 2017. Learning to Synthesize a 4D RGBD Light Field from a Single Image. In ICCV.  Pratul P. Srinivasan Tongzhou Wang Ashwin Sreelal Ravi Ramamoorthi and Ren Ng. 2017. Learning to Synthesize a 4D RGBD Light Field from a Single Image. In ICCV.,N/A,N/A,N/A,N/A,No,No
+ref_41,2002,,,Rahul,,,,,"Rahul Swaminathan , Sing Bing Kang , Richard Szeliski, Antonio Criminisi, and Shree K. Nayar. 2002 . On the Motion and Appearance of Specularities in Image Sequences. In ECCV. Rahul Swaminathan, Sing Bing Kang, Richard Szeliski, Antonio Criminisi, and Shree K. Nayar. 2002. On the Motion and Appearance of Specularities in Image Sequences. In ECCV.",7,7,N/A,N/A,No,Yes
+ref_42,,,,,,,,10.1145/1964921.1964990,,N/A,N/A,N/A,N/A,No,No
+ref_43,,,,,,,,10.1145/2185520.2185576,,N/A,N/A,N/A,N/A,No,No
+ref_44,,,,,,,,10.1145/1186822.1073259,,N/A,N/A,N/A,N/A,No,No
+ref_45,,,,,,,,10.1145/344779.344925,,N/A,N/A,N/A,N/A,No,No
+ref_46,,,,,,,,,Gaochang Wu Mandan Zhao Liangyong Wang Qionghai Dai Tianyou Chai and Yebin Liu. 2017. Light Field Reconstruction Using Deep Convolutional Network on EPI. In CVPR.  Gaochang Wu Mandan Zhao Liangyong Wang Qionghai Dai Tianyou Chai and Yebin Liu. 2017. Light Field Reconstruction Using Deep Convolutional Network on EPI. In CVPR.,22,22,N/A,N/A,No,Yes
+ref_47,2018,,,Wing,,,,,"Henry Wing Fung Yeung , Junhui Hou , Jie Chen , Yuk Ying Chung, and Xiaoming Chen . 2018 . End-to-End Learning of Geometry and Context for Deep Stereo Regression. In ECCV. Henry Wing Fung Yeung, Junhui Hou, Jie Chen, Yuk Ying Chung, and Xiaoming Chen. 2018. End-to-End Learning of Geometry and Context for Deep Stereo Regression. In ECCV.",N/A,N/A,N/A,N/A,No,No
+ref_48,,,,,,,,10.1109/TCSVT.2003.817350,,N/A,N/A,N/A,N/A,No,No
+ref_50,,,,,,,,10.1109/CVPR.2015.7299004,Zhoutong Zhang Yebin Liu and Qionghai Dai. 2015. Light Field from Micro-Baseline Image Pair. In CVPR.  Zhoutong Zhang Yebin Liu and Qionghai Dai. 2015. Light Field from Micro-Baseline Image Pair. In CVPR.,N/A,N/A,N/A,N/A,No,No
+ref_51,,,,,,,,10.1145/3197517.3201323,,N/A,N/A,N/A,N/A,No,No

@@ -1,0 +1,9 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_24,2009,21,2849,Wang,,,,10.1002/adma.200803276,,11,11,N/A,N/A,No,Yes
+ref_25,2011,23,57,Sun,,,,10.1002/adma.201004326,,12,12,N/A,N/A,No,Yes
+ref_34,2005,44,6384,Helms,,,,10.1002/anie.200502095,,11,11,N/A,N/A,No,Yes
+ref_42,2014,123,852,Li,,,,10.1016/j.colsurfb.2014.10.035,,12,12,N/A,N/A,No,Yes
+ref_43,2017,4,419,Wang,,,,10.1016/j.gee.2017.01.003,,18,18,N/A,N/A,No,Yes
+ref_49,2014,20,7830,Zhang,,,,10.1002/chem.201402136,,12,12,N/A,N/A,No,Yes
+ref_50,2015,5,2092,Zheng,,,,10.1039/C4CY01290A,,11,11,N/A,N/A,No,Yes
+ref_51,2016,6,488,Zhang,,,,10.1039/C5CY00953G,,12,12,N/A,N/A,No,Yes

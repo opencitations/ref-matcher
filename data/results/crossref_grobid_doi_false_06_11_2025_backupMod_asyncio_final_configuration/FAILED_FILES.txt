@@ -1,0 +1,37 @@
+Files that failed validation: 34
+================================================================================
+
+AGR-BIO-SCI_3: Empty CSV
+ART-HUM_6: Empty CSV
+BIO-GEN-MOL_9: Empty CSV
+BUS-MAN-ACC_14: Empty CSV
+CHEM_22: Missing stats
+DEN_33: Empty CSV
+DEN_34: Empty CSV
+DEN_35: Empty CSV
+DEN_36: Empty CSV
+EAR-PLA-SCI_39: Empty CSV
+EAR-PLA-SCI_40: Empty CSV
+ECO-ECO-FIN_41: Empty CSV
+ENE_46: Empty CSV
+ENG_49: Empty CSV
+ENG_51: Empty CSV
+ENV-SCI_54: Empty CSV
+ENV-SCI_55: Empty CSV
+ENV-SCI_56: Empty CSV
+HEA-PRO_58: Empty CSV
+HEA-PRO_60: Empty CSV
+MAT-SCI_67: Empty CSV
+MATH_69: Empty CSV
+MATH_71: Empty CSV
+MED_73: Empty CSV
+MED_75: Empty CSV
+MUL_77: Empty CSV
+NUR_86: Empty CSV
+PSY_98: Empty CSV
+SCI_26: Empty CSV
+SCI_28: Empty CSV
+SOC-SCI_104: Empty CSV
+VET_106: Empty CSV
+VET_107: Empty CSV
+VET_108: Empty CSV

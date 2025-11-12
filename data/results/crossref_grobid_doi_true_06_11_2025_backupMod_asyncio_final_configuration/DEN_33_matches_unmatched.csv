@@ -1,0 +1,32 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,,,,,,,,10.5051/jpis.2014.44.4.184,,N/A,N/A,N/A,N/A,No,No
+ref_2,2009,24,118,N.,Flapless surgery and its effect on dental implant outcomes,,,,,12,12,N/A,N/A,No,Yes
+ref_3,,,,,,,,10.1016/j.ijom.2013.06.012,,N/A,N/A,N/A,N/A,No,No
+ref_4,,,,,,,,10.1111/j.1708-8208.2011.00369.x,,N/A,N/A,N/A,N/A,No,No
+ref_5,2009,24,186,T.,Clinical and esthetic outcomes of implants placed in postextraction sites,,,,,12,12,N/A,N/A,No,Yes
+ref_6,,,,,,,,10.1177/0022034514563077,,N/A,N/A,N/A,N/A,No,No
+ref_7,,,,,,,,10.11607/jomi.2618,,N/A,N/A,N/A,N/A,No,No
+ref_8,,,,,,,,10.11607/jomi.2919,,N/A,N/A,N/A,N/A,No,No
+ref_9,,,,,,,,10.1016/j.prosdent.2015.09.011,,N/A,N/A,N/A,N/A,No,No
+ref_10,,,,,,,,10.11607/ijp.4417,,N/A,N/A,N/A,N/A,No,No
+ref_11,,,,,,,,10.1111/clr.12925,,N/A,N/A,N/A,N/A,No,No
+ref_12,,,,,,,,10.1016/j.joms.2013.04.010,,N/A,N/A,N/A,N/A,No,No
+ref_13,,,,,,,,10.1111/clr.13398,,N/A,N/A,N/A,N/A,No,No
+ref_14,2014,11,489,G.,The influence of thread geometry on biomechanical load transfer to bone: A finite element analysis comparing two implant thread designs,,,,,12,12,N/A,N/A,No,Yes
+ref_15,,,,,,,,10.1111/prd.12164,,N/A,N/A,N/A,N/A,No,No
+ref_16,2013,32,124,E.,"Accurate implant placement. Digital scanning and use of tooth‐guided, tooth‐supported surgical guides",,,,,12,12,N/A,N/A,No,Yes
+ref_17,,,,,,,,10.1111/j.1600-0501.2012.02436.x,,N/A,N/A,N/A,N/A,No,No
+ref_18,,,,,,,,10.11607/prd.1113),,N/A,N/A,N/A,N/A,No,No
+ref_19,2013,44,149,P.,Clinical outcomes in the presence and absence of keratinized mucosa in mandibular guided implant surgeries: A pilot study with a proposal for the modification of the technique,,,,,12,12,N/A,N/A,No,Yes
+ref_20,,,,,,,,10.1016/j.ajodo.2011.04.018,,N/A,N/A,N/A,N/A,No,No
+ref_21,,,,,,,,10.1259/dmfr.20140019,,N/A,N/A,N/A,N/A,No,No
+ref_22,2014,17,101,S.,"Options in virtual 3d, optical‐impression‐based planning of dental implants",,,,,15,15,N/A,N/A,No,Yes
+ref_23,,,,,,,,10.11607/jomi.2014suppl.g4.2,,N/A,N/A,N/A,N/A,No,No
+ref_24,,,,,,,,10.11607/jomi.2014suppl.g1.2,,N/A,N/A,N/A,N/A,No,No
+ref_25,2014,34,s59,T.,Evaluation of accuracy and precision of a new guided surgery system: A multicenter clinical study,,,,,N/A,N/A,N/A,N/A,No,No
+ref_26,,,,,,,,10.1111/j.1600-0501.2009.01836.x,,N/A,N/A,N/A,N/A,No,No
+ref_27,,,,,,,,10.1111/j.1600-0501.2007.01423.x,,N/A,N/A,N/A,N/A,No,No
+ref_28,,,,,,,,10.1111/clr.12853,,N/A,N/A,N/A,N/A,No,No
+ref_29,,,,,,,,10.1111/jcpe.12257,,N/A,N/A,N/A,N/A,No,No
+ref_30,,,,,,,,10.1111/j.1365-2842.2007.01816.x,,N/A,N/A,N/A,N/A,No,No
+ref_31,,,,,,,,10.1034/j.1600-0501.1994.050101.x,,N/A,N/A,N/A,N/A,No,No

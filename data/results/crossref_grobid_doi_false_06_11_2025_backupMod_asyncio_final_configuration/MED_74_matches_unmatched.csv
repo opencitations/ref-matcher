@@ -1,0 +1,8 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,2017,135,e146,Benjamin,Heart disease and stroke statistics—2017 update: a report from the American Heart Association.,,,10.1161/CIR.0000000000000485,,20,20,N/A,N/A,No,Yes
+ref_2,2017,32,521,Chen,Summary of cardiovascular disease report in China—2016.,,,,,16,16,N/A,N/A,No,Yes
+ref_21,2015,35,417,Wang,Impacts on neutrophil to lymphocyte ratio in patients of chronic stable angina pectoris treated with acupuncture at Neiguan (PC 6),,,,,18,18,N/A,N/A,No,Yes
+ref_26,2007,35,195,Chinese Society of Cardiology,Guideline for diagnosis and treatment of patients with chronic stable angina,,,,,12,12,N/A,N/A,No,Yes
+ref_28,2013,40,1209,He,Application of data-mining to analyze characteristics of meridians and acupoints selected for acumoxibustion treatment of chest blockage in ancient literatures of different periods of ancient days.,,,,,16,16,N/A,N/A,No,Yes
+ref_29,2013,40,2195,He,Analysis of characteristics of meridians and acupoints selected for modern acu-moxibustion treatment of angina pectoris based on data mining.,,,,,16,16,N/A,N/A,No,Yes
+ref_32,2008,,CD004473,Duan,Chinese herbal medicine suxiao jiuxin wan for angina pectoris.,,,,,22,22,N/A,N/A,No,Yes

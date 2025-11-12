@@ -1,0 +1,35 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,,,,,,,,10.1056/NEJMra010917,,N/A,N/A,N/A,N/A,No,No
+ref_2,,,,,,,,10.1177/0333102413485658,,N/A,N/A,N/A,N/A,No,No
+ref_3,,,,,,,,10.1111/j.1526-4610.2008.01217.x,,N/A,N/A,N/A,N/A,No,No
+ref_4,,,,,,,,10.1016/S1474-4422(18)30322-3,,N/A,N/A,N/A,N/A,No,No
+ref_5,,,,,,,,10.1046/j.1468-2982.2002.00310.x,,N/A,N/A,N/A,N/A,No,No
+ref_6,,,,,,,,10.1016/j.ejphar.2004.07.035,,N/A,N/A,N/A,N/A,No,No
+ref_7,,,,,,,,10.1097/WCO.0000000000000440,,N/A,N/A,N/A,N/A,No,No
+ref_8,,,,,,,,10.1002/ana.410280213,,N/A,N/A,N/A,N/A,No,No
+ref_9,,,,,,,,10.1212/WNL.0b013e31826170ce,,N/A,N/A,N/A,N/A,No,No
+ref_10,,,,,,,,10.1212/WNL.0b013e3182a6cb72,,N/A,N/A,N/A,N/A,No,No
+ref_11,,,,,,,,10.1097/j.pain.0000000000000119,,N/A,N/A,N/A,N/A,No,No
+ref_12,,,,,,,,10.1111/head.12372,,N/A,N/A,N/A,N/A,No,No
+ref_13,,,,,,,,10.1111/head.13211,,N/A,N/A,N/A,N/A,No,No
+ref_14,,,,,,,,10.1038/nrdp.2017.38,,N/A,N/A,N/A,N/A,No,No
+ref_15,,,,,,,,10.1161/01.ATV.0000078603.90302.4A,,N/A,N/A,N/A,N/A,No,No
+ref_16,,,,,,,,10.1007/s10266-018-0360-7,,N/A,N/A,N/A,N/A,No,No
+ref_17,,,,,,,,10.1111/jcpe.12819,,N/A,N/A,N/A,N/A,No,No
+ref_18,,,,,,,,10.1002/JPER.17-0603,,N/A,N/A,N/A,N/A,No,No
+ref_19,,,,,,,,10.1016/j.mehy.2017.03.019,,N/A,N/A,N/A,N/A,No,No
+ref_20,,,,,,,,10.1523/JNEUROSCI.16-15-04742.1996,,N/A,N/A,N/A,N/A,No,No
+ref_21,,,,,,,,10.1016/S0197-0186(01)00094-8,,N/A,N/A,N/A,N/A,No,No
+ref_22,,,,,,,,10.1007/s00726-011-1161-2,,N/A,N/A,N/A,N/A,No,No
+ref_23,,,,,,,,10.1016/j.jclinepi.2007.11.008,,N/A,N/A,N/A,N/A,No,No
+ref_24,,,,,,,,10.1111/jcpe.13032,,N/A,N/A,N/A,N/A,No,No
+ref_25,1975,25,229,J,Problems and proposals for recording gingivitis and plaque,,,,,12,12,N/A,N/A,No,Yes
+ref_26,,,,,,,,10.1902/jop.2012.110664,,N/A,N/A,N/A,N/A,No,No
+ref_27,,,,,,,,10.1111/j.1600-051X.2008.01249.x,,N/A,N/A,N/A,N/A,No,No
+ref_28,,,,,,,,10.1034/j.1600-0765.2001.00011.x,,N/A,N/A,N/A,N/A,No,No
+ref_29,,,,,,,,10.1212/WNL.64.10_suppl_2.S9,,N/A,N/A,N/A,N/A,No,No
+ref_30,2002,22,54,JM,Calcitonin gene‐related peptide triggers migraine‐like attacks in patients with migraine with aura,,,,,12,12,N/A,N/A,No,Yes
+ref_31,,,,,,,,10.1007/s11910-015-0547-z,,N/A,N/A,N/A,N/A,No,No
+ref_32,,,,,,,,10.1186/s10194-018-0883-x,,N/A,N/A,N/A,N/A,No,No
+ref_34,,,,,,,,10.1034/j.1600-051X.1999.260403.x,,N/A,N/A,N/A,N/A,No,No
+ref_35,,,,,,,,10.1016/S0165-5728(97)00257-9,,N/A,N/A,N/A,N/A,No,No

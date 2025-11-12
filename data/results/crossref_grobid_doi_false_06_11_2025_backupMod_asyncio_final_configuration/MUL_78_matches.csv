@@ -1,0 +1,42 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_1,N/A,Carbon Exchange And Species Composition Of Grazed Pastures And Exclosures In The Shortgrass Steppe Of Colorado,27,10.1016/s0167-8809(01)00290-0,https://w3id.org/oc/meta/br/06250147636,year_volume_page
+ref_2,N/A,Dynamics Of Grassland Carbon Sequestration And Its Coupling Relation With Hydrothermal Factor Of Inner Mongolia,45,10.1016/j.ecolind.2018.07.008,https://w3id.org/oc/meta/br/06501046114,author_title
+ref_4,N/A,Response Of Terrestrial Ecosystems To Recent Northern Hemispheric Drought,40,10.1029/2004gl022043,https://w3id.org/oc/meta/br/061702818606,author_title
+ref_5,N/A,Grassland Dynamics In Response To Climate Change And Human Activities In Xinjiang From 2000 To 2014,26,10.1038/s41598-018-21089-3,https://w3id.org/oc/meta/br/06902638498,year_author_volume
+ref_8,N/A,The Effects Of Climate Change On Decomposition Processes In Grassland And Coniferous Forests,27,10.2307/1941761,https://w3id.org/oc/meta/br/0630343601,year_volume_page
+ref_10,N/A,Assessing The Spatiotemporal Dynamic Of Global Grassland Water Use Efficiency In Response To Climate Change From 2000 To 2013,33,10.1111/jac.12137,https://w3id.org/oc/meta/br/06401706509,year_author_page
+ref_11,N/A,The Role Of Grasslands In Food Security And Climate Change,34,10.1093/aob/mcs209,https://w3id.org/oc/meta/br/0636053392,year_author_page
+ref_13,N/A,Assessing The Impacts Of Droughts On Net Primary Productivity In China,31,10.1016/j.jenvman.2012.10.031,https://w3id.org/oc/meta/br/06230726790,year_author_page
+ref_15,N/A,"Global Fire Emissions And The Contribution Of Deforestation, Savanna, Forest, Agricultural, And Peat Fires (1997–2009)",36,10.5194/acpd-10-16153-2010,https://w3id.org/oc/meta/br/061503181287,author_title
+ref_16,N/A,Effects Of Land-Use Change On The Carbon Balance Of Terrestrial Ecosystems,30,10.1029/153gm08,https://w3id.org/oc/meta/br/06703409968,author_title
+ref_17,N/A,Assessing Vegetation Response To Drought In The Northern Great Plains Using Vegetation And Drought Indices,27,10.1016/s0034-4257(03)00174-3,https://w3id.org/oc/meta/br/0690657620,year_volume_page
+ref_19,N/A,Drought And Biodiversity In Grasslands,34,10.1007/bf00317226,https://w3id.org/oc/meta/br/0660754816,year_author_page
+ref_20,N/A,Drought-Induced Reduction In Global Terrestrial Net Primary Production From 2000 Through 2009,27,10.1126/science.1192666,https://w3id.org/oc/meta/br/06130478435,year_volume_page
+ref_21,N/A,Primary Production Of The Central Grassland Region Of The United States,34,10.2307/1943158,https://w3id.org/oc/meta/br/062601589702,year_author_page
+ref_23,N/A,Drought And Ecosystem Carbon Cycling,27,10.1016/j.agrformet.2011.01.018,https://w3id.org/oc/meta/br/0650799479,year_volume_page
+ref_24,N/A,A Global Dataset Of Palmer Drought Severity Index For 1870–2002: Relationship With Soil Moisture And Effects Of Surface Warming,34,10.1175/jhm-386.1,https://w3id.org/oc/meta/br/0629062813,year_author_page
+ref_25,N/A,Climate-Driven Increases In Global Terrestrial Net Primary Production From 1982 To 1999,27,10.1126/science.1082750,https://w3id.org/oc/meta/br/06150488538,year_volume_page
+ref_26,N/A,Variations Of Terrestrial Net Primary Productivity In East Asia,27,10.3319/tao.2012.03.28.01(a),https://w3id.org/oc/meta/br/061201625239,year_volume_page
+ref_27,N/A,Country-level Net Primary Production Distribution And Response To Drought And Land Cover Change,45,10.1016/j.scitotenv.2016.09.033,https://w3id.org/oc/meta/br/06101002885,author_title
+ref_28,N/A,Drought Impact On Forest Carbon Dynamics And Fluxes In Amazonia,27,10.1038/nature14213,https://w3id.org/oc/meta/br/0650350495,year_volume_page
+ref_29,N/A,Impact Of Drought On Vegetation Carbon Storage In Arid And Semi-Arid Regions,37,10.1016/j.rsase.2018.04.013,https://w3id.org/oc/meta/br/06180821500,author_title
+ref_31,N/A,Europe-wide Reduction In Primary Productivity Caused By The Heat And Drought In 2003,27,10.1038/nature03972,https://w3id.org/oc/meta/br/06180354077,year_volume_page
+ref_32,N/A,Drought-Induced Reduction In Global Terrestrial Net Primary Production From 2000 Through 2009,27,10.1126/science.1192666,https://w3id.org/oc/meta/br/06130478435,year_volume_page
+ref_36,N/A,Drought Impact On Vegetation Productivity In The Lower Mekong Basin,27,10.1080/01431161.2014.890298,https://w3id.org/oc/meta/br/06260848269,year_volume_page
+ref_37,N/A,The Role Of Climate Variability In The Inter-Annual Variation Of Terrestrial Net Primary Production (NPP),34,10.1016/j.scitotenv.2004.03.009,https://w3id.org/oc/meta/br/06140980666,year_author_page
+ref_39,N/A,Legacies Of Precipitation Fluctuations On Primary Production: Theory And Data Synthesis,34,10.1098/rstb.2011.0347,https://w3id.org/oc/meta/br/06803429925,year_author_page
+ref_40,N/A,Pervasive Drought Legacies In Forest Ecosystems And Their Implications For Carbon Cycle Models,34,10.1126/science.aab1833,https://w3id.org/oc/meta/br/0620484290,year_author_page
+ref_41,N/A,Temporal-spatial Characteristics Of Severe Drought Events And Their Impact On Agriculture On A Global Scale,45,10.1016/j.quaint.2014.06.021,https://w3id.org/oc/meta/br/062602912273,author_title
+ref_43,N/A,Solar Radiation And Productivity In Tropical Ecosystems,34,10.2307/2401901,https://w3id.org/oc/meta/br/0643057910,year_author_page
+ref_44,N/A,Changes In Vegetation Net Primary Productivity From 1982 To 1999 In China,26,10.1029/2004gb002274,https://w3id.org/oc/meta/br/06110170449,year_author_volume
+ref_45,N/A,Climate And The Efficiency Of Crop Production In Britain,27,10.1098/rstb.1977.0140,https://w3id.org/oc/meta/br/061503055113,year_volume_page
+ref_46,N/A,Vegetation NPP Distribution Based On MODIS Data And CASA model—A Case Study Of Northern Hebei Province,27,10.1007/s11769-006-0334-5,https://w3id.org/oc/meta/br/06803502473,year_volume_page
+ref_48,N/A,Development Of A Global Land Cover Characteristics Database And IGBP DISCover From 1 Km AVHRR Data,34,10.1080/014311600210191,https://w3id.org/oc/meta/br/0620562561,year_author_page
+ref_49,N/A,Comparison And Enhancement Of MODIS Cloud Mask Products For Southeast Asia,34,10.1080/01431161.2012.750037,https://w3id.org/oc/meta/br/06260848707,year_author_page
+ref_50,N/A,Interannual Variability Of Indian Ocean Heat Transport,27,10.1175/jcli3676.1,https://w3id.org/oc/meta/br/061901030697,year_volume_page
+ref_51,N/A,Three Centuries Of Slovakian Drought Dynamics,33,10.1007/s00382-009-0563-2,https://w3id.org/oc/meta/br/062201678330,year_author_page
+ref_52,N/A,A scPDSI-based Global Data Set Of Dry And Wet Spells For 1901-2009,27,10.1002/jgrd.50355,https://w3id.org/oc/meta/br/06802361547,year_volume_page
+ref_55,N/A,A Self-Calibrating Palmer Drought Severity Index,47,10.1175/1520-0442(2004)017<2335:aspdsi>2.0.co;2,https://w3id.org/oc/meta/br/061901031275,author_title
+ref_58,N/A,Nonparametric Tests Against Trend,34,10.2307/1907187,https://w3id.org/oc/meta/br/061201564683,year_author_page
+ref_60,N/A,The Influence Of Autocorrelation On The Ability To Detect Trend In Hydrological Series,40,10.1002/hyp.1095,https://w3id.org/oc/meta/br/061203297738,author_title
+ref_61,N/A,Trends And Extremes Of Drought Indices Throughout The 20Th Century In The Mediterranean,34,10.5194/nhess-11-33-2011,https://w3id.org/oc/meta/br/0690933213,year_author_page

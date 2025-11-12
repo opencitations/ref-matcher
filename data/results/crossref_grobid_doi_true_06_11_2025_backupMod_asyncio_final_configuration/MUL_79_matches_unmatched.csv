@@ -1,0 +1,2 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_42,,,,,,,,,"Dubowitz, V., Sewry, C. A. & Oldfors, A. Muscle biopsy: A practical approach. 4th edition. London. Saunders Elsevier (2014).",N/A,N/A,N/A,N/A,No,No

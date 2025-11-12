@@ -1,0 +1,4 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_28,,27,,Kisko,Sex-dependent effects of Cacna1c haploinsufficiency on juvenile social play behavior and pro-social 50-kHz ultrasonic communication in rats.,,,10.1111/gbb.12552,,7,7,N/A,N/A,No,Yes
+ref_43,2007,,,Paxinos,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_50,2000,14,,Rosen,The mouse brain library @ www.mbl.org.,,,,,11,11,N/A,N/A,No,Yes

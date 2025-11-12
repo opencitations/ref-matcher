@@ -1,0 +1,61 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_5,N/A,Vocal Expression And Perception Of Emotion,40,10.1111/1467-8721.00013,https://w3id.org/oc/meta/br/06140409009,author_title
+ref_6,N/A,Vocal Expression Of Emotion: Acoustic Properties Of Speech Are Associated With Emotional Intensity And Context,40,10.1111/j.1467-9280.1995.tb00596.x,https://w3id.org/oc/meta/br/061802651611,author_title
+ref_7,N/A,A Cross-Cultural Investigation Of The Perception Of Emotion In Music: Psychophysical And Cultural Cues,40,10.2307/40285811,https://w3id.org/oc/meta/br/061401002555,author_title
+ref_9,N/A,Multidimensional Scaling Of Emotional Responses To Music: The Effect Of Musical Expertise And Of The Duration Of The Excerpts,39,10.1080/02699930500204250,https://w3id.org/oc/meta/br/06603273664,author_title
+ref_11,N/A,The Contribution Of Speech Rate And Pitch Variation To The Perception Of Vocal Emotions In A German And An American Sample,40,10.1080/02699930126095,https://w3id.org/oc/meta/br/06603273784,author_title
+ref_12,N/A,Diachronic Changes In Jazz Harmony,37,10.1525/mp.2013.31.1.32,https://w3id.org/oc/meta/br/061401002355,author_title
+ref_14,N/A,On The Psychometric Principles Of Affect,40,10.1037/1089-2680.3.1.14,https://w3id.org/oc/meta/br/061201015411,author_title
+ref_16,N/A,"Musical Scales And Evaluations Of Happiness And Awkwardness: Effects Of Pitch, Direction, And Scale Mode",40,10.2307/1423686,https://w3id.org/oc/meta/br/061602208031,author_title
+ref_18,N/A,"Interval Distributions, Mode, And Tonal Strength Of Melodies As Predictors Of Perceived Emotion",40,10.1525/mp.2004.22.1.1,https://w3id.org/oc/meta/br/061601012231,author_title
+ref_19,N/A,"Perception Of The Major/Minor Distinction: III. Hedonic, Musical, And Affective Discriminations",40,10.3758/bf03330169,https://w3id.org/oc/meta/br/061701366402,author_title
+ref_21,Acoustic intensity causes perceived changes in arousal levels in music: An experimental investigation,Acoustic Intensity Causes Perceived Changes In Arousal Levels In Music: An Experimental Investigation,41,10.1371/journal.pone.0018591,https://w3id.org/oc/meta/br/06601532643,year_volume_page
+ref_22,N/A,The Role Of Peripheral Feedback In Emotional Experience With Music,40,10.1525/mp.2004.22.1.79,https://w3id.org/oc/meta/br/061601012246,author_title
+ref_28,N/A,Beethoven’s Last Piano Sonata And Those Who Follow Crocodiles: Cross-domain Mappings Of Auditory Pitch In A Musical Context,40,10.1016/j.cognition.2009.10.013,https://w3id.org/oc/meta/br/0610496193,year_author_volume
+ref_29,N/A,An Argument For Basic Emotions,40,10.1080/02699939208411068,https://w3id.org/oc/meta/br/06603273346,author_title
+ref_32,N/A,Using Listener-Based Perceptual Features As Intermediate Representations In Music Information Retrieval,39,10.1121/1.4892767,https://w3id.org/oc/meta/br/06230545384,author_title
+ref_33,N/A,Emotion Perceived And Emotion Felt: Same Or Different?,36,10.1177/10298649020050s105,https://w3id.org/oc/meta/br/06101852401,author_title
+ref_37,N/A,The Development Of Affective Responses To Modality And Melodic Contour,40,10.2307/40286184,https://w3id.org/oc/meta/br/061401002743,author_title
+ref_38,Affective and physiological responses to environmental noises and music,Affective And Physiological Responses To Environmental Noises And Music,41,10.1016/j.ijpsycho.2004.02.002,https://w3id.org/oc/meta/br/06160148765,year_volume_page
+ref_40,N/A,Factors Determining The Characterization Of Musical Phrases,40,10.2307/1416007,https://w3id.org/oc/meta/br/061502199823,author_title
+ref_41,N/A,"It's Not What You Play, It'S How You Play It: Timbre Affects Perception Of Emotion In Music",40,10.1080/17470210902765957,https://w3id.org/oc/meta/br/061301852314,author_title
+ref_43,N/A,The Affective Characters Of The Major And Minor Modes In Music.,40,10.1037/h0070573,https://w3id.org/oc/meta/br/06260694340,author_title
+ref_44,N/A,The Affective Character Of The Major And Minor Modes In Music,40,10.2307/1416710,https://w3id.org/oc/meta/br/061602208084,author_title
+ref_45,N/A,Experimental Studies Of The Elements Of Expression In Music,40,10.2307/1415746,https://w3id.org/oc/meta/br/061302194110,author_title
+ref_46,N/A,The Affective Value Of Pitch And Tempo In Music,40,10.2307/1416385,https://w3id.org/oc/meta/br/061502199795,author_title
+ref_47,N/A,On The Changing Use Of The Major And Minor Modes 1750–1900,40,10.30535/mto.21.1.4,https://w3id.org/oc/meta/br/062402758350,author_title
+ref_48,N/A,Mixed Affective Responses To Music With Conflicting Cues,40,10.1080/02699930701438145,https://w3id.org/oc/meta/br/06603273449,author_title
+ref_49,N/A,"Feelings And Perceptions Of Happiness And Sadness Induced By Music: Similarities, Differences, And Mixed Emotions.",40,10.1037/a0016873,https://w3id.org/oc/meta/br/0660552070,author_title
+ref_51,N/A,"Effects Of Musical Tempo And Mode On Arousal, Mood, And Spatial Abilities",40,10.1525/mp.2002.20.2.151,https://w3id.org/oc/meta/br/061601012279,author_title
+ref_52,N/A,A Comparison Of Acoustic Cues In Music And Speech For Three Dimensions Of Affect,40,10.1525/mp.2006.23.4.319,https://w3id.org/oc/meta/br/061401003035,author_title
+ref_54,N/A,Emotional Communication In Music Performance: A Functionalist Perspective And Some Data,40,10.2307/40285731,https://w3id.org/oc/meta/br/061401002536,author_title
+ref_55,N/A,"Communication Of Emotions In Vocal Expression And Music Performance: Different Channels, Same Code?",40,10.1037/0033-2909.129.5.770,https://w3id.org/oc/meta/br/06801482148,author_title
+ref_56,N/A,"Expression, Perception, And Induction Of Musical Emotions: A Review And A Questionnaire Study Of Everyday Listening",40,10.1080/0929821042000317813,https://w3id.org/oc/meta/br/0632016173,author_title
+ref_57,N/A,MusicalExpression ofEmotions: ModellingListeners' Judgements ofComposed andPerformedFeatures,39,10.1111/j.1468-2249.2011.00323.x,https://w3id.org/oc/meta/br/0670585758,author_title
+ref_58,N/A,The Role Of Timing Patterns In Recognition Of Emotional Expression From Musical Performance,40,10.2307/40285891,https://w3id.org/oc/meta/br/061401002727,author_title
+ref_59,N/A,Perception Of The Major/Minor Distinction: IV. Emotional Connotations In Young Children,40,10.2307/40285496,https://w3id.org/oc/meta/br/061401002585,author_title
+ref_60,N/A,"Music, Language And Meaning: Brain Signatures Of Semantic Processing",40,10.1038/nn1197,https://w3id.org/oc/meta/br/061403108451,author_title
+ref_61,N/A,Modeling Emotional Content Of Music Using System Identification,40,10.1109/tsmcb.2005.862491,https://w3id.org/oc/meta/br/061101955316,author_title
+ref_63,N/A,Prediction Of Musical Affect Using A Combination Of Acoustic Structural Cues,40,10.1080/09298210500123978,https://w3id.org/oc/meta/br/0632016152,author_title
+ref_65,N/A,"Modelling The Relationships Between Emotional Responses To, And Musical Content Of, Music Therapy Improvisations",39,10.1177/0305735607079714,https://w3id.org/oc/meta/br/062502848969,author_title
+ref_67,N/A,The Effects Of Tempo And Familiarity On Children'S Affective Interpretation Of Music.,40,10.1037/a0022573,https://w3id.org/oc/meta/br/06230553923,author_title
+ref_72,N/A,PsychoPy2: Experiments In Behavior Made Easy,40,10.3758/s13428-018-01193-y,https://w3id.org/oc/meta/br/061501753403,author_title
+ref_73,N/A,Cueing Musical Emotions: An Empirical Analysis Of 24-Piece Sets By Bach And Chopin Documents Parallels With Emotional Speech,37,10.3389/fpsyg.2015.01419,https://w3id.org/oc/meta/br/0650290855,author_title
+ref_74,N/A,Western Classical Music In The Minor Mode Is Slower (Except In The Romantic Period),40,10.18061/1811/36601,https://w3id.org/oc/meta/br/06401859830,author_title
+ref_75,N/A,Emotional Communication In Speech And Music: The Role Of Melodic And Rhythmic Contrasts,37,10.3389/fpsyg.2013.00184,https://w3id.org/oc/meta/br/0690299781,author_title
+ref_76,N/A,Using Commonality Analysis In Multiple Regressions: A Tool To Decompose Regression Effects In The Face Of Multicollinearity,40,10.1111/2041-210x.12166,https://w3id.org/oc/meta/br/06701311227,author_title
+ref_77,N/A,Speed As A Determiner Of Musical Mood.,40,10.1037/h0058652,https://w3id.org/oc/meta/br/061901178500,author_title
+ref_79,N/A,A Circumplex Model Of Affect.,40,10.1037/h0077714,https://w3id.org/oc/meta/br/0635036217,author_title
+ref_80,N/A,Perceiving Emotion In Melody: Interactive Effects Of Pitch And Rhythm,40,10.2307/40285907,https://w3id.org/oc/meta/br/061401002571,author_title
+ref_81,N/A,Expression Of Emotion In Voice And Music.,37,10.1016/s0892-1997(05)80231-0,https://w3id.org/oc/meta/br/06140584103,author_title
+ref_82,N/A,Vocal Communication Of Emotion: A Review Of Research Paradigms,40,10.1016/s0167-6393(02)00084-5,https://w3id.org/oc/meta/br/06230460082,author_title
+ref_83,N/A,Cue Utilization In Emotion Attribution From Auditory Stimuli,40,10.1007/bf00992539,https://w3id.org/oc/meta/br/061701139958,author_title
+ref_84,N/A,Dimensional Models Of Core Affect: A Quantitative Comparison By Means Of Structural Equation Modeling,39,10.1002/1099-0984(200007/08)14:4<325::aid-per380>3.0.co;2-i,https://w3id.org/oc/meta/br/061301413377,author_title
+ref_86,N/A,Modeling Perceived Emotion With Continuous Musical Features,40,10.1525/mp.2004.21.4.561,https://w3id.org/oc/meta/br/061601012257,author_title
+ref_87,N/A,Acoustic Constraints And Musical Consequences: Exploring Composers' Use Of Cues For Musical Emotion,36,10.3389/fpsyg.2017.01402,https://w3id.org/oc/meta/br/0610296986,author_title
+ref_89,N/A,Statistical Analysis Of Harmony And Melody In Rock Music,40,10.1080/09298215.2013.788039,https://w3id.org/oc/meta/br/0632015845,author_title
+ref_91,N/A,"Happy, Sad, Scary And Peaceful Musical Excerpts For Research On Emotions",40,10.1080/02699930701503567,https://w3id.org/oc/meta/br/06503284242,author_title
+ref_93,The nature and measurement of musical meanings,The Nature And Measurement Of Musical Meanings.,41,10.1037/h0093496,https://w3id.org/oc/meta/br/06903118385,year_volume_page
+ref_94,N/A,"Emotional Responses To Music: Interactive Effects Of Mode, Texture, And Tempo",40,10.1007/s11031-005-4414-0,https://w3id.org/oc/meta/br/061701139825,author_title
+ref_96,N/A,A Multidimensional Study Of Perceptual-Emotional Qualities In Music,40,10.1111/j.1467-9450.1972.tb00072.x,https://w3id.org/oc/meta/br/061701620144,author_title
+ref_99,Machine recognition of music emotion,Machine Recognition Of Music Emotion,26,10.1145/2168752.2168754,https://w3id.org/oc/meta/br/06301424473,year_volume_page

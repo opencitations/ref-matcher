@@ -1,0 +1,5 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_13,2000,54,S14,Deuschl,The pathophysiology of essential tremor.,,,10.1212/WNL.54.4.14A,,21,21,N/A,N/A,No,Yes
+ref_48,1998,,,Paxinos,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_55,2001,,,Sherman,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_60,1999,14,557,Wilms,Animal models of tremor.,,,10.1002/1531-8257(199907)14:4%3C557::aid-mds1004%3E3.0.co;2-g,,12,12,N/A,N/A,No,Yes

@@ -1,3 +1,0 @@
-Total references processed: 42
-Total matches found: 33
-Match percentage: 78.57%

@@ -1,0 +1,10 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,2011,14,225,Agnetis,,,,10.1007/s10951-010-0162-4,"Agnetis A, Flamini M, Nicosia G, Pacifici A (2011) A job-shop problem with one additional resource type. J Sched 14:225–237",N/A,N/A,N/A,N/A,No,No
+ref_12,1999,26,715,Cheng,,,,10.1016/S0305-0548(98)00087-2,"Cheng TCE, Wang G, Sriskandarajah C (1999) One-operator-two-machine flowshop scheduling with setup and dismounting times. Comput Oper Res 26:715–730",N/A,N/A,N/A,N/A,No,No
+ref_15,1979,,,Garey,,,,,"Garey MR, Johnson DS (1979) Computers and intractability: a guide to the theory of NP-completeness. Freeman, New York",N/A,N/A,N/A,N/A,No,No
+ref_26,2008,35,2791,Liu,,,,10.1016/j.cor.2006.12.013,"Liu B, Wang L, Jin YH (2008) An effective hybrid PSO-based algorithm for flow shop scheduling with limited buffers. Comput Oper Res 35:2791–2806",N/A,N/A,N/A,N/A,No,No
+ref_31,,,,,,,,,"Swisslog (2017) CaddyPick: picking made easy. 
+                    https://www.swisslog.com/de-de/kontakt/downloads?mediaItem=5551B202AE7541FA9662BDC8A95B7041
+                    
+                  . Accessed Dec 2018",N/A,N/A,N/A,N/A,No,No
+ref_32,2002,40,55,Tang,,,,10.1080/00207540110073000,"Tang L, Luh PB, Liu J, Fang L (2002) Steel-making process scheduling using Lagrangian relaxation. Int J Prod Res 40:55–70",N/A,N/A,N/A,N/A,No,No

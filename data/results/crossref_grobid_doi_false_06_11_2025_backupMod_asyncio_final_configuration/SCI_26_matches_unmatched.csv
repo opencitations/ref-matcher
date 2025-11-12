@@ -1,0 +1,13 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,2014,,147,kuznetsov,Code-pointer integrity,,,,,N/A,N/A,N/A,N/A,No,No
+ref_2,,,,,,,,10.1145/2694344.2694383,,N/A,N/A,N/A,N/A,No,No
+ref_3,2019,,,,ASIP designer,,,,,N/A,N/A,N/A,N/A,No,No
+ref_4,,,,,,,,10.1145/2581122.2544147,,N/A,N/A,N/A,N/A,No,No
+ref_5,,,,,,,,10.1109/SP.2013.13,,N/A,N/A,N/A,N/A,No,No
+ref_6,0,abs 1811 9189,,liljestrand,PAC it up: Towards pointer integrity using ARM pointer authentication,,,,,N/A,N/A,N/A,N/A,No,No
+ref_7,,,,,,,,10.1145/2076732.2076739,,N/A,N/A,N/A,N/A,No,No
+ref_8,0,abs 1702 719,,oleksenko,Intel MPX explained: An empirical study of Intel MPX and software-based bounds checking approaches,,,,,N/A,N/A,N/A,N/A,No,No
+ref_9,,,,,,,,10.1007/3-540-45937-5_16,,N/A,N/A,N/A,N/A,No,No
+ref_10,0,abs 1706 7257,,clercq,A survey of hardware-based control flow integrity (CFI),,,,,N/A,N/A,N/A,N/A,No,No
+ref_11,,,,,,,,10.1109/SP.2016.9,,N/A,N/A,N/A,N/A,No,No
+ref_12,2014,,,bradbury,Tagged memory and minion cores in the lowRISC SoC,,,,,N/A,N/A,N/A,N/A,No,No

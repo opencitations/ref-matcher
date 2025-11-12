@@ -1,6 +1,0 @@
-reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
-ref_17,,DeepMVS: Learning Multi-view Stereopsis,70,10.1109/cvpr.2018.00298,https://w3id.org/oc/meta/br/062402303464,author_title
-ref_21,,End-to-End Learning Of Geometry And Context For Deep Stereo Regression,70,10.1109/iccv.2017.17,https://w3id.org/oc/meta/br/06501924292,author_title
-ref_39,,Semantic Scene Completion From A Single Depth Image,70,10.1109/cvpr.2017.28,https://w3id.org/oc/meta/br/06502746287,author_title
-ref_46,,Light Field Reconstruction Using Deep Convolutional Network On EPI,70,10.1109/cvpr.2017.178,https://w3id.org/oc/meta/br/06602743181,author_title
-ref_49,,The Unreasonable Effectiveness Of Deep Features As A Perceptual Metric,70,10.1109/cvpr.2018.00068,https://w3id.org/oc/meta/br/062202301782,author_title

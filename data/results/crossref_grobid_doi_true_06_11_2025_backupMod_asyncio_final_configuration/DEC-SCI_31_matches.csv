@@ -1,0 +1,43 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_1,N/A,Fully Sequential Procedures For Comparing Constrained Systems Via Simulation,30,10.1002/nav.20408,https://w3id.org/oc/meta/br/061502454114,year_and_doi
+ref_2,N/A,HypE: An Algorithm For Fast Hypervolume-Based Many-Objective Optimization,27,10.1162/evco_a_00009,https://w3id.org/oc/meta/br/061101483807,year_and_doi
+ref_4,N/A,F-Race And Iterated F-Race: An Overview,24,10.1007/978-3-642-02538-9_13,https://w3id.org/oc/meta/br/062303085258,year_and_doi
+ref_5,N/A,Selecting A Selection Procedure,27,10.1287/mnsc.1070.0721,https://w3id.org/oc/meta/br/06901992874,year_and_doi
+ref_6,N/A,New Developments In Ranking And Selection: An Empirical Comparison Of The Three Main Approaches,29,10.1109/wsc.2005.1574312,https://w3id.org/oc/meta/br/06103777368,doi_title
+ref_8,N/A,A New Myopic Sequential Sampling Algorithm For Multi-Objective Problems,30,10.1109/wsc.2015.7408518,https://w3id.org/oc/meta/br/06602911962,year_and_doi
+ref_10,N/A,A Multiple Attribute Utility Theory Approach To Ranking And Selection,27,10.1287/mnsc.47.6.800.9812,https://w3id.org/oc/meta/br/061101983031,year_and_doi
+ref_11,N/A,Simulation Optimization: A Tutorial Overview And Recent Developments In Gradient-Based Methods,30,10.1109/wsc.2014.7019875,https://w3id.org/oc/meta/br/06202960241,year_and_doi
+ref_12,N/A,A Lower Bound For The Correct Subset-Selection Probability And Its Application To Discrete-Event System Simulations,27,10.1109/9.533692,https://w3id.org/oc/meta/br/062301677397,year_and_doi
+ref_13,N/A,Stochastic Simulation Optimization,30,10.1142/7437,https://w3id.org/oc/meta/br/062402767038,year_and_doi
+ref_14,N/A,New Two-Stage And Sequential Procedures For Selecting The Best Simulated System,27,10.1287/opre.49.5.732.10615,https://w3id.org/oc/meta/br/06220747041,year_and_doi
+ref_15,N/A,Selection Procedures With Frequentist Expected Opportunity Cost Bounds,27,10.1287/opre.1040.0187,https://w3id.org/oc/meta/br/06210748759,year_and_doi
+ref_16,N/A,Sequential Sampling To Myopically Maximize The Expected Value Of Information,27,10.1287/ijoc.1090.0327,https://w3id.org/oc/meta/br/0680834618,year_and_doi
+ref_18,N/A,SCORE Allocations For Bi-objective Ranking And Selection,26,10.1145/3158666,https://w3id.org/oc/meta/br/0690695430,year_author_volume
+ref_20,N/A,A Fully Sequential Elimination Procedure For Indifference-Zone Ranking And Selection With Tight Bounds On Probability Of Correct Selection,27,10.1287/opre.2014.1282,https://w3id.org/oc/meta/br/06150754007,year_and_doi
+ref_21,N/A,A Knowledge-Gradient Policy For Sequential Information Collection,27,10.1137/070693424,https://w3id.org/oc/meta/br/061201560556,year_and_doi
+ref_22,N/A,Guessing Preferences: A New Approach To Multi-Attribute Ranking And Selection,30,10.1109/wsc.2011.6148119,https://w3id.org/oc/meta/br/061603004901,year_and_doi
+ref_23,N/A,Simulation Allocation For Determining The Best Design In The Presence Of Correlated Sampling,27,10.1287/ijoc.1050.0141,https://w3id.org/oc/meta/br/06110828076,year_and_doi
+ref_24,N/A,Some Topics For Simulation Optimization,30,10.1109/wsc.2008.4736053,https://w3id.org/oc/meta/br/062603251047,year_and_doi
+ref_25,N/A,Multi‐Armed Bandit Allocation Indices,30,10.1002/9780470980033,https://w3id.org/oc/meta/br/0622057521,year_and_doi
+ref_26,N/A,Opportunity Cost And OCBA Selection Procedures In Ordinal Optimization For A Fixed Number Of Alternative Systems,27,10.1109/tsmcc.2007.900656,https://w3id.org/oc/meta/br/061401238813,year_and_doi
+ref_28,N/A,Optimal Sampling Laws For Stochastically Constrained Simulation Optimization On Finite Sets,27,10.1287/ijoc.1120.0519,https://w3id.org/oc/meta/br/0680834442,year_and_doi
+ref_29,N/A,An Introduction To Multiobjective Simulation Optimization,33,10.1145/3299872,https://w3id.org/oc/meta/br/0690695397,year_and_doi
+ref_30,N/A,Decisions With Multiple Objectives,30,10.1017/cbo9781139174084,https://w3id.org/oc/meta/br/061302856793,year_and_doi
+ref_32,N/A,Finding The Pareto Set For Multi-Objective Simulation Models By Minimization Of Expected Opportunity Cost,30,10.1109/wsc.2007.4419642,https://w3id.org/oc/meta/br/061403216853,year_and_doi
+ref_33,N/A,Computing Budget Allocation Rules For Multi-Objective Simulation Models Based On Different Measures Of Selection Quality,27,10.1016/j.automatica.2010.08.004,https://w3id.org/oc/meta/br/061203024106,year_and_doi
+ref_34,N/A,Finding The Non-Dominated Pareto Set For Multi-Objective Simulation Models,27,10.1080/07408171003705367,https://w3id.org/oc/meta/br/062401185111,year_and_doi
+ref_35,N/A,Computational Improvements In Bootstrap Ranking & Selection Procedures Via Multiple Comparison With The Best,30,10.1109/wsc.2015.7408533,https://w3id.org/oc/meta/br/06602912013,year_and_doi
+ref_36,N/A,Ranking And Selection For Multiple Performance Measures Using Incomplete Preference Information,27,10.1016/j.ejor.2014.10.028,https://w3id.org/oc/meta/br/06230228772,year_and_doi
+ref_37,N/A,"Ranking And Selection With Multiple ""Targets""",30,10.1109/wsc.2006.323077,https://w3id.org/oc/meta/br/062103262133,year_and_doi
+ref_38,N/A,An Approach To Ranking And Selection For Multiple Performance Measures,29,10.1109/wsc.1998.745056,https://w3id.org/oc/meta/br/061103429268,doi_title
+ref_39,N/A,Handling Stochastic Constraints In Discrete Optimization Via Simulation,30,10.1109/wsc.2011.6148109,https://w3id.org/oc/meta/br/061603004623,year_and_doi
+ref_40,N/A,Stochastically Constrained Ranking And Selection Via SCORE,26,10.1145/2630066,https://w3id.org/oc/meta/br/0690695516,year_and_doi
+ref_41,N/A,Closed-form Sampling Laws For Stochastically Constrained Simulation Optimization On Large Finite Sets,30,10.1109/wsc.2012.6465141,https://w3id.org/oc/meta/br/06201969000,year_and_doi
+ref_42,N/A,The Knowledge Gradient Algorithm For A General Class Of Online Learning Problems,27,10.1287/opre.1110.0999,https://w3id.org/oc/meta/br/06160752227,year_and_doi
+ref_43,N/A,Taking The Human Out Of The Loop: A Review Of Bayesian Optimization,31,10.1109/jproc.2015.2494218,https://w3id.org/oc/meta/br/0660695568,year_author_page
+ref_44,N/A,Integration Of Indifference-Zone With Multi-Objective Computing Budget Allocation,27,10.1016/j.ejor.2009.08.008,https://w3id.org/oc/meta/br/06260239204,year_and_doi
+ref_46,N/A,Pareto-Optimal Model Selection Via SPRINT-Race,26,10.1109/tcyb.2017.2647821,https://w3id.org/oc/meta/br/06803168648,year_and_doi
+ref_47,N/A,S-Race,30,10.1145/2463372.2463561,https://w3id.org/oc/meta/br/062402932129,year_and_doi
+ref_48,N/A,SPRINT Multi-Objective Model Racing,30,10.1145/2739480.2754791,https://w3id.org/oc/meta/br/06602941505,year_and_doi
+ref_49,N/A,Multiobjective Evolutionary Algorithms: A Comparative Case Study And The Strength Pareto Approach,27,10.1109/4235.797969,https://w3id.org/oc/meta/br/062401837496,year_and_doi
+ref_50,N/A,Performance Assessment Of Multiobjective Optimizers: An Analysis And Review,27,10.1109/tevc.2003.810758,https://w3id.org/oc/meta/br/062401837408,year_and_doi

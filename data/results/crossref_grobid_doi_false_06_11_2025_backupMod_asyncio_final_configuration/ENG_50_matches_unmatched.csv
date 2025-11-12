@@ -1,0 +1,9 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,1998,,,Allen,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_4,2017,81,297,Faulwasser,On turnpike and disspativity properties of continuous-time optimal control problems,,,10.1016/j.automatica.2017.03.012,,12,12,N/A,N/A,No,Yes
+ref_5,1987,54,402,Hartl,A new sufficient condition for most rapid approach paths,,,10.1007/BF00939441,,16,16,N/A,N/A,No,Yes
+ref_6,1969,,,Hermes,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_8,,,,,,,,10.2316/P.2011.715-093,"Li, Z., Cournède, P.H., and Mailhol, J.C. (2011). Irrigation optimization by modeling of plant-soil interaction. In 2011 Proceedings of the Conference on Applied Simulation and Modelling.",N/A,N/A,N/A,N/A,No,No
+ref_11,,,,,,,,10.1137/1.9781611973273.4,"Ramanathan, J., Chen, Y., and Cournede, P.H. (2013). Optimal control of crop irrigation based on the Hamilton-Jacobi-Bellman equation. In 2013 Proceedings of the Conference on Control and its Applications, 21-28. SIAM.",N/A,N/A,N/A,N/A,No,No
+ref_17,2013,49,1466,Vico,Probabilistic description of crop development and irrigation water requirements with stochastic rainfall,,,10.1002/wrcr.20134,,12,12,N/A,N/A,No,Yes
+ref_18,1998,,,Walter,,,,,,N/A,N/A,N/A,N/A,No,No

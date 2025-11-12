@@ -1,0 +1,9 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_9,2008,101,233001,Nubbemeyer,,,,10.1103/PhysRevLett.101.233001,,19,19,N/A,N/A,No,Yes
+ref_14,2013,110,023001,Veltheim,,,,10.1103/PhysRevLett.110.023001,,19,19,N/A,N/A,No,Yes
+ref_16,2013,414,012015,Azarm,,,,,,16,16,N/A,N/A,No,Yes
+ref_18,2017,118,013003,Zimmermann,,,,10.1103/PhysRevLett.118.013003,,19,19,N/A,N/A,No,Yes
+ref_22,2015,114,123003,Zimmermann,,,,10.1103/PhysRevLett.114.123003,,19,19,N/A,N/A,No,Yes
+ref_24,2009,102,113002,Manschwetus,,,,10.1103/PhysRevLett.102.113002,,19,19,N/A,N/A,No,Yes
+ref_26,1986,64,1191,Ammosov,,,,,,11,11,N/A,N/A,No,Yes
+ref_27,1964,47,1945,Keldysh,,,,,,N/A,N/A,N/A,N/A,No,No

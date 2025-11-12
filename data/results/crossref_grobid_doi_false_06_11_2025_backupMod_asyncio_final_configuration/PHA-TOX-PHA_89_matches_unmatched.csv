@@ -1,0 +1,11 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_3,2015,27,3285,Song,Co9Se8 nanoplates as a new theranostic platform for photoacoustic/magnetic resonance dual-modal-imaging-guided chemo-photothermal combination therapy,,,10.1002/adma.201405634,,12,12,N/A,N/A,No,Yes
+ref_9,2017,397,61,Jin,A tantalum oxide-based core/shell nanoparticle for triple-modality image-guided chemo-thermal synergetic therapy of esophageal carcinoma,,,10.1016/j.canlet.2017.03.030,,N/A,N/A,N/A,N/A,No,No
+ref_10,2017,17,20,Shi,"Cancer nanomedicine: progress, challenges and opportunities",,,10.1038/nrc.2016.108,,12,12,N/A,N/A,No,Yes
+ref_22,2016,82,315,Manivasagan,Marine polysaccharide-based nanomaterials as a novel source of nanobiotechnological applications,,,10.1016/j.ijbiomac.2015.10.081,,12,12,N/A,N/A,No,Yes
+ref_24,2017,,631,Manivasagan,Marine biopolymer-based nanomaterials as a novel platform for theranostic applications,,,10.1080/15583724.2017.1311914,,N/A,N/A,N/A,N/A,No,No
+ref_44,2017,9,14633,Manivasagan,Anti-EGFR antibody conjugation of fucoidan-coated gold nanorods as novel photothermal ablation agents for cancer therapy,,,10.1021/acsami.7b00294,,N/A,N/A,N/A,N/A,No,No
+ref_49,2011,2,61,Mustafa,Impact of gold nanoparticles concentration on their cellular uptake by MC3T3-E1 mouse osteoblastic cells as analyzed by transmission electron microscopy,,,,,15,15,N/A,N/A,No,Yes
+ref_51,2018,8,8809,Phan,Photoacoustic imaging-guided photothermal therapy with tumor-targeting HA-FeOOH@ PPy nanorods,,,10.1038/s41598-018-27204-8,,11,11,N/A,N/A,No,Yes
+ref_59,2012,7,3235,Xie,Brain-targeting study of stearic acid–grafted chitosan micelle drug-delivery system,,,,,11,11,N/A,N/A,No,Yes
+ref_63,2010,6,811,Chen,Gold nanocages as photothermal transducers for cancer treatment,,,10.1002/smll.200902216,,19,19,N/A,N/A,No,Yes

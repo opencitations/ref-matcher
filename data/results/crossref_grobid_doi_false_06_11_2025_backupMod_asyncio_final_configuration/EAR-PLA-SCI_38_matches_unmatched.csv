@@ -1,0 +1,22 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_14,,,,,,,,,"Bouvier A., Brennecka G. A., Wadhwa M. (2011a) Absolute chronology of the first solids in the solar system. In Workshop on Formation of the First Solids in the Solar System, #9054.",N/A,N/A,N/A,N/A,No,No
+ref_19,,,,,,,,,"Brennecka G. A., Burkhardt C., Kruijer T.S., and Kleine T. (2017b) Towards understanding the source of nucleosynthetic anomalies in refractory inclusions. Lunar Planet. Sci. XLVIII. Lunar Planet. Inst., Houston. #1619 (abstr.).",N/A,N/A,N/A,N/A,No,No
+ref_22,,,,,,,,,"Burkhardt C. (2012) Molybdenum isotopes and solar nebula evolution. Ph.D. dissertation, ETH Zurich, Zurich.",N/A,N/A,N/A,N/A,No,No
+ref_26,,,,,,,,,"Chen J. H. and Papanastassiou D. A. (2014) Endemic 64Ni effects in Allende Ca-Al-Rich inclusions. Lunar Planet. Sci. XLV. Lunar Planet. Inst., Houston. #2327 (abstr.).",N/A,N/A,N/A,N/A,No,No
+ref_35,2018,498,257,Ebert,Ti isotopic evidence for a non-CAI refractory component in the inner Solar System,,,10.1016/j.epsl.2018.06.040,,15,15,N/A,N/A,No,Yes
+ref_48,,,,,,,,,"Hezel D. C., Needham A. W., and Russell S. S. (2008) Fe-isotopic composition of chondrules, CAI, matrix and bulk meteorite in Mokoia and Grosnaja CV-chondrites. Lunar Planet. Sci. XXXIX. Lunar Planet. Inst., Houston. #1603 (abstr.).",N/A,N/A,N/A,N/A,No,No
+ref_50,2012,77,252,Huang,Calcium isotopic ratios and rare earth element abundances in refractory inclusions from the Allende CV3 chondrite,,,10.1016/j.gca.2011.11.002,,19,19,N/A,N/A,No,Yes
+ref_61,,,,,,,,,"Mane P., Romaniello S. J., Brennecka G. A., Williams C. D., and Wadhwa M. (2014) Zr isotope systematics of Allende CAIs. Meteoritical Society Meeting LXXVII. Lunar Planet. Inst., Casablanca. #5403 (abstr.).",N/A,N/A,N/A,N/A,No,No
+ref_62,,,,,,,,,"Mane P., Torrano Z. A., Romaniello S. J., Brennecka G. A., Shollenberger Q. R., Borg L., and Wadhwa M. (2016) Zirconium and Chromium isotope systematics of non-Allende CAIs. Lunar Planet. Sci. XLVII. Lunar Planet. Inst., Houston. #2778 (abstr.).",N/A,N/A,N/A,N/A,No,No
+ref_63,,,,,,,,,"Mercer C., Souders A. K., Romaniello S. J., Williams C. D., Brennecka G. A., and Wadhwa M. (2015) Chromium and titanium isotope systematics of Allende CAIs. Lunar Planet. Sci. XLVI. Lunar Planet. Inst., Houston. #2920 (abstr.).",N/A,N/A,N/A,N/A,No,No
+ref_64,2014,29,1444,Millet,Ultra-precise titanium stable isotope measurements by double-spike high resolution MC-ICP-MS,,,10.1039/C4JA00096J,,12,12,N/A,N/A,No,Yes
+ref_80,2007,655,678,Quitté,"Correlated Iron 60, Nickel 62 and Zirconium 96 in refractory inclusions and the origin of the Solar System",,,10.1086/509771,,N/A,N/A,N/A,N/A,No,No
+ref_81,2018,862,1,Render,A distinct nucleosynthetic heritage for early Solar System solids recorded by Ni isotope signatures,,,10.3847/1538-4357/aacb7e,,12,12,N/A,N/A,No,Yes
+ref_89,2015,149,88,Schiller,Evidence for nucleosynthetic enrichment of the protosolar molecular cloud core by multiple supernova events,,,10.1016/j.gca.2014.11.005,,12,12,N/A,N/A,No,Yes
+ref_90,2016,,,Schiller,High temperature geochemistry and cosmochemistry,,,,,22,22,N/A,N/A,No,Yes
+ref_92,2018,228,62,Shollenberger,Isotopic coherence of refractory inclusions from CV and CK meteorites: Evidence from multiple isotope systems,,,10.1016/j.gca.2018.02.006,,N/A,N/A,N/A,N/A,No,No
+ref_93,2018,495,12,Shollenberger,"Er, Yb, and Hf isotopic compositions of refractory inclusions: An integrated isotopic fingerprint of the Solar System’s earliest reservoir",,,10.1016/j.epsl.2018.05.007,,12,12,N/A,N/A,No,Yes
+ref_94,2017,472,277,Simon,Calcium and titanium isotope fractionation in refractory inclusions: Tracers of condensation and inheritance in the early solar protoplanetary disk,,,10.1016/j.epsl.2017.05.002,,17,17,N/A,N/A,No,Yes
+ref_95,2013,123,302,Sio,Discerning crystal growth from diffusion profiles in zoned olivine by in situ Mg-Fe isotopic analyses,,,10.1016/j.gca.2013.06.008,,12,12,N/A,N/A,No,Yes
+ref_101,,,,,,,,,"Torrano Z. A., Rai V. K., and Wadhwa M. (2018) Combined investigation of chromium, titanium, and magnesium isotope compositions of refractory inclusions from a variety of carbonaceous chondrites. Lunar Planet. Sci. XLIX. Lunar Planet. Inst., Houston. #2405 (abstr.).",N/A,N/A,N/A,N/A,No,No
+ref_103,1989,347,L43,Völkening,Iron isotope anomalies,,,10.1086/185603,,N/A,N/A,N/A,N/A,No,No

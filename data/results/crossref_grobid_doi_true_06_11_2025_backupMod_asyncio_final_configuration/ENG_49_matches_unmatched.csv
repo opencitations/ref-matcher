@@ -1,0 +1,24 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,,,,,,,,,"O. Huisman and R. D. By, “Principles of Geographic Information Systems,” ITC Educational Textbook Series, 2009",N/A,N/A,N/A,N/A,No,No
+ref_2,,,,,,,,10.1006/enrs.1995.1069,"U. S. Tim, “The Application of GIS in Environmental Health Sciences: Opportunities and Limitations,” Environmental Research, Vol. 71, No. 2, pp. 75-88, 1995",N/A,N/A,N/A,N/A,No,No
+ref_3,,,,,,,,10.1559/152304097782476960,"T. Nyerges, M. Robkin,T. J. Moore, “Geographic Information Systems for Risk Evaluation: Perspectives on Applications to Environmental Health,” Cartography and Geographic Information Systems, Vol. 24, No. 3, pp. 123-144, 1997",N/A,N/A,N/A,N/A,No,No
+ref_4,,,,,,,,10.1128/AEM.68.5.2188-2197.2002,"T. Kistemann, T. ClaBen, C. Koch, F. Dangendorf, R. Fischeder, J. Gebel, et al., “Microbial Load of Drinking Water Reservoir Tributaries During Extreme Rainfall and Runoff,” Applied and Environmental Microbiology, Vol. 68, No. 5, pp. 2188-2197, 2002",N/A,N/A,N/A,N/A,No,No
+ref_5,,,,,,,,,"N. Brown, “The Use of Geographic Information Systems in Risk Assessment with Specific Focus on the RiVAMP Methodology,” inProceedings of the Sixth Caribbean GIS Conference, 2012",N/A,N/A,N/A,N/A,No,No
+ref_6,,,,,,,,,"M. Peggion, A. Bernardini,M. Masera, “Geographic Information Systems and Risk Assessment,” Scientific and Technical Research series EUR, Office for Official Publications of the European Communities, Luxembourg, 2008",N/A,N/A,N/A,N/A,No,No
+ref_7,,,,,,,,,"P. H. J. T. T. B.Kiat, “Global Estimates of Occupational Accidents and Work-related Illnesses,” Workplace Safety and Health Institute, Singapore, 2017",N/A,N/A,N/A,N/A,No,No
+ref_8,,,,,,,,,"ILO, “Calls for Urgent Global Action to Flight Occupational Diseases,” (http://www.ilo.org/global/about-the-ilo/newsroom/news/WCMS_211627/lang--en/index.htm",N/A,N/A,N/A,N/A,No,No
+ref_9,,,,,,,,,"N. H. Zakaria, N. Mansor,Z. Abdullah, “Workplace Accident in Malaysia: Most Common Causes and Solutions,” Business and Management Review, Vol. 2, No. 5, pp. 75-88, 2012",N/A,N/A,N/A,N/A,No,No
+ref_10,,,,,,,,10.1093/occmed/kqv152,"M. Delaunay, H. V. D.Westhuizen, V. Godard, R. M. Agius, M. L. Barbier, L. Godderis, et al., “Use of GIS in Visualization of Work-Related Health Problems,” Occupational Medicine, Vol. 65, No. 8, pp. 682-692, 2015",N/A,N/A,N/A,N/A,No,No
+ref_11,,,,,,,,,"W. L. Schroeder, S. Dickenson,D. C. Warrington, “Soils in Construction,” Waveland Press, 2017",N/A,N/A,N/A,N/A,No,No
+ref_12,,,,,,,,10.3390/ijerph14121463,"J. Suh, S. M. Kim, H. Yi,Y. Choi, “An Overview of GIS-based Modeling and Assessment of Mining-Induced Hazards: Soil, Water, and Forest,” International Journal of Environmental Research and Public Health, Vol. 14, No. 12, pp. 1463, 2017",N/A,N/A,N/A,N/A,No,No
+ref_13,,,,,,,,10.1016/j.ijmst.2015.11.009,"C. Mark and M. Gauna, “Evaluating the Risk of Coal Bursts in Underground Coal Mines,” International Journal of Mining Science and Technology, Vol. 26, No. 1, pp. 47-52, 2016",N/A,N/A,N/A,N/A,No,No
+ref_14,,,,,,,,10.1016/j.jsr.2008.02.023,"F. White, “National Institute for Occupational Safety and Health (NIOSH) Prevention Through Design (PtD) Workshop Closing Remarks,” Journal of Safety Research, Vol. 39, No. 2, pp. 203-204, 2008",N/A,N/A,N/A,N/A,No,No
+ref_15,,,,,,,,,"I. Yamaguchi, et al., “Lessons Learned from Radiation Risk Communication Activities Regarding the Fukushima Nuclear Accident,” Journal of the National Institute of Public Health, Vol. 67, No. 1, pp. 93-102, 2018",N/A,N/A,N/A,N/A,No,No
+ref_16,,,,,,,,,"HSE, “Brıef Guıde to Controlıng Rısk in Work Place,” Health and Safety Executive: Merseyside, 2014",N/A,N/A,N/A,N/A,No,No
+ref_17,,,,,,,,,"M. R. Chaparro, “A New Dimension to Risk Assessment,” Centre for Mathematical Sciences Lund University, Lund, 2014",N/A,N/A,N/A,N/A,No,No
+ref_18,,,,,,,,,"C. C. Watson, “Risk Assessment using the Three Dimensions of Probability (Likelihood), Severity, and Level of Control,” 2011",N/A,N/A,N/A,N/A,No,No
+ref_19,,,,,,,,,"T. T. D.Antoniadis, “3D Risk Matrix Methodology,” in ISEC-02, Rome, 2003",N/A,N/A,N/A,N/A,No,No
+ref_20,,,,,,,,,"O. M. O.Labor, “Excavation Hazards,”(Available from: https://www.labour.gov.on.ca/english/hs/sawo/pubs/fs_trenches.php, 2015)",N/A,N/A,N/A,N/A,No,No
+ref_21,,,,,,,,,"IOSH, “ISOH Managing Safely,” Institute of Occupational Safety and Health, Wigston, 2016",N/A,N/A,N/A,N/A,No,No
+ref_22,,,,,,,,,"organization, I.c.a. in High Level Safety Conference.2015. Montréal.",N/A,N/A,N/A,N/A,No,No
+ref_23,,,,,,,,,"H. Atay, E. Ergen,G. Toz, “GIS based Decision Support System for Health and Safety Management in Linear Projects,” inProceedings of the International Conference on Computing in Civil and Building Engineering, 2010",N/A,N/A,N/A,N/A,No,No

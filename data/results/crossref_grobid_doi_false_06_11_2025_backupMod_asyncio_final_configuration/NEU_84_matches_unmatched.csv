@@ -1,0 +1,10 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_2,1995,8,429,Alzheimer,"An english translation of Alzheimer’s 1907 paper, “Uber eine eigenartige Erkankung der Hirnrinde”.",,,10.1002/ca.980080612,,12,12,N/A,N/A,No,Yes
+ref_6,1994,16,141,Cacabelos,Brain interleukin-1β in Alzheimer’s disease and vascular dementia.,,,,,12,12,N/A,N/A,No,Yes
+ref_8,2017,9,,Chang,Tumor necrosis factor alpha inhibition for Alzheimer’s disease.,,,10.1177/1179573517709278,,17,17,N/A,N/A,No,Yes
+ref_28,,38,674,Guillot-Sestier,Innate immunity fights Alzheimer’s disease.,,,10.1016/j.tins.2015.08.008,,N/A,N/A,N/A,N/A,No,No
+ref_30,2019,2019,,Hao,Maresin1 alleviates metabolic dysfunction in septic mice: a (1)H NMR-based metabolomics analysis.,,,10.1155/2019/2309175,,11,11,N/A,N/A,No,Yes
+ref_31,2009,110,1129,Hardy,The amyloid hypothesis for Alzheimer’s disease: a critical reappraisal.,,,10.1111/j.1471-4159.2009.06181.x,,11,11,N/A,N/A,No,Yes
+ref_37,2018,39,239,Kim,omega3-polyunsaturated fatty acids induce cell death through apoptosis and autophagy in glioblastoma cells: in vitro and in vivo.,,,10.3892/or.2017.6101,,19,19,N/A,N/A,No,Yes
+ref_60,2014,83,486,Singh-Manoux,Interleukin-6 and C-reactive protein as predictors of cognitive decline in late midlife.,,,10.1212/WNL.0000000000000665,,12,12,N/A,N/A,No,Yes
+ref_65,2018,7,,Tramutola,Intranasal rapamycin ameliorates Alzheimer-like cognitive decline in a mouse model of down syndrome.,,,10.1186/s40035-018-0133-9,,N/A,N/A,N/A,N/A,No,No

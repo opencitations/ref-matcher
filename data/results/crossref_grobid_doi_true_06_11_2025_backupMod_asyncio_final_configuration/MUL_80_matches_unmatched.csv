@@ -1,0 +1,5 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_3,,,,,,,,,"Nikiforou, A., Ponirou, P. & Diomidous, M. Medical data analysis and coding using natural language processing techniques in order to derive structured data information. In ICIMTH, 53–55 (2013).",N/A,N/A,N/A,N/A,No,No
+ref_5,,,,,,,,,"Wu, F. & Weld, D. S. Open information extraction using wikipedia. In Proceedings of the 48th annual meeting of the association for computational linguistics, 118–127 (Association for Computational Linguistics, 2010).",N/A,N/A,N/A,N/A,No,No
+ref_8,,,,,,,,,"Jones, K. S. & Galliers, J. R. Evaluating natural language processing systems: An analysis and review, vol. 1083 (Springer Science & Business Media, 1995).",21,21,N/A,N/A,No,Yes
+ref_14,,,,,,,,,"First, M. B. et al. Structured clinical interview for dsm-iv-tr axis i disorders, research version, patient edition. Tech. Rep., SCID-I/P (2002).",19,19,N/A,N/A,No,Yes

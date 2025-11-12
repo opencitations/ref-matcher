@@ -1,0 +1,4 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_2,2015,15,87,Kumar,,,,,,19,19,N/A,N/A,No,Yes
+ref_23,2003,133,129,Accadia,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_29,2019,58,023105,Li,,,,,,11,11,N/A,N/A,No,Yes

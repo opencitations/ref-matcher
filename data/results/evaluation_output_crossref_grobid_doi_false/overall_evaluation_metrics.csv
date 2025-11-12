@@ -1,9 +1,0 @@
-Metric,Value
-True Positives,1091
-False Positives,0
-False Negatives,2464
-True Negatives,6
-Precision,100.00%
-Recall,30.69%
-F1 Score,46.97%
-Accuracy,30.81%

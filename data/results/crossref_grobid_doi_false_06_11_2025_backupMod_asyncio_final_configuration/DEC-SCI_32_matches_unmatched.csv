@@ -1,0 +1,22 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_3,,,,,,,,,"Akkihal A (2006) Inventory pre-positioning for humanitarian operations. PhD thesis, Massachusetts Institute of Technology",N/A,N/A,N/A,N/A,No,No
+ref_4,2013,35,905,Ali,,,,10.1007/s00291-011-0268-x,"Ali B-A, Jabalameli MS, Mirzapour Al-e Hashem SMJ (2013) A multi-objective robust stochastic programming model for disaster relief logistics under uncertainty. OR Spectr 35(4):905–933",15,15,N/A,N/A,No,Yes
+ref_5,2015,62,197,Anurag,,,,10.1016/j.cor.2014.10.006,"Anurag V, Gaukler Gary M (2015) Pre-positioning disaster responsefacilities at safe locations: an evaluation of deterministic andstochastic modeling approaches. Comput Op Res 62:197–209",12,12,N/A,N/A,No,Yes
+ref_6,,,,,,,,10.1561/9781601983374,"Apte A (2010) Humanitarian logistics: a new field of research and action, vol 7. Now Publishers Inc",N/A,N/A,N/A,N/A,No,No
+ref_9,2009,,,Ben-Tal,,,,10.1515/9781400831050,"Ben-Tal A, El Ghaoui L, Nemirovski A (2009) Robust optimization. Princeton University Press, Princeton",N/A,N/A,N/A,N/A,No,No
+ref_14,,,,,,,,,"Center for Research on the Epidemiology of Disasters (CRED). Annual disaster statistical review 2017, 2018. 
+                    https://cred.be/sites/default/files/adsr_2017.pdf",N/A,N/A,N/A,N/A,No,No
+ref_18,,,,,,,,,"Dunning IR (2016) Advances in robust and adaptive optimization: algorithms, software, and insights. PhD thesis, Massachusetts Institute of Technology",N/A,N/A,N/A,N/A,No,No
+ref_19,,,,,,,,10.1061/41139(387)155,"Feng C, Fan G , Zhang Y, Yang T (2010) Collaboration in humanitarian logistics. In: ICLEM 2010: Logistics for sustained economic development: infrastructure, information, integration, pp 1127–1133",N/A,N/A,N/A,N/A,No,No
+ref_24,2016,21,85,Grass,,,,,"Grass E, Fischer K (2016) Two-stage stochastic programming in disaster management: a literature survey. Surv Op Res Manag Sci 21:85–100",19,19,N/A,N/A,No,Yes
+ref_25,2003,18,6,Gustavsson,,,,,Gustavsson L (2003) Humanitarian logistics: context and challenges. Forced Migr Rev 18(6):6–8,12,12,N/A,N/A,No,Yes
+ref_26,,,,,,,,,"International Federation of Red Cross and Red Crescent Societies (IFRC). World disasters report: Focus on local actor, the key to humanitarian effectiveness, (2015). 
+                    http://ifrc-media.org/interactive/world-disasters-report-2015/",N/A,N/A,N/A,N/A,No,No
+ref_27,,,,,,,,,"International Federation of Red Cross and Red Crescent Societies (IFRC). World disasters report: leaving no one behind, (2018). 
+                    https://media.ifrc.org/ifrc/world-disaster-report-2018/",N/A,N/A,N/A,N/A,No,No
+ref_28,,,,,,,,,"Kay MG (2013) Matlog: logistics engineering matlab toolbox. 
+                    http://www4.ncsu.edu/~kay/matlog/",N/A,N/A,N/A,N/A,No,No
+ref_30,,,,,,,,,"Mert A, Adivar BO (2010) Fuzzy disaster relief planning with credibility measures. In: 24th Mini EURO conference on Continuous optimization and information-based technologies in the financial sector, June, pp 23–26",N/A,N/A,N/A,N/A,No,No
+ref_42,2016,40,7996,Shiva,,,,,"Shiva Z, Ali B-A, Jafar SS (2016) A robust optimization model for humanitarian relief chain design under uncertainty. Appl Math Model 40(17):7996–8016",12,12,N/A,N/A,No,Yes
+ref_43,1973,21,1154,Allen,,,,10.1287/opre.21.5.1154,Soyster Allen L (1973) Technical noteconvex programming with set-inclusive constraints and applications to inexact linear programming. Op Res 21(5):1154–1157,11,11,N/A,N/A,No,Yes
+ref_44,2014,42,25,Stefan,,,,10.1016/j.cor.2011.07.016,"Stefan R, Gutjahr Walter J (2014) A math-heuristic for the warehouse location-routing problem in disaster relief. Comput Op Res 42:25–39",15,15,N/A,N/A,No,Yes

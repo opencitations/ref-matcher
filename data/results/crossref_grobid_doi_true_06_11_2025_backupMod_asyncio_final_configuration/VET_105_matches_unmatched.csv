@@ -1,0 +1,14 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_7,1994,1,189,Yanagimachi,Mammalian fertilization,,,,,21,21,N/A,N/A,No,Yes
+ref_9,2015,7,2273,Tariq,Exogenous antioxidants inclusion during semen cryopreservation of farm animals,,,,,12,12,N/A,N/A,No,Yes
+ref_10,2016,,,Papa,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_26,1993,23,51,Knight,The effects of vitamins C and E on lipid peroxidation in stored erythrocytes,,,,,16,16,N/A,N/A,No,Yes
+ref_27,2005,5,5,Luberda,The role of glutathione in mammalian gametes,,,,,12,12,N/A,N/A,No,Yes
+ref_46,2010,34,79,Andrade,Consequences of the production of reactive oxygen species in reproduction and main antioxidant mechanisms,,,,,16,16,N/A,N/A,No,Yes
+ref_48,2011,9,154,Granollers,"Effect of treatment with vitamins, L-carnitine and coenzyme Q10 on the vacuolization and sperm fragmentation rate in fertilizations patients in vitro",,,,,12,12,N/A,N/A,No,Yes
+ref_50,2011,39,956,Luz,Role of antioxidant agents in cryopreservation of germ cells and embryos,,,,,12,12,N/A,N/A,No,Yes
+ref_55,2000,21,895,Baumber,"The effect of reactive oxygen species on equine sperm motility, viability, acrosomal integrity, mitochondrial membrane potential, and membrane lipid peroxidation",,,,,12,12,N/A,N/A,No,Yes
+ref_56,2009,79,1028,Pal,Comparative assessment of seminal characteristics of horse and donkey stallions,,,,,12,12,N/A,N/A,No,Yes
+ref_57,2018,61,227,Kumar,Study on fresh semen characteristics in Poitou donkeys,,,,,16,16,N/A,N/A,No,Yes
+ref_66,2009,39,105,Phetudomsinsuk,Freezability of Thai native crossbred horse semen in different extenders,,,10.56808/2985-1130.2162,,12,12,N/A,N/A,No,Yes
+ref_73,2000,12,2,Earle,Antioxidant nutrients: their role in a healthy diet,,,,,12,12,N/A,N/A,No,Yes

@@ -1,0 +1,11 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_7,2011,31,41,Chen,Improvement of sequential cluster analysis method for extracting turning point of time series (in Chinese with English abstract),,,,,19,19,N/A,N/A,No,Yes
+ref_9,2008,35,375,Diffenbaugh,Climate change hotspots in the United States,,,10.1029/2008GL035075,,12,12,N/A,N/A,No,Yes
+ref_12,2006,,,Geisser,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_15,2013,,,IPCC,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_21,1999,,,Kendall,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_22,2007,112,,Kao,A bivariate frequency analysis of extreme rainfall with implications for design,,,10.1029/2007JD008522,,11,11,N/A,N/A,No,Yes
+ref_23,2014,513,362,Kisi,Comparison of Mann-Kendall and innovative trend method for water quality parameters of the Kizilirmak River,,,10.1016/j.jhydrol.2014.03.005,,N/A,N/A,N/A,N/A,No,No
+ref_31,2016,,,McCuen,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_37,2006,,,Raghunath,"Hydrology: principles, analysis and design",,,,,N/A,N/A,N/A,N/A,No,No
+ref_44,2016,540,1136,Stosic,Investigating anthropically induced effects in streamflow dynamics by using permutation entropy and statistical complexity analysis: a case study,,,10.1016/j.jhydrol.2016.07.034,,N/A,N/A,N/A,N/A,No,No

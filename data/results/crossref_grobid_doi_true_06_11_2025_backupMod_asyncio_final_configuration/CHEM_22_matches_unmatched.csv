@@ -1,0 +1,2 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_42,2016,7,12165,Lau,,,,10.1038/ncomms12165,,19,19,N/A,N/A,No,Yes

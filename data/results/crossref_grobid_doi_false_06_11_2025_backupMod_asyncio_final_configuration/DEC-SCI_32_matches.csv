@@ -1,0 +1,31 @@
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_1,N/A,Robust Optimization For Emergency Logistics Planning: Risk Mitigation In Humanitarian Relief Supply Chains,27,10.1016/j.trb.2010.09.002,https://w3id.org/oc/meta/br/06170399214,year_volume_page
+ref_2,N/A,Coordination In Humanitarian Relief Chains: Chain Coordinators,34,10.1108/20426741211226019,https://w3id.org/oc/meta/br/06302412346,year_author_page
+ref_7,N/A,Facility Location In Humanitarian Relief,27,10.1080/13675560701561789,https://w3id.org/oc/meta/br/062601136127,year_volume_page
+ref_8,N/A,Inventory Management Support Systems For Emergency Humanitarian Relief Operations In South Sudan,27,10.1108/09574090610689952,https://w3id.org/oc/meta/br/061402639767,year_volume_page
+ref_10,N/A,Transportation In Disaster Response Operations,34,10.1016/j.seps.2011.05.002,https://w3id.org/oc/meta/br/06130776503,year_author_page
+ref_11,N/A,The Price Of Robustness,34,10.1287/opre.1030.0065,https://w3id.org/oc/meta/br/06210748903,year_author_page
+ref_12,N/A,"Coordination In Humanitarian Relief Chains: Practices, Challenges And Opportunities",27,10.1016/j.ijpe.2009.09.008,https://w3id.org/oc/meta/br/06110837862,year_volume_page
+ref_13,N/A,Optimization Models In Emergency Logistics: A Literature Review,27,10.1016/j.seps.2011.04.004,https://w3id.org/oc/meta/br/06130776507,year_volume_page
+ref_15,N/A,A Scenario Planning Approach For The Flood Emergency Logistics Preparation Problem Under Uncertainty,34,10.1016/j.tre.2006.10.013,https://w3id.org/oc/meta/br/06190835682,year_author_page
+ref_16,N/A,Theory And Applications Of Robust Optimization,27,10.1137/080734510,https://w3id.org/oc/meta/br/06903086171,year_volume_page
+ref_17,N/A,A Two-Echelon Stochastic Facility Location Model For Humanitarian Relief Logistics,33,10.1007/s11590-011-0421-0,https://w3id.org/oc/meta/br/061702887990,year_author_page
+ref_20,N/A,A GRASP Metaheuristic For Humanitarian Aid Distribution,26,10.1007/s10732-015-9302-5,https://w3id.org/oc/meta/br/061302873161,year_volume_page
+ref_21,N/A,Recent Advances In Robust Optimization: An Overview,34,10.1016/j.ejor.2013.09.036,https://w3id.org/oc/meta/br/06240220484,year_author_page
+ref_22,N/A,Prepositioning Of Supplies In Preparation For A Hurricane Under Potential Destruction Of Prepositioned Supplies,34,10.1016/j.seps.2012.11.002,https://w3id.org/oc/meta/br/06130776457,year_author_page
+ref_23,N/A,Review Of Recent Developments In OR/MS Research In Disaster Operations Management,34,10.1016/j.ejor.2013.01.039,https://w3id.org/oc/meta/br/06240220892,year_author_page
+ref_29,N/A,A Heuristic Program For Locating Warehouses,27,10.1287/mnsc.9.4.643,https://w3id.org/oc/meta/br/06602355364,year_volume_page
+ref_31,N/A,Trends And Developments In Humanitarian Logistics – A Gap Analysis,27,10.1108/09600031111101411,https://w3id.org/oc/meta/br/06240547601,year_volume_page
+ref_32,N/A,OR/MS Research In Disaster Operations Management,27,10.1016/j.ejor.2005.05.016,https://w3id.org/oc/meta/br/0620221291,year_volume_page
+ref_33,N/A,Location And Emergency Inventory Pre-Positioning For Disaster Response Operations: Min-Max Robust Model And A Case Study Of Yushu Earthquake,33,10.1111/poms.12789,https://w3id.org/oc/meta/br/0690106322,year_author_page
+ref_34,N/A,Stochastic Optimization Of Medical Supply Location And Distribution In Disaster Management,27,10.1016/j.ijpe.2009.10.004,https://w3id.org/oc/meta/br/06110837833,year_volume_page
+ref_35,N/A,Reliable Logistics Networks Design With Facility Disruptions,34,10.1016/j.trb.2011.05.022,https://w3id.org/oc/meta/br/06170399171,year_author_page
+ref_36,N/A,Budget Constrained Location Problem With Opening And Closing Of Facilities,27,10.1016/s0305-0548(02)00123-5,https://w3id.org/oc/meta/br/06190174552,year_volume_page
+ref_37,N/A,Pre-positioning Of Emergency Supplies For Disaster Response,27,10.1016/j.trb.2009.08.003,https://w3id.org/oc/meta/br/06170399300,year_volume_page
+ref_38,N/A,Pre-positioning And Dynamic Delivery Planning For Short-Term Response Following A Natural Disaster,27,10.1016/j.seps.2011.10.002,https://w3id.org/oc/meta/br/06130776494,year_volume_page
+ref_39,N/A,Robust Humanitarian Relief Logistics Network Planning,34,10.5267/j.uscm.2014.1.002,https://w3id.org/oc/meta/br/061801502555,year_author_page
+ref_40,N/A,Stochastic Optimization For Natural Disaster Asset Prepositioning,34,10.1111/j.1937-5956.2009.01119.x,https://w3id.org/oc/meta/br/0622094728,year_author_page
+ref_41,N/A,Pre-Positioning Of Emergency Items For CARE International,27,10.1287/inte.1100.0526,https://w3id.org/oc/meta/br/061203310379,year_volume_page
+ref_45,N/A,Improving Supply Chain Disaster Preparedness,27,10.1108/09600030510594576,https://w3id.org/oc/meta/br/06170554138,year_volume_page
+ref_46,N/A,Humanitarian Aid Logistics: Supply Chain Management In High Gear,27,10.1057/palgrave.jors.2602125,https://w3id.org/oc/meta/br/062402165622,year_volume_page
+ref_47,N/A,A Dynamic Logistics Coordination Model For Evacuation And Support In Disaster Response Activities,34,10.1016/j.ejor.2005.03.077,https://w3id.org/oc/meta/br/0620220903,year_author_page

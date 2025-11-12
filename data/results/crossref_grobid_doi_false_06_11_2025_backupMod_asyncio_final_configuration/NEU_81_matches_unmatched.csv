@@ -1,0 +1,12 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_8,2001,38,1141,Christodoulou,Coefficient of variation (CV) vs mean interspike interval (ISI) curves: what do they tell us about the brain?,,,10.1016/S0925-2312(01)00480-5,,12,12,N/A,N/A,No,Yes
+ref_9,2013,8,,Chung,Neuroanatomical heterogeneity of essential tremor according to propranolol response.,,,10.1371/journal.pone.0084054,,11,11,N/A,N/A,No,Yes
+ref_11,2015,18,779,Hemptinne,Therapeutic deep brain stimulation reduces cortical phase-amplitude coupling in Parkinson’s disease.,,,10.1038/nn.3997,,12,12,N/A,N/A,No,Yes
+ref_12,2002,17,S41,Deuschl,Pathophysiology of nonparkinsonian tremors.,,,10.1002/mds.10141,,N/A,N/A,N/A,N/A,No,No
+ref_13,2000,54,S14,Deuschl,The pathophysiology of essential tremor.,,,10.1212/WNL.54.4.14A,,21,21,N/A,N/A,No,Yes
+ref_35,1973,18,69,Llinas,The olivo-cerebellar system: functional properties as revealed by harmaline-induced tremor.,,,10.1007/BF00236557,,12,12,N/A,N/A,No,Yes
+ref_38,2003,26,461,Lyons,Benefits and risks of pharmacological treatments for essential tremor.,,,10.2165/00002018-200326070-00003,,N/A,N/A,N/A,N/A,No,No
+ref_48,1998,,,Paxinos,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_51,2009,24,1629,Schnitzler,Synchronized brain network associated with essential tremor as revealed by magnetoencephalography.,,,10.1002/mds.22633,,12,12,N/A,N/A,No,Yes
+ref_55,2001,,,Sherman,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_60,1999,14,557,Wilms,Animal models of tremor.,,,10.1002/1531-8257(199907)14:4%3C557::aid-mds1004%3E3.0.co;2-g,,12,12,N/A,N/A,No,Yes

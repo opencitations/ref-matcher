@@ -1,0 +1,7 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_22,2014,8,,Harraz,STIM1-mediated bidirectional regulation of Ca(2+) entry through voltage-gated calcium channels (VGCC) and calcium-release activated channels (CRAC).,,,10.3389/fncel.2014.00043,,N/A,N/A,N/A,N/A,No,No
+ref_28,,27,,Kisko,Sex-dependent effects of Cacna1c haploinsufficiency on juvenile social play behavior and pro-social 50-kHz ultrasonic communication in rats.,,,10.1111/gbb.12552,,7,7,N/A,N/A,No,Yes
+ref_43,2007,,,Paxinos,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_46,2016,98,187,Radak,"Physical exercise, reactive oxygen species and neuroprotection.",,,10.1016/j.freeradbiomed.2016.01.024,,12,12,N/A,N/A,No,Yes
+ref_50,2000,14,,Rosen,The mouse brain library @ www.mbl.org.,,,,,11,11,N/A,N/A,No,Yes
+ref_59,2013,251,50,Wöhr,Developmental delays and reduced pup ultrasonic vocalizations but normal sociability in mice lacking the postsynaptic cell adhesion protein neuroligin2.,,,10.1016/j.bbr.2012.07.024,,N/A,N/A,N/A,N/A,No,No

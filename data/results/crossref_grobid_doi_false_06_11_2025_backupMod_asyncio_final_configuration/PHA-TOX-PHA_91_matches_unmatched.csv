@@ -1,0 +1,7 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_8,2004,22,47,Salassi,Impact of Sugarcane Delivery Schedule on Product Value at Raw Sugar Factories,,,,,N/A,N/A,N/A,N/A,No,No
+ref_24,2003,11,1111,Larsson,"Dextranase from Penicillium minioluteum: Reaction course, crystal structure, and product complex",,,10.1016/S0969-2126(03)00147-3,,11,11,N/A,N/A,No,Yes
+ref_28,2009,12,252,Gulder,Chasing the Treasures of the Sea—Bacterial Marine Natural Products,,,10.1016/j.mib.2009.05.002,,N/A,N/A,N/A,N/A,No,No
+ref_33,2011,12,657,Papaleo,Molecular Determinants of Enzyme Cold Adaptation: Comparative Structural and Computational Studies of Cold- and Warm-Adapted Enzymes,,,10.2174/1389203711109070657,,10,10,N/A,N/A,No,Yes
+ref_34,2011,66,278,Majeed,The PH of various tooth whitening products on the south African market,,,,,7,7,N/A,N/A,No,Yes
+ref_35,,,,,,,,10.3390/md16020051,"Ren, W., Cai, R., Yan, W., Lyu, M., Fang, Y., and Wang, S. (2018). Purification and Characterization of a Biofilm-Degradable Dextranase from a Marine Bacterium. Mar. Drugs, 16.",11,11,N/A,N/A,No,Yes

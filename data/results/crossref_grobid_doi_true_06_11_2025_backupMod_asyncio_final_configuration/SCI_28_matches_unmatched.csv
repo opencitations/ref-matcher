@@ -1,0 +1,37 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_1,2018,,,Aayush,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_2,,,,,,,,10.1145/2010324.1964970,,N/A,N/A,N/A,N/A,No,No
+ref_3,,,,,,,,,BinaryVR. 2019. Real-time Facial Tracking. https://www.binaryvr.com/vr.  BinaryVR. 2019. Real-time Facial Tracking. https://www.binaryvr.com/vr.,N/A,N/A,N/A,N/A,No,No
+ref_4,,,,,,,,10.1145/311535.311556,,N/A,N/A,N/A,N/A,No,No
+ref_5,,,,,,,,10.1145/2601097.2601204,,N/A,N/A,N/A,N/A,No,No
+ref_6,,,,F.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_7,,,,,,,,,Dimensional Imaging. 2016. DI4D PRO System. http://www.di4d.com/systems/di4d-pro-system/.  Dimensional Imaging. 2016. DI4D PRO System. http://www.di4d.com/systems/di4d-pro-system/.,N/A,N/A,N/A,N/A,No,No
+ref_8,,,,,,,,,Epic Games. 2017. Epic Games. https://www.epicgames.com.  Epic Games. 2017. Epic Games. https://www.epicgames.com.,N/A,N/A,N/A,N/A,No,No
+ref_9,2018,,,Huan,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_10,,,,,,,,10.1145/2638549,,N/A,N/A,N/A,N/A,No,No
+ref_11,2016,,,A.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_12,,,,,,,,,Ian Goodfellow Jean Pouget-Abadie Mehdi Mirza Bing Xu David Warde-Farley Sherjil Ozair Aaron Courville and Yoshua Bengio. 2014. Generative Adversarial Nets. In Advances in Neural Information Processing Systems (NIPS).   Ian Goodfellow Jean Pouget-Abadie Mehdi Mirza Bing Xu David Warde-Farley Sherjil Ozair Aaron Courville and Yoshua Bengio. 2014. Generative Adversarial Nets. In Advances in Neural Information Processing Systems (NIPS).,N/A,N/A,N/A,N/A,No,No
+ref_13,2019,,,W.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_14,,,,,,,,,Hellblade. 2018. Hellblade. https://www.hellblade.com/.  Hellblade. 2018. Hellblade. https://www.hellblade.com/.,N/A,N/A,N/A,N/A,No,No
+ref_15,2017,,,Phillip,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_16,,,,,,,,10.1109/CVPR.2018.00411,,N/A,N/A,N/A,N/A,No,No
+ref_17,,,,,,,,,Tejas D. Kulkarni William F. Whitney Pushmeet Kohli and Josh Tenenbaum. 2015. Deep Convolutional Inverse Graphics Network. In Advances in Neural Information Processing Systems (NIPS). 2539--2547.   Tejas D. Kulkarni William F. Whitney Pushmeet Kohli and Josh Tenenbaum. 2015. Deep Convolutional Inverse Graphics Network. In Advances in Neural Information Processing Systems (NIPS). 2539--2547.,N/A,N/A,N/A,N/A,No,No
+ref_18,,,,,,,,10.1145/3099564.3099581,,N/A,N/A,N/A,N/A,No,No
+ref_19,,,,,,,,10.1145/2766939,,N/A,N/A,N/A,N/A,No,No
+ref_20,,,,,,,,10.1145/3197517.3201401,,N/A,N/A,N/A,N/A,No,No
+ref_21,,,,,,,,,Magic Leap. 2018. Magic Leap. https://www.magicleap.com/.  Magic Leap. 2018. Magic Leap. https://www.magicleap.com/.,N/A,N/A,N/A,N/A,No,No
+ref_22,2018,,,Takeru,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_23,,,,,,,,10.1109/CVPR.2018.00013,,N/A,N/A,N/A,N/A,No,No
+ref_24,,,,,,,,10.1007/978-3-540-87536-9_99,,N/A,N/A,N/A,N/A,No,No
+ref_25,,,,,,,,10.1145/2980179.2980252,,N/A,N/A,N/A,N/A,No,No
+ref_26,,,,M.,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_27,,,,,,,,10.1145/3089269.3089276,,N/A,N/A,N/A,N/A,No,No
+ref_28,2017,,,Ayush,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_29,,,,,,,,10.1145/2929464.2929475,,N/A,N/A,N/A,N/A,No,No
+ref_30,,,,,,,,10.1145/3182644,,N/A,N/A,N/A,N/A,No,No
+ref_31,,,,,,,,,Unreal Engine 4. 2018. Unreal Engine 4. https://www.unrealengine.com/.  Unreal Engine 4. 2018. Unreal Engine 4. https://www.unrealengine.com/.,N/A,N/A,N/A,N/A,No,No
+ref_32,2016,,,Shih-En,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_33,,,,,,,,10.1007/s11263-005-3962-9,,N/A,N/A,N/A,N/A,No,No
+ref_34,,,,,,,,10.1109/CVPR.2013.75,,N/A,N/A,N/A,N/A,No,No
+ref_35,,,,Ilker,,,,,,N/A,N/A,N/A,N/A,No,No
+ref_36,,,,Jun-Yan,,,,,,N/A,N/A,N/A,N/A,No,No

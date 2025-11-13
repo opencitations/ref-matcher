@@ -9,9 +9,6 @@
 fuzzywuzzy>=0.18.0
 python-Levenshtein>=0.12.2  # Optional but highly recommended for speed
 
-# GROBID client for parsing unstructured citations
-grobid-client-python>=0.8.0
-
 # Unicode normalization
 Unidecode>=1.3.6
 

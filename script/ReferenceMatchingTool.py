@@ -2,7 +2,6 @@ import json
 import csv
 from typing import Dict, List, Optional, Set, Tuple
 from dataclasses import dataclass
-from SPARQLWrapper import SPARQLWrapper, JSON
 from fuzzywuzzy import fuzz
 import xml.etree.ElementTree as ET
 from data.grobid.grobid_client.grobid_client import GrobidClient

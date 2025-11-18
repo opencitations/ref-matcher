@@ -163,20 +163,6 @@ class MatcherConfig:
     checkpoint_interval: int = 10
 ```
 
-### GROBID Configuration
-
-Create a `grobid_config.json` file:
-
-```json
-{
-  "grobid_server": "http://localhost:8070",
-  "batch_size": 1000,
-  "sleep_time": 5,
-  "timeout": 60,
-  "coordinates": ["persName"]
-}
-```
-
 ---
 
 ## Usage

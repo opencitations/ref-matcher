@@ -1,6 +1,6 @@
 # Reference Matching Tool
 
-Repository for a bibliographic reference matching tool designed to identify and align references between [Crossref](https://www.crossref.org/) and [OpenCitations Meta](https://opencitations.net/meta). It implements a heuristic-based approach, enabling the retrieval and validation of bibliographic metadata even in cases of incomplete or inconsistent citation records and generates comprehensive reports with detailed statistics.
+Repository for a bibliographic reference matching tool designed to match references from Crossref JSON files against [OpenCitations Meta](https://opencitations.net/meta). It implements a heuristic-based approach, enabling the retrieval and validation of bibliographic metadata even in cases of incomplete or inconsistent citation records and generates comprehensive reports with detailed statistics.
 
 ## Table of Contents
 
@@ -21,14 +21,16 @@ Repository for a bibliographic reference matching tool designed to identify and 
 
 ## Features
 
-- **Multi-source Reference Extraction**: Extracts references using Crossref API and GROBID fallback
-- **Intelligent SPARQL Matching**: Uses multiple query strategies to find matches in OpenCitations
-- **Sophisticated Scoring System**: Weighted scoring based on DOI, title, authors, year, volume, and pages
-- **Comprehensive Logging**: Multi-file logging system with specialized logs for queries, authors, scores, and errors
-- **Batch Processing**: Process multiple references with checkpointing and error recovery
-- **HTML Reports**: Beautiful, interactive HTML reports with detailed statistics
-- **Rate Limiting**: Built-in rate limiting to respect API constraints
-- **Concurrent Processing**: Async operations for improved performance
+- **Multi-Format Support**: Processes Crossref JSON and TEI XML files
+- **Async Architecture**: Concurrent processing with asyncio and aiohttp for high performance
+- **Intelligent SPARQL Matching**: 6 query strategies with early stopping when threshold is met
+- **Sophisticated Scoring System**: Weighted scoring (max 48 points) based on DOI, title, authors, year, volume, and pages
+- **GROBID Integration**: Enriches references using GROBID for unstructured text parsing
+- **Comprehensive Logging**: Multi-file logging system with 5 specialized logs
+- **Rate Limiting**: Token bucket algorithm (2.5 req/s, burst of 10)
+- **Concurrent Processing**: Semaphore-controlled parallelism (10 concurrent references)
+- **Dynamic Threshold**: Automatic threshold adjustment (90% trigger)
+- **Detailed Statistics**: Match rates, field contributions, query type distribution
 
 ---
 
@@ -40,69 +42,74 @@ Repository for a bibliographic reference matching tool designed to identify and 
 └─────────────────────────────────────────────────────────────────┘
                               │
                               ▼
-        ┌─────────────────────────────────────────┐
-        │      1. Reference Extraction Phase      │
-        └─────────────────────────────────────────┘
-                    │                │
-                    ▼                ▼
-         ┌──────────────┐    ┌──────────────┐
-         │  Crossref    │    │    GROBID    │
-         │     API      │    │   Fallback   │
-         └──────────────┘    └──────────────┘
-                    │                │
-                    └────────┬───────┘
-                             ▼
-        ┌─────────────────────────────────────────┐
-        │     2. Reference Normalization Phase    │
-        │  - Clean titles, authors, DOIs          │
-        │  - Normalize text (Unicode, accents)    │
-        │  - Extract numeric fields (year, pages) │
-        └─────────────────────────────────────────┘
-                             │
-                             ▼
-        ┌─────────────────────────────────────────┐
-        │    3. SPARQL Query Construction Phase   │
-        │                                         │
-        │  Strategy Selection (in order):         │
-        │  ├─ DOI + Title (if DOI available)      │
-        │  ├─ Year + DOI (if both available)      │
-        │  ├─ Author + Title (primary)            │
-        │  ├─ Year + Author + Page                │
-        │  ├─ Year + Volume + Page                │
-        │  └─ Year + Author + Volume              │
-        └─────────────────────────────────────────┘
-                             │
-                             ▼
-        ┌─────────────────────────────────────────┐
-        │   4. OpenCitations SPARQL Query Phase   │
-        │  - Execute queries with retry logic     │
-        │  - Rate limiting (2.5 req/sec)          │
-        │  - Error handling (429, 5xx)            │
-        └─────────────────────────────────────────┘
-                             │
-                             ▼
-        ┌─────────────────────────────────────────┐
-        │      5. Candidate Scoring Phase         │
-        │                                         │
-        │  Scoring Components:                    │
-        │  ├─ DOI Exact Match: 15 pts             │
-        │  ├─ Title Similarity: 10-14 pts         │
-        │  ├─ Author Match: 7 pts                 │
-        │  ├─ Year Match: 1 pt                    │
-        │  ├─ Volume Match: 3 pts                 │
-        │  └─ Page Match: 8 pts                   │
-        │                                         │
-        │  Threshold: 26/48 points (54%)          │
-        └─────────────────────────────────────────┘
-                             │
-                             ▼
-        ┌─────────────────────────────────────────┐
-        │    6. Result Generation & Export Phase  │
-        │  - JSON results with match details      │
-        │  - CSV summary reports                  │
-        │  - HTML interactive dashboard           │
-        │  - Detailed log files                   │
-        └─────────────────────────────────────────┘
+          ┌─────────────────────────────────────────┐
+          │      1. Reference Extraction Phase      │
+          └─────────────────────────────────────────┘
+                      │                │
+                      ▼                ▼
+            ┌──────────────┐     ┌──────────────┐
+            │JSON/TEI Files│  +  │    GROBID    │
+            │              │     │   Fallback   │
+            └──────────────┘     └──────────────┘
+                      │                 │
+                      └────────┬────────┘
+                               ▼
+            ┌─────────────────────────────────────────┐
+            │  2. Reference Normalization Phase       │
+            │  - Clean titles, authors, DOIs          │
+            │  - Normalize text (Unicode, accents)    │
+            │  - Extract numeric fields (year, pages) │
+            └─────────────────────────────────────────┘
+                                │
+                                ▼
+            ┌─────────────────────────────────────────┐
+            │  3. SPARQL Query Construction Phase     │
+            │                                         │
+            │  Query Execution (sequential):          │
+            │  1. year_and_doi                        │
+            │  2. doi_title                           │
+            │  3. author_title                        │
+            │  4. year_author_page                    │
+            │  5. year_volume_page                    │
+            │  6. year_author_volume                  │
+            │                                         │
+            │  Early stop when score >= threshold     │
+            └─────────────────────────────────────────┘
+                                │
+                                ▼
+            ┌─────────────────────────────────────────┐
+            │  4. OpenCitations SPARQL Query Phase    │
+            │  - Async query execution                │
+            │  - Rate limiting                        │
+            │  - Token bucket algorithm               │
+            │  - Error handling                       │
+            │  - Max 3 retries with backoff           │
+            └─────────────────────────────────────────┘
+                                │
+                                ▼
+            ┌─────────────────────────────────────────┐
+            │  5. Candidate Scoring Phase             │
+            │                                         │
+            │  Scoring Components:                    │
+            │  ├─ DOI Exact Match: 15 pts             │
+            │  ├─ Title Similarity: 14-10 pts         │
+            │  ├─ Author Match: 7 pts                 │
+            │  ├─ Year Match: 1 pt                    │
+            │  ├─ Volume Match: 3 pts                 │
+            │  └─ Page Match: 8 pts                   │
+            │                                         │
+            │  Threshold: 26/48 points (54.5%)        │
+            └─────────────────────────────────────────┘
+                                │
+                                ▼
+            ┌─────────────────────────────────────────┐
+            │  6. Result Generation & Export Phase    │
+            │  - CSV matched references               │
+            │  - CSV unmatched references             │
+            │  - HTML processing report               │
+            │  - Statistics text file                 │
+            │  - 5 specialized log files              │
+            └─────────────────────────────────────────┘
 ```
 
 ---
@@ -112,7 +119,7 @@ Repository for a bibliographic reference matching tool designed to identify and 
 ### Requirements
 
 - Python 3.8+
-- GROBID server (optional, for PDF processing fallback)
+- GROBID (optional, for processing fallback)
 - Internet connection (for OpenCitations SPARQL endpoint)
 
 ### Python Dependencies
@@ -121,129 +128,69 @@ Repository for a bibliographic reference matching tool designed to identify and 
 pip install -r requirements.txt
 ```
 
-## Configuration
-
-### MatcherConfig Class
-
-The tool uses a configuration class with sensible defaults:
-
-```python
-@dataclass
-class MatcherConfig:
-    # Timeouts and retries
-    default_timeout: int = 600
-    max_retries: int = 3
-    
-    # Year validation
-    min_year: int = 1700
-    max_year: int = current_year + 1
-    
-    # Scoring weights
-    doi_exact_score: int = 15
-    author_exact_match_score: int = 7
-    title_exact_score: int = 14
-    title_95_score: int = 13
-    title_90_score: int = 13
-    title_85_score: int = 12
-    title_80_score: int = 11
-    title_75_score: int = 10
-    year_exact_score: int = 1
-    volume_match_score: int = 3
-    page_match_score: int = 8
-    
-    # Matching threshold
-    matching_threshold: int = 26  # out of 48 max points
-    
-    # Rate limiting
-    requests_per_second: float = 2.5
-    burst_size: int = 10
-    
-    # Batch processing
-    default_batch_size: int = 3
-    checkpoint_interval: int = 10
-```
-
----
-
 ## Usage
 
 ### Basic Usage
 
-#### Single Reference Matching
-
-```python
-from ReferenceMatchingToolBackupMod import ReferenceMatchingTool
-
-# Initialize tool
-tool = ReferenceMatchingTool()
-
-# Match a single reference
-reference = {
-    "title": "Machine learning in bioinformatics",
-    "year": "2020",
-    "authors": ["Smith, J.", "Doe, A."],
-    "doi": "10.1234/example"
-}
-
-result = tool.match_reference(reference)
-print(f"Match found: {result['match_found']}")
-print(f"Score: {result['match_score']}")
-print(f"OpenCitations URI: {result['opencitations_uri']}")
+#### Process Crossref JSON File
+```bash
+python ReferenceMatchingTool.py crossref_references.json \
+    --output output_file.csv \
+    --threshold 26 \
+    --use-grobid \
+    --grobid-config grobid_config.json
 ```
-
-#### Batch Processing from CSV
-
-```python
-# Process references from CSV file
-tool.process_references_from_csv(
-    input_csv="references.csv",
-    output_json="results.json"
-)
-```
-
-#### Process PDF with DOI
-
-```python
-# Extract and match references from a PDF
-results = tool.match_references_from_pdf(
-    doi="10.1234/article.doi",
-    output_prefix="my_paper"
-)
-```
-
-### Command Line Interface
+#### Process TEI XML File
 
 ```bash
-# Process a single PDF by DOI
-python ReferenceMatchingToolBackupMod.py \
-    --doi "10.1234/article.doi" \
-    --output-prefix "results"
-
-# Process multiple PDFs from a directory
-python ReferenceMatchingToolBackupMod.py \
-    --pdf-dir "/path/to/pdfs" \
-    --output-dir "/path/to/output"
-
-# Custom batch size and pause
-python ReferenceMatchingToolBackupMod.py \
-    --doi "10.1234/article.doi" \
-    --batch-size 5 \
-    --pause-duration 15
+python ReferenceMatchingTool.py references.tei.xml \
+    --output output_file.csv \
+    --threshold 26 \
+    --use-grobid \
+    --grobid-config grobid_config.json
+```
+#### Process Directory (Batch Mode)
+```bash
+python ReferenceMatchingTool.py input_directory/ \
+    --batch \
+    --output output_directory/ \
+    --threshold 26 \
+    --use-grobid
+```
+#### Disable DOI_based query Usage
+```bash
+python ReferenceMatchingTool.py crossref_references.json \
+    --output matches.csv \
+    --no-doi
+```
+#### Adjust Rate Limiting and Burst Size
+```bash
+python ReferenceMatchingTool.py crossref_references.json \
+    --output matches.csv \
+    --rate-limit 1.5 \
+    --burst-size 5
 ```
 
-### Command Line Arguments
+### Command-Line Arguments
 
-| Argument | Description | Default |
-|----------|-------------|---------|
-| `--doi` | DOI of the article to process | None |
-| `--pdf-path` | Direct path to PDF file | None |
-| `--pdf-dir` | Directory containing PDFs | None |
-| `--output-prefix` | Prefix for output files | "reference_matching" |
-| `--output-dir` | Directory for output files | Current directory |
-| `--batch-size` | Number of refs per batch | 3 |
-| `--pause-duration` | Seconds to pause between batches | 10 |
-| `--use-grobid-fallback` | Enable GROBID fallback | True |
-| `--grobid-config` | Path to GROBID config | "grobid_config.json" |
+| Argument | Type | Description | Default |
+|----------|------|-------------|---------|
+| `input` | str | **Required.** Path to input Crossref JSON or TEI XML file, or directory for batch processing | - |
+| `--output, -o` | str | Output CSV file path (single mode) or directory (batch mode). Auto-generated if not specified | Auto-generated |
+| `--threshold, -t` | int | Minimum matching score (0-48) required to consider a reference as matched. Lower = more permissive | 26 |
+| `--use-grobid` | flag | Enable GROBID fallback to extract metadata from unstructured citation text when initial matching fails | False |
+| `--grobid-config` | str | Path to GROBID configuration JSON file. If not specified, searches: current directory (`grobid_config.json`), `~/.grobid/config.json`, script directory, parent directories (up to 3 levels), and `GROBID_CONFIG_PATH` environment variable | None (auto-search) |
+| `--batch, -b` | flag | Enable batch mode to process all JSON/XML files in the input directory concurrently | False |
+| `--use-doi` | flag | Include DOI-based queries (year_and_doi, doi_title) in the matching strategy. Default enabled | True |
+| `--no-doi` | flag | Disable DOI-based queries. Useful when DOI metadata is unreliable or missing | - |
+| `--timeout` | int | Maximum time in seconds to wait for each SPARQL query response before timing out | 600 |
+| `--max-retries` | int | Number of retry attempts for failed SPARQL queries (handles transient network errors) | 3 |
+| `--batch-size` | int | Number of files to process simultaneously in each batch. Lower values reduce memory usage | 3 |
+| `--pause-duration` | int | Delay in seconds between processing batches to avoid overwhelming the server | 10 |
+| `--error-threshold` | int | Maximum number of consecutive server errors (5xx) before stopping batch processing | 10 |
+| `--log-level` | str | Verbosity of logging output: DEBUG (detailed), INFO (standard), WARNING, or ERROR (minimal) | INFO |
+| `--rate-limit` | float | Maximum SPARQL queries per second to respect OpenCitations API rate limits | 2.5 |
+| `--burst-size` | int | Maximum number of concurrent requests allowed in token bucket before rate limiting kicks in | 10 |
 
 ---
 
@@ -256,16 +203,16 @@ python ReferenceMatchingToolBackupMod.py \
 │ Step 1: INPUT PROCESSING                                   │
 ├────────────────────────────────────────────────────────────┤
 │                                                            │
-│  CSV Input           PDF Input (DOI)      PDF Input (File) │
-│      │                    │                      │         │
-│      └────────────────────┼──────────────────────┘         │
-│                           ▼                                │
-│              Parse & Extract References                    │
-│                           │                                │
-│         ┌─────────────────┼─────────────────┐              │
-│         ▼                 ▼                 ▼              │
-│   Via Crossref      Via GROBID        Manual CSV           │ 
-│   (Primary)         (Fallback)        (Direct)             │
+│               Crossref JSON       TEI XML File             │
+│                    │                    │                  │
+│                    └────────────────────┘                  │
+│                               ▼                            │
+│                   Parse & Extract References               │
+│                               │                            │
+│             ┌─────────────────┴─────────────────┐          │
+│             ▼                                   ▼          │
+│       Crossref Format                      TEI Format      │
+│       (JSON structure)                     (biblStruct)    │
 └────────────────────────────────────────────────────────────┘
                             │
                             ▼
@@ -288,31 +235,18 @@ python ReferenceMatchingToolBackupMod.py \
 │ Step 3: QUERY STRATEGY SELECTION                           │
 ├────────────────────────────────────────────────────────────┤
 │                                                            │
-│  Decision Tree:                                            │
+│  Query Execution Order (sequential, early stop):           │
 │                                                            │
-│  Has DOI + Title? ──Yes──> Use: DOI_TITLE query            │
-│       │                                                    │
-│       No                                                   │
-│       │                                                    │
-│  Has Year + DOI? ──Yes──> Use: YEAR_AND_DOI query          │
-│       │                                                    │
-│       No                                                   │
-│       │                                                    │
-│  Has Author + Title? ──Yes──> Use: AUTHOR_TITLE query      │
-│       │                                                    │
-│       No                                                   │
-│       │                                                    │
-│  Has Year + Author + Page? ──Yes──> Use: Y_A_P query       │
-│       │                                                    │
-│       No                                                   │
-│       │                                                    │
-│  Has Year + Volume + Page? ──Yes──> Use: Y_V_P query       │
-│       │                                                    │
-│       No                                                   │
-│       │                                                    │
-│  Has Year + Author + Vol? ──Yes──> Use: Y_A_V query        │
-│       │                                                    │
-│       No ──────> SKIP (insufficient metadata)              │
+│  1. year_and_doi (if DOI + year available)                 │
+│  2. doi_title (if DOI + title available)                   │
+│  3. author_title (if author + title available)             │
+│  4. year_author_page (if year + author + page available)   │
+│  5. year_volume_page (if year + volume + page available)   │
+│  6. year_author_volume (if year + author + vol available)  │
+│                                                            │
+│  Early stop when: score >= threshold                       │
+│  Grobid fallback: if initial match fails                   │
+│  No-year attempt: if suspiscious year is found             │
 │                                                            │
 └────────────────────────────────────────────────────────────┘
                             │
@@ -381,9 +315,10 @@ python ReferenceMatchingToolBackupMod.py \
 │  └─────────────────────────────────────────┘               │
 │                                                            │
 │  TOTAL SCORE: Sum of all components (max 48 points)        │
-│  THRESHOLD: 26 points (54% of maximum)                     │
+│  THRESHOLD: 26 points (54.5% of maximum)                   │
+│  ADJUSTED THRESHOLD: 90% of 26                             │
 │                                                            │
-│  Select candidate with highest score >= 26                 │
+│  Select early-winning candidate with score >= 90% of 26    │
 │                                                            │
 └────────────────────────────────────────────────────────────┘
                             │
@@ -394,64 +329,35 @@ python ReferenceMatchingToolBackupMod.py \
 │                                                            │
 │  Generate outputs:                                         │
 │                                                            │
-│  1. JSON Results File                                      │
-│     - All reference details                                │
-│     - Match scores and URIs                                │
-│     - Query types used                                     │
-│     - Timestamp and metadata                               │
+│  1. CSV Matched References                                 │
+│     - reference_id, article_title                          │
+│     - matched_title, score                                 │
+│     - matched_doi, meta_id                                 │
+│     - query_type                                           │
 │                                                            │
-│  2. CSV Summary File                                       │
-│     - Reference ID, Title                                  │
-│     - Match Found (Yes/No)                                 │
-│     - Match Score                                          │
-│     - OpenCitations URI                                    │
-│     - Query Type                                           │
+│  2. CSV Unmatched References                               │
+│     - All reference metadata                               │
+│     - Best score achieved                                  │
+│     - Score breakdown (original/grobid/no-year)            │
+│     - GROBID attempt status                                │
 │                                                            │
-│  3. HTML Report                                            │
-│     - Interactive dashboard                                │
-│     - Statistics and charts                                │
-│     - Field contribution analysis                          │
-│     - Links to log files                                   │
+│  3. Statistics Text File                                   │
+│     - Total references, match rate                         │
+│     - Field availability stats                             │
+│     - Query type distribution                              │
+│     - GROBID fallback statistics                           │
 │                                                            │
 │  4. Log Files (5 specialized logs)                         │
-│     - Main processing log                                  │
-│     - Author extraction log                                │
-│     - SPARQL query log                                     │
-│     - Score calculation log                                │
-│     - Error log                                            │
+│     - reference_matching_main.log                          │
+│     - reference_matching_authors.log                       │
+│     - reference_matching_queries.log                       │
+│     - reference_matching_scores.log                        │
+│     - reference_matching_errors.log                        │
 │                                                            │
 └────────────────────────────────────────────────────────────┘
 ```
 
 ---
-
-## Scoring System
-
-### Scoring Components (Maximum: 48 points)
-
-The scoring system is designed to balance multiple metadata fields:
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                    SCORING BREAKDOWN                    │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│  Component          │ Max Points │ Weight │ Description │
-│ ────────────────────┼────────────┼────────┼─────────────│
-│  DOI Match          │     15     │  31.2% │ Strongest   │
-│  Title Similarity   │     14     │  29.2% │ Very Strong │
-│  Page Match         │      8     │  16.7% │ Strong      │
-│  Author Match       │      7     │  14.6% │ Moderate    │
-│  Volume Match       │      3     │   6.2% │ Weak        │
-│  Year Match         │      1     │   2.1% │ Very Weak   │
-│ ────────────────────┴────────────┴────────┴─────────────│
-│  TOTAL              │     48     │ 100.0% │             │
-│                                                         │
-│  THRESHOLD: 26 points (54.2% of maximum)                │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
-
 ### Scoring Logic Examples
 
 #### Example 1: Perfect Match (48/48 points)
@@ -539,74 +445,53 @@ Score Calculation:
 
 ## Output Files
 
-### 1. JSON Results File
+### 1. CSV Results File
 
-Complete matching results with all metadata:
-
-```json
-{
-  "metadata": {
-    "total_references": 25,
-    "matched": 18,
-    "unmatched": 7,
-    "match_rate": 72.0,
-    "processing_time": "00:05:32"
-  },
-  "references": [
-    {
-      "ref_id": 1,
-      "original_title": "Machine Learning in Healthcare",
-      "normalized_title": "machine learning in healthcare",
-      "doi": "10.1234/mlh.2020",
-      "year": 2020,
-      "authors": ["Smith, J.", "Doe, A."],
-      "match_found": true,
-      "match_score": 35,
-      "opencitations_uri": "https://opencitations.net/id/...",
-      "query_type": "author_title",
-      "matched_candidate": {
-        "title": "Machine Learning in Healthcare Applications",
-        "doi": "10.1234/mlh.2020",
-        "authors": ["Smith, John", "Doe, Alice"],
-        "year": 2020,
-        "volume": "15",
-        "pages": "123-145"
-      },
-      "score_breakdown": {
-        "doi_score": 15,
-        "title_score": 13,
-        "author_score": 7,
-        "year_score": 1,
-        "volume_score": 0,
-        "page_score": 0
-      }
-    }
-  ]
-}
-```
-
-### 2. CSV Summary File
-
-Tabular format for easy analysis:
+Tabular format for matched references:
 
 ```csv
-ref_id,title,match_found,match_score,opencitations_uri,query_type
-1,"Machine Learning in Healthcare",Yes,35,"https://opencitations.net/id/...",author_title
-2,"Deep Learning Review",No,0,"",""
-3,"Neural Networks in Medicine",Yes,42,"https://opencitations.net/id/...",doi_title
+reference_id,article_title,matched_title,score,matched_doi,meta_id,query_type
+ref_1,"Machine Learning in Healthcare","Machine Learning in Healthcare Applications",35,"10.1234/mlh.2020","https://opencitations.net/meta/br/...",author_title
+ref_3,"Neural Networks in Medicine","Neural Networks in Medical Imaging",42,"10.5678/nnm.2021","https://opencitations.net/meta/br/...",doi_title
 ```
 
-### 3. HTML Report
+### 2. Unmatched References CSV
 
-Interactive dashboard with:
-- **Overview Statistics**: Match rate, total references, processing time
-- **Query Type Breakdown**: Which query strategies were used
-- **Field Contribution Analysis**: How each metadata field contributed to matches
-- **Match Score Distribution**: Histogram of score distribution
-- **Author Statistics**: Author extraction and matching success
-- **Volume/Page Statistics**: Availability and match rates
-- **GROBID Fallback Stats**: Success rate of GROBID processing
-- **Log File Links**: Quick access to specialized logs
+References that didn't meet the threshold:
+
+```csv
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,threshold_failed
+ref_2,2019,12,45,Doe,"Deep Learning Review",,,10.9999/dlr.2019,,12,12,N/A,N/A,No,Yes
+```
+
+### 3. Statistics File
+
+Text file with comprehensive statistics:
+
+```txt
+Total references: 25
+Matches found: 18 (72.0%)
+Errors: 0
+
+References with author: 22/25
+References with title: 25/25
+References with DOI: 15/25
+References with year: 24/25
+References with volume: 20/25
+References with page: 18/25
+
+Query Type Distribution:
+  author_title: 8 (44.4%)
+  year_and_doi: 6 (33.3%)
+  year_volume_page: 4 (22.2%)
+
+GROBID fallbacks attempted: 3
+GROBID successes: 2
+```
+
+### 4. HTML Processing Report
+
+HTML report with comprehensive statistics, field contributions, query type distribution, and visualizations (generated as `processing_report.html`).
 
 ---
 
@@ -676,126 +561,47 @@ The tool uses 5 specialized log files for different aspects:
 
 ## Error Handling
 
-### Error Types and Recovery Strategies
-
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    ERROR HANDLING MATRIX                    │
 ├──────────────────┬──────────────────────────────────────────┤
 │ Error Type       │ Recovery Strategy                        │
 ├──────────────────┼──────────────────────────────────────────┤
-│ Rate Limit (429) │ • Exponential backoff                    │
-│                  │ • Wait time: 2^attempt seconds           │
+│ Rate Limit (429) │ • Exponential backoff: min(60, 2^n * 5s) │
+│                  │ • Reset token bucket to 0                │
 │                  │ • Max 3 retries                          │
-│                  │ • Log retry attempts                     │
+│                  │ • Log retry attempts and wait time       │
 ├──────────────────┼──────────────────────────────────────────┤
-│ Server Error     │ • Retry with delay                       │
-│ (500, 502, 503)  │ • Increase timeout                       │
+│ Server Error     │ • Retry with exponential backoff + jitter│
+│ (500, 502, 503,  │ • Wait: 2^attempt + random(0, 1) seconds │
+│ 504)             │ • Max 3 retries                          │
+│                  │ • Log server status and response         │
+├──────────────────┼──────────────────────────────────────────┤
+│ Timeout          │ • Retry with fixed 2s delay              │
+│                  │ • Same timeout value on each retry       │
 │                  │ • Max 3 retries                          │
-│                  │ • Log server response                    │
+│                  │ • Log timeout occurrence                 │
 ├──────────────────┼──────────────────────────────────────────┤
-│ Timeout          │ • Extend timeout by 50%                  │
-│                  │ • Retry with new timeout                 │
-│                  │ • Log timeout duration                   │
+│ Network Error    │ • Exponential backoff: 2^attempt seconds │
+│ (ClientError)    │ • Max 3 retries                          │
+│                  │ • Log network error details              │
+│                  │ • Raise QueryExecutionError if persistent│
 ├──────────────────┼──────────────────────────────────────────┤
-│ Network Error    │ • Check connection                       │
-│                  │ • Retry after 5 seconds                  │
-│                  │ • Log network state                      │
+│ GROBID Failure   │ • Log extraction failure/error           │
+│                  │ • Continue without GROBID enrichment     │
+│                  │ • Mark as unmatched if all attempts fail │
 ├──────────────────┼──────────────────────────────────────────┤
-│ Invalid Data     │ • Skip reference                         │
-│                  │ • Log validation error                   │
-│                  │ • Continue with next                     │
+│ JSON Parse Error │ • Try multiple encodings (utf-8, latin-1)│
+│ (Input file)     │ • Log encoding and parse errors          │
+│                  │ • Raise error if all encodings fail      │
+│                  │ • No retry for malformed input files     │
 ├──────────────────┼──────────────────────────────────────────┤
-│ GROBID Failure   │ • Log extraction failure                 │
-│                  │ • Mark as unmatched                      │
-│                  │ • Continue processing                    │
-├──────────────────┼──────────────────────────────────────────┤
-│ JSON Parse Error │ • Log malformed response                 │
-│                  │ • Retry query                            │
-│                  │ • Skip if persistent                     │
+│ JSON Parse Error │ • Caught by generic Exception handler    │
+│ (SPARQL response)│ • Exponential backoff: 2^attempt seconds │
+│                  │ • Max 3 retries                          │
+│                  │ • Log error type and message             │
 └──────────────────┴──────────────────────────────────────────┘
 ```
-
-### Custom Exceptions
-
-```python
-ReferenceMatchingError       # Base exception
-├─ QueryExecutionError       # SPARQL query failures
-│  ├─ RateLimitError         # 429 responses
-│  └─ ServerError            # 5xx responses
-└─ ValidationError           # Data validation errors
-```
-
----
-
-## Advanced Features
-
-### 1. Batch Processing with Checkpoints
-
-Process large sets of references with automatic progress saving:
-
-```python
-tool.process_references_from_csv(
-    input_csv="large_dataset.csv",
-    output_json="results.json",
-    batch_size=10,              # Process 10 refs at a time
-    pause_duration=15,          # Pause 15s between batches
-    checkpoint_interval=50      # Save progress every 50 refs
-)
-```
-
-**Checkpoint Recovery:**
-If processing is interrupted, the tool automatically resumes from the last checkpoint.
-
-### 2. Rate Limiting
-
-Prevents overwhelming the OpenCitations API:
-
-```python
-# Token bucket algorithm
-Requests per second: 2.5
-Burst capacity: 10 requests
-Refill rate: 1 token per 0.4 seconds
-```
-
-### 3. Concurrent Processing
-
-Uses async operations for improved performance:
-
-```python
-# Concurrent SPARQL queries
-max_concurrent_queries: 5
-timeout_per_query: 600 seconds
-connection_pool_size: 10
-```
-
-### 4. GROBID Fallback
-
-Automatically uses GROBID if Crossref fails:
-
-```python
-# Fallback chain
-1. Try Crossref API (fast, structured)
-   ↓ (if fails)
-2. Try GROBID server (slower, PDF parsing)
-   ↓ (if fails)
-3. Mark as extraction failure
-```
-
-### 5. Text Normalization Pipeline
-
-Sophisticated text cleaning for better matching:
-
-```python
-# Normalization steps
-1. Unicode normalization (NFD)
-2. Accent removal (unidecode)
-3. Lowercase conversion
-4. Punctuation removal
-5. Whitespace normalization
-6. HTML entity decoding
-```
-
 ---
 
 ## Troubleshooting
@@ -848,25 +654,9 @@ Solutions:
   ✓ Start GROBID server: docker run -d -p 8070:8070 grobid/grobid
   ✓ Check grobid_config.json URL
   ✓ Test connection: curl http://localhost:8070/api/isalive
-  ✓ Disable GROBID: --use-grobid-fallback false
 ```
 
-#### Issue 4: Memory Issues with Large Datasets
-
-```
-Symptom: Out of memory errors
-Possible causes:
-  ✗ Processing too many refs at once
-  ✗ Large PDF files
-
-Solutions:
-  ✓ Reduce batch_size to 1-3
-  ✓ Increase checkpoint_interval
-  ✓ Process PDFs separately
-  ✓ Split large CSV files
-```
-
-#### Issue 5: Encoding Errors
+#### Issue 4: Encoding Errors
 
 ```
 Symptom: UnicodeDecodeError or garbled text
@@ -885,59 +675,16 @@ Solutions:
 
 ### Optimizing Match Rates
 
-1. **Provide Complete Metadata**: Include DOI, authors, year, volume, and pages
-2. **Use Standardized Formats**: Follow standard citation formats
-3. **Clean Input Data**: Remove formatting artifacts before processing
-4. **Enable GROBID**: Better PDF extraction for difficult documents
-5. **Adjust Threshold**: Lower threshold (e.g., 22) for more matches (precision/recall tradeoff)
+1. **Complete Metadata**: Input data with complete metadata have a higher chance to match
+2. **Standardized Formats**: Input data that follows standard citation formats have a higher chance to match
+3. **Enable GROBID**: Better extraction for difficult documents
+4. **Adjust Threshold**: Lower threshold (e.g., 22) for more matches (precision/recall tradeoff)
 
 ### Optimizing Speed
 
-1. **Batch Processing**: Use batch_size=5-10 for optimal throughput
-2. **Concurrent Queries**: Increase max_concurrent_queries (carefully)
-3. **Local GROBID**: Run GROBID server locally for faster PDF processing
-4. **Checkpoint Frequently**: Save progress every 25-50 references
-5. **Skip Slow Queries**: Set shorter timeouts for faster queries
+1. **Batch Processing**: Default batch_size is 3, can be increased for higher throughput
+2. **Concurrent Queries**: Increase max_concurrent_queries (carefully, could actually slow down the process due to multiple errors)
+3. **Checkpoint Frequently**: Save progress every 25-50 references
+4. **Skip Slow Queries**: Set shorter timeouts for faster queries (precision/recall tradeoff)
 
 ---
-
-## 📄 License
-
-This tool is provided as-is for academic and research purposes.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Areas for improvement:
-- Additional query strategies
-- Machine learning-based scoring
-- Support for additional databases
-- Parallel processing optimization
-- UI/dashboard improvements
-
----
-
-## Support
-
-For issues, questions, or feature requests:
-1. Review log files for error details
-2. Consult OpenCitations documentation
-3. Raise an issue with detailed logs
-
----
-
-## Version History
-
-### Current Version
-- Multi-file logging system
-- DOI-based scoring (15 points)
-- Enhanced HTML reports
-- Async query execution
-- Improved error handling
-- GROBID fallback support
-- Checkpoint recovery
-
----
-
-**Happy Matching! 🎯**

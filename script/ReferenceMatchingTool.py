@@ -17,7 +17,6 @@ from glob import glob
 from random import uniform
 import pickle
 from datetime import datetime
-from concurrent.futures import ThreadPoolExecutor
 import logging
 import threading
 from pathlib import Path
@@ -2913,11 +2912,10 @@ class ReferenceProcessor:
 class BatchProcessor:
     """Memory-efficient batch processor with incremental checkpointing"""
     
-    def __init__(self, reference_processor: 'ReferenceProcessor', max_workers: int = 4,
+    def __init__(self, reference_processor: 'ReferenceProcessor',
              batch_size: int = 3, pause_duration: int = 10, error_threshold: int = 10,  
              use_doi: bool = True, checkpoint_interval: int = 10):
         self.reference_processor = reference_processor
-        self.max_workers = max_workers
         self.batch_size = batch_size
         self.pause_duration = pause_duration
         self.error_threshold = error_threshold
@@ -3808,7 +3806,6 @@ class BatchProcessor:
 def batch_process_with_recovery(input_dir: str, output_dir: str, 
                                 threshold: int = 26, 
                                 use_grobid: bool = False,
-                                max_workers: int = 10,
                                 batch_size: int = 3,
                                 checkpoint_interval: int = 10,
                                 error_threshold: int = 10):  
@@ -3824,7 +3821,6 @@ def batch_process_with_recovery(input_dir: str, output_dir: str,
         # Initialize batch processor
         batch_processor = BatchProcessor(
         reference_processor=processor,
-        max_workers=max_workers,
         batch_size=batch_size,
         pause_duration=10,
         error_threshold=error_threshold, 
@@ -3895,8 +3891,6 @@ async def main():
                        help='Enable Grobid for unstructured references')
     parser.add_argument('--grobid-config', type=str,
                        help='Path to Grobid config file')
-    parser.add_argument('--workers', '-w', type=int, default=4, 
-                       help='Number of parallel workers')
     parser.add_argument('--use-doi', action='store_true', default=True,
                        help='Use DOI in queries (default: True)')
     parser.add_argument('--no-doi', dest='use_doi', action='store_false',
@@ -3965,7 +3959,6 @@ async def main():
         if args.batch:
             batch_processor = BatchProcessor(
             processor,
-            max_workers=args.workers,
             batch_size=args.batch_size,
             pause_duration=args.pause_duration,
             error_threshold=args.error_threshold,  

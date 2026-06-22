@@ -4,11 +4,18 @@ from typing import Dict, List, Optional, Set, Tuple
 from dataclasses import dataclass
 from fuzzywuzzy import fuzz
 import xml.etree.ElementTree as ET
+
+# Make the repo root importable so the bundled `data.grobid...` namespace
+# package resolves regardless of the current working directory or how the
+# script is launched (e.g. `python script/ReferenceMatchingTool.py`).
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from data.grobid.grobid_client.grobid_client import GrobidClient
 from tqdm import tqdm
 import time
 import tempfile
-import os
 import argparse
 from unidecode import unidecode
 import unicodedata
@@ -23,9 +30,44 @@ from pathlib import Path
 import asyncio
 import aiohttp
 from logging.handlers import RotatingFileHandler
-import sys
 
-# LOGGING SETUP 
+# Soft import: the tool stays usable (CLI / real env vars only) even when
+# python-dotenv is not installed.
+try:
+    from dotenv import load_dotenv, find_dotenv
+except ImportError:
+    def load_dotenv(*args, **kwargs):
+        return False
+
+    def find_dotenv(*args, **kwargs):
+        return ""
+
+
+def _env(key: str, default, cast=str):
+    """Read a typed environment variable with a fallback.
+
+    Returns `default` when the variable is missing, empty, or when the cast
+    fails (logging a warning in the latter case).
+    """
+    raw = os.environ.get(key)
+    if raw is None or raw.strip() == "":
+        return default
+    try:
+        return cast(raw.strip())
+    except (ValueError, TypeError):
+        logging.warning(f"Invalid value for {key}={raw!r}, using default {default!r}")
+        return default
+
+
+def _env_bool(key: str, default: bool) -> bool:
+    """Read a boolean environment variable ('1/true/yes/on' -> True)."""
+    raw = os.environ.get(key)
+    if raw is None or raw.strip() == "":
+        return default
+    return raw.strip().lower() in ("1", "true", "yes", "on")
+
+
+# LOGGING SETUP
 class MessageFilter(logging.Filter):
     """Custom filter for log messages based on content"""
     def __init__(self, filter_func):
@@ -151,7 +193,10 @@ class MatcherConfig:
     # Rate limiting
     requests_per_second: float = 2.5
     burst_size: int = 10
-    
+
+    # Concurrency
+    max_concurrent_references: int = 10  # References processed in parallel (was hardcoded)
+
     # Batch processing
     default_batch_size: int = 3
     default_pause_duration: int = 10
@@ -165,6 +210,8 @@ class MatcherConfig:
 # Default config instance
 DEFAULT_CONFIG = MatcherConfig()
 DEFAULT_GROBID_CONFIG = "grobid_config.json"
+# Default SPARQL endpoint (production). Overridable via SPARQL_ENDPOINT / --endpoint.
+DEFAULT_SPARQL_ENDPOINT = "https://sparql.opencitations.net/meta"
 DEFAULT_YEAR_RANGE = DEFAULT_CONFIG.year_range
 DEFAULT_TIMEOUT = DEFAULT_CONFIG.default_timeout
 DEFAULT_MAX_RETRIES = DEFAULT_CONFIG.max_retries
@@ -636,7 +683,7 @@ class ImprovedRateLimiter:
 class OpenCitationsMatcherThreadSafe:
     """Async matcher with rate limiting"""
     
-    def __init__(self, endpoint: str = "https://sparql-stg.opencitations.net/meta" ,
+    def __init__(self, endpoint: str = DEFAULT_SPARQL_ENDPOINT,
              max_retries: int = None, timeout: int = None, config: MatcherConfig = None):
         self.config = config or DEFAULT_CONFIG
         self.endpoint = endpoint
@@ -1436,7 +1483,7 @@ class ReferenceProcessor:
 
     def __init__(self, use_grobid: bool = False, grobid_config: Optional[str] = None,
                  endpoint: str = None, config: MatcherConfig = None):
-        self.matcher_endpoint = endpoint or "https://sparql-stg.opencitations.net/meta"
+        self.matcher_endpoint = endpoint or DEFAULT_SPARQL_ENDPOINT
         self.matcher_config = config or DEFAULT_CONFIG
         
         self.use_grobid = use_grobid
@@ -2001,7 +2048,7 @@ class ReferenceProcessor:
         
         stats_lock = asyncio.Lock()
         unmatched_lock = asyncio.Lock()
-        reference_semaphore = asyncio.Semaphore(10)
+        reference_semaphore = asyncio.Semaphore(self.matcher_config.max_concurrent_references)
         async def process_single_reference(ref_data, index):
             """Process one reference concurrently"""
             async with reference_semaphore:
@@ -2312,7 +2359,7 @@ class ReferenceProcessor:
         stats_lock = asyncio.Lock()
         unmatched_lock = asyncio.Lock()
         unmatched_refs = []
-        reference_semaphore = asyncio.Semaphore(10)
+        reference_semaphore = asyncio.Semaphore(self.matcher_config.max_concurrent_references)
         
         ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
@@ -3875,47 +3922,72 @@ async def process_single(processor: ReferenceProcessor, input_file: str, output_
 
 async def main():
     """FIXED: Enhanced argument parsing and validation"""
+    # Load the .env as early as possible so its values can act as the argparse
+    # defaults. Precedence: explicit CLI flag > real env var > .env > hardcoded.
+    pre_parser = argparse.ArgumentParser(add_help=False)
+    pre_parser.add_argument('--env-file', default=os.environ.get('ENV_FILE'))
+    pre_args, _ = pre_parser.parse_known_args()
+    if pre_args.env_file:
+        load_dotenv(pre_args.env_file, override=False)
+    else:
+        # Auto-discovery: first the CWD (and parent dirs), then next to the script.
+        if not load_dotenv(find_dotenv(usecwd=True), override=False):
+            load_dotenv(override=False)
+
     parser = argparse.ArgumentParser(
         description='Process references from Crossref JSON or TEI XML files',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
-    
+
+    parser.add_argument('--env-file', default=os.environ.get('ENV_FILE'),
+                       help='Path to the .env file to load (default: auto-discovery)')
     parser.add_argument('input', help='Path to input file or directory')
+    parser.add_argument('--endpoint', default=_env('SPARQL_ENDPOINT', DEFAULT_SPARQL_ENDPOINT),
+                       help='OpenCitations Meta SPARQL endpoint URL')
+    parser.add_argument('--max-concurrent-references', type=int,
+                       default=_env('MAX_CONCURRENT_REFERENCES', 10, int),
+                       help='Number of references processed in parallel')
     parser.add_argument('--batch', '-b', action='store_true', 
                        help='Process all files in the input directory')
     parser.add_argument('--output', '-o', 
                        help='Output file (single) or directory (batch)')
-    parser.add_argument('--threshold', '-t', type=int, default=26, 
+    parser.add_argument('--threshold', '-t', type=int, default=_env('THRESHOLD', 26, int),
                        help='Matching score threshold')
-    parser.add_argument('--use-grobid', action='store_true', 
+    parser.add_argument('--use-grobid', action='store_true', default=_env_bool('USE_GROBID', False),
                        help='Enable Grobid for unstructured references')
-    parser.add_argument('--grobid-config', type=str,
+    parser.add_argument('--grobid-config', type=str, default=_env('GROBID_CONFIG_PATH', None),
                        help='Path to Grobid config file')
-    parser.add_argument('--use-doi', action='store_true', default=True,
+    parser.add_argument('--use-doi', action='store_true', default=_env_bool('USE_DOI', True),
                        help='Use DOI in queries (default: True)')
     parser.add_argument('--no-doi', dest='use_doi', action='store_false',
                        help='Disable DOI usage in queries')
-    parser.add_argument('--timeout', type=int, default=DEFAULT_TIMEOUT,
+    parser.add_argument('--timeout', type=int, default=_env('TIMEOUT', DEFAULT_TIMEOUT, int),
                        help='SPARQL query timeout in seconds')
-    parser.add_argument('--max-retries', type=int, default=DEFAULT_MAX_RETRIES,
+    parser.add_argument('--max-retries', type=int, default=_env('MAX_RETRIES', DEFAULT_MAX_RETRIES, int),
                        help='Maximum number of retries for failed queries')
-    parser.add_argument('--batch-size', type=int, default=3,
+    parser.add_argument('--batch-size', type=int, default=_env('BATCH_SIZE', 3, int),
                        help='Number of files to process in each batch')
-    parser.add_argument('--pause-duration', type=int, default=10,
+    parser.add_argument('--pause-duration', type=int, default=_env('PAUSE_DURATION', 10, int),
                        help='Pause between batches in seconds')
-    parser.add_argument('--error-threshold', type=int, default=10,
+    parser.add_argument('--error-threshold', type=int, default=_env('ERROR_THRESHOLD', 10, int),
                     help='Maximum server errors before stopping (default: 10)')
-    parser.add_argument('--log-level', type=str, 
+    parser.add_argument('--log-level', type=str,
                        choices=['DEBUG', 'INFO', 'WARNING', 'ERROR'],
-                       default='INFO',
+                       default=_env('LOG_LEVEL', 'INFO').upper(),
                        help='Logging level')
-    parser.add_argument('--rate-limit', type=float, default=2.5,
+    parser.add_argument('--rate-limit', type=float, default=_env('RATE_LIMIT', 2.5, float),
                        help='Requests per second (default: 2.5)')
-    parser.add_argument('--burst-size', type=int, default=10,
+    parser.add_argument('--burst-size', type=int, default=_env('BURST_SIZE', 10, int),
                        help='Maximum concurrent requests (default: 10)')
     args = parser.parse_args()
-    log_level = getattr(logging, args.log_level)
+    log_level = getattr(logging, args.log_level, logging.INFO)
     setup_logging(log_level=log_level)
+    logging.info(
+        f"⚙️  Effective config: endpoint={args.endpoint} | "
+        f"max_concurrent_references={args.max_concurrent_references} | "
+        f"rate_limit={args.rate_limit} req/s | burst_size={args.burst_size} | "
+        f"threshold={args.threshold}"
+    )
     # Validation
     if not os.path.exists(args.input):
         parser.error(f"Input path does not exist: {args.input}")
@@ -3941,12 +4013,14 @@ async def main():
         # 2. Update the config object with your arguments
         config.max_retries = args.max_retries
         config.default_timeout = args.timeout
-        config.requests_per_second = args.rate_limit  
-        config.burst_size = args.burst_size         
+        config.requests_per_second = args.rate_limit
+        config.burst_size = args.burst_size
+        config.max_concurrent_references = args.max_concurrent_references
         # 3. Pass the configured object to the processor
         processor = ReferenceProcessor(
             use_grobid=args.use_grobid,
             grobid_config=args.grobid_config,
+            endpoint=args.endpoint,
             config=config  # <-- Pass the config here
         )
         

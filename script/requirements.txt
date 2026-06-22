@@ -17,3 +17,9 @@ tqdm>=4.65.0
 
 # Async HTTP client for OpenCitations queries
 aiohttp>=3.9.0
+
+# HTTP client used by the bundled GROBID client (data/grobid/grobid_client)
+requests>=2.25.0
+
+# Loading configuration from an external .env file
+python-dotenv>=1.0.0

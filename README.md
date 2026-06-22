@@ -118,15 +118,53 @@ Repository for a bibliographic reference matching tool designed to match referen
 
 ### Requirements
 
-- Python 3.8+
+- Python 3.9+
+- [uv](https://docs.astral.sh/uv/) (project & dependency manager)
 - GROBID (optional, for processing fallback)
 - Internet connection (for OpenCitations SPARQL endpoint)
 
-### Python Dependencies
+### Setup
+
+Dependencies are managed with **uv** (`pyproject.toml` + `uv.lock`). From the repository root:
 
 ```bash
-pip install -r requirements.txt
+uv sync
 ```
+
+This creates a `.venv` and installs everything. Run the tool through `uv run` (no need to activate the venv or set `PYTHONPATH`):
+
+```bash
+uv run script/ReferenceMatchingTool.py <input> [options]
+```
+
+## Configuration
+
+Operational settings can be provided through an external `.env` file, so you don't have to retype CLI flags on every run. Copy the template and edit it:
+
+```bash
+cp script/.env.example script/.env
+```
+
+The `.env` is loaded automatically when it sits in the directory you run the tool from (or a parent), or next to `ReferenceMatchingTool.py`. You can also point to one explicitly with `--env-file /path/to/.env`.
+
+**Precedence** (strongest to weakest): explicit CLI flag → real environment variable → `.env` file → built-in default.
+
+| `.env` variable | Equivalent CLI flag | Default | Description |
+|---|---|---|---|
+| `SPARQL_ENDPOINT` | `--endpoint` | `https://sparql.opencitations.net/meta` | OpenCitations Meta SPARQL endpoint |
+| `MAX_CONCURRENT_REFERENCES` | `--max-concurrent-references` | `10` | References processed in parallel |
+| `BURST_SIZE` | `--burst-size` | `10` | Max simultaneous SPARQL HTTP requests |
+| `RATE_LIMIT` | `--rate-limit` | `2.5` | Average requests per second |
+| `TIMEOUT` | `--timeout` | `600` | Per-query timeout (seconds) |
+| `MAX_RETRIES` | `--max-retries` | `3` | Retries for failed queries |
+| `THRESHOLD` | `--threshold` | `26` | Minimum matching score (0–48) |
+| `BATCH_SIZE` | `--batch-size` | `3` | Files per batch (`--batch` mode) |
+| `PAUSE_DURATION` | `--pause-duration` | `10` | Pause between batches (seconds) |
+| `ERROR_THRESHOLD` | `--error-threshold` | `10` | Max consecutive server errors before stopping |
+| `LOG_LEVEL` | `--log-level` | `INFO` | `DEBUG` / `INFO` / `WARNING` / `ERROR` |
+| `USE_GROBID` | `--use-grobid` | `false` | Enable GROBID fallback |
+| `GROBID_CONFIG_PATH` | `--grobid-config` | (auto-search) | Path to the GROBID config file |
+| `USE_DOI` | `--use-doi` / `--no-doi` | `true` | Use DOI-based queries |
 
 ## Usage
 
@@ -134,7 +172,7 @@ pip install -r requirements.txt
 
 #### Process Crossref JSON File
 ```bash
-python ReferenceMatchingTool.py crossref_references.json \
+uv run script/ReferenceMatchingTool.py crossref_references.json \
     --output output_file.csv \
     --threshold 26 \
     --use-grobid \
@@ -143,7 +181,7 @@ python ReferenceMatchingTool.py crossref_references.json \
 #### Process TEI XML File
 
 ```bash
-python ReferenceMatchingTool.py references.tei.xml \
+uv run script/ReferenceMatchingTool.py references.tei.xml \
     --output output_file.csv \
     --threshold 26 \
     --use-grobid \
@@ -151,7 +189,7 @@ python ReferenceMatchingTool.py references.tei.xml \
 ```
 #### Process Directory (Batch Mode)
 ```bash
-python ReferenceMatchingTool.py input_directory/ \
+uv run script/ReferenceMatchingTool.py input_directory/ \
     --batch \
     --output output_directory/ \
     --threshold 26 \
@@ -159,13 +197,13 @@ python ReferenceMatchingTool.py input_directory/ \
 ```
 #### Disable DOI_based query Usage
 ```bash
-python ReferenceMatchingTool.py crossref_references.json \
+uv run script/ReferenceMatchingTool.py crossref_references.json \
     --output matches.csv \
     --no-doi
 ```
 #### Adjust Rate Limiting and Burst Size
 ```bash
-python ReferenceMatchingTool.py crossref_references.json \
+uv run script/ReferenceMatchingTool.py crossref_references.json \
     --output matches.csv \
     --rate-limit 1.5 \
     --burst-size 5

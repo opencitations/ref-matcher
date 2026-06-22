@@ -1,0 +1,20 @@
+[project]
+name = "ref-matcher"
+version = "0.1.0"
+description = "Bibliographic reference matching tool (Crossref/TEI -> OpenCitations Meta SPARQL)"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "aiohttp>=3.9.0",
+    "fuzzywuzzy>=0.18.0",
+    "python-Levenshtein>=0.12.2",
+    "Unidecode>=1.3.6",
+    "tqdm>=4.65.0",
+    "requests>=2.25.0",
+    "python-dotenv>=1.0.0",
+    "SPARQLWrapper>=2.0.0",
+]
+
+[tool.uv]
+# Virtual project: uv manages only the environment, it does not build a package.
+package = false

@@ -123,18 +123,54 @@ Repository for a bibliographic reference matching tool designed to match referen
 - GROBID (optional, for processing fallback)
 - Internet connection (for OpenCitations SPARQL endpoint)
 
-### Setup
+### Setup — the virtual environment with `uv`
 
-Dependencies are managed with **uv** (`pyproject.toml` + `uv.lock`). From the repository root:
+The project uses **[uv](https://docs.astral.sh/uv/)** to manage a local virtual
+environment and its dependencies, declared in `pyproject.toml` and pinned in
+`uv.lock`. You do **not** create or activate a `venv` by hand, and you do **not**
+run `pip install` — `uv` does it for you.
+
+From the repository root, create/sync the environment:
 
 ```bash
 uv sync
 ```
 
-This creates a `.venv` and installs everything. Run the tool through `uv run` (no need to activate the venv or set `PYTHONPATH`):
+This creates a `.venv/` directory (git-ignored) and installs the exact locked
+dependencies (aiohttp, rapidfuzz, Unidecode, tqdm, requests, python-dotenv,
+SPARQLWrapper). Re-run `uv sync` whenever `pyproject.toml`/`uv.lock` change.
+
+Then run anything through **`uv run`** — it automatically uses `.venv` without
+you activating it or setting `PYTHONPATH`:
 
 ```bash
+# the matcher
 uv run script/ReferenceMatchingTool.py <input> [options]
+
+# the evaluation script
+uv run script/evaluation.py <action> <input> [options]
+
+# an arbitrary Python command inside the project env
+uv run python -c "import aiohttp, rapidfuzz; print('env OK')"
+```
+
+> Note: fuzzy title matching uses **rapidfuzz** (the maintained successor to
+> fuzzywuzzy); `uv sync` installs it, so there is nothing extra to set up.
+
+If you prefer a classic activated shell you *can* do it, but it is optional:
+
+```bash
+# Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+# macOS / Linux
+source .venv/bin/activate
+python script/ReferenceMatchingTool.py <input> [options]
+```
+
+Running the unit tests (uses a throwaway pytest, no change to the locked env):
+
+```bash
+uv run --with pytest pytest script/tests/
 ```
 
 ## Configuration
@@ -223,12 +259,19 @@ uv run script/ReferenceMatchingTool.py crossref_references.json \
 | `--no-doi` | flag | Disable DOI-based queries. Useful when DOI metadata is unreliable or missing | - |
 | `--timeout` | int | Maximum time in seconds to wait for each SPARQL query response before timing out | 600 |
 | `--max-retries` | int | Number of retry attempts for failed SPARQL queries (handles transient network errors) | 3 |
-| `--batch-size` | int | Number of files to process simultaneously in each batch. Lower values reduce memory usage | 3 |
+| `--batch-size` | int | Number of files processed simultaneously per batch. Each file gets its own rate limiter, so the **effective request rate ≈ `batch-size × rate-limit`** — lower it (e.g. 1) to reduce server load / 500s | 3 |
 | `--pause-duration` | int | Delay in seconds between processing batches to avoid overwhelming the server | 10 |
 | `--error-threshold` | int | Maximum number of consecutive server errors (5xx) before stopping batch processing | 10 |
 | `--log-level` | str | Verbosity of logging output: DEBUG (detailed), INFO (standard), WARNING, or ERROR (minimal) | INFO |
-| `--rate-limit` | float | Maximum SPARQL queries per second to respect OpenCitations API rate limits | 2.5 |
+| `--rate-limit` | float | Maximum SPARQL queries per second (per file) to respect OpenCitations API rate limits | 2.5 |
 | `--burst-size` | int | Maximum number of concurrent requests allowed in token bucket before rate limiting kicks in | 10 |
+| `--no-threshold-adjustment` | flag | Enforce the raw `--threshold` instead of the adaptive lowering to 90% when a score is close | (adjustment on) |
+| `--force-restart` | flag | Batch mode: ignore any existing checkpoint in the output directory and reprocess every file from scratch | False |
+
+> **Checkpointing (batch mode):** progress is saved to `processing_checkpoint.pkl`
+> **inside the `--output` directory**, so runs with different `-o` folders track
+> their progress independently and can be resumed just by re-running the same
+> command. Use `--force-restart` to redo a folder from scratch.
 
 ---
 

@@ -1,8 +1,13 @@
 import json
 import csv
-from typing import Dict, List, Optional, Set, Tuple
+from typing import Any, Dict, List, Optional, Set, Tuple
 from dataclasses import dataclass
-from fuzzywuzzy import fuzz
+# rapidfuzz is the maintained successor to fuzzywuzzy with the same fuzz.* API.
+# Keep a soft fallback so an old environment with fuzzywuzzy still works.
+try:
+    from rapidfuzz import fuzz
+except ImportError:  # pragma: no cover - legacy fallback
+    from fuzzywuzzy import fuzz
 import xml.etree.ElementTree as ET
 
 # Make the repo root importable so the bundled `data.grobid...` namespace
@@ -26,9 +31,11 @@ import pickle
 from datetime import datetime
 import logging
 import threading
+import traceback
 from pathlib import Path
 import asyncio
 import aiohttp
+from contextlib import asynccontextmanager
 from logging.handlers import RotatingFileHandler
 
 # Soft import: the tool stays usable (CLI / real env vars only) even when
@@ -68,74 +75,88 @@ def _env_bool(key: str, default: bool) -> bool:
 
 
 # LOGGING SETUP
-class MessageFilter(logging.Filter):
-    """Custom filter for log messages based on content"""
-    def __init__(self, filter_func):
-        super().__init__()
-        self.filter_func = filter_func
-    
-    def filter(self, record):
-        if self.filter_func is None:
-            return True
-        try:
-            return self.filter_func(record)
-        except Exception:
-            return True 
+# Module loggers. Categorised messages go to dedicated child loggers, which route
+# to their own files via logger *name* (no fragile per-message content scanning).
+# They still propagate to the main log. Use logger.debug(...) for the verbose
+# per-reference/per-result narration so the console stays readable at INFO.
+logger = logging.getLogger("refmatch")
+query_logger = logging.getLogger("refmatch.queries")
+score_logger = logging.getLogger("refmatch.scores")
+author_logger = logging.getLogger("refmatch.authors")
 
-def setup_logging(log_level=logging.INFO):
+
+def setup_logging(log_level=logging.INFO, log_dir: str = "."):
     """
-    Setup multi-file logging system with proper filters
+    Configure logging: a console handler gated at ``log_level`` plus rotating
+    files that always capture full DEBUG detail.
+
+    Routing is by logger name (``refmatch.queries`` -> queries log, etc.) rather
+    than by scanning message text, so it is robust to wording/emoji changes.
     """
-    
-    
-    for handler in logging.root.handlers[:]:
-        logging.root.removeHandler(handler)
-    
-    
-    logging.basicConfig(
-        level=log_level,
-        format='%(asctime)s - %(levelname)s - %(message)s',
-        datefmt='%H:%M:%S',
-        handlers=[logging.StreamHandler(sys.stdout)]
-    )
-    
+    try:
+        os.makedirs(log_dir, exist_ok=True)
+    except Exception:
+        log_dir = "."
+
     root_logger = logging.getLogger()
-    
-    
-    file_handlers = [
-        ('reference_matching_main.log', logging.DEBUG, None),
-        ('reference_matching_authors.log', logging.DEBUG, 
-         lambda r: 'AUTHOR' in r.getMessage() or '👤' in r.getMessage()),
-        ('reference_matching_queries.log', logging.DEBUG,
-         lambda r: 'SPARQL' in r.getMessage() or 'QUERY' in r.getMessage() or '🔍' in r.getMessage() or '🔨' in r.getMessage()),
-        ('reference_matching_scores.log', logging.DEBUG,
-         lambda r: 'SCORE' in r.getMessage() or 'MATCH' in r.getMessage() or '🎯' in r.getMessage()),
-        ('reference_matching_errors.log', logging.WARNING, None)
-    ]
-    
-    for filename, level, filter_func in file_handlers:
+    for handler in root_logger.handlers[:]:
+        root_logger.removeHandler(handler)
+    # Root stays at DEBUG so files can capture detail; each handler gates its own
+    # output level (console = log_level, files = DEBUG/WARNING).
+    root_logger.setLevel(logging.DEBUG)
+
+    console_fmt = logging.Formatter(
+        '%(asctime)s - %(levelname)s - %(message)s', datefmt='%H:%M:%S')
+    file_fmt = logging.Formatter(
+        '%(asctime)s - %(levelname)s - [%(name)s:%(funcName)s:%(lineno)d] - %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S')
+
+    # Force UTF-8 on the console stream so the emoji used in messages don't raise
+    # UnicodeEncodeError on a legacy Windows code page (cp1252).
+    try:
+        sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    except (AttributeError, ValueError):
+        pass
+    console = logging.StreamHandler(sys.stdout)
+    console.setLevel(log_level)
+    console.setFormatter(console_fmt)
+    root_logger.addHandler(console)
+
+    def _rotating(filename: str, level: int) -> Optional[RotatingFileHandler]:
         try:
             handler = RotatingFileHandler(
-                filename,
-                maxBytes=10*1024*1024,
-                backupCount=5,
-                encoding='utf-8'
-            )
+                os.path.join(log_dir, filename),
+                maxBytes=10 * 1024 * 1024, backupCount=5, encoding='utf-8')
             handler.setLevel(level)
-            handler.setFormatter(logging.Formatter(
-                '%(asctime)s - %(levelname)s - [%(funcName)s:%(lineno)d] - %(message)s',
-                datefmt='%Y-%m-%d %H:%M:%S'
-            ))
-            
-            
-            if filter_func:
-                handler.addFilter(MessageFilter(filter_func))
-            
-            root_logger.addHandler(handler)
-            
+            handler.setFormatter(file_fmt)
+            return handler
         except Exception as e:
             print(f"Warning: Could not create log file {filename}: {e}")
-    
+            return None
+
+    # Main + errors logs capture everything via the root logger.
+    for filename, level in [
+        ('reference_matching_main.log', logging.DEBUG),
+        ('reference_matching_errors.log', logging.WARNING),
+    ]:
+        handler = _rotating(filename, level)
+        if handler:
+            root_logger.addHandler(handler)
+
+    # Category logs are attached to their named child loggers. Clear any previous
+    # handlers first so repeated setup_logging() calls don't duplicate output.
+    for logger_name, filename in [
+        ('refmatch.authors', 'reference_matching_authors.log'),
+        ('refmatch.queries', 'reference_matching_queries.log'),
+        ('refmatch.scores', 'reference_matching_scores.log'),
+    ]:
+        child = logging.getLogger(logger_name)
+        for handler in child.handlers[:]:
+            child.removeHandler(handler)
+        handler = _rotating(filename, logging.DEBUG)
+        if handler:
+            child.addHandler(handler)  # also propagates to the main log
+
     return root_logger
 
 # Call setup
@@ -188,7 +209,14 @@ class MatcherConfig:
     page_match_score: int = 8 
     
     matching_threshold: int = 26 # Approximately 54.5 % of the max scoring
-    threshold_adjustment: float = 0.9 
+    threshold_adjustment: float = 0.9
+    # When True and the best score lands within `threshold_adjustment` of the
+    # threshold, the threshold is lowered to that fraction (see
+    # apply_threshold_adjustment). Set False to enforce the raw threshold.
+    enable_threshold_adjustment: bool = True
+    # The relaxed "retry without year" pass accepts a match scoring at least this
+    # fraction of the threshold.
+    no_year_threshold_factor: float = 0.9
     
     # Rate limiting
     requests_per_second: float = 2.5
@@ -359,19 +387,100 @@ def normalize_for_fuzzy_title(s: str) -> str:
         logging.error(f"Unexpected error normalizing title '{str(s)[:50]}...': {e}")
         return str(s).lower().strip() if s else ""
 
-def apply_threshold_adjustment(best_score: int, threshold: int, 
-                               adjustment_factor: float = None) -> int:
-    """
-    Apply dynamic threshold adjustment based on config
+def extract_year_value(year_str, year_range: Tuple[int, int] = None) -> Optional[int]:
+    """Extract a 4-digit year within the valid range, or None.
 
+    Single source of truth used by every ``_extract_year`` method.
     """
+    if year_range is None:
+        year_range = DEFAULT_YEAR_RANGE
+    if not year_str:
+        return None
+    try:
+        year = int(year_str)
+    except (ValueError, TypeError):
+        match = re.search(r'\b(17|18|19|20)\d{2}\b', str(year_str))
+        if not match:
+            logging.debug(f"Could not extract valid year from: {year_str}")
+            return None
+        year = int(match.group())
+    if year_range[0] <= year <= year_range[1]:
+        return year
+    logging.debug(f"Year {year} outside valid range {year_range}")
+    return None
+
+
+def normalize_author_name(name: str) -> str:
+    """Normalise an author surname for exact matching (lowercase, collapse spaces)."""
+    if not name:
+        return ""
+    return ' '.join(name.lower().strip().split())
+
+
+def escape_regex_literal(text: str) -> str:
+    """Escape SPARQL-bound text so it is treated literally inside REGEX()."""
+    return re.escape(text) if text else ""
+
+
+def new_stats_dict(include_grobid: bool = True, include_files: bool = False) -> Dict:
+    """Single source of truth for the processing-stats schema.
+
+    Replaces the five near-identical dict literals that previously drifted apart
+    (one even had a duplicated ``doi_matches`` key).
+    """
+    stats = {
+        'total_references': 0,
+        'matches_found': 0,
+        'errors': 0,
+        'query_types': {},
+        'refs_with_author': 0,
+        'author_exact_matches': 0,
+        'refs_with_title': 0,
+        'title_exact_matches': 0,
+        'title_fuzzy_matches': 0,
+        'refs_with_year': 0,
+        'year_exact_matches': 0,
+        'year_adjacent_matches': 0,
+        'refs_with_volume': 0,
+        'volume_matches': 0,
+        'refs_with_page': 0,
+        'page_matches': 0,
+        'refs_with_doi': 0,
+        'doi_matches': 0,
+    }
+    if include_grobid:
+        stats['grobid_fallbacks'] = 0
+        stats['grobid_successes'] = 0
+    if include_files:
+        stats.update({
+            'files_processed': 0,
+            'files_with_errors': 0,
+            'empty_files': 0,
+            'total_files_attempted': 0,
+        })
+    return stats
+
+
+def apply_threshold_adjustment(best_score: int, threshold: int,
+                               adjustment_factor: float = None,
+                               enabled: bool = True) -> int:
+    """
+    Apply dynamic threshold adjustment.
+
+    When ``enabled`` and the best score lands within ``adjustment_factor`` of the
+    threshold, the threshold is lowered to that fraction. Pass ``enabled=False``
+    (config.enable_threshold_adjustment) to enforce the raw threshold.
+    """
+    if not enabled:
+        return threshold
+
     # Use config value if not provided
     if adjustment_factor is None:
-        adjustment_factor = SCORING_CONFIG.get('threshold_adjustment', 0.9)
-    
+        adjustment_factor = DEFAULT_CONFIG.threshold_adjustment
+
     # Calculate trigger point (when to apply adjustment)
     adjustment_trigger = threshold * adjustment_factor
-    
+
     if best_score >= adjustment_trigger:
         adjusted = int(adjustment_trigger)
         logging.debug(
@@ -379,7 +488,7 @@ def apply_threshold_adjustment(best_score: int, threshold: int,
             f"(score={best_score} >= {adjustment_trigger:.1f}, factor={adjustment_factor})"
         )
         return adjusted
-    
+
     return threshold
 
 class GrobidProcessor:
@@ -535,7 +644,7 @@ class GrobidProcessor:
                         # Try to decode, replacing problematic bytes
                         try:
                             text = content.decode('utf-8', errors='replace')
-                        except:
+                        except (UnicodeDecodeError, LookupError):
                             text = content.decode('latin-1', errors='replace')
                         root = ET.fromstring(text.encode('utf-8'))
                 except Exception as e:
@@ -701,14 +810,15 @@ class OpenCitationsMatcherThreadSafe:
                 total=self.timeout,
                 sock_connect=10  
             )        
-        # Optimized connector
+        # Optimized connector. TLS verification is left enabled (the previous
+        # ssl=False disabled certificate checking against the public HTTPS
+        # endpoint, a needless MITM exposure).
         connector = aiohttp.TCPConnector(
             limit=100,
             limit_per_host=30,
             ttl_dns_cache=300,
             force_close=False,
             enable_cleanup_closed=True,
-            ssl=False
         )
         
         self.session = aiohttp.ClientSession(
@@ -734,39 +844,36 @@ class OpenCitationsMatcherThreadSafe:
             raise QueryExecutionError("Empty SPARQL query provided")
 
         query_preview = sparql_query[:300] + "..." if len(sparql_query) > 300 else sparql_query
-        
-        logging.info(f"\n🔍 EXECUTING SPARQL QUERY ({query_type})")
-        logging.info(f"{'─'*60}")
-        logging.debug(f"Query:\n{sparql_query}")
+
+        query_logger.debug(f"🔍 EXECUTING SPARQL QUERY ({query_type})")
+        query_logger.debug(f"Query:\n{sparql_query}")
 
         for attempt in range(self.max_retries):
             try:
                 await self.rate_limiter.acquire()
-                
-                logging.info(f"⏳ Attempt {attempt + 1}/{self.max_retries}...")
-                
-                # Use aiohttp instead of SPARQLWrapper
-                # I changed it from first version due to performance issues
-                params = {'query': sparql_query, 'format': 'json'}
+
+                query_logger.debug(f"⏳ Attempt {attempt + 1}/{self.max_retries} ({query_type})")
+
+                # Use POST (not GET) so long queries can't exceed URL-length
+                # limits and trip a 414/silent truncation on big titles.
+                data = {'query': sparql_query, 'format': 'json'}
                 headers = {'Accept': 'application/sparql-results+json'}
-                
-                async with self.session.get(self.endpoint, params=params, headers=headers) as response:
+
+                async with self.session.post(self.endpoint, data=data, headers=headers) as response:
                     if response.status == 200:
                         results = await response.json()
                         bindings = results.get('results', {}).get('bindings', [])
-                        
-                        logging.info(f"✅ Query returned {len(bindings)} results")
-                        
+
+                        query_logger.debug(f"✅ Query ({query_type}) returned {len(bindings)} results")
+
                         # Log first result details if any
                         if bindings:
                             first_result = bindings[0]
-                            logging.info(f"\n📊 First Result Details:")
-                            for key, value in first_result.items():
-                                val_str = str(value.get('value', ''))
-                                if len(val_str) > 80:
-                                    val_str = val_str[:80] + "..."
-                                logging.info(f"  {key}: {val_str}")
-                        
+                            detail = ", ".join(
+                                f"{k}={str(v.get('value', ''))[:80]}"
+                                for k, v in first_result.items())
+                            query_logger.debug(f"📊 First result: {detail}")
+
                         return bindings
                     
                     elif response.status == 429:
@@ -888,37 +995,12 @@ class OpenCitationsMatcherThreadSafe:
             # Last resort fallback
             try:
                 return str(s).replace('\\', '\\\\').replace('"', '\\"').replace("'", "\\'")
-            except:
+            except Exception:
                 return ""
     
     def _extract_year(self, year_str: str) -> Optional[int]:
-        """Extract year from string with validation"""
-        if not year_str:
-            return None
-
-        # Try direct integer conversion first
-        try:
-            year = int(year_str)
-            if DEFAULT_YEAR_RANGE[0] <= year <= DEFAULT_YEAR_RANGE[1]:
-                return year
-            else:
-                logging.debug(f"Year {year} outside valid range {DEFAULT_YEAR_RANGE}")
-                return None
-        except ValueError:
-            pass
-
-        # Try regex extraction as fallback
-        year_match = re.search(r'\b(17|18|19|20)\d{2}\b', str(year_str))
-        if year_match:
-            year = int(year_match.group())
-            if DEFAULT_YEAR_RANGE[0] <= year <= DEFAULT_YEAR_RANGE[1]:
-                return year
-            else:
-                logging.debug(f"Extracted year {year} outside valid range {DEFAULT_YEAR_RANGE}")
-                return None
-
-        logging.debug(f"Could not extract valid year from: {year_str}")
-        return None
+        """Extract year from string with validation (delegates to module helper)."""
+        return extract_year_value(year_str, self.config.year_range)
 
     def _normalize_title(self, title: str) -> str:
         """Normalize title for fuzzy matching"""
@@ -926,10 +1008,9 @@ class OpenCitationsMatcherThreadSafe:
 
     def build_sparql_query(self, reference: Reference, query_type: str, use_doi: bool = True) -> Optional[str]:
             """Build SPARQL query with comprehensive input validation AND full optional data retrieval for scoring"""
-            
-            logging.info(f"\n🔨 BUILDING SPARQL QUERY: {query_type}")
-            logging.info(f"{'─'*60}")
-            
+
+            query_logger.debug(f"🔨 BUILDING SPARQL QUERY: {query_type}")
+
             # Shared SPARQL prefixes
             PREFIXES = """
                 PREFIX datacite: <http://purl.org/spar/datacite/>
@@ -1045,15 +1126,19 @@ class OpenCitationsMatcherThreadSafe:
                 logging.info(f"Title too long ({len(title)} chars), truncating")
                 title = title[:500]
             
-            title_esc = e(title)
             fam_esc = e(reference.first_author_lastname)
             vol_esc = e(reference.volume)
             page_esc = e(reference.first_page)
             doi_esc = e(reference.doi) if use_doi else ""
 
-            # Title pattern's logic
-            title_words = title_esc.split()[:4]  # First 4 words
-            title_pattern = ".*".join(word for word in title_words if len(word) > 3)
+            # Title pattern: take the first 4 significant words and regex-escape
+            # each so metacharacters inside a title (parentheses, +, ., …) are
+            # matched literally. The ".*" we insert between words stays a
+            # wildcard; the whole pattern is then SPARQL-escaped for the literal.
+            title_words = title.split()[:4]
+            title_pattern = e(".*".join(
+                escape_regex_literal(word) for word in title_words if len(word) > 3
+            ))
 
             # Query building
 
@@ -1239,52 +1324,51 @@ class OpenCitationsMatcherThreadSafe:
 
     def calculate_matching_score(self, reference: Reference, result: Dict) -> int:
         """
-        Calculate matching score with configurable weights and optional stats tracking
+        Calculate the metadata-overlap score between a reference and a candidate.
+
+        Weights come from ``self.config`` (single source of truth). The verbose
+        per-field narration is logged at DEBUG to ``refmatch.scores`` so the
+        console stays readable on large runs.
+
+        NOTE on interpretation: several SPARQL queries already *filter* on an
+        exact field (author surname, volume, DOI) and BIND that value back into
+        the result, so the corresponding points here are effectively awarded for
+        the field the query matched on rather than independently corroborated.
+        The score therefore partly reflects *which* query succeeded; keep this in
+        mind when reading per-field match rates in the report.
         """
-        
-        logging.info(f"\n🎯 CALCULATING MATCH SCORE")
-        logging.info(f"{'─'*60}")
-        
+        cfg = self.config
         score = 0
         score_breakdown = []
+        slog = score_logger
+
+        slog.debug("🎯 CALCULATING MATCH SCORE")
 
         try:
             # DOI SCORING
             if reference.doi and 'doi' in result:
                 ref_doi = reference.doi.lower().strip()
                 result_doi = result['doi']['value'].lower().strip()
-
                 if ref_doi == result_doi:
-                    doi_score = SCORING_CONFIG['doi_exact']  # 15
-                    score += doi_score
-                    score_breakdown.append(f"DOI match: +{doi_score}")
-                    logging.info(f"📎 DOI: EXACT MATCH → +{doi_score} points")  
-            # AUTHOR SCORING
+                    score += cfg.doi_exact_score
+                    score_breakdown.append(f"DOI match: +{cfg.doi_exact_score}")
+                    slog.debug(f"📎 DOI: EXACT MATCH → +{cfg.doi_exact_score}")
+
+            # AUTHOR SCORING (exact only)
             if reference.first_author_lastname and 'author_name' in result:
                 try:
                     result_author = self._normalize_author_name(result['author_name']['value'])
                     ref_author = self._normalize_author_name(reference.first_author_lastname)
-                    
-                    logging.info(f"👤 AUTHOR COMPARISON:")
-                    logging.info(f"  Reference: '{reference.first_author_lastname}' → normalized: '{ref_author}'")
-                    logging.info(f"  Result:    '{result['author_name']['value']}' → normalized: '{result_author}'")
-                    
-                    # EXACT MATCH ONLY
+                    author_logger.debug(
+                        f"👤 AUTHOR: ref='{ref_author}' vs result='{result_author}'")
                     if ref_author == result_author:
-                        author_score = SCORING_CONFIG['author_exact_match']
-                        score += author_score
-                        score_breakdown.append(f"Author exact match: +{author_score}")
-                        logging.info(f"  ✅ EXACT MATCH → +{author_score} points")
+                        score += cfg.author_exact_match_score
+                        score_breakdown.append(f"Author exact match: +{cfg.author_exact_match_score}")
+                        author_logger.debug(f"  ✅ EXACT MATCH → +{cfg.author_exact_match_score}")
                     else:
-                        score_breakdown.append(f"Author mismatch: +0")
-                        logging.info(f"  ❌ NO MATCH → +0 points")
+                        score_breakdown.append("Author mismatch: +0")
                 except Exception as e:
-                    logging.info(f"  ⚠️ Error in author matching: {e}")
-            else:
-                if not reference.first_author_lastname:
-                    logging.debug(f"👤 Author scoring skipped: No author in reference")
-                elif 'author_name' not in result:
-                    logging.debug(f"👤 Author scoring skipped: No author_name in result")
+                    slog.debug(f"  ⚠️ Error in author matching: {e}")
 
             # YEAR SCORING
             if reference.year and 'pub_date' in result:
@@ -1292,29 +1376,17 @@ class OpenCitationsMatcherThreadSafe:
                 if record_year_int is not None:
                     try:
                         result_year = int(result['pub_date']['value'][:4])
-                        
-                        logging.info(f"📅 YEAR COMPARISON:")
-                        logging.info(f"  Reference: {record_year_int}")
-                        logging.info(f"  Result:    {result_year}")
-                        
+                        slog.debug(f"📅 YEAR: ref={record_year_int} vs result={result_year}")
                         if record_year_int == result_year:
-                            year_score = SCORING_CONFIG['year_exact']
-                            score += year_score
-                            score_breakdown.append(f"Year exact: +{year_score}")
-                            logging.info(f"  ✅ EXACT → +{year_score} points")
-                            
-
+                            score += cfg.year_exact_score
+                            score_breakdown.append(f"Year exact: +{cfg.year_exact_score}")
                         elif abs(record_year_int - result_year) == 1:
-                            year_score = SCORING_CONFIG['year_adjacent']
-                            score += year_score
-                            score_breakdown.append(f"Year adjacent: +{year_score}")
-                            logging.info(f"  ⚠️ ADJACENT (±1) → +{year_score} points")
-                            
+                            score += cfg.year_adjacent_score
+                            score_breakdown.append(f"Year adjacent: +{cfg.year_adjacent_score}")
                         else:
-                            score_breakdown.append(f"Year mismatch: +0")
-                            logging.info(f"  ❌ MISMATCH → +0 points")
+                            score_breakdown.append("Year mismatch: +0")
                     except (ValueError, IndexError) as e:
-                        logging.info(f"  ⚠️ Year parsing error: {e}")
+                        slog.debug(f"  ⚠️ Year parsing error: {e}")
 
             # TITLE SCORING
             if 'title' in result:
@@ -1322,161 +1394,80 @@ class OpenCitationsMatcherThreadSafe:
                 titles_to_check = [
                     reference.article_title,
                     reference.volume_title,
-                    reference.journal_title
+                    reference.journal_title,
                 ]
-                
-                logging.info(f"📰 TITLE COMPARISON:")
-                logging.info(f"  Result title: '{result['title']['value'][:60]}...'")
-                logging.info(f"  Result (normalized): '{result_title[:60]}...'")
-                
-                logging.info(f"\n  📚 Titles to check:")
-                logging.info(f"    1. article_title: '{reference.article_title[:60] if reference.article_title else '(empty)'}...'")
-                logging.info(f"    2. volume_title: '{reference.volume_title[:60] if reference.volume_title else '(empty)'}...'")
-                logging.info(f"    3. journal_title: '{reference.journal_title[:60] if reference.journal_title else '(empty)'}...'")
-                
+
                 best_title_score = 0
                 best_title_match = None
-                
-                for i, title in enumerate(titles_to_check):
-                    if title:
-                        record_title = self._normalize_title(title)
-                        
-                        logging.info(f"\n  🔍 Checking title #{i+1}:")
-                        logging.info(f"    Raw: '{title[:50]}...'")
-                        logging.info(f"    Normalized: '{record_title[:50]}...'")
-                        
-                        if record_title == result_title:
-                            title_score = 100
-                            logging.info(f"    ✅ EXACT STRING MATCH!")
-                        else:
-                            ratio = fuzz.ratio(record_title, result_title)
-                            partial = fuzz.partial_ratio(record_title, result_title)
-                            token_sort = fuzz.token_sort_ratio(record_title, result_title)
-                            token_set = fuzz.token_set_ratio(record_title, result_title)
-                            
-                            title_score = max(ratio, partial, token_sort, token_set)
-                            
-                            logging.info(f"    Fuzzy scores:")
-                            logging.info(f"      - ratio: {ratio}")
-                            logging.info(f"      - partial_ratio: {partial}")
-                            logging.info(f"      - token_sort_ratio: {token_sort}")
-                            logging.info(f"      - token_set_ratio: {token_set}")
-                            logging.info(f"      → MAX: {title_score}")
-                        
-                        if title_score > best_title_score:
-                            best_title_score = title_score
-                            best_title_match = title
-                            logging.info(f"    🆕 NEW BEST SCORE: {title_score}")
-                        else:
-                            logging.info(f"    📊 Score {title_score} ≤ current best {best_title_score}")
-                
-                logging.info(f"  Best title score: {best_title_score} from '{best_title_match[:40] if best_title_match else 'N/A'}...'")
-                
-                # ASSIGN POINTS AND TRACK STATS
+                for title in titles_to_check:
+                    if not title:
+                        continue
+                    record_title = self._normalize_title(title)
+                    if record_title == result_title:
+                        title_score = 100
+                    else:
+                        title_score = max(
+                            fuzz.ratio(record_title, result_title),
+                            fuzz.partial_ratio(record_title, result_title),
+                            fuzz.token_sort_ratio(record_title, result_title),
+                            fuzz.token_set_ratio(record_title, result_title),
+                        )
+                    if title_score > best_title_score:
+                        best_title_score = title_score
+                        best_title_match = title
+
+                slog.debug(f"📰 TITLE best score: {best_title_score} "
+                           f"from '{(best_title_match or 'N/A')[:40]}'")
+
+                # Map the fuzzy score to configured tiers (strict '>' as before).
+                title_tiers = [
+                    (95, cfg.title_95_score),
+                    (90, cfg.title_90_score),
+                    (85, cfg.title_85_score),
+                    (80, cfg.title_80_score),
+                    (75, cfg.title_75_score),
+                ]
                 if best_title_score == 100:
-                    title_points = SCORING_CONFIG['title_exact']
-                    score += title_points
-                    score_breakdown.append(f"Title exact (100): +{title_points}")
-                    logging.info(f"  ✅ EXACT (100) → +{title_points} points")
-                    
-
-                elif best_title_score > 95:
-                    title_points = SCORING_CONFIG['title_95']
-                    score += title_points
-                    score_breakdown.append(f"Title 95+ ({best_title_score}): +{title_points}")
-                    logging.info(f"  ✅ 95+ ({best_title_score}) → +{title_points} points")
-
-                elif best_title_score > 90:
-                    title_points = SCORING_CONFIG['title_90']
-                    score += title_points
-                    score_breakdown.append(f"Title 90+ ({best_title_score}): +{title_points}")
-                    logging.info(f"  ✅ 90+ ({best_title_score}) → +{title_points} points")
-                    
-      
-                elif best_title_score > 85:
-                    title_points = SCORING_CONFIG['title_85']
-                    score += title_points
-                    score_breakdown.append(f"Title 85+ ({best_title_score}): +{title_points}")
-                    logging.info(f"  ⚠️ 85+ ({best_title_score}) → +{title_points} points")
-                    
-   
-                elif best_title_score > 80:
-                    title_points = SCORING_CONFIG['title_80']
-                    score += title_points
-                    score_breakdown.append(f"Title 80+ ({best_title_score}): +{title_points}")
-                    logging.info(f"  ⚠️ 80+ ({best_title_score}) → +{title_points} points")
-                    
-    
-                elif best_title_score > 75:
-                    title_points = SCORING_CONFIG['title_75']
-                    score += title_points
-                    score_breakdown.append(f"Title 75+ ({best_title_score}): +{title_points}")
-                    logging.info(f"  ⚠️ 75+ ({best_title_score}) → +{title_points} points")
-    
+                    score += cfg.title_exact_score
+                    score_breakdown.append(f"Title exact (100): +{cfg.title_exact_score}")
                 else:
-                    score_breakdown.append(f"Title too low ({best_title_score}): +0")
-                    logging.info(f"  ❌ TOO LOW ({best_title_score}) → +0 points")
+                    for cutoff, points in title_tiers:
+                        if best_title_score > cutoff:
+                            score += points
+                            score_breakdown.append(f"Title {cutoff}+ ({best_title_score}): +{points}")
+                            break
+                    else:
+                        score_breakdown.append(f"Title too low ({best_title_score}): +0")
 
             # VOLUME SCORING
             if reference.volume and 'volume_num' in result:
-                logging.info(f"📚 VOLUME COMPARISON:")
-                logging.info(f"  Reference: '{reference.volume}'")
-                logging.info(f"  Result:    '{result['volume_num']['value']}'")
-                
                 if reference.volume == result['volume_num']['value']:
-                    vol_score = SCORING_CONFIG['volume_match']
-                    score += vol_score
-                    score_breakdown.append(f"Volume match: +{vol_score}")
-                    logging.info(f"  ✅ MATCH → +{vol_score} points")
-                    
+                    score += cfg.volume_match_score
+                    score_breakdown.append(f"Volume match: +{cfg.volume_match_score}")
                 else:
-                    score_breakdown.append(f"Volume mismatch: +0")
-                    logging.info(f"  ❌ MISMATCH → +0 points")
+                    score_breakdown.append("Volume mismatch: +0")
 
             # PAGE SCORING
             if reference.first_page and 'start_page' in result:
                 ref_page = reference.first_page.lstrip('0')
                 result_page = result['start_page']['value'].lstrip('0')
-                
-                logging.info(f"📄 PAGE COMPARISON:")
-                logging.info(f"  Reference: '{reference.first_page}' → normalized: '{ref_page}'")
-                logging.info(f"  Result:    '{result['start_page']['value']}' → normalized: '{result_page}'")
-                
                 if ref_page == result_page:
-                    page_score = SCORING_CONFIG['page_match']
-                    score += page_score
-                    score_breakdown.append(f"Page match: +{page_score}")
-                    logging.info(f"  ✅ MATCH → +{page_score} points")
-                    
+                    score += cfg.page_match_score
+                    score_breakdown.append(f"Page match: +{cfg.page_match_score}")
                 else:
-                    score_breakdown.append(f"Page mismatch: +0")
-                    logging.info(f"  ❌ MISMATCH → +0 points")
+                    score_breakdown.append("Page mismatch: +0")
 
-            # Final score summary
-            logging.info(f"\n📊 SCORE BREAKDOWN:")
-            for item in score_breakdown:
-                logging.info(f"  • {item}")
-            logging.info(f"{'─'*60}")
-            logging.info(f"  🎯 TOTAL SCORE: {score}")
-            logging.info(f"{'─'*60}\n")
+            slog.debug(f"📊 SCORE BREAKDOWN: {'; '.join(score_breakdown)} → TOTAL {score}")
 
         except Exception as e:
             logging.error(f"⚠️ Error calculating matching score: {e}")
-            import traceback
             logging.error(traceback.format_exc())
 
         return score
+
     def _normalize_author_name(self, name: str) -> str:
-        """Normalize author name for exact matching only"""
-        if not name:
-            return ""
-        
-        # Minimal normalization: lowercase, strip, remove extra spaces
-        normalized = name.lower().strip()
-        # Remove extra whitespace
-        normalized = ' '.join(normalized.split())  
-        
-        return normalized
+        """Normalize author name for exact matching (delegates to module helper)."""
+        return normalize_author_name(name)
 
 class ReferenceProcessor:
     """Processor with async matcher handling"""
@@ -1551,35 +1542,18 @@ class ReferenceProcessor:
         return page
     @staticmethod
     def _normalize_author_name(name: str) -> str:
-        """Normalize author name for exact matching only"""
-        if not name:
-            return ""
-        normalized = name.lower().strip()
-        normalized = ' '.join(normalized.split())
-        return normalized
+        """Normalize author name for exact matching (delegates to module helper)."""
+        return normalize_author_name(name)
 
     @staticmethod
     def _normalize_title(title: str) -> str:
-        """Normalize title for fuzzy matching"""
+        """Normalize title for fuzzy matching."""
         return normalize_for_fuzzy_title(title)
 
     @staticmethod
     def _extract_year(year_str: str) -> Optional[int]:
-        """Extract year from string with validation"""
-        if not year_str:
-            return None
-        try:
-            year = int(year_str)
-            if DEFAULT_YEAR_RANGE[0] <= year <= DEFAULT_YEAR_RANGE[1]:
-                return year
-            return None
-        except ValueError:
-            year_match = re.search(r'\b(17|18|19|20)\d{2}\b', str(year_str))
-            if year_match:
-                year = int(year_match.group())
-                if DEFAULT_YEAR_RANGE[0] <= year <= DEFAULT_YEAR_RANGE[1]:
-                    return year
-            return None
+        """Extract year from string with validation (delegates to module helper)."""
+        return extract_year_value(year_str)
 
     @property
     def grobid_processor(self):
@@ -1596,23 +1570,44 @@ class ReferenceProcessor:
         
         return self._grobid_instance
     
-    async def process_reference(self, ref: Reference, threshold: int = 26, use_doi: bool = True, stats: Dict = None, stats_lock: asyncio.Lock = None) -> Optional[Dict]:
+    @asynccontextmanager
+    async def _acquire_matcher(self, matcher: Optional["OpenCitationsMatcherThreadSafe"] = None):
+        """Yield a shared matcher (lifecycle owned by the caller) or a fresh one.
+
+        Sharing one matcher across all references is what makes the rate limiter
+        and HTTP connection pool actually global. Creating a matcher per
+        reference (the previous behaviour) gave every reference its own token
+        bucket, so the real request rate was ``rate_limit * concurrency`` and
+        connection pooling was rebuilt and torn down for each reference.
+        """
+        if matcher is not None:
+            yield matcher
+            return
+        async with OpenCitationsMatcherThreadSafe(
+            endpoint=self.matcher_endpoint,
+            config=self.matcher_config,
+        ) as own:
+            yield own
+
+    async def process_reference(self, ref: Reference,
+                                matcher: "OpenCitationsMatcherThreadSafe" = None,
+                                threshold: int = 26, use_doi: bool = True,
+                                stats: Dict = None, stats_lock: asyncio.Lock = None) -> Optional[Dict]:
         """
         Process reference with async operations and optional stats tracking
-        
+
         Args:
             ref: Reference object to process
+            matcher: Shared OpenCitationsMatcherThreadSafe for the run. If None a
+                temporary one is created (handy for ad-hoc/single calls).
             threshold: Minimum score threshold for a match
             use_doi: Whether to use DOI in queries
             stats: Optional stats dict for tracking field contributions
-        
+
         Returns:
             Optional[Dict]: Match result or None
         """
-        async with OpenCitationsMatcherThreadSafe(
-            endpoint=self.matcher_endpoint,
-            config=self.matcher_config
-        ) as matcher:
+        async with self._acquire_matcher(matcher) as matcher:
             try:
                 # Create working copy
                 processed_ref = Reference(**{k: v for k, v in ref.__dict__.items()})
@@ -1626,19 +1621,9 @@ class ReferenceProcessor:
                     best_score = 0
                     best_match = None
                     query_types = []
-                        
-                    logging.info(f"\n{'='*70}")
-                    logging.info(f"🔄 STARTING SPARQL MATCHING LOOP")
-                    logging.info(f"{'='*70}")
-                    logging.info(f"Stop threshold: {stop_threshold}")
-                    logging.info(f"🏴 DEBUG: use_doi parameter = {use_doi}")
-                    logging.info(f"🏴 DEBUG: reference has DOI = {bool(reference_obj.doi)}")
-                    logging.info(f"🏴 DEBUG: DOI value = {reference_obj.doi if reference_obj.doi else 'None'}")
+
                     if reference_obj.doi and use_doi:
-                        logging.info(f"✅ Adding DOI-based queries (use_doi=True, DOI exists)")
                         query_types.extend(["year_and_doi", "doi_title"])
-                    else:
-                        logging.info(f"❌ Skipping DOI-based queries (use_doi={use_doi}, has_doi={bool(reference_obj.doi)})")
 
                     query_types.extend([
                         "author_title",
@@ -1646,71 +1631,56 @@ class ReferenceProcessor:
                         "year_volume_page",
                         "year_author_volume"
                     ])
-                    
-                    logging.info(f"📋 Query sequence: {' → '.join(query_types)}")
-                    logging.info(f"{'='*70}\n")
+
+                    query_logger.debug(
+                        f"🔄 MATCHING LOOP (stop_threshold={stop_threshold}, "
+                        f"use_doi={use_doi}, has_doi={bool(reference_obj.doi)}): "
+                        f"{' → '.join(query_types)}")
 
                     for idx, query_type in enumerate(query_types, 1):
-                        logging.info(f"\n{'▼'*70}")
-                        logging.info(f"Query {idx}/{len(query_types)}: {query_type.upper()}")
-                        logging.info(f"{'▼'*70}")
-                        
+                        query_logger.debug(f"Query {idx}/{len(query_types)}: {query_type}")
+
                         try:
-                            query = matcher.build_sparql_query(reference_obj, query_type, use_doi)  
+                            query = matcher.build_sparql_query(reference_obj, query_type, use_doi)
                             if not query:
-                                logging.info(f"⚠️ Query {query_type} SKIPPED (missing required fields)")
+                                query_logger.debug(f"⚠️ Query {query_type} SKIPPED (missing fields)")
                                 continue
 
-                            results = await matcher.query_opencitations(query, query_type)  
-                                
+                            results = await matcher.query_opencitations(query, query_type)
+
                             if not results:
-                                logging.info(f"ℹ️ Query {query_type} returned 0 results")
+                                query_logger.debug(f"ℹ️ Query {query_type} returned 0 results")
                                 continue
-                            
-                            logging.info(f"✅ Processing {len(results)} results from {query_type}...")
 
-                            for res_idx, result in enumerate(results, 1):
-                                logging.info(f"\n  → Evaluating result {res_idx}/{len(results)}...")
-                                
-                                score = matcher.calculate_matching_score(reference_obj, result)                                
+                            for result in results:
+                                score = matcher.calculate_matching_score(reference_obj, result)
                                 if score > best_score:
-                                    logging.info(f"  🆕 NEW BEST SCORE: {score} (previous: {best_score})")
                                     best_score = score
                                     best_match = result
                                     best_match["score"] = score
                                     best_match["query_type"] = query_type
-                                else:
-                                    logging.info(f"  📊 Score {score} ≤ current best {best_score} (skipped)")
 
                                 # Early stop
                                 if best_score >= stop_threshold:
-                                    logging.info(f"\n{'✓'*70}")
-                                    logging.info(f"🎉 EARLY STOP: Score {best_score} ≥ threshold {stop_threshold}")
-                                    logging.info(f"   Query type: {query_type}")
-                                    logging.info(f"   Matched DOI: {result.get('doi', {}).get('value', 'N/A')}")
-                                    logging.info(f"{'✓'*70}\n")
-                                    return best_match, best_score    
+                                    score_logger.debug(
+                                        f"🎉 EARLY STOP: score {best_score} ≥ {stop_threshold} "
+                                        f"({query_type}, DOI={result.get('doi', {}).get('value', 'N/A')})")
+                                    return best_match, best_score
 
                         except (RateLimitError, ServerError) as e:
                             logging.error(f"❌ FATAL ERROR in {query_type}: {e}")
                             raise
                         except QueryExecutionError as e:
-                            logging.info(f"⚠️ Query execution error in {query_type}: {e}")
+                            query_logger.debug(f"⚠️ Query execution error in {query_type}: {e}")
                             continue
                         except Exception as e:
-                            logging.info(f"⚠️ Unexpected error in {query_type}: {e}")
-                            import traceback
-                            logging.debug(traceback.format_exc())
+                            query_logger.debug(f"⚠️ Unexpected error in {query_type}: {e}")
+                            query_logger.debug(traceback.format_exc())
                             continue
 
-                    logging.info(f"\n{'='*70}")
-                    logging.info(f"🏁 LOOP COMPLETE")
-                    logging.info(f"  Best score: {best_score}")
-                    logging.info(f"  Best match: {'Found' if best_match else 'None'}")
-                    if best_match:
-                        logging.info(f"  Query type: {best_match.get('query_type', 'N/A')}")
-                    logging.info(f"{'='*70}\n")
-                    
+                    score_logger.debug(
+                        f"🏁 LOOP COMPLETE: best_score={best_score}, "
+                        f"match={'found' if best_match else 'none'}")
                     return best_match, best_score
             
                 # Initialize ALL variables at the start
@@ -1720,11 +1690,15 @@ class ReferenceProcessor:
                 # First attempt
                 best_match, best_score = await run_sparql_matching_loop(processed_ref, threshold, use_doi=use_doi)
 
-                # Apply threshold adjustment if score is close (>= 90%)
-                adjusted_threshold = apply_threshold_adjustment(best_score, threshold)
+                # Apply threshold adjustment (config-controlled; see MatcherConfig)
+                cfg = self.matcher_config
+                adjusted_threshold = apply_threshold_adjustment(
+                    best_score, threshold,
+                    adjustment_factor=cfg.threshold_adjustment,
+                    enabled=cfg.enable_threshold_adjustment)
 
                 if best_score >= adjusted_threshold:
-                    logging.info(
+                    logging.debug(
                         f"Match found with SPARQL (score: {best_score}, "
                         f"threshold: {adjusted_threshold}{' (adjusted)' if adjusted_threshold < threshold else ''})"
                     )
@@ -1732,17 +1706,8 @@ class ReferenceProcessor:
 
                 # Grobid fallback (if enabled and unstructured text available)
                 if self.use_grobid and self.grobid_processor and processed_ref.unstructured:
-                    logging.info("\n" + "="*70)
-                    logging.info(f"🔧 GROBID FALLBACK ATTEMPT")
-                    logging.info("="*70)
-                    logging.info(f"📝 Unstructured text:")
-                    logging.info(f"   '{processed_ref.unstructured[:150]}...'")
-                    logging.info(f"📊 Current reference state BEFORE Grobid:")
-                    logging.info(f"   Year: {processed_ref.year or '(empty)'}")
-                    logging.info(f"   Author: {processed_ref.first_author_lastname or '(empty)'}")
-                    logging.info(f"   Title: {processed_ref.get_main_title()[:50] or '(empty)'}...")
-                    logging.info(f"   Volume: {processed_ref.volume or '(empty)'}")
-                    logging.info(f"   Page: {processed_ref.first_page or '(empty)'}")
+                    logging.debug(f"🔧 GROBID FALLBACK ATTEMPT on: "
+                                  f"'{processed_ref.unstructured[:150]}...'")
 
                     try:
                         grobid_ref = self.grobid_processor.process_unstructured_reference(processed_ref.unstructured)
@@ -1756,57 +1721,47 @@ class ReferenceProcessor:
                                 async with stats_lock:
                                     stats['grobid_fallbacks'] += 1
 
-                            logging.info(f"✅ Grobid extracted fields:")
-                            logging.info(f"   Year: {grobid_ref.year or '(empty)'}")
-                            logging.info(f"   Author: {grobid_ref.first_author_lastname or '(empty)'}")
-                            logging.info(f"   Title: {grobid_ref.article_title[:50] or '(empty)'}...")
-                            logging.info(f"   Volume: {grobid_ref.volume or '(empty)'}")
-                            logging.info(f"   Page: {grobid_ref.first_page or '(empty)'}")
+                            logging.debug(
+                                f"✅ Grobid extracted: year={grobid_ref.year or '-'}, "
+                                f"author={grobid_ref.first_author_lastname or '-'}, "
+                                f"title='{(grobid_ref.article_title or '')[:50]}'")
 
                             # Validate year before merging
-                            suspicious_year = False
                             if grobid_ref.year:
                                 try:
                                     year_int = int(grobid_ref.year)
                                     current_year = datetime.now().year
                                     if year_int < 1700 or year_int > current_year + 1:
-                                        logging.info(f"⚠️ Grobid extracted suspicious year: {year_int}")
-                                        logging.info(f"   Expected range: 1700-{current_year + 1}")
-                                        suspicious_year = True
+                                        logging.debug(f"⚠️ Grobid suspicious year: {year_int}")
                                 except ValueError:
-                                    logging.info(f"⚠️ Grobid extracted invalid year format: '{grobid_ref.year}'")
-                                    suspicious_year = True
+                                    logging.debug(f"⚠️ Grobid invalid year format: '{grobid_ref.year}'")
 
                             self._merge_reference_data(processed_ref, grobid_ref, use_doi)
-                            
-                            logging.info(f"📊 Reference state AFTER merge:")
-                            logging.info(f"   Year: {processed_ref.year or '(empty)'}")
-                            logging.info(f"   Author: {processed_ref.first_author_lastname or '(empty)'}")
-                            logging.info(f"   Title: {processed_ref.get_main_title()[:50] or '(empty)'}...")
-                            logging.info(f"   Volume: {processed_ref.volume or '(empty)'}")
-                            logging.info(f"   Page: {processed_ref.first_page or '(empty)'}")
-                            
+
                             best_match2, best_score2 = await run_sparql_matching_loop(processed_ref, threshold, use_doi=use_doi)
-                            
-                            adjusted_threshold2 = apply_threshold_adjustment(best_score2, threshold)
+
+                            adjusted_threshold2 = apply_threshold_adjustment(
+                                best_score2, threshold,
+                                adjustment_factor=cfg.threshold_adjustment,
+                                enabled=cfg.enable_threshold_adjustment)
 
                             if best_score2 >= adjusted_threshold2:
                                 if stats and stats_lock:
                                     async with stats_lock:
                                         stats['grobid_successes'] += 1
-                                logging.info(
+                                logging.debug(
                                     f"Match found after Grobid enrichment (score: {best_score2}, "
                                     f"threshold: {adjusted_threshold2}{' (adjusted)' if adjusted_threshold2 < threshold else ''})"
                                 )
                                 return best_match2
 
                         else:
-                            logging.info("⚠️ Grobid failed to extract reference")
+                            logging.debug("⚠️ Grobid failed to extract reference")
 
                     except Exception as e:
-                        logging.info(f"⚠️ Grobid processing error: {e}")
+                        logging.debug(f"⚠️ Grobid processing error: {e}")
                 else:
-                    # Explain why Grobid was NOT used
+                    # Explain why Grobid was NOT used (debug only)
                     reasons = []
                     if not self.use_grobid:
                         reasons.append("Grobid not enabled (use --use-grobid flag)")
@@ -1814,27 +1769,24 @@ class ReferenceProcessor:
                         reasons.append("Grobid processor failed to initialize")
                     if not processed_ref.unstructured:
                         reasons.append("No unstructured text available")
-
                     if reasons:
-                        logging.info(f"\nℹ️ Grobid fallback skipped: {'; '.join(reasons)}")
+                        logging.debug(f"ℹ️ Grobid fallback skipped: {'; '.join(reasons)}")
 
                 # Partial match without year (relaxed attempt) - OUTSIDE Grobid block
                 if processed_ref.year:
-                    logging.info("\n" + "="*70)
-                    logging.info(f"🔄 TRYING WITHOUT YEAR")
-                    logging.info("="*70)
+                    logging.debug("🔄 TRYING WITHOUT YEAR")
 
                     processed_ref_no_year = Reference(**{k: v for k, v in processed_ref.__dict__.items()})
                     processed_ref_no_year.year = ""
 
                     best_match3, best_score3 = await run_sparql_matching_loop(processed_ref_no_year, threshold, use_doi=use_doi)
 
-                    if best_match3 and best_score3 >= threshold * 0.9:
+                    if best_match3 and best_score3 >= threshold * cfg.no_year_threshold_factor:
                         best_match3['score'] = best_score3
-                        logging.info(f"Partial match without year (score={best_score3} < threshold)")
+                        logging.debug(f"Partial match without year (score={best_score3})")
                         return best_match3
 
-                logging.info("No match found after all attempts")
+                logging.debug("No match found after all attempts")
                 all_scores = [s for s in [best_score, best_score2, best_score3] if s is not None and s > 0]
                 highest_score = max(all_scores) if all_scores else None
                 
@@ -1864,14 +1816,12 @@ class ReferenceProcessor:
         
         # Fields to PREFER from Grobid if available (more accurate)
         prefer_grobid = [
-            ('article_title', 'article_title'),  # ← Grobid is very accurate 
+            ('article_title', 'article_title'),  # ← Grobid is very accurate
         ]
-        
-        # Fields to KEEP original (Crossref più affidabile)
-        keep_original = [
-            ('first_page', 'first_page'),  # ← Crossref page è più affidabile
-        ]
-        
+
+        # first_page is intentionally kept from the original (Crossref's page is
+        # more reliable than Grobid's), i.e. simply not merged here.
+
         merged_fields = []
         
         # Merge if empty
@@ -1883,12 +1833,11 @@ class ReferenceProcessor:
                 setattr(original_ref, orig_field, grobid_value)
                 merged_fields.append(orig_field)
         
-        # Prefer Grobid
+        # Prefer Grobid: overwrite the original whenever Grobid has a value
+        # (Grobid's title segmentation is more reliable than Crossref's here).
         for orig_field, grobid_field in prefer_grobid:
-            orig_value = getattr(original_ref, orig_field, "")
             grobid_value = getattr(grobid_ref, grobid_field, "")
-            
-            if not orig_value and grobid_value: 
+            if grobid_value:
                 setattr(original_ref, orig_field, grobid_value)
                 merged_fields.append(orig_field)
         
@@ -1988,78 +1937,21 @@ class ReferenceProcessor:
 
     async def _process_crossref_file(self, input_file: str, output_file: str, threshold: int, use_doi: bool = True):        
         """Enhanced Crossref processing with comprehensive field tracking"""
-        def clean_reference_text(text: str) -> str:
-            """Fix common encoding issues in reference text"""
-            replacements = {
-                'âˆ†': 'Δ',  # Delta
-                'Î"': 'Δ',   # Another common Delta corruption
-                'â€"': '–',  # En-dash
-                'â€"': '—',  # Em-dash
-                "â€˜": "'",  # Left single quote
-                "â€™": "'",  # Right single quote
-                'â€œ': '"',  # Left double quote
-                'â€': '"',   # Right double quote
-                'Â': '',     # Non-breaking space artifact
-            }
-            
-            for bad, good in replacements.items():
-                text = text.replace(bad, good)
-            
-            return text
-        
         # Initialize comprehensive stats with ALL fields
-        stats = {
-            'total_references': 0, 
-            'matches_found': 0, 
-            'errors': 0,
-            'query_types': {},
-            
-            'doi_matches': 0,
-            # Author stats
-            'refs_with_author': 0,
-            'author_exact_matches': 0,
-            
-            # Title stats
-            'refs_with_title': 0,
-            'title_exact_matches': 0,
-            'title_fuzzy_matches': 0,
-            
-            # Year stats
-            'refs_with_year': 0,
-            'year_exact_matches': 0,
-            'year_adjacent_matches': 0,
-            
-            # Volume stats
-            'refs_with_volume': 0,
-            'volume_matches': 0,
-            
-            # Page stats
-            'refs_with_page': 0,
-            'page_matches': 0,
-            
-            # DOI stats
-            'refs_with_doi': 0,
-            'doi_matches': 0,
-            
-            # Grobid stats
-            'grobid_fallbacks': 0,
-            'grobid_successes': 0
-        }
-        
+        stats = new_stats_dict(include_grobid=True)
+
         stats_lock = asyncio.Lock()
         unmatched_lock = asyncio.Lock()
         reference_semaphore = asyncio.Semaphore(self.matcher_config.max_concurrent_references)
-        async def process_single_reference(ref_data, index):
+        async def process_single_reference(ref_data, index, matcher):
             """Process one reference concurrently"""
             async with reference_semaphore:
                 try:
                     async with stats_lock:
                         stats['total_references'] += 1
-                    
-                    logging.info(f"\n{'='*70}")
-                    logging.info(f"📄 Processing Reference #{index}/{total_refs}")
-                    logging.info(f"{'='*70}")
-                    
+
+                    logger.debug(f"📄 Processing Reference #{index}/{total_refs}")
+
                     # Extract fields using helper methods
                     author_lastname = self._extract_author(ref_data)
                     article_title = self._extract_title(ref_data)
@@ -2094,20 +1986,14 @@ class ReferenceProcessor:
                         if ref.first_page:
                             stats['refs_with_page'] += 1
                     
-                    # Process (concurrent with other refs)
-                    match = await self.process_reference(ref, threshold, use_doi, stats, stats_lock)
+                    # Process (concurrent with other refs, sharing one matcher)
+                    match = await self.process_reference(ref, matcher, threshold, use_doi, stats, stats_lock)
                     if match and not match.get('below_threshold', False):
-                        logging.info(f"\n{'✓'*70}")
-                        logging.info(f"🎉 MATCH FOUND!")
-                        logging.info(f"  Reference ID: ref_{index}")
-                        logging.info(f"  Query Type: {match.get('query_type', 'unknown')}")
-                        logging.info(f"  Score: {match.get('score', 0)}")
-                        logging.info(f"{'✓'*70}\n")
+                        logger.debug(f"🎉 MATCH FOUND! ref_{index} "
+                                     f"query={match.get('query_type', 'unknown')} "
+                                     f"score={match.get('score', 0)}")
                     else:
-                        logging.info(f"\n{'✗'*70}")
-                        logging.info(f"❌ NO MATCH FOUND")
-                        logging.info(f"  Reference ID: ref_{index}")
-                        logging.info(f"{'✗'*70}\n")
+                        logger.debug(f"❌ NO MATCH FOUND for ref_{index}")
                     return {
                         'index': index,
                         'ref_id': f'ref_{index}',
@@ -2201,79 +2087,63 @@ class ReferenceProcessor:
         os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
 
         try:
-            with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
-                writer = csv.DictWriter(
-                    csvfile,
-                    fieldnames=[
-                        'reference_id',
-                        'article_title',
-                        'matched_title',
-                        'score',
-                        'matched_doi',
-                        'meta_id',
-                        'query_type'
-                    ]
-                )
-                writer.writeheader()
+            # Create concurrent tasks, sharing a single matcher (one rate limiter
+            # + one connection pool) across every reference in the file. The
+            # output CSV is written exactly once, after all results are in.
+            logging.info(f"Creating {total_refs} concurrent tasks")
+            results = []
+            async with OpenCitationsMatcherThreadSafe(
+                endpoint=self.matcher_endpoint, config=self.matcher_config
+            ) as matcher:
+                tasks = [
+                    process_single_reference(ref_data, i, matcher)
+                    for i, ref_data in enumerate(data['message']['reference'], 1)
+                ]
 
-                # Create concurrent tasks
-                total_refs = len(data['message']['reference'])
-                logging.info(f"Creating {total_refs} concurrent tasks")
-
-                tasks = []
-                for i, ref_data in enumerate(data['message']['reference'], 1):
-                    task = process_single_reference(ref_data, i)
-                    tasks.append(task)
-
-                # Process concurrently
-                logging.info(f"Starting concurrent processing")
-                results = []
-
+                logging.info("Starting concurrent processing")
                 for coro in asyncio.as_completed(tasks):
                     result = await coro
                     results.append(result)
                     if len(results) % 10 == 0:
                         logging.info(f"Progress: {len(results)}/{total_refs}")
 
-                # Sort by index
-                results.sort(key=lambda x: x['index'])
+            # Sort by index and write the single output CSV
+            results.sort(key=lambda x: x['index'])
 
-                # Write results
-                with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
-                    writer = csv.DictWriter(
-                        csvfile,
-                        fieldnames=['reference_id', 'article_title', 'matched_title',
+            with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
+                writer = csv.DictWriter(
+                    csvfile,
+                    fieldnames=['reference_id', 'article_title', 'matched_title',
                                 'score', 'matched_doi', 'meta_id', 'query_type']
-                    )
-                    writer.writeheader()
-                    
-                    for result in results:
-                        if not result['success']:
-                            continue
-                        
-                        match = result['match']
-                        
-                        if match and not match.get('below_threshold', False):
-                            async with stats_lock:
-                                stats['matches_found'] += 1
-                                query_type = match.get('query_type', 'unknown')
-                                stats['query_types'][query_type] = stats['query_types'].get(query_type, 0) + 1
-                                self._track_final_match_stats(match, result['ref'], stats)
-                            
-                            writer.writerow({
-                                'reference_id': result['ref_id'],
-                                # 'article_title': result['ref'].article_title or 'N/A',
-                                'article_title': result['ref'].get_main_title() or 'N/A',
-                                'matched_title': match.get('title', {}).get('value', 'N/A'),
-                                'score': match.get('score', 0),
-                                'matched_doi': match.get('doi', {}).get('value', 'N/A'),
-                                'meta_id': match.get('br', {}).get('value', 'N/A'),
-                                'query_type': match.get('query_type', 'unknown')
-                            })
-                        else:
-                            best_score = match.get('score') if match else None
-                            async with unmatched_lock:
-                                unmatched_refs.append((result['ref_id'], result['ref'], best_score))
+                )
+                writer.writeheader()
+
+                for result in results:
+                    if not result['success']:
+                        continue
+
+                    match = result['match']
+
+                    if match and not match.get('below_threshold', False):
+                        async with stats_lock:
+                            stats['matches_found'] += 1
+                            query_type = match.get('query_type', 'unknown')
+                            stats['query_types'][query_type] = stats['query_types'].get(query_type, 0) + 1
+                            self._track_final_match_stats(match, result['ref'], stats)
+
+                        writer.writerow({
+                            'reference_id': result['ref_id'],
+                            'article_title': result['ref'].get_main_title() or 'N/A',
+                            'matched_title': match.get('title', {}).get('value', 'N/A'),
+                            'score': match.get('score', 0),
+                            'matched_doi': match.get('doi', {}).get('value', 'N/A'),
+                            'meta_id': match.get('br', {}).get('value', 'N/A'),
+                            'query_type': match.get('query_type', 'unknown')
+                        })
+                    else:
+                        best_score = match.get('score') if match else None
+                        async with unmatched_lock:
+                            unmatched_refs.append((result['ref_id'], result['ref'], best_score))
 
             # Save unmatched references
             if unmatched_refs:
@@ -2322,40 +2192,8 @@ class ReferenceProcessor:
 
     async def _process_tei_file(self, input_file: str, output_file: str, threshold: int, use_doi: bool = True):
         """Enhanced TEI processing with comprehensive field tracking"""
-        
         # Initialize comprehensive stats with ALL fields (same as Crossref)
-        stats = {
-            'total_references': 0,
-            'matches_found': 0,
-            'errors': 0,
-            'query_types': {},
-            
-            # Author stats
-            'refs_with_author': 0,
-            'author_exact_matches': 0,
-            
-            # Title stats
-            'refs_with_title': 0,
-            'title_exact_matches': 0,
-            'title_fuzzy_matches': 0,
-            
-            # Year stats
-            'refs_with_year': 0,
-            'year_exact_matches': 0,
-            'year_adjacent_matches': 0,
-            
-            # Volume stats
-            'refs_with_volume': 0,
-            'volume_matches': 0,
-            
-            # Page stats
-            'refs_with_page': 0,
-            'page_matches': 0,
-            
-            # DOI stats
-            'refs_with_doi': 0,
-            'doi_matches': 0
-        }
+        stats = new_stats_dict(include_grobid=True)
         stats_lock = asyncio.Lock()
         unmatched_lock = asyncio.Lock()
         unmatched_refs = []
@@ -2388,20 +2226,18 @@ class ReferenceProcessor:
         total_refs = len(bibl_structs)
         logging.info(f"📊 Found {total_refs} biblStruct elements\n")
         
-        async def process_single_bibl(bibl, index):
+        async def process_single_bibl(bibl, index, matcher):
             """Process one TEI reference concurrently"""
             async with reference_semaphore:
                 try:
                     async with stats_lock:
                         stats['total_references'] += 1
-                    
-                    logging.info(f"\n{'='*70}")
-                    logging.info(f"📄 Processing Reference #{index}/{total_refs}")
-                    logging.info(f"{'='*70}")
-                    
+
+                    logger.debug(f"📄 Processing Reference #{index}/{total_refs}")
+
                     ref = self._parse_bibl_struct(bibl, ns)
                     if not ref:
-                        logging.info(f"⚠️ Could not parse biblStruct")
+                        logger.debug("⚠️ Could not parse biblStruct")
                         return {'index': index, 'success': False}
                     
                     # Track fields
@@ -2419,24 +2255,18 @@ class ReferenceProcessor:
                         if ref.doi:
                             stats['refs_with_doi'] += 1
                     
-                    # Process
-                    match = await self.process_reference(ref, threshold, use_doi, stats, stats_lock)
-                    
+                    # Process (sharing one matcher across the file)
+                    match = await self.process_reference(ref, matcher, threshold, use_doi, stats, stats_lock)
+
                     ref_id = bibl.get('{http://www.w3.org/XML/1998/namespace}id', f'ref_{index}')
-                    
+
                     if match and not match.get('below_threshold', False):
-                        logging.info(f"\n{'✓'*70}")
-                        logging.info(f"🎉 MATCH FOUND!")
-                        logging.info(f"  Reference ID: {ref_id}")
-                        logging.info(f"  Query Type: {match.get('query_type', 'unknown')}")
-                        logging.info(f"  Score: {match.get('score', 0)}")
-                        logging.info(f"{'✓'*70}\n")
+                        logger.debug(f"🎉 MATCH FOUND! {ref_id} "
+                                     f"query={match.get('query_type', 'unknown')} "
+                                     f"score={match.get('score', 0)}")
                     else:
-                        logging.info(f"\n{'✗'*70}")
-                        logging.info(f"❌ NO MATCH FOUND")
-                        logging.info(f"  Reference ID: {ref_id}")
-                        logging.info(f"{'✗'*70}\n")
-                    
+                        logger.debug(f"❌ NO MATCH FOUND for {ref_id}")
+
                     return {
                         'index': index,
                         'ref_id': ref_id,
@@ -2455,20 +2285,23 @@ class ReferenceProcessor:
 
         try:
             # Create concurrent tasks
-            tasks = []
-            for i, bibl in enumerate(bibl_structs, 1):
-                task = process_single_bibl(bibl, i)
-                tasks.append(task)
-
-            # Process concurrently
-            logging.info(f"🚀 Starting concurrent processing of {len(tasks)} references")
+            # Share a single matcher (one rate limiter + connection pool) across
+            # every reference in the file.
             results = []
+            async with OpenCitationsMatcherThreadSafe(
+                endpoint=self.matcher_endpoint, config=self.matcher_config
+            ) as matcher:
+                tasks = [
+                    process_single_bibl(bibl, i, matcher)
+                    for i, bibl in enumerate(bibl_structs, 1)
+                ]
 
-            for coro in asyncio.as_completed(tasks):
-                result = await coro
-                results.append(result)
-                if len(results) % 10 == 0:
-                    logging.info(f"Progress: {len(results)}/{total_refs}")
+                logging.info(f"🚀 Starting concurrent processing of {len(tasks)} references")
+                for coro in asyncio.as_completed(tasks):
+                    result = await coro
+                    results.append(result)
+                    if len(results) % 10 == 0:
+                        logging.info(f"Progress: {len(results)}/{total_refs}")
 
             # Sort by index
             results.sort(key=lambda x: x['index'])
@@ -2514,13 +2347,8 @@ class ReferenceProcessor:
                             'query_type': match.get('query_type', 'unknown')
                         })
                     else:
-                        if isinstance(match, dict):
-                            best_score = match.get('score')
-                            score_info = match 
-                        else:
-                            best_score = None
-                            score_info = None
-                        
+                        score_info = match if isinstance(match, dict) else None
+
                         async with unmatched_lock:
                             unmatched_refs.append((result['ref_id'], result['ref'], score_info))
             
@@ -2648,8 +2476,21 @@ class ReferenceProcessor:
     @staticmethod
     def _save_stats_file(stats: Dict, output_file: str):
         """
-        Save comprehensive statistics including all field coverage and match data
+        Save comprehensive statistics including all field coverage and match data.
+
+        Also writes a machine-readable JSON sidecar (``*_stats.json``) so the
+        aggregation step can re-read exact values instead of regex-scraping the
+        human-readable text.
         """
+        # Machine-readable sidecar first (cheap, and useful even if the pretty
+        # text write below fails for some reason).
+        try:
+            json_file = os.path.splitext(output_file)[0] + '.json'
+            with open(json_file, 'w', encoding='utf-8') as jf:
+                json.dump(stats, jf, ensure_ascii=False, indent=2)
+        except Exception as e:
+            logging.debug(f"Could not write stats JSON sidecar: {e}")
+
         try:
             total = stats.get('total_references', 0)
             matches = stats.get('matches_found', 0)
@@ -2940,12 +2781,12 @@ class ReferenceProcessor:
                 if os.path.exists(output_file):
                     try:
                         os.remove(output_file)
-                    except:
+                    except OSError:
                         pass
                 if os.path.exists(stats_file):
                     try:
                         os.remove(stats_file)
-                    except:
+                    except OSError:
                         pass
                 
                 if attempt < max_retries:
@@ -2969,30 +2810,37 @@ class BatchProcessor:
         self.use_doi = use_doi
         self.checkpoint_interval = checkpoint_interval
         self._checkpoint_lock = threading.Lock()
-        self.setup_logging()
+        # Logging is configured once in main() via setup_logging(); this class
+        # must not call logging.basicConfig (it was a silent no-op here because
+        # the root logger already had handlers, and only added confusion).
 
-    def setup_logging(self):
-        """Setup logging configuration"""
-        logging.basicConfig(
-            level=logging.WARNING,
-            format='%(asctime)s - %(levelname)s - %(message)s',
-            handlers=[
-                logging.FileHandler('batch_processing.log'),
-                logging.StreamHandler()
-            ]
-        )
+    @staticmethod
+    def _default_checkpoint_path(output_dir: str, checkpoint_file: Optional[str]) -> str:
+        """Resolve the checkpoint path.
 
+        By default the checkpoint lives *inside* the output directory, so batch
+        runs with different ``-o`` folders (or different configs) track their
+        progress independently instead of clobbering one shared file in the CWD.
+        An explicit ``checkpoint_file`` still overrides this.
+        """
+        if checkpoint_file:
+            return checkpoint_file
+        return os.path.join(output_dir, 'processing_checkpoint.pkl')
 
-
-
-    async def process_directory(self, input_dir: str, output_dir: str, threshold: int = 26, 
-                           checkpoint_file: str = 'processing_checkpoint.pkl') -> str:
+    async def process_directory(self, input_dir: str, output_dir: str, threshold: int = 26,
+                           checkpoint_file: Optional[str] = None,
+                           force_restart: bool = False) -> Optional[str]:
         """Memory-efficient directory processing with progress tracking and aggregate stats"""
         if not os.path.exists(input_dir):
             raise FileNotFoundError(f"Input directory not found: {input_dir}")
-            
+
         os.makedirs(output_dir, exist_ok=True)
-        
+        checkpoint_file = self._default_checkpoint_path(output_dir, checkpoint_file)
+
+        if force_restart:
+            logging.info("Force restart requested - resetting checkpoint")
+            self.reset_checkpoint(checkpoint_file)
+
         with self._checkpoint_lock:
             processed_files = self.load_checkpoint(checkpoint_file)
 
@@ -3011,30 +2859,7 @@ class BatchProcessor:
         print(f"💾 Already processed: {len(processed_files)} files\n")
 
         # Aggregate stats
-        aggregate_stats = {
-            'total_references': 0,
-            'matches_found': 0,
-            'errors': 0,
-            'query_types': {},
-            'refs_with_author': 0,
-            'author_exact_matches': 0,
-            'refs_with_title': 0,
-            'refs_with_doi': 0,
-            'doi_matches': 0,              
-            'refs_with_year': 0,           
-            'refs_with_volume': 0,          
-            'refs_with_page': 0,            
-            'year_exact_matches': 0,        
-            'year_adjacent_matches': 0,     
-            'title_exact_matches': 0,      
-            'title_fuzzy_matches': 0,       
-            'volume_matches': 0,            
-            'page_matches': 0,              
-            'grobid_fallbacks': 0,         
-            'grobid_successes': 0,          
-            'files_processed': 0,
-            'files_with_errors': 0
-        }
+        aggregate_stats = new_stats_dict(include_grobid=True, include_files=True)
 
         error_500_count = 0
         files_since_checkpoint = 0
@@ -3075,30 +2900,13 @@ class BatchProcessor:
                             error_500_count += 1
                             aggregate_stats['files_with_errors'] += 1
                             pbar.update(1)
-                            
-                            # Try to read stats even on error
-                            stats_file = os.path.splitext(output_path)[0] + '_stats.txt'
-                            if os.path.exists(stats_file):
-                                try:
-                                    file_stats = self._read_stats_file(stats_file)
-                                    self._merge_stats(aggregate_stats, file_stats)
-                                    aggregate_stats['files_processed'] += 1
-                                    logging.info(f"Stats recovered after exception for {filename}")
-                                except Exception as e:
-                                    logging.info(f"Could not read stats after exception: {e}")
                             continue
-                        
-                        # Read stats file
-                        stats_file = os.path.splitext(output_path)[0] + '_stats.txt'
-                        if os.path.exists(stats_file):
-                            try:
-                                file_stats = self._read_stats_file(stats_file)
-                                self._merge_stats(aggregate_stats, file_stats)
-                                aggregate_stats['files_processed'] += 1
-                                logging.debug(f"Read stats from {stats_file}: {file_stats}")
-                            except Exception as e:
-                                logging.info(f"Error reading stats from {stats_file}: {e}")
-                        
+
+                        # Per-file stats are NOT merged here: the authoritative
+                        # aggregate is rebuilt from disk by _aggregate_all_stats()
+                        # below, so merging in-loop was redundant work that also
+                        # race-conditioned with late writes.
+
                         # Update progress
                         pbar.set_postfix_str(f"✓ {filename[:30]}...")
                         current_batch_processed.add(filename)
@@ -3126,11 +2934,11 @@ class BatchProcessor:
                 
                 if error_500_count >= self.error_threshold:
                     pbar.write(f"\n⚠ Too many errors ({error_500_count}). Pausing 5 minutes...")
-                    time.sleep(300)  
-                    error_500_count = 0  
+                    await asyncio.sleep(300)  # async sleep: don't block the event loop
+                    error_500_count = 0
 
                 if i + self.batch_size < total_files:
-                    time.sleep(self.pause_duration)
+                    await asyncio.sleep(self.pause_duration)
 
             with self._checkpoint_lock:
                 if current_batch_processed:
@@ -3140,18 +2948,19 @@ class BatchProcessor:
         # Generate aggregate report
         print(f"\n✓ Complete! Processed {len(processed_files)} total files")
         print(f"\n📊 Generating aggregate report...")
-        
-        self._print_aggregate_stats(aggregate_stats, output_dir)
-        self._save_aggregate_stats_file(aggregate_stats, output_dir)
-        
+
         try:
             # Wait a moment for any in-flight writes to complete
             await asyncio.sleep(2)
-            
-            # Re-aggregate ALL stats files to catch any that were written late
+
+            # Re-aggregate ALL stats files from disk: this is the single
+            # authoritative aggregation (avoids the previous race with late writes).
             logging.info("Performing final aggregation of all stats files...")
-            aggregate_stats = self._aggregate_all_stats(output_dir)  # 👈 DO THIS FIRST
-            
+            aggregate_stats = self._aggregate_all_stats(output_dir)
+
+            self._print_aggregate_stats(aggregate_stats, output_dir)
+            self._save_aggregate_stats_file(aggregate_stats, output_dir)
+
             # VALIDATION: Check all outputs for failures (AFTER re-aggregation)
             logging.info("\n" + "="*80)
             logging.info("🔍 Validating all outputs...")
@@ -3287,7 +3096,7 @@ class BatchProcessor:
                     
             except Exception as e:
                 logging.error(f"Error compressing checkpoint: {e}")
-    def get_processing_stats(self, checkpoint_file: str) -> Dict[str, any]:
+    def get_processing_stats(self, checkpoint_file: str) -> Dict[str, Any]:
         """Get statistics about processing progress"""
         if not os.path.exists(checkpoint_file):
             return {
@@ -3325,60 +3134,54 @@ class BatchProcessor:
             logging.error(f"Error resetting checkpoint: {e}")
             return False
 
-    def process_directory_with_resume(self, input_dir: str, output_dir: str, 
-                                     threshold: int = 26, 
-                                     checkpoint_file: str = 'processing_checkpoint.pkl',
+    async def process_directory_with_resume(self, input_dir: str, output_dir: str,
+                                     threshold: int = 26,
+                                     checkpoint_file: Optional[str] = None,
                                      force_restart: bool = False):
         """
         Process directory with automatic resume capability
-        
+
         Args:
             input_dir: Input directory path
             output_dir: Output directory path
             threshold: Matching threshold
-            checkpoint_file: Checkpoint file path
+            checkpoint_file: Checkpoint path (defaults to one inside output_dir)
             force_restart: If True, ignore existing checkpoint and start fresh
         """
-        if force_restart:
-            logging.info("Force restart requested - resetting checkpoint")
-            self.reset_checkpoint(checkpoint_file)
-        
-        # Show current progress
-        stats = self.get_processing_stats(checkpoint_file)
-        if stats['checkpoint_exists']:
-            logging.info(f"Resuming from checkpoint: {stats['processed_files']} files already processed")
-        
-        # Process
-        self.process_directory(input_dir, output_dir, threshold, checkpoint_file)
-    
+        checkpoint_file = self._default_checkpoint_path(output_dir, checkpoint_file)
+
+        # Show current progress (reset is handled inside process_directory)
+        if not force_restart:
+            stats = self.get_processing_stats(checkpoint_file)
+            if stats['checkpoint_exists']:
+                logging.info(f"Resuming from checkpoint: {stats['processed_files']} files already processed")
+
+        # Process (await the coroutine — previously this was never awaited, so
+        # process_directory silently did nothing).
+        await self.process_directory(input_dir, output_dir, threshold,
+                                     checkpoint_file, force_restart=force_restart)
+
     def _read_stats_file(self, stats_file: str) -> Dict:
         """
-        FIXED: Read stats from individual file stats.txt
-        Now extracts ALL metadata including query types and author stats
+        Read per-file stats. Prefers the machine-readable JSON sidecar written
+        alongside the .txt; only falls back to brittle regex parsing of the
+        human-readable text when the JSON is absent (older outputs).
         """
-        stats = {
-            'total_references': 0,
-            'matches_found': 0,
-            'errors': 0,
-            'query_types': {},
-            'refs_with_author': 0,
-            'author_exact_matches': 0,
-            'refs_with_title': 0,
-            'refs_with_doi': 0,
-            'doi_matches': 0,            
-            'refs_with_year': 0,         
-            'refs_with_volume': 0,      
-            'refs_with_page': 0,         
-            'year_exact_matches': 0,     
-            'year_adjacent_matches': 0,  
-            'title_exact_matches': 0,    
-            'title_fuzzy_matches': 0,    
-            'volume_matches': 0,        
-            'page_matches': 0,          
-            'grobid_fallbacks': 0,       
-            'grobid_successes': 0        
-        }
-        
+        stats = new_stats_dict(include_grobid=True)
+
+        # Fast path: JSON sidecar (robust, no regex).
+        json_file = os.path.splitext(stats_file)[0] + '.json'
+        if os.path.exists(json_file):
+            try:
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    loaded = json.load(f)
+                if isinstance(loaded, dict):
+                    stats.update(loaded)
+                    return stats
+            except Exception as e:
+                logging.debug(f"Could not read stats JSON {json_file}, "
+                              f"falling back to text parse: {e}")
+
         try:
             with open(stats_file, 'r', encoding='utf-8') as f:
                 content = f.read()
@@ -3563,7 +3366,7 @@ class BatchProcessor:
                     if "Total references processed: 0" in content:
                         is_valid = False
                         reason = "0 references"
-                except:
+                except OSError:
                     is_valid = False
                     reason = "Stats unreadable"
             
@@ -3581,33 +3384,8 @@ class BatchProcessor:
             """
             
             # Initialize aggregate stats
-            aggregate_stats = {
-                'total_references': 0,
-                'matches_found': 0,
-                'errors': 0,
-                'query_types': {},
-                'refs_with_author': 0,
-                'author_exact_matches': 0,
-                'refs_with_title': 0,
-                'refs_with_doi': 0,
-                'doi_matches': 0,
-                'refs_with_year': 0,
-                'refs_with_volume': 0,
-                'refs_with_page': 0,
-                'year_exact_matches': 0,
-                'year_adjacent_matches': 0,
-                'title_exact_matches': 0,
-                'title_fuzzy_matches': 0,
-                'volume_matches': 0,
-                'page_matches': 0,
-                'grobid_fallbacks': 0,         
-                'grobid_successes': 0,          
-                'files_processed': 0,
-                'files_with_errors': 0,
-                'empty_files': 0,
-                'total_files_attempted': 0
-            }
-            
+            aggregate_stats = new_stats_dict(include_grobid=True, include_files=True)
+
             # Scan ALL stats files in directory
             stats_files = glob(os.path.join(output_dir, "*_matches_stats.txt"))
             
@@ -3875,16 +3653,18 @@ def batch_process_with_recovery(input_dir: str, output_dir: str,
         checkpoint_interval=checkpoint_interval
         )
         
-        # Process with resume capability
-        batch_processor.process_directory_with_resume(
+        # Process with resume capability (the method is async; drive it with
+        # asyncio.run from this synchronous convenience wrapper).
+        asyncio.run(batch_processor.process_directory_with_resume(
             input_dir=input_dir,
             output_dir=output_dir,
             threshold=threshold,
             force_restart=False
-        )
+        ))
         
-        # Print final stats
-        stats = batch_processor.get_processing_stats('processing_checkpoint.pkl')
+        # Print final stats (checkpoint now lives inside the output dir)
+        checkpoint_path = os.path.join(output_dir, 'processing_checkpoint.pkl')
+        stats = batch_processor.get_processing_stats(checkpoint_path)
         logging.info(f"Processing complete. Total files processed: {stats['processed_files']}")
         
         if use_grobid:
@@ -3979,6 +3759,14 @@ async def main():
                        help='Requests per second (default: 2.5)')
     parser.add_argument('--burst-size', type=int, default=_env('BURST_SIZE', 10, int),
                        help='Maximum concurrent requests (default: 10)')
+    parser.add_argument('--no-threshold-adjustment', dest='threshold_adjustment',
+                       action='store_false',
+                       default=_env_bool('THRESHOLD_ADJUSTMENT', True),
+                       help='Enforce the raw threshold instead of lowering it to '
+                            '90%% when a score is close (see MatcherConfig).')
+    parser.add_argument('--force-restart', action='store_true',
+                       help='Ignore any existing checkpoint in the output directory '
+                            'and reprocess every file from scratch (batch mode).')
     args = parser.parse_args()
     log_level = getattr(logging, args.log_level, logging.INFO)
     setup_logging(log_level=log_level)
@@ -3986,7 +3774,8 @@ async def main():
         f"⚙️  Effective config: endpoint={args.endpoint} | "
         f"max_concurrent_references={args.max_concurrent_references} | "
         f"rate_limit={args.rate_limit} req/s | burst_size={args.burst_size} | "
-        f"threshold={args.threshold}"
+        f"threshold={args.threshold} | "
+        f"threshold_adjustment={'on' if args.threshold_adjustment else 'off'}"
     )
     # Validation
     if not os.path.exists(args.input):
@@ -4016,6 +3805,7 @@ async def main():
         config.requests_per_second = args.rate_limit
         config.burst_size = args.burst_size
         config.max_concurrent_references = args.max_concurrent_references
+        config.enable_threshold_adjustment = args.threshold_adjustment
         # 3. Pass the configured object to the processor
         processor = ReferenceProcessor(
             use_grobid=args.use_grobid,
@@ -4039,7 +3829,9 @@ async def main():
             use_doi=args.use_doi,
                 )
             output_dir = args.output or f"{args.input}_processed"
-            await batch_processor.process_directory(args.input, output_dir, args.threshold)
+            await batch_processor.process_directory(
+                args.input, output_dir, args.threshold,
+                force_restart=args.force_restart)
             
             if args.use_grobid:
                 print(f"Total Grobid fallbacks performed: {processor.grobid_fallback_count}")

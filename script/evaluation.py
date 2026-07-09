@@ -1,15 +1,19 @@
 import os
 import csv
 import json
+import re
 from typing import Dict, List, Tuple, Optional, Set
 from SPARQLWrapper import SPARQLWrapper, JSON
 from collections import defaultdict
 import time
 import argparse
 
+# Same production endpoint the main matcher targets (kept consistent on purpose).
+DEFAULT_SPARQL_ENDPOINT = "https://sparql.opencitations.net/meta"
+
+
 class OpenCitationsDOIMatcher:
-    def __init__(self, endpoint_url="https://opencitations.net/meta/sparql"):
-        # def __init__(self, endpoint_url="https://sparql.opencitations.net/meta"):
+    def __init__(self, endpoint_url=DEFAULT_SPARQL_ENDPOINT):
         self.sparql = SPARQLWrapper(endpoint_url)
         self.sparql.setReturnFormat(JSON)
 
@@ -28,17 +32,19 @@ class OpenCitationsDOIMatcher:
         return dois
 
     def generate_sparql_query(self, doi: str) -> str:
+        # Enumerate every predicate/object of the bibliographic resource carrying
+        # this DOI. (The previous version had two dead BINDs: ?publicationDate was
+        # never bound, and ?id was never selected.)
+        safe_doi = doi.replace('\\', '\\\\').replace('"', '\\"')
         return f"""PREFIX datacite: <http://purl.org/spar/datacite/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX literal: <http://www.essepuntato.it/2010/06/literalreification/>
 PREFIX prism: <http://prismstandard.org/namespaces/basic/2.0/>
 
 SELECT ?predicate ?object {{
-    ?identifier literal:hasLiteralValue "{doi}".
-    ?br datacite:hasIdentifier ?identifier;
-        ?predicate ?object.
-    BIND(STR(?publicationDate) AS ?pub_date)
-    BIND((CONCAT("doi:", "{doi}")) AS ?id)
+    ?identifier literal:hasLiteralValue "{safe_doi}" .
+    ?br datacite:hasIdentifier ?identifier ;
+        ?predicate ?object .
 }}"""
 
     def execute_sparql_query(self, query: str, max_retries=3, retry_delay=5) -> Optional[Dict]:
@@ -191,17 +197,8 @@ class MatchComparator:
     # ---------- helpers comuni ----------
     @staticmethod
     def _norm_doi(s: str) -> str:
-        """Normalizza il DOI per confronti robusti."""
-        if not s:
-            return ""
-        s = s.strip().lower().replace('\\/', '/')
-        if s.startswith('doi:'):
-            s = s[4:].strip()
-        for pref in ('https://doi.org/', 'http://doi.org/', 'https://dx.doi.org/', 'http://dx.doi.org/'):
-            if s.startswith(pref):
-                s = s[len(pref):].strip()
-                break
-        return s
+        """Normalizza il DOI per confronti robusti (delega a _norm_doi di modulo)."""
+        return _norm_doi(s)
 
     @staticmethod
     def _read_csv_rows(path: str) -> List[Dict[str, str]]:
@@ -306,98 +303,69 @@ class MatchComparator:
         return { MatchComparator._norm_doi(r.get(doi_col, '')) for r in rows
                  if MatchComparator._norm_doi(r.get(doi_col, '')) }
 
-    @staticmethod
-    def calculate_overall_metrics(check_doi_dir: str, matches_dir: str, output_dir: str = "filtered_matches") -> Dict[str, float]:
-        """
-        Calcola TP/FP/FN/TN a livello DOI per ogni <base> e aggrega:
-          TP = |PRED ∩ POS|
-          FP = |PRED ∩ NEG|
-          FN = |POS - PRED|
-          TN = |NEG - PRED|
-        """
-        total_TP = total_FP = total_FN = total_TN = 0
-        os.makedirs(output_dir, exist_ok=True)
+    # NOTE: the per-<base> TP/FP/FN/TN aggregation lives in main()'s ``metrics``
+    # action (it also emits per-base debug rows). A second, never-called copy used
+    # to live here and was removed to keep a single implementation.
 
-        for check_doi_file in os.listdir(check_doi_dir):
-            if not check_doi_file.lower().endswith('_doi_results.csv'):
-                continue
 
-            base = check_doi_file[:-len('_doi_results.csv')]
-            doi_results_path = os.path.join(check_doi_dir, check_doi_file)
+def _read_json_robust(path: str) -> Optional[Dict]:
+    """Read a JSON file trying a few encodings (Crossref dumps vary)."""
+    for enc in ('utf-8', 'utf-8-sig', 'latin-1'):
+        try:
+            with open(path, 'r', encoding=enc) as f:
+                return json.load(f)
+        except Exception:
+            continue
+    return None
 
-            # trova il file dei match in modo flessibile
-            matches_path = _find_matches_file(matches_dir, base)
-            if not matches_path:
-                # nessun matches, computiamo comunque FN/TN con PRED vuoto
-                POS = MatchComparator._load_pos_dois(doi_results_path)
-                NEG = MatchComparator._load_neg_dois(os.path.join(check_doi_dir, base + '_unmatched_dois.csv'))
-                PRED = set()
-                total_TP += 0
-                total_FP += 0
-                total_FN += len(POS - PRED)
-                total_TN += len(NEG - PRED)
-                continue
 
-            POS = MatchComparator._load_pos_dois(doi_results_path)
-            NEG = MatchComparator._load_neg_dois(os.path.join(check_doi_dir, base + '_unmatched_dois.csv'))
-            PRED = MatchComparator._load_predicted_dois(matches_path)
+def _load_crossref_oracle(json_path: str) -> Dict[int, str]:
+    """Map reference index (0-based) -> normalised DOI, for references that carry
+    a DOI in Crossref. This is the (silver) per-reference oracle used by
+    per_ref_metrics. Index i corresponds to the matcher's reference_id 'ref_{i+1}'.
+    """
+    data = _read_json_robust(json_path)
+    oracle: Dict[int, str] = {}
+    if data and 'message' in data and 'reference' in data['message']:
+        for idx, ref in enumerate(data['message']['reference']):
+            raw = ref.get('DOI')
+            if raw and raw not in ('.', ''):
+                d = _norm_doi(raw)
+                if d:
+                    oracle[idx] = d
+    return oracle
 
-            # salva TP dettagliati (filtered_matches)
-            if POS:
-                filtered = []
-                # mappa doi -> riga dai doi_results
-                doi_to_row = {}
-                for r in MatchComparator._read_csv_rows(doi_results_path):
-                    d = MatchComparator._norm_doi(r.get('DOI') or r.get('doi') or '')
-                    if d:
-                        doi_to_row[d] = r
-                for r in MatchComparator._read_csv_rows(matches_path):
-                    d = MatchComparator._norm_doi(r.get('matched_doi') or r.get('doi') or '')
-                    if d and d in doi_to_row:
-                        filtered.append({**doi_to_row[d], **r})
-                if filtered:
-                    outp = os.path.join(output_dir, base + '_filtered_matches.csv')
-                    with open(outp, 'w', encoding='utf-8', newline='') as f_out:
-                        writer = csv.DictWriter(f_out, fieldnames=filtered[0].keys())
-                        writer.writeheader()
-                        writer.writerows(filtered)
 
-            TP = len(PRED & POS)
-            FP = len(PRED & NEG)
-            FN = len(POS - PRED)
-            TN = len(NEG - PRED)
-
-            total_TP += TP
-            total_FP += FP
-            total_FN += FN
-            total_TN += TN
-
-        precision = total_TP / (total_TP + total_FP) if (total_TP + total_FP) > 0 else 0.0
-        recall    = total_TP / (total_TP + total_FN) if (total_TP + total_FN) > 0 else 0.0
-        f1        = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0.0
-        denom_acc = (total_TP + total_FP + total_FN + total_TN)
-        accuracy  = (total_TP + total_TN) / denom_acc if denom_acc > 0 else 0.0
-
-        return {
-            'precision': precision * 100,
-            'recall': recall * 100,
-            'f1_score': f1 * 100,
-            'accuracy': accuracy * 100,
-            'TP': total_TP,
-            'FP': total_FP,
-            'FN': total_FN,
-            'TN': total_TN
-        }
+def _load_matches_by_refid(matches_path: str) -> Dict[str, Dict[str, str]]:
+    """reference_id -> full match row (so we can read matched_doi, title, score)."""
+    out: Dict[str, Dict[str, str]] = {}
+    for r in MatchComparator._read_csv_rows(matches_path):
+        rid = (r.get('reference_id') or '').strip()
+        if rid:
+            out[rid] = r
+    return out
 
 
 def main():
     parser = argparse.ArgumentParser(description='Process references and compare matches')
-    parser.add_argument('action', choices=['check_doi', 'compare', 'metrics'],
+    parser.add_argument('action',
+                        choices=['check_doi', 'compare', 'metrics',
+                                 'per_ref_metrics', 'check_presence'],
                         help='Action to perform')
-    parser.add_argument('input_path', help='Input directory or file')
+    parser.add_argument('input_path', help='Input directory or file (placeholder for some actions)')
     parser.add_argument('--output_dir', help='Output directory', default='.')
     parser.add_argument('--check_doi_dir', help='Check DOI results directory')
     parser.add_argument('--matches_dir', help='Matches directory')
+    # per_ref_metrics: the Crossref JSON directory is the per-reference DOI oracle.
+    parser.add_argument('--crossref_dir',
+                        help='Directory of Crossref JSON files (oracle for per_ref_metrics)')
+    # check_presence: directory of *_unmatched.csv to test for metadata presence.
+    parser.add_argument('--unmatched_dir',
+                        help='Directory of *_unmatched.csv files (for check_presence)')
+    parser.add_argument('--limit', type=int, default=0,
+                        help='Cap the number of references checked (check_presence; 0 = no cap)')
+    parser.add_argument('--endpoint', default='https://sparql.opencitations.net/meta',
+                        help='SPARQL endpoint (check_presence)')
 
     args = parser.parse_args()
     os.makedirs(args.output_dir, exist_ok=True)
@@ -476,6 +444,13 @@ def main():
         debug_rows = []
 
         total_TP = total_FP = total_FN = total_TN = 0
+        # "Invisible"/unverifiable predictions: DOIs the matcher predicted that are
+        # in NEITHER the positive nor the negative ground-truth set (i.e. not one of
+        # the paper's cited-and-known DOIs). These are the evaluation's blind spot —
+        # a mix of enrichment of DOI-less references and possible mismatches. We
+        # surface them so they can be inspected/verified rather than silently dropped.
+        total_invisible = 0
+        invisible_rows = []
 
         for check_doi_file in os.listdir(args.check_doi_dir):
             if not check_doi_file.lower().endswith('_doi_results.csv'):
@@ -500,7 +475,8 @@ def main():
                 bases_seen += 1
                 debug_rows.append({
                     'base': file_base_name, 'POS': len(POS), 'NEG': len(NEG), 'PRED': len(PRED),
-                    'TP': TP, 'FP': FP, 'FN': FN, 'TN': TN, 'matches_file': '(none)'
+                    'TP': TP, 'FP': FP, 'FN': FN, 'TN': TN, 'INVISIBLE': 0,
+                    'matches_file': '(none)'
                 })
                 continue
 
@@ -543,18 +519,31 @@ def main():
             FP = len(PRED & NEG)
             FN = len(POS - PRED)
             TN = len(NEG - PRED)
+            # Predicted DOIs the ground truth has no opinion on.
+            invisible_set = PRED - POS - NEG
+            INVISIBLE = len(invisible_set)
+
+            # Collect the full matcher rows for those predictions so they can be
+            # inspected/verified (reference_id, matched_doi, score, title, ...).
+            if invisible_set:
+                for row in MatchComparator._read_csv_rows(matches_path):
+                    d = _norm_doi(row.get('matched_doi') or row.get('doi') or '')
+                    if d and d in invisible_set:
+                        invisible_rows.append({'base': file_base_name, **row})
 
             total_TP += TP
             total_FP += FP
             total_FN += FN
             total_TN += TN
+            total_invisible += INVISIBLE
             bases_seen += 1
 
             print(f"[metrics] base={file_base_name} POS={len(POS)} NEG={len(NEG)} PRED={len(PRED)} -> "
-                  f"TP={TP} FP={FP} FN={FN} TN={TN} (using {os.path.basename(matches_path)})")
+                  f"TP={TP} FP={FP} FN={FN} TN={TN} INVISIBLE={INVISIBLE} (using {os.path.basename(matches_path)})")
             debug_rows.append({
                 'base': file_base_name, 'POS': len(POS), 'NEG': len(NEG), 'PRED': len(PRED),
-                'TP': TP, 'FP': FP, 'FN': FN, 'TN': TN, 'matches_file': os.path.basename(matches_path)
+                'TP': TP, 'FP': FP, 'FN': FN, 'TN': TN, 'INVISIBLE': INVISIBLE,
+                'matches_file': os.path.basename(matches_path)
             })
 
         # metriche aggregate
@@ -564,12 +553,20 @@ def main():
         denom_acc = (total_TP + total_FP + total_FN + total_TN)
         accuracy  = (total_TP + total_TN) / denom_acc if denom_acc > 0 else 0.0
 
+        # Worst-case precision: if EVERY unverifiable prediction were actually wrong.
+        # Real precision lies between this and the reported precision. A big gap
+        # means the headline precision is largely unproven, not confirmed.
+        denom_worst = total_TP + total_FP + total_invisible
+        precision_worst = total_TP / denom_worst if denom_worst > 0 else 0.0
+
         metrics = {
             'precision': precision * 100,
             'recall': recall * 100,
             'f1_score': f1 * 100,
             'accuracy': accuracy * 100,
-            'TP': total_TP, 'FP': total_FP, 'FN': total_FN, 'TN': total_TN
+            'TP': total_TP, 'FP': total_FP, 'FN': total_FN, 'TN': total_TN,
+            'invisible': total_invisible,
+            'precision_worst': precision_worst * 100,
         }
 
         # CSV finale
@@ -581,21 +578,233 @@ def main():
             writer.writerow(['False Positives', metrics['FP']])
             writer.writerow(['False Negatives', metrics['FN']])
             writer.writerow(['True Negatives', metrics['TN']])
+            writer.writerow(['Unverifiable predictions (not in ground truth)', metrics['invisible']])
             writer.writerow(['Precision', f"{metrics['precision']:.2f}%"])
+            writer.writerow(['Precision (worst case, all unverifiable wrong)', f"{metrics['precision_worst']:.2f}%"])
             writer.writerow(['Recall', f"{metrics['recall']:.2f}%"])
             writer.writerow(['F1 Score', f"{metrics['f1_score']:.2f}%"])
             writer.writerow(['Accuracy', f"{metrics['accuracy']:.2f}%"])
+
+        # List every unverifiable prediction so they can be inspected / verified.
+        if invisible_rows:
+            inv_path = os.path.join(args.output_dir, "unverifiable_predictions.csv")
+            # Union of keys keeps whatever columns the matches CSV provided.
+            fieldnames = ['base']
+            for r in invisible_rows:
+                for k in r:
+                    if k not in fieldnames:
+                        fieldnames.append(k)
+            with open(inv_path, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.DictWriter(f, fieldnames=fieldnames)
+                writer.writeheader()
+                writer.writerows(invisible_rows)
+            print(f"Unverifiable predictions ({len(invisible_rows)}) listed in: {inv_path}")
 
         #debug per-base
         if debug_rows:
             dbg = os.path.join(args.output_dir, "metrics_debug_per_base.csv")
             with open(dbg, 'w', newline='', encoding='utf-8') as f:
-                writer = csv.DictWriter(f, fieldnames=['base','POS','NEG','PRED','TP','FP','FN','TN','matches_file'])
+                writer = csv.DictWriter(f, fieldnames=['base','POS','NEG','PRED','TP','FP','FN','TN','INVISIBLE','matches_file'])
                 writer.writeheader()
                 writer.writerows(debug_rows)
 
         print(f"Processed bases: {bases_seen}")
         print(f"Filtered match files saved in: {filtered_matches_dir}")
+        print(f"Unverifiable (invisible) predictions total: {total_invisible}")
+
+    elif args.action == 'per_ref_metrics':
+        # (a) PER-REFERENCE CORRECTNESS. Uses Crossref's own asserted reference
+        # DOIs as a *silver* oracle. Intended to be run against a --no-doi matches
+        # directory so it measures the NON-DOI matching logic (author/title/etc.):
+        # for each reference that has a Crossref DOI, did the tool -- which was NOT
+        # allowed to use that DOI -- independently predict the SAME DOI?
+        #   predicted == oracle -> correct        (TP)
+        #   predicted != oracle -> WRONG match    (FP)   <-- finally measurable
+        #   not matched         -> miss           (FN, a recall floor)
+        # This replaces the structural precision of `metrics` with a real one.
+        crossref_dir = args.crossref_dir or args.input_path
+        if not crossref_dir or not os.path.isdir(crossref_dir):
+            parser.error("per_ref_metrics needs --crossref_dir (Crossref JSON dir)")
+        if not args.matches_dir:
+            parser.error("per_ref_metrics needs --matches_dir (ideally a --no-doi run)")
+
+        print("Computing per-reference correctness (silver oracle = Crossref DOIs)...")
+        TP = FP = FN = matched_no_doi = oracle_total = 0
+        fp_rows = []
+        per_base = []
+
+        for jf in sorted(os.listdir(crossref_dir)):
+            if not jf.lower().endswith('.json'):
+                continue
+            base = os.path.splitext(jf)[0]
+            oracle = _load_crossref_oracle(os.path.join(crossref_dir, jf))
+            if not oracle:
+                continue
+            mpath = _find_matches_file(args.matches_dir, base)
+            matches = _load_matches_by_refid(mpath) if mpath else {}
+
+            b_tp = b_fp = b_fn = b_nodoi = 0
+            for idx, true_doi in oracle.items():
+                oracle_total += 1
+                rid = f"ref_{idx + 1}"
+                row = matches.get(rid)
+                if row is None:
+                    b_fn += 1; FN += 1
+                    continue
+                pred = _norm_doi(row.get('matched_doi') or row.get('doi') or '')
+                if not pred:
+                    b_nodoi += 1; matched_no_doi += 1          # matched, but record had no DOI
+                elif pred == true_doi:
+                    b_tp += 1; TP += 1
+                else:
+                    b_fp += 1; FP += 1
+                    fp_rows.append({
+                        'base': base, 'reference_id': rid,
+                        'predicted_doi': pred, 'crossref_doi': true_doi,
+                        'score': row.get('score', ''),
+                        'query_type': row.get('query_type', ''),
+                        'reference_title': row.get('article_title', ''),
+                        'matched_title': row.get('matched_title', ''),
+                    })
+            per_base.append({
+                'base': base, 'oracle_refs': len(oracle),
+                'TP': b_tp, 'FP': b_fp, 'FN': b_fn, 'matched_no_doi': b_nodoi,
+                'matches_file': os.path.basename(mpath) if mpath else '(none)',
+            })
+
+        precision = TP / (TP + FP) if (TP + FP) > 0 else 0.0          # real correctness
+        resolution_rate = TP / oracle_total if oracle_total > 0 else 0.0  # recall floor
+
+        metrics_path = os.path.join(args.output_dir, "per_reference_metrics.csv")
+        with open(metrics_path, 'w', newline='', encoding='utf-8') as f:
+            w = csv.writer(f)
+            w.writerow(['Metric', 'Value'])
+            w.writerow(['References with a Crossref DOI (oracle)', oracle_total])
+            w.writerow(['Correct matches (TP: predicted == Crossref DOI)', TP])
+            w.writerow(['Wrong matches (FP: predicted != Crossref DOI)', FP])
+            w.writerow(['Not matched (FN)', FN])
+            w.writerow(['Matched but record had no DOI (excluded from precision)', matched_no_doi])
+            w.writerow(['Per-reference precision (silver)', f"{precision * 100:.2f}%"])
+            w.writerow(['Correct-resolution rate (recall floor)', f"{resolution_rate * 100:.2f}%"])
+
+        if fp_rows:
+            fp_path = os.path.join(args.output_dir, "per_reference_false_positives.csv")
+            fields = ['base', 'reference_id', 'predicted_doi', 'crossref_doi',
+                      'score', 'query_type', 'reference_title', 'matched_title']
+            with open(fp_path, 'w', newline='', encoding='utf-8') as f:
+                w = csv.DictWriter(f, fieldnames=fields)
+                w.writeheader(); w.writerows(fp_rows)
+
+        if per_base:
+            pb_path = os.path.join(args.output_dir, "per_reference_debug_per_base.csv")
+            with open(pb_path, 'w', newline='', encoding='utf-8') as f:
+                w = csv.DictWriter(f, fieldnames=['base', 'oracle_refs', 'TP', 'FP',
+                                                  'FN', 'matched_no_doi', 'matches_file'])
+                w.writeheader(); w.writerows(per_base)
+
+        print(f"  Oracle references (with Crossref DOI): {oracle_total}")
+        print(f"  TP={TP} FP={FP} FN={FN} matched_no_doi={matched_no_doi}")
+        print(f"  Per-reference precision (silver): {precision * 100:.2f}%")
+        print(f"  Correct-resolution rate (recall floor): {resolution_rate * 100:.2f}%")
+        print(f"  Wrong matches to hand-check: per_reference_false_positives.csv ({len(fp_rows)})")
+        print("  NOTE: silver oracle = Crossref's own (imperfect) DOIs; hand-check "
+              "the FP file to separate real tool errors from oracle errors.")
+
+    elif args.action == 'check_presence':
+        # (b) INDEPENDENT PRESENCE CHECK. For references the matcher did NOT match,
+        # ask Meta -- via a robust title search, independent of the matcher's
+        # brittle exact-string cascade -- whether a plausibly-matching entity
+        # exists. This separates "present in Meta but the matcher missed it"
+        # (false negatives) from "genuinely absent" (ingestion candidates).
+        try:
+            from rapidfuzz import fuzz
+        except ImportError:  # pragma: no cover
+            from fuzzywuzzy import fuzz
+
+        unmatched_dir = args.unmatched_dir or args.input_path
+        if not unmatched_dir or not os.path.isdir(unmatched_dir):
+            parser.error("check_presence needs --unmatched_dir (dir of *_unmatched.csv)")
+
+        probe = SPARQLWrapper(args.endpoint)
+        probe.setReturnFormat(JSON)
+        probe.setTimeout(25)  # cap each query; unindexed title REGEX is slow
+
+        print(f"Checking Meta presence of unmatched references via title search "
+              f"(endpoint={args.endpoint})...")
+        print("NOTE: the title REGEX is UNINDEXED and slow on the public endpoint "
+              "(~seconds to tens of seconds each). Use a small --limit; for the full "
+              "set a LOCAL Meta dump is the realistic approach.")
+
+        checked = likely_present = not_found = unknown = skipped = 0
+        rows = []
+        for uf in sorted(os.listdir(unmatched_dir)):
+            if not uf.lower().endswith('_unmatched.csv'):
+                continue
+            base = uf[:-len('_unmatched.csv')]
+            for r in MatchComparator._read_csv_rows(os.path.join(unmatched_dir, uf)):
+                if args.limit and checked >= args.limit:
+                    break
+                title = (r.get('article_title') or r.get('volume_title')
+                         or r.get('journal_title') or '').strip()
+                words = [w for w in re.sub(r'[^a-z0-9\s]', ' ', title.lower()).split()
+                         if len(w) > 3][:4]
+                if not words:
+                    skipped += 1
+                    continue
+                pattern = '.*'.join(re.escape(w) for w in words)
+                query = (
+                    'PREFIX dcterms: <http://purl.org/dc/terms/>\n'
+                    'SELECT DISTINCT ?br ?title WHERE {\n'
+                    '  ?br dcterms:title ?title .\n'
+                    f'  FILTER(REGEX(?title, "{pattern}", "i"))\n'
+                    '} LIMIT 10'
+                )
+                probe.setQuery(query)
+                best = 0.0
+                cand_id = cand_title = ''
+                query_ok = True
+                try:
+                    res = probe.query().convert()
+                    for b in res.get('results', {}).get('bindings', []):
+                        t = b.get('title', {}).get('value', '')
+                        s = fuzz.token_set_ratio(title.lower(), t.lower())
+                        if s > best:
+                            best = s; cand_title = t; cand_id = b.get('br', {}).get('value', '')
+                except Exception as e:
+                    query_ok = False  # timeout / endpoint error -> "unknown", not "absent"
+                    print(f"  [warn] query failed for {base}/{r.get('reference_id','?')}: {e}")
+
+                checked += 1
+                if not query_ok:
+                    status = 'unknown'; unknown += 1
+                elif best >= 85:
+                    status = 'yes'; likely_present += 1
+                else:
+                    status = 'no'; not_found += 1
+                rows.append({
+                    'base': base,
+                    'reference_id': r.get('reference_id', ''),
+                    'article_title': title[:150],
+                    'year': r.get('year', ''),
+                    'first_author_lastname': r.get('first_author_lastname', ''),
+                    'in_meta_likely': status,
+                    'best_title_similarity': round(best, 1),
+                    'candidate_meta_id': cand_id,
+                    'candidate_title': cand_title[:150],
+                })
+                time.sleep(0.4)  # ~2.5 req/s, polite to the endpoint
+
+        out_path = os.path.join(args.output_dir, "presence_check.csv")
+        if rows:
+            with open(out_path, 'w', newline='', encoding='utf-8') as f:
+                w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+                w.writeheader(); w.writerows(rows)
+
+        print(f"  Checked: {checked} (skipped {skipped} with no usable title)")
+        print(f"  Likely IN Meta (matcher false negatives): {likely_present}")
+        print(f"  NOT found (likely absent -> ingestion candidates): {not_found}")
+        print(f"  Unknown (query timed out/failed): {unknown}")
+        print(f"  Details: {out_path}")
 
 
 if __name__ == "__main__":

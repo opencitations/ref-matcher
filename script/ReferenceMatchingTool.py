@@ -31,6 +31,7 @@ import pickle
 from datetime import datetime
 import logging
 import threading
+import tarfile
 import traceback
 from pathlib import Path
 import asyncio
@@ -1917,16 +1918,16 @@ class ReferenceProcessor:
         except Exception as e:
             logging.error(f"Error saving unmatched references: {e}")
             
-    async def process_file(self, input_file: str, output_file: str, threshold: int = 26, use_doi: bool = True):
+    async def process_file(self, input_file: str, output_file: str, threshold: int = 26, use_doi: bool = True, raw_content: bytes = None):
             """FIXED: Process file with proper error handling and use_doi parameter"""
-            if not os.path.exists(input_file):
+            if raw_content is None and not os.path.exists(input_file):
                 raise FileNotFoundError(f"Input file does not exist: {input_file}")
                 
             _, extension = os.path.splitext(input_file)
 
             try:
                 if extension.lower() == '.json':
-                    await self._process_crossref_file(input_file, output_file, threshold, use_doi)
+                    await self._process_crossref_file(input_file, output_file, threshold, use_doi, raw_content=raw_content)
                 elif extension.lower() == '.xml':
                     await self._process_tei_file(input_file, output_file, threshold, use_doi)
                 else:
@@ -1935,7 +1936,7 @@ class ReferenceProcessor:
                 logging.error(f"Error processing file {input_file}: {e}")
                 raise
 
-    async def _process_crossref_file(self, input_file: str, output_file: str, threshold: int, use_doi: bool = True):        
+    async def _process_crossref_file(self, input_file: str, output_file: str, threshold: int, use_doi: bool = True, raw_content: bytes = None):        
         """Enhanced Crossref processing with comprehensive field tracking"""
         # Initialize comprehensive stats with ALL fields
         stats = new_stats_dict(include_grobid=True)
@@ -2024,8 +2025,11 @@ class ReferenceProcessor:
         
         for encoding in encodings:
             try:
-                with open(input_file, 'r', encoding=encoding) as f:
-                    data = json.load(f)
+                if raw_content is not None:
+                    data = json.loads(raw_content.decode(encoding))
+                else:
+                    with open(input_file, 'r', encoding=encoding) as f:
+                        data = json.load(f)
                 logging.info(f"✅ Successfully read file with {encoding} encoding")
                 break
             except (UnicodeDecodeError, json.JSONDecodeError) as e:
@@ -2741,7 +2745,7 @@ class ReferenceProcessor:
 
     async def process_file_with_retry(self, input_file: str, output_file: str,
                                       threshold: int = 26, use_doi: bool = True,
-                                      max_retries: int = 2) -> bool:
+                                      max_retries: int = 2, raw_content: bytes = None) -> bool:
         """
         Process with automatic retry if validation fails.
         Returns True if successful, False otherwise.
@@ -2751,7 +2755,7 @@ class ReferenceProcessor:
         for attempt in range(1, max_retries + 1):
             try:
                 # Process the file using original method
-                await self.process_file(input_file, output_file, threshold, use_doi)
+                await self.process_file(input_file, output_file, threshold, use_doi, raw_content=raw_content)
                 
                 # Quick validation
                 is_valid, reason = self.quick_validate_output(output_file, stats_file)
@@ -2833,7 +2837,10 @@ class BatchProcessor:
         """Memory-efficient directory processing with progress tracking and aggregate stats"""
         if not os.path.exists(input_dir):
             raise FileNotFoundError(f"Input directory not found: {input_dir}")
-
+        
+        is_tar = input_dir.endswith('.tar.gz')
+        tar = tarfile.open(input_dir, 'r:gz') if is_tar else None
+        
         os.makedirs(output_dir, exist_ok=True)
         checkpoint_file = self._default_checkpoint_path(output_dir, checkpoint_file)
 
@@ -2844,8 +2851,9 @@ class BatchProcessor:
         with self._checkpoint_lock:
             processed_files = self.load_checkpoint(checkpoint_file)
 
+        all_names = tar.getnames() if is_tar else os.listdir(input_dir)
         input_files = [
-            f for f in os.listdir(input_dir) 
+            f for f in all_names 
             if f.endswith(('.xml', '.json')) and f not in processed_files
         ]
         
@@ -2853,6 +2861,8 @@ class BatchProcessor:
         
         if not input_files:
             print("✓ No new files to process.")
+            if tar is not None:
+                tar.close()
             return
 
         print(f"\n📁 Processing {total_files} files from: {input_dir}")
@@ -2880,11 +2890,13 @@ class BatchProcessor:
                 file_info = []
                 
                 for filename in batch_files:
-                    input_path = os.path.join(input_dir, filename)
+                    input_path = filename if is_tar else os.path.join(input_dir, filename)
                     output_path = os.path.join(output_dir, f"{os.path.splitext(filename)[0]}_matches.csv")
                     
+                    raw = tar.extractfile(filename).read() if is_tar else None
+                    
                     # Create async task
-                    task = self.reference_processor.process_file_with_retry(input_path, output_path, threshold, self.use_doi, max_retries=2)
+                    task = self.reference_processor.process_file_with_retry(input_path, output_path, threshold, self.use_doi, max_retries=2, raw_content=raw)
                     tasks.append(task)
                     file_info.append((filename, output_path))
                 
@@ -2997,6 +3009,9 @@ class BatchProcessor:
         except Exception as e:
             logging.error(f"Error generating aggregate report: {e}")
 
+        if tar is not None:
+            tar.close()
+    
     @staticmethod
     def load_checkpoint(checkpoint_file: str) -> Set[str]:
         """Load checkpoint with robust error handling"""
@@ -3780,12 +3795,13 @@ async def main():
     # Validation
     if not os.path.exists(args.input):
         parser.error(f"Input path does not exist: {args.input}")
+        
+    is_tar = args.input.endswith('.tar.gz')
+    if args.batch and not (os.path.isdir(args.input) or is_tar):
+        parser.error("Input must be a directory or a .tar.gz archive when using --batch")
 
-    if args.batch and not os.path.isdir(args.input):
-        parser.error("Input must be a directory when using --batch")
-
-    if not args.batch and os.path.isdir(args.input):
-        parser.error("Input appears to be a directory. Use --batch for directory processing")
+    if not args.batch and (os.path.isdir(args.input) or is_tar):
+        parser.error("Input appears to be a directory or archive. Use --batch for directory processing")
 
     # Threshold validation
     if args.threshold < 0 or args.threshold > 100:
@@ -3828,7 +3844,8 @@ async def main():
             error_threshold=args.error_threshold,  
             use_doi=args.use_doi,
                 )
-            output_dir = args.output or f"{args.input}_processed"
+            default_output = (args.input[:-len('.tar.gz')] if is_tar else args.input) + "_processed"
+            output_dir = args.output or default_output
             await batch_processor.process_directory(
                 args.input, output_dir, args.threshold,
                 force_restart=args.force_restart)

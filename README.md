@@ -267,11 +267,33 @@ uv run script/ReferenceMatchingTool.py crossref_references.json \
 | `--burst-size` | int | Maximum number of concurrent requests allowed in token bucket before rate limiting kicks in | 10 |
 | `--no-threshold-adjustment` | flag | Enforce the raw `--threshold` instead of the adaptive lowering to 90% when a score is close | (adjustment on) |
 | `--force-restart` | flag | Batch mode: ignore any existing checkpoint in the output directory and reprocess every file from scratch | False |
+| `--dump` | flag | Treat the input as a Crossref **dump** (`{"items":[...]}` JSON file, or a `.tar.gz` of such files) — each work is expanded to the matcher's input format and batch‑processed | False |
+| `--limit` | int | With `--dump`, process only the first N works (0 = all). Handy for a quick test on a huge dump | 0 |
 
 > **Checkpointing (batch mode):** progress is saved to `processing_checkpoint.pkl`
 > **inside the `--output` directory**, so runs with different `-o` folders track
 > their progress independently and can be resumed just by re-running the same
 > command. Use `--force-restart` to redo a folder from scratch.
+
+### Processing a Crossref dump (`--dump`)
+
+The public Crossref data dump stores **many** works per file as
+`{"items": [ {work}, ... ]}`, which is a different shape from the single‑work
+API response (`{"message": {work}}`) the matcher reads. `--dump` bridges this: it
+expands each work in the dump into the matcher's input format and runs the normal
+batch pipeline (one output CSV per work). It accepts either a single dump
+`.json` file or a `.tar.gz` archive of dump files.
+
+```bash
+# quick test on just the first work of a dump file
+uv run script/ReferenceMatchingTool.py 0.json --dump --limit 1 -o out_dir --use-grobid
+
+# a whole .tar.gz dump (all works)
+uv run script/ReferenceMatchingTool.py crossref-data-2026-06.tar.gz --dump -o out_dir --use-grobid
+```
+
+`--limit N` caps the number of works (great for smoke‑testing a huge dump before
+committing to a full run).
 
 ---
 

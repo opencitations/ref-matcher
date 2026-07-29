@@ -3715,6 +3715,59 @@ async def process_single(processor: ReferenceProcessor, input_file: str, output_
         raise
 
 
+def _expand_dump_to_dir(input_path: str, limit: int = 0) -> Tuple[str, int]:
+    """Expand a Crossref *dump* into a temp dir of per-work files the matcher reads.
+
+    A dump is ``{"items": [ {work}, ... ]}`` (many works, no "message" wrapper),
+    unlike the single-work API shape ``{"message": {work}}`` the matcher expects.
+    Each work is written as its own ``{"message": work}`` JSON file so the existing
+    pipeline processes it unchanged. Accepts a ``.json`` dump file or a ``.tar.gz``
+    of such files. ``limit`` caps the number of works emitted (0 = no cap).
+    Returns ``(temp_dir, work_count)``.
+    """
+    import tempfile
+    out_dir = tempfile.mkdtemp(prefix="refmatch_dump_")
+    count = 0
+
+    def _emit(work: dict, tag: str) -> bool:
+        nonlocal count
+        if limit and count >= limit:
+            return False
+        safe = re.sub(r'[^A-Za-z0-9._-]', '_', tag)[:120]
+        with open(os.path.join(out_dir, f"{safe}.json"), 'w', encoding='utf-8') as f:
+            json.dump({'message': work}, f, ensure_ascii=False)
+        count += 1
+        return True
+
+    def _emit_items(data, base: str) -> bool:
+        """Emit every work in one dump file; return False if the limit was hit."""
+        items = data.get('items', []) if isinstance(data, dict) else (data or [])
+        for i, work in enumerate(items):
+            if not _emit(work, f"{base}_w{i}"):
+                return False
+        return True
+
+    if input_path.endswith('.tar.gz'):
+        with tarfile.open(input_path, 'r:gz') as tar:
+            for member in tar.getnames():
+                if not member.endswith('.json'):
+                    continue
+                fh = tar.extractfile(member)
+                if fh is None:
+                    continue
+                data = json.load(fh)
+                base = os.path.splitext(os.path.basename(member))[0]
+                if not _emit_items(data, base):
+                    break  # limit reached
+    else:
+        with open(input_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        base = os.path.splitext(os.path.basename(input_path))[0]
+        _emit_items(data, base)
+
+    return out_dir, count
+
+
 async def main():
     """FIXED: Enhanced argument parsing and validation"""
     # Load the .env as early as possible so its values can act as the argparse
@@ -3782,6 +3835,13 @@ async def main():
     parser.add_argument('--force-restart', action='store_true',
                        help='Ignore any existing checkpoint in the output directory '
                             'and reprocess every file from scratch (batch mode).')
+    parser.add_argument('--dump', action='store_true',
+                       help='Treat the input as a Crossref DUMP ({"items":[...]}) — '
+                            'a .json file or a .tar.gz of such files — expanding each '
+                            'work into the matcher input format and batch-processing it.')
+    parser.add_argument('--limit', type=int, default=0,
+                       help='With --dump, process only the first N works (0 = all). '
+                            'Handy for a quick test on a huge dump.')
     args = parser.parse_args()
     log_level = getattr(logging, args.log_level, logging.INFO)
     setup_logging(log_level=log_level)
@@ -3797,11 +3857,16 @@ async def main():
         parser.error(f"Input path does not exist: {args.input}")
         
     is_tar = args.input.endswith('.tar.gz')
-    if args.batch and not (os.path.isdir(args.input) or is_tar):
-        parser.error("Input must be a directory or a .tar.gz archive when using --batch")
+    if args.dump:
+        # --dump takes a dump .json file or a .tar.gz archive of dump files.
+        if not os.path.isfile(args.input):
+            parser.error("--dump expects a dump .json file or a .tar.gz archive")
+    else:
+        if args.batch and not (os.path.isdir(args.input) or is_tar):
+            parser.error("Input must be a directory or a .tar.gz archive when using --batch")
 
-    if not args.batch and (os.path.isdir(args.input) or is_tar):
-        parser.error("Input appears to be a directory or archive. Use --batch for directory processing")
+        if not args.batch and (os.path.isdir(args.input) or is_tar):
+            parser.error("Input appears to be a directory or archive. Use --batch for directory processing")
 
     # Threshold validation
     if args.threshold < 0 or args.threshold > 100:
@@ -3836,12 +3901,38 @@ async def main():
 
     # Process files
     try:
-        if args.batch:
+        if args.dump:
+            import shutil
+            logging.info(f"📦 Expanding Crossref dump (limit={args.limit or 'all'})...")
+            tmp_dir, n_works = _expand_dump_to_dir(args.input, args.limit)
+            logging.info(f"📦 Dump expanded: {n_works} work(s)")
+            if n_works == 0:
+                shutil.rmtree(tmp_dir, ignore_errors=True)
+                parser.error("No works found in the dump (expected a top-level 'items' array)")
+            batch_processor = BatchProcessor(
+                processor,
+                batch_size=args.batch_size,
+                pause_duration=args.pause_duration,
+                error_threshold=args.error_threshold,
+                use_doi=args.use_doi,
+            )
+            base = os.path.basename(
+                args.input[:-len('.tar.gz')] if is_tar else os.path.splitext(args.input)[0])
+            output_dir = args.output or f"{base}_processed"
+            try:
+                await batch_processor.process_directory(
+                    tmp_dir, output_dir, args.threshold,
+                    force_restart=args.force_restart)
+            finally:
+                shutil.rmtree(tmp_dir, ignore_errors=True)
+            if args.use_grobid:
+                print(f"Total Grobid fallbacks performed: {processor.grobid_fallback_count}")
+        elif args.batch:
             batch_processor = BatchProcessor(
             processor,
             batch_size=args.batch_size,
             pause_duration=args.pause_duration,
-            error_threshold=args.error_threshold,  
+            error_threshold=args.error_threshold,
             use_doi=args.use_doi,
                 )
             default_output = (args.input[:-len('.tar.gz')] if is_tar else args.input) + "_processed"
@@ -3849,7 +3940,7 @@ async def main():
             await batch_processor.process_directory(
                 args.input, output_dir, args.threshold,
                 force_restart=args.force_restart)
-            
+
             if args.use_grobid:
                 print(f"Total Grobid fallbacks performed: {processor.grobid_fallback_count}")
         else:

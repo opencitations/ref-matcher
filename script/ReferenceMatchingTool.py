@@ -1152,7 +1152,7 @@ class OpenCitationsMatcherThreadSafe:
                 {SELECT_ALL}
                 WHERE {{
                     
-                    ?doi_id literal:hasLiteralValue "{doi_esc}" .
+                    ?doi_id literal:hasLiteralValue "{doi_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
                     ?doi_id datacite:usesIdentifierScheme datacite:doi .
                     ?br datacite:hasIdentifier ?doi_id .
                     BIND("{doi_esc}" AS ?doi)
@@ -1177,7 +1177,7 @@ class OpenCitationsMatcherThreadSafe:
                 {PREFIXES}
                 {SELECT_ALL}
                 WHERE {{
-                    ?doi_id literal:hasLiteralValue "{doi_esc}" .
+                    ?doi_id literal:hasLiteralValue "{doi_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
                     ?doi_id datacite:usesIdentifierScheme datacite:doi .
                     ?br datacite:hasIdentifier ?doi_id .
                     BIND("{doi_esc}" AS ?doi)
@@ -1198,7 +1198,7 @@ class OpenCitationsMatcherThreadSafe:
                 {SELECT_ALL}
                 WHERE {{
                     
-                    ?first_author foaf:familyName "{fam_esc}" .
+                    ?first_author foaf:familyName "{fam_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
                     BIND("{fam_esc}" AS ?author_name)
                     
                     ?role pro:isHeldBy ?first_author .
@@ -1226,7 +1226,7 @@ class OpenCitationsMatcherThreadSafe:
                 {SELECT_ALL}
                 WHERE {{
                     
-                    ?volume fabio:hasSequenceIdentifier "{vol_esc}" .
+                    ?volume fabio:hasSequenceIdentifier "{vol_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
                     BIND("{vol_esc}" AS ?volume_num)
                     ?issue frbr:partOf ?volume .
                     ?br frbr:partOf ?issue .
@@ -1259,7 +1259,7 @@ class OpenCitationsMatcherThreadSafe:
                 {SELECT_ALL}
                 WHERE {{
                     
-                    ?first_author foaf:familyName "{fam_esc}" .
+                    ?first_author foaf:familyName "{fam_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
                     BIND("{fam_esc}" AS ?author_name)
                     
                     ?role pro:isHeldBy ?first_author .
@@ -1295,13 +1295,13 @@ class OpenCitationsMatcherThreadSafe:
                 {PREFIXES}
                 {SELECT_ALL}
                 WHERE {{
-                    ?first_author foaf:familyName "{fam_esc}" .
+                    ?first_author foaf:familyName "{fam_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
                     BIND("{fam_esc}" AS ?author_name)
                     
                     ?role pro:isHeldBy ?first_author .
                     ?br pro:isDocumentContextFor ?role .
                     
-                    ?volume fabio:hasSequenceIdentifier "{vol_esc}" .
+                    ?volume fabio:hasSequenceIdentifier "{vol_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
                     BIND("{vol_esc}" AS ?volume_num)
                     ?issue frbr:partOf ?volume .
                     ?br frbr:partOf ?issue .

@@ -3011,7 +3011,138 @@ class BatchProcessor:
 
         if tar is not None:
             tar.close()
-    
+
+    async def process_dump(self, dump_path: str, output_dir: str, threshold: int = 26,
+                           checkpoint_file: Optional[str] = None,
+                           force_restart: bool = False, limit: int = 0):
+        """Stream a Crossref DUMP work-by-work (scale-safe; no full expansion).
+
+        A dump ({"items":[...]} per file, as a .json or a .tar.gz of such files)
+        can be terabytes uncompressed — far too big to expand to temp files up
+        front. This reads ONE tar member at a time, turns each work into an
+        in-memory ``{"message": work}`` payload, and matches it through the normal
+        pipeline via ``raw_content`` (no temp files). Peak disk/RAM stays bounded
+        regardless of dump size. Resumable via the per-output-dir checkpoint;
+        ``limit`` caps how many new works are processed this run.
+        """
+        os.makedirs(output_dir, exist_ok=True)
+        checkpoint_file = self._default_checkpoint_path(output_dir, checkpoint_file)
+        if force_restart:
+            logging.info("Force restart requested - resetting checkpoint")
+            self.reset_checkpoint(checkpoint_file)
+        with self._checkpoint_lock:
+            processed_files = self.load_checkpoint(checkpoint_file)
+
+        is_tar = dump_path.endswith('.tar.gz')
+        tar = tarfile.open(dump_path, 'r:gz') if is_tar else None
+
+        print(f"\n📦 Streaming Crossref dump: {dump_path}")
+        print(f"💾 Already processed: {len(processed_files)} works"
+              + (f" | limit this run: {limit}" if limit else "") + "\n")
+
+        error_500_count = 0
+        submitted = 0
+        current_batch_processed: Set[str] = set()
+        files_since_checkpoint = 0
+
+        def _member_names():
+            if is_tar:
+                for n in tar.getnames():
+                    if n.endswith('.json'):
+                        yield n
+            else:
+                yield dump_path
+
+        def _load_member(name):
+            if is_tar:
+                fh = tar.extractfile(name)
+                return json.load(fh) if fh is not None else None
+            with open(name, 'r', encoding='utf-8') as f:
+                return json.load(f)
+
+        async def _flush(batch):
+            nonlocal error_500_count, files_since_checkpoint
+            # Pass a ".json" input name so process_file routes to the Crossref
+            # parser by extension (the content itself comes from raw_content).
+            tasks = [
+                self.reference_processor.process_file_with_retry(
+                    f"{wn}.json", op, threshold, self.use_doi, max_retries=2, raw_content=raw)
+                for (wn, op, raw) in batch
+            ]
+            results = await asyncio.gather(*tasks, return_exceptions=True)
+            for (wn, op, raw), res in zip(batch, results):
+                if isinstance(res, Exception):
+                    logging.error(f"Error processing {wn}: {res}")
+                    error_500_count += 1
+                    continue
+                current_batch_processed.add(f"{wn}.json")
+                files_since_checkpoint += 1
+            if files_since_checkpoint >= self.checkpoint_interval:
+                with self._checkpoint_lock:
+                    processed_files.update(current_batch_processed)
+                    self.save_checkpoint(checkpoint_file, processed_files)
+                current_batch_processed.clear()
+                files_since_checkpoint = 0
+            if error_500_count >= self.error_threshold:
+                logging.warning(f"⚠ Too many errors ({error_500_count}). Pausing 5 minutes...")
+                await asyncio.sleep(300)
+                error_500_count = 0
+            elif self.pause_duration:
+                await asyncio.sleep(self.pause_duration)
+
+        try:
+            batch = []
+            stop = False
+            for member in _member_names():
+                if stop:
+                    break
+                data = _load_member(member)
+                if not data:
+                    continue
+                items = data.get('items', []) if isinstance(data, dict) else (data or [])
+                base = os.path.splitext(os.path.basename(member))[0]
+                for i, work in enumerate(items):
+                    work_name = f"{base}_w{i}"
+                    if f"{work_name}.json" in processed_files:
+                        continue  # already done (resume) — no expansion, no re-query
+                    raw = json.dumps({'message': work}, ensure_ascii=False).encode('utf-8')
+                    out_path = os.path.join(output_dir, f"{work_name}_matches.csv")
+                    batch.append((work_name, out_path, raw))
+                    submitted += 1
+                    if len(batch) >= self.batch_size:
+                        await _flush(batch)
+                        batch = []
+                        if submitted % 500 == 0:
+                            print(f"  … dispatched {submitted} works (at member {base})")
+                    if limit and submitted >= limit:
+                        stop = True
+                        break
+                data = None  # free the member from memory before the next one
+            if batch:
+                await _flush(batch)
+
+            with self._checkpoint_lock:
+                if current_batch_processed:
+                    processed_files.update(current_batch_processed)
+                self.save_checkpoint(checkpoint_file, processed_files)
+        finally:
+            if tar is not None:
+                tar.close()
+
+        # Single final aggregation + report (per-work outputs are already written).
+        print(f"\n✓ Streaming complete! Dispatched {submitted} new work(s) this run "
+              f"({len(processed_files)} total in checkpoint).")
+        try:
+            await asyncio.sleep(2)
+            logging.info("Performing final aggregation of all stats files...")
+            aggregate_stats = self._aggregate_all_stats(output_dir)
+            self._print_aggregate_stats(aggregate_stats, output_dir)
+            self._save_aggregate_stats_file(aggregate_stats, output_dir)
+            generate_processing_report(output_dir, aggregate_stats)
+            logging.info(f"✅ HTML report generated: {os.path.join(output_dir, 'processing_report.html')}")
+        except Exception as e:
+            logging.error(f"Error generating aggregate report: {e}")
+
     @staticmethod
     def load_checkpoint(checkpoint_file: str) -> Set[str]:
         """Load checkpoint with robust error handling"""
@@ -3715,59 +3846,6 @@ async def process_single(processor: ReferenceProcessor, input_file: str, output_
         raise
 
 
-def _expand_dump_to_dir(input_path: str, limit: int = 0) -> Tuple[str, int]:
-    """Expand a Crossref *dump* into a temp dir of per-work files the matcher reads.
-
-    A dump is ``{"items": [ {work}, ... ]}`` (many works, no "message" wrapper),
-    unlike the single-work API shape ``{"message": {work}}`` the matcher expects.
-    Each work is written as its own ``{"message": work}`` JSON file so the existing
-    pipeline processes it unchanged. Accepts a ``.json`` dump file or a ``.tar.gz``
-    of such files. ``limit`` caps the number of works emitted (0 = no cap).
-    Returns ``(temp_dir, work_count)``.
-    """
-    import tempfile
-    out_dir = tempfile.mkdtemp(prefix="refmatch_dump_")
-    count = 0
-
-    def _emit(work: dict, tag: str) -> bool:
-        nonlocal count
-        if limit and count >= limit:
-            return False
-        safe = re.sub(r'[^A-Za-z0-9._-]', '_', tag)[:120]
-        with open(os.path.join(out_dir, f"{safe}.json"), 'w', encoding='utf-8') as f:
-            json.dump({'message': work}, f, ensure_ascii=False)
-        count += 1
-        return True
-
-    def _emit_items(data, base: str) -> bool:
-        """Emit every work in one dump file; return False if the limit was hit."""
-        items = data.get('items', []) if isinstance(data, dict) else (data or [])
-        for i, work in enumerate(items):
-            if not _emit(work, f"{base}_w{i}"):
-                return False
-        return True
-
-    if input_path.endswith('.tar.gz'):
-        with tarfile.open(input_path, 'r:gz') as tar:
-            for member in tar.getnames():
-                if not member.endswith('.json'):
-                    continue
-                fh = tar.extractfile(member)
-                if fh is None:
-                    continue
-                data = json.load(fh)
-                base = os.path.splitext(os.path.basename(member))[0]
-                if not _emit_items(data, base):
-                    break  # limit reached
-    else:
-        with open(input_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        base = os.path.splitext(os.path.basename(input_path))[0]
-        _emit_items(data, base)
-
-    return out_dir, count
-
-
 async def main():
     """FIXED: Enhanced argument parsing and validation"""
     # Load the .env as early as possible so its values can act as the argparse
@@ -3902,13 +3980,6 @@ async def main():
     # Process files
     try:
         if args.dump:
-            import shutil
-            logging.info(f"📦 Expanding Crossref dump (limit={args.limit or 'all'})...")
-            tmp_dir, n_works = _expand_dump_to_dir(args.input, args.limit)
-            logging.info(f"📦 Dump expanded: {n_works} work(s)")
-            if n_works == 0:
-                shutil.rmtree(tmp_dir, ignore_errors=True)
-                parser.error("No works found in the dump (expected a top-level 'items' array)")
             batch_processor = BatchProcessor(
                 processor,
                 batch_size=args.batch_size,
@@ -3919,12 +3990,11 @@ async def main():
             base = os.path.basename(
                 args.input[:-len('.tar.gz')] if is_tar else os.path.splitext(args.input)[0])
             output_dir = args.output or f"{base}_processed"
-            try:
-                await batch_processor.process_directory(
-                    tmp_dir, output_dir, args.threshold,
-                    force_restart=args.force_restart)
-            finally:
-                shutil.rmtree(tmp_dir, ignore_errors=True)
+            # Streaming: reads the dump one member at a time, never expanding the
+            # whole thing to disk (a full Crossref dump is terabytes uncompressed).
+            await batch_processor.process_dump(
+                args.input, output_dir, args.threshold,
+                force_restart=args.force_restart, limit=args.limit)
             if args.use_grobid:
                 print(f"Total Grobid fallbacks performed: {processor.grobid_fallback_count}")
         elif args.batch:

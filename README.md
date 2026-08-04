@@ -280,9 +280,13 @@ uv run script/ReferenceMatchingTool.py crossref_references.json \
 The public Crossref data dump stores **many** works per file as
 `{"items": [ {work}, ... ]}`, which is a different shape from the single‑work
 API response (`{"message": {work}}`) the matcher reads. `--dump` bridges this: it
-expands each work in the dump into the matcher's input format and runs the normal
-batch pipeline (one output CSV per work). It accepts either a single dump
-`.json` file or a `.tar.gz` archive of dump files.
+**streams** the dump one file at a time, wraps each work as `{"message": work}`
+in memory, and matches it through the normal pipeline (one output CSV per work).
+Because it streams — rather than expanding the whole dump to disk first — peak
+disk/RAM stays bounded even for a multi‑terabyte dump. It accepts either a single
+dump `.json` file or a `.tar.gz` archive of dump files, and is resumable (the
+per‑output‑dir checkpoint skips works already done, so a re‑run continues where it
+stopped).
 
 ```bash
 # quick test on just the first work of a dump file

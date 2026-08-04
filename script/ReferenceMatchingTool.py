@@ -3045,20 +3045,29 @@ class BatchProcessor:
         current_batch_processed: Set[str] = set()
         files_since_checkpoint = 0
 
-        def _member_names():
-            if is_tar:
-                for n in tar.getnames():
-                    if n.endswith('.json'):
-                        yield n
-            else:
-                yield dump_path
+        def _iter_members():
+            """Yield (base_name, parsed_json) streaming the input IN ORDER.
 
-        def _load_member(name):
+            Uses ``for m in tar`` (sequential read) — NOT ``tar.getnames()`` /
+            ``tar.extractfile(name)``, which would decompress the whole (possibly
+            multi-terabyte) archive up front and then re-seek per member
+            (quadratic on a gzip stream). Streaming keeps it O(archive size).
+            """
             if is_tar:
-                fh = tar.extractfile(name)
-                return json.load(fh) if fh is not None else None
-            with open(name, 'r', encoding='utf-8') as f:
-                return json.load(f)
+                for m in tar:
+                    if not (m.isfile() and m.name.endswith('.json')):
+                        continue
+                    fh = tar.extractfile(m)
+                    if fh is None:
+                        continue
+                    base = os.path.splitext(os.path.basename(m.name))[0]
+                    try:
+                        yield base, json.load(fh)
+                    finally:
+                        fh.close()
+            else:
+                with open(dump_path, 'r', encoding='utf-8') as f:
+                    yield os.path.splitext(os.path.basename(dump_path))[0], json.load(f)
 
         async def _flush(batch):
             nonlocal error_500_count, files_since_checkpoint
@@ -3093,14 +3102,12 @@ class BatchProcessor:
         try:
             batch = []
             stop = False
-            for member in _member_names():
+            for base, data in _iter_members():
                 if stop:
                     break
-                data = _load_member(member)
                 if not data:
                     continue
                 items = data.get('items', []) if isinstance(data, dict) else (data or [])
-                base = os.path.splitext(os.path.basename(member))[0]
                 for i, work in enumerate(items):
                     work_name = f"{base}_w{i}"
                     if f"{work_name}.json" in processed_files:

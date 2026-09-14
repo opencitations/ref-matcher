@@ -1,5 +1,7 @@
 import json
 import csv
+import hashlib
+from collections import OrderedDict
 from typing import Any, Dict, List, Optional, Set, Tuple
 from dataclasses import dataclass
 # rapidfuzz is the maintained successor to fuzzywuzzy with the same fuzz.* API.
@@ -218,7 +220,13 @@ class MatcherConfig:
     # The relaxed "retry without year" pass accepts a match scoring at least this
     # fraction of the threshold.
     no_year_threshold_factor: float = 0.9
-    
+
+    # Results of identical SPARQL queries are reused (LRU, keyed by the exact
+    # query text). The GROBID and "without year" passes re-issue many queries
+    # that the first pass already ran; with the cache they cost no request.
+    # 0 disables the cache.
+    query_cache_size: int = 50_000
+
     # Rate limiting
     requests_per_second: float = 2.5
     burst_size: int = 10
@@ -790,12 +798,61 @@ class ImprovedRateLimiter:
             '429_count': self._429_count
         }
 
+class QueryCache:
+    """LRU cache of SPARQL results, keyed by the exact query text.
+
+    The same query always returns the same bindings (Meta does not change during
+    a run), so reusing them cannot change any score or decision. Entries are
+    copied on the way in and out because the matching loop adds 'score' and
+    'query_type' to the result dicts it picks. Only successful responses are
+    stored (empty result lists included); failed queries are not.
+    """
+
+    def __init__(self, max_entries: int = 50_000, max_bindings: int = 200):
+        self.max_entries = max_entries
+        self.max_bindings = max_bindings  # very large results are not kept
+        self._data: "OrderedDict[bytes, List[Dict]]" = OrderedDict()
+        self.hits = 0              # queries answered from the cache
+        self.network_queries = 0   # queries sent to the endpoint (retries excluded)
+
+    @staticmethod
+    def _key(query: str) -> bytes:
+        return hashlib.sha1(query.encode('utf-8')).digest()
+
+    @staticmethod
+    def _copy(bindings: List[Dict]) -> List[Dict]:
+        return [{k: (dict(v) if isinstance(v, dict) else v) for k, v in b.items()}
+                for b in bindings]
+
+    def get(self, query: str) -> Optional[List[Dict]]:
+        if self.max_entries <= 0:
+            return None
+        key = self._key(query)
+        value = self._data.get(key)
+        if value is None:
+            return None
+        self._data.move_to_end(key)
+        self.hits += 1
+        return self._copy(value)
+
+    def put(self, query: str, bindings: List[Dict]) -> None:
+        if self.max_entries <= 0 or len(bindings) > self.max_bindings:
+            return
+        key = self._key(query)
+        self._data[key] = self._copy(bindings)
+        self._data.move_to_end(key)
+        while len(self._data) > self.max_entries:
+            self._data.popitem(last=False)
+
+
 class OpenCitationsMatcherThreadSafe:
     """Async matcher with rate limiting"""
-    
+
     def __init__(self, endpoint: str = DEFAULT_SPARQL_ENDPOINT,
-             max_retries: int = None, timeout: int = None, config: MatcherConfig = None):
+             max_retries: int = None, timeout: int = None, config: MatcherConfig = None,
+             query_cache: Optional[QueryCache] = None):
         self.config = config or DEFAULT_CONFIG
+        self.query_cache = query_cache
         self.endpoint = endpoint
         self.max_retries = max_retries or self.config.max_retries
         self.timeout = timeout or self.config.default_timeout
@@ -844,6 +901,17 @@ class OpenCitationsMatcherThreadSafe:
         if not sparql_query or not sparql_query.strip():
             raise QueryExecutionError("Empty SPARQL query provided")
 
+        # Identical query already answered in this run: reuse it (no request, no
+        # rate-limit token).
+        cache = self.query_cache
+        if cache is not None:
+            cached = cache.get(sparql_query)
+            if cached is not None:
+                query_logger.debug(f"♻️ Query ({query_type}) served from cache "
+                                   f"({len(cached)} results)")
+                return cached
+            cache.network_queries += 1
+
         query_preview = sparql_query[:300] + "..." if len(sparql_query) > 300 else sparql_query
 
         query_logger.debug(f"🔍 EXECUTING SPARQL QUERY ({query_type})")
@@ -875,6 +943,8 @@ class OpenCitationsMatcherThreadSafe:
                                 for k, v in first_result.items())
                             query_logger.debug(f"📊 First result: {detail}")
 
+                        if cache is not None:
+                            cache.put(sparql_query, bindings)
                         return bindings
                     
                     elif response.status == 429:
@@ -1025,7 +1095,8 @@ class OpenCitationsMatcherThreadSafe:
             """
             
             # Standard SELECT for all queries
-            SELECT_ALL = "SELECT DISTINCT ?br ?title ?pub_date ?doi ?author_name ?volume_num ?start_page ?end_page"
+            # (no ?end_page: the scoring only ever compares the starting page)
+            SELECT_ALL = "SELECT DISTINCT ?br ?title ?pub_date ?doi ?author_name ?volume_num ?start_page"
 
             # Standard OPTIONAL blocks
             OPTIONAL_TITLE = "OPTIONAL { ?br dcterms:title ?title . }"
@@ -1042,18 +1113,20 @@ class OpenCitationsMatcherThreadSafe:
                         pro:isHeldBy ?author .
                     ?author foaf:familyName ?author_name .
                 }"""
+            # Volume and page are only fetched when the reference has them: the
+            # scoring (and the match stats) compare them only in that case, so
+            # otherwise the joins would produce data nobody reads.
             OPTIONAL_VOLUME = """
                 OPTIONAL {
                     ?br frbr:partOf ?issue .
                     ?issue frbr:partOf ?volume .
                     ?volume fabio:hasSequenceIdentifier ?volume_num .
-                }"""
+                }""" if reference.volume else ""
             OPTIONAL_PAGES = """
                 OPTIONAL {
                     ?br frbr:embodiment ?embodiment .
                     OPTIONAL { ?embodiment prism:startingPage ?start_page . }
-                    OPTIONAL { ?embodiment prism:endingPage ?end_page . }
-                }"""
+                }""" if reference.first_page else ""
 
             # STEP 1: Year validation
             year_int = self._extract_year(reference.year)
@@ -1244,7 +1317,6 @@ class OpenCitationsMatcherThreadSafe:
                     )
 
                     OPTIONAL {{ ?br dcterms:title ?title . }}
-                    OPTIONAL {{ ?embodiment prism:endingPage ?end_page . }} # end_page aggiunto
                     {OPTIONAL_DOI}
                     {OPTIONAL_AUTHOR}
                 }}
@@ -1282,7 +1354,6 @@ class OpenCitationsMatcherThreadSafe:
                     )
                                         
                     OPTIONAL {{ ?br dcterms:title ?title . }}
-                    OPTIONAL {{ ?embodiment prism:endingPage ?end_page . }} # end_page aggiunto
                     {OPTIONAL_DOI}
                     {OPTIONAL_VOLUME}
                 }}
@@ -1478,6 +1549,8 @@ class ReferenceProcessor:
                  validate_output: bool = False):
         self.matcher_endpoint = endpoint or DEFAULT_SPARQL_ENDPOINT
         self.matcher_config = config or DEFAULT_CONFIG
+        # One cache for the whole run, shared by every matcher (see QueryCache).
+        self.query_cache = QueryCache(max_entries=self.matcher_config.query_cache_size)
         # Re-process a file whose output CSV/stats look empty (see
         # process_file_with_retry). Off by default: a work with 0 references or
         # 0 matches legitimately produces a header-only CSV and would be redone.
@@ -1592,6 +1665,7 @@ class ReferenceProcessor:
         async with OpenCitationsMatcherThreadSafe(
             endpoint=self.matcher_endpoint,
             config=self.matcher_config,
+            query_cache=self.query_cache,
         ) as own:
             yield own
 
@@ -2102,7 +2176,8 @@ class ReferenceProcessor:
             logging.info(f"Creating {total_refs} concurrent tasks")
             results = []
             async with OpenCitationsMatcherThreadSafe(
-                endpoint=self.matcher_endpoint, config=self.matcher_config
+                endpoint=self.matcher_endpoint, config=self.matcher_config,
+                query_cache=self.query_cache,
             ) as matcher:
                 tasks = [
                     process_single_reference(ref_data, i, matcher)
@@ -2298,7 +2373,8 @@ class ReferenceProcessor:
             # every reference in the file.
             results = []
             async with OpenCitationsMatcherThreadSafe(
-                endpoint=self.matcher_endpoint, config=self.matcher_config
+                endpoint=self.matcher_endpoint, config=self.matcher_config,
+                query_cache=self.query_cache,
             ) as matcher:
                 tasks = [
                     process_single_bibl(bibl, i, matcher)
@@ -3962,6 +4038,11 @@ async def main():
                        default=_env_bool('THRESHOLD_ADJUSTMENT', True),
                        help='Enforce the raw threshold instead of lowering it to '
                             '90%% when a score is close (see MatcherConfig).')
+    parser.add_argument('--query-cache-size', type=int,
+                       default=_env('QUERY_CACHE_SIZE', 50_000, int),
+                       help='Max SPARQL results kept in memory and reused when the exact '
+                            'same query is issued again (e.g. by the GROBID and '
+                            '"without year" passes). Does not change results. 0 = off.')
     parser.add_argument('--validate-output', action='store_true',
                        default=_env_bool('VALIDATE_OUTPUT', False),
                        help='After each file, check that its output CSV/stats are not '
@@ -4062,6 +4143,7 @@ async def main():
         config.burst_size = args.burst_size
         config.max_concurrent_references = args.max_concurrent_references
         config.enable_threshold_adjustment = args.threshold_adjustment
+        config.query_cache_size = args.query_cache_size
         # 3. Pass the configured object to the processor
         processor = ReferenceProcessor(
             use_grobid=args.use_grobid,
@@ -4116,11 +4198,15 @@ async def main():
                 processor, 
                 args.input, 
                 args.output, 
-                args.threshold, 
+                args.threshold,
                 args.use_doi
             )
             if args.use_grobid:
                 print(f"Total Grobid fallbacks performed: {processor.grobid_fallback_count}")
+
+        qc = processor.query_cache
+        print(f"SPARQL queries sent to the endpoint: {qc.network_queries:,} | "
+              f"served from cache: {qc.hits:,}")
 
     except KeyboardInterrupt:
         logging.info("Processing interrupted by user")

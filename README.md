@@ -269,7 +269,7 @@ uv run script/ReferenceMatchingTool.py crossref_references.json \
 | `--burst-size` | int | Maximum number of concurrent requests allowed in token bucket before rate limiting kicks in | 10 |
 | `--no-threshold-adjustment` | flag | Enforce the raw `--threshold` instead of the adaptive lowering to 90% when a score is close | (adjustment on) |
 | `--force-restart` | flag | Batch mode: ignore any existing checkpoint in the output directory and reprocess every file from scratch | False |
-| `--dump` | flag | Treat the input as a Crossref **dump** (`{"items":[...]}` JSON file, or a `.tar.gz` of such files) — each work is expanded to the matcher's input format and batch‑processed | False |
+| `--dump` | flag | Treat the input as a Crossref **dump** (`{"items":[...]}` JSON file, or a `.tar.gz` of such files) — each work is expanded to the matcher's input format and batch‑processed. Works with no references (no `reference-count` or no `reference` list — nothing to match) are not sent to the matcher: they are listed once in `works_without_references.tsv` (work, DOI, reference-count) and checkpointed as usual | False |
 | `--limit` | int | With `--dump`, process only the first N works (0 = all). Handy for a quick test on a huge dump | 0 |
 
 > **Checkpointing (batch mode):** progress is saved to `processing_checkpoint.pkl`

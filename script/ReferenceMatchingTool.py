@@ -3055,6 +3055,27 @@ class BatchProcessor:
         current_batch_processed: Set[str] = set()
         files_since_checkpoint = 0
 
+        # Works with no references have nothing to match: the matcher would only
+        # write three empty per-work files for each (about half of a Crossref dump).
+        # They are recorded here instead, one line each (work, DOI, reference-count),
+        # and marked done in the checkpoint exactly like a processed work.
+        noref_path = os.path.join(output_dir, 'works_without_references.tsv')
+        noref_new = not os.path.exists(noref_path)
+        noref_out = open(noref_path, 'a', encoding='utf-8')
+        if noref_new:
+            noref_out.write("work\tdoi\treference_count\n")
+        n_noref = 0
+
+        def _checkpoint_if_due():
+            nonlocal files_since_checkpoint
+            if files_since_checkpoint >= self.checkpoint_interval:
+                noref_out.flush()  # never checkpoint a work before its line is written
+                with self._checkpoint_lock:
+                    processed_files.update(current_batch_processed)
+                    self.save_checkpoint(checkpoint_file, processed_files)
+                current_batch_processed.clear()
+                files_since_checkpoint = 0
+
         def _iter_members():
             """Yield (base_name, parsed_json) streaming the input IN ORDER.
 
@@ -3096,12 +3117,7 @@ class BatchProcessor:
                     continue
                 current_batch_processed.add(f"{wn}.json")
                 files_since_checkpoint += 1
-            if files_since_checkpoint >= self.checkpoint_interval:
-                with self._checkpoint_lock:
-                    processed_files.update(current_batch_processed)
-                    self.save_checkpoint(checkpoint_file, processed_files)
-                current_batch_processed.clear()
-                files_since_checkpoint = 0
+            _checkpoint_if_due()
             if error_500_count >= self.error_threshold:
                 logging.warning(f"⚠ Too many errors ({error_500_count}). Pausing 5 minutes...")
                 await asyncio.sleep(300)
@@ -3122,6 +3138,20 @@ class BatchProcessor:
                     work_name = f"{base}_w{i}"
                     if f"{work_name}.json" in processed_files:
                         continue  # already done (resume) — no expansion, no re-query
+                    # Same rule the matcher applies (_process_crossref_file): with no
+                    # reference-count or no reference list there is nothing to match.
+                    if not work.get('reference-count', 0) or not work.get('reference'):
+                        noref_out.write(f"{work_name}\t{work.get('DOI', '')}\t"
+                                        f"{work.get('reference-count', 0)}\n")
+                        n_noref += 1
+                        current_batch_processed.add(f"{work_name}.json")
+                        files_since_checkpoint += 1
+                        _checkpoint_if_due()
+                        submitted += 1  # still counts towards --limit, as before
+                        if limit and submitted >= limit:
+                            stop = True
+                            break
+                        continue
                     raw = json.dumps({'message': work}, ensure_ascii=False).encode('utf-8')
                     out_path = os.path.join(output_dir, f"{work_name}_matches.csv")
                     batch.append((work_name, out_path, raw))
@@ -3138,17 +3168,21 @@ class BatchProcessor:
             if batch:
                 await _flush(batch)
 
+            noref_out.flush()
             with self._checkpoint_lock:
                 if current_batch_processed:
                     processed_files.update(current_batch_processed)
                 self.save_checkpoint(checkpoint_file, processed_files)
         finally:
+            noref_out.close()
             if tar is not None:
                 tar.close()
 
         # Single final aggregation + report (per-work outputs are already written).
         print(f"\n✓ Streaming complete! Dispatched {submitted} new work(s) this run "
               f"({len(processed_files)} total in checkpoint).")
+        print(f"  of which without references (listed, not sent to the matcher): "
+              f"{n_noref} -> {noref_path}")
         try:
             await asyncio.sleep(2)
             logging.info("Performing final aggregation of all stats files...")

@@ -195,7 +195,8 @@ The `.env` is loaded automatically when it sits in the directory you run the too
 | `MAX_RETRIES` | `--max-retries` | `3` | Retries for failed queries |
 | `THRESHOLD` | `--threshold` | `26` | Minimum matching score (0–48) |
 | `BATCH_SIZE` | `--batch-size` | `3` | Files per batch (`--batch` mode) |
-| `PAUSE_DURATION` | `--pause-duration` | `10` | Pause between batches (seconds) |
+| `PAUSE_DURATION` | `--pause-duration` | `0` | Pause between batches (seconds) |
+| `VALIDATE_OUTPUT` | `--validate-output` | `false` | Re-process a file once if its output looks empty |
 | `ERROR_THRESHOLD` | `--error-threshold` | `10` | Max consecutive server errors before stopping |
 | `LOG_LEVEL` | `--log-level` | `INFO` | `DEBUG` / `INFO` / `WARNING` / `ERROR` |
 | `USE_GROBID` | `--use-grobid` | `false` | Enable GROBID fallback |
@@ -260,7 +261,8 @@ uv run script/ReferenceMatchingTool.py crossref_references.json \
 | `--timeout` | int | Maximum time in seconds to wait for each SPARQL query response before timing out | 600 |
 | `--max-retries` | int | Number of retry attempts for failed SPARQL queries (handles transient network errors) | 3 |
 | `--batch-size` | int | Number of files processed simultaneously per batch. Each file gets its own rate limiter, so the **effective request rate ≈ `batch-size × rate-limit`** — lower it (e.g. 1) to reduce server load / 500s | 3 |
-| `--pause-duration` | int | Delay in seconds between processing batches to avoid overwhelming the server | 10 |
+| `--pause-duration` | int | Delay in seconds between processing batches. With `--batch-size 1` it is applied after **every** file/work (10 s × 84k works ≈ 10 days of idle time), so it defaults to 0; the rate limiter already protects the server | 0 |
+| `--validate-output` | flag | After each file, check that its output CSV/stats are not near-empty and re-process it once if they are. Off by default because files with 0 references or 0 matches also produce a near-empty CSV and would be processed twice; turn it on if you suspect truncated outputs | False |
 | `--error-threshold` | int | Maximum number of consecutive server errors (5xx) before stopping batch processing | 10 |
 | `--log-level` | str | Verbosity of logging output: DEBUG (detailed), INFO (standard), WARNING, or ERROR (minimal) | INFO |
 | `--rate-limit` | float | Maximum SPARQL queries per second (per file) to respect OpenCitations API rate limits | 2.5 |

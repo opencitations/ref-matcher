@@ -228,7 +228,7 @@ class MatcherConfig:
 
     # Batch processing
     default_batch_size: int = 3
-    default_pause_duration: int = 10
+    default_pause_duration: int = 0
     default_error_threshold: int = 5
     checkpoint_interval: int = 10
 
@@ -1474,10 +1474,15 @@ class ReferenceProcessor:
     """Processor with async matcher handling"""
 
     def __init__(self, use_grobid: bool = False, grobid_config: Optional[str] = None,
-                 endpoint: str = None, config: MatcherConfig = None):
+                 endpoint: str = None, config: MatcherConfig = None,
+                 validate_output: bool = False):
         self.matcher_endpoint = endpoint or DEFAULT_SPARQL_ENDPOINT
         self.matcher_config = config or DEFAULT_CONFIG
-        
+        # Re-process a file whose output CSV/stats look empty (see
+        # process_file_with_retry). Off by default: a work with 0 references or
+        # 0 matches legitimately produces a header-only CSV and would be redone.
+        self.validate_output = validate_output
+
         self.use_grobid = use_grobid
         self.grobid_config = grobid_config
         
@@ -2756,7 +2761,12 @@ class ReferenceProcessor:
             try:
                 # Process the file using original method
                 await self.process_file(input_file, output_file, threshold, use_doi, raw_content=raw_content)
-                
+
+                # Output validation is opt-in (--validate-output): without it a
+                # successful run is accepted as is; exceptions are still retried below.
+                if not self.validate_output:
+                    return True
+
                 # Quick validation
                 is_valid, reason = self.quick_validate_output(output_file, stats_file)
                 
@@ -2805,7 +2815,7 @@ class BatchProcessor:
     """Memory-efficient batch processor with incremental checkpointing"""
     
     def __init__(self, reference_processor: 'ReferenceProcessor',
-             batch_size: int = 3, pause_duration: int = 10, error_threshold: int = 10,  
+             batch_size: int = 3, pause_duration: int = 0, error_threshold: int = 10,
              use_doi: bool = True, checkpoint_interval: int = 10):
         self.reference_processor = reference_processor
         self.batch_size = batch_size
@@ -3800,8 +3810,8 @@ def batch_process_with_recovery(input_dir: str, output_dir: str,
         batch_processor = BatchProcessor(
         reference_processor=processor,
         batch_size=batch_size,
-        pause_duration=10,
-        error_threshold=error_threshold, 
+        pause_duration=DEFAULT_CONFIG.default_pause_duration,
+        error_threshold=error_threshold,
         use_doi=True,
         checkpoint_interval=checkpoint_interval
         )
@@ -3900,8 +3910,9 @@ async def main():
                        help='Maximum number of retries for failed queries')
     parser.add_argument('--batch-size', type=int, default=_env('BATCH_SIZE', 3, int),
                        help='Number of files to process in each batch')
-    parser.add_argument('--pause-duration', type=int, default=_env('PAUSE_DURATION', 10, int),
-                       help='Pause between batches in seconds')
+    parser.add_argument('--pause-duration', type=int, default=_env('PAUSE_DURATION', 0, int),
+                       help='Pause between batches in seconds (default 0; with --batch-size 1 '
+                            'the pause is applied after every single file/work)')
     parser.add_argument('--error-threshold', type=int, default=_env('ERROR_THRESHOLD', 10, int),
                     help='Maximum server errors before stopping (default: 10)')
     parser.add_argument('--log-level', type=str,
@@ -3917,6 +3928,12 @@ async def main():
                        default=_env_bool('THRESHOLD_ADJUSTMENT', True),
                        help='Enforce the raw threshold instead of lowering it to '
                             '90%% when a score is close (see MatcherConfig).')
+    parser.add_argument('--validate-output', action='store_true',
+                       default=_env_bool('VALIDATE_OUTPUT', False),
+                       help='After each file, check that its output CSV/stats are not '
+                            'near-empty and re-process it once if they are. Off by default: '
+                            'files with 0 references or 0 matches also produce a near-empty '
+                            'CSV and would be processed twice.')
     parser.add_argument('--force-restart', action='store_true',
                        help='Ignore any existing checkpoint in the output directory '
                             'and reprocess every file from scratch (batch mode).')
@@ -4016,7 +4033,8 @@ async def main():
             use_grobid=args.use_grobid,
             grobid_config=args.grobid_config,
             endpoint=args.endpoint,
-            config=config  # <-- Pass the config here
+            config=config,  # <-- Pass the config here
+            validate_output=args.validate_output,
         )
         
     except Exception as e:

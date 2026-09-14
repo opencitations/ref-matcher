@@ -3927,6 +3927,22 @@ async def main():
     parser.add_argument('--limit', type=int, default=0,
                        help='With --dump, process only the first N works (0 = all). '
                             'Handy for a quick test on a huge dump.')
+    parser.add_argument('--bulk', action='store_true',
+                       help='Bulk DOI mode (separate module bulk_doi.py): extract every '
+                            'reference DOI from a dump and batch-check their existence in '
+                            'Meta (fast, scalable — thousands of DOIs per request). '
+                            'Writes matched/unmatched DOIs + the no-DOI residual. '
+                            'Implies a dump input; does not use the matcher or GROBID.')
+    parser.add_argument('--bulk-chunk-size', type=int, default=2000,
+                       help='With --bulk: DOIs per SPARQL request (default: 2000).')
+    parser.add_argument('--bulk-max-per-min', type=int, default=170,
+                       help='With --bulk: request ceiling per minute (default: 170; '
+                            'the endpoint allows 180).')
+    parser.add_argument('--bulk-same-as', metavar='MATCHER_OUTPUT_DIR',
+                       help='With --bulk: process ONLY the works the matcher already '
+                            'completed in MATCHER_OUTPUT_DIR (e.g. a previous --dump run) '
+                            'and write references_index.csv, so the two methods can be '
+                            'compared with compare_bulk_matcher.py.')
     args = parser.parse_args()
     log_level = getattr(logging, args.log_level, logging.INFO)
     setup_logging(log_level=log_level)
@@ -3957,8 +3973,31 @@ async def main():
     if args.threshold < 0 or args.threshold > 100:
         parser.error("Threshold must be between 0 and 100")
 
+    # --bulk: fast DOI-existence pipeline. Lives in the separate bulk_doi module and
+    # needs neither the matcher nor GROBID, so dispatch here before building either.
+    if args.bulk:
+        if not os.path.isfile(args.input):
+            parser.error("--bulk expects a dump .json file or a .tar.gz archive")
+        from bulk_doi import run_bulk, load_works_from_matcher_dir
+        works_filter = None
+        if args.bulk_same_as:
+            if not os.path.isdir(args.bulk_same_as):
+                parser.error(f"--bulk-same-as: not a directory: {args.bulk_same_as}")
+            works_filter = load_works_from_matcher_dir(args.bulk_same_as)
+            if not works_filter:
+                parser.error(f"--bulk-same-as: no completed works found in {args.bulk_same_as}")
+        base = os.path.basename(
+            args.input[:-len('.tar.gz')] if is_tar else os.path.splitext(args.input)[0])
+        output_dir = args.output or f"{base}_bulk"
+        await run_bulk(
+            args.input, output_dir, endpoint=args.endpoint,
+            limit=args.limit, chunk_size=args.bulk_chunk_size,
+            max_per_min=args.bulk_max_per_min,
+            works_filter=works_filter, ref_index=bool(args.bulk_same_as))
+        return 0
+
     # Initialize processor
-    processor = None  
+    processor = None
 
     # Initialize processor
     try:

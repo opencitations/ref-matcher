@@ -3958,10 +3958,10 @@ async def main():
         parser.error(f"Input path does not exist: {args.input}")
         
     is_tar = args.input.endswith('.tar.gz')
-    if args.dump:
-        # --dump takes a dump .json file or a .tar.gz archive of dump files.
+    if args.dump or args.bulk:
+        # --dump / --bulk take a dump .json file or a .tar.gz archive of dump files.
         if not os.path.isfile(args.input):
-            parser.error("--dump expects a dump .json file or a .tar.gz archive")
+            parser.error("--dump/--bulk expect a dump .json file or a .tar.gz archive")
     else:
         if args.batch and not (os.path.isdir(args.input) or is_tar):
             parser.error("Input must be a directory or a .tar.gz archive when using --batch")

@@ -261,13 +261,13 @@ uv run script/ReferenceMatchingTool.py crossref_references.json \
 | `--no-doi` | flag | Disable DOI-based queries. Useful when DOI metadata is unreliable or missing | - |
 | `--timeout` | int | Maximum time in seconds to wait for each SPARQL query response before timing out | 600 |
 | `--max-retries` | int | Number of retry attempts for failed SPARQL queries (handles transient network errors) | 3 |
-| `--batch-size` | int | Number of files processed simultaneously per batch. Each file gets its own rate limiter, so the **effective request rate ≈ `batch-size × rate-limit`** — lower it (e.g. 1) to reduce server load / 500s | 3 |
+| `--batch-size` | int | Number of files processed simultaneously per batch. All files share **one** rate limiter, so `--rate-limit` is the real request rate of the whole run regardless of the batch size | 3 |
 | `--pause-duration` | int | Delay in seconds between processing batches. With `--batch-size 1` it is applied after **every** file/work (10 s × 84k works ≈ 10 days of idle time), so it defaults to 0; the rate limiter already protects the server | 0 |
 | `--query-cache-size` | int | Maximum number of SPARQL results kept in memory and reused when the exact same query is issued again — which happens systematically in the GROBID and "without year" passes, and whenever the same work is cited again. Reusing an identical query's result cannot change any score; it only saves requests. The run ends by printing how many queries were sent and how many were served from the cache. `0` disables it | 50000 |
 | `--validate-output` | flag | After each file, check that its output CSV/stats are not near-empty and re-process it once if they are. Off by default because files with 0 references or 0 matches also produce a near-empty CSV and would be processed twice; turn it on if you suspect truncated outputs | False |
 | `--error-threshold` | int | Maximum number of consecutive server errors (5xx) before stopping batch processing | 10 |
 | `--log-level` | str | Verbosity of logging output: DEBUG (detailed), INFO (standard), WARNING, or ERROR (minimal) | INFO |
-| `--rate-limit` | float | Maximum SPARQL queries per second (per file) to respect OpenCitations API rate limits | 2.5 |
+| `--rate-limit` | float | Maximum SPARQL queries per second for the whole run (one limiter shared by every file) to respect the OpenCitations limit of 180 requests/minute | 2.5 |
 | `--burst-size` | int | Maximum number of concurrent requests allowed in token bucket before rate limiting kicks in | 10 |
 | `--no-threshold-adjustment` | flag | Enforce the raw `--threshold` instead of the adaptive lowering to 90% when a score is close | (adjustment on) |
 | `--force-restart` | flag | Batch mode: ignore any existing checkpoint in the output directory and reprocess every file from scratch | False |

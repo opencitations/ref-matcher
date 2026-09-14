@@ -745,49 +745,70 @@ class ImprovedRateLimiter:
         self._semaphore = asyncio.Semaphore(burst_size)
         self._429_count = 0
         self._last_429_time = 0.0
-        
+        # After a 429 no token is granted before this instant, to any caller.
+        self._pause_until = 0.0
+
         logging.info(f"Rate limiter initialized: {requests_per_second} req/s, burst={burst_size}")
-    
+
+    async def _wait_pause(self):
+        """Sleep through an active post-429 pause and restart the bucket empty."""
+        now = time.time()
+        if now < self._pause_until:
+            await asyncio.sleep(self._pause_until - now)
+            self.tokens = 0.0
+            self.last_update = time.time()
+
     async def acquire(self):
         """Acquire permission to make a request"""
         # Limit concurrent requests
-        async with self._semaphore:  
+        async with self._semaphore:
             async with self._lock:
+                await self._wait_pause()
                 now = time.time()
-                
+
                 # Refill tokens based on time elapsed
                 elapsed = now - self.last_update
                 self.tokens = min(self.burst_size, self.tokens + elapsed * self.rate)
                 self.last_update = now
-                
+
                 # Wait if no tokens available
                 if self.tokens < 1.0:
                     wait_time = (1.0 - self.tokens) / self.rate
                     logging.debug(f"Rate limit: waiting {wait_time:.2f}s for token")
                     await asyncio.sleep(wait_time)
                     self.tokens = 0.0
+                    # The wait just consumed the refill up to now: without this the
+                    # next call re-credits the same interval and goes through
+                    # immediately, i.e. ~2x the configured rate under sustained load.
+                    self.last_update = time.time()
+                    # A 429 may have arrived while we were waiting for the token.
+                    await self._wait_pause()
                 else:
                     self.tokens -= 1.0
-                    
+
                 logging.debug(f"Token acquired. Remaining: {self.tokens:.2f}")
 
-    
+
     async def handle_429(self, attempt: int = 0) -> float:
-        """Handle 429 rate limit response"""
-        async with self._lock:
-            self._429_count += 1
-            self._last_429_time = time.time()
-            
-            # Exponential backoff
-            wait_time = min(60, (2 ** attempt) * 5)
-            
-            # Reduce rate temporarily
-            self.tokens = 0.0
-            
-            logging.warning(f"⚠️ 429 Rate Limit Hit! (count: {self._429_count})")
-            logging.warning(f"   Backing off for {wait_time:.1f}s")
-            
-            return wait_time
+        """Handle 429 rate limit response.
+
+        Pauses every request sharing this limiter for the backoff, not only the
+        one that got the 429. It deliberately does not take the lock: callers
+        queued on acquire() must see the pause as soon as the 429 is received.
+        """
+        self._429_count += 1
+        self._last_429_time = time.time()
+
+        # Exponential backoff
+        wait_time = min(60, (2 ** attempt) * 5)
+
+        self._pause_until = max(self._pause_until, time.time() + wait_time)
+        self.tokens = 0.0
+
+        logging.warning(f"⚠️ 429 Rate Limit Hit! (count: {self._429_count})")
+        logging.warning(f"   Backing off for {wait_time:.1f}s")
+
+        return wait_time
         
     def get_stats(self) -> dict:
         """Get rate limiter statistics"""
@@ -850,13 +871,18 @@ class OpenCitationsMatcherThreadSafe:
 
     def __init__(self, endpoint: str = DEFAULT_SPARQL_ENDPOINT,
              max_retries: int = None, timeout: int = None, config: MatcherConfig = None,
-             query_cache: Optional[QueryCache] = None):
+             query_cache: Optional[QueryCache] = None,
+             rate_limiter: Optional["ImprovedRateLimiter"] = None):
         self.config = config or DEFAULT_CONFIG
         self.query_cache = query_cache
         self.endpoint = endpoint
         self.max_retries = max_retries or self.config.max_retries
         self.timeout = timeout or self.config.default_timeout
-        self.rate_limiter = ImprovedRateLimiter(
+        # Pass a shared limiter to cap the request rate of the whole run. A new
+        # limiter per matcher starts with a full bucket, so back-to-back files
+        # (e.g. --pause-duration 0) would each get a free burst and together
+        # exceed the configured rate.
+        self.rate_limiter = rate_limiter or ImprovedRateLimiter(
             requests_per_second=self.config.requests_per_second,
             burst_size=self.config.burst_size
         )
@@ -1549,8 +1575,11 @@ class ReferenceProcessor:
                  validate_output: bool = False):
         self.matcher_endpoint = endpoint or DEFAULT_SPARQL_ENDPOINT
         self.matcher_config = config or DEFAULT_CONFIG
-        # One cache for the whole run, shared by every matcher (see QueryCache).
+        # One cache and one rate limiter for the whole run, shared by every
+        # matcher: --rate-limit is then the real rate of the process, whatever
+        # the number of files, the pause between them or --batch-size.
         self.query_cache = QueryCache(max_entries=self.matcher_config.query_cache_size)
+        self._rate_limiter = None  # created on first use, see rate_limiter
         # Re-process a file whose output CSV/stats look empty (see
         # process_file_with_retry). Off by default: a work with 0 references or
         # 0 matches legitimately produces a header-only CSV and would be redone.
@@ -1649,6 +1678,17 @@ class ReferenceProcessor:
         
         return self._grobid_instance
     
+    @property
+    def rate_limiter(self) -> "ImprovedRateLimiter":
+        """The run-wide limiter, created lazily so that its asyncio primitives
+        are born inside the running event loop (required on Python 3.9 when the
+        processor itself is built outside it, e.g. batch_process_with_recovery)."""
+        if self._rate_limiter is None:
+            self._rate_limiter = ImprovedRateLimiter(
+                requests_per_second=self.matcher_config.requests_per_second,
+                burst_size=self.matcher_config.burst_size)
+        return self._rate_limiter
+
     @asynccontextmanager
     async def _acquire_matcher(self, matcher: Optional["OpenCitationsMatcherThreadSafe"] = None):
         """Yield a shared matcher (lifecycle owned by the caller) or a fresh one.
@@ -1666,6 +1706,7 @@ class ReferenceProcessor:
             endpoint=self.matcher_endpoint,
             config=self.matcher_config,
             query_cache=self.query_cache,
+            rate_limiter=self.rate_limiter,
         ) as own:
             yield own
 
@@ -2177,7 +2218,7 @@ class ReferenceProcessor:
             results = []
             async with OpenCitationsMatcherThreadSafe(
                 endpoint=self.matcher_endpoint, config=self.matcher_config,
-                query_cache=self.query_cache,
+                query_cache=self.query_cache, rate_limiter=self.rate_limiter,
             ) as matcher:
                 tasks = [
                     process_single_reference(ref_data, i, matcher)
@@ -2374,7 +2415,7 @@ class ReferenceProcessor:
             results = []
             async with OpenCitationsMatcherThreadSafe(
                 endpoint=self.matcher_endpoint, config=self.matcher_config,
-                query_cache=self.query_cache,
+                query_cache=self.query_cache, rate_limiter=self.rate_limiter,
             ) as matcher:
                 tasks = [
                     process_single_bibl(bibl, i, matcher)

@@ -1121,8 +1121,7 @@ class OpenCitationsMatcherThreadSafe:
             """
             
             # Standard SELECT for all queries
-            # (no ?end_page: the scoring only ever compares the starting page)
-            SELECT_ALL = "SELECT DISTINCT ?br ?title ?pub_date ?doi ?author_name ?volume_num ?start_page"
+            SELECT_ALL = "SELECT DISTINCT ?br ?title ?pub_date ?doi ?author_name ?volume_num ?start_page ?end_page"
 
             # Standard OPTIONAL blocks
             OPTIONAL_TITLE = "OPTIONAL { ?br dcterms:title ?title . }"
@@ -1139,20 +1138,18 @@ class OpenCitationsMatcherThreadSafe:
                         pro:isHeldBy ?author .
                     ?author foaf:familyName ?author_name .
                 }"""
-            # Volume and page are only fetched when the reference has them: the
-            # scoring (and the match stats) compare them only in that case, so
-            # otherwise the joins would produce data nobody reads.
             OPTIONAL_VOLUME = """
                 OPTIONAL {
                     ?br frbr:partOf ?issue .
                     ?issue frbr:partOf ?volume .
                     ?volume fabio:hasSequenceIdentifier ?volume_num .
-                }""" if reference.volume else ""
+                }"""
             OPTIONAL_PAGES = """
                 OPTIONAL {
                     ?br frbr:embodiment ?embodiment .
                     OPTIONAL { ?embodiment prism:startingPage ?start_page . }
-                }""" if reference.first_page else ""
+                    OPTIONAL { ?embodiment prism:endingPage ?end_page . }
+                }"""
 
             # STEP 1: Year validation
             year_int = self._extract_year(reference.year)
@@ -1343,6 +1340,7 @@ class OpenCitationsMatcherThreadSafe:
                     )
 
                     OPTIONAL {{ ?br dcterms:title ?title . }}
+                    OPTIONAL {{ ?embodiment prism:endingPage ?end_page . }} # end_page aggiunto
                     {OPTIONAL_DOI}
                     {OPTIONAL_AUTHOR}
                 }}
@@ -1380,6 +1378,7 @@ class OpenCitationsMatcherThreadSafe:
                     )
                                         
                     OPTIONAL {{ ?br dcterms:title ?title . }}
+                    OPTIONAL {{ ?embodiment prism:endingPage ?end_page . }} # end_page aggiunto
                     {OPTIONAL_DOI}
                     {OPTIONAL_VOLUME}
                 }}

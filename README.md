@@ -338,7 +338,7 @@ uv run script/bulk_doi.py crossref-data-2026-06.tar.gz -o out_dir --authors
 | Flag | Default | Meaning |
 |---|---|---|
 | `--bulk` | off | Enable bulk mode (implies a dump input) |
-| `--bulk-chunk-size` | 2000 | DOIs per SPARQL request (capped at 1000 with `--bulk-authors`) |
+| `--bulk-chunk-size` | 2000 | DOIs per SPARQL request |
 | `--bulk-max-per-min` | 170 | Request ceiling per minute (the endpoint allows 180) |
 | `--bulk-authors` | off | Also fetch author surnames and corroborate (see below) |
 | `--bulk-same-as DIR` | — | Process only the works the matcher already completed in `DIR`, and write `references_index.csv`, so the two methods can be compared with `compare_bulk_matcher.py` |
@@ -351,15 +351,17 @@ uv run script/bulk_doi.py crossref-data-2026-06.tar.gz -o out_dir --authors
 | `unmatched_dois.txt` | DOIs not on Meta: **candidates** for ingestion, to be validated |
 | `no_doi_references.jsonl` | The references without a DOI, for the matcher |
 | `bulk_report.txt` / `bulk_summary.json` | Counts and per‑phase timings |
-| `check_errors.txt` | Chunks that exhausted their retries — re‑run to finish them |
+| `check_errors.txt` | DOIs whose chunk failed twice (retries, then a second pass at the end of the run); never counted as absent |
 
 #### Author corroboration (`--bulk-authors`)
 
 A DOI found on Meta proves the *identifier* is there; it does not prove the
 reference meant that work (the DOI printed in the reference can be wrong).
-`--bulk-authors` adds the check in the **same** pass: the query also returns the
-work's author surnames, and they are compared locally against the surname in the
-reference.
+`--bulk-authors` adds the check in the **same** pass: for each chunk, a second
+query fetches the author surnames of the DOIs found present, and they are
+compared locally against the surname in the reference. Existence never depends
+on that second query (a plain join; the same pattern inside an `OPTIONAL` is
+~150× slower on QLever).
 
 The comparison strips accents, punctuation and one‑letter initials, matches on
 word sets (so `LA Follegatti-Romero` ≡ `follegatti romero`, `Bos Van den` ≡ `van

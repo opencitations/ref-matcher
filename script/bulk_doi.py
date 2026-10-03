@@ -366,12 +366,13 @@ def _build_query(dois: List[str]) -> str:
 
 
 def _build_query_authors(dois: List[str]) -> str:
-    """Esistenza + cognomi degli autori, in una passata sola.
+    """Cognomi degli autori dei DOI (già verificati presenti con _build_query).
 
     Il cognome NON va vincolato in VALUES: misurato, una VALUES (?doi ?fam)
     manda Virtuoso in timeout già con 200 coppie (parte dall'indice dei nomi).
-    Lasciandolo libero si percorre DOI -> opera -> autori: ~2 s per 1.000 DOI.
-    L'OPTIONAL serve a non perdere le opere che su Meta non hanno autori.
+    Niente OPTIONAL: su QLever lo stesso pattern dentro un OPTIONAL impiega
+    213 s per 200 DOI contro 1,3 s come join (7,5 s per 2.000). Le opere senza
+    autori spariscono dal risultato, ma la presenza viene dalla query di esistenza.
     """
     values = " ".join(f'"{_esc(d)}"^^<{XSD_STRING}>' for d in dois)
     return (
@@ -383,12 +384,10 @@ def _build_query_authors(dois: List[str]) -> str:
         "  ?id datacite:usesIdentifierScheme datacite:doi ;\n"
         "      literal:hasLiteralValue ?doi .\n"
         "  ?br datacite:hasIdentifier ?id .\n"
-        "  OPTIONAL {\n"
-        "    ?br pro:isDocumentContextFor ?role .\n"
-        "    ?role pro:withRole pro:author ;\n"
-        "          pro:isHeldBy ?author .\n"
-        "    ?author foaf:familyName ?fam .\n"
-        "  }\n"
+        "  ?br pro:isDocumentContextFor ?role .\n"
+        "  ?role pro:withRole pro:author ;\n"
+        "        pro:isHeldBy ?author .\n"
+        "  ?author foaf:familyName ?fam .\n"
         "}"
     )
 
@@ -504,8 +503,9 @@ async def check(uniq_path: str, out_dir: str, endpoint: str = DEFAULT_ENDPOINT,
                 authors: bool = False) -> Dict:
     """Fase 2: quali DOI unici esistono su Meta. Ripartibile via checkpoint.
 
-    Con authors=True la stessa passata chiede anche i cognomi degli autori e
-    confronta con quelli del riferimento: i DOI presenti si dividono in
+    Con authors=True, per ogni chunk una seconda query chiede i cognomi degli
+    autori dei soli DOI presenti e li confronta con quelli del riferimento (se
+    fallisce, la presenza resta valida): i DOI presenti si dividono in
     corroborati / discordanti / non corroborabili (Meta senza autori, oppure
     riferimento senza autore).
     """
@@ -523,52 +523,60 @@ async def check(uniq_path: str, out_dir: str, endpoint: str = DEFAULT_ENDPOINT,
         if authors else None
 
     n_matched = n_unmatched = n_error = n_requests = 0
-    n_corr = n_disc = n_meta_noauth = n_ref_noauth = 0
+    n_corr = n_disc = n_meta_noauth = n_ref_noauth = n_auth_err = 0
+    failed: List[List[str]] = []
     async with aiohttp.ClientSession() as session:
         with open(matched_path, 'a', encoding='utf-8') as m_out, \
              open(unmatched_path, 'a', encoding='utf-8') as u_out, \
-             open(err_path, 'a', encoding='utf-8') as e_out, \
              open(corr_path if authors else os.devnull, 'a', encoding='utf-8') as c_out, \
              open(disc_path if authors else os.devnull, 'a', encoding='utf-8') as d_out:
-            for chunk in _iter_chunks(uniq_path, chunk_size, done):
-                query = _build_query_authors(chunk) if authors else _build_query(chunk)
-                rows = await _query_chunk(session, endpoint, query, limiter)
+
+            async def process(chunk: List[str], exp) -> bool:
+                """Esito di un chunk; False (nulla scritto) se l'esistenza fallisce."""
+                nonlocal n_matched, n_unmatched, n_requests, n_corr, n_disc
+                nonlocal n_meta_noauth, n_ref_noauth, n_auth_err
+                rows = await _query_chunk(session, endpoint, _build_query(chunk), limiter)
                 n_requests += 1
                 if rows is None:
-                    for d in chunk:
-                        e_out.write(d + '\n')
-                    n_error += len(chunk)
-                else:
-                    present: Set[str] = set()
-                    meta_names: Dict[str, Set[str]] = defaultdict(set)
-                    for b in rows:
-                        if 'doi' not in b:
-                            continue
-                        d = b['doi']['value']
-                        present.add(d)
-                        if 'fam' in b:
-                            meta_names[d].add(norm_name(b['fam']['value']))
-                    for d in chunk:
-                        if d not in present:
-                            u_out.write(d + '\n'); n_unmatched += 1
-                            continue
-                        m_out.write(d + '\n'); n_matched += 1
-                        if expected is None:
-                            continue
-                        attesi = expected.get(d)
-                        trovati = meta_names.get(d, set())
-                        if not attesi:
-                            n_ref_noauth += 1
-                        elif not trovati:
-                            n_meta_noauth += 1
-                        elif any(names_match(a, trovati) for a in attesi):
-                            c_out.write(d + '\n'); n_corr += 1
-                        else:
-                            n_disc += 1
-                            d_out.write(f"{d}\t{'|'.join(attesi)}\t"
-                                        f"{'|'.join(sorted(trovati))}\n")
-                for fh in (m_out, u_out, e_out, c_out, d_out):
+                    return False
+                present = {b['doi']['value'] for b in rows if 'doi' in b}
+                meta_names: Dict[str, Set[str]] = defaultdict(set)
+                if exp is not None and present:
+                    arows = await _query_chunk(session, endpoint,
+                                               _build_query_authors(sorted(present)), limiter)
+                    n_requests += 1
+                    if arows is None:
+                        n_auth_err += len(present)
+                    for b in arows or []:
+                        if 'doi' in b and 'fam' in b:
+                            meta_names[b['doi']['value']].add(norm_name(b['fam']['value']))
+                for d in chunk:
+                    if d not in present:
+                        u_out.write(d + '\n'); n_unmatched += 1
+                        continue
+                    m_out.write(d + '\n'); n_matched += 1
+                    if exp is None:
+                        continue
+                    attesi = exp.get(d)
+                    trovati = meta_names.get(d, set())
+                    if not attesi:
+                        n_ref_noauth += 1
+                    elif not trovati:
+                        n_meta_noauth += 1
+                    elif any(names_match(a, trovati) for a in attesi):
+                        c_out.write(d + '\n'); n_corr += 1
+                    else:
+                        n_disc += 1
+                        d_out.write(f"{d}\t{'|'.join(attesi)}\t"
+                                    f"{'|'.join(sorted(trovati))}\n")
+                for fh in (m_out, u_out, c_out, d_out):
                     fh.flush()
+                return True
+
+            for chunk in _iter_chunks(uniq_path, chunk_size, done):
+                if not await process(chunk, expected):
+                    failed.append(chunk)
+                    n_error += len(chunk)
                 done += len(chunk)
                 _write_checkpoint(ckpt_path, done)
                 pct = 100 * done / total if total else 100
@@ -576,6 +584,25 @@ async def check(uniq_path: str, out_dir: str, endpoint: str = DEFAULT_ENDPOINT,
                 print(f"  bulk: {done:,}/{total:,} ({pct:.1f}%) | "
                       f"presenti {n_matched:,} assenti {n_unmatched:,} err {n_error:,}"
                       f"{extra}", flush=True)
+
+            # secondo giro sui chunk falliti (errori transitori); ciò che fallisce
+            # ancora resta in check_errors.txt, mai contato come assente.
+            # ponytail: i cognomi attesi si rileggono per chunk (il lettore in
+            # lockstep è già oltre); va bene finché i falliti sono pochi.
+            if failed:
+                print(f"  bulk: nuovo tentativo su {len(failed)} chunk falliti", flush=True)
+            still: List[str] = []
+            for chunk in failed:
+                exp = _ExpectedAuthors(os.path.join(out_dir, 'doi_author_unique.tsv')) \
+                    if authors else None
+                if await process(chunk, exp):
+                    n_error -= len(chunk)
+                else:
+                    still.extend(chunk)
+                if exp is not None:
+                    exp.close()
+            with open(err_path, 'a', encoding='utf-8') as e_out:
+                e_out.writelines(d + '\n' for d in still)
     if expected is not None:
         expected.close()
 
@@ -594,6 +621,7 @@ async def check(uniq_path: str, out_dir: str, endpoint: str = DEFAULT_ENDPOINT,
             'author_corroborated': n_corr,
             'author_discordant': n_disc,
             'meta_without_authors': n_meta_noauth,
+            'author_query_failed': n_auth_err,
             'reference_without_author': n_ref_noauth,
             'pct_corroborated_of_applicable': (round(100 * n_corr / applicabili, 2)
                                                if applicabili else 0.0),
@@ -620,11 +648,6 @@ async def run_bulk(dump_path: str, out_dir: str, endpoint: str = DEFAULT_ENDPOIN
     """
     os.makedirs(out_dir, exist_ok=True)
     t_start = time.time()
-    if authors and chunk_size > 1000:
-        # la risposta porta anche gli autori: ~7 volte i byte per DOI
-        print(f"[bulk] --authors: chunk ridotto da {chunk_size} a 1000")
-        chunk_size = 1000
-
     if works_filter is not None:
         print(f"\n[bulk] Limitato a {len(works_filter):,} work (stesso set del matcher)")
     print(f"\n[bulk] Fase 1 — estrazione DOI dal dump: {dump_path}")
@@ -680,7 +703,8 @@ async def run_bulk(dump_path: str, out_dir: str, endpoint: str = DEFAULT_ENDPOIN
             f.write(f"  cognome concorde       : {ck['author_corroborated']:,}\n")
             f.write(f"  cognome discorde       : {ck['author_discordant']:,}"
                     f"  -> {ck['discordant_path']}\n")
-            f.write(f"  Meta senza autori      : {ck['meta_without_authors']:,}\n")
+            f.write(f"  Meta senza autori      : {ck['meta_without_authors']:,}"
+                    f"  (di cui query autori fallita: {ck['author_query_failed']:,})\n")
             f.write(f"  riferimento senza aut. : {ck['reference_without_author']:,}\n")
             f.write(f"  concordi sugli applicabili: "
                     f"{ck['pct_corroborated_of_applicable']}%\n")

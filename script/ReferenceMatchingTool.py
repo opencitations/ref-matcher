@@ -23,6 +23,8 @@ from data.grobid.grobid_client.grobid_client import GrobidClient
 from tqdm import tqdm
 import time
 import tempfile
+import urllib.parse
+import urllib.request
 import argparse
 from unidecode import unidecode
 import unicodedata
@@ -570,7 +572,11 @@ class GrobidProcessor:
         try:
             config_path = self.find_config_file(config_path)
             self.client = GrobidClient(config_path=config_path)
-            
+            # the single-citation fallback talks to the REST API directly
+            with open(config_path, encoding='utf-8') as f:
+                self.server = (json.load(f).get('grobid_server')
+                               or 'http://localhost:8070').rstrip('/')
+
             logging.debug(f"Grobid client initialized for thread {threading.get_ident()}")
             
         except FileNotFoundError as e:
@@ -578,7 +584,61 @@ class GrobidProcessor:
         except Exception as e:
             raise RuntimeError(f"Failed to initialize Grobid client: {e}")
 
+    @staticmethod
+    def _has_fields(ref: Optional[Reference]) -> bool:
+        return bool(ref and (ref.year or ref.first_author_lastname or ref.article_title
+                             or ref.volume or ref.first_page or ref.doi))
+
     def process_unstructured_reference(self, unstructured_text: str) -> Optional[Reference]:
+        """Parse a citation string: processCitationList first, processCitation as fallback.
+
+        On some strings processCitationList yields nothing (on GROBID 0.9.1 it even
+        answers HTTP 500, NullPointerException at GrobidRestProcessString:372),
+        while processCitation - a different code path on the same server - parses
+        them fine: measured 30/30 on the citations the list endpoint dropped.
+        """
+        if not unstructured_text:
+            return None
+        # processCitationList reads ONE CITATION PER LINE: a line break inside the
+        # string (common in Crossref, from PDF wrapping) splits it in two and the
+        # title ends up in a second "citation" that is discarded. Measured: 29% of
+        # citation strings contain one; collapsing them lifts the title score on
+        # those from 10.57 to 13.80 points out of 14.
+        unstructured_text = " ".join(unstructured_text.split())
+        ref = self._process_citation_list(unstructured_text)
+        if self._has_fields(ref):
+            return ref
+        single = self._process_citation_single(unstructured_text)
+        if self._has_fields(single):
+            logging.debug("Grobid: recovered via processCitation fallback")
+            return single
+        return ref
+
+    def _process_citation_single(self, text: str) -> Optional[Reference]:
+        if not text or not text.strip():
+            return None
+        try:
+            data = urllib.parse.urlencode(
+                {'citations': text, 'consolidateCitations': '0'}).encode('utf-8')
+            req = urllib.request.Request(f"{self.server}/api/processCitation", data=data)
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                body = resp.read().decode('utf-8', errors='ignore')
+        except Exception as e:
+            logging.debug(f"Grobid processCitation failed: {e}")
+            return None
+        if not body.strip():
+            return None
+        # the answer is a bare <biblStruct> with no namespace: wrap it so that
+        # _parse_tei_xml, which searches the TEI namespace, reads it as usual
+        tei = ('<TEI xmlns="http://www.tei-c.org/ns/1.0"><text><back><listBibl>'
+               + body + '</listBibl></back></text></TEI>')
+        with tempfile.TemporaryDirectory() as temp_dir:
+            path = os.path.join(temp_dir, "single.tei.xml")
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(tei)
+            return self._parse_tei_xml(path)
+
+    def _process_citation_list(self, unstructured_text: str) -> Optional[Reference]:
         """
         Comprehensive error handling for Grobid processing
         """
@@ -1132,12 +1192,7 @@ class OpenCitationsMatcherThreadSafe:
                     ?doi_id datacite:usesIdentifierScheme datacite:doi ;
                             literal:hasLiteralValue ?doi .
                 }"""
-            OPTIONAL_AUTHOR = """
-                OPTIONAL {
-                    ?role pro:isDocumentContextFor ?br ;
-                        pro:isHeldBy ?author .
-                    ?author foaf:familyName ?author_name .
-                }"""
+            # OPTIONAL_AUTHOR needs the escaped surname: it is built in STEP 3.
             OPTIONAL_VOLUME = """
                 OPTIONAL {
                     ?br frbr:partOf ?issue .
@@ -1228,14 +1283,36 @@ class OpenCitationsMatcherThreadSafe:
             page_esc = e(reference.first_page)
             doi_esc = e(reference.doi) if use_doi else ""
 
+            # In OCDM the bibliographic resource is the document context of the
+            # role (?br pro:isDocumentContextFor ?role). The block used to walk
+            # it the other way round, so it never bound and ?author_name was
+            # always empty in year_and_doi, doi_title and year_volume_page.
+            # Only the reference's own surname is asked for: one row per
+            # candidate instead of one per author.
+            OPTIONAL_AUTHOR = f"""
+                OPTIONAL {{
+                    VALUES ?author_name {{ "{fam_esc}"^^<http://www.w3.org/2001/XMLSchema#string> }}
+                    ?author foaf:familyName ?author_name .
+                    ?role pro:isHeldBy ?author ;
+                          pro:withRole pro:author .
+                    ?br pro:isDocumentContextFor ?role .
+                }}""" if fam_esc else ""
+
             # Title pattern: take the first 4 significant words and regex-escape
             # each so metacharacters inside a title (parentheses, +, ., …) are
             # matched literally. The ".*" we insert between words stays a
             # wildcard; the whole pattern is then SPARQL-escaped for the literal.
-            title_words = title.split()[:4]
-            title_pattern = e(".*".join(
-                escape_regex_literal(word) for word in title_words if len(word) > 3
-            ))
+            title_words = [w for w in (title or "").split()[:4] if len(w) > 3]
+            if not title_words:
+                # The first 4 words are all short ("The use of GIS in ..."): an
+                # empty pattern matches EVERY title, so author_title returned all
+                # the works of that author, up to Virtuoso's 50,000-row cap
+                # (truncated). Fall back to the first long word of the title.
+                title_words = [w for w in (title or "").split() if len(w) > 3][:1]
+            title_pattern = e(".*".join(escape_regex_literal(word) for word in title_words))
+            if query_type in ("author_title", "doi_title") and not title_pattern:
+                logging.info(f"❌ SKIP: no usable word in the title for {query_type}")
+                return None
 
             # Query building
 
@@ -1825,7 +1902,10 @@ class ReferenceProcessor:
                     return best_match
 
                 # Grobid fallback (if enabled and unstructured text available)
+                grobid_called = False        # GROBID was actually invoked
+                grobid_fields = ""           # what it gave back, whatever the outcome
                 if self.use_grobid and self.grobid_processor and processed_ref.unstructured:
+                    grobid_called = True
                     logging.debug(f"🔧 GROBID FALLBACK ATTEMPT on: "
                                   f"'{processed_ref.unstructured[:150]}...'")
 
@@ -1845,6 +1925,16 @@ class ReferenceProcessor:
                                 f"✅ Grobid extracted: year={grobid_ref.year or '-'}, "
                                 f"author={grobid_ref.first_author_lastname or '-'}, "
                                 f"title='{(grobid_ref.article_title or '')[:50]}'")
+
+                            # which fields came back: tells apart "GROBID gave
+                            # nothing" from "gave something that did not match"
+                            grobid_fields = "|".join(
+                                n for n, v in (('year', grobid_ref.year),
+                                               ('author', grobid_ref.first_author_lastname),
+                                               ('title', grobid_ref.article_title),
+                                               ('volume', grobid_ref.volume),
+                                               ('page', grobid_ref.first_page),
+                                               ('doi', grobid_ref.doi)) if v) or "nessuno"
 
                             # Validate year before merging
                             if grobid_ref.year:
@@ -1916,7 +2006,13 @@ class ReferenceProcessor:
                     'score_original': best_score,
                     'score_grobid': best_score2 if best_score2 > 0 else None,
                     'score_no_year': best_score3 if best_score3 > 0 else None,
-                    'grobid_attempted': best_score2 > 0,
+                    # NB: registra l'INVOCAZIONE, non l'esito. Prima qui stava
+                    # `best_score2 > 0`, che diceva "No" anche quando GROBID era
+                    # stato chiamato e non aveva restituito nulla: i due casi
+                    # erano indistinguibili nei file di diagnostica.
+                    'grobid_attempted': grobid_called,
+                    'grobid_fields': grobid_fields,
+                    'grobid_scored': best_score2 > 0,
                     'no_year_attempted': best_score3 > 0
                 }
 
@@ -1988,7 +2084,9 @@ class ReferenceProcessor:
                     'score_original',           
                     'score_after_grobid',       
                     'score_without_year',       
-                    'grobid_attempted',         
+                    'grobid_attempted',
+                    'grobid_fields',            # cosa ha restituito GROBID
+                    'grobid_scored',            # il tentativo arricchito ha prodotto un punteggio
                     'threshold_failed'
                 ])
                 writer.writeheader()
@@ -2001,18 +2099,24 @@ class ReferenceProcessor:
                         score_grobid = score_info.get('score_grobid', 'N/A')
                         score_no_year = score_info.get('score_no_year', 'N/A')
                         grobid_attempted = 'Yes' if score_info.get('grobid_attempted') else 'No'
+                        grobid_fields = score_info.get('grobid_fields', '') or ''
+                        grobid_scored = 'Yes' if score_info.get('grobid_scored') else 'No'
                     elif isinstance(score_info, (int, float)):
                         best_score = score_info
                         score_original = score_info
                         score_grobid = 'N/A'
                         score_no_year = 'N/A'
                         grobid_attempted = 'No'
+                        grobid_fields = ''
+                        grobid_scored = 'No'
                     else:
                         best_score = 'N/A'
                         score_original = 'N/A'
                         score_grobid = 'N/A'
                         score_no_year = 'N/A'
                         grobid_attempted = 'No'
+                        grobid_fields = ''
+                        grobid_scored = 'No'
                     
                     writer.writerow({
                         'reference_id': ref_id,
@@ -2030,6 +2134,8 @@ class ReferenceProcessor:
                         'score_after_grobid': score_grobid,
                         'score_without_year': score_no_year,
                         'grobid_attempted': grobid_attempted,
+                        'grobid_fields': grobid_fields,
+                        'grobid_scored': grobid_scored,
                         'threshold_failed': 'Yes' if best_score != 'N/A' else 'No'
                     })
             
@@ -4110,6 +4216,13 @@ async def main():
     parser.add_argument('--bulk-max-per-min', type=int, default=170,
                        help='With --bulk: request ceiling per minute (default: 170; '
                             'the endpoint allows 180).')
+    parser.add_argument('--bulk-authors', action='store_true',
+                       help="With --bulk: also ask Meta for the works' author surnames "
+                            'and compare them with the surname in the reference. The DOI '
+                            'verdict is unchanged — a mismatching surname never demotes a '
+                            'DOI Meta holds; it only flags the case for inspection in '
+                            'discordant_authors.tsv. Same single pass, chunk capped at '
+                            '1000, roughly 3x the time and 7x the bandwidth.')
     parser.add_argument('--bulk-same-as', metavar='MATCHER_OUTPUT_DIR',
                        help='With --bulk: process ONLY the works the matcher already '
                             'completed in MATCHER_OUTPUT_DIR (e.g. a previous --dump run) '
@@ -4165,7 +4278,8 @@ async def main():
             args.input, output_dir, endpoint=args.endpoint,
             limit=args.limit, chunk_size=args.bulk_chunk_size,
             max_per_min=args.bulk_max_per_min,
-            works_filter=works_filter, ref_index=bool(args.bulk_same_as))
+            works_filter=works_filter, ref_index=bool(args.bulk_same_as),
+            authors=args.bulk_authors)
         return 0
 
     # Initialize processor

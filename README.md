@@ -26,6 +26,7 @@ Repository for a bibliographic reference matching tool designed to match referen
 - **Intelligent SPARQL Matching**: 6 query strategies with early stopping when threshold is met
 - **Sophisticated Scoring System**: Weighted scoring (max 48 points) based on DOI, title, authors, year, volume, and pages
 - **GROBID Integration**: Enriches references using GROBID for unstructured text parsing
+- **Bulk DOI Mode** (`--bulk`): Answers the ingestion question for DOI-bearing references thousands per request instead of one at a time, with optional author corroboration
 - **Comprehensive Logging**: Multi-file logging system with 5 specialized logs
 - **Rate Limiting**: Token bucket algorithm (2.5 req/s, burst of 10)
 - **Concurrent Processing**: Semaphore-controlled parallelism (10 concurrent references)
@@ -302,6 +303,87 @@ uv run script/ReferenceMatchingTool.py crossref-data-2026-06.tar.gz --dump -o ou
 
 `--limit N` caps the number of works (great for smoke‑testing a huge dump before
 committing to a full run).
+
+### Bulk DOI mode (`--bulk`)
+
+The matcher asks one question per reference. `--bulk` asks one question for
+**two thousand DOIs at a time**, and answers only the ingestion question — *is
+this reference already on OpenCitations Meta?* — for the references that carry a
+DOI. It lives in a separate module (`script/bulk_doi.py`), imported by the main
+tool, so the two logics stay apart: bulk never scores, never calls GROBID and
+never touches the matcher's code path.
+
+Measured on the same 1,520,805 references: the matcher took 20.9 days and
+millions of requests, bulk took 24 minutes and 425 requests.
+
+**Three phases**
+
+| Phase | What it does | Where |
+|---|---|---|
+| 1 | Streams the dump one member at a time (constant RAM) and splits references into *with DOI* / *without DOI* | local |
+| 1.5 | Deduplicates the DOIs on disk (`sort -u`, in‑memory fallback) — the same work cited a thousand times becomes one DOI to check | local |
+| 2 | Checks the unique DOIs against Meta with `VALUES` queries, rate‑limited and checkpointed (resumable) | network |
+
+```bash
+# whole dump, existence check only
+uv run script/ReferenceMatchingTool.py crossref-data-2026-06.tar.gz --bulk -o out_dir
+
+# also corroborate with the author surname
+uv run script/ReferenceMatchingTool.py crossref-data-2026-06.tar.gz --bulk --bulk-authors -o out_dir
+
+# stand-alone, without the main tool
+uv run script/bulk_doi.py crossref-data-2026-06.tar.gz -o out_dir --authors
+```
+
+| Flag | Default | Meaning |
+|---|---|---|
+| `--bulk` | off | Enable bulk mode (implies a dump input) |
+| `--bulk-chunk-size` | 2000 | DOIs per SPARQL request (capped at 1000 with `--bulk-authors`) |
+| `--bulk-max-per-min` | 170 | Request ceiling per minute (the endpoint allows 180) |
+| `--bulk-authors` | off | Also fetch author surnames and corroborate (see below) |
+| `--bulk-same-as DIR` | — | Process only the works the matcher already completed in `DIR`, and write `references_index.csv`, so the two methods can be compared with `compare_bulk_matcher.py` |
+
+**Output files**
+
+| File | Contents |
+|---|---|
+| `matched_dois.txt` | DOIs already on Meta — nothing left to do |
+| `unmatched_dois.txt` | DOIs not on Meta: **candidates** for ingestion, to be validated |
+| `no_doi_references.jsonl` | The references without a DOI, for the matcher |
+| `bulk_report.txt` / `bulk_summary.json` | Counts and per‑phase timings |
+| `check_errors.txt` | Chunks that exhausted their retries — re‑run to finish them |
+
+#### Author corroboration (`--bulk-authors`)
+
+A DOI found on Meta proves the *identifier* is there; it does not prove the
+reference meant that work (the DOI printed in the reference can be wrong).
+`--bulk-authors` adds the check in the **same** pass: the query also returns the
+work's author surnames, and they are compared locally against the surname in the
+reference.
+
+The comparison strips accents, punctuation and one‑letter initials, matches on
+word sets (so `LA Follegatti-Romero` ≡ `follegatti romero`, `Bos Van den` ≡ `van
+den bos`), ignores spacing (`Vanduyne` ≡ `van duyne`) and allows a tight
+similarity on words of 5+ letters for typos (`Stenflos` ≡ `Stenflo`).
+
+Measured on 3,477 real DOIs: **97.9%** of the applicable cases corroborate.
+Costs roughly 3× the time and 7× the bandwidth of the plain existence check.
+
+Two extra output files, and one rule that matters:
+
+| File | Contents |
+|---|---|
+| `corroborated_dois.txt` | DOI on Meta **and** surname agrees — the safest bucket |
+| `discordant_authors.tsv` | `doi <TAB> surname in the reference <TAB> surnames on Meta` |
+
+> A discordant surname **never demotes a DOI**. The work is on Meta either way;
+> the row is flagged for inspection, not turned into a candidate. The inference
+> only runs one way: agreement strengthens a *present*, disagreement never
+> produces an *absent*.
+
+The report also separates the two non‑corroborable cases — the work has no
+authors recorded on Meta, and the reference has no author to compare — because
+they mean different things.
 
 ---
 

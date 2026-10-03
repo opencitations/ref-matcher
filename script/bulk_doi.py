@@ -32,12 +32,15 @@ un letterale semplice con uno tipizzato (era il bug degli 0 match). Non toglierl
 
 import asyncio
 import csv
+import difflib
 import json
 import os
 import subprocess
 import tarfile
 import time
-from typing import Dict, List, Optional, Set
+import unicodedata
+from collections import defaultdict
+from typing import Dict, List, Optional, Set, Tuple
 
 import aiohttp
 
@@ -131,6 +134,60 @@ def _populated_fields(ref: dict) -> List[str]:
                   if k not in _NON_DESCRIPTIVE_KEYS and v not in (None, '', [], {}))
 
 
+# ---------------------------------------------------------------------------
+# Corroborazione con l'autore (opzionale): il DOI dice "c'è", il cognome dice
+# "ed è proprio l'opera che il riferimento intendeva citare".
+# ---------------------------------------------------------------------------
+
+def ref_author(ref: dict) -> str:
+    """Cognome grezzo dal campo `author` di un riferimento Crossref."""
+    a = ref.get('author')
+    if isinstance(a, list):
+        a = a[0] if a else ''
+    if isinstance(a, dict):
+        a = a.get('family') or a.get('name') or ''
+    return a.strip().replace('\t', ' ') if isinstance(a, str) else ''
+
+
+def norm_name(s: str) -> str:
+    """Minuscolo, senza accenti né punteggiatura, senza iniziali di una lettera."""
+    s = unicodedata.normalize('NFKD', (s or '').strip().lower())
+    s = ''.join(c for c in s if not unicodedata.combining(c))
+    s = ''.join(c if c.isalnum() or c.isspace() else ' ' for c in s)
+    return ' '.join(p for p in s.split() if len(p) > 1 and not p.isdigit())
+
+
+def names_match(crossref: str, meta_names: Set[str]) -> bool:
+    """Il cognome del riferimento compare fra gli autori dell'opera su Meta?
+
+    Tollera le iniziali attaccate ("LA Follegatti-Romero"), l'ordine invertito
+    ("Bos Van den" / "van den bos") e i cognomi composti, confrontando insiemi
+    di parole; in più una somiglianza stretta sulle singole parole lunghe, per
+    i refusi ("Stenflos" / "Stenflo"). Misurato: recupera la maggior parte
+    delle discordanze apparenti senza introdurre falsi accostamenti.
+    """
+    cr = norm_name(crossref)
+    if not cr:
+        return False
+    cr_words = set(cr.split())
+    for m in meta_names:
+        if not m:
+            continue
+        if cr == m or cr.replace(' ', '') == m.replace(' ', ''):
+            return True                       # "Vanduyne" / "van duyne"
+        m_words = set(m.split())
+        if m_words <= cr_words or cr_words <= m_words:
+            return True
+        for w in cr_words:
+            for mw in m_words:
+                # ponytail: soglia fissa a 0.92 su parole >= 5 lettere; se un
+                # giorno servisse tararla, diventa un parametro di run_bulk
+                if len(w) >= 5 and len(mw) >= 5 and \
+                        difflib.SequenceMatcher(None, w, mw).ratio() >= 0.92:
+                    return True
+    return False
+
+
 def extract(dump_path: str, out_dir: str, limit: int = 0,
             works_filter: Optional[Set[str]] = None,
             ref_index: bool = False) -> Dict:
@@ -138,6 +195,8 @@ def extract(dump_path: str, out_dir: str, limit: int = 0,
 
     Scrive:
       <out_dir>/dois_raw.txt            un DOI per riga (con duplicati)
+      <out_dir>/doi_author_raw.tsv      DOI<TAB>cognome, per i riferimenti che
+                                        hanno entrambi (serve a --authors)
       <out_dir>/no_doi_references.jsonl un riferimento (senza DOI) per riga
       <out_dir>/references_index.csv    (solo se ref_index) una riga per
                                         riferimento: work, ref_N, DOI, campi
@@ -147,10 +206,11 @@ def extract(dump_path: str, out_dir: str, limit: int = 0,
     """
     os.makedirs(out_dir, exist_ok=True)
     raw_path = os.path.join(out_dir, 'dois_raw.txt')
+    pairs_path = os.path.join(out_dir, 'doi_author_raw.tsv')
     nodoi_path = os.path.join(out_dir, 'no_doi_references.jsonl')
     index_path = os.path.join(out_dir, 'references_index.csv')
 
-    works = refs_total = refs_with_doi = refs_no_doi = 0
+    works = refs_total = refs_with_doi = refs_no_doi = refs_doi_author = 0
     remaining = set(works_filter) if works_filter is not None else None
     processed_works: List[str] = []
     found_any = False
@@ -165,6 +225,7 @@ def extract(dump_path: str, out_dir: str, limit: int = 0,
 
     try:
         with open(raw_path, 'w', encoding='utf-8') as raw_out, \
+             open(pairs_path, 'w', encoding='utf-8') as pairs_out, \
              open(nodoi_path, 'w', encoding='utf-8') as nodoi_out:
             for base, data in _iter_members(dump_path):
                 if stop:
@@ -194,6 +255,10 @@ def extract(dump_path: str, out_dir: str, limit: int = 0,
                         if d is not None:
                             refs_with_doi += 1
                             raw_out.write(d + '\n')
+                            fam = ref_author(ref)
+                            if fam:
+                                refs_doi_author += 1
+                                pairs_out.write(f"{d}\t{fam}\n")
                         else:
                             refs_no_doi += 1
                             # residuo per il matcher: il riferimento grezzo + il DOI
@@ -221,9 +286,13 @@ def extract(dump_path: str, out_dir: str, limit: int = 0,
         'references_total': refs_total,
         'references_with_doi': refs_with_doi,
         'references_without_doi': refs_no_doi,
+        'references_with_doi_and_author': refs_doi_author,
         'pct_refs_with_doi': round(100 * refs_with_doi / refs_total, 2) if refs_total else 0.0,
+        'pct_with_doi_having_author': (round(100 * refs_doi_author / refs_with_doi, 2)
+                                       if refs_with_doi else 0.0),
         'extract_seconds': round(time.time() - t0, 1),
         'dois_raw_path': raw_path,
+        'doi_author_raw_path': pairs_path,
         'no_doi_references_path': nodoi_path,
     }
     if ref_index:
@@ -241,24 +310,38 @@ def extract(dump_path: str, out_dir: str, limit: int = 0,
     return stats
 
 
-def dedup(out_dir: str) -> str:
-    """Fase 1.5: DOI unici. Prova `sort -u` (scala su disco), fallback in memoria."""
-    raw_path = os.path.join(out_dir, 'dois_raw.txt')
-    uniq_path = os.path.join(out_dir, 'dois_unique.txt')
+def _sort_unique(src: str, dst: str):
+    """Righe uniche e ordinate. Prova `sort -u` (scala su disco), fallback in RAM."""
     try:
+        if os.name == 'nt':
+            # il sort.exe di Windows non e' GNU: niente -u/-o, va in errore
+            raise OSError('sort non-GNU')
         env = dict(os.environ, LC_ALL='C')
-        subprocess.run(['sort', '-u', raw_path, '-o', uniq_path], check=True, env=env)
+        subprocess.run(['sort', '-u', src, '-o', dst], check=True, env=env)
     except Exception:
-        # fallback: dedup in memoria (attenzione: usa RAM proporzionale ai DOI unici)
+        # fallback: dedup in memoria (RAM proporzionale alle righe uniche)
         seen: Set[str] = set()
-        with open(raw_path, 'r', encoding='utf-8') as f:
+        with open(src, 'r', encoding='utf-8') as f:
             for line in f:
-                d = line.strip()
-                if d:
-                    seen.add(d)
-        with open(uniq_path, 'w', encoding='utf-8') as f:
-            for d in sorted(seen):
-                f.write(d + '\n')
+                line = line.rstrip('\n')
+                if line:
+                    seen.add(line)
+        with open(dst, 'w', encoding='utf-8') as f:
+            for line in sorted(seen):
+                f.write(line + '\n')
+
+
+def dedup(out_dir: str) -> str:
+    """Fase 1.5: DOI unici (e coppie DOI/cognome uniche, se presenti).
+
+    I due file restano ordinati con lo stesso criterio (LC_ALL=C), così la fase 2
+    può scorrerli in parallelo senza tenere nulla in memoria.
+    """
+    uniq_path = os.path.join(out_dir, 'dois_unique.txt')
+    _sort_unique(os.path.join(out_dir, 'dois_raw.txt'), uniq_path)
+    pairs_raw = os.path.join(out_dir, 'doi_author_raw.tsv')
+    if os.path.exists(pairs_raw):
+        _sort_unique(pairs_raw, os.path.join(out_dir, 'doi_author_unique.tsv'))
     return uniq_path
 
 
@@ -280,6 +363,68 @@ def _build_query(dois: List[str]) -> str:
         "      literal:hasLiteralValue ?doi .\n"
         "}"
     )
+
+
+def _build_query_authors(dois: List[str]) -> str:
+    """Esistenza + cognomi degli autori, in una passata sola.
+
+    Il cognome NON va vincolato in VALUES: misurato, una VALUES (?doi ?fam)
+    manda Virtuoso in timeout già con 200 coppie (parte dall'indice dei nomi).
+    Lasciandolo libero si percorre DOI -> opera -> autori: ~2 s per 1.000 DOI.
+    L'OPTIONAL serve a non perdere le opere che su Meta non hanno autori.
+    """
+    values = " ".join(f'"{_esc(d)}"^^<{XSD_STRING}>' for d in dois)
+    return (
+        _PREFIXES +
+        "PREFIX pro: <http://purl.org/spar/pro/>\n"
+        "PREFIX foaf: <http://xmlns.com/foaf/0.1/>\n"
+        "SELECT DISTINCT ?doi ?fam WHERE {\n"
+        f"  VALUES ?doi {{ {values} }}\n"
+        "  ?id datacite:usesIdentifierScheme datacite:doi ;\n"
+        "      literal:hasLiteralValue ?doi .\n"
+        "  ?br datacite:hasIdentifier ?id .\n"
+        "  OPTIONAL {\n"
+        "    ?br pro:isDocumentContextFor ?role .\n"
+        "    ?role pro:withRole pro:author ;\n"
+        "          pro:isHeldBy ?author .\n"
+        "    ?author foaf:familyName ?fam .\n"
+        "  }\n"
+        "}"
+    )
+
+
+class _ExpectedAuthors:
+    """Cognomi attesi per DOI, letti in parallelo ai chunk (file ordinato).
+
+    Memoria costante: il file delle coppie e quello dei DOI unici sono ordinati
+    con lo stesso criterio, quindi basta avanzare.
+    """
+
+    def __init__(self, path: str):
+        self._f = open(path, 'r', encoding='utf-8') if os.path.exists(path) else None
+        self._cur = self._read()
+
+    def _read(self) -> Optional[Tuple[str, str]]:
+        if self._f is None:
+            return None
+        line = self._f.readline()
+        if not line:
+            return None
+        doi, _, fam = line.rstrip('\n').partition('\t')
+        return doi, fam
+
+    def get(self, doi: str) -> List[str]:
+        while self._cur is not None and self._cur[0] < doi:
+            self._cur = self._read()
+        out: List[str] = []
+        while self._cur is not None and self._cur[0] == doi:
+            out.append(self._cur[1])
+            self._cur = self._read()
+        return out
+
+    def close(self):
+        if self._f is not None:
+            self._f.close()
 
 
 class _RateLimiter:
@@ -329,7 +474,8 @@ def _iter_chunks(uniq_path: str, chunk_size: int, skip: int):
 
 
 async def _query_chunk(session, endpoint, query, limiter,
-                       max_retries=6, timeout=180) -> Optional[Set[str]]:
+                       max_retries=6, timeout=180) -> Optional[List[dict]]:
+    """Righe grezze della risposta, o None se il chunk ha esaurito i tentativi."""
     for attempt in range(max_retries):
         await limiter.wait()
         try:
@@ -341,8 +487,7 @@ async def _query_chunk(session, endpoint, query, limiter,
             ) as resp:
                 if resp.status == 200:
                     js = await resp.json(content_type=None)
-                    bindings = js.get('results', {}).get('bindings', [])
-                    return {b['doi']['value'] for b in bindings if 'doi' in b}
+                    return js.get('results', {}).get('bindings', [])
                 if resp.status == 429:
                     ra = resp.headers.get('Retry-After')
                     wait = int(ra) if (ra and ra.isdigit()) else min(5 * (attempt + 1), 60)
@@ -355,44 +500,86 @@ async def _query_chunk(session, endpoint, query, limiter,
 
 
 async def check(uniq_path: str, out_dir: str, endpoint: str = DEFAULT_ENDPOINT,
-                chunk_size: int = 2000, max_per_min: int = 170) -> Dict:
-    """Fase 2: quali DOI unici esistono su Meta. Ripartibile via checkpoint."""
+                chunk_size: int = 2000, max_per_min: int = 170,
+                authors: bool = False) -> Dict:
+    """Fase 2: quali DOI unici esistono su Meta. Ripartibile via checkpoint.
+
+    Con authors=True la stessa passata chiede anche i cognomi degli autori e
+    confronta con quelli del riferimento: i DOI presenti si dividono in
+    corroborati / discordanti / non corroborabili (Meta senza autori, oppure
+    riferimento senza autore).
+    """
     matched_path = os.path.join(out_dir, 'matched_dois.txt')
     unmatched_path = os.path.join(out_dir, 'unmatched_dois.txt')
     err_path = os.path.join(out_dir, 'check_errors.txt')
     ckpt_path = os.path.join(out_dir, 'bulk_checkpoint.txt')
+    corr_path = os.path.join(out_dir, 'corroborated_dois.txt')
+    disc_path = os.path.join(out_dir, 'discordant_authors.tsv')
 
     total = sum(1 for _ in open(uniq_path, 'r', encoding='utf-8'))
     done = _read_checkpoint(ckpt_path)
     limiter = _RateLimiter(max_per_min)
+    expected = _ExpectedAuthors(os.path.join(out_dir, 'doi_author_unique.tsv')) \
+        if authors else None
 
     n_matched = n_unmatched = n_error = n_requests = 0
+    n_corr = n_disc = n_meta_noauth = n_ref_noauth = 0
     async with aiohttp.ClientSession() as session:
         with open(matched_path, 'a', encoding='utf-8') as m_out, \
              open(unmatched_path, 'a', encoding='utf-8') as u_out, \
-             open(err_path, 'a', encoding='utf-8') as e_out:
+             open(err_path, 'a', encoding='utf-8') as e_out, \
+             open(corr_path if authors else os.devnull, 'a', encoding='utf-8') as c_out, \
+             open(disc_path if authors else os.devnull, 'a', encoding='utf-8') as d_out:
             for chunk in _iter_chunks(uniq_path, chunk_size, done):
-                present = await _query_chunk(session, endpoint, _build_query(chunk), limiter)
+                query = _build_query_authors(chunk) if authors else _build_query(chunk)
+                rows = await _query_chunk(session, endpoint, query, limiter)
                 n_requests += 1
-                if present is None:
+                if rows is None:
                     for d in chunk:
                         e_out.write(d + '\n')
                     n_error += len(chunk)
                 else:
+                    present: Set[str] = set()
+                    meta_names: Dict[str, Set[str]] = defaultdict(set)
+                    for b in rows:
+                        if 'doi' not in b:
+                            continue
+                        d = b['doi']['value']
+                        present.add(d)
+                        if 'fam' in b:
+                            meta_names[d].add(norm_name(b['fam']['value']))
                     for d in chunk:
-                        if d in present:
-                            m_out.write(d + '\n'); n_matched += 1
-                        else:
+                        if d not in present:
                             u_out.write(d + '\n'); n_unmatched += 1
-                m_out.flush(); u_out.flush(); e_out.flush()
+                            continue
+                        m_out.write(d + '\n'); n_matched += 1
+                        if expected is None:
+                            continue
+                        attesi = expected.get(d)
+                        trovati = meta_names.get(d, set())
+                        if not attesi:
+                            n_ref_noauth += 1
+                        elif not trovati:
+                            n_meta_noauth += 1
+                        elif any(names_match(a, trovati) for a in attesi):
+                            c_out.write(d + '\n'); n_corr += 1
+                        else:
+                            n_disc += 1
+                            d_out.write(f"{d}\t{'|'.join(attesi)}\t"
+                                        f"{'|'.join(sorted(trovati))}\n")
+                for fh in (m_out, u_out, e_out, c_out, d_out):
+                    fh.flush()
                 done += len(chunk)
                 _write_checkpoint(ckpt_path, done)
                 pct = 100 * done / total if total else 100
+                extra = (f" | corrob. {n_corr:,} discord. {n_disc:,}" if authors else "")
                 print(f"  bulk: {done:,}/{total:,} ({pct:.1f}%) | "
-                      f"presenti {n_matched:,} assenti {n_unmatched:,} err {n_error:,}",
-                      flush=True)
+                      f"presenti {n_matched:,} assenti {n_unmatched:,} err {n_error:,}"
+                      f"{extra}", flush=True)
+    if expected is not None:
+        expected.close()
 
-    return {
+    out = {
         'unique_dois': total,
         'matched_in_meta': n_matched,
         'unmatched_candidates': n_unmatched,
@@ -401,6 +588,19 @@ async def check(uniq_path: str, out_dir: str, endpoint: str = DEFAULT_ENDPOINT,
         'matched_path': matched_path,
         'unmatched_path': unmatched_path,
     }
+    if authors:
+        applicabili = n_corr + n_disc
+        out.update({
+            'author_corroborated': n_corr,
+            'author_discordant': n_disc,
+            'meta_without_authors': n_meta_noauth,
+            'reference_without_author': n_ref_noauth,
+            'pct_corroborated_of_applicable': (round(100 * n_corr / applicabili, 2)
+                                               if applicabili else 0.0),
+            'corroborated_path': corr_path,
+            'discordant_path': disc_path,
+        })
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -411,7 +611,8 @@ async def run_bulk(dump_path: str, out_dir: str, endpoint: str = DEFAULT_ENDPOIN
                    limit: int = 0, chunk_size: int = 2000,
                    max_per_min: int = 170,
                    works_filter: Optional[Set[str]] = None,
-                   ref_index: bool = False) -> Dict:
+                   ref_index: bool = False,
+                   authors: bool = False) -> Dict:
     """Esegue l'intera pipeline bulk e scrive un report. Restituisce il riepilogo.
 
     works_filter / ref_index servono per il confronto con il matcher sullo stesso
@@ -419,6 +620,10 @@ async def run_bulk(dump_path: str, out_dir: str, endpoint: str = DEFAULT_ENDPOIN
     """
     os.makedirs(out_dir, exist_ok=True)
     t_start = time.time()
+    if authors and chunk_size > 1000:
+        # la risposta porta anche gli autori: ~7 volte i byte per DOI
+        print(f"[bulk] --authors: chunk ridotto da {chunk_size} a 1000")
+        chunk_size = 1000
 
     if works_filter is not None:
         print(f"\n[bulk] Limitato a {len(works_filter):,} work (stesso set del matcher)")
@@ -428,6 +633,8 @@ async def run_bulk(dump_path: str, out_dir: str, endpoint: str = DEFAULT_ENDPOIN
     print(f"[bulk]   works={ex['works']:,} | riferimenti={ex['references_total']:,} "
           f"| con DOI={ex['references_with_doi']:,} ({ex['pct_refs_with_doi']}%) "
           f"| senza DOI={ex['references_without_doi']:,}")
+    print(f"[bulk]   di quelli con DOI, con anche il cognome: "
+          f"{ex['references_with_doi_and_author']:,} ({ex['pct_with_doi_having_author']}%)")
     if ex.get('works_not_found_in_dump'):
         print(f"[bulk]   ATTENZIONE: {ex['works_not_found_in_dump']:,} work del set "
               f"non trovati nel dump")
@@ -439,11 +646,12 @@ async def run_bulk(dump_path: str, out_dir: str, endpoint: str = DEFAULT_ENDPOIN
     unique_count = sum(1 for _ in open(uniq_path, 'r', encoding='utf-8'))
     print(f"[bulk]   DOI unici da verificare: {unique_count:,}")
 
-    print(f"[bulk] Fase 2 — verifica esistenza su Meta "
+    print(f"[bulk] Fase 2 — verifica esistenza{' + autori' if authors else ''} su Meta "
           f"(chunk={chunk_size}, ~{max_per_min}/min)")
     t = time.time()
     ck = await check(uniq_path, out_dir, endpoint=endpoint,
-                     chunk_size=chunk_size, max_per_min=max_per_min)
+                     chunk_size=chunk_size, max_per_min=max_per_min,
+                     authors=authors)
     check_seconds = round(time.time() - t, 1)
     total_seconds = round(time.time() - t_start, 1)
 
@@ -467,6 +675,17 @@ async def run_bulk(dump_path: str, out_dir: str, endpoint: str = DEFAULT_ENDPOIN
         f.write(f"  gia su Meta            : {ck['matched_in_meta']:,}\n")
         f.write(f"  ASSENTI (candidati)    : {ck['unmatched_candidates']:,}\n")
         f.write(f"  in errore (da rifare)  : {ck['errored']:,}\n")
+        if authors:
+            f.write("corroborazione con l'autore (sui DOI presenti):\n")
+            f.write(f"  cognome concorde       : {ck['author_corroborated']:,}\n")
+            f.write(f"  cognome discorde       : {ck['author_discordant']:,}"
+                    f"  -> {ck['discordant_path']}\n")
+            f.write(f"  Meta senza autori      : {ck['meta_without_authors']:,}\n")
+            f.write(f"  riferimento senza aut. : {ck['reference_without_author']:,}\n")
+            f.write(f"  concordi sugli applicabili: "
+                    f"{ck['pct_corroborated_of_applicable']}%\n")
+            f.write("  NB: un cognome discorde NON declassa il DOI. L'opera resta\n"
+                    "      presente su Meta; e' un caso da guardare, non un candidato.\n")
         f.write(f"richieste SPARQL         : {ck['requests']:,}\n")
         f.write(f"tempo estrazione         : {ex['extract_seconds']:,} s\n")
         f.write(f"tempo deduplica          : {dedup_seconds:,} s\n")
@@ -476,6 +695,13 @@ async def run_bulk(dump_path: str, out_dir: str, endpoint: str = DEFAULT_ENDPOIN
 
     print("\n[bulk] COMPLETATO")
     print(f"[bulk]   gia su Meta : {ck['matched_in_meta']:,}")
+    if authors:
+        print(f"[bulk]     corroborati dal cognome : {ck['author_corroborated']:,} "
+              f"({ck['pct_corroborated_of_applicable']}% degli applicabili)")
+        print(f"[bulk]     cognome discorde        : {ck['author_discordant']:,}"
+              f"  -> {ck['discordant_path']}")
+        print(f"[bulk]     non corroborabili       : "
+              f"{ck['meta_without_authors'] + ck['reference_without_author']:,}")
     print(f"[bulk]   candidati   : {ck['unmatched_candidates']:,}  -> {ck['unmatched_path']}")
     print(f"[bulk]   senza DOI   : {ex['references_without_doi']:,}  -> {ex['no_doi_references_path']}")
     print(f"[bulk]   tempo totale: {total_seconds:,} s ({ck['requests']:,} richieste SPARQL)")
@@ -493,6 +719,10 @@ if __name__ == '__main__':
     ap.add_argument('--limit', type=int, default=0)
     ap.add_argument('--chunk-size', type=int, default=2000)
     ap.add_argument('--max-per-min', type=int, default=170)
+    ap.add_argument('--authors', action='store_true',
+                    help='Chiede anche i cognomi degli autori e li confronta con '
+                         'quelli del riferimento (corroborazione). Stessa passata, '
+                         'chunk limitato a 1000, ~3x il tempo e ~7x la banda.')
     ap.add_argument('--same-as', metavar='MATCHER_DIR',
                     help='Elabora solo i work già completati dal matcher in MATCHER_DIR '
                          'e scrive references_index.csv per il confronto.')
@@ -500,4 +730,5 @@ if __name__ == '__main__':
     wf = load_works_from_matcher_dir(a.same_as) if a.same_as else None
     asyncio.run(run_bulk(a.dump, a.output_dir, endpoint=a.endpoint, limit=a.limit,
                          chunk_size=a.chunk_size, max_per_min=a.max_per_min,
-                         works_filter=wf, ref_index=bool(a.same_as)))
+                         works_filter=wf, ref_index=bool(a.same_as),
+                         authors=a.authors))

@@ -579,6 +579,17 @@ def apply_threshold_adjustment(best_score: int, threshold: int,
 
     return threshold
 
+def tei_doi(elem: ET.Element, ns: Dict) -> str:
+    """DOI of a TEI reference: <idno type="DOI"> (or "doi"), else <ptr type="DOI" target=...>."""
+    for t in ('DOI', 'doi'):
+        idno = elem.find(f'.//tei:idno[@type="{t}"]', ns)
+        if idno is not None and idno.text:
+            return idno.text.strip()
+    ptr = elem.find('.//tei:ptr[@type="DOI"]', ns)
+    if ptr is not None and ptr.get('target'):
+        return ptr.get('target').replace('https://doi.org/', '').replace('http://dx.doi.org/', '').strip()
+    return ''
+
 class GrobidProcessor:
     """Improved Grobid processor with robust path resolution"""
     
@@ -830,25 +841,7 @@ class GrobidProcessor:
                     elif unit == 'page' and scope.text:
                         ref.first_page = scope.text.split('-')[0].strip()
                 
-                # Extract DOI - try multiple common locations
-                doi_elem = root.find('.//tei:idno[@type="DOI"]', ns)
-                if doi_elem is not None and doi_elem.text:
-                    ref.doi = doi_elem.text.strip()
-                else:
-                    # Try lowercase variant
-                    doi_elem = root.find('.//tei:idno[@type="doi"]', ns)
-                    if doi_elem is not None and doi_elem.text:
-                        ref.doi = doi_elem.text.strip()
-                    else:
-                        # Alternative: try ptr element with DOI target
-                        ptr_elem = root.find('.//tei:ptr[@type="DOI"]', ns)
-                        if ptr_elem is not None:
-                            doi_target = ptr_elem.get('target', '')
-                            if doi_target:
-                                # Remove common DOI URL prefixes if present
-                                doi_target = doi_target.replace('https://doi.org/', '')
-                                doi_target = doi_target.replace('http://dx.doi.org/', '')
-                                ref.doi = doi_target.strip() 
+                ref.doi = tei_doi(root, ns)
                 return ref
                 
             except AttributeError as e:
@@ -2922,6 +2915,13 @@ class ReferenceProcessor:
                             ref.first_page = page_text.split('-')[0].strip()
                         else:
                             ref.first_page = page_text
+
+                ref.doi = tei_doi(bibl, ns)
+                # the original citation string, present when GROBID ran with
+                # includeRawCitations=1: used by the GROBID pass like Crossref 'unstructured'
+                raw = bibl.find('.//tei:note[@type="raw_reference"]', ns)
+                if raw is not None:
+                    ref.unstructured = ' '.join(''.join(raw.itertext()).split())
 
                 return ref
 

@@ -27,6 +27,7 @@ import urllib.parse
 import urllib.request
 import argparse
 from unidecode import unidecode
+from bulk_doi import names_match, norm_name
 import unicodedata
 import re
 from glob import glob
@@ -184,6 +185,12 @@ class RateLimitError(QueryExecutionError):
     """Rate limit exceeded"""
     pass
 
+
+class QueryTimeoutError(QueryExecutionError):
+    """QLever stopped the query at its time limit. QLever answers 429 here too, with
+    "Operation timed out" in the body: retrying the same query cannot help."""
+    pass
+
 class ServerError(QueryExecutionError):
     """Server error (5xx)"""
     pass
@@ -222,6 +229,13 @@ class MatcherConfig:
     # The relaxed "retry without year" pass accepts a match scoring at least this
     # fraction of the threshold.
     no_year_threshold_factor: float = 0.9
+    # Skip work that cannot change a match (same matches; the diagnostic scores of
+    # UNMATCHED references may be lower, since candidates that cannot reach the
+    # threshold are not fetched): a pass whose reference cannot reach the lowest
+    # accepting score, the details of candidates that cannot reach it, the
+    # remaining detail groups once a match is found. Set False to record every
+    # candidate's score (e.g. runs with a no-accept threshold).
+    skip_unreachable: bool = True
 
     # Results of identical SPARQL queries are reused (LRU, keyed by the exact
     # query text). The GROBID and "without year" passes re-issue many queries
@@ -428,9 +442,72 @@ def normalize_author_name(name: str) -> str:
     return ' '.join(name.lower().strip().split())
 
 
+def author_names_match(ref_name: str, result_name: str) -> bool:
+    """Same tolerant surname comparison as the bulk DOI check: accents,
+    punctuation, initials, particles and word order ignored ("van den Bos" /
+    "Bos"), plus a strict similarity (>= 0.92) on words of 5+ letters for typos.
+    The title has always been compared fuzzily; the surname used to be exact."""
+    return names_match(ref_name or '', {norm_name(result_name or '')})
+
+
+def surname_variants(name: str) -> List[str]:
+    """The surname as written plus capitalised and accent-free forms, for the
+    exact (index-backed) lookups in the queries: "MÜLLER" also finds "Müller"
+    and "Muller". A real fuzzy lookup would scan millions of surnames."""
+    name = ' '.join((name or '').split())
+    if not name:
+        return []
+    plain = unidecode(name)
+    out: List[str] = []
+    for v in (name, name.title(), plain, plain.title()):
+        if v and v not in out:
+            out.append(v)
+    return out
+
+
 def escape_regex_literal(text: str) -> str:
     """Escape SPARQL-bound text so it is treated literally inside REGEX()."""
     return re.escape(text) if text else ""
+
+
+_OPTIONAL_RE = re.compile(r'\bOPTIONAL\s*\{')
+# Every group that opens with WHERE { or OPTIONAL { gets the candidates' VALUES.
+_GROUP_RE = re.compile(r'\b(?:WHERE|OPTIONAL)\s*\{')
+DETAILS_GROUP = 15  # candidates per details request
+
+
+def _strip_optional_blocks(sparql: str) -> str:
+    """Remove every top-level OPTIONAL { ... } block (nested ones go with it).
+
+    Braces inside "..." literals (titles, surnames) are not counted.
+    """
+    out, i = [], 0
+    while True:
+        m = _OPTIONAL_RE.search(sparql, i)
+        if not m:
+            out.append(sparql[i:])
+            return ''.join(out)
+        j = m.start()
+        out.append(sparql[i:j])
+        k = m.end() - 1
+        depth, in_str, n = 0, False, k
+        while n < len(sparql):
+            ch = sparql[n]
+            if in_str:
+                if ch == '\\':
+                    n += 1
+                elif ch == '"':
+                    in_str = False
+            elif ch == '"':
+                in_str = True
+            elif ch == '{':
+                depth += 1
+            elif ch == '}':
+                depth -= 1
+                if depth == 0:
+                    break
+            n += 1
+        i = n + 1
 
 
 def new_stats_dict(include_grobid: bool = True, include_files: bool = False) -> Dict:
@@ -976,7 +1053,82 @@ class OpenCitationsMatcherThreadSafe:
         if self.session:
             await self.session.close()
     
-    async def query_opencitations(self, sparql_query: str, query_type: str = "unknown") -> List[Dict]:  # Changed to async
+    async def query_opencitations(self, sparql_query: str, query_type: str = "unknown",
+                                  keep=None, stop=None) -> List[Dict]:
+        """Run a matching query in two steps, with the same result as running it whole.
+
+        On QLever an OPTIONAL that walks several hops (DOI, volume, pages,
+        author) is evaluated over the whole dataset before being joined with
+        the few candidates: 20-65 s per query instead of 0.1-4.5 s, and the
+        load ends in 500/503 errors. So:
+          1. the query without its OPTIONAL blocks returns the candidates ?br
+             (an OPTIONAL never removes a solution, so the set is the same);
+          2. the original query is run for DETAILS_GROUP candidates at a time,
+             with VALUES ?br { ... } repeated at the top of every group
+             (WHERE, subquery, OPTIONAL): QLever evaluates each group on its
+             own, so the binding must be inside it (QLever issue #2429).
+             Measured: 15 candidates in ~2 s, one request instead of 15.
+        The union of the step-2 results is the original result.
+
+        Optional, from the matching loop (skip_unreachable):
+          keep(iri, titles, dois) -> bool  with more than DETAILS_GROUP candidates, their
+              titles and DOIs are fetched first (one request per 500) and details are asked
+              only for the candidates that can still reach the threshold;
+          stop(rows) -> bool         detail groups are fetched one at a time and the loop
+              stops once stop() is true (the caller would not look further).
+        A reduced or interrupted result is not cached: it depends on the reference.
+        """
+        if not sparql_query or not _OPTIONAL_RE.search(sparql_query):
+            return await self._execute_query(sparql_query, query_type)
+
+        cache = self.query_cache
+        if cache is not None:
+            cached = cache.get(sparql_query)
+            if cached is not None:
+                return cached
+
+        head, sep, where = sparql_query.partition('WHERE')
+        select_start = head.index('SELECT')
+        core = (head[:select_start] + 'SELECT DISTINCT ?br ' + sep
+                + _strip_optional_blocks(where))
+        candidates = [b['br']['value'] for b in
+                      await self._execute_query(core, f"{query_type}:candidates")
+                      if 'br' in b]
+        complete = True
+        if keep is not None and len(candidates) > DETAILS_GROUP:
+            titles = {c: set() for c in candidates}
+            dois = {c: set() for c in candidates}       # same request: each candidate's DOI
+            for i in range(0, len(candidates), 500):
+                v = 'VALUES ?br { ' + ' '.join(f'<{c}>' for c in candidates[i:i + 500]) + ' }'
+                q = (head[:select_start] + 'PREFIX dcterms: <http://purl.org/dc/terms/>\n'
+                     f'SELECT ?br ?t ?d WHERE {{ {v} OPTIONAL {{ {v} ?br dcterms:title ?t . }} '
+                     f'OPTIONAL {{ {v} ?br datacite:hasIdentifier ?di . ?di datacite:usesIdentifierScheme datacite:doi ; '
+                     f'literal:hasLiteralValue ?d . }} }}')
+                for b in await self._execute_query(q, f"{query_type}:titles"):
+                    if 't' in b:
+                        titles[b['br']['value']].add(b['t']['value'])
+                    if 'd' in b:
+                        dois[b['br']['value']].add(b['d']['value'])
+            kept = [c for c in candidates if keep(c, titles[c], dois[c])]
+            complete = len(kept) == len(candidates)
+            candidates = kept
+        rows: List[Dict] = []
+        for i in range(0, len(candidates), DETAILS_GROUP):
+            group = candidates[i:i + DETAILS_GROUP]
+            values = 'VALUES ?br { ' + ' '.join(f'<{c}>' for c in group) + ' } '
+            fixed = _GROUP_RE.sub(lambda m: m.group(0) + ' ' + values, sep + where)
+            rows.extend(await self._execute_query(head + fixed, f"{query_type}:details"))
+            if stop is not None and i + DETAILS_GROUP < len(candidates) and stop(rows):
+                complete = False
+                break
+        # same order as one request per candidate (ties in the score keep the first)
+        order = {c: n for n, c in enumerate(candidates)}
+        rows.sort(key=lambda b: order.get(b.get('br', {}).get('value'), len(order)))
+        if cache is not None and complete:
+            cache.put(sparql_query, rows)
+        return rows
+
+    async def _execute_query(self, sparql_query: str, query_type: str = "unknown") -> List[Dict]:
         """Execute query with async operations and explicit error handling
 
         Args:
@@ -1034,6 +1186,11 @@ class OpenCitationsMatcherThreadSafe:
                         return bindings
                     
                     elif response.status == 429:
+                        # QLever also answers 429 when the query hits its time limit
+                        body = await response.text()
+                        if 'timed out' in body.lower():
+                            raise QueryTimeoutError(f"QLever timeout ({query_type}): {body[:150]}",
+                                                    query=query_preview, attempt=attempt)
                         # Rate limit error
                         if attempt < self.max_retries - 1:
                             wait_time = await self.rate_limiter.handle_429(attempt)  
@@ -1081,10 +1238,13 @@ class OpenCitationsMatcherThreadSafe:
                 else:
                     raise QueryExecutionError(f"Network error after {self.max_retries} attempts: {e}")
             
+            except QueryTimeoutError:
+                raise                       # same query, same timeout: no retry
+
             except Exception as e:
                 error_message = str(e)
                 error_type = type(e).__name__
-                
+
                 logging.error(
                     f"SPARQL query attempt {attempt + 1}/{self.max_retries} failed: "
                     f"Type={error_type}, Message={error_message}"
@@ -1202,8 +1362,8 @@ class OpenCitationsMatcherThreadSafe:
             OPTIONAL_PAGES = """
                 OPTIONAL {
                     ?br frbr:embodiment ?embodiment .
-                    OPTIONAL { ?embodiment prism:startingPage ?start_page . }
-                    OPTIONAL { ?embodiment prism:endingPage ?end_page . }
+                    OPTIONAL { ?br frbr:embodiment ?embodiment . ?embodiment prism:startingPage ?start_page . }
+                    OPTIONAL { ?br frbr:embodiment ?embodiment . ?embodiment prism:endingPage ?end_page . }
                 }"""
 
             # STEP 1: Year validation
@@ -1279,6 +1439,8 @@ class OpenCitationsMatcherThreadSafe:
                 title = title[:500]
             
             fam_esc = e(reference.first_author_lastname)
+            fam_values = " ".join(f'"{e(v)}"^^<http://www.w3.org/2001/XMLSchema#string>'
+                                  for v in surname_variants(reference.first_author_lastname))
             vol_esc = e(reference.volume)
             page_esc = e(reference.first_page)
             doi_esc = e(reference.doi) if use_doi else ""
@@ -1291,7 +1453,7 @@ class OpenCitationsMatcherThreadSafe:
             # candidate instead of one per author.
             OPTIONAL_AUTHOR = f"""
                 OPTIONAL {{
-                    VALUES ?author_name {{ "{fam_esc}"^^<http://www.w3.org/2001/XMLSchema#string> }}
+                    VALUES ?author_name {{ {fam_values} }}
                     ?author foaf:familyName ?author_name .
                     ?role pro:isHeldBy ?author ;
                           pro:withRole pro:author .
@@ -1371,8 +1533,8 @@ class OpenCitationsMatcherThreadSafe:
                 {SELECT_ALL}
                 WHERE {{
                     
-                    ?first_author foaf:familyName "{fam_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
-                    BIND("{fam_esc}" AS ?author_name)
+                    VALUES ?author_name {{ {fam_values} }}
+                    ?first_author foaf:familyName ?author_name .
                     
                     ?role pro:isHeldBy ?first_author .
                     ?br pro:isDocumentContextFor ?role .
@@ -1394,20 +1556,24 @@ class OpenCitationsMatcherThreadSafe:
                 year_prev = max(year_int - 1, DEFAULT_YEAR_RANGE[0])
                 year_next = min(year_int + 1, DEFAULT_YEAR_RANGE[1])
                 
+                # Shaped for QLever (same results as the plain form): the page
+                # is a constant triple, not FILTER(STR(?start_page) = ...) —
+                # every prism:startingPage in Meta is an xsd:string, so the two
+                # are equivalent, but only the triple uses the index (>300 s
+                # -> 1 s) — and the constant BINDs go last, because a BIND in
+                # the middle fixes the evaluation order.
                 return f"""
                 {PREFIXES}
                 {SELECT_ALL}
                 WHERE {{
-                    
+
                     ?volume fabio:hasSequenceIdentifier "{vol_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
-                    BIND("{vol_esc}" AS ?volume_num)
                     ?issue frbr:partOf ?volume .
                     ?br frbr:partOf ?issue .
-                    
+
                     ?br frbr:embodiment ?embodiment .
-                    ?embodiment prism:startingPage ?start_page .
-                    FILTER(STR(?start_page) = "{page_esc}") # Filtro pagina esatto
-                    
+                    ?embodiment prism:startingPage "{page_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
+
                     ?br prism:publicationDate ?publicationDate .
                     BIND(STR(?publicationDate) AS ?pub_date)
                     FILTER(
@@ -1417,35 +1583,41 @@ class OpenCitationsMatcherThreadSafe:
                     )
 
                     OPTIONAL {{ ?br dcterms:title ?title . }}
-                    OPTIONAL {{ ?embodiment prism:endingPage ?end_page . }} # end_page aggiunto
+                    OPTIONAL {{ ?br frbr:embodiment ?embodiment . ?embodiment prism:endingPage ?end_page . }}
                     {OPTIONAL_DOI}
                     {OPTIONAL_AUTHOR}
+                    BIND("{vol_esc}" AS ?volume_num)
+                    BIND("{page_esc}" AS ?start_page)
                 }}
                 """
 
             elif query_type == "year_author_page":
                 year_prev = max(year_int - 1, DEFAULT_YEAR_RANGE[0])
                 year_next = min(year_int + 1, DEFAULT_YEAR_RANGE[1])
-                
+                # Shaped for QLever (same results as the plain FILTER on the
+                # page): the exact page is a constant triple, the ranges
+                # ("123-130") a branch of their own; each branch carries the
+                # author pattern because QLever evaluates a UNION branch on its
+                # own. Measured on 8 common surnames: 1.3-5x faster, same candidates.
+                author_emb = f"""
+                        VALUES ?author_name {{ {fam_values} }}
+                        ?first_author foaf:familyName ?author_name .
+                        ?role pro:isHeldBy ?first_author .
+                        ?br pro:isDocumentContextFor ?role .
+                        ?br frbr:embodiment ?embodiment ."""
+
                 return f"""
                 {PREFIXES}
                 {SELECT_ALL}
                 WHERE {{
-                    
-                    ?first_author foaf:familyName "{fam_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
-                    BIND("{fam_esc}" AS ?author_name)
-                    
-                    ?role pro:isHeldBy ?first_author .
-                    ?br pro:isDocumentContextFor ?role .
-                    
-                    ?br frbr:embodiment ?embodiment .
-                    ?embodiment prism:startingPage ?start_page .
-                    FILTER(
-                        STR(?start_page) = "{page_esc}" ||
-                        CONTAINS(STR(?start_page), "{page_esc}-") ||
-                        CONTAINS(STR(?start_page), "-{page_esc}")
-                    )
-                    
+                    {{ SELECT * WHERE {{ {author_emb}
+                        ?embodiment prism:startingPage "{page_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
+                        BIND("{page_esc}" AS ?start_page) }} }}
+                    UNION
+                    {{ SELECT * WHERE {{ {author_emb}
+                        ?embodiment prism:startingPage ?start_page .
+                        FILTER(CONTAINS(STR(?start_page), "{page_esc}-") || CONTAINS(STR(?start_page), "-{page_esc}")) }} }}
+
                     ?br prism:publicationDate ?publicationDate .
                     BIND(STR(?publicationDate) AS ?pub_date)
                     FILTER(
@@ -1455,7 +1627,7 @@ class OpenCitationsMatcherThreadSafe:
                     )
                                         
                     OPTIONAL {{ ?br dcterms:title ?title . }}
-                    OPTIONAL {{ ?embodiment prism:endingPage ?end_page . }} # end_page aggiunto
+                    OPTIONAL {{ ?br frbr:embodiment ?embodiment . ?embodiment prism:endingPage ?end_page . }}
                     {OPTIONAL_DOI}
                     {OPTIONAL_VOLUME}
                 }}
@@ -1464,21 +1636,25 @@ class OpenCitationsMatcherThreadSafe:
                 year_prev = max(year_int - 1, DEFAULT_YEAR_RANGE[0])
                 year_next = min(year_int + 1, DEFAULT_YEAR_RANGE[1])
                 
+                # Shaped for QLever (same results as the plain form): author and
+                # volume in a subquery before the year filter, constant BINDs
+                # last; the plain form timed out for a common surname (~1.3M
+                # works for "Huang"), this takes ~2 s. Measured: the same shape
+                # makes year_author_page slower (1 s -> 45 s), so it is not used there.
                 return f"""
                 {PREFIXES}
                 {SELECT_ALL}
                 WHERE {{
-                    ?first_author foaf:familyName "{fam_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
-                    BIND("{fam_esc}" AS ?author_name)
-                    
-                    ?role pro:isHeldBy ?first_author .
-                    ?br pro:isDocumentContextFor ?role .
-                    
-                    ?volume fabio:hasSequenceIdentifier "{vol_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
-                    BIND("{vol_esc}" AS ?volume_num)
-                    ?issue frbr:partOf ?volume .
-                    ?br frbr:partOf ?issue .
-                    
+                    {{ SELECT DISTINCT ?br ?author_name WHERE {{
+                        VALUES ?author_name {{ {fam_values} }}
+                        ?first_author foaf:familyName ?author_name .
+                        ?role pro:isHeldBy ?first_author .
+                        ?br pro:isDocumentContextFor ?role .
+                        ?volume fabio:hasSequenceIdentifier "{vol_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
+                        ?issue frbr:partOf ?volume .
+                        ?br frbr:partOf ?issue .
+                    }} }}
+
                     ?br prism:publicationDate ?publicationDate .
                     BIND(STR(?publicationDate) AS ?pub_date)
                     FILTER(
@@ -1490,9 +1666,10 @@ class OpenCitationsMatcherThreadSafe:
                     {OPTIONAL_TITLE}
                     {OPTIONAL_DOI}
                     {OPTIONAL_PAGES}
+                    BIND("{vol_esc}" AS ?volume_num)
                 }}
                 """
-            
+
             logging.info(f"Unknown or unsupported query_type: {query_type}")
             return None
 
@@ -1528,14 +1705,14 @@ class OpenCitationsMatcherThreadSafe:
                     score_breakdown.append(f"DOI match: +{cfg.doi_exact_score}")
                     slog.debug(f"📎 DOI: EXACT MATCH → +{cfg.doi_exact_score}")
 
-            # AUTHOR SCORING (exact only)
+            # AUTHOR SCORING (tolerant, see author_names_match)
             if reference.first_author_lastname and 'author_name' in result:
                 try:
-                    result_author = self._normalize_author_name(result['author_name']['value'])
-                    ref_author = self._normalize_author_name(reference.first_author_lastname)
+                    result_author = result['author_name']['value']
+                    ref_author = reference.first_author_lastname
                     author_logger.debug(
                         f"👤 AUTHOR: ref='{ref_author}' vs result='{result_author}'")
-                    if ref_author == result_author:
+                    if author_names_match(ref_author, result_author):
                         score += cfg.author_exact_match_score
                         score_breakdown.append(f"Author exact match: +{cfg.author_exact_match_score}")
                         author_logger.debug(f"  ✅ EXACT MATCH → +{cfg.author_exact_match_score}")
@@ -1812,12 +1989,53 @@ class ReferenceProcessor:
                 # Normalize (DOI will be handled in query building)
                 processed_ref = normalize_reference_safe(processed_ref)
 
-                async def run_sparql_matching_loop(reference_obj: Reference, stop_threshold: int, use_doi: bool = True) -> Tuple[Optional[Dict], int]:
+                queries_run = 0
+                queries_failed = 0
 
+                # Lowest score any pass can still accept (0.9 x threshold by default).
+                cfg0 = self.matcher_config
+                min_accept = threshold * min(
+                    cfg0.threshold_adjustment if cfg0.enable_threshold_adjustment else 1.0,
+                    cfg0.no_year_threshold_factor)
+
+                def points_without_title(r: Reference, c: MatcherConfig) -> int:
+                    """Most points a candidate can get from everything but the title."""
+                    return ((c.doi_exact_score if r.doi else 0)
+                            + (c.author_exact_match_score if r.first_author_lastname else 0)
+                            + (c.year_exact_score if r.year else 0)
+                            + (c.volume_match_score if r.volume else 0)
+                            + (c.page_match_score if r.first_page else 0))
+
+                async def run_sparql_matching_loop(reference_obj: Reference, stop_threshold: int, use_doi: bool = True) -> Tuple[Optional[Dict], int]:
+                    nonlocal queries_run, queries_failed
 
                     best_score = 0
                     best_match = None
                     query_types = []
+
+                    skip = matcher.config.skip_unreachable
+                    base = points_without_title(reference_obj, matcher.config)
+                    has_title = any((reference_obj.article_title, reference_obj.volume_title,
+                                     reference_obj.journal_title))
+                    if skip and base + (matcher.config.title_exact_score if has_title else 0) < min_accept:
+                        query_logger.debug(f"⏭️ pass skipped: at most {base} points < {min_accept}")
+                        return None, 0
+
+                    def keep(iri, titles, dois=None):   # can this candidate still reach the threshold?
+                        t = max((matcher.calculate_matching_score(reference_obj, {'title': {'value': x}})
+                                 for x in titles), default=0)
+                        b = base
+                        if dois is not None and reference_obj.doi:
+                            # the 15 DOI points only if the candidate has that very DOI
+                            # (same comparison as calculate_matching_score)
+                            rd = reference_obj.doi.lower().strip()
+                            if not any(d.lower().strip() == rd for d in dois):
+                                b -= matcher.config.doi_exact_score
+                        return b + t >= min_accept
+
+                    def stop(rows):          # the loop below would already stop here
+                        return any(matcher.calculate_matching_score(reference_obj, r) >= stop_threshold
+                                   for r in rows)
 
                     if reference_obj.doi and use_doi:
                         query_types.extend(["year_and_doi", "doi_title"])
@@ -1843,7 +2061,10 @@ class ReferenceProcessor:
                                 query_logger.debug(f"⚠️ Query {query_type} SKIPPED (missing fields)")
                                 continue
 
-                            results = await matcher.query_opencitations(query, query_type)
+                            queries_run += 1
+                            results = await matcher.query_opencitations(
+                                query, query_type,
+                                keep=keep if skip else None, stop=stop if skip else None)
 
                             if not results:
                                 query_logger.debug(f"ℹ️ Query {query_type} returned 0 results")
@@ -1868,7 +2089,12 @@ class ReferenceProcessor:
                             logging.error(f"❌ FATAL ERROR in {query_type}: {e}")
                             raise
                         except QueryExecutionError as e:
-                            query_logger.debug(f"⚠️ Query execution error in {query_type}: {e}")
+                            # lost query: its candidates are missing -> counted in
+                            # 'queries_failed', so the reference can be processed again
+                            queries_failed += 1
+                            logging.warning(f"⚠️ query lost ({query_type}, {type(e).__name__}) for "
+                                            f"'{reference_obj.first_author_lastname}' / "
+                                            f"'{(reference_obj.article_title or '')[:60]}': {str(e)[:120]}")
                             continue
                         except Exception as e:
                             query_logger.debug(f"⚠️ Unexpected error in {query_type}: {e}")
@@ -2013,7 +2239,13 @@ class ReferenceProcessor:
                     'grobid_attempted': grobid_called,
                     'grobid_fields': grobid_fields,
                     'grobid_scored': best_score2 > 0,
-                    'no_year_attempted': best_score3 > 0
+                    'no_year_attempted': best_score3 > 0,
+                    # diagnostics: how many queries could be formulated and sent,
+                    # and the best candidate of each pass (None if none scored)
+                    'queries_run': queries_run,
+                    'queries_failed': queries_failed,
+                    'best_candidates': {'original': best_match, 'grobid': best_match2,
+                                        'no_year': best_match3},
                 }
 
             except Exception as e:
@@ -2087,7 +2319,8 @@ class ReferenceProcessor:
                     'grobid_attempted',
                     'grobid_fields',            # cosa ha restituito GROBID
                     'grobid_scored',            # il tentativo arricchito ha prodotto un punteggio
-                    'threshold_failed'
+                    'threshold_failed',
+                    'queries_failed',           # queries lost (timeout/errors): reprocess if > 0
                 ])
                 writer.writeheader()
                 
@@ -2136,7 +2369,8 @@ class ReferenceProcessor:
                         'grobid_attempted': grobid_attempted,
                         'grobid_fields': grobid_fields,
                         'grobid_scored': grobid_scored,
-                        'threshold_failed': 'Yes' if best_score != 'N/A' else 'No'
+                        'threshold_failed': 'Yes' if best_score != 'N/A' else 'No',
+                        'queries_failed': score_info.get('queries_failed', 0) if isinstance(score_info, dict) else 0,
                     })
             
             logging.info(f"Unmatched references saved to: {output_file}")
@@ -2325,10 +2559,13 @@ class ReferenceProcessor:
                 endpoint=self.matcher_endpoint, config=self.matcher_config,
                 query_cache=self.query_cache, rate_limiter=self.rate_limiter,
             ) as matcher:
-                tasks = [
-                    process_single_reference(ref_data, i, matcher)
-                    for i, ref_data in enumerate(data['message']['reference'], 1)
-                ]
+                # Started in surname order: QLever reuses the cached parts of the
+                # previous query on the same surname (measured: about half the time
+                # on the 2nd/3rd reference). Results are written in index order.
+                refs = list(enumerate(data['message']['reference'], 1))
+                refs.sort(key=lambda x: (self._extract_author(x[1]) or '').lower())
+                tasks = [asyncio.ensure_future(process_single_reference(ref_data, i, matcher))
+                         for i, ref_data in refs]
 
                 logging.info("Starting concurrent processing")
                 for coro in asyncio.as_completed(tasks):
@@ -2372,6 +2609,11 @@ class ReferenceProcessor:
                         })
                     else:
                         best_score = match.get('score') if match else None
+                        failed = match.get('queries_failed', 0) if match else 0
+                        if failed:   # same CSV values as the plain score, plus the lost queries
+                            best_score = ({'score': best_score, 'score_original': best_score,
+                                           'queries_failed': failed} if best_score is not None
+                                          else {'queries_failed': failed})
                         async with unmatched_lock:
                             unmatched_refs.append((result['ref_id'], result['ref'], best_score))
 
@@ -2883,10 +3125,7 @@ class ReferenceProcessor:
             # Author contribution
             if ref.first_author_lastname and 'author_name' in match:
                 try:
-                    result_author = self._normalize_author_name(match['author_name']['value'])
-                    ref_author = self._normalize_author_name(ref.first_author_lastname)
-                    
-                    if ref_author == result_author:
+                    if author_names_match(ref.first_author_lastname, match['author_name']['value']):
                         stats['author_exact_matches'] = stats.get('author_exact_matches', 0) + 1
                 except Exception as e:
                     logging.debug(f"Error checking author match: {e}")

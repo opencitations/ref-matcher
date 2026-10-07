@@ -490,7 +490,10 @@ they mean different things.
 │                                                            │
 │  ┌─────────────────────────────────────────┐               │
 │  │ Author Matching (7 points max)          │               │
-│  │ - Any exact surname match: +7 pts       │               │
+│  │ - Surname match: +7 pts (tolerant to    │               │
+│  │   accents, particles, word order and    │               │
+│  │   small typos; queries also look up the │               │
+│  │   capitalised and accent-free forms)    │               │
 │  └─────────────────────────────────────────┘               │
 │                                                            │
 │  ┌─────────────────────────────────────────┐               │

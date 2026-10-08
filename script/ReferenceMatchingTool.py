@@ -243,6 +243,15 @@ class MatcherConfig:
     # 0 disables the cache.
     query_cache_size: int = 50_000
 
+    # Name of a QLever materialized view (columns name, br) holding the chain
+    # foaf:familyName <- pro:isHeldBy <- pro:isDocumentContextFor, built once with
+    # SELECT ?name ?br WHERE { ?a foaf:familyName ?name . ?role pro:isHeldBy ?a .
+    # ?br pro:isDocumentContextFor ?role . } (esperimenti_revisione/prova_vista.sh).
+    # The author queries then read the surname's block of the view instead of
+    # walking the chain: same candidates, 2-6x faster on common surnames.
+    # Empty = plain triples (any endpoint).
+    author_view: str = ''
+
     # Rate limiting
     requests_per_second: float = 2.5
     burst_size: int = 10
@@ -1445,6 +1454,17 @@ class OpenCitationsMatcherThreadSafe:
             page_esc = e(reference.first_page)
             doi_esc = e(reference.doi) if use_doi else ""
 
+            # Works whose author (any position) has one of the surnames in ?author_name:
+            # the three-triple chain, or the same pairs read from a materialized view.
+            view = getattr(self.config, 'author_view', '')
+            if view:
+                PREFIXES += "PREFIX view: <https://qlever.cs.uni-freiburg.de/materializedView/>\n"
+                AUTHOR_BR = f"SERVICE view:{view} {{ [ view:column-name ?author_name ; view:column-br ?br ] }}"
+            else:
+                AUTHOR_BR = """?first_author foaf:familyName ?author_name .
+                    ?role pro:isHeldBy ?first_author .
+                    ?br pro:isDocumentContextFor ?role ."""
+
             # In OCDM the bibliographic resource is the document context of the
             # role (?br pro:isDocumentContextFor ?role). The block used to walk
             # it the other way round, so it never bound and ?author_name was
@@ -1534,11 +1554,8 @@ class OpenCitationsMatcherThreadSafe:
                 WHERE {{
                     
                     VALUES ?author_name {{ {fam_values} }}
-                    ?first_author foaf:familyName ?author_name .
-                    
-                    ?role pro:isHeldBy ?first_author .
-                    ?br pro:isDocumentContextFor ?role .
-                    
+                    {AUTHOR_BR}
+
                     ?br dcterms:title ?title ;
                         prism:publicationDate ?publicationDate .
                     BIND(STR(?publicationDate) AS ?pub_date)
@@ -1601,9 +1618,7 @@ class OpenCitationsMatcherThreadSafe:
                 # own. Measured on 8 common surnames: 1.3-5x faster, same candidates.
                 author_emb = f"""
                         VALUES ?author_name {{ {fam_values} }}
-                        ?first_author foaf:familyName ?author_name .
-                        ?role pro:isHeldBy ?first_author .
-                        ?br pro:isDocumentContextFor ?role .
+                        {AUTHOR_BR}
                         ?br frbr:embodiment ?embodiment ."""
 
                 return f"""
@@ -1647,9 +1662,7 @@ class OpenCitationsMatcherThreadSafe:
                 WHERE {{
                     {{ SELECT DISTINCT ?br ?author_name WHERE {{
                         VALUES ?author_name {{ {fam_values} }}
-                        ?first_author foaf:familyName ?author_name .
-                        ?role pro:isHeldBy ?first_author .
-                        ?br pro:isDocumentContextFor ?role .
+                        {AUTHOR_BR}
                         ?volume fabio:hasSequenceIdentifier "{vol_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
                         ?issue frbr:partOf ?volume .
                         ?br frbr:partOf ?issue .
@@ -4435,6 +4448,10 @@ async def main():
                        help='Max SPARQL results kept in memory and reused when the exact '
                             'same query is issued again (e.g. by the GROBID and '
                             '"without year" passes). Does not change results. 0 = off.')
+    parser.add_argument('--author-view', default=_env('AUTHOR_VIEW', ''),
+                       help='QLever materialized view (columns name, br) used by the author '
+                            'queries instead of the familyName/isHeldBy/isDocumentContextFor '
+                            'chain; same results, faster on common surnames. Local QLever only.')
     parser.add_argument('--validate-output', action='store_true',
                        default=_env_bool('VALIDATE_OUTPUT', False),
                        help='After each file, check that its output CSV/stats are not '
@@ -4544,6 +4561,7 @@ async def main():
         config.max_concurrent_references = args.max_concurrent_references
         config.enable_threshold_adjustment = args.threshold_adjustment
         config.query_cache_size = args.query_cache_size
+        config.author_view = args.author_view
         # 3. Pass the configured object to the processor
         processor = ReferenceProcessor(
             use_grobid=args.use_grobid,

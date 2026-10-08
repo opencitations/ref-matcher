@@ -1068,7 +1068,7 @@ class OpenCitationsMatcherThreadSafe:
               titles and DOIs are fetched first (one request per 500) and details are asked
               only for the candidates that can still reach the threshold;
           stop(rows) -> bool         detail groups are fetched one at a time and the loop
-              stops once stop() is true (the caller would not look further).
+              stops once stop() is true for a group's rows (the caller would not look further).
         A reduced or interrupted result is not cached: it depends on the reference.
         """
         if not sparql_query or not _OPTIONAL_RE.search(sparql_query):
@@ -1110,8 +1110,12 @@ class OpenCitationsMatcherThreadSafe:
             group = candidates[i:i + DETAILS_GROUP]
             values = 'VALUES ?br { ' + ' '.join(f'<{c}>' for c in group) + ' } '
             fixed = _GROUP_RE.sub(lambda m: m.group(0) + ' ' + values, sep + where)
-            rows.extend(await self._execute_query(head + fixed, f"{query_type}:details"))
-            if stop is not None and i + DETAILS_GROUP < len(candidates) and stop(rows):
+            new = await self._execute_query(head + fixed, f"{query_type}:details")
+            rows.extend(new)
+            # only the new group: stop() already said no to the earlier rows. Passing all
+            # rows rescored them every group, quadratic: one 'Wang' reference with ~27,000
+            # candidates kept the gold standard run busy for ~5 hours.
+            if stop is not None and i + DETAILS_GROUP < len(candidates) and stop(new):
                 complete = False
                 break
         # same order as one request per candidate (ties in the score keep the first)

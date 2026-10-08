@@ -497,10 +497,14 @@ def sparql_quote_escape(s: str) -> str:
     return s.replace('\\', '\\u005C\\u005C').replace('"', '\\"').replace("'", "\\'")
 
 
-def check_author_view(endpoint: str, view: str) -> None:
-    """Raise ValueError unless `endpoint` answers a query on the materialized view `view`."""
+def check_view(endpoint: str, view: str, first: str) -> None:
+    """Raise ValueError unless `endpoint` answers a query on the materialized view `view`, asked
+    as the tool asks it: first column fixed (`first` = 'name' or 'vol'), ?br read. QLever answers
+    HTTP 500 to a view read with no column fixed, even if the view exists."""
+    value = 'Smith' if first == 'name' else '1'
     q = ('PREFIX view: <https://qlever.cs.uni-freiburg.de/materializedView/>\n'
-         f'SELECT ?br WHERE {{ SERVICE view:{view} {{ [ view:column-br ?br ] }} }} LIMIT 1')
+         f'SELECT ?br WHERE {{ SERVICE view:{view} {{ [ view:column-{first} '
+         f'"{value}"^^<http://www.w3.org/2001/XMLSchema#string> ; view:column-br ?br ] }} }} LIMIT 1')
     req = urllib.request.Request(endpoint, data=urllib.parse.urlencode({'query': q}).encode(),
                                  headers={'Accept': 'application/sparql-results+json'})
     try:
@@ -4651,12 +4655,13 @@ async def main():
         config.volume_view = args.volume_view
         config.volume_page_view = args.volume_page_view
         config.author_page_view = args.author_page_view
-        for v in (args.author_view, args.author_title_view, args.volume_view, args.volume_page_view,
-                  args.author_page_view):
+        for v, first in ((args.author_view, 'name'), (args.author_title_view, 'name'),
+                         (args.author_page_view, 'name'), (args.volume_view, 'vol'),
+                         (args.volume_page_view, 'vol')):
             if v:
-                # a missing view would fail every author query (each counted in
+                # a missing view would fail every query using it (each counted in
                 # queries_failed): stop now instead
-                check_author_view(args.endpoint or DEFAULT_SPARQL_ENDPOINT, v)
+                check_view(args.endpoint or DEFAULT_SPARQL_ENDPOINT, v, first)
         # 3. Pass the configured object to the processor
         processor = ReferenceProcessor(
             use_grobid=args.use_grobid,

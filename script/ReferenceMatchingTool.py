@@ -2172,7 +2172,10 @@ class ReferenceProcessor:
                                   f"'{processed_ref.unstructured[:150]}...'")
 
                     try:
-                        grobid_ref = self.grobid_processor.process_unstructured_reference(processed_ref.unstructured)
+                        # blocking HTTP: in a thread, or every reference in flight would
+                        # wait for GROBID too (the event loop stopped for each call)
+                        grobid_ref = await asyncio.to_thread(
+                            self.grobid_processor.process_unstructured_reference, processed_ref.unstructured)
                         
                         if grobid_ref:
                             # Increment global counter

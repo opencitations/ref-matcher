@@ -263,6 +263,9 @@ class MatcherConfig:
     # number such as "1" walked tens of thousands of volumes: 1-6 s -> ~0.01 s).
     volume_view: str = ''
     volume_page_view: str = ''
+    # (name, page, br, embodiment) view for year_author_page: the author chain plus
+    # ?br frbr:embodiment ?embodiment . ?embodiment prism:startingPage ?page.
+    author_page_view: str = ''
 
     # Rate limiting
     requests_per_second: float = 2.5
@@ -1667,17 +1670,33 @@ class OpenCitationsMatcherThreadSafe:
                         VALUES ?author_name {{ {fam_values} }}
                         {AUTHOR_BR}
                         ?br frbr:embodiment ?embodiment ."""
+                # the same author + embodiment + starting page rows, read from a
+                # (name, page, br, embodiment) view: the exact page is a direct
+                # lookup, the ranges scan only the surname's block
+                ap_view = getattr(self.config, 'author_page_view', '')
+                if ap_view:
+                    if 'PREFIX view:' not in PREFIXES:
+                        PREFIXES += "PREFIX view: <https://qlever.cs.uni-freiburg.de/materializedView/>\n"
+                    ap = lambda page: (f"""
+                        VALUES ?author_name {{ {fam_values} }}
+                        SERVICE view:{ap_view} {{ [ view:column-name ?author_name ; view:column-page {page} ;
+                            view:column-br ?br ; view:column-embodiment ?embodiment ] }}""")
+                    exact = ap(f'"{page_esc}"^^<http://www.w3.org/2001/XMLSchema#string>')
+                    ranged = ap('?start_page')
+                else:
+                    exact = f"""{author_emb}
+                        ?embodiment prism:startingPage "{page_esc}"^^<http://www.w3.org/2001/XMLSchema#string> ."""
+                    ranged = f"""{author_emb}
+                        ?embodiment prism:startingPage ?start_page ."""
 
                 return f"""
                 {PREFIXES}
                 {SELECT_ALL}
                 WHERE {{
-                    {{ SELECT * WHERE {{ {author_emb}
-                        ?embodiment prism:startingPage "{page_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
+                    {{ SELECT * WHERE {{ {exact}
                         BIND("{page_esc}" AS ?start_page) }} }}
                     UNION
-                    {{ SELECT * WHERE {{ {author_emb}
-                        ?embodiment prism:startingPage ?start_page .
+                    {{ SELECT * WHERE {{ {ranged}
                         FILTER(CONTAINS(STR(?start_page), "{page_esc}-") || CONTAINS(STR(?start_page), "-{page_esc}")) }} }}
 
                     ?br prism:publicationDate ?publicationDate .
@@ -4509,6 +4528,9 @@ async def main():
     parser.add_argument('--volume-page-view', default=_env('VOLUME_PAGE_VIEW', ''),
                        help='QLever materialized view (columns vol, page, br, embodiment) used by the '
                             'year+volume+page query; same results. Local QLever only.')
+    parser.add_argument('--author-page-view', default=_env('AUTHOR_PAGE_VIEW', ''),
+                       help='QLever materialized view (columns name, page, br, embodiment) used by the '
+                            'year+author+page query; same results. Local QLever only.')
     parser.add_argument('--validate-output', action='store_true',
                        default=_env_bool('VALIDATE_OUTPUT', False),
                        help='After each file, check that its output CSV/stats are not '
@@ -4622,7 +4644,9 @@ async def main():
         config.author_title_view = args.author_title_view
         config.volume_view = args.volume_view
         config.volume_page_view = args.volume_page_view
-        for v in (args.author_view, args.author_title_view, args.volume_view, args.volume_page_view):
+        config.author_page_view = args.author_page_view
+        for v in (args.author_view, args.author_title_view, args.volume_view, args.volume_page_view,
+                  args.author_page_view):
             if v:
                 # a missing view would fail every author query (each counted in
                 # queries_failed): stop now instead

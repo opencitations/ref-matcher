@@ -52,6 +52,23 @@ def test_volume_views_replace_only_the_volume_chains(rmt):
     assert av.count('PREFIX view:') == 1
 
 
+def test_author_page_view_replaces_author_embodiment_page(rmt):
+    T = rmt
+    X = '^^<http://www.w3.org/2001/XMLSchema#string>'
+    cfg = T.MatcherConfig()
+    cfg.author_page_view = 'autori-pagine'
+    ref = T.Reference(first_author_lastname='Wang', year='2015', volume='12', first_page='34',
+                      article_title='Catalytic oxidation of benzene')
+    q = T.OpenCitationsMatcherThreadSafe(query_cache=None, config=cfg).build_sparql_query(ref, 'year_author_page', use_doi=False)
+    plain = _queries(T)['year_author_page']
+    emb = CHAIN + r'\s*\?br frbr:embodiment \?embodiment \.\s*\?embodiment prism:startingPage '
+    svc = lambda page: (f'SERVICE view:autori-pagine {{ [ view:column-name ?author_name ; view:column-page {page} ; '
+                        f'view:column-br ?br ; view:column-embodiment ?embodiment ] }}')
+    back = re.sub(emb + re.escape(f'"34"{X}') + r' \.', lambda _: svc(f'"34"{X}'), plain)
+    back = re.sub(emb + r'\?start_page \.', lambda _: svc('?start_page'), back)
+    assert norm(back) == norm(q) and q.count('SERVICE') == 2 and q.count('PREFIX view:') == 1
+
+
 def test_author_title_view_replaces_chain_and_title_join(rmt):
     plain, tv = _queries(rmt), _queries(rmt, title_view='autori-titoli')
     title = r'\s*\?br dcterms:title \?title \.'

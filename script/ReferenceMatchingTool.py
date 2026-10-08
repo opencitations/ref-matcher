@@ -482,6 +482,19 @@ def sparql_quote_escape(s: str) -> str:
     return s.replace('\\', '\\u005C\\u005C').replace('"', '\\"').replace("'", "\\'")
 
 
+def check_author_view(endpoint: str, view: str) -> None:
+    """Raise ValueError unless `endpoint` answers a query on the materialized view `view`."""
+    q = ('PREFIX view: <https://qlever.cs.uni-freiburg.de/materializedView/>\n'
+         f'SELECT ?br WHERE {{ SERVICE view:{view} {{ [ view:column-name "Smith" ; view:column-br ?br ] }} }} LIMIT 1')
+    req = urllib.request.Request(endpoint, data=urllib.parse.urlencode({'query': q}).encode(),
+                                 headers={'Accept': 'application/sparql-results+json'})
+    try:
+        json.load(urllib.request.urlopen(req, timeout=120))
+    except Exception as e:
+        raise ValueError(f"--author-view {view}: the endpoint {endpoint} does not answer queries on that "
+                         f"materialized view ({e}); it needs a QLever >= 0.5.37 where the view was built") from e
+
+
 def escape_regex_literal(text: str) -> str:
     """Escape SPARQL-bound text so it is treated literally inside REGEX()."""
     return re.escape(text) if text else ""
@@ -4562,6 +4575,10 @@ async def main():
         config.enable_threshold_adjustment = args.threshold_adjustment
         config.query_cache_size = args.query_cache_size
         config.author_view = args.author_view
+        if args.author_view:
+            # a missing view would fail every author query (each counted in
+            # queries_failed): stop now instead
+            check_author_view(args.endpoint or DEFAULT_SPARQL_ENDPOINT, args.author_view)
         # 3. Pass the configured object to the processor
         processor = ReferenceProcessor(
             use_grobid=args.use_grobid,

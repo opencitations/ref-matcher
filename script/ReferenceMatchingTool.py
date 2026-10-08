@@ -1484,25 +1484,35 @@ class OpenCitationsMatcherThreadSafe:
 
             # Works whose author (any position) has one of the surnames in ?author_name:
             # the three-triple chain, or the same pairs read from a materialized view.
+            xs = '^^<http://www.w3.org/2001/XMLSchema#string>'
             view = getattr(self.config, 'author_view', '')
             title_view = getattr(self.config, 'author_title_view', '')
-            if view or title_view:
+            if view or title_view or getattr(self.config, 'author_page_view', ''):
                 PREFIXES += "PREFIX view: <https://qlever.cs.uni-freiburg.de/materializedView/>\n"
+
+            def by_name(v_name: str, cols: str) -> str:
+                """The rows of a view whose first column is the surname, one branch per
+                variant with the surname as a constant: QLever jumps straight to a block
+                only when the fixed columns are a prefix, and a surname joined from VALUES
+                is not fixed (with a constant page after it, the whole view was scanned)."""
+                return '\n                    UNION\n                    '.join(
+                    f'{{ SERVICE view:{v_name} {{ [ view:column-name "{e(s)}"{xs} ; {cols} ] }} '
+                    f'BIND("{e(s)}"{xs} AS ?author_name) }}'
+                    for s in surname_variants(reference.first_author_lastname))
+
             if view:
-                AUTHOR_BR = f"SERVICE view:{view} {{ [ view:column-name ?author_name ; view:column-br ?br ] }}"
+                AUTHOR_BR = by_name(view, 'view:column-br ?br')
             else:
                 AUTHOR_BR = """?first_author foaf:familyName ?author_name .
                     ?role pro:isHeldBy ?first_author .
                     ?br pro:isDocumentContextFor ?role ."""
             # ... and their titles (author_title): the same pairs plus each title from a
             # (name, br, title) view, so the REGEX runs on the surname's block, no title join
-            AUTHOR_BR_TITLE = (f"SERVICE view:{title_view} {{ [ view:column-name ?author_name ; "
-                               f"view:column-br ?br ; view:column-title ?title ] }}" if title_view
+            AUTHOR_BR_TITLE = (by_name(title_view, 'view:column-br ?br ; view:column-title ?title') if title_view
                                else f"{AUTHOR_BR}\n                    ?br dcterms:title ?title .")
             # Works in a volume with that number (?br in an issue of it), and those with
             # that starting page on an embodiment too: the chains, or the same rows read
             # from (vol, br) and (vol, page, br, embodiment) views.
-            xs = '^^<http://www.w3.org/2001/XMLSchema#string>'
             vol_view = getattr(self.config, 'volume_view', '')
             vp_view = getattr(self.config, 'volume_page_view', '')
             if (vol_view or vp_view) and 'PREFIX view:' not in PREFIXES:
@@ -1675,13 +1685,9 @@ class OpenCitationsMatcherThreadSafe:
                 # lookup, the ranges scan only the surname's block
                 ap_view = getattr(self.config, 'author_page_view', '')
                 if ap_view:
-                    if 'PREFIX view:' not in PREFIXES:
-                        PREFIXES += "PREFIX view: <https://qlever.cs.uni-freiburg.de/materializedView/>\n"
-                    ap = lambda page: (f"""
-                        VALUES ?author_name {{ {fam_values} }}
-                        SERVICE view:{ap_view} {{ [ view:column-name ?author_name ; view:column-page {page} ;
-                            view:column-br ?br ; view:column-embodiment ?embodiment ] }}""")
-                    exact = ap(f'"{page_esc}"^^<http://www.w3.org/2001/XMLSchema#string>')
+                    ap = lambda page: by_name(ap_view, f'view:column-page {page} ; view:column-br ?br ; '
+                                                       f'view:column-embodiment ?embodiment')
+                    exact = ap(f'"{page_esc}"{xs}')
                     ranged = ap('?start_page')
                 else:
                     exact = f"""{author_emb}

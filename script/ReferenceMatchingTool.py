@@ -251,6 +251,11 @@ class MatcherConfig:
     # walking the chain: same candidates, 2-6x faster on common surnames.
     # Empty = plain triples (any endpoint).
     author_view: str = ''
+    # Same, for author_title, with a third column: (name, br, title), built with
+    # SELECT ?name ?br ?title WHERE { <the chain above> ?br dcterms:title ?title . }.
+    # The title REGEX then runs on the surname's block, without joining all titles:
+    # same candidates, 10-100x faster except on the very commonest surnames.
+    author_title_view: str = ''
 
     # Rate limiting
     requests_per_second: float = 2.5
@@ -1470,13 +1475,20 @@ class OpenCitationsMatcherThreadSafe:
             # Works whose author (any position) has one of the surnames in ?author_name:
             # the three-triple chain, or the same pairs read from a materialized view.
             view = getattr(self.config, 'author_view', '')
-            if view:
+            title_view = getattr(self.config, 'author_title_view', '')
+            if view or title_view:
                 PREFIXES += "PREFIX view: <https://qlever.cs.uni-freiburg.de/materializedView/>\n"
+            if view:
                 AUTHOR_BR = f"SERVICE view:{view} {{ [ view:column-name ?author_name ; view:column-br ?br ] }}"
             else:
                 AUTHOR_BR = """?first_author foaf:familyName ?author_name .
                     ?role pro:isHeldBy ?first_author .
                     ?br pro:isDocumentContextFor ?role ."""
+            # ... and their titles (author_title): the same pairs plus each title from a
+            # (name, br, title) view, so the REGEX runs on the surname's block, no title join
+            AUTHOR_BR_TITLE = (f"SERVICE view:{title_view} {{ [ view:column-name ?author_name ; "
+                               f"view:column-br ?br ; view:column-title ?title ] }}" if title_view
+                               else f"{AUTHOR_BR}\n                    ?br dcterms:title ?title .")
 
             # In OCDM the bibliographic resource is the document context of the
             # role (?br pro:isDocumentContextFor ?role). The block used to walk
@@ -1567,10 +1579,8 @@ class OpenCitationsMatcherThreadSafe:
                 WHERE {{
                     
                     VALUES ?author_name {{ {fam_values} }}
-                    {AUTHOR_BR}
-
-                    ?br dcterms:title ?title ;
-                        prism:publicationDate ?publicationDate .
+                    {AUTHOR_BR_TITLE}
+                    ?br prism:publicationDate ?publicationDate .
                     BIND(STR(?publicationDate) AS ?pub_date)
 
                     FILTER(REGEX(?title, "{title_pattern}", "i"))
@@ -4465,6 +4475,9 @@ async def main():
                        help='QLever materialized view (columns name, br) used by the author '
                             'queries instead of the familyName/isHeldBy/isDocumentContextFor '
                             'chain; same results, faster on common surnames. Local QLever only.')
+    parser.add_argument('--author-title-view', default=_env('AUTHOR_TITLE_VIEW', ''),
+                       help='QLever materialized view (columns name, br, title) used by the '
+                            'author+title query; same results. Local QLever only.')
     parser.add_argument('--validate-output', action='store_true',
                        default=_env_bool('VALIDATE_OUTPUT', False),
                        help='After each file, check that its output CSV/stats are not '
@@ -4575,10 +4588,12 @@ async def main():
         config.enable_threshold_adjustment = args.threshold_adjustment
         config.query_cache_size = args.query_cache_size
         config.author_view = args.author_view
-        if args.author_view:
-            # a missing view would fail every author query (each counted in
-            # queries_failed): stop now instead
-            check_author_view(args.endpoint or DEFAULT_SPARQL_ENDPOINT, args.author_view)
+        config.author_title_view = args.author_title_view
+        for v in (args.author_view, args.author_title_view):
+            if v:
+                # a missing view would fail every author query (each counted in
+                # queries_failed): stop now instead
+                check_author_view(args.endpoint or DEFAULT_SPARQL_ENDPOINT, v)
         # 3. Pass the configured object to the processor
         processor = ReferenceProcessor(
             use_grobid=args.use_grobid,

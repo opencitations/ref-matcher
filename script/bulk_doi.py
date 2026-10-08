@@ -350,7 +350,9 @@ def dedup(out_dir: str) -> str:
 # ---------------------------------------------------------------------------
 
 def _esc(doi: str) -> str:
-    return doi.replace('\\', '\\\\').replace('"', '\\"')
+    # backslash as \\: SPARQL decodes \uXXXX before parsing, so a DOI with a
+    # literal '&lt;' written as \\u0026 broke the whole 2,000-DOI chunk (HTTP 400)
+    return doi.replace('\\', '\\u005C\\u005C').replace('"', '\\"')
 
 
 def _build_query(dois: List[str]) -> str:

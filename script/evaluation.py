@@ -35,7 +35,8 @@ class OpenCitationsDOIMatcher:
         # Enumerate every predicate/object of the bibliographic resource carrying
         # this DOI. (The previous version had two dead BINDs: ?publicationDate was
         # never bound, and ?id was never selected.)
-        safe_doi = doi.replace('\\', '\\\\').replace('"', '\\"')
+        # backslash as \\: SPARQL decodes \uXXXX before parsing
+        safe_doi = doi.replace('\\', '\\u005C\\u005C').replace('"', '\\"')
         return f"""PREFIX datacite: <http://purl.org/spar/datacite/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX literal: <http://www.essepuntato.it/2010/06/literalreification/>

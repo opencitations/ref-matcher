@@ -465,6 +465,14 @@ def surname_variants(name: str) -> List[str]:
     return out
 
 
+def sparql_quote_escape(s: str) -> str:
+    """Escape text for a quoted SPARQL literal. ORDER MATTERS: backslashes first, then quotes.
+    A backslash is written \\u005C\\u005C, not \\\\: SPARQL decodes \\uXXXX before parsing,
+    also inside strings, so a literal '\\u0026' in the data, written \\\\u0026, became '\\&'
+    and the whole query failed with HTTP 400."""
+    return s.replace('\\', '\\u005C\\u005C').replace('"', '\\"').replace("'", "\\'")
+
+
 def escape_regex_literal(text: str) -> str:
     """Escape SPARQL-bound text so it is treated literally inside REGEX()."""
     return re.escape(text) if text else ""
@@ -1270,15 +1278,7 @@ class OpenCitationsMatcherThreadSafe:
             # First normalize unicode
             s = unicodedata.normalize("NFC", s)
             
-            # SPARQL-specific escaping - ORDER MATTERS
-            # 1. Escape backslashes first (most important)
-            s = s.replace('\\', '\\\\')
-            
-            # 2. Escape quotes
-            s = s.replace('"', '\\"')
-            s = s.replace("'", "\\'")
-            
-            # 3. Replace control characters with space
+            # 1. Replace control characters with space
             s = s.replace('\n', ' ')
             s = s.replace('\r', ' ')
             s = s.replace('\t', ' ')
@@ -1293,22 +1293,25 @@ class OpenCitationsMatcherThreadSafe:
             # 6. Normalize whitespace
             s = ' '.join(s.split())
             
-            # 7. Validate length (SPARQL has practical limits)
+            # 7. Validate length (SPARQL has practical limits); before escaping,
+            # so the cut cannot fall inside an escape sequence
             if len(s) > 1000:
                 logging.info(f"Escaped string very long ({len(s)} chars), truncating")
                 s = s[:1000]
-            
-            return s
-            
+
+            # 8. SPARQL escaping (backslashes and quotes)
+            return sparql_quote_escape(s)
+
         except UnicodeError as e:
             logging.error(f"Unicode error escaping string: {e}")
-            # Fallback: aggressive cleaning
-            return ''.join(c for c in str(s) if c.isprintable() and c.isascii())[:1000]
+            # Fallback: aggressive cleaning (still escaped: quotes and backslashes
+            # are printable ASCII and used to reach the query raw)
+            return sparql_quote_escape(''.join(c for c in str(s) if c.isprintable() and c.isascii())[:1000])
         except Exception as e:
             logging.error(f"Error escaping string '{str(s)[:50]}...': {e}")
             # Last resort fallback
             try:
-                return str(s).replace('\\', '\\\\').replace('"', '\\"').replace("'", "\\'")
+                return sparql_quote_escape(str(s))
             except Exception:
                 return ""
     

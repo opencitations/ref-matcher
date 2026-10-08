@@ -256,6 +256,13 @@ class MatcherConfig:
     # The title REGEX then runs on the surname's block, without joining all titles:
     # same candidates, 10-100x faster except on the very commonest surnames.
     author_title_view: str = ''
+    # Same for the volume chain fabio:hasSequenceIdentifier <- frbr:partOf (issue)
+    # <- frbr:partOf (br): a (vol, br) view for year_author_volume, and a
+    # (vol, page, br, embodiment) view, adding ?br frbr:embodiment ?embodiment .
+    # ?embodiment prism:startingPage ?page, for year_volume_page (a common volume
+    # number such as "1" walked tens of thousands of volumes: 1-6 s -> ~0.01 s).
+    volume_view: str = ''
+    volume_page_view: str = ''
 
     # Rate limiting
     requests_per_second: float = 2.5
@@ -490,13 +497,13 @@ def sparql_quote_escape(s: str) -> str:
 def check_author_view(endpoint: str, view: str) -> None:
     """Raise ValueError unless `endpoint` answers a query on the materialized view `view`."""
     q = ('PREFIX view: <https://qlever.cs.uni-freiburg.de/materializedView/>\n'
-         f'SELECT ?br WHERE {{ SERVICE view:{view} {{ [ view:column-name "Smith" ; view:column-br ?br ] }} }} LIMIT 1')
+         f'SELECT ?br WHERE {{ SERVICE view:{view} {{ [ view:column-br ?br ] }} }} LIMIT 1')
     req = urllib.request.Request(endpoint, data=urllib.parse.urlencode({'query': q}).encode(),
                                  headers={'Accept': 'application/sparql-results+json'})
     try:
         json.load(urllib.request.urlopen(req, timeout=120))
     except Exception as e:
-        raise ValueError(f"--author-view {view}: the endpoint {endpoint} does not answer queries on that "
+        raise ValueError(f"view {view}: the endpoint {endpoint} does not answer queries on that "
                          f"materialized view ({e}); it needs a QLever >= 0.5.37 where the view was built") from e
 
 
@@ -1489,6 +1496,28 @@ class OpenCitationsMatcherThreadSafe:
             AUTHOR_BR_TITLE = (f"SERVICE view:{title_view} {{ [ view:column-name ?author_name ; "
                                f"view:column-br ?br ; view:column-title ?title ] }}" if title_view
                                else f"{AUTHOR_BR}\n                    ?br dcterms:title ?title .")
+            # Works in a volume with that number (?br in an issue of it), and those with
+            # that starting page on an embodiment too: the chains, or the same rows read
+            # from (vol, br) and (vol, page, br, embodiment) views.
+            xs = '^^<http://www.w3.org/2001/XMLSchema#string>'
+            vol_view = getattr(self.config, 'volume_view', '')
+            vp_view = getattr(self.config, 'volume_page_view', '')
+            if (vol_view or vp_view) and 'PREFIX view:' not in PREFIXES:
+                PREFIXES += "PREFIX view: <https://qlever.cs.uni-freiburg.de/materializedView/>\n"
+            VOLUME_BR = (f'SERVICE view:{vol_view} {{ [ view:column-vol "{vol_esc}"{xs} ; view:column-br ?br ] }}'
+                         if vol_view else
+                         f"""?volume fabio:hasSequenceIdentifier "{vol_esc}"{xs} .
+                        ?issue frbr:partOf ?volume .
+                        ?br frbr:partOf ?issue .""")
+            VOLUME_PAGE_BR = (f'SERVICE view:{vp_view} {{ [ view:column-vol "{vol_esc}"{xs} ; '
+                              f'view:column-page "{page_esc}"{xs} ; view:column-br ?br ; '
+                              f'view:column-embodiment ?embodiment ] }}' if vp_view else
+                              f"""?volume fabio:hasSequenceIdentifier "{vol_esc}"{xs} .
+                    ?issue frbr:partOf ?volume .
+                    ?br frbr:partOf ?issue .
+
+                    ?br frbr:embodiment ?embodiment .
+                    ?embodiment prism:startingPage "{page_esc}"{xs} .""")
 
             # In OCDM the bibliographic resource is the document context of the
             # role (?br pro:isDocumentContextFor ?role). The block used to walk
@@ -1607,12 +1636,7 @@ class OpenCitationsMatcherThreadSafe:
                 {SELECT_ALL}
                 WHERE {{
 
-                    ?volume fabio:hasSequenceIdentifier "{vol_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
-                    ?issue frbr:partOf ?volume .
-                    ?br frbr:partOf ?issue .
-
-                    ?br frbr:embodiment ?embodiment .
-                    ?embodiment prism:startingPage "{page_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
+                    {VOLUME_PAGE_BR}
 
                     ?br prism:publicationDate ?publicationDate .
                     BIND(STR(?publicationDate) AS ?pub_date)
@@ -1686,9 +1710,7 @@ class OpenCitationsMatcherThreadSafe:
                     {{ SELECT DISTINCT ?br ?author_name WHERE {{
                         VALUES ?author_name {{ {fam_values} }}
                         {AUTHOR_BR}
-                        ?volume fabio:hasSequenceIdentifier "{vol_esc}"^^<http://www.w3.org/2001/XMLSchema#string> .
-                        ?issue frbr:partOf ?volume .
-                        ?br frbr:partOf ?issue .
+                        {VOLUME_BR}
                     }} }}
 
                     ?br prism:publicationDate ?publicationDate .
@@ -4481,6 +4503,12 @@ async def main():
     parser.add_argument('--author-title-view', default=_env('AUTHOR_TITLE_VIEW', ''),
                        help='QLever materialized view (columns name, br, title) used by the '
                             'author+title query; same results. Local QLever only.')
+    parser.add_argument('--volume-view', default=_env('VOLUME_VIEW', ''),
+                       help='QLever materialized view (columns vol, br) used by the year+author+volume '
+                            'query; same results. Local QLever only.')
+    parser.add_argument('--volume-page-view', default=_env('VOLUME_PAGE_VIEW', ''),
+                       help='QLever materialized view (columns vol, page, br, embodiment) used by the '
+                            'year+volume+page query; same results. Local QLever only.')
     parser.add_argument('--validate-output', action='store_true',
                        default=_env_bool('VALIDATE_OUTPUT', False),
                        help='After each file, check that its output CSV/stats are not '
@@ -4592,7 +4620,9 @@ async def main():
         config.query_cache_size = args.query_cache_size
         config.author_view = args.author_view
         config.author_title_view = args.author_title_view
-        for v in (args.author_view, args.author_title_view):
+        config.volume_view = args.volume_view
+        config.volume_page_view = args.volume_page_view
+        for v in (args.author_view, args.author_title_view, args.volume_view, args.volume_page_view):
             if v:
                 # a missing view would fail every author query (each counted in
                 # queries_failed): stop now instead

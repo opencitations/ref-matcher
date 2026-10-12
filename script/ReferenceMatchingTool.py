@@ -267,6 +267,12 @@ class MatcherConfig:
     # ?br frbr:embodiment ?embodiment . ?embodiment prism:startingPage ?page.
     author_page_view: str = ''
 
+    # No author queries (author_title, year_author_page, year_author_volume) when the
+    # surname is just an initial ("A.", "C.S."), as Crossref sometimes records it. On 2,000
+    # references of the dump they cost 2.7% of the time and gave no match; the matches of
+    # the sample stayed identical. Off by default (the paper's runs did not use it).
+    skip_initial_surnames: bool = False
+
     # Rate limiting
     requests_per_second: float = 2.5
     burst_size: int = 10
@@ -495,6 +501,12 @@ def sparql_quote_escape(s: str) -> str:
     also inside strings, so a literal '\\u0026' in the data, written \\\\u0026, became '\\&'
     and the whole query failed with HTTP 400."""
     return s.replace('\\', '\\u005C\\u005C').replace('"', '\\"').replace("'", "\\'")
+
+
+def is_initial_surname(s: str) -> bool:
+    """'A.', 'C.S.', 'J.-P.', 'K': an initial where the surname should be ('Li', 'Ng' are not)."""
+    t = re.sub(r'[.\-\s]', '', s or '')
+    return bool(t) and len(t) <= 2 and t.isupper() and ('.' in (s or '') or len(t) == 1)
 
 
 def check_view(endpoint: str, view: str, first: str) -> None:
@@ -1471,6 +1483,12 @@ class OpenCitationsMatcherThreadSafe:
                 logging.info(f"❌ Unknown query_type: {query_type}")
                 return None
             
+            if (query_type in ('author_title', 'year_author_page', 'year_author_volume')
+                    and getattr(self.config, 'skip_initial_surnames', False)
+                    and is_initial_surname(reference.first_author_lastname)):
+                logging.info(f"❌ SKIP: surname is an initial ({reference.first_author_lastname}) for {query_type}")
+                return None
+
             # STEP 3: Escaping
             e = self._esc
             
@@ -4541,6 +4559,10 @@ async def main():
     parser.add_argument('--author-page-view', default=_env('AUTHOR_PAGE_VIEW', ''),
                        help='QLever materialized view (columns name, page, br, embodiment) used by the '
                             'year+author+page query; same results. Local QLever only.')
+    parser.add_argument('--skip-initial-surnames', action='store_true',
+                       default=_env_bool('SKIP_INITIAL_SURNAMES', False),
+                       help='No author queries when the surname is just an initial ("A.", "C.S."): '
+                            'they cost time and found nothing on a sample of the dump.')
     parser.add_argument('--validate-output', action='store_true',
                        default=_env_bool('VALIDATE_OUTPUT', False),
                        help='After each file, check that its output CSV/stats are not '
@@ -4655,6 +4677,7 @@ async def main():
         config.volume_view = args.volume_view
         config.volume_page_view = args.volume_page_view
         config.author_page_view = args.author_page_view
+        config.skip_initial_surnames = args.skip_initial_surnames
         for v, first in ((args.author_view, 'name'), (args.author_title_view, 'name'),
                          (args.author_page_view, 'name'), (args.volume_view, 'vol'),
                          (args.volume_page_view, 'vol')):

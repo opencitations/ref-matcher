@@ -41,6 +41,10 @@ import traceback
 from pathlib import Path
 import asyncio
 import aiohttp
+import array
+import bisect
+import io
+import itertools
 from contextlib import asynccontextmanager
 from logging.handlers import RotatingFileHandler
 
@@ -272,6 +276,14 @@ class MatcherConfig:
     # references of the dump they cost 2.7% of the time and gave no match; the matches of
     # the sample stayed identical. Off by default (the paper's runs did not use it).
     skip_initial_surnames: bool = False
+
+    # author_title on common surnames from a local copy of the surname's block of the
+    # author-title view, downloaded once, instead of QLever's REGEX over the block (~15 s
+    # per query on Wang/Zhang/Li). Used when the block has at least this many rows; 0 = off.
+    # Needs author_title_view. On 321 references of the dump with the 30 commonest surnames
+    # the outcomes stayed identical and author_title went from 6.9 to 0.6 s a reference.
+    surname_block_min: int = 0
+    surname_block_cache_rows: int = 8_000_000
 
     # Rate limiting
     requests_per_second: float = 2.5
@@ -507,6 +519,50 @@ def is_initial_surname(s: str) -> bool:
     """'A.', 'C.S.', 'J.-P.', 'K': an initial where the surname should be ('Li', 'Ng' are not)."""
     t = re.sub(r'[.\-\s]', '', s or '')
     return bool(t) and len(t) <= 2 and t.isupper() and ('.' in (s or '') or len(t) == 1)
+
+
+def _sparql_unquote(s: str) -> str:
+    """Inverse of sparql_quote_escape, for a literal read back from a query."""
+    return s.replace('\\u005C\\u005C', '\\').replace('\\"', '"').replace("\\'", "'")
+
+
+def _fold(s: str) -> str:
+    """Lower-cased text for the prefilter: str.lower() (C speed), per character only where
+    it changes the length ('İ' -> 'i̇'), which is rare."""
+    low = s.lower()
+    return low if len(low) == len(s) else ''.join(c2 if len(c2 := c.lower()) == 1 else c for c in s)
+
+
+class SurnameBlock:
+    """One surname's (br, title) rows of the author-title view, packed in UTF-8 byte strings.
+
+    author_title keeps the works whose title matches REGEX(w1.*w2.*..., "i"): a matching
+    title contains every word, case aside. The titles whose lower-cased form contains the
+    longest word (one C-speed scan of the block) are a superset of the matches, and the
+    same regex then decides: same candidates, by construction. ~250 bytes a row (a
+    per-word index took ~1.3 KB a row: 21 GB on a 2,000-reference sample)."""
+
+    def __init__(self, rows: List[Tuple[str, str]]):
+        def pack(items, sep):
+            enc = [x.encode('utf-8') for x in items]
+            return sep.join(enc) + sep, array.array('Q', itertools.accumulate(
+                (len(x) + 1 for x in enc), initial=0))
+        self.n = len(rows)
+        self.br, self.br_off = pack([r[0] for r in rows], b'\n')
+        self.text, self.off = pack([r[1] for r in rows], b'\x00')
+        self.fold, self.foff = pack([_fold(r[1]) for r in rows], b'\x00')
+
+    def _get(self, buf, off, i: int) -> str:
+        return buf[off[i]:off[i + 1] - 1].decode('utf-8')
+
+    def match(self, words: List[str], rx) -> List[str]:
+        w, ids, pos = _fold(max(words, key=len)).encode('utf-8'), [], 0
+        while (pos := self.fold.find(w, pos)) >= 0:
+            i = bisect.bisect_right(self.foff, pos) - 1
+            ids.append(i)
+            pos = self.foff[i + 1]              # next title
+        return [self._get(self.br, self.br_off, i) for i in ids
+                if rx.search(self._get(self.text, self.off, i))]
 
 
 def check_view(endpoint: str, view: str, first: str) -> None:
@@ -1060,6 +1116,14 @@ class QueryCache:
 class OpenCitationsMatcherThreadSafe:
     """Async matcher with rate limiting"""
 
+    # surname blocks (surname_block_min): shared by every matcher of the run, since each
+    # file opens its own matcher and would otherwise download the same block again
+    _blocks: "OrderedDict[str, SurnameBlock]" = OrderedDict()   # surname -> block (LRU)
+    _block_rows = [0]
+    _block_sizes: Dict[str, int] = {}
+    _block_locks: Dict[str, asyncio.Lock] = {}
+    _build_lock = asyncio.Lock()
+
     def __init__(self, endpoint: str = DEFAULT_SPARQL_ENDPOINT,
              max_retries: int = None, timeout: int = None, config: MatcherConfig = None,
              query_cache: Optional[QueryCache] = None,
@@ -1145,9 +1209,13 @@ class OpenCitationsMatcherThreadSafe:
         select_start = head.index('SELECT')
         core = (head[:select_start] + 'SELECT DISTINCT ?br ' + sep
                 + _strip_optional_blocks(where))
-        candidates = [b['br']['value'] for b in
-                      await self._execute_query(core, f"{query_type}:candidates")
-                      if 'br' in b]
+        candidates = None
+        if query_type == 'author_title' and self.config.surname_block_min:
+            candidates = await self._block_candidates(core)
+        if candidates is None:
+            candidates = [b['br']['value'] for b in
+                          await self._execute_query(core, f"{query_type}:candidates")
+                          if 'br' in b]
         complete = True
         if keep is not None and len(candidates) > DETAILS_GROUP:
             titles = {c: set() for c in candidates}
@@ -1185,6 +1253,86 @@ class OpenCitationsMatcherThreadSafe:
         if cache is not None and complete:
             cache.put(sparql_query, rows)
         return rows
+
+    async def _block_candidates(self, core: str) -> Optional[List[str]]:
+        """author_title candidates from the surnames' local blocks (None = ask QLever)."""
+        names = [_sparql_unquote(n) for n in re.findall(r'view:column-name "((?:[^"\\]|\\.)*)"\^\^', core)]
+        m = re.search(r'REGEX\(\?title, "((?:[^"\\]|\\.)*)", "i"\)', core)
+        if not names or not m:
+            return None
+        pattern = _sparql_unquote(m.group(1))
+        if '\\\\' in pattern:              # an escaped backslash: the word split below is not safe
+            return None
+        words = [re.sub(r'\\(.)', r'\1', w) for w in pattern.split('.*')]
+        view = re.search(r'SERVICE view:([\w-]+)', core).group(1)
+        if await self._block_size(view, names[0]) < self.config.surname_block_min:
+            return None
+        rx = re.compile(pattern, re.I)
+        out, seen = [], set()
+        for n in names:                     # same variants, same order as the UNION
+            for br in (await self._get_block(view, n)).match(words, rx):
+                if br not in seen:
+                    seen.add(br)
+                    out.append(br)
+        # the query also requires ?br prism:publicationDate: checked here on the few matches
+        # (joining the date into the block download made it ~8x slower)
+        dated = set()
+        for i in range(0, len(out), 500):
+            v = ' '.join(f'<{c}>' for c in out[i:i + 500])
+            q = ('PREFIX prism: <http://prismstandard.org/namespaces/basic/2.0/>\n'
+                 f'SELECT DISTINCT ?br WHERE {{ VALUES ?br {{ {v} }} ?br prism:publicationDate ?d . }}')
+            dated.update(b['br']['value'] for b in await self._execute_query(q, 'author_title:dates'))
+        return [c for c in out if c in dated]
+
+    async def _block_size(self, view: str, name: str) -> int:
+        if name not in self._block_sizes:
+            q = ('PREFIX view: <https://qlever.cs.uni-freiburg.de/materializedView/>\n'
+                 f'SELECT (COUNT(*) AS ?n) WHERE {{ SERVICE view:{view} {{ [ view:column-name '
+                 f'"{sparql_quote_escape(name)}"^^<http://www.w3.org/2001/XMLSchema#string> ; '
+                 'view:column-br ?br ; view:column-title ?t ] } }')
+            r = await self._execute_query(q, 'author_title:block_size')
+            self._block_sizes[name] = int(r[0]['n']['value']) if r else 0
+        return self._block_sizes[name]
+
+    async def _get_block(self, view: str, name: str) -> SurnameBlock:
+        lock = self._block_locks.setdefault(name, asyncio.Lock())
+        async with lock:                    # one download per surname, however many refs wait
+            if name in self._blocks:
+                self._blocks.move_to_end(name)
+                return self._blocks[name]
+            t0 = time.time()
+            q = ('PREFIX view: <https://qlever.cs.uni-freiburg.de/materializedView/>\n'
+                 f'SELECT ?br ?title WHERE {{ SERVICE view:{view} {{ [ view:column-name '
+                 f'"{sparql_quote_escape(name)}"^^<http://www.w3.org/2001/XMLSchema#string> ; '
+                 'view:column-br ?br ; view:column-title ?title ] } }')
+            await self.rate_limiter.acquire()
+            async with self.session.post(self.endpoint, data={'query': q},
+                                         headers={'Accept': 'text/csv'},
+                                         timeout=aiohttp.ClientTimeout(total=1800)) as resp:
+                if resp.status != 200:
+                    raise QueryExecutionError(f"block {name}: HTTP {resp.status}")
+                text = await resp.text()
+            t1 = time.time()
+
+            def build():
+                rows, seen = [], set()
+                reader = csv.reader(io.StringIO(text, newline=''))
+                next(reader, None)
+                for r in reader:            # (br, title) once each
+                    if len(r) >= 2 and (r[0], r[1]) not in seen:
+                        seen.add((r[0], r[1]))
+                        rows.append((r[0], r[1]))
+                return SurnameBlock(rows)
+            async with self._build_lock:    # one index build at a time (memory)
+                block = await asyncio.to_thread(build)
+            self._blocks[name] = block
+            self._block_rows[0] += block.n
+            while self._block_rows[0] > self.config.surname_block_cache_rows and len(self._blocks) > 1:
+                _, old = self._blocks.popitem(last=False)
+                self._block_rows[0] -= old.n
+            logging.info(f"surname block '{name}': {block.n:,} rows in {time.time() - t0:.1f} s "
+                         f"(download {t1 - t0:.1f} s, index {time.time() - t1:.1f} s)")
+            return block
 
     async def _execute_query(self, sparql_query: str, query_type: str = "unknown") -> List[Dict]:
         """Execute query with async operations and explicit error handling
@@ -4563,6 +4711,10 @@ async def main():
                        default=_env_bool('SKIP_INITIAL_SURNAMES', False),
                        help='No author queries when the surname is just an initial ("A.", "C.S."): '
                             'they cost time and found nothing on a sample of the dump.')
+    parser.add_argument('--surname-block-min', type=int, default=_env('SURNAME_BLOCK_MIN', 0, int),
+                       help='author_title from a local copy of the surname\'s block of the author-title '
+                            'view for surnames with at least this many rows (e.g. 100000; 0 = off). '
+                            'Same results, much faster on common surnames. Needs --author-title-view.')
     parser.add_argument('--validate-output', action='store_true',
                        default=_env_bool('VALIDATE_OUTPUT', False),
                        help='After each file, check that its output CSV/stats are not '
@@ -4678,6 +4830,7 @@ async def main():
         config.volume_page_view = args.volume_page_view
         config.author_page_view = args.author_page_view
         config.skip_initial_surnames = args.skip_initial_surnames
+        config.surname_block_min = args.surname_block_min
         for v, first in ((args.author_view, 'name'), (args.author_title_view, 'name'),
                          (args.author_page_view, 'name'), (args.volume_view, 'vol'),
                          (args.volume_page_view, 'vol')):

@@ -285,6 +285,11 @@ class MatcherConfig:
     surname_block_min: int = 0
     surname_block_cache_rows: int = 8_000_000
 
+    # GROBID's starting page fills an empty Crossref page. On 2,000 references of the dump:
+    # +1 match and 2 matches with +8 points, 3% slower. Off by default: it changes the
+    # results, so the paper's runs did not use it.
+    grobid_page: bool = False
+
     # Rate limiting
     requests_per_second: float = 2.5
     burst_size: int = 10
@@ -2524,7 +2529,10 @@ class ReferenceProcessor:
         ]
 
         # first_page is intentionally kept from the original (Crossref's page is
-        # more reliable than Grobid's), i.e. simply not merged here.
+        # more reliable than Grobid's), i.e. simply not merged here, unless
+        # grobid_page: then GROBID's page fills an empty one (Crossref's still wins).
+        if self.matcher_config.grobid_page:
+            merge_if_empty.append(('first_page', 'first_page'))
 
         merged_fields = []
         
@@ -3586,10 +3594,11 @@ class BatchProcessor:
             processed_files = self.load_checkpoint(checkpoint_file)
 
         all_names = tar.getnames() if is_tar else os.listdir(input_dir)
-        input_files = [
-            f for f in all_names 
+        # name order (listdir's is arbitrary): input split in surname order stays in that order
+        input_files = sorted(
+            f for f in all_names
             if f.endswith(('.xml', '.json')) and f not in processed_files
-        ]
+        )
         
         total_files = len(input_files)
         
@@ -4715,6 +4724,9 @@ async def main():
                        help='author_title from a local copy of the surname\'s block of the author-title '
                             'view for surnames with at least this many rows (e.g. 100000; 0 = off). '
                             'Same results, much faster on common surnames. Needs --author-title-view.')
+    parser.add_argument('--grobid-page', action='store_true', default=_env_bool('GROBID_PAGE', False),
+                       help="GROBID's starting page fills an empty Crossref page (changes results: "
+                            "a few more matches on a dump sample).")
     parser.add_argument('--validate-output', action='store_true',
                        default=_env_bool('VALIDATE_OUTPUT', False),
                        help='After each file, check that its output CSV/stats are not '
@@ -4831,6 +4843,7 @@ async def main():
         config.author_page_view = args.author_page_view
         config.skip_initial_surnames = args.skip_initial_surnames
         config.surname_block_min = args.surname_block_min
+        config.grobid_page = args.grobid_page
         for v, first in ((args.author_view, 'name'), (args.author_title_view, 'name'),
                          (args.author_page_view, 'name'), (args.volume_view, 'vol'),
                          (args.volume_page_view, 'vol')):

@@ -33,12 +33,15 @@ un letterale semplice con uno tipizzato (era il bug degli 0 match). Non toglierl
 import asyncio
 import csv
 import difflib
+import html
 import json
 import os
+import re
 import subprocess
 import tarfile
 import time
 import unicodedata
+import urllib.parse
 from collections import defaultdict
 from typing import Dict, List, Optional, Set, Tuple
 
@@ -64,17 +67,31 @@ _DOI_PREFIXES = (
 # DOI normalisation — tenuta compatibile con ReferenceMatchingTool
 # ---------------------------------------------------------------------------
 
+_DASHES = str.maketrans({c: '-' for c in '‐‑‒–—−­'})
+_URL_TAIL = re.compile(r'^(10\.\d+/[^/]+)/(figures|tables|s\d+|metrics|full|abstract|pdf|epdf|fulltext)(/.*)?$')
+
+
 def normalize_doi(raw) -> Optional[str]:
+    # Oltre a minuscole e prefissi, ripara i DOI sporchi più comuni nel dump: sui DOI non trovati su
+    # Meta così come sono, ne ritrova il 46,5% (prova_normalizzazione_python.py, 20/10/2026)
     if not raw:
         return None
-    doi = str(raw).strip().lower()
-    if not doi:
-        return None
+    doi = html.unescape(str(raw).strip())                    # &lt; -> <
+    try:
+        doi = urllib.parse.unquote(doi, errors='strict')     # %2f -> /
+    except UnicodeDecodeError:
+        pass                                                 # %d7 non UTF-8: resta com'è
+    doi = doi.lower().translate(_DASHES)                     # trattini Unicode e trattino morbido -> -
     for p in _DOI_PREFIXES:
         if doi.startswith(p):
             doi = doi[len(p):].strip()
             break
-    doi = doi.replace('\\/', '/')
+    doi = ''.join(doi.replace('\\/', '/').split())          # spazi, tab, \r, \n, spazi Unicode
+    doi = _URL_TAIL.sub(r'\1', doi)                          # .../figures/7, .../full/pdf
+    doi = doi.rstrip('.,;:')
+    if doi.endswith(')') and doi.count(')') > doi.count('('):
+        doi = doi[:-1].rstrip('.,;:')                        # ')' solo se di troppo (ASCE e SICI la hanno)
+    doi = unicodedata.normalize('NFC', doi)
     # un DOI reale inizia sempre per "10." — scarta il resto per non mandare
     # spazzatura all'endpoint
     return doi if doi.startswith('10.') else None

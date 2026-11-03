@@ -27,7 +27,7 @@ import urllib.parse
 import urllib.request
 import argparse
 from unidecode import unidecode
-from bulk_doi import names_match, norm_name
+from bulk_doi import names_match, norm_name, normalize_doi
 import unicodedata
 import re
 from glob import glob
@@ -375,6 +375,8 @@ def normalize_reference_safe(ref: Reference) -> Reference:
                         ref.doi = doi  
                 else:
                     ref.doi = ""
+                # la stessa riparazione dei DOI sporchi del bulk; se non ne esce un "10." resta com'era
+                ref.doi = normalize_doi(ref.doi) or ref.doi
 
         # Text field normalization with type checking
         for attr in ["first_author_lastname", "article_title", "volume_title", 

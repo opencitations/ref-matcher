@@ -27,6 +27,7 @@ Repository for a bibliographic reference matching tool designed to match referen
 - **Sophisticated Scoring System**: Weighted scoring (max 48 points) based on DOI, title, authors, year, volume, and pages
 - **GROBID Integration**: Enriches references using GROBID for unstructured text parsing
 - **Bulk DOI Mode** (`--bulk`): Answers the ingestion question for DOI-bearing references thousands per request instead of one at a time, with optional author corroboration
+- **Batch Matching of a Whole Dump** (`script/batch/`): The tool's rules as DuckDB joins over Meta's tables exported to Parquet, ~14× faster with the same matches, then a merge of all signals with reliability levels
 - **Comprehensive Logging**: Multi-file logging system with 5 specialized logs
 - **Rate Limiting**: Token bucket algorithm (2.5 req/s, burst of 10)
 - **Concurrent Processing**: Semaphore-controlled parallelism (10 concurrent references)
@@ -386,6 +387,157 @@ Two extra output files, and one rule that matters:
 The report also separates the two non‑corroborable cases — the work has no
 authors recorded on Meta, and the reference has no author to compare — because
 they mean different things.
+
+### Batch matching of a whole dump (`script/batch/`)
+
+The tool sends a few SPARQL queries per reference, which is right for a
+continuous flow of new references but too slow for a backlog: the June 2026
+Crossref dump has 779,472,572 references without a DOI, 466.8 million distinct.
+At the tool's best measured speed (0.166 s a reference, local QLever) that is
+years. `script/batch/` applies **the same rules** in bulk: Meta's tables are
+exported once to Parquet, every query of the tool becomes a join in
+[DuckDB](https://duckdb.org/) over a batch of ~200,000 references, and the
+candidates are scored with the tool's own `calculate_matching_score` and chosen
+as in the tool's loop (query order, stop at 26, threshold adjustment to 23.4).
+
+| | Seconds a reference | June 2026 dump |
+|---|---|---|
+| Tool, local QLever (20,000 dump references) | 0.166 | years |
+| Batch matching, GROBID in blocks of 100 (200,000 references) | 0.0118 | ~2 months |
+
+**Same results as the tool.** On the paper's dataset (`evaluation.py metrics`)
+the metrics and Tables 4-7 are identical, with and without DOI queries. On
+20,000 dump references, of the tool's 1,397 matches 1,395 are identical, one is
+found through another query and one is lost: the index of title words misses a
+key inside a word ("Thermo Solutal" against "Thermosolutal" on Meta). Other
+known differences, none of which changed a match in those tests: no "without year"
+pass (it would only redo `author_title`, which does not filter on the year), page
+ranges compared part by part, and the best row taken for each candidate work.
+
+Use the tool for new references as they arrive, and the batch scripts for a
+backlog such as a whole dump.
+
+**Pipeline**
+
+```
+Crossref dump ── bulk_doi.py --authors ──> matched_dois.txt, unmatched_dois.txt, discordant_authors.tsv,
+     │                                     check_errors.txt, corroborated_dois.txt, no_doi_references.jsonl
+     │
+     ├─ no DOI:   no_doi_references.jsonl ── prepare_dump.py ──> batches ── match_bulk.py --batches ──> main run CSVs
+     ├─ DOI to verify: extract_dois_to_verify.py ──> dois_to_verify.jsonl ── prepare_dump.py ──> batches
+     │                 ── match_bulk.py --batches --drop-grobid-doi ──> DOI run CSVs
+     ├─ (optional) recheck_absent_dois.py ──> repaired DOIs, checked again on Meta
+     └─ extract_doi_occurrences.py ──> doi_occurrences.parquet (who cites each verified DOI)
+                         all of the above ── merge_citations.py ──> merge_*.parquet, to_check.csv
+```
+
+The batch scripts need DuckDB and PyArrow on top of the project's
+dependencies: run them with `uv run --with duckdb --with pyarrow`.
+
+**1. Export Meta's tables** from a QLever endpoint holding OpenCitations Meta
+(authors, titles, dates, volumes, pages, DOIs; same patterns as the tool's
+queries):
+
+```bash
+QLEVER=http://localhost:7011 QLEVER_TOKEN=<access token> OUT=meta_tables \
+    bash script/batch/export_meta_tables.sh all
+```
+
+**2. Bulk DOI check** of the dump with author corroboration
+([Bulk DOI mode](#bulk-doi-mode---bulk)): it also writes the references without
+a DOI (`no_doi_references.jsonl`).
+
+**3. Deduplicate and split into batches.** Two references are the same if the
+matcher sees them as the same (same fields after the tool's normalization, free
+text included), so each distinct reference is matched once and its outcome holds
+for all its occurrences. The batch of a reference comes from its hash, so every
+batch is a random sample.
+
+```bash
+uv run --with duckdb --with pyarrow python script/batch/prepare_dump.py \
+    bulk_out/no_doi_references.jsonl batches --batches 2300
+```
+
+**4. Match the batches.** Each batch writes `batch_KKKK_matches.csv` and
+`batch_KKKK_matches_unmatched.csv` (the tool's columns, plus `citing_work` and
+`citing_work_doi`; one row per occurrence). A batch with both CSVs is done, so
+re-running the same command resumes after an interruption.
+
+```bash
+uv run --with duckdb --with pyarrow python script/batch/match_bulk.py batches results \
+    --batches --tables meta_tables --grobid-config data/grobid/config.json --grobid-batch 100 \
+    --min-candidate-score 21.6 --memory 60GB --threads 16 --processes 16
+```
+
+| Option | Default | Meaning |
+|---|---|---|
+| `--batches` | off | The input is the folder of `prepare_dump.py` (without it: a folder of Crossref JSON files, like the tool's batch mode) |
+| `--tables` | required | Folder of Meta's tables |
+| `--grobid-config` | none | GROBID on the unmatched references with free text (pass 2), as in the tool; without it, pass 1 only |
+| `--grobid-batch` | 0 | Citations per GROBID request (`processCitationList`); 0 = one request a citation, like the tool. 100 cut GROBID's time on 200,000 references from 2,319 to 540 s with the same matches |
+| `--grobid-threads` | 8 | Parallel GROBID requests |
+| `--min-candidate-score` | 23.4 | The best candidate under the threshold is written to the unmatched CSV with its score; 21.6 makes it possible to apply threshold 24 later. The accepted matches do not change |
+| `--drop-grobid-doi` | off | Drop a DOI that GROBID finds in the text of a reference given without one: only for the discordant references of the DOI run, whose DOI was removed on purpose |
+| `--memory` | 20GB | DuckDB's memory limit. If a pass runs out of memory it is split in half and redone (same outcome: references are independent) |
+| `--threads` / `--processes` | 8 / 8 | DuckDB threads / processes computing the scores |
+| `--temp` | system temp | DuckDB's temporary files. **Two DuckDB jobs running at the same time need two folders** (a shared one corrupts the files) |
+
+On the June 2026 dump, a batch of ~200,000 distinct references (~310,000
+occurrences) takes ~2,400 s with 16 threads and 16 processes.
+
+**5. Verify the references with a DOI** that the bulk check could not settle:
+absent (the DOI is not on Meta), discordant (the DOI is on Meta but the surname
+differs: the DOI is removed, so the matcher judges on the other fields only) and
+error (the check failed). They go through the same batch matching, in their own
+folders:
+
+```bash
+uv run python script/batch/extract_dois_to_verify.py crossref-data-2026-06.tar.gz bulk_out dois_to_verify.jsonl
+uv run --with duckdb --with pyarrow python script/batch/prepare_dump.py dois_to_verify.jsonl doi_batches --batches 80
+uv run --with duckdb --with pyarrow python script/batch/match_bulk.py doi_batches doi_results \
+    --batches --drop-grobid-doi --tables meta_tables --grobid-config data/grobid/config.json --grobid-batch 100 \
+    --min-candidate-score 21.6
+```
+
+If the bulk check ran with a `normalize_doi` older than the current one (before
+20/10/2026: no repair of Unicode dashes, `%2f`, trailing punctuation, spaces) or
+had failed chunks, `recheck_absent_dois.py bulk_out recheck` checks the repaired
+DOIs and the errors again on Meta, with the authors.
+
+**6. Occurrences of the verified DOIs.** The bulk check keeps only unique DOIs;
+the merge needs who cites them, so the dump is read once more (12 hours for the
+2.05 billion occurrences of the June 2026 dump). Use `--legacy-normalization` for
+a bulk run made before 20/10/2026.
+
+```bash
+uv run --with pyarrow python script/batch/extract_doi_occurrences.py crossref-data-2026-06.tar.gz doi_occurrences.parquet
+```
+
+**7. Merge** everything into one row per occurrence, with the cited work and a
+reliability level:
+
+```bash
+uv run --with duckdb --with pyarrow python script/batch/merge_citations.py \
+    dois_to_verify.jsonl doi_results merged --recheck recheck --no-doi results \
+    --verified doi_occurrences.parquet --bulk bulk_out --memory 30GB
+```
+
+| Level | When |
+|---|---|
+| `high` | Two independent signals agree: the DOI and the matcher find the same work, or the DOI exists and the surname agrees |
+| `medium` | One signal: the DOI exists (also with a disagreeing surname, if the matcher does not contradict it), or only the matcher |
+| `to check` | The DOI leads to one work and the matcher to another: the DOI wins, the matcher's work stays in `matcher_doi` / `matcher_omid`; the rows are also written to `to_check.csv` |
+| `none` | No link: these go to the triage for ingestion into Meta, printed at the end by best candidate (none; under 21.6, uncertain; 21.6 to 26, probable duplicate) |
+
+The output columns are `citing_work`, `citing_work_doi`, `ref_id`,
+`category` (`verified`, `absent`, `discordant`, `error` or `no DOI`),
+`original_doi`, `repaired_doi`, `cited_doi`, `cited_omid`, `level`, `source`,
+`score`, `matcher_doi` and `matcher_omid`; `source` says which signals made the
+link (for example `repaired DOI + surname`). The matcher's threshold is not fixed in the merge:
+`--threshold 24` also counts the candidates from 21.6 up, and the score is a
+column. Each part is written to its own file (`merge_with_doi.parquet`,
+`merge_no_doi.parquet`, `merge_verified.parquet`) to stay within memory on
+billions of rows (2.08 billion rows took 16 minutes with 4 threads).
 
 ---
 

@@ -162,6 +162,20 @@ def _norm_doi(s: str) -> str:
     return s
 
 
+def _split_dois(s: str) -> List[str]:
+    """matched_doi may list several DOIs of the same Meta record, separated by spaces
+    (not ';': SICI DOIs contain it)."""
+    return [d for d in (_norm_doi(x) for x in (s or '').split()) if d]
+
+
+def _pick_doi(row: Dict[str, str], pos=(), neg=()) -> str:
+    """One DOI per match row: the one in the ground truth (POS, then NEG) if any, else the first,
+    so a record with several DOIs still counts as one prediction."""
+    ds = _split_dois(row.get('matched_doi') or row.get('doi') or '')
+    return (next((d for d in ds if d in pos), None) or next((d for d in ds if d in neg), None)
+            or (ds[0] if ds else ''))
+
+
 def _find_matches_file(matches_dir: str, base: str) -> str:
     """
     Trova il file dei match per 'base' dentro matches_dir (anche ricorsivo).
@@ -251,11 +265,9 @@ class MatchComparator:
         dois_file2: Dict[str, Tuple[str, str]] = {}
         if doi_col_2:
             for row in rows2:
-                d = MatchComparator._norm_doi(row.get(doi_col_2, ''))
-                if not d:
-                    continue
                 refid = (row.get(ref_col_2) if ref_col_2 else '') or ''
-                dois_file2[d] = (refid, basename)
+                for d in _split_dois(row.get(doi_col_2, '')):
+                    dois_file2[d] = (refid, basename)
 
         missed_set = set(dois_file1) - set(dois_file2)
         earned_set = set(dois_file2) - set(dois_file1)
@@ -293,16 +305,9 @@ class MatchComparator:
                  if MatchComparator._norm_doi(r.get(doi_col, '')) }
 
     @staticmethod
-    def _load_predicted_dois(matches_path: str) -> Set[str]:
-        """DOI predetti dal matcher (preferisce 'matched_doi', fallback 'doi')."""
-        rows = MatchComparator._read_csv_rows(matches_path)
-        if not rows:
-            return set()
-        doi_col = MatchComparator._first_col(rows[0].keys(), ['matched_doi', 'doi'])
-        if not doi_col:
-            return set()
-        return { MatchComparator._norm_doi(r.get(doi_col, '')) for r in rows
-                 if MatchComparator._norm_doi(r.get(doi_col, '')) }
+    def _load_predicted_dois(matches_path: str, pos=(), neg=()) -> Set[str]:
+        """DOI predetti dal matcher (preferisce 'matched_doi', fallback 'doi'), uno per riga (_pick_doi)."""
+        return {d for d in (_pick_doi(r, pos, neg) for r in MatchComparator._read_csv_rows(matches_path)) if d}
 
     # NOTE: the per-<base> TP/FP/FN/TN aggregation lives in main()'s ``metrics``
     # action (it also emits per-base debug rows). A second, never-called copy used
@@ -494,7 +499,7 @@ def main():
             
             POS = MatchComparator._load_pos_dois(doi_results_path)
             NEG = MatchComparator._load_neg_dois(os.path.join(args.check_doi_dir, file_base_name + '_unmatched_dois.csv'))
-            PRED = MatchComparator._load_predicted_dois(matches_path)
+            PRED = MatchComparator._load_predicted_dois(matches_path, POS, NEG)
 
             # Salva i TP dettagliati (filtered_matches)
             if POS:
@@ -505,7 +510,7 @@ def main():
                     if d:
                         doi_to_row[d] = row
                 for row in MatchComparator._read_csv_rows(matches_path):
-                    d = _norm_doi(row.get('matched_doi') or row.get('doi') or '')
+                    d = _pick_doi(row, POS, NEG)
                     if d and d in doi_to_row:
                         combined = {**doi_to_row[d], **row}
                         filtered_matches.append(combined)
@@ -528,7 +533,7 @@ def main():
             # inspected/verified (reference_id, matched_doi, score, title, ...).
             if invisible_set:
                 for row in MatchComparator._read_csv_rows(matches_path):
-                    d = _norm_doi(row.get('matched_doi') or row.get('doi') or '')
+                    d = _pick_doi(row, POS, NEG)
                     if d and d in invisible_set:
                         invisible_rows.append({'base': file_base_name, **row})
 
@@ -652,7 +657,7 @@ def main():
                 if row is None:
                     b_fn += 1; FN += 1
                     continue
-                pred = _norm_doi(row.get('matched_doi') or row.get('doi') or '')
+                pred = _pick_doi(row, (true_doi,))
                 if not pred:
                     b_nodoi += 1; matched_no_doi += 1          # matched, but record had no DOI
                 elif pred == true_doi:

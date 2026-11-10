@@ -476,7 +476,8 @@ uv run --with duckdb --with pyarrow python script/batch/match_bulk.py batches re
 | `--grobid-config` | none | GROBID on the unmatched references with free text (pass 2), as in the tool; without it, pass 1 only |
 | `--grobid-batch` | 0 | Citations per GROBID request (`processCitationList`); 0 = one request a citation, like the tool. 100 cut GROBID's time on 200,000 references from 2,319 to 540 s with the same matches |
 | `--grobid-threads` | 8 | Parallel GROBID requests |
-| `--min-candidate-score` | 23.4 | The best candidate under the threshold is written to the unmatched CSV with its score; 21.6 makes it possible to apply threshold 24 later. The accepted matches do not change |
+| `--min-candidate-score` | 23.4 | The best candidate under the threshold is written to the unmatched CSV with its score; 21.6 makes it possible to apply threshold 24 later, 16.2 any threshold from 18 up (0.9 x the threshold). The accepted matches do not change |
+| `--best-candidate` | off | No early stop at the first candidate reaching 26: the candidate with the most points over all the queries wins. On the held-out set it gives exactly the paper's held-out table (at 26: 17 wrong of 1,498 instead of 27; the early stop sometimes picks a Meta duplicate of the right work); about +25% time on the scores. With `--min-candidate-score 16.2`, one run gives the exact results of every threshold from 18 up |
 | `--drop-grobid-doi` | off | Drop a DOI that GROBID finds in the text of a reference given without one: only for the discordant references of the DOI run, whose DOI was removed on purpose |
 | `--memory` | 20GB | DuckDB's memory limit. If a pass runs out of memory it is split in half and redone (same outcome: references are independent) |
 | `--threads` / `--processes` | 8 / 8 | DuckDB threads / processes computing the scores |

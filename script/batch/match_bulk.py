@@ -13,7 +13,10 @@ writes batch_KKKK_matches.csv and _unmatched.csv, one row per occurrence; batche
 CSVs are skipped, so after an interruption the same command resumes.
 
 Like the tool, the candidates of a query are looked at in IRI order (the order in which QLever returns
-them): the first one reaching 26 stops the search, on a tie the smaller IRI wins.
+them): the first one reaching 26 stops the search, on a tie the smaller IRI wins. With --best-candidate
+there is no stop: all the candidates of all the queries are scored and the one with the most points wins
+(on a tie the smaller IRI); on the held-out set this gives exactly the paper's held-out table, while the
+early stop sometimes picks a Meta duplicate of the right work (10 of 1,498 at 26), at about +25% score time.
 
 Known differences from the tool: no "without year" pass (it only redoes author_title, which does not
 filter on the year: same candidates, same score minus the year, same threshold); for page ranges
@@ -43,6 +46,7 @@ MIN_ACCEPT = THRESHOLD * 0.9    # the lowest threshold a pass accepts (threshold
 USE_DOI = True                  # False: no DOI queries (like the tool's use_doi=False); the 15 points stay
 AUTHOR = 'http://purl.org/spar/pro/author'
 MIN_SPLIT = 2000                # below this many references a full memory is not split any more
+BEST = False                    # --best-candidate: no early stop, the candidate with the most points wins
 # Meta's tables (export_meta_tables.sh); tables exported before the English names are read too
 TABLES = {'authors': 'autori', 'titles': 'titoli', 'dates': 'date', 'volumes': 'volumi', 'pages': 'pagine',
           'doi': 'doi'}
@@ -314,7 +318,7 @@ def choose(ref, k, cand, D):
         for x in sorted(rows, key=lambda x: x['br']['value']):   # QLever's order
             if x['score'] > (b['score'] if b else 0):
                 b = x
-            if b and b['score'] >= THRESHOLD:                    # early stop
+            if b and b['score'] >= THRESHOLD and not BEST:       # early stop (like the tool)
                 return b
     return b
 
@@ -575,6 +579,10 @@ def main():
     ap.add_argument('--min-candidate-score', type=float, default=None,
                     help="minimum score for which the candidates' title is computed (default 0.9 x 26 = 23.4); "
                          'e.g. 21.6 to be able to apply threshold 24 later. The accepted matches do not change')
+    ap.add_argument('--best-candidate', action='store_true',
+                    help='no stop at the first candidate reaching 26: the one with the most points over all the '
+                         'queries wins (like the threshold-1000 runs behind the paper\'s held-out table). '
+                         'Without it the choice is the tool\'s')
     ap.add_argument('--batch-size', type=int, default=20000,
                     help='JSON input only: references per batch (candidates and queries)')
     ap.add_argument('--chunk', type=int, default=2000, help='references per chunk of the scores (handed to the processes)')
@@ -582,6 +590,8 @@ def main():
     if a.min_candidate_score is not None:
         global MIN_ACCEPT
         MIN_ACCEPT = a.min_candidate_score
+    global BEST
+    BEST = a.best_candidate
     t0 = time.time()
     con = duckdb.connect()
     con.execute(f"SET memory_limit='{a.memory}'")

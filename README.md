@@ -477,7 +477,7 @@ uv run --with duckdb --with pyarrow python script/batch/match_bulk.py batches re
 | `--grobid-batch` | 0 | Citations per GROBID request (`processCitationList`); 0 = one request a citation, like the tool. 100 cut GROBID's time on 200,000 references from 2,319 to 540 s with the same matches |
 | `--grobid-threads` | 8 | Parallel GROBID requests |
 | `--min-candidate-score` | 23.4 | The best candidate under the threshold is written to the unmatched CSV with its score; 21.6 makes it possible to apply threshold 24 later, 16.2 any threshold from 18 up (0.9 x the threshold). The accepted matches do not change |
-| `--best-candidate` | off | No early stop at the first candidate reaching 26: the candidate with the most points over all the queries wins. On the held-out set it gives exactly the paper's held-out table (at 26: 17 wrong of 1,498 instead of 27; the early stop sometimes picks a Meta duplicate of the right work); about +25% time on the scores. With `--min-candidate-score 16.2`, one run gives the exact results of every threshold from 18 up |
+| `--best-candidate` | off | No early stop at the first candidate reaching 26: the candidate with the most points over all the queries wins. On the held-out set it gives exactly the paper's held-out table (at 26: 17 wrong of 1,498 instead of 27; the early stop sometimes picks a Meta duplicate of the right work); no measurable time cost. With `--min-candidate-score 16.2`, one run gives the exact results of every threshold from 18 up |
 | `--drop-grobid-doi` | off | Drop a DOI that GROBID finds in the text of a reference given without one: only for the discordant references of the DOI run, whose DOI was removed on purpose |
 | `--memory` | 20GB | DuckDB's memory limit. If a pass runs out of memory it is split in half and redone (same outcome: references are independent) |
 | `--threads` / `--processes` | 8 / 8 | DuckDB threads / processes computing the scores |
@@ -528,15 +528,23 @@ uv run --with duckdb --with pyarrow python script/batch/merge_citations.py \
 | `high` | Two independent signals agree: the DOI and the matcher find the same work, or the DOI exists and the surname agrees |
 | `medium` | One signal: the DOI exists (also with a disagreeing surname, if the matcher does not contradict it), or only the matcher |
 | `to check` | The DOI leads to one work and the matcher to another: the DOI wins, the matcher's work stays in `matcher_doi` / `matcher_omid`; the rows are also written to `to_check.csv` |
-| `none` | No link: these go to the triage for ingestion into Meta, printed at the end by best candidate (none; under 21.6, uncertain; 21.6 to 26, probable duplicate) |
+| `none` | No link: these go to the triage for ingestion into Meta, printed at the end by best candidate (none; under 21.6, uncertain; from 21.6 up, probable duplicate) |
 
 The output columns are `citing_work`, `citing_work_doi`, `ref_id`,
 `category` (`verified`, `absent`, `discordant`, `error` or `no DOI`),
 `original_doi`, `repaired_doi`, `cited_doi`, `cited_omid`, `level`, `source`,
-`score`, `matcher_doi` and `matcher_omid`; `source` says which signals made the
-link (for example `repaired DOI + surname`). The matcher's threshold is not fixed in the merge:
-`--threshold 24` also counts the candidates from 21.6 up, and the score is a
-column. Each part is written to its own file (`merge_with_doi.parquet`,
+`score`, `matcher_doi`, `matcher_omid`, `matcher_query` (the strategy that found
+the candidate) and `authors` (the bulk's surname check: `agrees`, `disagrees` or
+empty); `source` says which signals made the link (for example
+`repaired DOI + surname`). The matcher's threshold is not fixed in the matching:
+`--threshold T` counts as a match every candidate from 0.9 × T points up, and it
+is exact only if `match_bulk.py` ran with `--min-candidate-score` 0.9 × T or
+lower. `--corrections` applies human judgements last, one row per occurrence
+(`citing_work`, `ref_id`, `verdict` = `right`, `wrong` or `other work`,
+`cited_doi`, `cited_omid`, plus any notes): `right` makes the row `high`,
+`wrong` removes the link, `other work` replaces the cited work, and `source`
+gets "(confirmed / rejected / corrected by hand)"; the evidence columns are kept,
+so the corrections survive every rerun of the merge. Each part is written to its own file (`merge_with_doi.parquet`,
 `merge_no_doi.parquet`, `merge_verified.parquet`) to stay within memory on
 billions of rows (2.08 billion rows took 16 minutes with 4 threads).
 

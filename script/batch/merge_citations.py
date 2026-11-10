@@ -4,7 +4,7 @@ and how reliable it is (level).
     uv run --with duckdb --with pyarrow python script/batch/merge_citations.py \
         dois_to_verify.jsonl <match_bulk output of the DOI run> <output> [--recheck <recheck_absent_dois output>] \
         [--no-doi <match_bulk output of the main run>] [--verified doi_occurrences.parquet --bulk <bulk output>] \
-        [--threshold 24]
+        [--threshold 24] [--corrections corrections.csv]
 
 Inputs: the keys of the references with a DOI to verify (extract_dois_to_verify.py's .jsonl, or a Parquet with
 its columns citing_work, ref_id, group, original_doi), match_bulk.py's CSVs on them, and optionally the
@@ -13,8 +13,8 @@ on Meta (--verified with --bulk). Files written before the English names (gruppo
 discorde, errore, mappa.tsv) are read too.
 
 Rules: a DOI (original or repaired) wins over the matcher, and a disagreement is flagged; a discordant DOI
-that the matcher does not find keeps the DOI; the matcher's threshold is not fixed in the merge (the score is
-a column, --threshold 24 also counts the candidates from 21.6 up).
+that the matcher does not find keeps the DOI; the matcher's threshold is not fixed in the matching (the score
+is a column) but chosen in the merge with --threshold.
 Levels:
     high      two independent signals agree: DOI + matcher (same work), or DOI + agreeing surname
     medium    one signal only: the DOI exists (even with a disagreeing surname, never contradicted by the
@@ -22,10 +22,19 @@ Levels:
     to check  the DOI leads to one work, the matcher to another: the DOI wins, the matcher's work stays in
               the matcher_* columns; these rows also go to to_check.csv
     none      no link (goes to the triage for ingestion)
---threshold 24 counts as a match also the candidates from 21.6 points up (24 x 0.9, like the tool): the
-level depends on the threshold, so to compare the two thresholds make two runs in two folders.
+--threshold T (default 26) counts as a match every candidate from 0.9 x T points up, like the tool, both in
+the _matches and in the _unmatched CSVs. The level depends on the threshold, so to compare two thresholds
+make two runs in two folders. A threshold is exact only if match_bulk.py ran with --min-candidate-score
+0.9 x T or lower (21.6: from 24 up; 16.2: from 18 up; 14.4: from 16 up); under that it gives a lower bound,
+because under that score the title is not always compared.
 --verified adds the DOIs the bulk found on Meta without disagreement (category "verified": high if the
 surname agrees, medium if it cannot be checked).
+--corrections adds human judgements, applied last, one row per occurrence (citing_work, ref_id, verdict,
+cited_doi, cited_omid, who, date, note; only the first five are used by the merge):
+    right        level high, source + " (confirmed by hand)" (only if the row has a cited work)
+    wrong        level none, no cited work, source + " (rejected by hand)"
+    other work   the cited work becomes the file's cited_doi / cited_omid, level high, source + " (corrected by hand)"
+The evidence stays in its columns anyway (original_doi, repaired_doi, authors, matcher_*, score).
 """
 import argparse, json, os, tempfile, time
 import duckdb
@@ -39,13 +48,17 @@ ap.add_argument('--recheck', help='folder of recheck_absent_dois.py: the repaire
 ap.add_argument('--no-doi', help="match_bulk.py's CSVs on the references without DOI (main run), optional")
 ap.add_argument('--verified', help='doi_occurrences.parquet (extract_doi_occurrences.py), optional: with --bulk')
 ap.add_argument('--bulk', help='folder of the bulk run: matched_dois.txt and corroborated_dois.txt')
-ap.add_argument('--threshold', type=int, choices=(26, 24), default=26)
+ap.add_argument('--threshold', type=float, default=26, help="matcher's threshold: a match from 0.9 x threshold up")
+ap.add_argument('--corrections', help='CSV of human judgements (see above), optional')
 ap.add_argument('--temp', default=tempfile.gettempdir(), help="DuckDB's temporary files")
 ap.add_argument('--threads', type=int, default=8)
 ap.add_argument('--memory', default='20GB', help="DuckDB's maximum memory")
 a = ap.parse_args()
 t0 = time.time()
-minimum = 21.6 if a.threshold == 24 else 1e9     # score of the candidates under 26 that count as a match
+minimum = round(0.9 * a.threshold, 6)            # minimum score of a match, like the tool (0.9 x 26 = 23.4)
+if a.threshold < 24:
+    print(f'warning: threshold {a.threshold:g}, exact only if match_bulk.py ran with --min-candidate-score '
+          f'{minimum:g} or lower')
 
 
 def lines(name, *alternatives):
@@ -100,20 +113,20 @@ read = "read_csv('{}', all_varchar=true, header=true, union_by_name=true)"
 
 
 def matcher(folder):
-    """The matcher's outcome per occurrence: the match (>= 26) or, with --threshold 24, the candidate from 21.6 up."""
-    return f"""SELECT coalesce(m.citing_work, u.citing_work) AS citing_work,
+    """The matcher's outcome per occurrence: the match or the best candidate; found if it has 0.9 x threshold points."""
+    return f"""SELECT *, coalesce(score >= {minimum} AND coalesce(matcher_omid, '') <> '', false) AS found FROM (
+               SELECT coalesce(m.citing_work, u.citing_work) AS citing_work,
                       coalesce(m.reference_id, u.reference_id) AS ref_id,
                       coalesce(m.citing_work_doi, u.citing_work_doi) AS citing_work_doi,
                       coalesce(nullif(CASE WHEN m.reference_id IS NOT NULL THEN m.matched_doi
                                            ELSE u.candidate_doi END, ''), 'N/A') AS matcher_doi,
                       CASE WHEN m.reference_id IS NOT NULL THEN m.meta_id ELSE u.candidate_meta_id END AS matcher_omid,
-                      TRY_CAST(CASE WHEN m.reference_id IS NOT NULL THEN m.score ELSE u.best_score END AS DOUBLE) AS score,
-                      m.reference_id IS NOT NULL
-                          OR (TRY_CAST(u.best_score AS DOUBLE) >= {minimum} AND coalesce(u.candidate_meta_id, '') <> '')
-                          AS found
+                      nullif(CASE WHEN m.reference_id IS NOT NULL THEN m.query_type
+                                  ELSE u.candidate_query_type END, '') AS matcher_query,
+                      TRY_CAST(CASE WHEN m.reference_id IS NOT NULL THEN m.score ELSE u.best_score END AS DOUBLE) AS score
                FROM {read.format(os.path.join(folder, '*_matches.csv'))} m
                FULL JOIN {read.format(os.path.join(folder, '*_matches_unmatched.csv'))} u
-                      ON u.citing_work = m.citing_work AND u.reference_id = m.reference_id"""
+                      ON u.citing_work = m.citing_work AND u.reference_id = m.reference_id)"""
 
 
 # one part at a time, each in its merge_<part>.parquet: all together in one query they do not fit in memory
@@ -124,14 +137,14 @@ parts = {'with_doi': f"""SELECT k.citing_work, k.ref_id, x.citing_work_doi, k.ca
            CASE WHEN p.new <> k.original_doi THEN p.new END AS repaired_doi,
            CASE WHEN k.category = 'discordant' THEN k.original_doi WHEN p.on_meta THEN p.new END AS doi,
            coalesce(p.authors, '') AS authors,
-           coalesce(x.found, false) AS found, x.matcher_doi, x.matcher_omid, x.score
+           coalesce(x.found, false) AS found, x.matcher_doi, x.matcher_omid, x.matcher_query, x.score
     FROM k
     LEFT JOIN t p ON p.old = k.original_doi
     LEFT JOIN ({matcher(a.results)}) x ON x.citing_work = k.citing_work AND x.ref_id = k.ref_id"""}
 if a.no_doi:
     parts['no_doi'] = f"""SELECT citing_work, ref_id, citing_work_doi, 'no DOI' AS category,
                      NULL::VARCHAR AS original_doi, NULL::VARCHAR AS repaired_doi, NULL::VARCHAR AS doi, '' AS authors,
-                     coalesce(found, false) AS found, matcher_doi, matcher_omid, score
+                     coalesce(found, false) AS found, matcher_doi, matcher_omid, matcher_query, score
                      FROM ({matcher(a.no_doi)})"""
 if a.verified:
     # all the occurrences with a DOI, minus those of absent, discordant and error references (the keys): the
@@ -148,7 +161,8 @@ if a.verified:
                o.doi AS original_doi, NULL::VARCHAR AS repaired_doi,
                CASE WHEN bk.doi IS NOT NULL THEN o.doi END AS doi,
                CASE WHEN bk.agrees THEN 'agrees' ELSE '' END AS authors,
-               false AS found, NULL::VARCHAR AS matcher_doi, NULL::VARCHAR AS matcher_omid, NULL::DOUBLE AS score
+               false AS found, NULL::VARCHAR AS matcher_doi, NULL::VARCHAR AS matcher_omid,
+               NULL::VARCHAR AS matcher_query, NULL::DOUBLE AS score
         FROM '{a.verified}' o
         ANTI JOIN k ON k.citing_work = o.citing_work AND k.ref_id = o.ref_id
         LEFT JOIN bk ON bk.doi = o.doi"""
@@ -177,10 +191,43 @@ CLASSIFY = """
                                OR list_contains(string_split(lower(matcher_doi), ' '), original_doi)) AS same
           FROM (SRC))"""
 
+# human judgements, applied last (one row per occurrence: with two rows the join would double the citation)
+VERDICTS = ('right', 'wrong', 'other work')
+if a.corrections:
+    con.execute(f"""CREATE TEMP TABLE corr AS SELECT citing_work, ref_id, lower(trim(verdict)) AS verdict,
+                    nullif(lower(trim(cited_doi)), '') AS c_doi, nullif(trim(cited_omid), '') AS c_omid
+                    FROM {read.format(a.corrections)}""")
+    errors = con.execute(f"""SELECT count(*) FILTER (WHERE verdict NOT IN {VERDICTS}),
+            count(*) FILTER (WHERE verdict = 'other work' AND c_doi IS NULL AND c_omid IS NULL),
+            count(*) - count(DISTINCT (citing_work, ref_id)) FROM corr""").fetchone()
+    if any(errors):
+        raise SystemExit(f'corrections: {errors[0]} unknown verdicts (valid: {", ".join(VERDICTS)}), '
+                         f'{errors[1]} "other work" without cited_doi/cited_omid, {errors[2]} repeated occurrences')
+    print(f'corrections: {con.execute("SELECT count(*) FROM corr").fetchone()[0]:,}', flush=True)
+else:
+    con.execute('CREATE TEMP TABLE corr (citing_work VARCHAR, ref_id VARCHAR, verdict VARCHAR, c_doi VARCHAR, '
+                'c_omid VARCHAR)')
+
+CORRECT = """
+    SELECT x.* REPLACE (
+           CASE WHEN c.verdict = 'right' AND (cited_doi IS NOT NULL OR cited_omid IS NOT NULL) THEN 'high'
+                WHEN c.verdict = 'wrong' THEN 'none'
+                WHEN c.verdict = 'other work' THEN 'high' ELSE level END AS level,
+           source || CASE WHEN c.verdict = 'right' AND (cited_doi IS NOT NULL OR cited_omid IS NOT NULL)
+                               THEN ' (confirmed by hand)'
+                          WHEN c.verdict = 'wrong' THEN ' (rejected by hand)'
+                          WHEN c.verdict = 'other work' THEN ' (corrected by hand)' ELSE '' END AS source,
+           CASE WHEN c.verdict = 'wrong' THEN NULL WHEN c.verdict = 'other work' THEN c.c_doi
+                ELSE cited_doi END AS cited_doi,
+           CASE WHEN c.verdict = 'wrong' THEN NULL WHEN c.verdict = 'other work' THEN c.c_omid
+                ELSE cited_omid END AS cited_omid)
+    FROM (CLASSIFIED) x LEFT JOIN corr c USING (citing_work, ref_id)"""
+
 COLS = ('citing_work, citing_work_doi, ref_id, category, original_doi, repaired_doi, cited_doi, cited_omid, '
-        'level, source, score, matcher_doi, matcher_omid')
+        'level, source, score, matcher_doi, matcher_omid, matcher_query, '
+        "CASE WHEN category = 'discordant' THEN 'disagrees' ELSE authors END AS authors")
 for name, src in parts.items():
-    con.execute(f"""COPY (SELECT {COLS} FROM ({CLASSIFY.replace('SRC', src)}))
+    con.execute(f"""COPY (SELECT {COLS} FROM ({CORRECT.replace('CLASSIFIED', CLASSIFY.replace('SRC', src))}))
                     TO '{os.path.join(a.output, f'merge_{name}.parquet')}' (FORMAT parquet)""")
     print(f'  written merge_{name}.parquet, {time.time() - t0:.0f} s', flush=True)
 con.execute(f"CREATE TEMP VIEW r AS SELECT * FROM '{os.path.join(a.output, 'merge_*.parquet')}'")   # the summaries
@@ -189,7 +236,8 @@ con.execute(f"""COPY (SELECT {COLS} FROM r WHERE level = 'to check')
                 TO '{os.path.join(a.output, 'to_check.csv')}' (HEADER)""")
 
 LEVELS = "['high', 'medium', 'to check', 'none']"
-print(f'\nMerge (threshold {a.threshold}): occurrences by level and source, {time.time() - t0:.0f} s')
+print(f'\nMerge (threshold {a.threshold:g}, match from {minimum:g} points): occurrences by level and source, '
+      f'{time.time() - t0:.0f} s')
 print(f"{'category':<12}{'level':<10}{'source':<44}{'occurrences':>14}{'%':>7}")
 for c, l, s, n, p in con.execute(f"""SELECT category, level, source, count(*),
         100.0 * count(*) / sum(count(*)) OVER (PARTITION BY category) FROM r GROUP BY 1, 2, 3
@@ -203,7 +251,7 @@ for l, n, p in con.execute(f"""SELECT level, count(*), 100.0 * count(*) / sum(co
 # candidate" (the CSVs do not say whether the queries were sent)
 print('\nNot linked, by best candidate (triage for the ingestion):')
 for c, f, n in con.execute("""SELECT category, CASE WHEN score IS NULL OR score <= 0 THEN 'no candidate'
-                                                    WHEN score >= 21.6 THEN 'candidate 21.6 to 26 (probable duplicate)'
+                                                    WHEN score >= 21.6 THEN 'candidate from 21.6 up (probable duplicate)'
                                                     ELSE 'candidate under 21.6 (uncertain)' END, count(*)
         FROM r WHERE level = 'none' GROUP BY 1, 2 ORDER BY 1, 3 DESC""").fetchall():
     print(f'  {c:<12}{f:<44}{n:>14,}')

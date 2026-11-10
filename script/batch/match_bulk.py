@@ -16,7 +16,8 @@ Like the tool, the candidates of a query are looked at in IRI order (the order i
 them): the first one reaching 26 stops the search, on a tie the smaller IRI wins. With --best-candidate
 there is no stop: all the candidates of all the queries are scored and the one with the most points wins
 (on a tie the smaller IRI); on the held-out set this gives exactly the paper's held-out table, while the
-early stop sometimes picks a Meta duplicate of the right work (10 of 1,498 at 26), at about +25% score time.
+early stop sometimes picks a Meta duplicate of the right work (10 of 1,498 at 26), with no measurable time cost
+(six runs on 20,000 references of a dump batch: the score phase is about 6% of the time and varies within noise).
 
 Known differences from the tool: no "without year" pass (it only redoes author_title, which does not
 filter on the year: same candidates, same score minus the year, same threshold); for page ranges

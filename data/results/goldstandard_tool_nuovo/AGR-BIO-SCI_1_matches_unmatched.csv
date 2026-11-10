@@ -1,0 +1,13 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,grobid_fields,grobid_scored,threshold_failed,queries_failed
+b0,2009,1143,114,Algers,Scientific report on the effects of farming systems on dairy cow welfare and disease,,,,,,0,,,No,,No,Yes,0
+b11,2009,11,297,Forkman,"Assessment of animal welfare measures for dairy cattle, beef bulls and veal calves",,,,,7,7,,7,No,,No,Yes,0
+b15,2006,,,Kanswohl,,"Analyse und Bewertung von Hoch- und Tiefboxen für Milchrinder aus arbeitswirtschaftlicher, ethologischer, hygienischer und ökonomischer Sicht",,,,,0,,,No,,No,Yes,0
+b20,,,98,Leisen,Weidebasierte Milchviehhaltung in Deutschland,,,,,,0,,,No,,No,Yes,0
+b23,2013,,,Reijs,,Grazing dairy cows in north-west Europe,,,,,0,,,No,,No,Yes,0
+b24,,,61,Thomet,Züchten von Kühen für eine effiziente graslandbasierte Milchproduktion,,,,,,0,,,No,,No,Yes,0
+b27,2015,,,Van den Pol-van Dasselaar,The future of grazing,,,,,,0,,,No,,No,Yes,0
+b28,2002,85,105,Washburn,"Reproduction, mastitis, and body condition of seasonally calved Holstein and Jersey cows in confinement or pasture systems",,,,,18,18,,18,No,,No,Yes,0
+b30,,,43,Weiß,Imagewirkung von weidenden Kühen,,,,,,0,,,No,,No,Yes,0
+b31,2014,17,205,Weinrich,Consumer attitudes in Germany towards different dairy housing systems and their implications for the marketing of pasture raised milk,,,,,10,10,,,No,,No,Yes,0
+b32,2012,,,,,Welfare Quality® assessment protocol for cattle applied to dairy cows,,,,,0,,,No,,No,Yes,0
+b33,2002,85,62,White,Milk production and economic measures in confinement or pasture systems using seasonally calved Holstein and Jersey cows,,,,,16,16,,,No,,No,Yes,0

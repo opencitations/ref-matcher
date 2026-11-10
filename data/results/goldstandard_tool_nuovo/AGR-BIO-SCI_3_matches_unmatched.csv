@@ -1,0 +1,12 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,grobid_fields,grobid_scored,threshold_failed,queries_failed
+b12,1975,,342,Diamond,Assembly of species communities,,,,,,0,,,No,,No,Yes,0
+b13,2016,,,,,Historical data,,,,,0,,,No,,No,Yes,0
+b17,2016,,,Garnier,,"Plant functional diversity: organism traits, community structure, and ecosystem properties",,,,,0,,,No,,No,Yes,0
+b22,1988,,,Jobin,,The Multi-Pher insect trap,,,,,0,,,No,,No,Yes,0
+b29,2012,,,Legendre,,Numerical ecology,,,,,0,,,No,,No,Yes,0
+b37,,,,Oksanen,,The vegan library: Community ecology package,,,,,0,,,No,,No,Yes,0
+b39,1986,,,Peters,,The ecological implications of body size,,,,,0,,,No,,No,Yes,0
+b41,2017,,,,,R: A Language and Environment for Sta-tistical Computing,,,,,0,,,No,,No,Yes,0
+b45,2010,,,Shipley,,From plant traits to vegetation structure: chance and selection in the assembly of ecological communities,,,,,0,,,No,,No,Yes,0
+b48,2018,373332,1,St-Gelais,The taxonomic and functional biogeographies of phytoplankton and zooplankton communities across boreal lakes,,,,,21,21,,21,No,,No,Yes,0
+b55,2003,44,293,Wytwer,"Diplopoda communities in different forest habitats of Białowie_za Primeval Forest, Poland",,,,,,0,,,No,,No,Yes,0

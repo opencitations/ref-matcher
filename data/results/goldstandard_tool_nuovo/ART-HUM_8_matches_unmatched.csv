@@ -1,0 +1,41 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,grobid_fields,grobid_scored,threshold_failed,queries_failed
+b6,2014,31,45,Bergman,Travelling in boreal forests: routes of communication in pre-industrial Northern Sweden,,,,,16,16,,,No,,No,Yes,0
+b11,2007,,,Bruun,,Blandede graver -blandede kulturer? En tolkning av gravskikk og etniske forhold i Nord-Norge gjennom jernalder og tidlig middelalder,,,,,0,,,No,,No,Yes,0
+b15,1969,32,,Eidlitz,Food and emergency food in the circumpolar area,,,,,22,22,,21,No,,No,Yes,0
+b16,2005,,824,Faure,,Principles of isotope geology. 3rd ed.,,,,,0,,,No,,No,Yes,0
+b17,2011,,,Fjellström,,Stable isotope analysis and ethical issues surrounding a human skeleton material from Rounala in Karesuando parish,,,,,0,,,No,,No,Yes,0
+b18,1986,,,Fjellström,,Samernas samhälle i tradition och nutid,,,,,0,,,No,,No,Yes,0
+b20,1922,5,162,Hallström,Gravplatser och offerplatser i ryska lappmarken,,,,,,0,,,No,,No,Yes,0
+b21,2004,,,Hansen,,Samenes historie intill 1750,,,,,0,,,No,,No,Yes,0
+b22,2014,,,Hansen,,Hunters in transition. An Outline of Early Sámi History,,,,,0,,,No,,No,Yes,0
+b24,2003,17,,Hedman,Boplatser och offerplatser. Ekonomisk strategi och boplatsmönster bland skogssamer 700–1600 AD,,,,,11,11,,,No,,No,Yes,0
+b25,1996,,,Hillson,,Dental Anthropology,,,,,0,,,No,,No,Yes,0
+b26,2014,33,,Kirchhefer,,Dendrologisk datering av likkister fra Gullholmen kirkegård i Tana commune,,,,,0,,,No,,No,Yes,0
+b29,1997,,,Larsen,,Bioarchaeology. Interpreting Behavior from the Human skeleton,,,,,0,,,No,,No,Yes,0
+b31,2000,229,42,Lind,Det europeiske felleskapet før EU: fra Roma til Nord-Norge i mellomalderen,,,,,16,16,,,No,,No,Yes,0
+b32,2003,30,42,Lind,Yttervær på Loppa øy,,,,,11,11,,,No,,No,Yes,0
+b33,2008,103,176,Linderholm,An early Christian cemetery at Björned in northern Sweden: stable isotope analyses of skeletal material,,,,,12,12,,,No,,No,Yes,0
+b34,2005,,,Lynnerup,,"Rapport over skeletfund ved Kirkegårdsøya, Hammerfest kommune, Finnmark fylke, Norge -sommaren 2005",,,,,0,,,No,,No,Yes,0
+b35,2007,,,Lynnerup,,"Rapport over skeletfund ved Gullholmen, Tana kommune, Finnmark fylke, Norge -sommaren 2006",,,,,0,,,No,,No,Yes,0
+b36,2007,,,Lynnerup,,"Rapport over skeletfund ved Gullholmen, tana kommune, finnmark fylke, norge -sommeren 2007",,,,,0,,,No,,No,Yes,0
+b37,2008,,,Lynnerup,,Echinicoccosis in an 18th century grave in Northern Norway,,,,,0,,,No,,No,Yes,0
+b42,1995,6,,Mulk,Sirkas – ett samiskt fångstsamhälle i förändring Kr.f – 1600 e.Kr,,,,,,0,,,No,,No,Yes,0
+b43,1998,28,106,Munch,Utgravningene på boplassen på Gållevarri,,,,,11,11,,,No,,No,Yes,0
+b49,1984,,42,Pedersen,Glimt fra Guollesuolu/ Gullholmen,,,,,,0,,,No,,No,Yes,0
+b50,2008,,111,Petersen,Non-metriske træk,,,,,16,16,,,No,,No,Yes,0
+b53,1982,,,Ruong,,Samerna i historien och nutiden,,,,,0,,,No,,No,Yes,0
+b54,2015,,,Ryd,,Urfödan. Om självhushållets mat hos folk i Lappland,,,,,0,,,No,,No,Yes,0
+b59,1973,,,Sivertsen,,Hammerfest 1789-1914,,,,,0,,,No,,No,Yes,0
+b60,2009,,,Sjøvold,,"Spedbarnsskjeletter fra Gullholmen kirkegård, Tana kommune",,,,,0,,,No,,No,Yes,0
+b61,2016,,,Spangen,Circling concepts. A Critical Archaeological Analysis of the Notion of Stone Circles as Sami Offering Sites,,,,,,0,,,No,,No,Yes,0
+b62,1971,,,Storå,,Burial customs of the Skolt Lapps,,,,,0,,,No,,No,Yes,0
+b64,2006,,,Svestad,,"Undersøkelse av graver på Kirkegårdsøya Hammersfest kommune, Finnmark fylke",,,,,0,,,No,,No,Yes,0
+b65,2007,,,Svestad,,"Undersøkelse av graver på Kirkegårdsøya Hammersfest kommune, Finnmark fylke",,,,,0,,,No,,No,Yes,0
+b66,2007,,,Svestad,,"Arkeologisk utgraving på Gullholmen kirkegård, Deannu gielda/Tana kommune, Finnmark fylke",,,,,0,,,No,,No,Yes,0
+b67,2010,,77,Svestad,De døde skjuler mange ting – arkeologiske undersøkelser på Gullholmen kirkegård,,,,,,0,,,No,,No,Yes,0
+b68,2011,28,39,Svestad,The Impact of materiality on sámi burial customs and religious concepts,,,,,17,17,,17,No,,No,Yes,0
+b70,2008,,,Traedal,,Kirkesteder og kirkebygninger i Troms og Finnmark før 1800,,,,,0,,,No,,No,Yes,0
+b73,1964,,304,Vorren,Reindeer nomadism in the Island region of Helgeland. An analysis of the ecology of the reindeer industry with special reference to the Island area as winter pasture.,,,,,,0,,,No,,No,Yes,0
+b74,1998,XXVIII,,Vorren,Villreinfangst i Varanger fram til 1600-1700 årene,,,,,,0,,,No,,No,Yes,0
+b75,1976,,,Vorren,,Samekulturen: en kulturhistorisk oversikt. 2nd,,,,,0,,,No,,No,Yes,0
+b77,1980,,,Zaias,,The nail in health and disease,,,,,0,,,No,,No,Yes,0

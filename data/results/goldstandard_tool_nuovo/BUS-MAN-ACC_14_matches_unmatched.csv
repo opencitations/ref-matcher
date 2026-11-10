@@ -1,0 +1,11 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,grobid_fields,grobid_scored,threshold_failed,queries_failed
+b3,1964,,,Blau,,Exchange and power in social life,,,,,0,,,No,,No,Yes,0
+b23,1998,,,Folger,,Organizational justice and human resource management,,,,,0,,,No,,No,Yes,0
+b28,2009,,,Greenberg,,Voice and silence in organizations,,,,,0,,,No,,No,Yes,0
+b29,2010,,,Hair,,Multivariate data analysis,,,,,0,,,No,,No,Yes,0
+b41,2015,,137,Li,"Fairness at the unit level: Justice climate, justice climate strength, and peer justice",,,,,22,22,,21,No,,No,Yes,0
+b48,2016,,,Meyer,,Handbook of employee commitment,,,,,0,,,No,,No,Yes,0
+b61,2002,,,Raudenbush,,Hierarchical linear models: Applications and data analysis methods,,,,,0,,,No,,No,Yes,0
+b67,1959,,,Schachter,,The psychology of affiliation: Experimental studies of the sources of gregariousness,,,,,0,,,No,,No,Yes,0
+b70,2005,,155,Shapiro,What is the role of control in organizational justice.,,,,,22,22,,21,No,,No,Yes,0
+b75,1975,,,Thibaut,,Procedural justice: A psychological analysis,,,,,0,,,No,,No,Yes,0

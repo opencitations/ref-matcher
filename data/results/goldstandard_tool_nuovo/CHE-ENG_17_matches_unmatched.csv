@@ -1,0 +1,11 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,grobid_fields,grobid_scored,threshold_failed,queries_failed
+b0,2018,47,89,Jumaidin,Effect of agar on dynamic mechanical properties of thermoplastic sugar palm starch : thermal behavior,,,,,18,18,,18,No,,No,Yes,0
+b1,2014,1,22,Loha,A study on fibre length and composition of kenaf-polypropylene (K- PP) composite for automobile interior parts,,,,,10,10,,,No,,No,Yes,0
+b2,2014,1,1,Supri,Effect of benzyl urea on thermal properties of recycled high density polyethylene / ethylene vinyl acetate / eggshell powder composites,,,,,21,21,,20,No,,No,Yes,0
+b12,2018,,325,Ilyas,"Nanocellulose reinforced starch polymer composites: a review of preparation, properties and application",,,,,15,15,,,No,,No,Yes,0
+b13,2019,,140,Hazrati,Biobased food packaging using natural fibre : a review.,,,,,,0,,,No,,No,Yes,0
+b16,2017,,12,Sapuan,,Development of products from sugar palm trees (Arenga Pinnata Wurb. Merr): a community project,,,,,0,,,No,,No,Yes,0
+b17,2017,,5,Sapuan,"Sugar palm: Fibers, biopolymers and biocomposites",,,,,,0,,,No,,No,Yes,0
+b18,2019,,104,Jumaidin,Physio-mechanical properties of thermoplastic starch composites : a review,,,,,,0,,,No,,No,Yes,0
+b28,2017,25,1235,Jumaidin,Effect of agar on physical properties of thermoplastic starch derived from sugar palm tree,,,,,19,19,,18,No,,No,Yes,0
+b33,2018,51,234,Ilyas,Water transport properties of bionanocomposites reinforced by sugar palm (Arenga Pinnata) nanofibrillated cellulose,,,,,11,11,,,No,,No,Yes,0

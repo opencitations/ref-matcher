@@ -1,0 +1,12 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,grobid_fields,grobid_scored,threshold_failed,queries_failed
+b2,2006,83,120,Bondioli,Alpha linolenic acid rich oils. Composition of Plukenetia volubilis (Sacha inchi) oil from Peru,,,,,12,12,,,No,,No,Yes,0
+b9,2011,L23,1,,Regulation on the characteristics of olive oil and olive-residue oil and on the relevant methods of analysis,,,,,,0,,,No,,No,Yes,0
+b11,2016,2,71,Fiori,Enhanced profile characterization of virgin olive oil minor polar compound extracts by comprehensive two-dimensional gas chromatography with time-of-flight mass spectrometric detection,,,,,15,15,,,No,,No,Yes,0
+b13,2013,,,Fontanel,,Unsaponifiable matter in plant seed oil,,,,,0,,,No,,No,Yes,0
+b14,2007,57,157,Gliszczyńska-Swigło,Tocopherol content in edible plant oils,,,,,,0,,,No,,No,Yes,0
+b16,1992,,,,"Standard methods for the analysis of oils, fats and derivatives",,,,,,0,,,No,,No,Yes,0
+b21,2018,246,192,Majchrzak,Electronic noses in classification and quality control of edible oils: a review,,,,,,0,,,No,,No,Yes,0
+b22,,54,1368,Marone,"Sensory, spectrometric (PTR-ToF-MS) and chemometric analyses to distinguish extra virgin from virgin olive oils",,,,,,0,,,No,,No,Yes,0
+b24,2009,,,,,"Norma Tecnica Peruana 151.400, 2009. Sacha inchi oil",,,,,0,,,No,,No,Yes,0
+b25,2018,,,,,"Norma Tecnica Peruana 151.400, amendment to NTP 151.400, 2014. Sacha inchi oil",,,,,0,,,No,,No,Yes,0
+b26,2014,2014,843908,Rueda,Characterization of fatty acid profile of Argan oil and other edible vegetable oils by gas chromatography and discriminant analysis,,,,,,0,,,No,,No,Yes,0

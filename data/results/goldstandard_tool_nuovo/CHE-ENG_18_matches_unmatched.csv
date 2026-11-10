@@ -1,0 +1,49 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,grobid_fields,grobid_scored,threshold_failed,queries_failed
+b0,2011,40,1722,De Faveri,,,Chem. Soc. Rev.,,,19,19,,,No,,No,Yes,0
+b1,2014,114,8199,Zhu,,,Chem. Rev.,,,19,19,,,No,,No,Yes,0
+b2,1990,112,2801,Zhang,,,J. Am. Chem. Soc.,,,21,21,,21,No,,No,Yes,0
+b3,1990,31,7345,Irie,,,Tetrahedron Lett.,,,19,19,,,No,,No,Yes,0
+b4,2003,42,7258,Bryliakov,,,Inorg. Chem.,,,19,19,,,No,,No,Yes,0
+b5,2010,352,3053,Kureshy,,,Adv. Synth. Catal.,,,19,19,,,No,,No,Yes,0
+b6,2011,133,8432,Nishikawa,,,J. Am. Chem. Soc.,,,21,21,,21,No,,No,Yes,0
+b7,2015,137,15612,Bhadra,,,J. Am. Chem. Soc.,,,19,19,,,No,,No,Yes,0
+b8,2016,138,15857,Shen,,,J. Am. Chem. Soc.,,,21,21,,21,No,,No,Yes,0
+b9,1999,18,3613,Ryan,,,Tetrahedron Lett.,,,21,21,,21,No,,No,Yes,0
+b10,2005,105,1563,McGarrigle,,,Chem. Rev.,,,19,19,,,No,,No,Yes,0
+b11,2009,109,725,Chanda,,,Chem. Rev.,,,19,19,,,No,,No,Yes,0
+b12,1988,29,1471,Paparatto,,,Tetrahedron Lett.,,,19,19,,,No,,No,Yes,0
+b13,2013,24,639,Lu,,,Curr. Opin. Biotechnol.,,,,0,,,No,,No,Yes,0
+b14,2018,140,5875,Rothfuss,,,J. Am. Chem. Soc.,,,19,19,,,No,,No,Yes,0
+b15,2013,52,2906,Huerta,,,"Angew. Chem., Int. Ed.",,,18,18,,,No,,No,Yes,0
+b16,2015,137,6880,Hosono,,,J. Am. Chem. Soc.,,,19,19,,,No,,No,Yes,0
+b17,2017,139,7164,Matsumoto,,,J. Am. Chem. Soc.,,,21,21,,21,No,,No,Yes,0
+b18,2018,140,9551,Frisch,,,J. Am. Chem. Soc.,,,19,19,,,No,,No,Yes,0
+b19,2018,140,13695,Chen,,,J. Am. Chem. Soc.,,,21,21,,21,No,,No,Yes,0
+b20,2018,140,3423,Liu,,,J. Am. Chem. Soc.,,,21,21,,21,No,,No,Yes,0
+b21,2018,54,9430,Zhang,,,Chem. Commun.,,,21,21,,21,No,,No,Yes,0
+b22,2002,344,131,Katsuki,,,Adv. Synth. Catal.,,,19,19,,,No,,No,Yes,0
+b25,2019,141,6890,Buchecker,,,J. Am. Chem. Soc.,,,19,19,,,No,,No,Yes,0
+b26,2017,8,177,Moad,,,Polym. Chem.,,,19,19,,,No,,No,Yes,0
+b27,2009,65,305,Yu,,,Tetrahedron,,,21,21,,21,No,,No,Yes,0
+b29,2000,39,1352,Machajewski,,,"Angew. Chem., Int. Ed.",,,19,19,,,No,,No,Yes,0
+b30,2012,77,4784,Zhao,,,J. Org. Chem.,,,22,22,,21,No,,No,Yes,0
+b31,2014,43,577,Mlynarski,,,Chem. Soc. Rev.,,,19,19,,,No,,No,Yes,0
+b32,2014,19,171,Gröger,,,Curr. Opin. Chem. Biol.,,,16,16,,,No,,No,Yes,0
+b33,2005,44,6384,Helms,,,"Angew. Chem., Int. Ed.",,,19,19,,,No,,No,Yes,0
+b34,2006,348,1125,Helms,,,Adv. Synth. Catal.,,,19,19,,,No,,No,Yes,0
+b35,2013,52,2906,Huerta,,,"Angew. Chem., Int. Ed.",,,18,18,,,No,,No,Yes,0
+b36,2014,47,589,Terashima,,,Macromolecules,,,19,19,,,No,,No,Yes,0
+b37,2016,49,5084,Hirai,,,Macromolecules,,,21,21,,21,No,,No,Yes,0
+b38,2018,51,3738,Shibata,,,Macromolecules,,,21,21,,21,No,,No,Yes,0
+b39,2017,117,6881,Qiao,,,Chem. Rev.,,,19,19,,,No,,No,Yes,0
+b40,2015,137,13096,Liu,,,J. Am. Chem. Soc.,,,21,21,,21,No,,No,Yes,0
+b41,2014,123,852,Li,,,Colloids Surf.,,,22,22,,21,No,,No,Yes,0
+b42,2017,4,419,Wang,,,Green Energy Environ.,,,,0,,,No,,No,Yes,0
+b43,2018,10,3173,Karimi,,,ChemCatChem,,,19,19,,,No,,No,Yes,0
+b44,2019,55,592,Zhang,,,Chem. Commun.,,,22,22,,21,No,,No,Yes,0
+b45,2019,141,5220,Zhang,,,J. Am. Chem. Soc.,,,21,21,,21,No,,No,Yes,0
+b46,2002,8,4299,Brandt,,,Chem. – Eur. J.,,,19,19,,,No,,No,Yes,0
+b47,2016,28,1109,Schoonen,,,Adv. Mater.,,,18,18,,,No,,No,Yes,0
+b48,2014,20,7830,Zhang,,,Chem. – Eur. J.,,,20,20,,20,No,,No,Yes,0
+b49,2015,5,2092,Zheng,,,Catal. Sci. Technol.,,,19,19,,,No,,No,Yes,0
+b50,2016,6,488,Zhang,,,Catal. Sci. Technol.,,,20,20,,,No,,No,Yes,0

@@ -1,0 +1,19 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,grobid_fields,grobid_scored,threshold_failed,queries_failed
+b9,1986,,,Bandura,,Social foundations of thought and action: A social cognitive theory,,,,,0,,,No,,No,Yes,0
+b17,2017,,1,Borst,"From friendfunding to crowdfunding: Relevance of relationships, social media, and platform activities to crowdfunding performance",,,,,22,22,,21,No,,No,Yes,0
+b31,1977,,,Cochran,,Sampling Techniques (3rd ed.),,,,,0,,,No,,No,Yes,0
+b36,2017,,,Daskalakis,,Userìs Perceptions of Motivations and Risks in Crowdfunding with Financial Returns,,,,,0,,,No,,No,Yes,0
+b37,2006,,,Dillman,,"Mail and internet surveys, the tailored designed method (2nd ed.)",,,,,0,,,No,,No,Yes,0
+b39,2014,,,Eichhorn,,Common method variance techniques,,,,,0,,,No,,No,Yes,0
+b40,1995,85,186,Farrell,Talk is cheap,,,,,12,12,,,No,,No,Yes,0
+b42,1975,,,Fishbein,,"Belief, attitude, intention, and behavior: An introduction to theory and research",,,,,0,,,No,,No,Yes,0
+b47,2017,,,Gajda,,,,,,,0,,,No,,No,Yes,0
+b48,2017,,,Garvey,,The 2nd Asia Pacific Region Alternative Finance Industry Report,,,,,0,,,No,,No,Yes,0
+b54,2010,,,Hair,,Multivariate data analysis (7th ed.),,,,,0,,,No,,No,Yes,0
+b55,2014,38,827,Heminway,Investor and market protection in the crowdfunding era: Disclosing to and for the 'crowd',,,,,,0,,,No,,No,Yes,0
+b65,2012,,,Lawton,,The crowdfunding revolution: How to raise venture capital using social media,,,,,0,,,No,,No,Yes,0
+b70,2017,,,Lukkarinen,,Investor Motivations and Decision Criteria in Equity Crowdfunding,,,,,0,,,No,,No,Yes,0
+b78,2014,,,Mollick,,After the Campaign: Outcomes of Crowdfunding,,,,,0,,,No,,No,Yes,0
+b89,2016,,,Sekaran,,Research methods for business: A skill building approach,,,,,0,,,No,,No,Yes,0
+b102,2017,,,Ziegler,,The 2nd Americas Alternative Finance Industry Report,,,,,0,,,No,,No,Yes,0
+b103,2018,,,Ziegler,,Expanding horizons: The 3rd European alternative finance industry report,,,,,0,,,No,,No,Yes,0

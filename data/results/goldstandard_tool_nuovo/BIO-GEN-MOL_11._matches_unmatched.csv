@@ -1,0 +1,5 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,grobid_fields,grobid_scored,threshold_failed,queries_failed
+b2,1986,49,233,Williams,Chromatin fibres are left-handed double helices with diameter and mass per unit length that depend on linker length,,,,,,0,,,No,,No,Yes,0
+b22,2002,,791,Agarwal,Computing the writhing number of a polygonal kno,,,,,21,21,,21,No,,No,Yes,0
+b29,2018,115,11964,Turner,Highly disordered histone H1-DNA model complexes and their condensates,,,,,19,19,,,No,,No,Yes,0
+b39,2016,44,9131,Fang,Chromatin structure-dependent conformations of the H1 CTD,,,,,22,22,,21,No,,No,Yes,0

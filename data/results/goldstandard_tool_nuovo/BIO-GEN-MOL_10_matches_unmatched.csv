@@ -1,0 +1,7 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,grobid_fields,grobid_scored,threshold_failed,queries_failed
+b0,,,,,,,,,,,0,,,No,,No,Yes,0
+b7,1992,29,177,Mosesson,The roles of fibrinogen and fibrin in hemostasis and thrombosis,,,,,,0,,,No,,No,Yes,0
+b26,2014,,,,,Pichia Expression Kit,,,,,0,,,No,,No,Yes,0
+b27,1998,,,Higgins,,Pichia Protocols(methods in Molecular Biology),,,,,0,,,No,,No,Yes,0
+b60,2009,3,1008,Pulicherla,Cloning and high level expression of recombinant heterologous fusion protein SAK RGD in methanol inducible Pichia pastoris GS115,,,,,12,12,,,No,,No,Yes,0
+b72,2003,25,322,Qureshi,Reocclusion of recanalized arteries during intra-arterial thrombolysis for acute ischemic stroke,,,,,12,12,,,No,,No,Yes,0

@@ -1,0 +1,17 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,grobid_fields,grobid_scored,threshold_failed,queries_failed
+b0,2003,,,,,Analects: With selections from traditional commentaries,,,,,0,,,No,,No,Yes,0
+b1,2011,,,,,Mencius,,,,,0,,,No,,No,Yes,0
+b2,2013,,,,,Virtue ethics and confucianism,,,,,0,,,No,,No,Yes,0
+b3,2018,,,Bommarito,,Inner virtue,,,,,0,,,No,,No,Yes,0
+b4,2005,,69,Cooper,The persistence of beauty,,,,,,0,,,No,,No,Yes,0
+b6,2010,,62,Cooper,Edification and the experience of beauty,,,,,16,16,,,No,,No,Yes,0
+b12,2017,,,Hand,,A theory of moral education,,,,,0,,,No,,No,Yes,0
+b17,1999,,,Kirwan,,Beauty,,,,,0,,,No,,No,Yes,0
+b18,1984,,,Mothersill,,Beauty Restored,,,,,0,,,No,,No,Yes,0
+b20,2010,,,Nehemas,,Only a promise of happiness: The place of beauty in a world of art,,,,,0,,,No,,No,Yes,0
+b21,2012,,,Olberding,,Moral exemplars in the analects: The good person is that,,,,,0,,,No,,No,Yes,0
+b22,2013,,,Rosemont,,A reader’s companion to the confucian analects,,,,,0,,,No,,No,Yes,0
+b24,2002,,,Steiner,,Venus in exile: The rejection of beauty in twentieth-century art,,,,,0,,,No,,No,Yes,0
+b27,2006,,53,Zagzebski,The admirable life and the desirable life,,,,,,0,,,No,,No,Yes,0
+b28,2017,,,Zagzebski,,Exemplarist Moral Theory,,,,,0,,,No,,No,Yes,0
+b29,2010,,,Zehou,,The Chinese aesthetic tradition,,,,,0,,,No,,No,Yes,0

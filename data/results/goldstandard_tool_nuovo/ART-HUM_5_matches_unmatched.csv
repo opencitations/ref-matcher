@@ -1,0 +1,28 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,grobid_fields,grobid_scored,threshold_failed,queries_failed
+b0,1953,,,BACH,"Bach: The Well-Tempered Clavier Book I - Prelude #24 in B minor, BWV 855",,,,,,0,,,No,,No,Yes,0
+b1,1965,,,BACH,"Bach: The Well-Tempered Clavier Book I - Prelude #10 in E minor, BWV 855",,,,,,0,,,No,,No,Yes,0
+b2,1973,,,BACH,"Bach: The Well-Tempered Clavier, Book I -",,,,,,0,,,No,,No,Yes,0
+b3,1971,,,BACH,"Bach: The Well-Tempered Clavier, Book I - Prelude #10 in E minor, BWV 869",,,,,,0,,,No,,No,Yes,0
+b7,1973,,,BEATON,,Commonality,,,,,0,,,No,,No,Yes,0
+b9,2000,,,BOROD,,The neuropsychology of emotion,,,,,0,,,No,,No,Yes,0
+b12,2001,27,16,CAPRARO,Commonality analysis: Understanding variance contributions to overall canonical correlation effects of attitude toward mathematics on geometry achievement,,,,,,0,,,No,,No,Yes,0
+b14,1983,,,COHEN,,Applied multiple regression/correlation analysis for the behavioral sciences,,,,,0,,,No,,No,Yes,0
+b19,2001,80,B1,DALLA BELLA,A developmental study of the affective value of tempo and mode in music,,,,,,0,,,No,,No,Yes,0
+b23,2013,4,1,EEROLA,"Emotional expression in music: Contribution, linearity, and additivity of primary musical cues",,,,,22,22,,21,No,,No,Yes,0
+b24,2009,,621,EEROLA,Prediction of multidimensional emotional ratings in music from audio using multivariate regression models,,,,,22,22,,21,No,,No,Yes,0
+b30,1999,,305,FREDERICK,Partitioning variance in the multivariate case: A step-by-step guide to cannonical commonality analysis,,,,,,0,,,No,,No,Yes,0
+b35,1993,,,GARDNER,,Multiple intelligences: The theory in practice,,,,,0,,,No,,No,Yes,0
+b41,2004,,,HATTEN,,"Interpreting musical gestures, topics, and tropes: Mozart, Beethoven, and Schubert",,,,,0,,,No,,No,Yes,0
+b49,2010,,63,HURON,The effect of pitch exposure on sadness judgments: An association between sadness and lower than normal pitch,,,,,7,7,,7,No,,No,Yes,0
+b52,2000,,220,JOHNSTONE,Vocal communication of emotion,,,,,15,15,,,No,,No,Yes,0
+b65,1956,,,MEYER,,Emotion and meaning in music,,,,,0,,,No,,No,Yes,0
+b67,2016,33,97,PAGGIOLI DE CARVALHO,Bach’s Well-Tempered Clavier: Pedagogical approaches and the different styles of preludes,,,,,,0,,,No,,No,Yes,0
+b69,1994,,,PALMER,,J. S. Bach: The Well-Tempered Clavier,,,,,0,,,No,,No,Yes,0
+b70,1997,,,PEDHAZUR,,Multiple regression in behavioral research: Explanation and prediction,,,,,0,,,No,,No,Yes,0
+b72,2015,6,1,POON,Cueing musical emotions: An empirical analysis of 24-piece sets by Bach and Chopin documents parallels with emotional speech,,,,,22,22,,21,No,,No,Yes,0
+b86,2017,8,,SCHUTZ,Acoustic constraints and musical consequences: Exploring composers’ use of cues for musical emotion,,,,,22,22,,21,No,,No,Yes,0
+b87,2010,,,TAN,,Psychology of music: From sound to significance,,,,,0,,,No,,No,Yes,0
+b89,2001,15,487,TRAINOR,Processing emotions induced by music,,,,,21,21,,21,No,,No,Yes,0
+b94,1969,51,119,WEDIN,Dimension analysis of emotional expression in music,,,,,12,12,,,No,,No,Yes,0
+b96,1972,54,1,WEDIN,Evaluation of a three-dimensional model of emotional expression in music,,,,,22,22,,21,No,,No,Yes,0
+b97,1998,,18,WIGGINS,"Music, syntax, and the meaning of ""meaning.""",,,,,,0,,,No,,No,Yes,0

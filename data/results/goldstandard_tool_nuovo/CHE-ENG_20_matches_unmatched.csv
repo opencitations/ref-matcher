@@ -1,0 +1,8 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,grobid_fields,grobid_scored,threshold_failed,queries_failed
+b5,2009,131,64501,Al-Lababidi,Gas void fraction measurement in two-phase gas/liquid slug flow using acoustic emission technology,,,,,,0,,,No,,No,Yes,0
+b6,2018,,,Dabirian,The Effects of Phase Velocities and Fluid Properties on Liquid Holdup Under Gas-Liquid Stratified Flow,,,,,,0,,,No,,No,Yes,0
+b7,2016,1737,040009,Setyawan,Experimental investigation on liquid film asymmetry in air-water horizontal annular flow,,,,,22,22,,21,No,,No,Yes,0
+b9,2019,53,11,Setyawan,Measurement of liquid holdup by using conductance probe sensor in horizontal annular flow,,,,,,0,,,No,,No,Yes,0
+b11,2018,10,49,Balthazar,Simulation analysis of two-phase heat transfer characteristics in a smooth horizontal ammonia (R717) evaporator tube,,,,,15,15,,,No,,No,Yes,0
+b14,1989,2,109,Spedding,Prediction of holdup in two phase flow,,,,,21,21,,21,No,,No,Yes,0
+b23,1988,31,477,Fukano,Air-water two-phase annular flow in near-horizontal tubes (effect of pipe inclination on the fundamental parameters),,,,,7,7,,7,No,,No,Yes,0

@@ -1,0 +1,2 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,grobid_fields,grobid_scored,threshold_failed,queries_failed
+b0,2018,,,,,Global tuberculosis report,,,,,0,,,No,,No,Yes,0

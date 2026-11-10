@@ -1,0 +1,25 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,grobid_fields,grobid_scored,threshold_failed,queries_failed
+b2,2013,,,Baerman,The diachronic puzzle of Nuer case inflection,,,,,,0,,,No,,No,Yes,0
+b3,2019,,,Baerman,,Nuer noun inflection,,,,,0,,,No,,No,Yes,0
+b4,1942,,,Bennet,,New Latin grammar,,,,,0,,,No,,No,Yes,0
+b5,2008,,,Carnie,,Irish nouns: A reference guide,,,,,0,,,No,,No,Yes,0
+b6,1933,,,Crazzolara,,Outlines of a Nuer grammar,,,,,0,,,No,,No,Yes,0
+b7,2013,,,,,Dictionary of the Irish Language: Based Mainly on Old and Middle Irish Materials,,,,,0,,,No,,No,Yes,0
+b9,1999,,,Frank,,Nuer noun morphology,,,,,0,,,No,,No,Yes,0
+b10,1963,,,Gagnepain,,La syntaxe du nom verbal dans les langues Celtiques,,,,,0,,,No,,No,Yes,0
+b11,2002,,,Heine,,World lexicon of grammaticalization,,,,,0,,,No,,No,Yes,0
+b12,1997,,,McCone,,The Early Irish verb,,,,,0,,,No,,No,Yes,0
+b13,2005,,,McCone,,A first Old Irish grammar and reader,,,,,0,,,No,,No,Yes,0
+b14,2019,,,Monich,,A first Old Irish grammar and reader,,,,,0,,,No,,No,Yes,0
+b15,2019,,,Monich,,Nuer tonal inventory,,,,,0,,,No,,No,Yes,0
+b16,2017,,,Reid,Morphophonological stratification in Nuer: vowel and voice quality,,,,,,0,,,No,,No,Yes,0
+b17,2006,,,Ronan,,Aspects of verbal noun constructions in Medieval Irish and Welsh,,,,,0,,,No,,No,Yes,0
+b18,1985,B-93,,Seiler,,Imonda: A Papuan language,,,,,0,,,No,,No,Yes,0
+b19,2017,,,Simons,,"Ethnologue: Languages of the world, Twentieth edition",,,,,0,,,No,,No,Yes,0
+b20,2003,,102,Skribnik,Buryat,,,,,21,21,,21,No,,No,Yes,0
+b22,2008,,,Stenson,,Basic Irish: A grammar and workbook,,,,,0,,,No,,No,Yes,0
+b23,2005,,,Storch,,The noun morphology of Western Nilotic,,,,,0,,,No,,No,Yes,0
+b24,2013,,,Stump,,Inflectional paradigms: Content and form at the syntax–morphology interface,,,,,0,,,No,,No,Yes,0
+b25,2016,,,Stump,,Morphological typology: From word to paradigm,,,,,0,,,No,,No,Yes,0
+b26,1946,,,Thurneysen,,A grammar of Old Irish,,,,,0,,,No,,No,Yes,0
+b27,,,,Vandevort,,Nuer field notes,,,,,0,,,No,,No,Yes,0

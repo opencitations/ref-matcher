@@ -1,0 +1,25 @@
+{
+  "total_references": 45,
+  "matches_found": 35,
+  "errors": 0,
+  "query_types": {
+    "author_title": 33,
+    "year_volume_page": 2
+  },
+  "refs_with_author": 45,
+  "author_exact_matches": 33,
+  "refs_with_title": 45,
+  "title_exact_matches": 33,
+  "title_fuzzy_matches": 2,
+  "refs_with_year": 45,
+  "year_exact_matches": 34,
+  "year_adjacent_matches": 1,
+  "refs_with_volume": 43,
+  "volume_matches": 21,
+  "refs_with_page": 42,
+  "page_matches": 34,
+  "refs_with_doi": 0,
+  "doi_matches": 0,
+  "grobid_fallbacks": 0,
+  "grobid_successes": 0
+}

@@ -1,0 +1,11 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,grobid_fields,grobid_scored,threshold_failed,queries_failed
+b0,2018,,,Sadykov,Novel nanocomposite materials for oxygen and hydrogen separation membranes,,,,,,0,,,No,,No,Yes,0
+b1,2018,51,187,Sazali,PI/NCC-Based Tubular Carbon Membrane: Influence of Aging Times Towards Oxygen Separation Performance,,,,,,0,,,No,,No,Yes,0
+b2,2018,6,,Hu,Nitrogen Production by Efficiently Removing Oxygen From Air Using a Perovskite Hollow-Fiber Membrane With Porous Catalytic Layer,,,,,22,22,,21,No,,No,Yes,0
+b8,2015,1,2,Salleh,Carbon membranes for gas separation processes: Recent progress and future perspective.,,,,,21,21,,21,No,,No,Yes,0
+b14,2016,150,216,Hps,A review on chitosan-cellulose blends and nanocellulose reinforced chitosan biocomposites: Properties and their applications,,,,,12,12,,,No,,No,Yes,0
+b26,2019,59,283,Sharip,Current Advancement by Membrane Technology: A Review,,,,,,0,,,No,,No,Yes,0
+b38,2015,45,1465,Ismail,The effect of polymer composition on CO 2/CH 4 separation of supported carbon membrane,,,,,12,12,,,No,,No,Yes,0
+b40,2017,39,1,Kahlib,Synthesis and characterization of silica membranes via sol-dip coating,,,,,,0,,,No,,No,Yes,0
+b41,2018,45,1,Abdulkadir,Fabrication and Performance of PSf/CA Blend Ultrafiltration Membrane on Effect of Different of Polymer Ratio,,,,,16,16,,,No,,No,Yes,0
+b44,2015,6,1,Sunarti,Peformances of Automated Control System for Membrane Gas Absorption: Optimization Study,,,,,15,15,,,No,,No,Yes,0

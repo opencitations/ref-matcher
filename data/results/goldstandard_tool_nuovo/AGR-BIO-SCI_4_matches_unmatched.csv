@@ -1,0 +1,4 @@
+reference_id,year,volume,first_page,first_author_lastname,article_title,volume_title,journal_title,doi,unstructured,best_score,score_original,score_after_grobid,score_without_year,grobid_attempted,grobid_fields,grobid_scored,threshold_failed,queries_failed
+b24,2017,8,,Kumar,"Involvement of Small RNAs in Phosphorus and Sulfur Sensing, Signaling and Stress: Current Update",,,,,22,22,,21,No,,No,Yes,0
+b32,1995,,,Marschner,,Mineral nutrition of higher plants. 2nd ed edition,,,,,0,,,No,,No,Yes,0
+b56,2002,2002,S131,Wang,Ethylene Biosynthesis and Signaling Networks,,,,,22,22,,21,No,,No,Yes,0

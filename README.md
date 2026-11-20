@@ -429,6 +429,7 @@ Crossref dump ── bulk_doi.py --authors ──> matched_dois.txt, unmatched_d
      ├─ (optional) recheck_absent_dois.py ──> repaired DOIs, checked again on Meta
      └─ extract_doi_occurrences.py ──> doi_occurrences.parquet (who cites each verified DOI)
                          all of the above ── merge_citations.py ──> merge_*.parquet, to_check.csv
+     (optional) a first merge ── judge_repaired_dois.py ──> repaired_judgement.parquet ── merge_citations.py --judgement
 ```
 
 The batch scripts need DuckDB and PyArrow on top of the project's
@@ -547,6 +548,41 @@ gets "(confirmed / rejected / corrected by hand)"; the evidence columns are kept
 so the corrections survive every rerun of the merge. Each part is written to its own file (`merge_with_doi.parquet`,
 `merge_no_doi.parquet`, `merge_verified.parquet`) to stay within memory on
 billions of rows (2.08 billion rows took 16 minutes with 4 threads).
+
+**8. (Optional) Judge the repaired DOIs citation by citation.** The bulk check
+judges the surname once per DOI: one citation with the right surname makes all
+the citations of that DOI agree, also those that have only the DOI. On the June
+2026 dump, 396,348 citations with a repaired DOI were `high` this way without
+any data of their own. `judge_repaired_dois.py` compares the data written in
+each reference (surname, title, year, volume, page) with the Meta work of its
+repaired DOI, with the tool's points and without the DOI's 15 (6.03 million
+citations in 3 minutes), and the merge uses it with `--judgement`:
+
+```bash
+uv run --with duckdb --with pyarrow python script/batch/judge_repaired_dois.py \
+    merged dois_to_verify.jsonl meta_tables repaired_judgement.parquet
+uv run --with duckdb --with pyarrow python script/batch/merge_citations.py \
+    dois_to_verify.jsonl doi_results merged --recheck recheck --judgement repaired_judgement.parquet
+```
+
+| Points of the reference's own data | Level | Source |
+|---|---|---|
+| 10 or more | `high` | `repaired DOI + reference data` |
+| 1 to 9 | `medium` | `repaired DOI, weak data` |
+| 0, with data | `to check` | `repaired DOI, data disagree` |
+| no data, the matcher's best candidate under the threshold is the DOI's work with 10 points or more | `high` | `repaired DOI + matcher candidate` |
+| no data, the candidate is another work with 18 points or more | `to check` | `repaired DOI, different matcher candidate` |
+| no data, otherwise | `medium` | `repaired DOI, existence only` |
+
+The matcher's own decision (same work: `high`; another work: `to check`) comes
+first. On the paper's gold standard, pairing each reference with its DOI and with
+the DOI of another reference of the same bibliography: 10 points or more for
+61.4% of the right DOIs and 1.3% of the wrong ones; 0 points with data for none of
+the right DOIs and 50.6% of the wrong ones; the surname alone agrees with 11.6% of
+the wrong DOIs. The 10 and 18 points of the matcher's candidate are a choice, not
+measured. The output gets the columns `ref_points` and `ref_fields` (the fields
+that agree). On the June 2026 dump the part with a DOI went from 5,093,151 `high`
+to 4,724,025 and from 173,381 `to check` to 178,062.
 
 ---
 

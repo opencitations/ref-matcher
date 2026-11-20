@@ -4,7 +4,7 @@ and how reliable it is (level).
     uv run --with duckdb --with pyarrow python script/batch/merge_citations.py \
         dois_to_verify.jsonl <match_bulk output of the DOI run> <output> [--recheck <recheck_absent_dois output>] \
         [--no-doi <match_bulk output of the main run>] [--verified doi_occurrences.parquet --bulk <bulk output>] \
-        [--threshold 24] [--corrections corrections.csv]
+        [--threshold 24] [--corrections corrections.csv] [--judgement repaired_judgement.parquet]
 
 Inputs: the keys of the references with a DOI to verify (extract_dois_to_verify.py's .jsonl, or a Parquet with
 its columns citing_work, ref_id, group, original_doi), match_bulk.py's CSVs on them, and optionally the
@@ -35,6 +35,21 @@ cited_doi, cited_omid, who, date, note; only the first five are used by the merg
     wrong        level none, no cited work, source + " (rejected by hand)"
     other work   the cited work becomes the file's cited_doi / cited_omid, level high, source + " (corrected by hand)"
 The evidence stays in its columns anyway (original_doi, repaired_doi, authors, matcher_*, score).
+--judgement (judge_repaired_dois.py) judges the repaired DOIs citation by citation instead of with the bulk's
+surname check, which is made once per DOI (one citation with the right surname makes all the citations of that
+DOI agree, also those with only the DOI). Unless the matcher already decided (same work: high; another work:
+to check), the reference's own data against the DOI's work (ref_points, without the DOI's 15 points):
+    10 points or more   high, "+ reference data"
+    1 to 9              medium, ", weak data" (on the paper's gold standard, the surname alone agrees with a
+                        wrong DOI in 11.6% of the cases)
+    0, with data        to check, ", data disagree"
+    no data             the matcher's best candidate under the threshold decides (the matcher also read the
+                        free text with GROBID): the DOI's work with 10 points or more, not found by a DOI query,
+                        high ("+ matcher candidate"); another work with 18 points or more, to check
+                        (", different matcher candidate"); otherwise medium (", existence only").
+On the gold standard, 10 points or more: 61.4% of the right DOIs and 1.3% of wrong ones (a DOI of another
+reference of the same bibliography); 0 points with data: none of the right DOIs and 50.6% of the wrong ones.
+The 10 and 18 points of the matcher's candidate are a choice, not measured.
 """
 import argparse, json, os, tempfile, time
 import duckdb
@@ -50,6 +65,7 @@ ap.add_argument('--verified', help='doi_occurrences.parquet (extract_doi_occurre
 ap.add_argument('--bulk', help='folder of the bulk run: matched_dois.txt and corroborated_dois.txt')
 ap.add_argument('--threshold', type=float, default=26, help="matcher's threshold: a match from 0.9 x threshold up")
 ap.add_argument('--corrections', help='CSV of human judgements (see above), optional')
+ap.add_argument('--judgement', help="judge_repaired_dois.py's Parquet (repaired DOIs judged per citation), optional")
 ap.add_argument('--temp', default=tempfile.gettempdir(), help="DuckDB's temporary files")
 ap.add_argument('--threads', type=int, default=8)
 ap.add_argument('--memory', default='20GB', help="DuckDB's maximum memory")
@@ -137,15 +153,27 @@ parts = {'with_doi': f"""SELECT k.citing_work, k.ref_id, x.citing_work_doi, k.ca
            CASE WHEN p.new <> k.original_doi THEN p.new END AS repaired_doi,
            CASE WHEN k.category = 'discordant' THEN k.original_doi WHEN p.on_meta THEN p.new END AS doi,
            coalesce(p.authors, '') AS authors,
-           coalesce(x.found, false) AS found, x.matcher_doi, x.matcher_omid, x.matcher_query, x.score
+           coalesce(x.found, false) AS found, x.matcher_doi, x.matcher_omid, x.matcher_query, x.score,
+           j.ref_id IS NOT NULL AS judged, j.ref_points, j.ref_fields
     FROM k
     LEFT JOIN t p ON p.old = k.original_doi
-    LEFT JOIN ({matcher(a.results)}) x ON x.citing_work = k.citing_work AND x.ref_id = k.ref_id"""}
+    LEFT JOIN ({matcher(a.results)}) x ON x.citing_work = k.citing_work AND x.ref_id = k.ref_id
+    LEFT JOIN judgement j ON j.citing_work = k.citing_work AND j.ref_id = k.ref_id"""}
+# the repaired DOIs judged per citation (empty without --judgement: the bulk's surname check is used)
+if a.judgement:
+    con.execute(f"""CREATE TEMP TABLE judgement AS SELECT citing_work, ref_id, ref_points, ref_fields
+                    FROM '{a.judgement}'""")
+    print(f'repaired DOIs judged: {con.execute("SELECT count(*) FROM judgement").fetchone()[0]:,} citations',
+          flush=True)
+else:
+    con.execute('CREATE TEMP TABLE judgement (citing_work VARCHAR, ref_id VARCHAR, ref_points BIGINT, '
+                'ref_fields VARCHAR)')
+NOT_JUDGED = 'false AS judged, NULL::BIGINT AS ref_points, NULL::VARCHAR AS ref_fields'
 if a.no_doi:
     parts['no_doi'] = f"""SELECT citing_work, ref_id, citing_work_doi, 'no DOI' AS category,
                      NULL::VARCHAR AS original_doi, NULL::VARCHAR AS repaired_doi, NULL::VARCHAR AS doi, '' AS authors,
-                     coalesce(found, false) AS found, matcher_doi, matcher_omid, matcher_query, score
-                     FROM ({matcher(a.no_doi)})"""
+                     coalesce(found, false) AS found, matcher_doi, matcher_omid, matcher_query, score,
+                     {NOT_JUDGED} FROM ({matcher(a.no_doi)})"""
 if a.verified:
     # all the occurrences with a DOI, minus those of absent, discordant and error references (the keys): the
     # bulk found the rest on Meta; agreeing surname -> high. A DOI that is not in matched_dois.txt should not
@@ -162,7 +190,7 @@ if a.verified:
                CASE WHEN bk.doi IS NOT NULL THEN o.doi END AS doi,
                CASE WHEN bk.agrees THEN 'agrees' ELSE '' END AS authors,
                false AS found, NULL::VARCHAR AS matcher_doi, NULL::VARCHAR AS matcher_omid,
-               NULL::VARCHAR AS matcher_query, NULL::DOUBLE AS score
+               NULL::VARCHAR AS matcher_query, NULL::DOUBLE AS score, {NOT_JUDGED}
         FROM '{a.verified}' o
         ANTI JOIN k ON k.citing_work = o.citing_work AND k.ref_id = o.ref_id
         LEFT JOIN bk ON bk.doi = o.doi"""
@@ -171,6 +199,12 @@ CLASSIFY = """
     SELECT *,
            CASE WHEN doi IS NOT NULL AND same THEN 'high'
                 WHEN doi IS NOT NULL AND found THEN 'to check'
+                WHEN doi IS NOT NULL AND judged THEN CASE WHEN ref_points >= 10 THEN 'high'
+                                                          WHEN ref_points = 0 THEN 'to check'
+                                                          WHEN ref_points IS NULL AND candidate = 'confirms' THEN 'high'
+                                                          WHEN ref_points IS NULL AND candidate = 'contradicts'
+                                                               THEN 'to check'
+                                                          ELSE 'medium' END
                 WHEN doi IS NOT NULL AND authors = 'agrees' THEN 'high'
                 WHEN doi IS NOT NULL OR found THEN 'medium'
                 ELSE 'none' END AS level,
@@ -178,6 +212,12 @@ CLASSIFY = """
                      CASE WHEN repaired_doi IS NOT NULL THEN 'repaired DOI' ELSE 'DOI' END ||
                      CASE WHEN same THEN ' + matcher'
                           WHEN found THEN ', disagrees with the matcher'
+                          WHEN judged THEN CASE WHEN ref_points >= 10 THEN ' + reference data'
+                                                WHEN ref_points > 0 THEN ', weak data'
+                                                WHEN ref_points = 0 THEN ', data disagree'
+                                                WHEN candidate = 'confirms' THEN ' + matcher candidate'
+                                                WHEN candidate = 'contradicts' THEN ', different matcher candidate'
+                                                ELSE ', existence only' END
                           WHEN category = 'discordant' OR authors = 'disagrees' THEN ', surname disagrees'
                           WHEN authors = 'agrees' THEN ' + surname'
                           ELSE ', existence only' END
@@ -187,9 +227,18 @@ CLASSIFY = """
            CASE WHEN doi IS NOT NULL THEN doi
                 WHEN found AND matcher_doi <> 'N/A' THEN split_part(lower(matcher_doi), ' ', 1) END AS cited_doi,
            CASE WHEN found AND (doi IS NULL OR same) THEN matcher_omid END AS cited_omid
-    FROM (SELECT *, found AND (list_contains(string_split(lower(matcher_doi), ' '), doi)
-                               OR list_contains(string_split(lower(matcher_doi), ' '), original_doi)) AS same
-          FROM (SRC))"""
+    FROM (SELECT *, found AND in_doi AS same,
+                 -- the best candidate under the threshold (the matcher also read the free text with GROBID):
+                 -- the DOI's work with 10 points or more, not found by a DOI query, confirms; another work
+                 -- with 18 points or more contradicts (used only when the reference has no data of its own)
+                 CASE WHEN found OR coalesce(matcher_omid, '') = '' THEN NULL
+                      WHEN in_doi AND score >= 10 AND coalesce(matcher_query, '') NOT IN ('year_and_doi', 'doi_title')
+                           THEN 'confirms'
+                      WHEN NOT in_doi AND score >= 18 THEN 'contradicts' END AS candidate
+          FROM (SELECT * REPLACE (judged AND repaired_doi IS NOT NULL AS judged),
+                       coalesce(list_contains(string_split(lower(matcher_doi), ' '), doi)
+                                OR list_contains(string_split(lower(matcher_doi), ' '), original_doi), false) AS in_doi
+                FROM (SRC)))"""
 
 # human judgements, applied last (one row per occurrence: with two rows the join would double the citation)
 VERDICTS = ('right', 'wrong', 'other work')
@@ -225,7 +274,7 @@ CORRECT = """
 
 COLS = ('citing_work, citing_work_doi, ref_id, category, original_doi, repaired_doi, cited_doi, cited_omid, '
         'level, source, score, matcher_doi, matcher_omid, matcher_query, '
-        "CASE WHEN category = 'discordant' THEN 'disagrees' ELSE authors END AS authors")
+        "CASE WHEN category = 'discordant' THEN 'disagrees' ELSE authors END AS authors, ref_points, ref_fields")
 for name, src in parts.items():
     con.execute(f"""COPY (SELECT {COLS} FROM ({CORRECT.replace('CLASSIFIED', CLASSIFY.replace('SRC', src))}))
                     TO '{os.path.join(a.output, f'merge_{name}.parquet')}' (FORMAT parquet)""")
